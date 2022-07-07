@@ -14,18 +14,18 @@ import InDesign from "../../../public/images/solution/InDesign-Icon.svg";
 import Figma from "../../../public/images/solution/Figma-Icon.svg";
 import Sketch from "../../../public/images/solution/Sketch-Icon.svg";
 import PhpMySQL from "../../../public/images/solution/PhpMySQL-Icon.svg";
-import Wordpress from "../../../public/images/solution/Wordpress-Icon.svg";
+//import Wordpress from "../../../public/images/solution/Wordpress-Icon.svg";
 import NodeJS from "../../../public/images/solution/NodeJS-Icon.svg";
 import ReactJS from "../../../public/images/solution/ReactJS-Icon.svg";
-import Hubspot from "../../../public/images/solution/Hubspot-Icon.svg";
-import Shopify from "../../../public/images/solution/Shopify-Icon.svg";
+//import Hubspot from "../../../public/images/solution/Hubspot-Icon.svg";
+//import Shopify from "../../../public/images/solution/Shopify-Icon.svg";
 import Branding from "../../../public/images/solution/Branding-Icon.svg";
 import SEO from "../../../public/images/solution/seo-icon.svg";
 import SMM from "../../../public/images/solution/SMM-Icon.svg";
-import PPC from "../../../public/images/solution/PPC-Icon.svg";
+//import PPC from "../../../public/images/solution/PPC-Icon.svg";
 import Android from "../../../public/images/solution/Android-Icon.svg";
 import iOS from "../../../public/images/solution/AppleiOS-Icon.svg";
-import Flutter from "../../../public/images/solution/Flutter-Icon.svg";
+//import Flutter from "../../../public/images/solution/Flutter-Icon.svg";
 
 
 const TechnologyStack = () => {
@@ -100,11 +100,11 @@ const TechnologyStack = () => {
                                     <p>Php/MySQL</p>  
                                 </a>
                             </Link>
-                            <Link href="#">
+                            {/* <Link href="#">
                                 <a><s.TechnologyStackLogo className="technologystack-icon"><Image src={Wordpress} className="img-fluid" alt="Logo" layout="raw"/></s.TechnologyStackLogo>
                                     <p>Wordpress</p>
                                 </a>
-                            </Link>
+                            </Link> */}
                             <Link href="#">
                                 <a><s.TechnologyStackLogo className="technologystack-icon"><Image src={NodeJS} className="img-fluid" alt="Logo" layout="raw"/></s.TechnologyStackLogo>
                                     <p>Node JS</p>
@@ -115,16 +115,16 @@ const TechnologyStack = () => {
                                     <p>React JS</p>
                                 </a>
                             </Link>
-                            <Link href="#">
+                            {/* <Link href="#">
                                 <a><s.TechnologyStackLogo className="technologystack-icon"><Image src={Hubspot} className="img-fluid" alt="Logo" layout="raw"/></s.TechnologyStackLogo>
                                     <p>Hubspot</p>
                                 </a>
-                            </Link>
-                            <Link href="#">
+                            </Link> */}
+                            {/* <Link href="#">
                                 <a><s.TechnologyStackLogo className="technologystack-icon"><Image src={Shopify} className="img-fluid" alt="Logo" layout="raw"/></s.TechnologyStackLogo>
                                     <p>Shopify</p>
                                 </a>
-                            </Link>
+                            </Link> */}
                         </s.TechnologyStackContent>     
                     </Tab>
 
@@ -145,11 +145,11 @@ const TechnologyStack = () => {
                                     <p>SMM</p>
                                 </a>
                             </Link>
-                            <Link href="#">
+                            {/* <Link href="#">
                                 <a><s.TechnologyStackLogo className="technologystack-icon"><Image src={PPC} className="img-fluid" alt="Logo" layout="raw"/></s.TechnologyStackLogo>
                                     <p>PPC</p>
                                 </a>
-                            </Link>
+                            </Link> */}
                         </s.TechnologyStackContent>    
                     </Tab>
 
@@ -165,11 +165,11 @@ const TechnologyStack = () => {
                                     <p>iOS</p>
                                 </a>
                             </Link> 
-                            <Link href="#">
+                            {/* <Link href="#">
                                 <a><s.TechnologyStackLogo className="technologystack-icon"><Image src={Flutter} className="img-fluid" alt="Logo" layout="raw"/></s.TechnologyStackLogo>
                                     <p>Flutter</p>
                                 </a>
-                            </Link>
+                            </Link> */}
                             <Link href="#">
                                 <a><s.TechnologyStackLogo className="technologystack-icon"><Image src={ReactJS} className="img-fluid" alt="Logo" layout="raw"/></s.TechnologyStackLogo>
                                     <p>React Native</p>
