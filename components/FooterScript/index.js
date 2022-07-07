@@ -4,8 +4,11 @@ export default function FooterScript() {
   useEffect(function mount() {
     
     if (window.matchMedia('(min-width: 1200px)').matches) { 
-      $(".menu-item-has-children").hover(function(){
-        $(this).find(".menu-mega").toggle();
+      $(".menu-item-has-children").mouseenter(function(){
+        $(this).find(".menu-mega").slideDown();
+      });
+      $(".menu-item-has-children").mouseleave(function(){
+        $(this).find(".menu-mega").slideUp();
       });      
     }
     
