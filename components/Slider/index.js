@@ -19,13 +19,15 @@ var settings = {
   dots: false,
   infinite: true,
   speed: 500,
+  arrows:false,
   slidesToShow: 1,
   slidesToScroll: 1,
   autoplay:true,
   fade: true,
   autoplaySpeed:3000,
   cssEase: "linear",
-//   beforeChange: (current, next) =>
+   beforeChange: (current, next) => 
+   $('body').removeAttr('class').addClass('currentSlide'+current),
 //         this.setState({ oldSlide: current, activeSlide: next }),
 };
 

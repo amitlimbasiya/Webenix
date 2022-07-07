@@ -7,7 +7,6 @@ export const SliderCompany  = styled.div`
         width: 100%;
         height: 100vh;
         position: relative;
-        background: url(../images/home-banner-bg.jpg) no-repeat;
         background-size: cover;
         overflow: hidden;
 
