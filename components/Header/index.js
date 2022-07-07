@@ -14,7 +14,7 @@ import webDevelopmentIcon from '../../public/images/web-development-icon.svg';
 import eCommerceIcon from '../../public/images/eCommerce-icon.svg';
 import mobileAppDesignIcon from '../../public/images/mobile-app-design-icon.svg';
 import paymentGatwayIntegrationIcon from '../../public/images/payment-gatway-integration-icon.svg';
-import outsourcingIndiaIcon from '../../public/images/outsourcing-india-icon.svg';
+//import outsourcingIndiaIcon from '../../public/images/outsourcing-india-icon.svg';
 import itConsultingIcon from '../../public/images/it-consulting-icon.svg';
 import startupConsultingIcon from '../../public/images/startup-consulting-icon.svg';
 import shippingIntegrationIcon from '../../public/images/shipping-Integration-icon.svg';
@@ -297,7 +297,7 @@ const Header = () => {
                           <Link href="#">
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
-                                <Image src={outsourcingIndiaIcon} alt="Outsourcing to India Icon" layout="raw" />
+                                <Image src="../../public/images/outsourcing-india-icon.svg" alt="Outsourcing to India Icon" layout="raw" />
                                 <p>Outsourcing to India</p>
                               </s.MenuItemText>
                               
