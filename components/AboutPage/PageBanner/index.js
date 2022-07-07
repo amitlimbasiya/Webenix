@@ -15,7 +15,7 @@ const PageBanner = () => {
                 <s.PageBannerContentPart >
                   <h1>Meet <span className='textGreen'>WEBENIX!</span></h1>
                   <p>Webenix was founded in the year 2018 with a clear vision in mind of providing the best to our customers. Not only do we firmly believe in serving our best work but we make sure to always respect our customer’s time by immediate responses with the solutions globally accommodating time zone. Meeting the expectations of our customers, they will always have the best customer experience.</p>
-                  <Link href="btn-default btn-arrow">
+                  <Link href="">
                     <a className='btn-default btn-arrow'>Know More</a>
                   </Link>
                 </s.PageBannerContentPart>

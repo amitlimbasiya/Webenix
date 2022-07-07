@@ -2,7 +2,6 @@ import styled, { css } from "styled-components";
 import { mediaQueries, mediaQueriesmin } from "../../../utils/mediaQuery";
 
 export const PageBannerWrapper  = styled.div` 
-    background: url('../../public/images/logo.png') no-repeat;  
     background-color: rgba(218,218,242,0.75);
 
     .container{      

@@ -49,7 +49,7 @@ const Blog = () => {
                                     </Link>
                                 </s.blogTitle>
                                 <Link href='/'>
-                                    <a className='blogLink'>Readmore</a>
+                                    <a className='blogLink'>Read more</a>
                                 </Link>
                             </s.blogItem>
                         </Col>
@@ -69,7 +69,7 @@ const Blog = () => {
                                     </Link>
                                 </s.blogTitle>
                                 <Link href='/'>
-                                    <a className='blogLink'>Readmore</a>
+                                    <a className='blogLink'>Read more</a>
                                 </Link>
                             </s.blogItem>
                         </Col>
@@ -89,7 +89,7 @@ const Blog = () => {
                                     </Link>
                                 </s.blogTitle>
                                 <Link href='/'>
-                                    <a className='blogLink'>Readmore</a>
+                                    <a className='blogLink'>Read more</a>
                                 </Link>
                             </s.blogItem>
                         </Col>
