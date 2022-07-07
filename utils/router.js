@@ -1,4 +1,4 @@
-const dashboardRoute = "/dashboard";
+// const dashboardRoute = "/dashboard";
 
 const router = {
   ABOUT: "about",
