@@ -2,6 +2,7 @@
 
 const router = {
   ABOUT: "about",
-  SOLUTION: "solution",  
+  SOLUTION: "solution",
+  PHPDEVELOPMENT: "php-development",  
 };
 export default router;
