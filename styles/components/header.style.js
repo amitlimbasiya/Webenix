@@ -262,6 +262,11 @@ export const MenuSection  = styled.ul`
 
 export const MenuItemHasChildren  = styled.li` 
     display: inline-block; 
+
+    &.menu-item-has-children:hover .menu-subs{
+        display:block;
+    }
+
     ${mediaQueries("llg")` 
         position: relative;
     `}
@@ -605,18 +610,36 @@ export const MenuItemBlock  = styled.div`
     .menuitem-box{
         display: grid;
         padding: 8px 10px 8px 10px;
-        transition: all 0.3s ease;
+        transition: 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
         grid-template-columns: auto auto;
         justify-content: space-between;
         align-items: center;
         text-decoration: none;
+        overflow: hidden;
 
         &:hover{
             background-color: #fff;
         }
-
-        &:hover .menuitem-icon{
-            opacity: 1;
+        
+        &::after{           
+            color: #000;
+            display: inline-block;
+            position: relative;
+            content: "→";
+            right: -30px;
+            top: -3px;
+            transition: 0.3s ease;
+            -moz-transition: all 0.3s ease;
+            -webkit-transition: all 0.3s ease;
+            
+            /* ${mediaQueries("llg")` 
+                display: none;
+            `} */
+        }
+        &:hover::after{
+            right: 0px;
         }
 
         img{

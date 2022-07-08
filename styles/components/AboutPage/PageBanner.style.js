@@ -89,7 +89,7 @@ export const PageBannerContentPart  = styled.div`
     }
      
     .btn-default{
-        margin-top: 30px; 
+        margin-top: 20px; 
 
  
         ${mediaQueries("xl")` 

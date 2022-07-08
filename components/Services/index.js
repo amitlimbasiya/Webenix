@@ -20,7 +20,7 @@ import smoIcon from '../../public/images/smo-icon.svg';
 import websiteDesignIcon from '../../public/images/website-design-icon.svg';
 import seoIcon from '../../public/images/seo-icon.svg';
 import ppcIcon from '../../public/images/ppc-icon.svg';
-
+import CMSDevIcon from '../../public/images/cms-icon.svg';
 
 const Services = () => {
     return (
@@ -100,7 +100,7 @@ const Services = () => {
                                     </li>
                                     <li>
                                         <Link href="#">
-                                            <a><Image src={aspNetDevelopmentIcon} alt="CMS development Icon" className='img-fluid' layout='raw'/> CMS development</a>
+                                            <a><Image src={CMSDevIcon} alt="CMS development Icon" className='img-fluid' layout='raw'/> CMS development</a>
                                         </Link>
                                     </li>
                                     <li>

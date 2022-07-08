@@ -13,7 +13,7 @@ const PageBanner = () => {
           <Row>
               <Col md={7} className="pagebannercontent-col">
                 <s.PageBannerContentPart >
-                  <h1>Build your <span className='textGreen'>PHP Apps with us</span></h1>
+                  <h1>PHP <span className='textGreen'> Development</span></h1>
                   <p>While putting your mission in limelight, we ensure our PHP solutions help you speak your brand story that holds the hearts and minds of users. Our user-driven strategies leverage the absolute maturity and power of PHP to fuel all needs of your business whether a basic portal or a complex solution.</p>
                   <Link href="">
                     <a className='btn-default btn-arrow'>Know More</a>

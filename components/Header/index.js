@@ -52,6 +52,7 @@ import engagementModelIcon from '../../public/images/engagement-model-icon.svg';
 import meetTheTeamIcon from '../../public/images/meet-the-team-icon.svg';
 import careerIcon from '../../public/images/hire-dedicated-developers-icon.svg';
 import confidentialityIcon from '../../public/images/confidentiality-icon.svg';
+import CMSDevIcon from '../../public/images/cms-icon.svg';
 import router from "../../utils/router";
 
 const Header = () => {
@@ -69,7 +70,7 @@ const Header = () => {
             <Nav className="menu" id="menu">
               <s.MenuSection className="menu-section">
                 <s.MenuItemHasChildren className="menu-item menu-item-has-children">
-                  <Link href={router.ABOUT}><a className="menulist-title">About</a></Link>
+                <Link href="#"><a className="menulist-title">About</a></Link>
                     <span className="mobileClick submenu-icon"><FontAwesomeIcon icon={faAngleDown} /></span>
                     <s.MenuSub className="menu-subs menu-mega menu-column-4 no-spacing">
                       <s.MenuColumn className="menucolumn">
@@ -155,14 +156,14 @@ const Header = () => {
                 </s.MenuItemHasChildren>
                 
                 <s.MenuItemHasChildren className="menu-item menu-item-has-children">
-                  <Link href={router.SOLUTION}><a className="menulist-title">Solutions</a></Link>
+                  <Link href="#"><a className="menulist-title">Solutions</a></Link>
                   <span className="mobileClick submenu-icon"><FontAwesomeIcon icon={faAngleDown} /></span>
                   <s.MenuSub className="menu-subs menu-mega menu-column-3">
                     <s.MenuColumn className="menucolumn">
                       <s.MenuListItem className="menulist-item">
                         <s.MenuListTitle className="menulist-title">Design </s.MenuListTitle>
                         <s.MenuItemBlock className="menuitem-block">
-                          <Link href="#">
+                          <Link href={router.GRAPHICSDESIGN}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                               <Image src={webSiteDevelopmentIcon} alt="Graphics Design" layout="raw" />
@@ -171,7 +172,7 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href="#">
+                          <Link href={router.WEBDESIGN}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={websiteDesignIcon} alt="Web Design Icon" layout='raw'/>
@@ -180,7 +181,7 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href="#">
+                          <Link href={router.UIUX}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={uiUxIcon} alt="UI/UX Design Icon" layout='raw'/>
@@ -194,7 +195,7 @@ const Header = () => {
                       <s.MenuListItem className="menulist-item">
                         <s.MenuListTitle className="menulist-title">Development </s.MenuListTitle>
                         <s.MenuItemBlock className="menuitem-block twoPart">
-                          <Link href="#">
+                          <Link href={router.WEBDEVELOPMENT}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                               <Image src={webDevelopmentIcon} alt="Web Development Icon" layout='raw'/>
@@ -230,10 +231,10 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href="#">
+                          <Link href={router.CMSDEVELOPMENT}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
-                                <Image src={webDevelopmentIcon} alt="Graphics Design" layout="raw" />
+                                <Image src={CMSDevIcon} alt="CMS Development" layout="raw" />
                                 <p>CMS Development</p>
                               </s.MenuItemText>
                               
