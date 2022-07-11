@@ -8,7 +8,7 @@ import PageBannerImg from "../../../public/images/hire-graphics-designer.svg";
 const PageBanner = () => {
   return (
     <> 
-     <s.PageBannerWrapper className="pagebanner-section pagebg-hiregraphicsdesigner">
+     <s.PageBannerWrapper className="pagebanner-section">
         <Container>
           <Row>
               <Col md={7} className="pagebannercontent-col">
