@@ -5,6 +5,7 @@ const router = {
   SOLUTION: "solution",
 
   HireWordPressDeveloper: "hire-wordpress-developer",
+  HireGraphicsDesigner: "hire-graphics-designer",
   
   GRAPHICSDESIGN: "graphics-design",
   WEBDESIGN: "web-design",

@@ -1,14 +1,14 @@
 import React from 'react';
-import PageBanner from '../components/HireWordPressDeveloperPage/PageBanner';
-import SectionIntro from '../components/HireWordPressDeveloperPage/SectionIntro';
+import PageBanner from '../components/HireGraphicsDesignerPage/PageBanner';
+import SectionIntro from '../components/HireGraphicsDesignerPage/SectionIntro';
 import HiringModels from '../components/HiringModels';
-import OurExpertise from '../components/HireWordPressDeveloperPage/OurExpertise';
+import OurExpertise from '../components/HireGraphicsDesignerPage//OurExpertise';
 import Benefits from '../components/Benefits';
 import FAQAccordion from '../components/FAQAccordion';
 import Blog from '../components/Blog';
 
 
-const HireWordPressDeveloperPage = () => {
+const HireGraphicsDesignPage = () => {
   return (
     <>
       <PageBanner/>
@@ -22,4 +22,4 @@ const HireWordPressDeveloperPage = () => {
   );
 };
 
-export default HireWordPressDeveloperPage
+export default HireGraphicsDesignPage

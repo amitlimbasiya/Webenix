@@ -626,7 +626,7 @@ const Header = () => {
                       <s.MenuListItem className="menulist-item">
                         <s.MenuListTitle className="menulist-title">Hire Designer </s.MenuListTitle>
                         <s.MenuItemBlock className="menuitem-block">
-                          <Link href="#">
+                        <Link href={router.HireGraphicsDesigner}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={webDevelopmentIcon} alt="Hire Graphics Designer" layout="raw" />

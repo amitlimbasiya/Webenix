@@ -150,6 +150,21 @@ a {
   --cosmos: #ffd4d2;
   --frozenPeriwinkle: #c8e2ee;
 }
+.GreenBg{
+  background: #60be82a6;
+}
+.lavenderblueBg {
+  background-color: #c1c6ff;
+}
+.yellowBg {
+  background-color: #ffe8758f;
+}
+.pinkBg{
+  background-color: #ff7db1ad;
+}
+.skyBg{
+  background-color: #05d5fa8f;
+}
 
 .textGreen {
   font-family: "Montserrat",sans-serif;
