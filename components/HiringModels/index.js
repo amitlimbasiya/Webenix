@@ -22,7 +22,7 @@ const HiringModels = () => {
                             <s.HiremodelInnerBox>
                                 <s.HiremodelContentBox>
                                     <p>Hours Per Day</p>
-                                    <span class="green-text">8</span> hrs/day
+                                    <span className="green-text">8</span> hrs/day
                                 </s.HiremodelContentBox>
                                 <s.HiremodelIconBox>
                                     <Image src={Timer} alt="timer" className='img-fluid' layout="raw"/>
@@ -36,7 +36,7 @@ const HiringModels = () => {
                             <s.HiremodelInnerBox>
                                 <s.HiremodelContentBox>
                                     <p>Hours Per Day</p>
-                                    <span class="green-text">8</span> hrs/day
+                                    <span className="green-text">8</span> hrs/day
                                 </s.HiremodelContentBox>
                                 <s.HiremodelIconBox>
                                     <Image src={Timer} alt="timer" className='img-fluid' layout="raw"/>
@@ -50,7 +50,7 @@ const HiringModels = () => {
                             <s.HiremodelInnerBox>
                                 <s.HiremodelContentBox>
                                     <p>Hours Per Day</p>
-                                    <span class="green-text">Flexible </span> hrs/day
+                                    <span className="green-text">Flexible </span> hrs/day
                                 </s.HiremodelContentBox>
                                 <s.HiremodelIconBox>
                                     <Image src={Timer} alt="timer" className='img-fluid' layout="raw"/>

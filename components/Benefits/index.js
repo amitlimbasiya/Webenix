@@ -18,7 +18,7 @@ const Benefits = () => {
         <Container>
             <s.SectionTagline>
               <span className='before-dash'>Take a look at</span>
-              <h2>Why <span class="textGreen">Webenix</span></h2>
+              <h2>Why <span className='textGreen'>Webenix</span></h2>
             </s.SectionTagline>
             <Row>
                 <Col lg={4} md={6} sm={6}>
