@@ -23,7 +23,7 @@ const SectionServiceBoxes = () => {
         <Container>
           <s.SectionTagline>
             <span className="before-dash">Our Expertise</span>
-            <h2>Our Front-End Development Services</h2>
+            <h2>Our Grahics Design Services</h2>
           </s.SectionTagline>
         </Container>
       </s.SectionServiceTop>

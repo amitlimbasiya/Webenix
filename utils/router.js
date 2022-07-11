@@ -4,6 +4,8 @@ const router = {
   ABOUT: "about",
   SOLUTION: "solution",
 
+  HireWordPressDeveloper: "hire-wordpress-developer",
+  
   GRAPHICSDESIGN: "graphics-design",
   WEBDESIGN: "web-design",
   UIUX: "uiux-design",
@@ -21,5 +23,6 @@ const router = {
   PPC:"ppc",
 
   PHPDEVELOPMENT: "php-development", 
+  WORDPRESSDEVELOPMENT: "wordpress-development", 
 };
 export default router;

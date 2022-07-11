@@ -6,6 +6,9 @@ export const PageBannerWrapper  = styled.div`
     min-height: 700px;
     position: relative;
     overflow: hidden;
+    ${mediaQueriesmin("xxl")`
+        background-size: cover;
+    `}
     ${mediaQueries("xl")`
         min-height: unset;
     `}

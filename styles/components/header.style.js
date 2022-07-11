@@ -275,6 +275,7 @@ export const MenuItemHasChildren  = styled.li`
     }
     .mobileClick{
         display: none;
+        
         ${mediaQueries("llg")` 
             display: flex;
             position: absolute;

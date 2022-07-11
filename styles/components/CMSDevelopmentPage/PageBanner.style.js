@@ -2,7 +2,7 @@ import styled, { css } from "styled-components";
 import { mediaQueries, mediaQueriesmin } from "../../../utils/mediaQuery";
 
 export const PageBannerWrapper  = styled.div` 
-    background:#ffe1dd!important;  
+    background:#ddd9f5!important; 
     min-height: 700px;
     position: relative;
     overflow: hidden;

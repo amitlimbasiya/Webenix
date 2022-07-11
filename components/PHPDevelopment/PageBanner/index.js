@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image"; 
 import { Container, Row, Col } from "react-bootstrap";
 import * as s from "../../../styles/components/PHPDevelopment/PageBanner.style"; 
-import PageBannerImg from "../../../public/images/solution/solution-banner-shape.svg";  
+import PHPIcon from "../../../public/images/php-icon.svg";  
  
 const PageBanner = () => {
   return (
@@ -14,7 +14,8 @@ const PageBanner = () => {
               <Col md={7} className="pagebannercontent-col">
                 <s.PageBannerContentPart >
                   <h1>PHP <span className='textGreen'> Development</span></h1>
-                  <p>While putting your mission in limelight, we ensure our PHP solutions help you speak your brand story that holds the hearts and minds of users. Our user-driven strategies leverage the absolute maturity and power of PHP to fuel all needs of your business whether a basic portal or a complex solution.</p>
+                  <p>With the executive experience, amplify your business requirements with the PHP  Development fulfilling the expectation of small business portals to large enterprise business models thriving to ease down the complex solutions. </p>
+                  <p>Develop a strong backend with the help of highly experienced  Developers and experience uncompromising performance. </p>
                   <Link href="">
                     <a className='btn-default btn-arrow'>Know More</a>
                   </Link>
@@ -22,7 +23,7 @@ const PageBanner = () => {
               </Col>
               <Col md={5} className="pagebannerimg-col">
                 <s.PageBannerImagePart className='pagebanner-imgpart'>
-                  <Image src={PageBannerImg} alt="Logo" className='img-fluid' layout="raw"/>
+                  <Image src={PHPIcon} alt="Logo" className='img-fluid' layout="raw"/>
                 </s.PageBannerImagePart>
               </Col>
           </Row>

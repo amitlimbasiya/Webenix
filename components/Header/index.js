@@ -2,9 +2,9 @@ import React, { useEffect, useState} from "react";
 import { Navbar, Nav, Button } from "react-bootstrap";
 import Image from 'next/image';
 import Link from "next/link";
+import * as s from "../../styles/components/header.style"; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown} from '@fortawesome/free-solid-svg-icons';
-import * as s from "../../styles/components/header.style"; 
 import LogoImage from "../../public/images/webenix-full-logo.svg";
 import webSiteDevelopmentIcon from '../../public/images/website-development.svg';
 import uiUxIcon from '../../public/images/ui-ux-icon.svg';
@@ -263,7 +263,7 @@ const Header = () => {
                       <s.MenuListItem className="menulist-item">
                         <s.MenuListTitle className="menulist-title">Digital Marketing </s.MenuListTitle>
                         <s.MenuItemBlock className="menuitem-block">
-                          <Link href="#">
+                          <Link href={router.SEO}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={seoIcon} alt="SEO Icon" layout='raw'/>
@@ -411,7 +411,7 @@ const Header = () => {
                       <s.MenuListItem className="menulist-item">
                         <s.MenuListTitle className="menulist-title">CMS Development </s.MenuListTitle>
                         <s.MenuItemBlock className="menuitem-block">
-                          <Link href="#">
+                          <Link href={router.WORDPRESSDEVELOPMENT}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={wordpressDevIcon} alt="Wordpress Deveopment Icon" layout="raw" />
@@ -699,7 +699,7 @@ const Header = () => {
                       <s.MenuListItem className="menulist-item">
                         <s.MenuListTitle className="menulist-title">Hire CMS Developer </s.MenuListTitle>
                         <s.MenuItemBlock className="menuitem-block">
-                          <Link href="#">
+                          <Link href={router.HireWordPressDeveloper}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={wordpressDevIcon} alt="Hire Wordpress Developer" layout="raw" />

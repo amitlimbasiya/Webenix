@@ -2,19 +2,17 @@ import styled, { css } from "styled-components";
 import { mediaQueries, mediaQueriesmin } from "../../../utils/mediaQuery";
 
 export const PageBannerWrapper  = styled.div` 
-    background: url('images/solution/solution-banner-bg.jpg') no-repeat;  
+    background:#e7e2ff;  
     min-height: 700px;
     position: relative;
     overflow: hidden;
-    ${mediaQueries("xl")`
-        min-height: unset;
-    `}
+    
     &:before{
         content: '';
         position: absolute;
         bottom:0px;
         left:0px;
-        background: url('images/solution/solution-banner-shape.png') no-repeat;          
+        background: url('images/phpDevelopment/solution-banner-shape.png') no-repeat;          
         height: 328px;
         width: 713px;
     }

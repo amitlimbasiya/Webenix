@@ -5,16 +5,16 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleRight} from '@fortawesome/free-solid-svg-icons';
 import { Container, Row, Col } from "react-bootstrap";
 import * as s from "../../../styles/components/PHPDevelopment/SectionServicesBoxes.style";
-import PageBannerImg from "../../../public/images/solution/solution-banner-shape.svg";
-import shapePinkIcon from '../../../public/images/solution/shapePink.svg';
-import shapeOrangeIcon from '../../../public/images/solution/shapeOrange.svg';
-import shapeYellowIcon from '../../../public/images/solution/shapeYellow.svg';
-import shapeGreenIcon from '../../../public/images/solution/shapeGreen.svg';
-import shapeBlueIcon from '../../../public/images/solution/shapeBlue.svg';
-import shapePurpleIcon from '../../../public/images/solution/shapePurple.svg';
-import uiUxIcon from '../../../public/images/ui-ux-icon.svg';
-import mobileAppDesignIcon from '../../../public/images/mobile-app-design-icon.svg';
-import websiteDesignIcon from '../../../public/images/website-design-icon.svg';
+import symfonyIcon from "../../../public/images/phpDevelopment/symfonyIcon.svg";
+import shapePinkIcon from '../../../public/images/phpDevelopment/shapePink.svg';
+import shapeOrangeIcon from '../../../public/images/phpDevelopment/shapeOrange.svg';
+import shapeYellowIcon from '../../../public/images/phpDevelopment/shapeYellow.svg';
+import shapeGreenIcon from '../../../public/images/phpDevelopment/shapeGreen.svg';
+import shapeBlueIcon from '../../../public/images/phpDevelopment/shapeBlue.svg';
+import laravelIcon from '../../../public/images/laravel-icon.svg';
+import yiiIcon from '../../../public/images/phpDevelopment/yiiIcon.svg';
+import zendIcon from '../../../public/images/phpDevelopment/zendIcon.svg';
+import codeigniteIcon from '../../../public/images/phpDevelopment/codeigniteIcon.svg';
 
 const SectionServiceBoxes = () => {
   return (
@@ -40,7 +40,7 @@ const SectionServiceBoxes = () => {
                     </Link>
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={PageBannerImg} alt="Frontend Development Icon" layout="raw" />
+                  <Image src={laravelIcon} alt="Laravel Development Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapePinkIcon} alt="Shape Pink Icon" layout="raw" />
                   </s.iconOverlay>
@@ -48,7 +48,7 @@ const SectionServiceBoxes = () => {
               </s.boxPart>
             </Col>
             <Col lg={6} md={12} className="itemBoxes">
-              <s.boxPart className="orangePart">
+              <s.boxPart className="greenPart">
                 <s.partItem className="textPart">
                     <s.boxHeading>Yii </s.boxHeading>
                     <s.textPart>Get the most innovative design and solution for the packaging and stationery. Webenix crafts unique and efficient designs which are the right fit for your business. </s.textPart>
@@ -57,9 +57,9 @@ const SectionServiceBoxes = () => {
                     </Link>
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={PageBannerImg} alt="Frontend Development Icon" layout="raw" />
+                  <Image src={yiiIcon} alt="Frontend Development Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
-                    <Image src={shapeOrangeIcon} alt="Shape Orange Icon" layout="raw" />
+                    <Image src={shapeGreenIcon} alt="Shape Green Icon" layout="raw" />
                   </s.iconOverlay>
                 </s.partItem>
               </s.boxPart>
@@ -74,7 +74,7 @@ const SectionServiceBoxes = () => {
                     </Link>
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={websiteDesignIcon} alt="Web Desing Icon" layout="raw" />
+                  <Image src={zendIcon} alt="Zend Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapeYellowIcon} alt="Shape Yellow Icon" layout="raw" />
                   </s.iconOverlay>
@@ -82,7 +82,7 @@ const SectionServiceBoxes = () => {
               </s.boxPart>
             </Col>
             <Col lg={6} md={12} className="itemBoxes">
-              <s.boxPart className="greenPart">
+              <s.boxPart className="bluePart">
                 <s.partItem className="textPart">
                     <s.boxHeading>Symfony </s.boxHeading>
                     <s.textPart>One of the most important for keeping up with the responsiveness is the Landing Page. We make sure it is designed with the right way of placing the CTA and other informative information. </s.textPart>
@@ -91,15 +91,15 @@ const SectionServiceBoxes = () => {
                     </Link>
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={websiteDesignIcon} alt="Landing Page Design Icon" layout="raw" />
+                  <Image src={symfonyIcon} alt="Symfony Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
-                    <Image src={shapeGreenIcon} alt="Shape Green Icon" layout="raw" />
+                    <Image src={shapeBlueIcon} alt="Shape Blue Icon" layout="raw" />
                   </s.iconOverlay>
                 </s.partItem>
               </s.boxPart>
             </Col>
             <Col lg={6} md={12} className="itemBoxes">
-              <s.boxPart className="bluePart">
+              <s.boxPart className="orangePart">
                 <s.partItem className="textPart">
                     <s.boxHeading>Codeigniter </s.boxHeading>
                     <s.textPart>We provide end-to-end solutions over two major platforms Android and Ios with clean and sleek designs according to your requirement.</s.textPart>
@@ -108,9 +108,9 @@ const SectionServiceBoxes = () => {
                     </Link>
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={mobileAppDesignIcon} alt="Mobile Applicaiton Icon" layout="raw" />
+                  <Image src={codeigniteIcon} alt="Mobile Applicaiton Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
-                    <Image src={shapeBlueIcon} alt="Shape Blue Icon" layout="raw" />
+                    <Image src={shapeOrangeIcon} alt="Shape Oragne Icon" layout="raw" />
                   </s.iconOverlay>
                 </s.partItem>
               </s.boxPart>

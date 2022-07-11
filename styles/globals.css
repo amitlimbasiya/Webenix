@@ -168,6 +168,36 @@ a {
 .currentSlide2 .homeSlider{
   background: url(../public/images/home-banner-bg.jpg) no-repeat;
 }
+.pink-color {
+  background-color: #FFC4C4;
+}
+.magicmint-color {
+  background-color: #a9f3c0;
+}
+.lavenderblue-color {
+  background-color: #c1c6ff;
+}
+.blond-color {
+  background-color: #ffeec0;
+}
+.noiseBg{
+  background-image: url(../public/images/noisy-texture.png);
+}
+.separatorPart{
+  position: relative;
+}
+.separatorPart::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -43px;
+  height: 43px;
+  width: 100%;
+  transform: translateX(-50%);
+  background: url(../public/images/solution/shaprator-shadow.png) 0% 0% / contain no-repeat;
+  background-repeat: no-repeat;
+  background-position: center !important;
+}
 @media (min-width: 1600px){
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
       max-width: 1540px;

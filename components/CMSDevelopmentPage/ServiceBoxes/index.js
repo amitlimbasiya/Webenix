@@ -7,6 +7,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import * as s from "../../../styles/components/CMSDevelopmentPage/SectionServicesBoxes.style";
 import webDevelopmentIcon from '../../../public/images/web-development-icon.svg';
 import eCommerceIcon from '../../../public/images/eCommerce-icon.svg';
+import webFlowIcon from '../../../public/images/webFlowIcon.svg';
 import shapePinkIcon from '../../../public/images/cmsDevelopment/shapePink.svg';
 import shapeOrangeIcon from '../../../public/images/cmsDevelopment/shapeOrange.svg';
 import shapeYellowIcon from '../../../public/images/cmsDevelopment/shapeYellow.svg';
@@ -16,7 +17,9 @@ import shapePurpleIcon from '../../../public/images/cmsDevelopment/shapePurple.s
 import mobileAppDesignIcon from '../../../public/images/mobile-app-design-icon.svg';
 import backendDevelopmentIcon from '../../../public/images/backend-development-icon.svg';
 import frontEndDevelopmentIcon from '../../../public/images/front-end-development-icon.svg';
-import CMSDevIcon from '../../../public/images/cms-icon.svg';
+import wordpressIcon from '../../../public/images/wordpress-icon.svg';
+import HubspotIcon from '../../../public/images/hubspot-icon.svg';
+import PSDWordPressIcon from '../../../public/images/PSDWordPressIcon.svg';
 
 const SectionServiceBoxes = () => {
   return (
@@ -42,7 +45,7 @@ const SectionServiceBoxes = () => {
                     </Link>
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={CMSDevIcon} alt="WordPress Development Icon" layout="raw" />
+                  <Image src={wordpressIcon} alt="WordPress Development Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapePinkIcon} alt="Shape Pink Icon" layout="raw" />
                   </s.iconOverlay>
@@ -59,7 +62,7 @@ const SectionServiceBoxes = () => {
                     </Link>
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={eCommerceIcon} alt="Hubspot Development Icon" layout="raw" />
+                  <Image src={HubspotIcon} alt="Hubspot Development Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapeBlueIcon} alt="Shape Orange Icon" layout="raw" />
                   </s.iconOverlay>
@@ -76,7 +79,7 @@ const SectionServiceBoxes = () => {
                     </Link>
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={webDevelopmentIcon} alt="Webflow Development Icon" layout="raw" />
+                  <Image src={webFlowIcon} alt="Webflow Development Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapeYellowIcon} alt="Shape Yellow Icon" layout="raw" />
                   </s.iconOverlay>
@@ -127,7 +130,7 @@ const SectionServiceBoxes = () => {
                     </Link>
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={frontEndDevelopmentIcon} alt="PSD to WordPress Icon" layout="raw" />
+                  <Image src={PSDWordPressIcon} alt="PSD to WordPress Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapePurpleIcon} alt="Shape Purple Icon" layout="raw" />
                   </s.iconOverlay>
