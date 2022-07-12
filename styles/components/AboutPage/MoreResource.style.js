@@ -18,9 +18,11 @@ export const MoreResourceWrapper  = styled.div`
         z-index: -1;
 
         ${mediaQueries("xll")`
-            height: 180px;
-        `}
-
+            height: 150px;
+        `}  
+        ${mediaQueries("tablet")`
+            height: 120px;
+        `}    
         ${mediaQueries("mobile")`
             height: 100px;
         `}
@@ -34,9 +36,14 @@ export const MoreResourceWrapper  = styled.div`
 
         max-width: 1430px;
 
-        ${mediaQueries("xll")` 
+        ${mediaQueries("xxl")` 
             padding-left: 30px;
             padding-right: 30px; 
+            max-width: 1200px;
+        `} 
+        ${mediaQueries("llg")` 
+            padding-left: 20px;
+            padding-right: 20px; 
         `} 
 
         ${mediaQueries("mobile")` 
@@ -49,36 +56,35 @@ export const MoreResourceWrapper  = styled.div`
 
 export const MoreResourceBlock  = styled.div`
         background-color: #ecf9f3;
-        padding: 80px 90px 80px 90px;
+        padding:50px;
         border-radius: 60px;
         display: grid;
         grid-template-columns: auto auto;
-        grid-column-gap: 100px;
+        grid-column-gap: 120px;
         justify-content: center;
         align-items: center;
         box-shadow: 1px 3px 30px rgb(0, 0, 0, 0.25);
         word-break: break-word;
 
-        ${mediaQueries("xll")`
-            padding: 60px;
+        ${mediaQueries("xxl")`
             grid-column-gap: 80px;
         `}
 
         ${mediaQueries("llg")` 
            padding: 30px;
-           border-radius: 40px;
+           border-radius: 30px;
            grid-column-gap: 50px;
         `}
 
         ${mediaQueries("mobile")` 
            padding: 30px 20px;
-           border-radius: 30px;
+           border-radius: 20px;
            grid-column-gap: 30px;
         `}
 
         ${mediaQueries("xxs")` 
            padding: 20px 15px;
-           border-radius: 30px;
+           border-radius: 20px;
            grid-column-gap: 30px;
         `}
 
@@ -87,25 +93,24 @@ export const MoreResourceBlock  = styled.div`
 export const DobuleSizeTitle  = styled.div`  
 
     h3{
-        font-size: 300px;
+        font-size: 200px;
         line-height: 50px;
         color: #404040;
         font-family: 'DINPro-CondensedBlack';
 
-        ${mediaQueries("xll")` 
-            font-size: 240px;
-        `} 
-
         ${mediaQueries("llg")` 
-            font-size: 160px;
+            font-size: 150px;
+        `} 
+        ${mediaQueries("tablet")` 
+            font-size: 120px;
         `} 
 
         ${mediaQueries("mobile")` 
-            font-size: 100px;
+            font-size: 90px;
         `} 
 
         ${mediaQueries("xxs")` 
-            font-size: 50px;
+            font-size: 60px;
         `} 
 
 
@@ -116,30 +121,34 @@ export const DobuleSizeTitle  = styled.div`
 export const MoreResourceContent  = styled.div`  
 
     h4{
-        font-size: 100px;
+        font-size: 70px;
         font-family: 'DINPro-CondensedBlack';
-        line-height: 90px;
-        margin: 25px 0;
+        line-height: 70px;
+        margin: 15px 0;
 
-        ${mediaQueries("xll")` 
-            font-size: 80px;
-            line-height: 80px;
-            margin: 20px 0;
+        ${mediaQueries("xxl")` 
+            font-size: 60px;
+            line-height: 60px;
         `} 
 
         ${mediaQueries("llg")` 
-           font-size: 60px;
+           font-size: 50px;
+           line-height: 50px;
            margin: 10px 0;
         `}
+        ${mediaQueries("tablet")` 
+            font-size: 40px;
+            line-height: 35px;
+        `} 
 
         ${mediaQueries("mobile")` 
             font-size: 36px;
-            line-height: 46px;
+            line-height: 30px;
         `} 
 
         ${mediaQueries("xxs")` 
             font-size: 24px;
-            line-height: 30px;
+            line-height:18px;
         `} 
 
     }

@@ -35,22 +35,22 @@ export const aboutCompany  = styled.div`
     }
 `;
 export const compnayHeading  = styled.h2`
-    font-size: 48px;
+    font-size: 42px;
     color: #000;
     font-family: "Montserrat", sans-serif;
-    font-weight: normal;
-    margin-bottom: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
     line-height: 1.3;
 
     ${mediaQueries("lg")`  
-        font-size: 38px;
+        font-size: 36px;
         margin-bottom: 20px;
     `}
     ${mediaQueries("tablet")`  
-        font-size: 34px;
+        font-size: 30px;
     `}
     ${mediaQueries("sm")`  
-        font-size: 30px;
+        font-size: 26px;
     `}
 `;
 export const greenText  = styled.span`
@@ -66,8 +66,8 @@ export const copnayText  = styled.p`
     font-weight: 500;
     font-size: 20px;
     color: #000;
-    letter-spacing: 1px;
-    margin-bottom: 60px;
+    letter-spacing: 0.4px;
+    margin-bottom: 40px;
 
     ${mediaQueries("lg")`  
         font-size: 18px;

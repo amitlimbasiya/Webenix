@@ -52,7 +52,7 @@ export const PageBannerWrapper  = styled.div`
 `;
 
 export const PageBannerContentPart  = styled.div` 
-    padding-right: 50px;
+    padding-right: 80px;
     padding-bottom: 130px;
     
     ${mediaQueries("xll")`
@@ -64,11 +64,12 @@ export const PageBannerContentPart  = styled.div`
   
 
     h1{ 
-        font-family: 'Montserrat', sans-serif;   
-        font-weight: 900; 
-        font-size: 48px;
+        font-family: 'Montserrat',sans-serif;
+        font-weight: 700;
+        font-size: 42px;
         letter-spacing: 0.2px;
         color: #000;
+        margin-bottom: 20px;
 
         ${mediaQueries("mobile")` 
             font-size: 36px;
@@ -78,35 +79,24 @@ export const PageBannerContentPart  = styled.div`
 
     p{
         font-family: "DINPro-Medium";
-        font-size: 24px;
-        line-height: 38px;
+        font-size: 22px;
+        line-height: 32px;
         color: #000;
+        margin: 0px;
 
-        ${mediaQueries("mobile")` 
+        ${mediaQueries("xl")` 
             font-size: 20px;
             line-height: 34px;
+        `}
+        ${mediaQueries("mobile")` 
+            font-size: 18px;
+            line-height: 28px;
         `}
     }
      
     .btn-default{
-        margin-top: 20px; 
-
- 
-        ${mediaQueries("xl")` 
-             margin-top: 0px;
-        `}
+        margin-top: 25px; 
     }
-
-    ${mediaQueries("xxl")` 
-    //    padding-bottom: 90px; 
-    //    padding-right: 90px;
-    `} 
-
-    ${mediaQueries("lg")` 
-        // padding-bottom: 60px;
-        // padding-left: 40px;
-        // padding-right: 40px; 
-    `} 
 
     ${mediaQueries("mobile")` 
        text-align: center;

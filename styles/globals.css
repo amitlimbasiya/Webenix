@@ -76,16 +76,15 @@ a {
   -o-transition: all 0.3s 0s linear;
   transition: all 0.3s 0s linear;
   display: inline-block;
-  padding: 15px 25px;
+  padding: 10px 20px;
   text-transform: uppercase;
   color: #fff;
-  font-size: 20px;
-  line-height: 30px;
-  font-family: "DINPro-Regular";
-  letter-spacing: 0.4px;
+  font-size: 18px;
+  line-height: 26px;
   background-color: #67c187;
   border-radius: 10px;
   position: relative;
+  font-family: "DINPro-Medium";
 }
 
 .btn-default:hover {
@@ -100,8 +99,8 @@ a {
   background: url(../public/images/arrow-icon.svg) no-repeat;
   display: inline-block;
   background-size: contain;
-  width: 12px;
-  height: 20px;
+  width: 16px;
+  height: 16px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -115,11 +114,11 @@ a {
 
 .btn-arrow:hover:after {
   opacity: 1;
-  margin-left: 15px;
+  margin-left: 10px;
 }
 
 .btn-arrow:hover {
-  padding: 15px 50px 15px 25px;
+  padding: 10px 35px 10px 20px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
   -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
@@ -169,7 +168,7 @@ a {
 .textGreen {
   font-family: "Montserrat",sans-serif;
   color: #5ebe81;
-  font-weight: 900;
+  font-weight: 700;
 }
 .homeSlider{
   background: url(../public/images/home-banner-bg.jpg) no-repeat;
@@ -218,26 +217,13 @@ a {
       max-width: 1540px;
   }
 }
-@media (max-width: 1365px){
-  .btn-default{
-    font-size: 18px;
-    line-height: 30px;
-  }
-}
 @media (max-width: 1199px){
   .btn-default{
     font-size: 16px;
     line-height: 26px;
-    padding: 10px 15px;
+    padding: 8px 15px;
   }
   .btn-arrow:hover{
-    padding:10px 35px 10px 15px;
-  }
-  .btn-arrow:after{
-    width: 10px;
-    height: 16px;
-  }
-  .btn-arrow:hover:after{
-    margin-left: 10px;
+    padding:8px 35px 8px 15px;
   }
 }

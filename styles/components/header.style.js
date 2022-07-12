@@ -20,24 +20,31 @@ export const HeaderMainWrapper  = styled.header`
     `}
 
     ${mediaQueries("tablet")` 
+        padding: 15px 20px;
     `}
 
     &.menu-fixed {
-        background-color: #fff;
+        background-color: rgb(255 255 255 / 70%);
         padding: 0px 30px;
-        box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+        -webkit-transition: 0.3s ease;
         transition: 0.3s ease;
         -moz-transition: all 0.3s ease;
         -webkit-transition: all 0.3s ease;
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(5px);
+        box-shadow: 2px -8px 12px 5px hsl(0deg 0% 87% / 54%);
 
         ${mediaQueries("llg")` 
             padding: 20px;
+        `}
+        ${mediaQueries("tablet")` 
+            padding: 15px 20px;
         `}
     }
 
     &.menu-fixed .menu-item > a{
         ${mediaQueriesmin("llg")` 
-            line-height: 80px;
+            line-height: 66px;
         `}
     }
 `;
@@ -70,6 +77,9 @@ export const HeaderItemLeft  = styled.div`
         `}
 
         ${mediaQueriesmin("xll")` 
+            max-width: 278px;
+        `}
+        ${mediaQueriesmin("xxl")` 
             max-width: 288px;
         `}
         
@@ -113,7 +123,7 @@ export const HeaderItemCenter  = styled.div`
         & .menu-mobile-toggle{
             position: absolute;
             right: 20px;
-            top: 30px;
+            top: 34px;
             display: block;
             cursor: pointer;
             width: 25px;
@@ -125,6 +135,8 @@ export const HeaderItemCenter  = styled.div`
             background: none;
             -webkit-transition: .3s ease-in-out;
             transition: .3s ease-in-out;
+
+            
             
         }
         & .menu-mobile-toggle span {
@@ -160,9 +172,19 @@ export const HeaderItemCenter  = styled.div`
         
     `}
 
+    ${mediaQueries("tablet")` 
+        & .menu-mobile-toggle{
+            top: 26px;
+        }
+    `}
+    ${mediaQueries("sm")` 
+        & .menu-mobile-toggle{
+            top: 24px;
+        }
+    `}
     ${mediaQueries("sm")` 
         .menu.nav{
-            top:74px;
+            top:64px;
         }
     `}
     
@@ -343,9 +365,6 @@ export const MenuItemHasChildren  = styled.li`
         `}
         ${mediaQueriesmin("xxl")` 
             font-size: 18px;
-        `}
-        ${mediaQueriesmin("xll")` 
-            font-size: 20px;
         `}
         ${mediaQueries("xl")` 
             line-height: 80px;

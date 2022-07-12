@@ -36,8 +36,8 @@ const Hero = () => {
     <>
     <s.SliderCompany className='homeSlider'>
         <Container>
-            <Row className='align-items-center sliderBanner'>
-                <Col md={12} lg={6}> 
+            <Row className='align-items-center justify-content-between sliderBanner'>
+                <Col md={12} lg={6} xl={6}> 
                     <s.bannerLeft className='bannerLeft'>
                         <s.bannerHeading><strong className="highlightText">Empower</strong> your 
                         <strong className="highlightText">business</strong> with<br />
@@ -65,7 +65,7 @@ const Hero = () => {
                         </s.bannerIcons>
                     </s.bannerLeft>
                 </Col>
-                <Col md={12} lg={6} className="d-none d-lg-block">
+                <Col md={12} lg={5} xl={5} className="d-none d-lg-block">
                   <Slider className='slickSlider' {...settings}>
                     <div>
                     <Image src={heroImg1} alt="Hero Banner" className='img-fluid' layout="raw"/>

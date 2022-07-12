@@ -82,7 +82,7 @@ export const topContent  = styled.div`
     }
 `;
 export const heading  = styled.h2`
-    font-size: 40px;
+    font-size: 38px;
     line-height: 1.4;
     font-weight: 700;
     color: #000;
@@ -90,28 +90,28 @@ export const heading  = styled.h2`
     font-family: "Montserrat", sans-serif;
 
     ${mediaQueries("lg")`
-        font-size: 38px;
+        font-size: 36px;
     `}
     ${mediaQueries("tablet")`
-        font-size: 34px;
+        font-size: 30px;
     `}
     ${mediaQueries("sm")`
-        font-size: 30px;
+        font-size: 24px;
     `}
 `;
 export const subHeading  = styled.h3`
-    font-size: 26px;
-    line-height: 36px;
+    font-size: 24px;
+    line-height: 34px;
     color: #000;
     margin-bottom: 50px;
     font-weight: 500;
     font-family: "Montserrat", sans-serif;
 
     ${mediaQueries("lg")`
-        font-size: 24px;
+        font-size: 22px;
     `}
     ${mediaQueries("tablet")`
-        font-size: 20px;
+        font-size: 18px;
     `}
     ${mediaQueries("sm")`
         font-size: 16px;

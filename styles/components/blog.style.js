@@ -39,7 +39,7 @@ export const blogSection  = styled.div`
 `;
 export const blogTop  = styled.h2`
     &.topHeading{
-        font-size: 40px;
+        font-size: 38px;
         font-family: 'Montserrat', sans-serif;
         color: #000;
         font-weight: 700;
@@ -51,7 +51,7 @@ export const blogTop  = styled.h2`
             margin-bottom: 30px;
         `}
         ${mediaQueries("sm")`  
-            font-size: 30px;
+            font-size: 26px;
         `}
     }   
 `;

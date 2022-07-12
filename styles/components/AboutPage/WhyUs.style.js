@@ -19,8 +19,9 @@ export const WhyUsWrapper  = styled.div`
     `}    
     ${mediaQueries("mobile")`
         padding-top: 60px; 
-        padding-left: 40px; 
-        padding-right: 40px;
+        padding-left: 20px; 
+        padding-right: 20px;
+        padding-bottom: 60px;
     `}
     
     .container{ 
@@ -69,14 +70,14 @@ export const SectionTagline  = styled.div`
     } 
 
     h2{
-        font-size: 48px;
-        line-height: 68px;
+        font-size: 42px;
+        line-height: 52px;
         font-family: 'Montserrat', sans-serif; 
         font-weight: 700; 
 
         ${mediaQueries("llg")` 
             font-size: 36px;
-            ine-height: 55px;
+            line-height: 46px;
         `} 
 
         ${mediaQueries("mobile")`
@@ -93,15 +94,18 @@ export const WhyusBoxWrapper  = styled.div`
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-column-gap: 150px;
+    grid-row-gap: 100px;
 
     ${mediaQueries("llg")` 
         grid-column-gap: 100px;
+        grid-row-gap: 50px;
     `} 
 
     ${mediaQueries("mobile")` 
         grid-template-columns: repeat(1,1fr);
         grid-column-gap: 0;
-        grid-row-gap: 70px;
+        grid-row-gap: 50px;
+        
     `} 
 `;
 
@@ -109,9 +113,19 @@ export const WhyusBox  = styled.div`
     
     max-width: 600px;
 
-    ${mediaQueriesmin ("md")` 
+    ${mediaQueriesmin ("lg")` 
         &:nth-child(2n){
             padding-top: 270px;
+        }
+    `}
+    ${mediaQueriesmin ("991")` 
+        &:nth-child(2n){
+            padding-top: 200px;
+        }
+    `}
+    ${mediaQueriesmin ("md")` 
+        &:nth-child(2n){
+            padding-top: 150px;
         }
     `}
 
@@ -150,6 +164,13 @@ export const WhyusBox  = styled.div`
             left: -25px;
             top: -20px;
         `}
+        ${mediaQueries("mobile")`
+            width: 60px;
+            height: 60px;
+            left: -15px;
+            top: -20px;
+        `}
+
     }
 
     &.why_motivate h3::before{
@@ -207,6 +228,13 @@ export const WhyusBox  = styled.div`
     ${mediaQueries("mobile")`
        &.whyusbox .whyuscontent-box::before{
             width: 70px; 
+            margin-top:0px;
+            right: 0;
+            left: auto;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 150px;
+            background-size: contain;
         }
     `}
 

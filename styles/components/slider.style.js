@@ -80,44 +80,63 @@ export const bannerHeading  = styled.h1`
 `;
 export const bannerIcons  = styled.div`
     &.bannerIcons{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        margin-top: 50px;
-        grid-gap: 30px;
-        margin-left: -46px;
+        display: flex;
+        margin: 50px 0px 0;
 
+        /* ${mediaQueries("xll")` 
+            margin-left: -30px;
+        `}
         ${mediaQueries("xl")` 
             margin-left: -25px;
         `}
         ${mediaQueries("tablet")` 
             margin-left: 0px;
-        `}
-        ${mediaQueries("sm")` 
-            grid-template-columns: 1fr;
-            margin-top: 40px;
-            grid-gap: 20px;
-        `}
+        `}*/
+        ${mediaQueries("tablet")` 
+            align-items: center;
+            justify-content: center;
+           
+        `} 
+
     }
 `;
 export const iconBox = styled.div`
     &.bannerIcon{
         text-align: center;
+        margin-right: 50px;
+        display: flex;
+        flex-direction: column;
+
+        ${mediaQueries("tablet")` 
+            margin: 0 30px;
+        `} 
+        ${mediaQueries("sm")` 
+            margin: 0 10px;
+        `} 
+       
         img{
-            max-height: 90px;
+            width: 60px;
+            height: 60px;
+            margin: 0 auto;
 
             ${mediaQueries("sm")`
-                max-height: 50px;
+                width: 50px;
+                height: 50px;
             `}
         }
         
     }
 `;
 export const iconHeading = styled.h2`
-    font-size: 18px;
-    line-height: 35px;
-    letter-spacing: 0.4px;
-    margin-top: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    -webkit-letter-spacing: 0.4px;
+    -moz-letter-spacing: 0.4px;
+    -ms-letter-spacing: 0.4px;
+    letter-spacing: 0;
+    margin-top: 10px;
     font-weight: 400;
+    margin-bottom: 0;
 `;
 
 export const screenBottomBar = styled.div`
@@ -140,15 +159,14 @@ export const screenBottomBar = styled.div`
         `}
     }
     & a{
-        font-size: 22px;
-        line-height: 35px;
-        letter-spacing: 0.4px;
+        font-size: 18px;
+        line-height: 30px;
         color: #000;
         font-family: "DINPro-Medium";
         margin-right: 50px;
 
         ${mediaQueries("llg")` 
-            font-size: 18px;
+            font-size: 16px;
             margin-right: 20px;
         `}
         

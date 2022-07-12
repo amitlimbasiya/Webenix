@@ -83,7 +83,7 @@ export const topPart  = styled.div`
     }
 `;
 export const topTitle  = styled.h4`
-    font-size: 48px;
+    font-size: 42px;
     font-family: 'Montserrat', sans-serif;
     color: #000;
     font-weight: 700;
@@ -91,17 +91,14 @@ export const topTitle  = styled.h4`
     text-align: left;
     margin: 0;
     
-    ${mediaQueries("llg")`
-        font-size: 40px;
-    `}
     ${mediaQueries("lg")`
-        font-size: 38px;
+        font-size: 36px;
     `}
     ${mediaQueries("tablet")`
-        font-size: 34px;
+        font-size: 30px;
     `}
     ${mediaQueries("sm")`
-        font-size: 30px;
+        font-size: 26px;
     `}
 `;
 
@@ -124,17 +121,13 @@ export const serviceListing  = styled.div`
 export const serviceItem  = styled.div`
     &.serviceItem{
         position: relative;
-        margin-bottom: 230px;
+        margin-bottom: 200px;
 
         .container{
             max-width: 1300px;
-            
-            ${mediaQueries("xll")`  
-                max-width: 1240px;
+            ${mediaQueries("xlx")`  
+                max-width: 1140px;
             `}
-            ${mediaQueries("xll")`  
-                max-width: 1080px;
-            `}       
             ${mediaQueries("llg")`  
                 max-width: 96%;
                 padding: 0 20px;
@@ -145,9 +138,9 @@ export const serviceItem  = styled.div`
         }
 
         ${mediaQueries("xxl")`
-            margin-bottom: 180px;
+            margin-bottom: 150px;
         `}
-        ${mediaQueries("llg")`  
+        ${mediaQueries("xl")`  
             margin-bottom: 100px;
         `}
         ${mediaQueries("mobile")`  
@@ -173,7 +166,10 @@ export const serviceItem  = styled.div`
             padding: 0px 60px 0px 12px;
             
             ${mediaQueries("xl")`
-                padding: 0px 12px;
+                padding: 0px 40px 0px 12px;
+            `}
+            ${mediaQueries("mobile")`
+                padding: 0px 12px 0px 12px;
             `}
             
         } 
@@ -181,7 +177,10 @@ export const serviceItem  = styled.div`
             padding: 0px 12px 0px 60px;
 
             ${mediaQueries("xl")`
-                padding: 0px 12px;
+                padding: 0px 12px 0px 40px;
+            `}
+            ${mediaQueries("mobile")`
+                padding: 0px 12px 0px 12px;
             `}
         }   
     }
@@ -210,7 +209,6 @@ export const serviceItem  = styled.div`
     }
     & .rightPart img{
         position: relative;
-
     }
     
     &:nth-child(even)::before {
@@ -239,11 +237,8 @@ export const titlePart  = styled.h2`
     line-height: 1.2;
     font-weight: 700;
     color: #67c187;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 
-    ${mediaQueries("llg")`
-        margin-bottom: 30px;
-    `}
     ${mediaQueries("sm")`
         margin-bottom: 15px;
         font-size: 24px;
@@ -255,7 +250,7 @@ export const desc  = styled.p`
     font-size: 18px;
     line-height: 28px;
     color: #000;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     font-weight: 500;
 
     & a{
@@ -337,11 +332,10 @@ export const serviceLinks  = styled.div`
     }
 `;
 export const ctaPart  = styled.div`
-    margin-top: 50px;
+    margin-top: 30px;
     text-align: center;
 
     ${mediaQueries("llg")`
-        margin-top: 30px;
         text-align: left;
     `}
     ${mediaQueries("tablet")`
