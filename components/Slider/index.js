@@ -39,8 +39,7 @@ const Hero = () => {
             <Row className='align-items-center justify-content-between sliderBanner'>
                 <Col md={12} lg={6} xl={6}> 
                     <s.bannerLeft className='bannerLeft'>
-                        <s.bannerHeading><strong className="highlightText">Empower</strong> your 
-                        <strong className="highlightText">business</strong> with<br />
+                        <s.bannerHeading><strong className="highlightText">Empower</strong> your <strong className="highlightText">business</strong> with<br />
                         <strong className="highlightText"> skilful team</strong> and <strong className="highlightText">top notch </strong><br />
                         <span className="textGreen"> experience.</span></s.bannerHeading>
                         <s.bannerIcons className='bannerIcons'>

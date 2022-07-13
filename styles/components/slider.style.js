@@ -61,6 +61,11 @@ export const bannerHeading  = styled.h1`
             bottom: 16px;
             background-color: rgba(27, 167, 140, 0.3);
             height: 8px;
+
+            ${mediaQueries("sm")` 
+                height: 4px;
+                bottom: 12px;
+            `}
         }
     }
     & .textGreen{
@@ -78,6 +83,10 @@ export const bannerHeading  = styled.h1`
     `}
     ${mediaQueries("sm")` 
           font-size: 26px;
+          line-height: 42px;
+    `}
+    ${mediaQueries("xxs")` 
+          font-size: 22px;
     `}
       
 `;
@@ -86,15 +95,6 @@ export const bannerIcons  = styled.div`
         display: flex;
         margin: 50px 0px 0;
 
-        /* ${mediaQueries("xll")` 
-            margin-left: -30px;
-        `}
-        ${mediaQueries("xl")` 
-            margin-left: -25px;
-        `}
-        ${mediaQueries("tablet")` 
-            margin-left: 0px;
-        `}*/
         ${mediaQueries("tablet")` 
             align-items: center;
             justify-content: center;
