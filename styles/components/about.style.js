@@ -62,7 +62,7 @@ export const greenText  = styled.span`
     }
 `;
 export const copnayText  = styled.p`
-    font-family: "DIN Pro Medium";
+    font-family: "DINPro-Medium";
     font-weight: 500;
     font-size: 20px;
     color: #000;

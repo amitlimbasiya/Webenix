@@ -246,7 +246,7 @@ export const titlePart  = styled.h2`
 
 `;
 export const desc  = styled.p`
-    font-family: "DIN Pro Medium";
+    font-family: "DINPro-Medium";
     font-size: 18px;
     line-height: 28px;
     color: #000;
@@ -254,7 +254,7 @@ export const desc  = styled.p`
     font-weight: 500;
 
     & a{
-        font-family: "DIN Pro Medium";
+        font-family: "DINPro-Medium";
         color: #67c187;
         font-weight: 500;
         text-transform: uppercase;
@@ -297,7 +297,7 @@ export const serviceLinks  = styled.div`
         padding-bottom: 8px;
         font-size: 18px;
         color: #3f3f3f;
-        font-family: "DIN Pro Medium";
+        font-family: "DINPro-Medium";
         -webkit-transition: all 0.3s 0s linear;
         -moz-transition: all 0.3s 0s linear;
         -o-transition: all 0.3s 0s linear;
