@@ -4,8 +4,9 @@ import SectionIntro from '../components/WebDesignPage/SectionIntro';
 import SectionServiceBoxes from '../components/WebDesignPage/ServiceBoxes';
 import HireServies from '../components/HireServices';
 import Blog from '../components/Blog';
-import SteptoEngage from '../components/WebDesignPage/SteptoEngage';
-import TechnologyStack from '../components/WebDesignPage/TechnologyStack';
+import TechnologyStack from '../components/TechnologyStack';
+import SteptoEngage from '../components/SteptoEngage';
+
 
 const WEBDESIGN = () => {
   return (

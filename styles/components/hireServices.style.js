@@ -320,9 +320,7 @@ export const iconBox  = styled.div`
         & img{
             width: 80px;
             vertical-align: middle;
-            height: auto;
-            width: auto;
-
+            height:auto ;
             ${mediaQueries("xl")`
                 width: 60px;
             `}

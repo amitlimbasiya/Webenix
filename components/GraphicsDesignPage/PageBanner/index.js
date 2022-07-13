@@ -8,7 +8,7 @@ import webSiteDevelopmentIcon from '../../../public/images/website-development.s
 const PageBanner = () => {
   return (
     <> 
-     <s.PageBannerWrapper className="pagebanner-section pagebg-about">
+     <s.PageBannerWrapper className="pagebanner-section pagebg-about noiseBg">
         <Container>
           <Row>
               <Col md={7} className="pagebannercontent-col">

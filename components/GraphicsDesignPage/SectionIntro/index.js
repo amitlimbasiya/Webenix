@@ -1,12 +1,11 @@
 import React from 'react';
-import Image from "next/image"; 
 import { Container, Row, Col } from "react-bootstrap";
 import * as s from "../../../styles/components/GraphicsDesignPage/SectionIntro.style"; 
 
 const SectionIntro = () => {
   return (
     <>
-      <s.SectionIntroWrapper className="introuction-section separatorPart">
+      <s.SectionIntroWrapper className=" introuction-section separatorPart">
           <Container>
               <s.SectionTagline>
                 <span className='before-dash'>Lorem Ipsum</span>

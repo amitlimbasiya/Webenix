@@ -62,6 +62,14 @@ export const SectionTagline  = styled.div`
         line-height: 38px;
         letter-spacing: 0.2px;
         padding-left: 45px; 
+        font-style: italic;
+
+        ${mediaQueries("llg")` 
+            font-size: 20px;
+            line-height: 30px;
+            margin-bottom: 10px;
+            display: inline-block;
+        `} 
 
         ${mediaQueries("llg")` 
             font-size: 20px;
@@ -83,19 +91,25 @@ export const SectionTagline  = styled.div`
     }
 
     h2{
-        font-size: 48px;
-        line-height: 68px;
-        font-family: 'Montserrat', sans-serif; 
-        font-weight: 700; 
+        font-size: 40px;
+        line-height: 50px;
+        font-family: 'Montserrat',sans-serif;
+        font-weight: 700;
+        margin: 0;
+
+        ${mediaQueries("xlx")` 
+            font-size: 30px;
+            line-height: 40px;
+        `}  
 
         ${mediaQueries("llg")` 
-            font-size: 36px;
-            line-height: 55px;
+            font-size: 26px;
+            line-height: 36px;
         `}  
 
         ${mediaQueries("mobile")`
-            font-size: 26px;
-            line-height: 40px;
+            font-size: 24px;
+            line-height: 34px;
         `}
     }
     

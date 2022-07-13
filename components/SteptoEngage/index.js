@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Tabs,Tab } from 'react-bootstrap';
-import * as s from "../../../styles/components/WebDesignPage/SteptoEngage.style";
+import * as s from "../../styles/components/SteptoEngage/SteptoEngage.style";
 
 const SteptoEngage = () => {
   return (

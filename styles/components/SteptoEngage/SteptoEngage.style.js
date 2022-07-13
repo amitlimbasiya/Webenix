@@ -27,10 +27,10 @@ export const SteptoEngageWrapper  = styled.div`
 
 export const SectionTagline  = styled.div`
  
-    margin-bottom: 200px;
+    margin-bottom: 150px;
 
     ${mediaQueries("llg")`  
-        margin-bottom: 120px
+        margin-bottom: 100px
     `}  
 
     ${mediaQueries("tablet")`  
@@ -38,19 +38,27 @@ export const SectionTagline  = styled.div`
     `}
 
     ${mediaQueries("mobile")` 
-        margin-bottom: 60px 
+        margin-bottom: 50px 
     `} 
 
     ${mediaQueries("xxs")` 
         margin-bottom: 30px;
     `} 
 
-    .before-dash{ 
-        position: relative; 
+.before-dash{ 
+        position: relative;
         font-size: 24px;
         line-height: 38px;
         letter-spacing: 0.2px;
         padding-left: 45px; 
+        font-style: italic;
+
+        ${mediaQueries("llg")` 
+            font-size: 20px;
+            line-height: 30px;
+            margin-bottom: 10px;
+            display: inline-block;
+        `} 
 
         ${mediaQueries("llg")` 
             font-size: 20px;
@@ -72,19 +80,25 @@ export const SectionTagline  = styled.div`
     }
 
     h2{
-        font-size: 48px;
-        line-height: 68px;
-        font-family: 'Montserrat', sans-serif; 
-        font-weight: 700; 
+        font-size: 40px;
+        line-height: 50px;
+        font-family: 'Montserrat',sans-serif;
+        font-weight: 700;
+        margin: 0;
+
+        ${mediaQueries("xlx")` 
+            font-size: 30px;
+            line-height: 40px;
+        `}  
 
         ${mediaQueries("llg")` 
-            font-size: 36px;
-            line-height: 55px;
+            font-size: 26px;
+            line-height: 36px;
         `}  
 
         ${mediaQueries("mobile")`
-            font-size: 26px;
-            line-height: 40px;
+            font-size: 24px;
+            line-height: 34px;
         `}
     }
     
@@ -99,7 +113,7 @@ export const SteptoEngageSection  = styled.div`
     `}  
 
     ${mediaQueries("mobile")` 
-        padding-top: 80px;
+        padding-top: 60px;
         padding-bottom: 50px;
     `};
 
@@ -170,6 +184,9 @@ export const SteptoEngageBox  = styled.div`
             -webkit-animation: slide-in-down 5s linear infinite forwards;
             animation: slide-in-down 5s linear infinite forwards;
         `}
+        ${mediaQueries("sm")` 
+
+        `}
     } 
 
     &:not(:last-child)::after {
@@ -193,6 +210,13 @@ export const SteptoEngageBox  = styled.div`
             left: 0;
             right: 0;
             margin: 30px auto 0;
+            width: 1px;
+            height: 80px;
+            position: relative;
+            display: inline-block;
+        `}
+        ${mediaQueries("sm")`  
+            margin: 20px auto 0;
             width: 1px;
             height: 80px;
             position: relative;
@@ -268,8 +292,8 @@ export const SteptoEngageBox  = styled.div`
         max-width: 240px;
 
         ${mediaQueries("tablet")`  
-            font-size: 18px;
-            line-height: 30px;
+            font-size: 16px;
+            line-height: 26px;
             letter-spacing: 0.2px;
             max-width: 170px;
         `}
@@ -278,6 +302,11 @@ export const SteptoEngageBox  = styled.div`
             max-width: 100%;
             font-size: 17px;
             line-height: 28px;
+            margin-top: 15px;
+        `}
+        ${mediaQueries("sm")` 
+            font-size: 14px;
+            line-height: 24px;
             margin-top: 15px;
         `}
     }
@@ -314,8 +343,9 @@ export const NumberShapeBox  = styled.div`
         width: 70px;
         height: 70px;
         line-height: 70px;
-        font-size: 36px;
+        font-size: 30px;
         margin-top: -35px;
+        border-radius: 10px;
     `} 
 
     ${mediaQueries("mobile")` 

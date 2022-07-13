@@ -4,8 +4,8 @@ import SectionIntro from '../components/GraphicsDesignPage/SectionIntro';
 import SectionServiceBoxes from '../components/GraphicsDesignPage/ServiceBoxes';
 import HireServies from '../components/HireServices';
 import Blog from '../components/Blog';
-import SteptoEngage from '../components/GraphicsDesignPage/SteptoEngage';
-import TechnologyStack from '../components/GraphicsDesignPage/TechnologyStack';
+import SteptoEngage from '../components/SteptoEngage';
+import TechnologyStack from '../components/TechnologyStack';
 
 const GRAPHICSDESIGN = () => {
   return (
@@ -15,7 +15,7 @@ const GRAPHICSDESIGN = () => {
     <SectionServiceBoxes/>
     <HireServies/>
     <TechnologyStack/>
-    <SteptoEngage/>
+    <SteptoEngage/>    
     <Blog/>
     </>
   )
