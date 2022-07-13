@@ -318,19 +318,19 @@ export const iconBox  = styled.div`
         `}
 
         & img{
-            max-width: 80px;
+            width: 80px;
             vertical-align: middle;
             height: auto;
             width: auto;
 
             ${mediaQueries("xl")`
-                max-width: 60px;
+                width: 60px;
             `}
             ${mediaQueries("tablet")`
-                max-width: 50px;
+                width: 50px;
             `}
             ${mediaQueries("mobile")`
-                max-width: 35px;
+                width: 35px;
             `}
         }
     }    
