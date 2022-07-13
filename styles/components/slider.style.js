@@ -76,6 +76,9 @@ export const bannerHeading  = styled.h1`
     ${mediaQueries("tablet")` 
           text-align: center;
     `}
+    ${mediaQueries("sm")` 
+          font-size: 26px;
+    `}
       
 `;
 export const bannerIcons  = styled.div`
