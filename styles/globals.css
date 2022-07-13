@@ -36,14 +36,14 @@ a {
 @font-face {
   font-family: "DINPro-Light";
   src: url("../public/fonts/DINPro-Light.woff2") format("woff2"),
-         url("../public/fonts/DINPro-Light.woff") format("woff");
+       url("../public/fonts/DINPro-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: "DINPro-Regular";
-  src: local("../public/fonts/DINPro-Regular"), url("../public/fonts/DINPro-Regular.woff") format("woff");
+  src: url("../public/fonts/DINPro-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -57,14 +57,15 @@ a {
 
 @font-face {
   font-family: "DINPro-Bold";
-  src: url("../public/fonts/DINPro-Bold.woff2") format("woff2"), url("../public/fonts/DINPro-Bold.woff") format("woff");
+  src: url("../public/fonts/DINPro-Bold.woff2") format("woff2"),
+       url("../public/fonts/DINPro-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: 'DINPro-CondensedBlack';
   src: url('../public/fonts/DINPro-CondensedBlack.woff2') format('woff2'),
-      url('../public/fonts/DINPro-CondensedBlack.woff') format('woff');
+       url('../public/fonts/DINPro-CondensedBlack.woff') format('woff');
   font-weight: 900;
   font-style: normal;
   font-display: swap;
