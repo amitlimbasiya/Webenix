@@ -4,8 +4,9 @@ import SectionIntro from '../components/CMSDevelopmentPage/SectionIntro';
 import SectionServiceBoxes from '../components/CMSDevelopmentPage/ServiceBoxes';
 import HireServies from '../components/HireServices';
 import Blog from '../components/Blog';
-import SteptoEngage from '../components/CMSDevelopmentPage/SteptoEngage';
-import TechnologyStack from '../components/CMSDevelopmentPage/TechnologyStack';
+import SteptoEngage from '../components/SteptoEngage';
+import TechnologyStack from '../components/TechnologyStack';
+
 
 const CMSDEVELOPMENT = () => {
   return (

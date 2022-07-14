@@ -14,16 +14,16 @@ export const SectionServiceTop  = styled.div`
         padding-left: 20px;
         padding-right: 20px;
         padding-top: 90px;
-        padding-bottom: 90px;
+        padding-bottom: 50px;
     `} 
 
     ${mediaQueries("mobile")` 
         padding-top: 60px;
-        padding-bottom: 60px;
+        padding-bottom: 30px;
     `} 
     ${mediaQueries("xxs")` 
         padding-top: 50px;
-        padding-bottom:50px;
+        padding-bottom:30px;
     `} 
 `; 
 
@@ -63,25 +63,22 @@ export const SectionTagline  = styled.div`
     }
 
     h2{
-        font-size: 48px;
-        line-height: 68px;
-        font-family: 'Montserrat', sans-serif; 
-        font-weight: 700; 
+        font-size: 40px;
+        line-height: 50px;
+        font-family: 'Montserrat',sans-serif;
+        font-weight: 700;
         margin: 0;
-
-        ${mediaQueries("xl")` 
-            font-size: 42px;
-            line-height: 52px;
+        ${mediaQueries("xlx")` 
+            font-size: 30px;
+            line-height: 40px;
         `}  
-
         ${mediaQueries("llg")` 
-            font-size: 36px;
-            line-height: 46px;
-        `}  
-
-        ${mediaQueries("mobile")`
             font-size: 26px;
             line-height: 36px;
+        `}  
+        ${mediaQueries("mobile")`
+            font-size: 24px;
+            line-height: 34px;
         `}
     }
     
@@ -103,8 +100,16 @@ export const ServiceBox  = styled.div`
     ${mediaQueries("llg")` 
         padding-bottom: 90px;
     `}
+
+    ${mediaQueries("tablet")` 
+        padding-bottom: 70px;
+    `}
+    
     ${mediaQueries("mobile")` 
-        padding-bottom: 60px;
+        padding-bottom: 50px;
+    `} 
+    ${mediaQueries("xxs")` 
+        padding-bottom: 40px;
     `} 
 
     .itemBoxes:nth-child(even) {
@@ -156,7 +161,11 @@ export const boxPart  = styled.div`
         transform: translateY(-50%);
         width: 20px;
         height: 80%;
-        
+
+        ${mediaQueries("tablet")` 	
+            width: 15px;	
+        `} 
+
         ${mediaQueries("sm")` 
             width: 10px;
         `}
@@ -196,12 +205,15 @@ export const partItem  = styled.div`
     &.textPart{
         width: 60%;
 
+        ${mediaQueries("tablet")` 	
+            width: 70%;	
+        `} 
          
     }
     .linkPart{
-        font-size: 20px;
+        font-size: 18px;
         font-family: 'Montserrat', sans-serif; 
-        font-weight: 300; 
+        font-weight: 500; 
         color: #000;
         font-style: italic;
         line-height: 1.2;
@@ -212,6 +224,7 @@ export const partItem  = styled.div`
         ${mediaQueries("tablet")` 
             font-size: 16px;
         `}  
+        
 
         &:hover{
             color:#67c187;
@@ -226,7 +239,13 @@ export const partItem  = styled.div`
 
         ${mediaQueries("tablet")` 
             padding-left:10px;
-        `} 
+            width: 30%;
+        `}
+        
+        ${mediaQueries("mobile")` 
+            padding-top:15px;
+        `}
+
         ${mediaQueries("sm")` 
             padding-top: 40px;
         `} 
@@ -237,6 +256,10 @@ export const partItem  = styled.div`
             position: relative;
             z-index: 9;
             
+            ${mediaQueries("mobile")` 
+                width: 80px;
+                height: 80px;
+            `} 
             ${mediaQueries("sm")` 
                 width: 60px;
                 height: 60px;
@@ -257,6 +280,9 @@ export const boxHeading  = styled.h3`
     ${mediaQueries("llg")` 
         font-size: 24px;
     `}      
+    ${mediaQueries("mobile")` 
+        font-size: 22px;
+    `}      
 `;
 export const textPart  = styled.p`
     font-size: 18px;
@@ -276,6 +302,10 @@ export const textPart  = styled.p`
         font-size: 16px;
         margin: 0px 0px 10px;
     `} 
+    ${mediaQueries("mobile")` 
+        padding-right: 20px;
+        font-size: 14px;
+    `}  
 `;
 export const iconOverlay  = styled.div`
     position: absolute;

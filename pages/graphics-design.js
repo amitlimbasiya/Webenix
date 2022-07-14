@@ -1,7 +1,7 @@
 import React from 'react'
 import PageBanner from '../components/GraphicsDesignPage/PageBanner';
 import SectionIntro from '../components/GraphicsDesignPage/SectionIntro';
-import SectionServiceBoxes from '../components/GraphicsDesignPage/ServiceBoxes';
+import ServiceFeatureBox from '../components/ServiceFeatureBox';
 import HireServies from '../components/HireServices';
 import Blog from '../components/Blog';
 import SteptoEngage from '../components/SteptoEngage';
@@ -12,7 +12,7 @@ const GRAPHICSDESIGN = () => {
     <>
     <PageBanner/>
     <SectionIntro/>
-    <SectionServiceBoxes/>
+    <ServiceFeatureBox/>
     <HireServies/>
     <TechnologyStack/>
     <SteptoEngage/>    

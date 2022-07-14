@@ -14,7 +14,8 @@ const PageBanner = () => {
               <Col md={7} className="pagebannercontent-col">
                 <s.PageBannerContentPart >
                   <h1>WordPress <span className='textGreen'> Development</span></h1>
-                  <p>In the digitally equipped world, it is important to keep up with the trends and implement them and so in the presence of highly qualified WordPress Developers, we provide fully custom services keeping up with the latest standard in WordPress Development globally. With Webenix, we help you to escalate your business by providing the best Content Management Solution in varied ways stated under WordPress Development Services. </p>
+                  <p>In the digitally equipped world, it is important to keep up with the trends and implement them and so in the presence of highly qualified WordPress Developers, we provide fully custom services keeping up with the latest standard in WordPress Development globally.</p>
+                  <p>With Webenix, we help you to escalate your business by providing the best Content Management Solution in varied ways stated under WordPress Development Services. </p>
                   <Link href="">
                     <a className='btn-default btn-arrow'>Know More</a>
                   </Link>

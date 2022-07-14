@@ -1,21 +1,21 @@
 import React from 'react'
 import PageBanner from '../components/WebDevelopmentPage/PageBanner';
 import SectionIntro from '../components/WebDevelopmentPage/SectionIntro';
-import SectionServiceBoxes from '../components/WebDevelopmentPage/ServiceBoxes';
+import ServiceFeatureBox from '../components/ServiceFeatureBox';
 import HireServies from '../components/HireServices';
 import Blog from '../components/Blog';
-import SteptoEngage from '../components/WebDevelopmentPage/SteptoEngage';
-import TechnologyStack from '../components/WebDevelopmentPage/TechnologyStack';
+import SteptoEngage from '../components/SteptoEngage';
+import TechnologyStack from '../components/TechnologyStack';
 
 const WEBDEVELOPMENT = () => {
   return (
     <>
     <PageBanner/>
     <SectionIntro/>
-    <SectionServiceBoxes/>
+    <ServiceFeatureBox/>
     <HireServies/>
     <TechnologyStack/>
-    <SteptoEngage/>
+    <SteptoEngage/> 
     <Blog/>
     </>
   )

@@ -17,6 +17,7 @@ import mobileAppDesignIcon from '../../../public/images/mobile-app-design-icon.s
 import backendDevelopmentIcon from '../../../public/images/backend-development-icon.svg';
 import frontEndDevelopmentIcon from '../../../public/images/front-end-development-icon.svg';
 import CMSDevIcon from '../../../public/images/cms-icon.svg';
+import codeIcon from '../../../public/images/codeIcon.svg';
 
 const SectionServiceBoxes = () => {
   return (
@@ -42,7 +43,7 @@ const SectionServiceBoxes = () => {
                     </Link>
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={CMSDevIcon} alt="Web Development Icon" layout="raw" />
+                  <Image src={CMSDevIcon} alt="CMS Development Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapePinkIcon} alt="Shape Pink Icon" layout="raw" />
                   </s.iconOverlay>
@@ -76,7 +77,7 @@ const SectionServiceBoxes = () => {
                     </Link>
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={webDevelopmentIcon} alt="Web App Development Icon" layout="raw" />
+                  <Image src={codeIcon} alt="Web App Development Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapeYellowIcon} alt="Shape Yellow Icon" layout="raw" />
                   </s.iconOverlay>
@@ -110,7 +111,7 @@ const SectionServiceBoxes = () => {
                     </Link>
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={backendDevelopmentIcon} alt="Backend Development Icon" layout="raw" />
+                  <Image src={codeIcon} alt="Backend Development Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapeOrangeIcon} alt="Shape Blue Icon" layout="raw" />
                   </s.iconOverlay>

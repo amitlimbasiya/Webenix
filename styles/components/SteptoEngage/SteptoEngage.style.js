@@ -7,7 +7,7 @@ export const SteptoEngageWrapper  = styled.div`
 
 
     ${mediaQueriesmin("xxl")`  
-       .container{
+       .container{ 
         max-width: 1440px;
        }
     `} 

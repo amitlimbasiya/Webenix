@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 import * as s from "../../../styles/components/UIUXDesignPage/PageBanner.style"; 
 import uiUxIcon from '../../../public/images/uiuxDesign/uiux-banner.svg';
- 
+  
 const PageBanner = () => {
   return (
     <> 

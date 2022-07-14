@@ -6,9 +6,6 @@ export const PageBannerWrapper  = styled.div`
     position: relative;
     overflow: hidden;
 
-    ${mediaQueries("xl")`
-        min-height: unset;
-    `}
     &:before{
         content: '';
         position: absolute;
@@ -21,12 +18,16 @@ export const PageBannerWrapper  = styled.div`
 
     .container{      
         position: relative;
-        padding-top: 150px;
+        padding-top: 200px;
         padding-bottom: 150px;
         padding-left: 30px;
         padding-right: 30px;
         max-width: 1430px;
 
+        ${mediaQueries("xxl")`
+            padding-top: 180px;
+            padding-bottom: 120px;
+        `}
         ${mediaQueries("xl")`
             padding-top: 150px;
             padding-bottom: 100px;
@@ -52,7 +53,7 @@ export const PageBannerWrapper  = styled.div`
         text-align: right;
     }
     .pagebannerimg-col img{
-        height: 300px;
+        height: 250px;
         width: 100%;
     }
     ${mediaQueries("xxl")`
@@ -78,7 +79,7 @@ export const PageBannerWrapper  = styled.div`
 export const PageBannerContentPart  = styled.div` 
     padding-right: 80px;
     
-    ${mediaQueries("xll")`
+    ${mediaQueries("xlx")`
         padding-right: 0px;
     `}
     

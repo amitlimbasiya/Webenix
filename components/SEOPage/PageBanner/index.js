@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 import * as s from "../../../styles/components/SEOPage/PageBanner.style"; 
 import seoBannerIcon from '../../../public/images/seo/seoBannerIcon.svg';
- 
+
 const PageBanner = () => {
   return (
     <> 

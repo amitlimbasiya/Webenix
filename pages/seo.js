@@ -4,8 +4,8 @@ import SectionIntro from '../components/SEOPage/SectionIntro';
 import SectionServiceBoxes from '../components/SEOPage/ServiceBoxes';
 import HireServies from '../components/HireServices';
 import Blog from '../components/Blog';
-import SteptoEngage from '../components/SEOPage/SteptoEngage';
-import TechnologyStack from '../components/SEOPage/TechnologyStack';
+import SteptoEngage from '../components/SteptoEngage';
+import TechnologyStack from '../components/TechnologyStack';
 
 const SEO = () => {
   return (

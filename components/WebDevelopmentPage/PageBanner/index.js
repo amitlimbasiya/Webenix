@@ -3,12 +3,12 @@ import Link from "next/link";
 import Image from "next/image"; 
 import { Container, Row, Col } from "react-bootstrap";
 import * as s from "../../../styles/components/WebDevelopmentPage/PageBanner.style"; 
-import webDevelopmentIcon from '../../../public/images/web-development-icon.svg';
+import codeIcon from '../../../public/images/codeIcon.svg';
  
 const PageBanner = () => {
   return (
     <> 
-     <s.PageBannerWrapper className="pagebanner-section pagebg-about">
+     <s.PageBannerWrapper className="pagebanner-section pagebg-about noiseBg">
         <Container>
           <Row>
               <Col md={7} className="pagebannercontent-col">
@@ -22,7 +22,7 @@ const PageBanner = () => {
               </Col>
               <Col md={5} className="pagebannerimg-col">
                 <s.PageBannerImagePart className='pagebanner-imgpart'>
-                  <Image src={webDevelopmentIcon} alt="Logo" className='img-fluid' layout="raw"/>
+                  <Image src={codeIcon} alt="Logo" className='img-fluid' layout="raw"/>
                 </s.PageBannerImagePart>
               </Col>
           </Row>

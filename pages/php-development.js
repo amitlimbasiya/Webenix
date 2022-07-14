@@ -1,21 +1,21 @@
 import React from 'react'
 import PageBanner from '../components/PHPDevelopment/PageBanner';
 import SectionIntro from '../components/PHPDevelopment/SectionIntro';
-import SectionServiceBoxes from '../components/PHPDevelopment/ServiceBoxes';
+import ServiceFeatureBox from '../components/ServiceFeatureBox';
 import HireServies from '../components/HireServices';
 import Blog from '../components/Blog';
-import SteptoEngage from '../components/PHPDevelopment/SteptoEngage';
-import TechnologyStack from '../components/PHPDevelopment/TechnologyStack';
+import SteptoEngage from '../components/SteptoEngage';
+import TechnologyStack from '../components/TechnologyStack';
 
 const PHPDEVELOPMENT = () => {
   return (
     <>
     <PageBanner/>
     <SectionIntro/>
-    <SectionServiceBoxes/>
+    <ServiceFeatureBox/>
     <HireServies/>
     <TechnologyStack/>
-    <SteptoEngage/>
+    <SteptoEngage/> 
     <Blog/>
     </>
   )

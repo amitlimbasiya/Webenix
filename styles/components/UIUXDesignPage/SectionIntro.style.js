@@ -48,126 +48,123 @@ export const SectionIntroWrapper  = styled.div`
 
 export const SectionTagline  = styled.div`
  
-    margin-bottom: 50px;
+ margin-bottom: 50px;
+
+${mediaQueries("llg")` 
+    margin-bottom: 45px
+`} 
+
+${mediaQueries("xl")` 
+    margin-bottom:20px
+`} 
+
+${mediaQueries("mobile")` 
+    margin-bottom: 10px 
+`} 
+
+${mediaQueries("xxs")` 
+    margin-bottom: 10px 
+`} 
+
+.before-dash{ 
+    position: relative;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    padding-left: 45px; 
+    font-style: italic;
 
     ${mediaQueries("llg")` 
-        margin-bottom: 45px
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 10px;
+        display: inline-block;
     `} 
-
-    ${mediaQueries("xl")` 
-        margin-bottom:20px
+    ${mediaQueries("llg")` 
+        font-size: 20px;
+        line-height: 30px;
     `} 
+}
 
-    ${mediaQueries("mobile")` 
-        margin-bottom: 10px 
-    `} 
+.before-dash::before{
+    position: absolute; 
+    content: "";
+    height: 2px;
+    width: 30px;
+    position: absolute;
+    left: 0;
+    background-color: #000;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
 
-    ${mediaQueries("xxs")` 
-        margin-bottom: 10px 
-    `} 
-
-    .before-dash{ 
-        position: relative;
+h2{
+    font-size: 40px;
+    line-height: 50px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    margin: 0;
+    ${mediaQueries("xlx")` 
+        font-size: 30px;
+        line-height: 40px;
+    `}  
+    ${mediaQueries("llg")` 
+        font-size: 26px;
+        line-height: 36px;
+    `}  
+    ${mediaQueries("mobile")`
         font-size: 24px;
-        line-height: 38px;
-        letter-spacing: 0.2px;
-        padding-left: 45px; 
-        font-style: italic;
-
-        ${mediaQueries("llg")` 
-            font-size: 20px;
-            line-height: 30px;
-            margin-bottom: 10px;
-            display: inline-block;
-        `} 
-    }
-
-    .before-dash::before{
-        position: absolute; 
-        content: "";
-        height: 2px;
-        width: 30px;
-        position: absolute;
-        left: 0;
-        background-color: #000;
-        top: 50%;
-        transform: translateY(-50%);
-        -webkit-transform: translateY(-50%);
-    }
-
-    h2{
-        font-size: 48px;
-        line-height: 68px;
-        font-family: 'Montserrat', sans-serif; 
-        font-weight: 700; 
-        margin: 0;
-
-        ${mediaQueries("xl")` 
-            font-size: 42px;
-            line-height: 52px;
-        `}  
-
-        ${mediaQueries("llg")` 
-            font-size: 36px;
-            line-height: 46px;
-        `}  
-
-        ${mediaQueries("mobile")`
-            font-size: 26px;
-            line-height: 36px;
-        `}
-    }
+        line-height: 34px;
+    `}
+}
     
 `;
 
 export const SectionHeader  = styled.div` 
 
     h3{
-        font-size: 36px;
-        line-height: 50px;
+        font-size: 32px;
+        line-height: 42px;
         font-family: 'Montserrat', sans-serif; 
         font-weight: 600;
-
-        ${mediaQueries("xl")` 
-            font-size: 32px;
-            line-height: 42px;
-        `}
-
-        ${mediaQueries("llg")` 
+        ${mediaQueries("xlx")` 
             font-size: 28px;
-            line-height: 48px;
-        `}  
-
-        ${mediaQueries("mobile")`
+            line-height: 38px;
+        `}
+        ${mediaQueries("llg")` 
             font-size: 22px;
             line-height: 32px;
+        `}  
+        ${mediaQueries("mobile")`
+            font-size: 18px;
+            line-height: 28px;
         `} 
-
         ${mediaQueries("xxs")`
-           font-size: 22px;
-           line-height: 32px;
+            font-size: 16px;
+            line-height: 26px;
         `}
-
     } 
 
     p{
         font-family: "DINPro-Medium";
-        font-size: 24px;
-        line-height: 38px;
+        font-size: 22px;
+        line-height: 32px;
         color: #000;
-
         &:last-child{
             margin-bottom: 0px;
         }
-
+        ${mediaQueries("xlx")` 
+            font-size: 18px;
+            line-height: 28px;
+        `}
+        ${mediaQueries("llg")` 
+            font-size: 16px;
+            line-height: 24px;
+        `}  
         ${mediaQueries("mobile")`
-           font-size: 20px;
-           line-height: 30px;
-        `} 
-
-        ${mediaQueries("xxs")`
-           font-size: 16px;
-           line-height: 26px;
+           font-size: 14px;
+           line-height: 24px;
         `} 
     }
 `;

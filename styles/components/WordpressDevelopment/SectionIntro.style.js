@@ -5,13 +5,13 @@ export const SectionIntroWrapper  = styled.div`
 
     .container{
         max-width: 1140px;
-        padding-left: 0px;
+        padding-left: 0px; 
         padding-right: 0px;
     } 
 
     background-image: url("images/noisy-texture.png");  
     padding-top: 120px; 
-    padding-bottom: 110px; 
+    padding-bottom: 100px; 
     padding-left: 30px;
     padding-right: 30px;
     position: relative;
@@ -40,7 +40,7 @@ export const SectionIntroWrapper  = styled.div`
         height: 43px;
         width: 100%;
         transform: translateX(-50%);
-        background: url("images/wordpressDevelopment/shaprator-shadow.png");  
+        background: url("images/solution/shaprator-shadow.png");  
         background-size: contain;
         background-repeat: no-repeat;
     }
@@ -80,6 +80,10 @@ export const SectionTagline  = styled.div`
             margin-bottom: 10px;
             display: inline-block;
         `} 
+        ${mediaQueries("llg")` 
+            font-size: 20px;
+            line-height: 30px;
+        `} 
     }
 
     .before-dash::before{
@@ -96,25 +100,22 @@ export const SectionTagline  = styled.div`
     }
 
     h2{
-        font-size: 48px;
-        line-height: 68px;
-        font-family: 'Montserrat', sans-serif; 
-        font-weight: 700; 
+        font-size: 40px;
+        line-height: 50px;
+        font-family: 'Montserrat',sans-serif;
+        font-weight: 700;
         margin: 0;
-
-        ${mediaQueries("xl")` 
-            font-size: 42px;
-            line-height: 52px;
+        ${mediaQueries("xlx")` 
+            font-size: 30px;
+            line-height: 40px;
         `}  
-
         ${mediaQueries("llg")` 
-            font-size: 36px;
-            line-height: 46px;
-        `}  
-
-        ${mediaQueries("mobile")`
             font-size: 26px;
             line-height: 36px;
+        `}  
+        ${mediaQueries("mobile")`
+            font-size: 24px;
+            line-height: 34px;
         `}
     }
     
@@ -123,51 +124,47 @@ export const SectionTagline  = styled.div`
 export const SectionHeader  = styled.div` 
 
     h3{
-        font-size: 36px;
-        line-height: 50px;
+        font-size: 32px;
+        line-height: 42px;
         font-family: 'Montserrat', sans-serif; 
         font-weight: 600;
-
-        ${mediaQueries("xl")` 
-            font-size: 32px;
-            line-height: 42px;
-        `}
-
-        ${mediaQueries("llg")` 
+        ${mediaQueries("xlx")` 
             font-size: 28px;
-            line-height: 48px;
-        `}  
-
-        ${mediaQueries("mobile")`
+            line-height: 38px;
+        `}
+        ${mediaQueries("llg")` 
             font-size: 22px;
             line-height: 32px;
+        `}  
+        ${mediaQueries("mobile")`
+            font-size: 18px;
+            line-height: 28px;
         `} 
-
         ${mediaQueries("xxs")`
-           font-size: 22px;
-           line-height: 32px;
+            font-size: 16px;
+            line-height: 26px;
         `}
-
     } 
 
     p{
         font-family: "DINPro-Medium";
-        font-size: 24px;
-        line-height: 38px;
+        font-size: 22px;
+        line-height: 32px;
         color: #000;
-
         &:last-child{
             margin-bottom: 0px;
         }
-
+        ${mediaQueries("xlx")` 
+            font-size: 18px;
+            line-height: 28px;
+        `}
+        ${mediaQueries("llg")` 
+            font-size: 16px;
+            line-height: 24px;
+        `}  
         ${mediaQueries("mobile")`
-           font-size: 20px;
-           line-height: 30px;
-        `} 
-
-        ${mediaQueries("xxs")`
-           font-size: 16px;
-           line-height: 26px;
+           font-size: 14px;
+           line-height: 24px;
         `} 
     }
 `;
