@@ -9,12 +9,12 @@ import flutterIcon from '../../public/images/flutter-icon.svg';
 import uiUxIcon from '../../public/images/ui-ux-icon.svg';
 import mobileAppDesignIcon from '../../public/images/mobile-app-design-icon.svg';
 import esd from '../../public/images/enterprise-software-development.png';
-import webDevelopmentIcon from '../../public/images/web-development-icon.svg';
+import codeIcon from '../../public/images/codeIcon.svg';
 import eCommerceIcon from '../../public/images/eCommerce-icon.svg';
 import aspNetDevelopmentIcon from '../../public/images/asp-net-development-icon.svg';
 import hireDedicatedDevelopersIcon from '../../public/images/hire-dedicated-developers-icon.svg';
 import androidAppIcon from '../../public/images/android-app-icon.svg';
-import iosDevIcon from '../../public/images/iphone-icon.svg';
+import iosDevIcon from '../../public/images/apple-ios.svg';
 import wordpressDevIcon from '../../public/images/wordpress-icon.svg';
 import smoIcon from '../../public/images/smo-icon.svg';
 import websiteDesignIcon from '../../public/images/website-design-icon.svg';
@@ -90,7 +90,7 @@ const Services = () => {
                                 <ul>
                                     <li>
                                         <Link href="#">
-                                            <a><Image src={webDevelopmentIcon} alt="Web Development Icon" className='img-fluid' layout='raw'/> Web Development</a>
+                                            <a><Image src={codeIcon} alt="Web Development Icon" className='img-fluid' layout='raw'/> Web Development</a>
                                         </Link>
                                     </li>
                                     <li>

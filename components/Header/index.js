@@ -7,8 +7,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown} from '@fortawesome/free-solid-svg-icons';
 import LogoImage from "../../public/images/webenix-full-logo.svg";
 import webSiteDevelopmentIcon from '../../public/images/website-development.svg';
+import codeigniteIcon from '../../public/images/codeigniteIcon.svg';
+import codeIcon from '../../public/images/codeIcon.svg';
 import uiUxIcon from '../../public/images/ui-ux-icon.svg';
-import iphoneIcon from '../../public/images/iphone-icon.svg';
+import webFlowIcon from '../../public/images/webFlowIcon.svg';
 import websiteDesignIcon from '../../public/images/website-design-icon.svg';
 import webDevelopmentIcon from '../../public/images/web-development-icon.svg';
 import eCommerceIcon from '../../public/images/eCommerce-icon.svg';
@@ -198,7 +200,7 @@ const Header = () => {
                           <Link href={router.WEBDEVELOPMENT}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
-                              <Image src={webDevelopmentIcon} alt="Web Development Icon" layout='raw'/>
+                              <Image src={codeIcon} alt="Web Development Icon" layout='raw'/>
                                 <p>Web Development</p>
                               </s.MenuItemText>
                               
@@ -400,7 +402,7 @@ const Header = () => {
                           <Link href="#">
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
-                                <Image src={webDevelopmentIcon} alt="Codeigniter" layout="raw" />
+                                <Image src={codeigniteIcon} alt="Codeigniter" layout="raw" />
                                 <p>Codeigniter</p>
                               </s.MenuItemText>
                               
@@ -432,7 +434,7 @@ const Header = () => {
                           <Link href="#">
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
-                                <Image src={webDevelopmentIcon} alt="Webflow Development" layout="raw" />
+                                <Image src={webFlowIcon} alt="Webflow Development" layout="raw" />
                                 <p>Webflow Development</p>
                               </s.MenuItemText>
                               

@@ -127,18 +127,31 @@ export const ServiceBox  = styled.div`
     & .itemBoxes{
         ${mediaQueries("sm")` 
             width: 50%;
+            margin-bottom: 30px;
         `} 
         ${mediaQueries("xxs")` 
             width: 100%;
         `}
+        & > div{
+            ${mediaQueries("tablet")` 
+                display: flex;
+                flex-wrap: wrap;
+                height: 100%;
+                margin:0px;
+            `}
+        }
+        ${mediaQueries("tablet")` 
+            margin-bottom:30px;
+        `}
     }
+    
 `;
 
 export const boxPart  = styled.div`
     background: #fff;
     border-radius: 20px;
     box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 5%);
-    padding: 30px;
+    padding: 15px;
     position: relative;
     margin-bottom: 30px;
     position: relative;
