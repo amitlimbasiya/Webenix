@@ -25,5 +25,11 @@ const router = {
 
   PHPDEVELOPMENT: "php-development", 
   WORDPRESSDEVELOPMENT: "wordpress-development", 
+  REACTJSDEVELOPMENT: "reactjs-development", 
+  NODEJSDEVELOPMENT: "nodejs-development",
+
+  ANDROIDAPPSDEVELOPMENT: "android-app-development",
+  FLUTTERAPPSDEVELOPMENT: "flutter-app-development",
+  
 };
 export default router;

@@ -127,22 +127,17 @@ export const ServiceBox  = styled.div`
     & .itemBoxes{
         ${mediaQueries("sm")` 
             width: 50%;
-            margin-bottom: 30px;
         `} 
         ${mediaQueries("xxs")` 
             width: 100%;
         `}
         & > div{
-            ${mediaQueries("tablet")` 
-                display: flex;
-                flex-wrap: wrap;
-                height: 100%;
-                margin:0px;
-            `}
+            display: flex;
+            flex-wrap: wrap;
+            height: 100%;
+            margin:0px;
         }
-        ${mediaQueries("tablet")` 
-            margin-bottom:30px;
-        `}
+        margin-bottom:30px;
     }
     
 `;
@@ -182,7 +177,19 @@ export const boxPart  = styled.div`
 
     &.saffronPart{border-color: #ff9d8f;}
     &.saffronPart svg{fill: #ff9d8f;} 
+
+    &.carolinaBluePart{border-color: #98b4e5;}
+    &.carolinaBluePart svg{fill: #98b4e5;} 
+
+    &.grayPart{border-color: #c9c9c9;}
+    &.grayPart svg{fill: #c9c9c9;}
     
+    &.blushPart{border-color: #f4a196;}
+    &.blushPart svg{fill: #f4a196;}
+    
+    &.espressoPart{border-color: #612718;}
+    &.espressoPart svg{fill: #612718;}
+
     ${mediaQueries("tablet")` 
         padding: 20px;
     `} 
@@ -195,6 +202,7 @@ export const boxPart  = styled.div`
 
 export const partItem  = styled.div`
     &.textPart{
+        height: 100%;
         width: 100%;         
     }
     &.imgPart{
@@ -226,22 +234,18 @@ export const partItem  = styled.div`
     
 `;
 export const boxHeading  = styled.h3`
-    font-size: 24px;
+    font-size: 20px;
     font-family: 'Montserrat', sans-serif; 
     font-weight: 700; 
     color: #000;
     line-height: 1.25;
-    letter-spacing: 0.2px;
-    margin: 0px 0px 10px;
+    margin: 0px;
 
     ${mediaQueries("llg")` 
-        font-size: 20px;
-    `}
-    ${mediaQueries("mobile")` 
-        font-size: 18px;
-    `}         
-    ${mediaQueries("sm")` 
         font-size: 16px;
+    `}
+    ${mediaQueries("sm")` 
+        font-size: 15px;
     `}         
 `;
 export const iconOverlay  = styled.div`
