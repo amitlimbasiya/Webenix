@@ -2,7 +2,7 @@ import React from 'react';
 import Link from "next/link";
 import Image from "next/image"; 
 import { Container, Row, Col } from "react-bootstrap";
-import * as s from "../../../styles/components/nodejsDevelopment/PageBanner.style"; 
+import * as s from "../../../styles/components/NodeJsDevelopment/PageBanner.style"; 
 import nodeBannerIcon from "../../../public/images/nodejsDevelopment/nodeBannerIcon.svg";  
  
 const PageBanner = () => {

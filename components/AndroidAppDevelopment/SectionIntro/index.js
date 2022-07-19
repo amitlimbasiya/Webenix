@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from "next/image"; 
 import { Container, Row, Col } from "react-bootstrap";
-import * as s from "../../../styles/components/WordpressDevelopment/SectionIntro.style"; 
+import * as s from "../../../styles/components/AndroidAppDevelopment/SectionIntro.style"; 
 
 const SectionIntro = () => {
   return (

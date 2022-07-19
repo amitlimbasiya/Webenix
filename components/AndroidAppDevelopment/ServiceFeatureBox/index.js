@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link'
 import Image from 'next/image';
 import { Container, Row, Col } from "react-bootstrap";
-import * as s from "../../../styles/components/androidAppDevelopment/ServiceFeatureBox.style";
+import * as s from "../../../styles/components/AndroidAppDevelopment/ServiceFeatureBox.style";
 import reactUXIcon from "../../../public/images/androidAppDevelopment/reactUXIcon.svg";
 import maintenanceSupportIcon from '../../../public/images/androidAppDevelopment/maintenanceSupportIcon.svg';
 import fullCycleAppIcon from '../../../public/images/androidAppDevelopment/fullCycleAppIcon.svg';

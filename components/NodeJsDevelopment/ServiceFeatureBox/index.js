@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link'
 import Image from 'next/image';
 import { Container, Row, Col } from "react-bootstrap";
-import * as s from "../../../styles/components/nodejsDevelopment/ServiceFeatureBox.style";
+import * as s from "../../../styles/components/NodeJsDevelopment/ServiceFeatureBox.style";
 import reactUXIcon from "../../../public/images/nodejsDevelopment/reactUXIcon.svg";
 import cmsDevelopmentIcon from '../../../public/images/nodejsDevelopment/cmsDevelopmentIcon.svg';
 import serverSideIcon from '../../../public/images/nodejsDevelopment/serverSideIcon.svg';

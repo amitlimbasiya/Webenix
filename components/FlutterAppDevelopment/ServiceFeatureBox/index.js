@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link'
 import Image from 'next/image';
 import { Container, Row, Col } from "react-bootstrap";
-import * as s from "../../../styles/components/flutterAppDevelopment/ServiceFeatureBox.style";
+import * as s from "../../../styles/components/FlutterAppDevelopment/ServiceFeatureBox.style";
 import reactUXIcon from "../../../public/images/flutterAppDevelopment/reactUXIcon.svg";
 import crossPlatformIcon from "../../../public/images/flutterAppDevelopment/crossPlatformIcon.svg";
 import appleIcon from '../../../public/images/flutterAppDevelopment/appleIcon.svg';
