@@ -1,10 +1,15 @@
 import styled, { css } from "styled-components";
-import { mediaQueries, mediaQueriesmin } from "../../utils/mediaQuery";
+import { mediaQueries, mediaQueriesmin } from "../../../utils/mediaQuery";
 
 export const OurExpertiseWrapper  = styled.div` 
+    .container{
+        max-width: 1140px;
+        padding-left: 0px; 
+        padding-right: 0px;
+    } 
 
     padding: 120px 0 60px;  
-    background-color: #f1f2fe;    
+    background-color: #fff;    
 
     [class*="col-"]{
         padding-left: 15px;
@@ -132,25 +137,29 @@ export const SectionTagline  = styled.div`
 `;
 
 export const OurExpertisBox  = styled.div` 
-    width: 100%;
+
     position: relative;
     padding: 30px 30px 30px;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0 0 0 / 20%);
     -webkit-box-shadow: 0px 0px 10px rgba(0 0 0 / 20%);
     margin-bottom: 90px;
     background-image: url(images/noisy-texture.png);
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+    -ms-flex: 1 1 0;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 100%;
+    -ms-flex: 1 100%;
+    flex: 1 100%;
 
     ${mediaQueries("llg")`
         padding: 20px;
     `}
-
     ${mediaQueries("mobile")`
-        min-height: 160px;
+        margin-bottom: 60px;
     `}
 
 `;
@@ -185,8 +194,13 @@ export const OurExpertisNumber  = styled.div`
         height: 70px;
         top: -35px;
     `}
-
-
+    ${mediaQueries("mobile")`
+        font-size: 20px;
+        line-height: 30px;
+        width: 60px;
+        height: 60px;
+        top: -30px;
+    `}
 `;
 
 export const OurExpertisTitle  = styled.h3` 
@@ -198,7 +212,6 @@ export const OurExpertisTitle  = styled.h3`
     ${mediaQueries("llg")` 
         font-size: 20px;
         line-height: 30px;
-        margin-top: 15px; 
     `} 
 
     ${mediaQueries("mobile")`

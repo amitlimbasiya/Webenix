@@ -6,6 +6,10 @@ const router = {
 
   HireWordPressDeveloper: "hire-wordpress-developer",
   HireGraphicsDesigner: "hire-graphics-designer",
+  HireWebDesigner: "hire-web-designer",
+  HirePHPDeveloper: "hire-php-developer",
+  HireAndroidDeveloper: "hire-android-developer",
+  HireFlutterDeveloper: "hire-flutter-developer",
   
   GRAPHICSDESIGN: "graphics-design",
   WEBDESIGN: "web-design",
@@ -30,6 +34,8 @@ const router = {
 
   ANDROIDAPPSDEVELOPMENT: "android-app-development",
   FLUTTERAPPSDEVELOPMENT: "flutter-app-development",
+
+  RESPONSIVEWEBDESIGN: "responsive-web-design",
   
 };
 export default router;

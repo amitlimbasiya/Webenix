@@ -1,14 +1,14 @@
 import React from 'react';
-import PageBanner from '../components/HireGraphicsDesignerPage/PageBanner';
-import SectionIntro from '../components/HireGraphicsDesignerPage/SectionIntro';
+import PageBanner from '../components/HireWebDesignerPage/PageBanner';
+import SectionIntro from '../components/HireWebDesignerPage/SectionIntro';
 import HiringModels from '../components/HiringModels';
-import OurExpertise from '../components/HireGraphicsDesignerPage/OurExpertise';
+import OurExpertise from '../components/HireWebDesignerPage/OurExpertise';
 import Benefits from '../components/Benefits';
 import FAQAccordion from '../components/FAQAccordion';
 import Blog from '../components/Blog';
 
 
-const HireGraphicsDesignPage = () => {
+const HireWebDesigner = () => {
   return (
     <>
       <PageBanner/>
@@ -22,4 +22,4 @@ const HireGraphicsDesignPage = () => {
   );
 };
 
-export default HireGraphicsDesignPage
+export default HireWebDesigner

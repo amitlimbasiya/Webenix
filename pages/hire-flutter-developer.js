@@ -1,14 +1,14 @@
 import React from 'react';
-import PageBanner from '../components/HireGraphicsDesignerPage/PageBanner';
-import SectionIntro from '../components/HireGraphicsDesignerPage/SectionIntro';
+import PageBanner from '../components/HireFlutterDeveloper/PageBanner';
+import SectionIntro from '../components/HireFlutterDeveloper/SectionIntro';
 import HiringModels from '../components/HiringModels';
-import OurExpertise from '../components/HireGraphicsDesignerPage/OurExpertise';
+import OurExpertise from '../components/HireFlutterDeveloper/OurExpertise';
 import Benefits from '../components/Benefits';
 import FAQAccordion from '../components/FAQAccordion';
 import Blog from '../components/Blog';
 
 
-const HireGraphicsDesignPage = () => {
+const HireFlutterDeveloper = () => {
   return (
     <>
       <PageBanner/>
@@ -22,4 +22,4 @@ const HireGraphicsDesignPage = () => {
   );
 };
 
-export default HireGraphicsDesignPage
+export default HireFlutterDeveloper

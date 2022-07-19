@@ -16,6 +16,8 @@ export const FAQAccordionWrapper  = styled.div`
         background-color: rgb(239, 243, 247);
         box-shadow: 0px 0px 10px rgb(0 0 0 / 15%);
         margin-bottom:  20px;
+        overflow: hidden;
+        border: none;
     }
 
     .accordion .accordion-button{
@@ -44,6 +46,7 @@ export const FAQAccordionWrapper  = styled.div`
         svg{
             right: 25px;
             position: absolute;
+            width: 20px;
             transition: transform .2s ease-in-out;
         }
 
