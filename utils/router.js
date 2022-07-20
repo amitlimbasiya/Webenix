@@ -10,6 +10,8 @@ const router = {
   HirePHPDeveloper: "hire-php-developer",
   HireAndroidDeveloper: "hire-android-developer",
   HireFlutterDeveloper: "hire-flutter-developer",
+  HireReactJSDeveloper: "hire-react-js-developer",
+  HireNodeJSDeveloper: "hire-node-js-developer",
   
   GRAPHICSDESIGN: "graphics-design",
   WEBDESIGN: "web-design",

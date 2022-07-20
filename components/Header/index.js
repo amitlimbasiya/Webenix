@@ -646,7 +646,7 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href={router.HirePHPDeveloper}>
+                          <Link href="#">
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={uiUxIcon} alt="Hire UI/UX designer" layout="raw" />
@@ -793,7 +793,7 @@ const Header = () => {
                       <s.MenuListItem className="menulist-item">
                         <s.MenuListTitle className="menulist-title">Hire Frontend Developer</s.MenuListTitle>
                         <s.MenuItemBlock className="menuitem-block">
-                          <Link href="#">
+                        <Link href={router.HireReactJSDeveloper}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={reactjsIcon} alt="Hire React JS developer" layout="raw" />
@@ -802,7 +802,7 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href="#">
+                          <Link href={router.HireNodeJSDeveloper}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={nodeJsIcon} alt="Hire Node JS deveoper" layout="raw" />

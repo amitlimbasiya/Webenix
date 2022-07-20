@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
-import * as s from "../../../styles/components/HireFlutterDeveloper/SectionIntro.style"; 
+import * as s from "../../../styles/components/HireReactJSDeveloper/SectionIntro.style"; 
 
 const SectionIntro = () => {
   return (
@@ -12,7 +12,7 @@ const SectionIntro = () => {
               <h2>An agency just like you!</h2>
             </s.SectionTagline>
             <s.SectionHeader>
-            <h3>Harnessing the power of mobility with cross-platform compatibility, we have been early adopters of Flutter since it’s launch. Know for rapid application development team, ease of programming and native driven performance Flutter is a great choice for making mobile applications.</h3>
+            <h3>With 65+ ReactJS applications delivered successfully under our belt, our concrete action to utilize different aspects of the javascript library into the project have proved worthwhile. Our industry-centric expertise empowers us to grab the unique edge formula for your business and work on any project irrelevance of the complexity.</h3>
             </s.SectionHeader>
         </Container>
     </s.SectionIntroWrapper>

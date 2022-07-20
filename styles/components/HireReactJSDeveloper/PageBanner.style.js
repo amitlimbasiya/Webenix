@@ -2,7 +2,7 @@ import styled, { css } from "styled-components";
 import { mediaQueries, mediaQueriesmin } from "../../../utils/mediaQuery";
 
 export const PageBannerWrapper  = styled.div` 
-    background-color:#dbf5d1;
+    background-color:#d7e1f9;
 
     .container{      
         position: relative;
@@ -52,7 +52,7 @@ export const PageBannerWrapper  = styled.div`
 `;
 
 export const PageBannerContentPart  = styled.div` 
-    padding-right: 80px;
+    padding-right: 50px;
     padding-bottom: 130px;
     
     ${mediaQueries("xll")`
@@ -64,45 +64,58 @@ export const PageBannerContentPart  = styled.div`
   
 
     h1{ 
-        font-family: 'Montserrat',sans-serif;
-        font-weight: 700;
-        font-size: 42px;
+        font-family: 'Montserrat', sans-serif;   
+        font-weight: 900; 
+        font-size: 48px;
         letter-spacing: 0.2px;
         color: #000;
-        margin-bottom: 20px;
 
         ${mediaQueries("mobile")` 
             font-size: 36px;
         `} 
+
+        
     }
 
 
     p{
         font-family: "DINPro-Medium";
-        font-size: 22px;
-        line-height: 32px;
+        font-size: 24px;
+        line-height: 38px;
         color: #000;
-        margin: 0px;
 
-        ${mediaQueries("xl")` 
+        ${mediaQueries("mobile")` 
             font-size: 20px;
             line-height: 34px;
-        `}
-        ${mediaQueries("mobile")` 
-            font-size: 18px;
-            line-height: 28px;
         `}
     }
      
     .btn-default{
-        margin-top: 25px; 
+        margin-top: 30px; 
+
+ 
+        ${mediaQueries("xl")` 
+             margin-top: 0px;
+        `}
     }
+
+    ${mediaQueries("xxl")` 
+    //    padding-bottom: 90px; 
+    //    padding-right: 90px;
+    `} 
+
+    ${mediaQueries("lg")` 
+        // padding-bottom: 60px;
+        // padding-left: 40px;
+        // padding-right: 40px; 
+    `} 
 
     ${mediaQueries("mobile")` 
        text-align: center;
         padding-left: 00px;
         padding-right: 00px; 
     `} 
+
 
 `;
 

@@ -7,7 +7,7 @@ import Timer from "../../public/images/hirewordpressdevloper/timer-icon.svg";
 const HiringModels = () => {
   return (
     <s.HiringModelsWrapper className='noiseBg'>
-        <Container>
+        <Container className='pb-0'>
             <s.SectionTagline>
               <span className='before-dash'>Take a look at</span>
               <h2>Our Hiring Models</h2>

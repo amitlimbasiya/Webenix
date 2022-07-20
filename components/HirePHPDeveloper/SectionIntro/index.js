@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
-import * as s from "../../../styles/components/AboutPage/SectionIntro.style"; 
+import * as s from "../../../styles/components/HirePHPDeveloper/SectionIntro.style"; 
 
 const SectionIntro = () => {
   return (

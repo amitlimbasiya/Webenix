@@ -32,8 +32,8 @@ export const OurExpertiseWrapper  = styled.div`
 
         ${mediaQueries("llg")` 
             max-width: 100%;
-            padding-left: 30px;
-            padding-right: 30px;
+            padding-left: 20px;
+            padding-right: 20px;
         `} 
     }
 
@@ -65,12 +65,7 @@ export const SectionTagline  = styled.div`
 
 
     ${mediaQueries("llg")` 
-        margin-bottom:90px;
-    `} 
-
-   
-    ${mediaQueries("mobile")` 
-        margin-bottom: 80px;
+        margin-bottom: 60px
     `} 
 
     .before-dash{ 
@@ -79,18 +74,14 @@ export const SectionTagline  = styled.div`
         line-height: 38px;
         letter-spacing: 0.2px;
         padding-left: 45px; 
+        font-family: 'Montserrat', sans-serif; 
         font-style: italic;
+        font-weight: 500;
+        color: rgb(64,64,64);
 
         ${mediaQueries("llg")` 
             font-size: 20px;
-            line-height: 30px;
-            margin-bottom: 10px;
-            display: inline-block;
-        `} 
-
-        ${mediaQueries("llg")` 
-            font-size: 20px;
-            line-height: 30px;
+            ine-height: 30px;
         `} 
     }
 
@@ -105,30 +96,25 @@ export const SectionTagline  = styled.div`
         top: 50%;
         transform: translateY(-50%);
         -webkit-transform: translateY(-50%);
-    }
+    } 
 
     h2{
-        font-size: 48px;
-        line-height: 68px;
+        font-size: 42px;
+        line-height: 52px;
         font-family: 'Montserrat', sans-serif; 
         font-weight: 700; 
-
-        ${mediaQueries("xl")` 
-            font-size: 42px;
-            line-height: 52px;
-        `}  
 
         ${mediaQueries("llg")` 
             font-size: 36px;
             line-height: 46px;
-        `}  
+        `} 
 
         ${mediaQueries("mobile")`
-            font-size: 26px;
-            line-height: 36px;
+            font-size: 28px;
+            line-height: 40px;
         `}
-    }
-    
+
+    }    
 `;
 
 export const OurExpertisBox  = styled.div` 
@@ -147,10 +133,6 @@ export const OurExpertisBox  = styled.div`
 
     ${mediaQueries("llg")`
         padding: 20px;
-    `}
-
-    ${mediaQueries("mobile")`
-        min-height: 160px;
     `}
 
 `;
@@ -198,7 +180,6 @@ export const OurExpertisTitle  = styled.h3`
     ${mediaQueries("llg")` 
         font-size: 20px;
         line-height: 30px;
-        margin-top: 15px; 
     `} 
 
     ${mediaQueries("mobile")`
