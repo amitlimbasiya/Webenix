@@ -14,7 +14,7 @@ const PageBanner = () => {
               <Col md={7} className="pagebannercontent-col">
                 <s.PageBannerContentPart >
                   <h1>Hire <span className='textGreen'>NodeJS</span> Developers</h1> 
-                  <p>We ensure SCRUM based execution when you hire an expert NodeJS developer from CMARIX for building strong backend and APIs for your enterprise platform. Hire NodeJS developers today to ensure the right technology decision for your project.</p>
+                  <p>A strong backend and API are important to create the best software development. Hire Webenix’s NodeJS Developer for ensuring a strong technical background for your business. </p>
                   <Link href="">
                     <a className='btn-default btn-arrow'>Know More</a>
                   </Link>

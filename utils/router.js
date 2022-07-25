@@ -1,8 +1,7 @@
-// const dashboardRoute = "/dashboard";
-
 const router = {
   ABOUT: "about",
   SOLUTION: "solution",
+  CAREER: "career",
 
   HireWordPressDeveloper: "hire-wordpress-developer",
   HireGraphicsDesigner: "hire-graphics-designer",

@@ -8,11 +8,12 @@ const SectionIntro = () => {
     <s.SectionIntroWrapper className="introuction-section separatorPart">
         <Container>
             <s.SectionTagline>
-              <span className='before-dash'>We Are Different</span>
-              <h2>An agency just like you!</h2>
+              <span className='before-dash'>Get the best from the best</span>
+              <h2>Be a part of the $400 industry</h2>
             </s.SectionTagline>
             <s.SectionHeader>
-            <h3>We defy the norms and our live 387+ apps on the App store are a great example of our work. The increasing growth stack behind the successful Android apps is a reflection of our passion and obsession for excellent code-quality.</h3>
+            <h3>Leverage your performance experience with custom mobile app development.</h3>
+            <p>Breaking the monotonous working of mobile apps, we believe in creating magic for you. The demand for the mobile application amongst users defines strong code development. </p>
             </s.SectionHeader>
         </Container>
     </s.SectionIntroWrapper>

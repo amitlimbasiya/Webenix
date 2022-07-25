@@ -14,7 +14,7 @@ const PageBanner = () => {
               <Col md={7} className="pagebannercontent-col">
                 <s.PageBannerContentPart >
                   <h1>Hire <span className='textGreen'>Graphics</span> Designer</h1> 
-                  <p><b>Design is POWER.</b> it inspires and convinces users to stay engaged. We bring power to our design with a human-centered design process by not just keeping the users in mind but even by involving the users in the process. The result: A design that delights users.</p>
+                  <p>With the trendy and eye-catching design, the team of Webenix’s Graphic Designers will justify the power of design in the digital world which aggregates the human-centred delightful experience.</p>
                   <Link href="">
                     <a className='btn-default btn-arrow'>Know More</a>
                   </Link>

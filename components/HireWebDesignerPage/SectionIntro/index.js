@@ -8,13 +8,12 @@ const SectionIntro = () => {
     <s.SectionIntroWrapper className="introuction-section separatorPart">
         <Container>
             <s.SectionTagline>
-              <span className='before-dash'>Success at Speak</span>
-              <h2>An agency just like you!</h2>
+              <span className='before-dash'>Expertise in responsive website design</span>
+              <h2>Remove the line between Customers and Business owners. </h2>
             </s.SectionTagline>
             <s.SectionHeader>
-            <h3>We just love Designer. Infact we are core contributors to Designer Open-source.</h3>
-            <p> We design, development and maintain several hundred Designer websites for our global customers. Our 253+ live Designer websites are great examples of the quality of work you will receive from a Designer VIP agency.</p>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <h3>Our website design will be fitted in any screen size in front of you. Get yourself a website with zero responsive issues.</h3>
+            <p>We look for our customer’s requirements and make sure to fulfil their vision. With the affordable pricing figure, we make sure to design a website that fits any screen size. Customers get to experience the class functionality with a high ROI. </p>
             </s.SectionHeader>
         </Container>
     </s.SectionIntroWrapper>

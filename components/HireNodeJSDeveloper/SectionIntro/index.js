@@ -8,11 +8,12 @@ const SectionIntro = () => {
     <s.SectionIntroWrapper className="introuction-section separatorPart">
         <Container>
             <s.SectionTagline>
-              <span className='before-dash'>Success at Speak</span>
-              <h2>An agency just like you!</h2>
+              <span className='before-dash'>Stretch the incredibility with Node JS</span>
+              <h2>Give your business wings with Node JS Mobile Application Development. </h2>
             </s.SectionTagline>
             <s.SectionHeader>
-            <h3>We don’t just create web platforms; we create impactful experiences with robust backends that users love and your competitors envy. Our NodeJS development services have transformed the story of 122+ businesses. Whether back-end or front-end, our NodeJS skills will help you embark to market faster with rapid MVPs and incredibly scalable products.</h3>
+            <h3>Let us bring the potential change in your business by Node JS Mobile Application Development. </h3>
+            <p>NodeJS is the best for developing high-quality projects. It brings a game-changing and revolutionary effect for the business considering digitization. With the help of our highly talented and skilful bunch of NodeJS developers, get the best on-the-go services from Webenix.</p>
             </s.SectionHeader>
         </Container>
     </s.SectionIntroWrapper>

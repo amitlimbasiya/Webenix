@@ -14,7 +14,7 @@ const PageBanner = () => {
               <Col md={7} className="pagebannercontent-col">
                 <s.PageBannerContentPart >
                   <h1>Hire <span className='textGreen'>WordPress</span> Developer</h1> 
-                  <p>Being among the preferred development agencies for enterprise Wordpress implementation we are leading Wordpress development Company who provide turnkey services and one stop shop for all your design, development and maintenance business needs.</p>
+                  <p>Going with the best content management system, we at Webinix have the most powerful team to develop world-class WordPress Developed websites with a clean and sleek design and all the after-service maintenance development. </p>
                   <Link href="">
                     <a className='btn-default btn-arrow'>Know More</a>
                   </Link>

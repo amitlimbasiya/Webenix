@@ -165,7 +165,7 @@ export const ctaInner  = styled.div`
         justify-content: space-between;
         background-color: #67c187;
         border-radius: 25px;
-        padding: 90px 90px 90px 130px;
+        padding: 90px 90px 90px 90px;
         position: relative;
         margin: 0 auto;
 

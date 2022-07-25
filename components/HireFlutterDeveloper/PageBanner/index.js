@@ -14,7 +14,7 @@ const PageBanner = () => {
               <Col md={7} className="pagebannercontent-col">
                 <s.PageBannerContentPart >
                   <h1>Hire <span className='textGreen'>Flutter</span> Developers</h1> 
-                  <p>WEBENIX has been working in Flutter since early days. Backed up by Google, one of the most popular cross platform technology for iPhone & Android Mobile as well as Tablet application development.</p>
+                  <p>Webinix has been working with the Flutter development from the initial days and with the technology that is backed up by Google, it is considered to be one of the most demanded technologies. Considering the most powerful technology and cross-platform, we have the most skilful team in Flutter development.</p>
                   <Link href="">
                     <a className='btn-default btn-arrow'>Know More</a>
                   </Link>

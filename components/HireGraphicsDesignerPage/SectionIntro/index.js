@@ -8,13 +8,12 @@ const SectionIntro = () => {
     <s.SectionIntroWrapper className="introuction-section separatorPart">
         <Container>
             <s.SectionTagline>
-              <span className='before-dash'>Success at Speak</span>
-              <h2>An agency just like you!</h2>
+              <span className='before-dash'>Clean and sleek designs</span>
+              <h2>Brand development and growth are what we aim for your business!</h2>
             </s.SectionTagline>
             <s.SectionHeader>
-            <h3>We just love WordPress. Infact we are core contributors to Wordpress Open-source.</h3>
-            <p> We design, development and maintain several hundred Wordpress websites for our global customers. Our 253+ live WordPress websites are great examples of the quality of work you will receive from a Wordpress VIP agency.</p>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <h3>A good design tells a lot about the brand, let us create an impeccable brand for you.</h3>
+            <p>Gone are those days which had the existence of primary colours in front of your eyes. With the advancement in the designs, we make sure to make your business look miscellaneous by embedding our aim and goal towards growing your company.</p>
             </s.SectionHeader>
         </Container>
     </s.SectionIntroWrapper>

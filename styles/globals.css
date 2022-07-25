@@ -86,13 +86,15 @@ a {
   border-radius: 10px;
   position: relative;
   font-family: "DINPro-Medium";
+  border:none;
 }
 
-.btn-default:hover {
-  color: #fff;
-  background-color: #3f3f3f;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+.btn-default:hover,
+.btn-default:focus {
+  color: #fff !important;
+  background-color: #3f3f3f !important;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3) !important;
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3) !important;
 }
 
 .btn-arrow:after {
@@ -212,6 +214,44 @@ a {
   background: url(../public/images/solution/shaprator-shadow.png) 0% 0% / contain no-repeat;
   background-repeat: no-repeat;
   background-position: center !important;
+}
+
+.form-control{
+  background:rgb(245, 245, 245);
+  border-color: #e1e1e1;
+}
+textarea.form-control{
+  height: 100px;
+}
+.form-control:focus{
+  box-shadow: none;
+  background: rgb(245, 245, 245);
+  border-color:rgba(0, 0, 0, 0.5);
+}
+label.form-label{
+  font-weight: 600;
+  font-family: 'Montserrat',sans-serif;
+  color: rgba(0, 0, 0, 0.7);
+}
+.modal-content{
+  border: none;
+}
+.modal-backdrop.show {
+  opacity: .7;
+}
+.modal-header{
+  background: #67c187;
+  color: #fff; 
+  border-bottom: none;
+}
+.modal-title{
+  font-size: 22px;
+  line-height: 42px;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 600;
+}
+.modal-body{
+  padding: 25px;
 }
 @media (min-width: 1600px){
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {

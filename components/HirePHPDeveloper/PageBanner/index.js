@@ -14,8 +14,7 @@ const PageBanner = () => {
               <Col md={7} className="pagebannercontent-col">
                 <s.PageBannerContentPart >
                   <h1>Hire <span className='textGreen'>PHP</span> Developers</h1> 
-                  <p>At WEBENIX, we have been implementing enterprise grade PHP web platforms since over a decade. Our expertise in diverse PHP frameworks ensures you have one stop solution for all your PHP development needs.</p>
-                  <p>Hire PHP developers to avail future-proof PHP solutions.</p>
+                  <p>We at Webenix, have a team of skilful PHP developers with proficiency in PHP web platforms for many years. If you are finding the development for the PHP platforms, then Webenix is the one-stop solution for all your PHP requirements.</p>
                   <Link href="">
                     <a className='btn-default btn-arrow'>Know More</a>
                   </Link>

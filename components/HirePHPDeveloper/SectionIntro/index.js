@@ -8,11 +8,12 @@ const SectionIntro = () => {
     <s.SectionIntroWrapper className="introuction-section separatorPart">
         <Container>
             <s.SectionTagline>
-              <span className='before-dash'>Success at Speak</span>
-              <h2>An agency just like you!</h2>
+              <span className='before-dash'>Successful business with strong backend</span>
+              <h2>Need strong backend development? You are in right place. </h2>
             </s.SectionTagline>
             <s.SectionHeader>
-            <h3>We have been working in PHP since Codeigniter and CakePHP used to lead the race over a decade back. Right now we work on ALL available PHP frameworks including our core expertise in Laravel, Yii, Zend, Symfony, FuelPHP, Phalcon and other custom PHP frameworks.</h3>
+            <h3>Develop a strong backend for the smooth functionality of apps and software, do not let your business wait any longer.</h3>
+            <p>Webenix has been into PHP development for more than a decade now, with the core PHP frameworks like Laravel we have been into developing the strong backend for better functionality.</p>
             </s.SectionHeader>
         </Container>
     </s.SectionIntroWrapper>

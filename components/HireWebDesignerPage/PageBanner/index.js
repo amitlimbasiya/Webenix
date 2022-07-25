@@ -14,7 +14,7 @@ const PageBanner = () => {
               <Col md={7} className="pagebannercontent-col">
                 <s.PageBannerContentPart >
                   <h1>Hire <span className='textGreen'>Web</span> Designer</h1> 
-                  <p>Being among the preferred designer agencies for enterprise Wordpress implementation we are leading Wordpress designer Company who provide turnkey services and one stop shop for all your design, designer and maintenance business needs.</p>
+                  <p>Website is one of the sources to run and develop your business. With better visibility and sleek designs on every screen size will be the artwork of our talented web designers. With powerful and creative business recognition and content placement, it is your one-stop solution. </p>
                   <Link href="">
                     <a className='btn-default btn-arrow'>Know More</a>
                   </Link>

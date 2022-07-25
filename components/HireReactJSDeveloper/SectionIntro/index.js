@@ -8,11 +8,12 @@ const SectionIntro = () => {
     <s.SectionIntroWrapper className="introuction-section separatorPart">
         <Container>
             <s.SectionTagline>
-              <span className='before-dash'>Success at Speak</span>
-              <h2>An agency just like you!</h2>
+              <span className='before-dash'>Explore the super-sleek frontend development</span>
+              <h2>Want the fastest functioning apps, ReactJS is super perfect.</h2>
             </s.SectionTagline>
             <s.SectionHeader>
-            <h3>With 65+ ReactJS applications delivered successfully under our belt, our concrete action to utilize different aspects of the javascript library into the project have proved worthwhile. Our industry-centric expertise empowers us to grab the unique edge formula for your business and work on any project irrelevance of the complexity.</h3>
+            <h3>Scale up your business super fast, providing the best functionality in the frontend development by ReactJS. </h3>
+            <p>ReactJS is considered to be the open-source Javascript Framework that helps in creating dynamic projects. The ReactJS technology is mostly preferred by business owners who want to develop a mobile application totally user-centric. Get yourself one, without worrying about the code quality because we have got it all covered for you.</p>
             </s.SectionHeader>
         </Container>
     </s.SectionIntroWrapper>

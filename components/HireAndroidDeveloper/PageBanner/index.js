@@ -14,7 +14,7 @@ const PageBanner = () => {
               <Col md={7} className="pagebannercontent-col">
                 <s.PageBannerContentPart >
                   <h1>Hire <span className='textGreen'>Android App</span> Developers</h1> 
-                  <p>Aimed to cross the $400 billion industry by 2026, Android mobile & tablet application is most lucrative for your business. Hire Android developer for your startup or enterprise platform.</p>
+                  <p>Considering the most demanded platforms globally, Android will be the $400 billion industry by the year 2026. Hire the best android developers for your startup and experience world-class android mobile app development.</p>
                   <Link href="">
                     <a className='btn-default btn-arrow'>Know More</a>
                   </Link>

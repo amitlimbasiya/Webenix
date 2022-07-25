@@ -25,63 +25,63 @@ const Benefits = () => {
                     <s.BenefibtBox className="Benefitbox">
                         <s.BenefitTitle>Cost Effective</s.BenefitTitle>
                         <Image src={CostEffective} alt="Logo" layout="raw"/>
-                        <p>Choosing Webenix and hiring dedicated resource(s) will be helping you to reduce the employee payroll budget, infrastructure cost as well as offers a very reasonable hourly cost.</p>
+                        <p>Outsourcing will save you from the liabilities like hiring the right resources and investing in the infrastructure. Cut down all the extra costs and simply hire us on a budgeted hourly basis. </p>
+                    </s.BenefibtBox>
+                </Col>
+                <Col lg={4} md={6} sm={6}>
+                    <s.BenefibtBox className="Benefitbox">
+                        <s.BenefitTitle>Multiple work shifts</s.BenefitTitle>
+                        <Image src={ExperiencedProfessionals} alt="Logo" layout="raw"/>
+                        <p>We work according to your timezone carrying three different shifts to match your timezone. Do not worry about the delay in the responses, we will always be here to assist. </p>
+                    </s.BenefibtBox>
+                </Col>
+                <Col lg={4} md={6} sm={6}>
+                    <s.BenefibtBox className="Benefitbox">
+                        <s.BenefitTitle>Better communication</s.BenefitTitle>
+                        <Image src={ProjectCommunication} alt="Logo" layout="raw"/>
+                        <p>Directly talk to the expertise behind developing products for tracking the progress, getting in touch for product queries, easy assigning work and much more.</p>
                     </s.BenefibtBox>
                 </Col>
                 <Col lg={4} md={6} sm={6}>
                     <s.BenefibtBox className="Benefitbox">
                         <s.BenefitTitle>Experienced Professionals</s.BenefitTitle>
-                        <Image src={ExperiencedProfessionals} alt="Logo" layout="raw"/>
-                        <p>At Webenix, you will get experienced professional with 2 to 5 plus years of experience in their respective field.</p>
-                    </s.BenefibtBox>
-                </Col>
-                <Col lg={4} md={6} sm={6}>
-                    <s.BenefibtBox className="Benefitbox">
-                        <s.BenefitTitle>Project Communication</s.BenefitTitle>
-                        <Image src={ProjectCommunication} alt="Logo" layout="raw"/>
-                        <p>You will be directly interacting with team member and will be able to check each small and big progress in the work. So you will have complete update on the work every day and will be able to manage/assign the work accordingly.</p>
+                        <Image src={NonDisclosure} alt="Logo" layout="raw"/>
+                        <p>Do not worry about the quality of work, because Webenix provides professionals who are experts in the field having 3+ years of experience. </p>
                     </s.BenefibtBox>
                 </Col>
                 <Col lg={4} md={6} sm={6}>
                     <s.BenefibtBox className="Benefitbox">
                         <s.BenefitTitle>Non-Disclosure Agreement</s.BenefitTitle>
-                        <Image src={NonDisclosure} alt="Logo" layout="raw"/>
-                        <p>Choosing Webenix and hiring dedicated resource(s) will be helping you to reduce the employee payroll budget, infrastructure cost as well as offers a very reasonable hourly cost.</p>
-                    </s.BenefibtBox>
-                </Col>
-                <Col lg={4} md={6} sm={6}>
-                    <s.BenefibtBox className="Benefitbox">
-                        <s.BenefitTitle>Handpick Your Team Member</s.BenefitTitle>
                         <Image src={HandpickTeam} alt="Logo" layout="raw"/>
-                        <p>At Webenix, you will get experienced professional with 2 to 5 plus years of experience in their respective field.</p>
+                        <p>The trust that you put in us will be bound by the legal NDA process with the assurance of security with your company. </p>
                     </s.BenefibtBox>
                 </Col>
                 <Col lg={4} md={6} sm={6}>
                     <s.BenefibtBox className="Benefitbox">
-                        <s.BenefitTitle>Weekly Billing Model</s.BenefitTitle>
+                        <s.BenefitTitle>Monthly billing product</s.BenefitTitle>
                         <Image src={WeeklyBillingModel} alt="Logo" layout="raw"/>
-                        <p>You will be directly interacting with team member and will be able to check each small and big progress in the work. So you will have complete update on the work every day and will be able to manage/assign the work accordingly.</p>
+                        <p>We do not want complicated payment methods for our customers. Outsource our dedicated developers and pay monthly.</p>
                     </s.BenefibtBox>
                 </Col>
                 <Col lg={4} md={6} sm={6}>
                     <s.BenefibtBox className="Benefitbox">
-                        <s.BenefitTitle>Zero Recruitment Cost</s.BenefitTitle>
+                        <s.BenefitTitle>Zero recruitment cost</s.BenefitTitle>
                         <Image src={ZeroRecruitmentCost} alt="Logo" layout="raw"/>
-                        <p>Using Webenix, Your initial recruitment cost and efforts will become zero.</p>
+                        <p>Absolutely no recruitment or hidden charges while working with Webenix.</p>
                     </s.BenefibtBox>
                 </Col>
                 <Col lg={4} md={6} sm={6}>
                     <s.BenefibtBox className="Benefitbox">
-                        <s.BenefitTitle>No More Costs Per Project</s.BenefitTitle>
+                        <s.BenefitTitle>No more costs per project</s.BenefitTitle>
                         <Image src={NoMoreCostsProject} alt="Logo" layout="raw"/>
-                        <p>Hiring a dedicated resource, you will no longer be required to pay per project as your team member(s) will be working on the entire project you have.</p>
+                        <p>Hire us as your team members and leave the hustle of making payments per project.</p>
                     </s.BenefibtBox>
                 </Col>
                 <Col lg={4} md={6} sm={6}>
                     <s.BenefibtBox className="Benefitbox">
                         <s.BenefitTitle>No Lock-In Period</s.BenefitTitle>
                         <Image src={NoLockInPeriod} alt="Logo" layout="raw"/>
-                        <p>We offer resources with no lock in period. So you can use the services as and when required.</p>
+                        <p>No limitations in the resources and services while working with Webenix. Use our services when required. </p>
                     </s.BenefibtBox>
                 </Col>
             </Row>

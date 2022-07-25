@@ -96,7 +96,6 @@ const Header = () => {
                                 <Image src={infrastructureIcon} alt="Infrastructure Icon" layout="raw" />
                                   <p>Infrastructure</p>
                                 </s.MenuItemText>
-                                
                               </a>
                             </Link>
                           </s.MenuItemBlock>
@@ -109,7 +108,6 @@ const Header = () => {
                                 <Image src={engagementModelIcon} alt="Engagement Model Icon" layout="raw" />
                                   <p>Engagement Model</p>
                                 </s.MenuItemText>
-                                
                               </a>
                             </Link>
                           </s.MenuItemBlock>
@@ -122,20 +120,18 @@ const Header = () => {
                                 <Image src={meetTheTeamIcon} alt="Meet The Team Icon" layout="raw" />
                                   <p>Meet the team</p>
                                 </s.MenuItemText>
-                                
                               </a>
                             </Link>
                           </s.MenuItemBlock>
                         </s.MenuListItem>
                         <s.MenuListItem className="menulist-item">
                           <s.MenuItemBlock className="menuitem-block">
-                            <Link href="#">
+                            <Link href={router.CAREER}>
                               <a className="menuitem-box">
                                 <s.MenuItemText className="menuitem-text">
                                 <Image src={careerIcon} alt="Career Icon" layout="raw" />
                                   <p>Career</p>
                                 </s.MenuItemText>
-                                
                               </a>
                             </Link>
                           </s.MenuItemBlock>
@@ -148,7 +144,6 @@ const Header = () => {
                                 <Image src={confidentialityIcon} alt="Confidentiality Icon" layout="raw" />
                                   <p>Confidentiality</p>
                                 </s.MenuItemText>
-                                
                               </a>
                             </Link>
                           </s.MenuItemBlock>
@@ -156,7 +151,6 @@ const Header = () => {
                       </s.MenuColumn>
                     </s.MenuSub>
                 </s.MenuItemHasChildren>
-                
                 <s.MenuItemHasChildren className="menu-item menu-item-has-children">
                   <Link href="#"><a className="menulist-title">Solutions</a></Link>
                   <span className="mobileClick submenu-icon"><FontAwesomeIcon icon={faAngleDown} /></span>
