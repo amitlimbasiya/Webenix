@@ -73,7 +73,7 @@ export const heading  = styled.h3`
         font-family: "Montserrat", sans-serif;
         font-weight: 700;
         ${mediaQueries("sm")`  
-            font-size: 22px;
+            font-size: 18px;
         `}
     }
     &.ftAddress{
@@ -81,7 +81,7 @@ export const heading  = styled.h3`
         line-height: 24px;
         color: #000;
         ${mediaQueries("sm")`  
-            font-size: 16px;
+            font-size: 15px;
         `}
     }
 `;
@@ -101,6 +101,11 @@ export const midHeading  = styled.h4`
     font-weight: 600;
     line-height: 1;
     font-family: "Montserrat", sans-serif;
+
+    ${mediaQueries("sm")`  
+        font-size: 18px;
+    `}
+
 `;
 export const contactInfo  = styled.div`
     &.contactInfo{
@@ -163,6 +168,12 @@ export const copyText  = styled.p`
     line-height: 1.4;
     padding: 19px 0;
     margin:0px;
+
+    ${mediaQueries("sm")`  
+        font-size: 14px;
+    `}
+
+
 `;
 export const infoDesc  = styled.div`
     a.linked{
@@ -188,6 +199,11 @@ export const endRow  = styled.div`
     text-align: center;
     padding: 25px 0;
 
+
+    ${mediaQueries("sm")`  
+        padding: 10px 0;
+    `}
+
     & a{
         color: #1d1e31;
         font-size: 21px;
@@ -197,14 +213,21 @@ export const endRow  = styled.div`
         & svg{
             width:22px;
             height:22px;
+
+            ${mediaQueries("sm")`  
+                width:20px;
+                height:20px;
+            `}
+            
         }
-        
+
         &:hover,
         &:focus{
             color: #67c187;
         }
     }
 `;
+
 export const SectionTitle  = styled.h1`
     color: #fff;
     font-size: 50px;
@@ -213,8 +236,6 @@ export const SectionTitle  = styled.h1`
     &:focus{
         color: red;
     }
-
-
     ${mediaQueries("lg")`  
         font-size: 50px;
     `}    

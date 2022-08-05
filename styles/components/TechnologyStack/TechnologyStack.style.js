@@ -17,9 +17,34 @@ export const TechnologyStackWrapper  = styled.div`
     padding-left: 30px; 
     padding-right: 30px;   
 
-    ${mediaQueries("mobile")`
+    &.noBg{
+        background: #fff;
+        padding-top: 120px;
+        padding-bottom: 50px;
 
+        .technologystack-tab{
+            padding-bottom: 0px;
+        }
+    
+        ${mediaQueries("llg")`
+            padding-top: 80px;
+            padding-bottom: 80px;
+        `}
+        ${mediaQueries("tablet")`
+            padding-top: 60px;
+            padding-bottom: 60px;
+        `}
+        ${mediaQueries("mobile")`
+            padding-top: 50px;
+            padding-bottom: 50px;
+        `}
+    }
+
+    
+
+    ${mediaQueries("mobile")`
         padding-top: 60px;
+
         .container{ 
             max-width: 100%;
         }       
@@ -29,14 +54,9 @@ export const TechnologyStackWrapper  = styled.div`
         .container{
             max-width: 100%;           
         }       
-    `}
-
-    ${mediaQueries("sm")` 
         padding-left: 10px;
         padding-right: 10px;     
     `}
-
-
 `;
 
 export const SectionTagline  = styled.div` 
@@ -119,7 +139,7 @@ export const SectionTagline  = styled.div`
 export const TechnologyStackTab  = styled.div`
 
     padding-bottom: 70px;
-
+    
     .technologystack-list{
         border-bottom: 1px solid #c9c9c9;
         justify-content: center;

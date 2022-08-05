@@ -131,22 +131,14 @@ export const ServiceBox  = styled.div`
         ${mediaQueries("xxs")` 
             width: 100%;
         `}
-        & > div{
-            display: flex;
-            flex-wrap: wrap;
-            height: 100%;
-            margin:0px;
-        }
-        margin-bottom:30px;
     }
-    
 `;
 
 export const boxPart  = styled.div`
     background: #fff;
     border-radius: 20px;
     box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 5%);
-    padding: 15px;
+    padding: 30px;
     position: relative;
     margin-bottom: 30px;
     position: relative;
@@ -177,19 +169,7 @@ export const boxPart  = styled.div`
 
     &.saffronPart{border-color: #ff9d8f;}
     &.saffronPart svg{fill: #ff9d8f;} 
-
-    &.carolinaBluePart{border-color: #98b4e5;}
-    &.carolinaBluePart svg{fill: #98b4e5;} 
-
-    &.grayPart{border-color: #c9c9c9;}
-    &.grayPart svg{fill: #c9c9c9;}
     
-    &.blushPart{border-color: #f4a196;}
-    &.blushPart svg{fill: #f4a196;}
-    
-    &.espressoPart{border-color: #612718;}
-    &.espressoPart svg{fill: #612718;}
-
     ${mediaQueries("tablet")` 
         padding: 20px;
     `} 
@@ -202,7 +182,6 @@ export const boxPart  = styled.div`
 
 export const partItem  = styled.div`
     &.textPart{
-        height: 100%;
         width: 100%;         
     }
     &.imgPart{
@@ -219,33 +198,36 @@ export const partItem  = styled.div`
         `} 
         
         img{
-            width: 90px;
-            height: 90px;
+            /* width: 100px !important;
+            height: 120px !important; */
             position: relative;
             z-index: 9;
-            margin-bottom: 30px;
             
-            ${mediaQueries("sm")` 
-                width: 60px;
-                height: 60px;
+            ${mediaQueries("sm")`
+                width: 60px !important;
+                height: 80px !important;
             `} 
         }
     }
     
 `;
 export const boxHeading  = styled.h3`
-    font-size: 20px;
+    font-size: 24px;
     font-family: 'Montserrat', sans-serif; 
     font-weight: 700; 
     color: #000;
     line-height: 1.25;
-    margin: 0px;
+    letter-spacing: 0.2px;
+    margin: 20px 0px 10px;
 
     ${mediaQueries("llg")` 
-        font-size: 16px;
+        font-size: 20px;
     `}
+    ${mediaQueries("mobile")` 
+        font-size: 18px;
+    `}         
     ${mediaQueries("sm")` 
-        font-size: 15px;
+        font-size: 16px;
     `}         
 `;
 export const iconOverlay  = styled.div`

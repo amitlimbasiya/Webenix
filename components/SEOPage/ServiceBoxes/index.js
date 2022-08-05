@@ -87,7 +87,7 @@ const SectionServiceBoxes = () => {
             <Col lg={6} md={12} className="itemBoxes">
               <s.boxPart className="greenPart">
                 <s.partItem className="textPart">
-                    <s.boxHeading>Off-page optimization</s.boxHeading>
+                    <s.boxHeading>Off-page Optimization</s.boxHeading>
                     <s.textPart>Off-page optimization needs utter attention to increase the reach of the website or content of your business. With dedicated consistency, we make sure that off-page activities like generating backlinks and sharing over social media will help in reaching out to maximum people.</s.textPart>
                     <Link href='/'>
                         <a className='linkPart'>Learn More &#8594;</a>

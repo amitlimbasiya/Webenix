@@ -70,7 +70,6 @@ export const blogItem  = styled.div`
         display: inline-block;
         position: relative;
         line-height: 25px;
-        border-bottom: 1px solid #3f3f3f;
         padding-bottom: 5px;
         font-size: 18px;
         color: #3f3f3f;
@@ -82,10 +81,28 @@ export const blogItem  = styled.div`
         -o-transition: all 0.3s 0s linear;
         transition: all 0.3s 0s linear;
 
+        &:after{
+            content: '';
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            height: 2px;
+            width: 0%;
+            background-color: #3f3f3f;
+            -webkit-transition: all 0.3s 0s linear;
+            -moz-transition: all 0.3s 0s linear;
+            -o-transition: all 0.3s 0s linear;
+            transition: all 0.3s 0s linear;
+        }
         &:hover,
         &:focus{ 
             color: #67c187;
-            border-bottom: 1px solid #67c187;
+            
+            &:after{
+                width: 100%;
+                left: 0;
+                background-color: #67c187;
+            }
         }
 
         ${mediaQueries("tablet")`  

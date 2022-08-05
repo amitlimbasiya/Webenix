@@ -2,6 +2,8 @@ const router = {
   ABOUT: "about",
   SOLUTION: "solution",
   CAREER: "career",
+  ENGAGEMENTSMODELS:"engagement-models",
+  INFRASTRUCTURE:"infrastructure",
 
   HireWordPressDeveloper: "hire-wordpress-developer",
   HireGraphicsDesigner: "hire-graphics-designer",
@@ -37,6 +39,9 @@ const router = {
   FLUTTERAPPSDEVELOPMENT: "flutter-app-development",
 
   RESPONSIVEWEBDESIGN: "responsive-web-design",
+
+  BLOG: "blog",
+  SINGLEBLOG: "single-blog",
   
 };
 export default router;

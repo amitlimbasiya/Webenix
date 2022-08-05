@@ -91,10 +91,10 @@ const SectionIntro = () => {
               <Col md={12}>
                 <s.SectionTagline>
                   <span className='before-dash'>Take a look at</span>
-                  <h2>Perks @WEBENIX</h2>
+                  <h2>Make the best out of your career days with Webenix</h2>
                 </s.SectionTagline>
                 <s.SectionHeader>
-                  <p>WEBENIX is a place where you would be inspired, challenged and acknowledged for your distinguished work. From highly-experienced peers to stimulating work environments, geeky conversations to funny jokes we make our passion worth living.</p>
+                  <p>You are at the right business organization if you want to grow and acknowledge your efforts. No matter whether you are an experienced geek or an intern peer, we will be right here for you to shape your career in the best ways possible. </p>
                 </s.SectionHeader>
               </Col>
             </Row>
@@ -115,9 +115,9 @@ const SectionIntro = () => {
                       <div className="perk-num perk-one">
                         <h6>01.</h6>
                       </div>
-                      <div className="perk-tit">Never Stop Learning</div>
+                      <div className="perk-tit">End tasks, not learning</div>
                     </div>
-                    <div className="perk-desc">Constant and Never Ending Improvement is our core culture. We give you whatever is needed to grow at 3x pace. Learning is a growth catalyst.</div>
+                    <div className="perk-desc">Learning and seeking is the main motto for our organization, where we ensure to provide the best resources and support at 3x speed with an open environment of always seeking knowledge.</div>
                   </div>
 
                   <div className="perk-plate">
@@ -125,9 +125,9 @@ const SectionIntro = () => {
                       <div className="perk-num perk-two">
                         <h6>02.</h6>
                       </div>
-                      <div className="perk-tit">Work On The Next Big Thing</div>
+                      <div className="perk-tit">Work for the enterprise organizations</div>
                     </div>
-                    <div className="perk-desc">Work on top brands projects for a range of industries while building your knowledge and portfolio. We work on enterprise grade projects and platforms.</div>
+                    <div className="perk-desc">We help you to build the best portfolio by taking up high-value projects along with gaining knowledge.</div>
                   </div>
                 </Col>
                 <Col md={5} lg={6} className="text-center">
@@ -155,9 +155,9 @@ const SectionIntro = () => {
                       <div className="perk-num perk-one">
                         <h6>03.</h6>
                       </div>
-                      <div className="perk-tit">Flexibility</div>
+                      <div className="perk-tit">Standard flexibility </div>
                     </div>
-                    <div className="perk-desc">We thrive on new challenges and strive for flexibility with fun.</div>
+                    <div className="perk-desc">We believe in the flexibility mode of working to emboss the best efforts out from the team where you get to work with zero pressure allowance.</div>
                   </div>
 
                   <div className="perk-plate">
@@ -165,19 +165,9 @@ const SectionIntro = () => {
                       <div className="perk-num perk-three">
                         <h6>04.</h6>
                       </div>
-                      <div className="perk-tit">Enjoy Your Work</div>
+                      <div className="perk-tit">Seek, gain and outgrow your knowledge with us </div>
                     </div>
-                    <div className="perk-desc">Do what you love. We provide a freedom centric and result driven work environment to live your passion and work with effortless ease.</div>
-                  </div>
-
-                  <div className="perk-plate">
-                    <div className="perk-title">
-                      <div className="perk-num perk-four">
-                        <h6>05.</h6>
-                      </div>
-                      <div className="perk-tit">See The World</div>
-                    </div>
-                    <div className="perk-desc">Having clients globally would bring employees to travel and work from beautiful destinations. We travel both ways i.e. welcome regular client visits as well as meet them personally in their country.</div>
+                    <div className="perk-desc">We want our teammates to outgrow their journey with us by relishing the business trips globally and knowing the power of diversity and work culture.</div>
                   </div>
                 </Col>
               </Row>
@@ -189,8 +179,8 @@ const SectionIntro = () => {
           <Row>
             <Col md={12}>
               <s.Tagline>
-                <span className='before-dash'>Take a look at</span>
-                <h2>What do we look for?</h2>
+                <span className='before-dash'>What do we look for?</span>
+                <h2>What we thrive for in our Teammates</h2>
               </s.Tagline>
             </Col>
           </Row>
@@ -198,29 +188,29 @@ const SectionIntro = () => {
             <Col xl={3} lg={3} sm={6} className="text-center mb-5 mb-sm-5">
               <div className='px-xl-4 px-lg-3 px-md-3'>
                 <Image src={PassionIcon} alt="Passion Icon" className='img-fluid' layout="raw"/>
-                <h5>Passion</h5>
-                <p>We love hiring people who are passionate about their skills and career. Someone who is hungry to learn, know and execute.</p>
+                <h5>Passionate</h5>
+                <p>The work reflects differently when it is poured out of passion. We are always up for candidates who are passionate about their work, and career and who are always hungry to gain the maximum knowledge.</p>
               </div>
             </Col>
             <Col xl={3} lg={3} sm={6} className="text-center mb-5 mb-sm-5">
               <div className='px-xl-4 px-lg-3 px-md-3'>
                 <Image src={TeamPlayerIcon} alt="Team Player Icon" className='img-fluid' layout="raw"/>
-                <h5>Team Player</h5>
-                <p>1 plus 1 is 11. That’s the mathematics for Team players who learn faster, add more value and have fantastic career trajectory.</p>
+                <h5>A real team player</h5>
+                <p>Working with the organization does not only mean fulfilling the required hours but always looking up to the tasks that have been assigned and contributing to the quality work. A right team player can build up an easy work culture amongst the employees. </p>
               </div>
             </Col>
             <Col xl={3} lg={3} sm={6} className="text-center mb-5 mb-sm-0">
               <div className='px-xl-4 px-lg-3 px-md-3'>
                 <Image src={AuthenticityIcon} alt="Authenticity Icon" className='img-fluid' layout="raw"/>
-                <h5>Authenticity</h5>
-                <p>We encourage a culture that accepts the differences and cultivates best with it. Being conventionally unconventional we ought to bring out the best with anything you do.</p>
+                <h5>Maintains the authenticity</h5>
+                <p>The one who builds and accepts the varied culture to cultivate the best out of it. Bringing out the best in what we do is the authenticity that we urge to maintain throughout.</p>
               </div>
             </Col>
             <Col xl={3} lg={3} sm={6} className="text-center">
               <div className='px-xl-4 px-lg-3 px-md-3'>
                 <Image src={HonestIcon} alt="Honest Icon" className='img-fluid' layout="raw"/>
-                <h5>Honest</h5>
-                <p>We love people who have clarity. Honesty is non-negotiable for us and something which we always look for before giving an opportunity.</p>
+                <h5>Honesty and Loyalty </h5>
+                <p>Transparency amongst the employees and the management is the key factor to consider while building a successful organization. To maintain self-integrity by being honest and loyal to the company is what we seek in an employee.</p>
               </div>
             </Col>
           </Row>
@@ -373,8 +363,8 @@ const SectionIntro = () => {
         <Row>
           <Col md={12}>
             <s.Tagline>
-              <span className='before-dash'>We Assure You</span>
-              <h2>Working with WEBENIX means you have grabbed a big opportunity and your growth wheel is rolling swiftly.</h2>
+              <span className='before-dash'>You are in the right hands</span>
+              <h2>Cherish and embrace your career days by working with Webenix for better opportunities and higher achievements.</h2>
             </s.Tagline>
           </Col>
         </Row>

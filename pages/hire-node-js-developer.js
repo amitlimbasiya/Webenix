@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import React from 'react';
 import PageBanner from '../components/HireNodeJSDeveloper/PageBanner';
 import SectionIntro from '../components/HireNodeJSDeveloper/SectionIntro';
@@ -11,6 +12,9 @@ import Blog from '../components/Blog';
 const HireNodeJSDeveloper = () => {
   return (
     <>
+      <Head>
+        <title>Hire ReactJS Developers</title>
+      </Head>
       <PageBanner/>
       <SectionIntro/>
       <HiringModels/>

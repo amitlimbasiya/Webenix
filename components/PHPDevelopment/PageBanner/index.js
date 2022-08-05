@@ -9,7 +9,7 @@ const PageBanner = () => {
   return (
     <> 
      <s.PageBannerWrapper className="pagebanner-section pagebg-about">
-        <Container>
+        <Container> 
           <Row>
               <Col md={7} className="pagebannercontent-col">
                 <s.PageBannerContentPart >

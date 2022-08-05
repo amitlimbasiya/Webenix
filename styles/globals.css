@@ -253,6 +253,10 @@ label.form-label{
 .modal-body{
   padding: 25px;
 }
+
+.orangeColor{
+  color: #ff9000;
+}
 @media (min-width: 1600px){
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
       max-width: 1540px;

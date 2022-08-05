@@ -14,6 +14,7 @@ import heroImg2 from '../../public/images/home-banner-2.png';
 import heroImg3 from '../../public/images/home-banner-3.png';
 import emailIcon from '../../public/images/email-icon.svg';
 import skypeIcon from '../../public/images/skype-icon.svg';
+import router from "../../utils/router";
 
 var settings = {
   dots: false,
@@ -100,7 +101,7 @@ const Hero = () => {
                         PARTNERSHIP
                     </a>
                 </Link>
-                <Link href='#'>
+                <Link href={router.BLOG}>
                     <a>
                         BLOG
                     </a>

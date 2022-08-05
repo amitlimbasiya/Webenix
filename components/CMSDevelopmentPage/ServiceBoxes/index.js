@@ -89,7 +89,7 @@ const SectionServiceBoxes = () => {
             <Col lg={6} md={12} className="itemBoxes">
               <s.boxPart className="greenPart">
                 <s.partItem className="textPart">
-                    <s.boxHeading>CMS customization</s.boxHeading>
+                    <s.boxHeading>CMS Customization</s.boxHeading>
                     <s.textPart>Stand out from the crowd, and customize your content management platform with your choice. Leave your worries about thinking about unique ideas and make Webenix your partner to make the prominent CMS Customization Development.</s.textPart>
                     <Link href='/'>
                         <a className='linkPart'>Learn More &#8594;</a>

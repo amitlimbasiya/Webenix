@@ -33,7 +33,7 @@ const SectionServiceBoxes = () => {
             <Col lg={6} md={12} className="itemBoxes">
               <s.boxPart className="pinkPart">
                 <s.partItem className="textPart">
-                    <s.boxHeading>Logo</s.boxHeading>
+                    <s.boxHeading>Logo Design</s.boxHeading>
                     <s.textPart>Make your business branding unique and up to mark. Bring the designing aspect to the next level. </s.textPart>
                     <Link href='/'>
                         <a className='linkPart'>Learn More &#8594;</a>
@@ -50,7 +50,7 @@ const SectionServiceBoxes = () => {
             <Col lg={6} md={12} className="itemBoxes">
               <s.boxPart className="orangePart">
                 <s.partItem className="textPart">
-                    <s.boxHeading>Stationery</s.boxHeading>
+                    <s.boxHeading>Stationery Design</s.boxHeading>
                     <s.textPart>Get the most innovative design and solution for the packaging and stationery. Webenix crafts unique and efficient designs which are the right fit for your business. </s.textPart>
                     <Link href='/'>
                         <a className='linkPart'>Learn More &#8594;</a>
@@ -84,8 +84,8 @@ const SectionServiceBoxes = () => {
             <Col lg={6} md={12} className="itemBoxes">
               <s.boxPart className="greenPart">
                 <s.partItem className="textPart">
-                    <s.boxHeading>Landing Page</s.boxHeading>
-                    <s.textPart>One of the most important for keeping up with the responsiveness is the Landing Page. We make sure it is designed with the right way of placing the CTA and other informative information. </s.textPart>
+                    <s.boxHeading>Landing Page design</s.boxHeading>
+                    <s.textPart>A landing page is one of the important parts of showcasing the business. Taking care of the responsiveness by placing the CTA buttons in the right place will be part of the accurate landing page design.</s.textPart>
                     <Link href='/'>
                         <a className='linkPart'>Learn More &#8594;</a>
                     </Link>
@@ -101,8 +101,8 @@ const SectionServiceBoxes = () => {
             <Col lg={6} md={12} className="itemBoxes">
               <s.boxPart className="bluePart">
                 <s.partItem className="textPart">
-                    <s.boxHeading>Mobile App</s.boxHeading>
-                    <s.textPart>We provide end-to-end solutions over two major platforms Android and Ios with clean and sleek designs according to your requirement.</s.textPart>
+                    <s.boxHeading>Mobile App Design</s.boxHeading>
+                    <s.textPart>We provide end-to-end solutions over two major platforms Android and Ios with clean and sleek designs from our expertise and yet according to your requirements.</s.textPart>
                     <Link href='/'>
                         <a className='linkPart'>Learn More &#8594;</a>
                     </Link>
@@ -118,8 +118,8 @@ const SectionServiceBoxes = () => {
             <Col lg={6} md={12} className="itemBoxes">
               <s.boxPart className="purplePart">
                 <s.partItem className="textPart">
-                    <s.boxHeading>UI/UX</s.boxHeading>
-                    <s.textPart>Push your business to the success road with the help of our talented UI/UX designers. We consider our customer’s specifications in our work.</s.textPart>
+                    <s.boxHeading>UI/UX design</s.boxHeading>
+                    <s.textPart>Push your business to the success road with the help of our talented UI/UX designers. We consider our customer’s specifications in our work into considerations by using the right tools for it.</s.textPart>
                     <Link href='/'>
                         <a className='linkPart'>Learn More &#8594;</a>
                     </Link>

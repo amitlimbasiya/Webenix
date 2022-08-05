@@ -28,9 +28,9 @@ import iOS from "../../public/images/technologyStack/AppleiOS-Icon.svg";
 import Flutter from "../../public/images/technologyStack/flutterIcon.svg";
 
 
-const TechnologyStack = () => {
+const TechnologyStack = (props) => {
   return (
-    <s.TechnologyStackWrapper className='technologystack-section'>
+    <s.TechnologyStackWrapper className={props.SectionClass}>
         <Container>
             <s.SectionTagline>
               <span className='before-dash'>All about our</span>
