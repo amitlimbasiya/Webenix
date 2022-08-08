@@ -1,6 +1,6 @@
-import React from 'react'
-import PageBanner from '../components/ResponsiveWebDesign/PageBanner';
-import SectionIntro from '../components/ResponsiveWebDesign/SectionIntro';
+import React, {useEffect, useState}  from 'react'
+import PageBanner from '../components/PageBanner';
+import SectionIntro from '../components/SectionIntro';
 import OurExpertise from '../components/ResponsiveWebDesign/OurExpertise';
 import HireServies from '../components/HireServices';
 import Blog from '../components/Blog';
@@ -10,8 +10,26 @@ import TechnologyStack from '../components/TechnologyStack';
 const RESPONSIVEWEBDESIGN = () => {
   return (
     <>
-      <PageBanner/>
-      <SectionIntro/>
+      <PageBanner 
+        PageBannerClass="pagebanner-section pagebanner-shape bgChampagne pagebanner-align-center noiseBg"
+        PageBannerImgClass="pagebannerimg-col" 
+        PageBannerTitle="Responsive"
+        PageBannerGreenTitle="Web Design"
+        PageBannerContent="<p>Let your business be the best looking from any device screen. Reach out to larger audiences with the better placing of CTA to be perfectly visible from every screen size. Do not worry, we at Webenix have the best team for creating such a masterpiece.</p>"
+        PageBannerBtnText="Know More"
+        PageBannerBtnLink="#"
+        PageBannerImageWidth="280px"
+        PageBannerImageHeight="250px"
+        PageBannerImage="/images/responsive-icon.svg"
+      />
+    <SectionIntro 
+      SectionIntroclassName="introuction-section separatorPart noiseBg"
+      IntroSubTitle="Responsive Web Design"
+      IntroMainTitle="Make your business approach clearer by designing the best responsive web designs."
+      IntroContent='
+      <p>Considering the user&#39;s demand and expectation, we make sure to develop the best responsive web designs. Get the maximum customer approach and market reach and earn the unexpected ROI. With the clear affordability we help you cut down on unwanted expenses.</p>
+              <p>Webenix is one of the most experienced companies that have impacted the maximum businesses globally and yet keeping up with the design trends and customer&#39;s expectations.</p>
+    '/>
       <OurExpertise/>
       <HireServies/>
       <TechnologyStack/>

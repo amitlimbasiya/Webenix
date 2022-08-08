@@ -79,7 +79,7 @@ const Benefits = () => {
                 </Col>
                 <Col lg={4} md={6} sm={6}>
                     <s.BenefibtBox className="Benefitbox">
-                        <s.BenefitTitle>No Lock-In Period</s.BenefitTitle>
+                        <s.BenefitTitle>No-Lock Period</s.BenefitTitle>
                         <Image src={NoLockInPeriod} alt="Logo" layout="raw"/>
                         <p>No limitations in the resources and services while working with Webenix. Use our services when required. </p>
                     </s.BenefibtBox>

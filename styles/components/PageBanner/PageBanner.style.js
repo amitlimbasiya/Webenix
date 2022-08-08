@@ -111,6 +111,52 @@ export const PageBannerWrapper  = styled.div`
     &.bgLavenderMist.pagebanner-shape::before{
         background-color:#d9d1fc;
     }
+    &.bgPlatinum{
+        background-color:#e2e2e2;
+    }
+    &.bgPlatinum.pagebanner-shape::before{
+        background-color:#d9d9d9;
+    }
+    &.bgHawkesBlue{
+        background-color:#D7E1F9;
+    }
+    &.bgHawkesBlue.pagebanner-shape::before{
+        background-color:#c2d1f3;
+    }
+    &.bgChromeWhite{
+        background-color:#dbf5d1;
+    }
+    &.bgChromeWhite.pagebanner-shape::before{
+        background-color:#cfeec3;
+    }
+    &.bgHawkesBlue{
+        background-color:#d7e1f9;
+    }
+    &.bgHawkesBlue.pagebanner-shape::before{
+        background-color:#c5d4ef;
+    }
+    &.bgChampagne{
+        background-color:#FFEACF;
+    }
+    &.bgChampagne.pagebanner-shape::before{
+        background-color:#f9dfbd;
+    } 
+    &.bgOysterPink{
+        background-color:#efd0cb;
+    }
+    &.bgPaleBlueLily{
+        background-color:#d0edda;
+    }
+    &.bgLavenderMist{
+        background-color:#E7E2FF;
+    }
+    &.bgLightGrey{
+        background-color:rgba(226, 226, 226, 0.75);
+    }
+    &.bgIceberg{
+        background-color:#d2f5ee;
+    }
+    
     &.pagebanner-shape::before{
         content: '';
         position: absolute;
@@ -141,7 +187,13 @@ export const PageBannerWrapper  = styled.div`
         bottom: -7px;
         right: 0;
     }
-
+    .right-bottom-img{
+        position: absolute;
+        bottom: -7px;
+        right: 0;
+        text-align: right;
+    }
+    
 `;
 
 export const PageBannerContentPart  = styled.div` 
@@ -205,6 +257,12 @@ export const PageBannerContentPart  = styled.div`
 
 export const PageBannerImagePart  = styled.div` 
     display: flex;   
+
+    .right-bottom-img &.pagebanner-imgpart{
+        display: unset;
+        margin-left: auto;
+        padding-right: 30px;
+    }
 `;
 
 

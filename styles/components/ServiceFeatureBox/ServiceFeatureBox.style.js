@@ -125,6 +125,7 @@ export const ServiceBox  = styled.div`
     }
 
     & .itemBoxes{
+        margin-bottom: 30px;
         ${mediaQueries("sm")` 
             width: 50%;
         `} 
@@ -138,13 +139,17 @@ export const boxPart  = styled.div`
     background: #fff;
     border-radius: 20px;
     box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 5%);
-    padding: 30px;
+    padding: 15px;
     position: relative;
     margin-bottom: 30px;
     position: relative;
     text-align: center;
     background-color: #fff;
     border-bottom: 5px solid transparent;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    margin: 0px;
 
     &.pinkPart{border-color: #ff7db1;}
     &.pinkPart svg{fill: #ff7db1;}
@@ -154,6 +159,9 @@ export const boxPart  = styled.div`
 
     &.yellowPart{border-color: #ffe875;}
     &.yellowPart svg{fill: #ffe875;} 
+
+    &.PlatinumPart{border-color: #acaa9c;}
+    &.PlatinumPart svg{fill: #acaa9c;} 
 
     &.greenPart{border-color: #7dfa92;}
     &.greenPart svg{fill: #7dfa92;} 
@@ -169,9 +177,19 @@ export const boxPart  = styled.div`
 
     &.saffronPart{border-color: #ff9d8f;}
     &.saffronPart svg{fill: #ff9d8f;} 
+
+    &.blushPart{border-color: #f4a196;}
+    &.blushPart svg{fill: #f4a196;}
+
+    &.carolinaBluePart{border-color: #98b4e5;}
+    &.carolinaBluePart svg{fill: #98b4e5;} 
+
+    &.espressoPart{border-color: #612718;}
+    &.espressoPart svg{fill: #612718;}
+
     
-    ${mediaQueries("tablet")` 
-        padding: 20px;
+    ${mediaQueries("llg")` 
+        padding: 30px 15px;
     `} 
     ${mediaQueries("sm")` 
         padding: 20px;
@@ -182,19 +200,22 @@ export const boxPart  = styled.div`
 
 export const partItem  = styled.div`
     &.textPart{
-        width: 100%;         
+        width: 100%;        
+        height: 100%; 
     }
     &.imgPart{
         text-align: center;
         width: 100%;
         padding-top: 50px;
         position: relative;
+        margin-bottom: 30px;
 
         ${mediaQueries("tablet")` 
             padding-top: 30px;
         `} 
         ${mediaQueries("sm")` 
             padding-top: 20px;
+            margin-bottom: 0;
         `} 
         
         img{
@@ -212,22 +233,19 @@ export const partItem  = styled.div`
     
 `;
 export const boxHeading  = styled.h3`
-    font-size: 24px;
+    font-size: 20px;
     font-family: 'Montserrat', sans-serif; 
     font-weight: 700; 
     color: #000;
     line-height: 1.25;
     letter-spacing: 0.2px;
-    margin: 20px 0px 10px;
+    margin:0px;
 
     ${mediaQueries("llg")` 
-        font-size: 20px;
+        font-size: 18px;
     `}
     ${mediaQueries("mobile")` 
-        font-size: 18px;
-    `}         
-    ${mediaQueries("sm")` 
-        font-size: 16px;
+        font-size: 15px;
     `}         
 `;
 export const iconOverlay  = styled.div`

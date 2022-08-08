@@ -9,8 +9,8 @@ const ServiceFeatureBox = (props) => {
     <s.ServiceFeatureBox>
         <Container>
             <s.SectionTagline>
-                <span className="before-dash">Lorem Ipsum</span>
-                <h2>Lorem Ipsum is simply dummy text of the.</h2>
+                <span className="before-dash">{props.sectionTagLine}</span>
+                <h2>{props.sectionMainTitle}</h2>
             </s.SectionTagline>
 
             <s.ServiceBox className="serviceBoxes">
