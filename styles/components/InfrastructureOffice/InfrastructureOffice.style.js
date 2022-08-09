@@ -98,13 +98,13 @@ export const SectionTagline  = styled.div`
         `}  
 
         ${mediaQueries("llg")` 
-            font-size: 26px;
-            line-height: 36px;
+            font-size: 24px;
+            line-height: 34px;
         `}  
 
         ${mediaQueries("mobile")`
-            font-size: 24px;
-            line-height: 34px;
+            font-size: 20px;
+            line-height: 30px;
         `}
     }
     
@@ -145,6 +145,11 @@ export const LeftRightPart  = styled.div`
         overflow: hidden;
         margin-bottom: 100px;
 
+        ${mediaQueries("mobile")` 
+            background: linear-gradient(90deg,#f6f2d9 20%,#f6f7ee 100%,#fff 0,#fff 100%,#fff);
+            margin-bottom: 50px;
+        `} 
+
         :nth-child(even){
             background: linear-gradient(-90deg,#f6f2d9 20%,#f6f7ee 60%,#fff 0,#fff 80%,#fff);
 
@@ -155,7 +160,22 @@ export const LeftRightPart  = styled.div`
             .infraplates{
                 margin: 0px;
             }
+
+            ${mediaQueries("mobile")` 
+
+                background: linear-gradient(-90deg,#f6f2d9 20%,#f6f7ee 100%,#fff 0,#fff 100%,#fff);
+
+                .row div:nth-child(odd){
+                    order: 2;
+                }
+                .row div:nth-child(even){
+                    order: 1;
+                    margin-bottom: 20px;
+                }
+            `} 
         }
+
+
     }
 
     .container{
@@ -175,6 +195,10 @@ export const LeftRightPart  = styled.div`
     flex-wrap: wrap;
     align-items: center;
 
+    ${mediaQueries("lg")`
+        padding: 60px 0;
+    `} 
+
     ${mediaQueries("mobile")`
         padding: 50px 0;
     `} 
@@ -185,6 +209,11 @@ export const LeftRightPart  = styled.div`
         grid-template-rows: 1fr;
         grid-column-gap: 0px;
         grid-row-gap: 0px;
+
+        ${mediaQueries("sm")`
+           grid-template-columns: 1fr;
+        `} 
+
     }
     .infraplates{
         border-radius: 10px;
@@ -198,6 +227,13 @@ export const LeftRightPart  = styled.div`
         overflow: hidden;
         margin-top: 10px;
         margin-bottom: 50px;
+
+        ${mediaQueries("lg")`
+            padding: 40px 15px 20px;
+            margin-right: 10px;
+            margin-bottom: 30px;
+        `} 
+
     }
     .infraplates:before{
         content: '';
@@ -206,6 +242,10 @@ export const LeftRightPart  = styled.div`
         top: 0px;
         width: 100%;
         height: 30px;
+
+        ${mediaQueries("sm")`
+           height: 20px;
+        `} 
     }
     .ROSIEBG.infraplates:before{
         background: #fcbac9;
@@ -226,14 +266,25 @@ export const LeftRightPart  = styled.div`
         font-weight: 400;
         margin: 0px 0px 15px;
         letter-spacing: 0.2px;
+
+        ${mediaQueries("lg")`
+            font-size: 16px;
+            margin: 0px 0px 10px;
+        `} 
+        
     }
     .infraplates h6{
-        font-size: 26px;
+        font-size: 24px;
         line-height: 1;
         font-family: 'Montserrat',sans-serif;
         font-weight: 700;
         margin: 0;
+
+        ${mediaQueries("lg")`
+            font-size: 18px;
+        `} 
     }
+
     ul{
         padding-left: 0;
 
@@ -323,8 +374,8 @@ export const LeftRightPart  = styled.div`
         transform: translateY(-50%);
 
         ${mediaQueries("mobile")` 
-            width: 235px;
-            height: 235px;
+            width: 100px;
+            height: 250px;
         `}
     }
     .left-slant .anmtn-element:after {
@@ -341,8 +392,8 @@ export const LeftRightPart  = styled.div`
         transform: translateY(-50%);
 
         ${mediaQueries("mobile")` 
-            width: 235px;
-            height: 235px;
+            width: 100px;
+            height: 250px;
         `}
     }
     .animated-cuts-right{
@@ -516,8 +567,16 @@ export const LeftRightPart  = styled.div`
         animation: slideback 12s infinite alternate;
         margin-top: 150px;
 
+
+        ${mediaQueries("lg")`
+            height: 450px;
+            max-width: 450px;
+        `} 
+        
         ${mediaQueries("mobile")`
-            margin-top: 50px;
+            margin-top: 30px;
+            height: 400px;
+            max-width: 100%;
         `} 
     }
     .rellimage.neverstoplearning {

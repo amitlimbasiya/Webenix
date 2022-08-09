@@ -91,7 +91,7 @@ export const PageBannerWrapper  = styled.div`
         background-color:#ffe1dd;
     }
     &.bgMistyRose.pagebanner-shape::before{
-        background-color: #fbd9d4;
+        background-color: #f5d3ce;
     }
     &.bgLightPink{
         background-color:#FFD1DF;
@@ -180,7 +180,7 @@ export const PageBannerWrapper  = styled.div`
         align-items: center;
     }
     &.pagebanner-align-center .pagebanner-imgpart{
-        justify-content: end;
+        justify-content: flex-end;
     }
     .at-right-bottom{
         position: absolute;

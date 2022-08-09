@@ -11,7 +11,7 @@ const SectionIntro = () => {
               <Col md={12}>
                 <s.SectionTagline>
                   <span className='before-dash'>Seek Growth</span>
-                  <h2>Let&#39;s Engineer A New Future Together</h2>
+                  <h2>Let&#39;s engrave the new future together!</h2>
                 </s.SectionTagline>
                 <s.SectionHeader>
                   <div className='shapePart'>

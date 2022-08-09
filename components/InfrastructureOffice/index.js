@@ -25,7 +25,7 @@ const InfrastructureOffice = (props) => {
                       <h2>{props.sectionTitle}</h2>
                     </s.SectionTagline>
                     <div className='boxesPart'>
-                      <div className="multiple-infraplates">
+                      <div className="multiple-infraplates colsTwoPart">
                         {props.InfoBoxTitle01 && 
                           <div className="infraplates ROSIEBG">
                             <div>

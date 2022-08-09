@@ -43,7 +43,7 @@ const EngagementModels = () => {
             <li>Cost-effective.</li>
             <li>No loosing of quality control.</li>
             <li>Highly customisable.</li>
-            <li>Scaled over flexibility.</li>
+            <li>Scaled over Flexibility.</li>
           </ul>
       '/>
 
@@ -74,11 +74,11 @@ const EngagementModels = () => {
         EngagementModelImage="/images/dedicated-developer.png"     
         EngagementModelImageWidth="705"
         EngagementModelImageHeight="410"  
-        EngagementMainTitle="Turnkey Solution"
+        EngagementMainTitle="Turnkey Solutions"
         EngagementModelIcon="/images/fixed-cost-icon.svg"
         EngagementModelIconWidth="100"
         EngagementModelIconHeight="100"
-        EngagementModelName="Fixed Cost Model"
+        EngagementModelName="Fixed Model Solution"
         EngagementContent='
           <p>It is a dedicated requirement of the project needs and its specification. It is pre-stated about the time that will be taken to complete the project, and ultimately knowing the fixed cost estimation. If you are a small or medium-scale business platform, then this is the right model for you. </p>
           <ul>

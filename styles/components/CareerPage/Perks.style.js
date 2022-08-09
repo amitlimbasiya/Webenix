@@ -192,6 +192,7 @@ export const LeftRightPart  = styled.div`
         width: 100%;
         overflow: hidden;
         position: relative;
+        z-index: 0;
     }
     .right-slant .anmtn-element:after {
         content: "";
@@ -380,7 +381,7 @@ export const LeftRightPart  = styled.div`
     
     .perk-plate{
         margin-bottom: 60px;
-        max-width: 90%;
+        /* max-width: 90%; */
         margin-left: auto;
         margin-right: auto;
 
@@ -553,8 +554,8 @@ export const WeLookFor  = styled.div`
         `} 
     } 
     h5{
-        font-size: 24px;
-        line-height: 44px;
+        font-size: 22px;
+        line-height: 30px;
         font-family: 'Montserrat',sans-serif;
         font-weight: 700;
         margin: 30px 0px 15px 0px;
@@ -571,8 +572,8 @@ export const WeLookFor  = styled.div`
     }
     p{
         font-family: "DINPro-Medium";
-        font-size: 22px;
-        line-height: 32px;
+        font-size: 18px;
+        line-height: 28px;
         color: #000;
         margin: 0px;
 

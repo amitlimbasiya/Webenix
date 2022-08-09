@@ -88,7 +88,7 @@ const GRAPHICSDESIGN = () => {
         PageBannerClass="pagebanner-section pagebanner-shape bg_lightgreen pagebanner-align-center"
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="Grahics Design"
-        PageBannerContent="Webenix provides the best services in Grahics Design rightly made for your business taking care of the user experience with accurate responsiveness for multiple screen sizes. Taking care of the most minor details we fulfil customer satisfaction." 
+        PageBannerContent="The graphic speakers when words not and so we aim to provide the best graphic designing that will be totally taken care of by our creative heads." 
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
@@ -97,12 +97,11 @@ const GRAPHICSDESIGN = () => {
       />
       <SectionIntro 
         SectionIntroclassName="introuction-section separatorPart"
-          IntroSubTitle="Work Offshore to"
-          IntroMainTitle="Find Everything Under One Roof At WEBENIX."
+          IntroSubTitle="You aim and we create it for you"
+          IntroMainTitle="With a little effort and creativity, we will create what your business has been looking forward to always."
           IntroContent='
-            <h3>Lorem Ipsum</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
-            <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <h3>Creativity makes it all happen to get your customer’s engagement in the best ways. </h3>
+            <p>We design the perspective and not just place random colours. We believe in creating masterpieces and not-so-common visual graphics, and at last, we are trend setters and not trend runners.</p>
         '/>
       <ServiceFeatureBox/>      
     <HireServies/>

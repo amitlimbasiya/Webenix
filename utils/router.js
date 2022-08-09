@@ -19,6 +19,7 @@ const router = {
   UIUX: "uiux-design",
 
   WEBDEVELOPMENT: "web-development",
+  FRONTENDDEVELOPMENT: "frontend-development",
   BACKENDDEVELOPMENT: "backend-development",
   CMSDEVELOPMENT: "cms-development",
   MVPDEVELOPMENT: "mvp-development",

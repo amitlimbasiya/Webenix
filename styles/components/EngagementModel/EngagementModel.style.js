@@ -228,8 +228,8 @@ export const EngagementModelContentInnerBox  = styled.div`
     `}
 
     h3{
-        font-size: 38px;
-        line-height: 46px;
+        font-size: 34px;
+        line-height: 44px;
         font-weight: 900;
         font-family: 'Montserrat',sans-serif;
         display: inline-block;
@@ -249,17 +249,19 @@ export const EngagementModelContentInnerBox  = styled.div`
         }
 
         ${mediaQueries("xl")` 
-            font-size: 36px;
+            font-size: 32px;
+            line-height: 42px;
         `} 
 
         ${mediaQueries("lg")` 
-            font-size: 30px; 
+            font-size: 28px; 
+            line-height: 38px;
             margin-bottom: 25px;   
         `}
 
         ${mediaQueries("lg")` 
             font-size: 24px;   
-            line-height: 40px;
+            line-height: 34px;
         `}
     }
 

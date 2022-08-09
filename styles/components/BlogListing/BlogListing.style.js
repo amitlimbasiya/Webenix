@@ -117,6 +117,13 @@ export const Listing  = styled.div`
         opacity: 1;
     }
 `; 
+
+
+export const BlogListWrapper  = styled.div`    
+    overflow: hidden;
+`; 
+
+
 export const blogListing  = styled.div`
     &.blogListing{
         padding-top: 170px;
@@ -184,7 +191,18 @@ export const blogListing  = styled.div`
     }
 `;
 export const blogItem  = styled.div`
+
+    float: left;
+    width: 50%;
+    padding: 0 15px;
+    margin-bottom: 50px;
     
+    ${mediaQueries("sm")`  
+        width: 100%;
+        padding: 0;
+    `}
+
+
     &.blogItem .blogLink{
         display: inline-block;
         position: relative;
@@ -247,6 +265,11 @@ export const blogItem  = styled.div`
         line-height: 1;
         letter-spacing: 1.6px;
         margin-top: 20px;
+
+        ${mediaQueries("sm")`  
+            margin-top: 10px;
+            font-size: 13px;
+        `}
     }
 `;
 export const blogImage  = styled.div`
@@ -258,6 +281,7 @@ export const blogImage  = styled.div`
         max-width: 100%;
         height: auto;
         width: 100%;
+        max-height: 253px;
     }
 `;
 export const blogCategory  = styled.div`
@@ -321,7 +345,7 @@ export const CategoryList  = styled.div`
     `}
 
     ${mediaQueries("sm")`  
-        padding: 20px;
+        padding: 15px;
     `}
 
     .catListPart{
@@ -393,6 +417,10 @@ export const CategoryList  = styled.div`
             display: inline-block;
             margin-right: 20px;
         `}
+        ${mediaQueries("sm")`  
+            font-size: 15px;
+            margin-right: 10px;
+        `}
     }
 `;
 export const catHeading  = styled.h2`
@@ -409,6 +437,6 @@ export const catHeading  = styled.h2`
         margin-bottom: 15px;
     `}
     ${mediaQueries("sm")`  
-        font-size: 20px;
+        font-size: 18px;
     `}
 `;

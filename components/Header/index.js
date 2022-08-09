@@ -200,7 +200,7 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href="#">
+                          <Link href={router.FRONTENDDEVELOPMENT}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={frontEndDevelopmentIcon} alt="Frontend Development Icon" layout="raw" />
@@ -716,7 +716,7 @@ const Header = () => {
                           <Link href="#">
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
-                                <Image src={webDevelopmentIcon} alt="Hire Webflow Developer" layout="raw" />
+                                <Image src={webFlowIcon} alt="Hire Webflow Developer" layout="raw" />
                                 <p>Hire Webflow Developer</p>
                               </s.MenuItemText>
                               

@@ -75,6 +75,29 @@ export default function FooterScript() {
       $('.menu-item').closest(".menu-item").find('.menu-subs').find('.menucolumn').slideUp();
     }
 
+    function blogportfolio() {
+      if($(".bloglisting-wrapper").length) {
+        var $container = $(".bloglisting-wrapper");
+        $container.isotope({
+          layoutMode: 'masonry',
+          percentPosition: true,
+          itemSelector: ".blogItem"
+        });			
+        
+        $("#filters a").on("click",function(){
+          $('#filters a').removeClass("active");
+          $(this).addClass("active");
+          var selector = $(this).attr("data-filter");
+          $container.isotope({ filter: selector });
+          return false;
+        });
+      }
+    }
+
+    
+		/* - Work Portfolio */
+		blogportfolio();
+
   });
 
   return null;

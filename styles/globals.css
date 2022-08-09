@@ -243,6 +243,7 @@ label.form-label{
   background: #67c187;
   color: #fff; 
   border-bottom: none;
+  padding: 1rem 25px;
 }
 .modal-title{
   font-size: 22px;
@@ -270,5 +271,17 @@ label.form-label{
   }
   .btn-arrow:hover{
     padding:8px 35px 8px 15px;
+  }
+}
+@media (max-width: 575px){
+  .modal-header{
+    padding: 1rem;
+  }
+  .modal-body {
+      padding: 15px;
+  }
+  .modal-title {
+    font-size: 18px;
+    line-height: 20px;
   }
 }

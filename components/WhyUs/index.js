@@ -8,7 +8,7 @@ const WhyUs = () => {
         <Container>
             <s.SectionTagline>
               <span className='before-dash'>Take a look at</span>
-              <h2>See why Webenix is different</h2>
+              <h2>See why Webenix is different?</h2>
             </s.SectionTagline>
             <s.WhyusBoxWrapper>
                 <s.WhyusBox className="whyusbox why_motivate">

@@ -14,7 +14,7 @@ const About = () => {
         PageBannerImgClass="pagebannerimg-col at-right-bottom" 
         PageBannerTitle="Meet"
         PageBannerGreenTitle="Webenix!"
-        PageBannerContent="Webenix was founded in the year 2018 with a clear vision in mind of providing the best to our customers. Not only do we firmly believe in serving our best work but we make sure to always respect our customer’s time by immediate responses with the solutions globally accommodating time zone. Meeting the expectations of our customers, they will always have the best customer experience." 
+        PageBannerContent="Webenix was founded in the year 2018 with a clear vision in mind of providing the best to our customers. Not only do we firmly believe in serving our best work but we make sure to always respect our customer’s time by immediate responses with solutions globally accommodating time zone. Meeting the expectations of our customers, they will always have the best customer experience." 
         PageBannerBtnText="Know More"
         PageBannerBtnLink=""
         PageBannerImageWidth="600px"

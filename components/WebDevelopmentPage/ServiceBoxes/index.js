@@ -102,7 +102,7 @@ const SectionServiceBoxes = () => {
               </s.boxPart>
             </Col>
             <Col lg={6} md={12} className="itemBoxes">
-              <s.boxPart className="orangePart">
+              <s.boxPart className="greenPart">
                 <s.partItem className="textPart">
                     <s.boxHeading>Backend Development</s.boxHeading>
                     <s.textPart>Offering backend development services for various web apps, cloud-based applications, and multiple domains which users will never see and yet making sure of performing the same as the back and front.</s.textPart>
@@ -111,9 +111,9 @@ const SectionServiceBoxes = () => {
                     </Link>
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={codeIcon} alt="Backend Development Icon" layout="raw" />
+                  <Image src={backendDevelopmentIcon} alt="Backend Development Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
-                    <Image src={shapeOrangeIcon} alt="Shape Blue Icon" layout="raw" />
+                    <Image src={shapeGreenIcon} alt="Shape Blue Icon" layout="raw" />
                   </s.iconOverlay>
                 </s.partItem>
               </s.boxPart>

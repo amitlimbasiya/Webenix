@@ -29,7 +29,7 @@ function MyVerticallyCenteredModal(props) {
       <Modal.Body>
           <Form>
           <Row className="mb-3">
-            <Col md={6} controlId="formName">
+            <Col md={6} controlId="formName" className='mb-3 mb-md-0'>
               <Form.Label>Name:</Form.Label>
               <Form.Control type="text" placeholder="John Doe" />
             </Col>
@@ -40,7 +40,7 @@ function MyVerticallyCenteredModal(props) {
           </Row>
 
           <Row className="mb-3">
-            <Col md={6} controlId="formPhoneNumber">
+            <Col md={6} controlId="formPhoneNumber" className='mb-3 mb-md-0'>
               <Form.Label>Phone Number:</Form.Label>
               <Form.Control type="tel" placeholder="123 465 7890" />
             </Col>
@@ -186,28 +186,28 @@ const SectionIntro = () => {
           </Row>
           <Row>
             <Col xl={3} lg={3} sm={6} className="text-center mb-5 mb-sm-5">
-              <div className='px-xl-4 px-lg-3 px-md-3'>
+              <div className='px-xl-2 px-lg-2 px-md-3'>
                 <Image src={PassionIcon} alt="Passion Icon" className='img-fluid' layout="raw"/>
                 <h5>Passionate</h5>
                 <p>The work reflects differently when it is poured out of passion. We are always up for candidates who are passionate about their work, and career and who are always hungry to gain the maximum knowledge.</p>
               </div>
             </Col>
             <Col xl={3} lg={3} sm={6} className="text-center mb-5 mb-sm-5">
-              <div className='px-xl-4 px-lg-3 px-md-3'>
+              <div className='px-xl-2 px-lg-2 px-md-3'>
                 <Image src={TeamPlayerIcon} alt="Team Player Icon" className='img-fluid' layout="raw"/>
                 <h5>A real team player</h5>
                 <p>Working with the organization does not only mean fulfilling the required hours but always looking up to the tasks that have been assigned and contributing to the quality work. A right team player can build up an easy work culture amongst the employees. </p>
               </div>
             </Col>
             <Col xl={3} lg={3} sm={6} className="text-center mb-5 mb-sm-0">
-              <div className='px-xl-4 px-lg-3 px-md-3'>
+              <div className='px-xl-2 px-lg-2 px-md-3'>
                 <Image src={AuthenticityIcon} alt="Authenticity Icon" className='img-fluid' layout="raw"/>
                 <h5>Maintains the authenticity</h5>
                 <p>The one who builds and accepts the varied culture to cultivate the best out of it. Bringing out the best in what we do is the authenticity that we urge to maintain throughout.</p>
               </div>
             </Col>
             <Col xl={3} lg={3} sm={6} className="text-center">
-              <div className='px-xl-4 px-lg-3 px-md-3'>
+              <div className='px-xl-2 px-lg-2 px-md-3'>
                 <Image src={HonestIcon} alt="Honest Icon" className='img-fluid' layout="raw"/>
                 <h5>Honesty and Loyalty </h5>
                 <p>Transparency amongst the employees and the management is the key factor to consider while building a successful organization. To maintain self-integrity by being honest and loyal to the company is what we seek in an employee.</p>

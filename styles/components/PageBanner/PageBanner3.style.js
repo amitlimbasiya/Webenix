@@ -38,8 +38,8 @@ export const PageBannerWrapper  = styled.div`
 
         
         ${mediaQueries("llg")`
-            padding-left: 30px;
-            padding-right: 30px;
+            padding-left: 20px;
+            padding-right: 20px;
         `}       
     } 
 
@@ -213,8 +213,8 @@ export const BackHeading  = styled.div`
             line-height: 345px;
         `} 
         ${mediaQueries("tablet")` 
-            font-size: 325px;
-            line-height: 255px;
+            font-size: 285px;
+            line-height: 225px;
         `} 
         ${mediaQueries("mobile")` 
             font-size: 245px;
