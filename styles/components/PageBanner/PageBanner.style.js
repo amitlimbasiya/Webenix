@@ -156,6 +156,13 @@ export const PageBannerWrapper  = styled.div`
     &.bgIceberg{
         background-color:#d2f5ee;
     }
+    &.bgFog{
+        background-color:#dcd5ff;
+    }
+    &.bgFog.pagebanner-shape::before{
+        background-color:#ccc2ff;
+    } 
+    
     
     &.pagebanner-shape::before{
         content: '';

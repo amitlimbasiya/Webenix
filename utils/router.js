@@ -21,11 +21,14 @@ const router = {
   WEBDEVELOPMENT: "web-development",
   FRONTENDDEVELOPMENT: "frontend-development",
   BACKENDDEVELOPMENT: "backend-development",
+  ECOMMERCEDEVELOPMENT: "eCommerce-development",
   CMSDEVELOPMENT: "cms-development",
+  MOBILEAPPDEVELOPMENT: "mobile-app-development",
   MVPDEVELOPMENT: "mvp-development",
   FRONTENDDEVELOPMENT: "frontend-development",
   ECOMMERCEDEVELOPMENT: "eCommerce-development",
-  MOBILEAPPDEVELOPMENT: "mobile-App-development",
+  MVPDEVELOPMENT: "mvp-development",
+
   
   SEO:"seo",
   SMO:"smo",

@@ -209,7 +209,7 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href="#">
+                          <Link href={router.BACKENDDEVELOPMENT}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={backendDevelopmentIcon} alt="Backend Development Icon" layout="raw" />
@@ -218,7 +218,7 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href="#">
+                          <Link href={router.ECOMMERCEDEVELOPMENT}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                               <Image src={eCommerceIcon} alt="eCommerce Development Icon" layout='raw'/>
@@ -236,7 +236,7 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href="#">
+                          <Link href={router.MOBILEAPPDEVELOPMENT}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={mobileAppDesignIcon} alt="Mobile App Design Icon" layout='raw'/>
@@ -245,7 +245,7 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href="#">
+                          <Link href={router.MVPDEVELOPMENT}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text"> 
                                 <Image src={mvpIcon} alt="MVP Development Icon" layout="raw" />
@@ -268,7 +268,7 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href="#">
+                          <Link href={router.SMO}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                               <Image src={smoIcon} alt="SMO Icon" layout='raw'/>
@@ -277,13 +277,12 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href="#">
+                          <Link href={router.PPC}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={ppcIcon} alt="PPC Icon" layout='raw'/>
                                 <p>PPC</p>
                               </s.MenuItemText>
-                              
                             </a>
                           </Link>
                         </s.MenuItemBlock>

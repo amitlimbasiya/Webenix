@@ -1,18 +1,12 @@
 import React from "react";
 import Link from 'next/link'
 import Image from 'next/image';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleRight} from '@fortawesome/free-solid-svg-icons';
 import { Container, Row, Col } from "react-bootstrap";
 import * as s from "../../../styles/components/FrontendDevelopmentPage/SectionServicesBoxes.style";
-import eCommerceIcon from '../../../public/images/eCommerce-icon.svg';
-import shapePinkIcon from '../../../public/images/frontendDevelopment/shapePink.svg';
-import shapeOrangeIcon from '../../../public/images/frontendDevelopment/shapeOrange.svg';
 import shapeBlueIcon from '../../../public/images/frontendDevelopment/shapeBlue.svg';
 import shapeGreenIcon from '../../../public/images/frontendDevelopment/shapeGreen.svg';
 import shapePastelPink from '../../../public/images/frontendDevelopment/shapePastelPink.svg';
 import shapeMorningGloryIcon from '../../../public/images/frontendDevelopment/shapeMorningGlory.svg';
-import mobileAppDesignIcon from '../../../public/images/mobile-app-design-icon.svg';
 import backendDevelopmentIcon from '../../../public/images/backend-development-icon.svg';
 import javascriptIcon from '../../../public/images/frontendDevelopment/javascriptIcon.svg';
 import angularIcon from '../../../public/images/angular-icon.svg';
@@ -54,7 +48,7 @@ const SectionServiceBoxes = () => {
             <Col lg={6} md={12} className="itemBoxes">
               <s.boxPart className="PastelPinkPart">
                 <s.partItem className="textPart">
-                    <s.boxHeading>UI/UX design</s.boxHeading>
+                    <s.boxHeading>UI/UX <br/>Design</s.boxHeading>
                     <s.textPart>Push your business to the success road with the help of our talented UI/UX designers. We consider our customer’s specifications in our work into considerations by using the right tools for it.</s.textPart>
                     <Link href='/'>
                         <a className='linkPart'>Learn More &#8594;</a>
@@ -71,7 +65,7 @@ const SectionServiceBoxes = () => {
             <Col lg={6} md={12} className="itemBoxes">
               <s.boxPart className="bluePart">
                 <s.partItem className="textPart">
-                    <s.boxHeading>React JS development</s.boxHeading>
+                    <s.boxHeading>React JS Development</s.boxHeading>
                     <s.textPart>React JS has the UI-centric library that helps in building the intuitive and dynamic mobile application with strong frontend code development and visuals.</s.textPart>
                     <Link href='/'>
                         <a className='linkPart'>Learn More &#8594;</a>
@@ -88,7 +82,7 @@ const SectionServiceBoxes = () => {
             <Col lg={6} md={12} className="itemBoxes">
               <s.boxPart className="greenPart">
                 <s.partItem className="textPart">
-                    <s.boxHeading>Vue JS development</s.boxHeading>
+                    <s.boxHeading>Vue JS Development</s.boxHeading>
                     <s.textPart>If you are looking to develop a light yet versatile app, Vue JS is the right choice. Develop the feature and functionality-centric apps. </s.textPart>
                     <Link href='/'>
                         <a className='linkPart'>Learn More &#8594;</a>
@@ -105,7 +99,7 @@ const SectionServiceBoxes = () => {
             <Col lg={6} md={12} className="itemBoxes">
               <s.boxPart className="PastelPinkPart">
                 <s.partItem className="textPart">
-                    <s.boxHeading>Angular JS development</s.boxHeading>
+                    <s.boxHeading>Angular JS Development</s.boxHeading>
                     <s.textPart>For component-based frontend development Angular JS is the leading choice of frontend development.</s.textPart>
                     <Link href='/'>
                         <a className='linkPart'>Learn More &#8594;</a>
