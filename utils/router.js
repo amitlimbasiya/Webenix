@@ -38,8 +38,14 @@ const router = {
   SMI:"social-media-integration",
   TPAI:"third-party-api-integration",
 
+  ITCONSULTING:"it-consulting",
+  STARTUPCONSULTING:"startup-consulting",
+
   PHPDEVELOPMENT: "php-development", 
+  LARAVELDEVELOPMENT: "laravel-development", 
+  CODEIGNITERDEVELOPMENT: "codeigniter-development", 
   WORDPRESSDEVELOPMENT: "wordpress-development", 
+  SHOPIFYDEVELOPMENT: "shopify-development", 
   REACTJSDEVELOPMENT: "reactjs-development", 
   NODEJSDEVELOPMENT: "nodejs-development",
 

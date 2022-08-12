@@ -296,25 +296,22 @@ const Header = () => {
                                 <Image src={outsourcingIndiaIcon} alt="Outsourcing to India Icon" layout="raw" />
                                 <p>Outsourcing to India</p>
                               </s.MenuItemText>
-                              
                             </a>
                           </Link>
-                          <Link href="#">
+                          <Link href={router.ITCONSULTING}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={itConsultingIcon} alt="IT consulting Icon" layout="raw" />
                                 <p>IT Consulting</p>
                               </s.MenuItemText>
-                              
                             </a>
                           </Link>
-                          <Link href="#">
+                          <Link href={router.STARTUPCONSULTING}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={startupConsultingIcon} alt="Startup Consulting" layout="raw" />
                                 <p>Startup Consulting</p>
                               </s.MenuItemText>
-                              
                             </a>
                           </Link>
                         </s.MenuItemBlock>
@@ -383,7 +380,7 @@ const Header = () => {
                               </s.MenuItemText>
                             </a>
                           </Link>
-                          <Link href="#">
+                          <Link href={router.LARAVELDEVELOPMENT}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={laravelIcon} alt="Laravel Development Icon" layout="raw" />
@@ -392,7 +389,7 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href="#">
+                          <Link href={router.CODEIGNITERDEVELOPMENT}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={codeigniteIcon} alt="Codeigniter" layout="raw" />
@@ -415,7 +412,7 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href="#">
+                          <Link href={router.SHOPIFYDEVELOPMENT}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={shopifyIcon} alt="Shopify Development Icon" layout="raw" />
