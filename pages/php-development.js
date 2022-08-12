@@ -104,6 +104,8 @@ const PHPDEVELOPMENT = () => {
       <p>Along with mapping down the best design, we make sure to integrate the right tools that function, ensuring the performance of the web application. With the help of the best developers, we have curated and brought some fantastic solutions to multiple businesses, so have been stated as the Best Development Company.</p>
     '/>
     <ServiceFeatureBox
+        sectionTagLine="We Provide"
+        sectionMainTitle="PHP Development Services"
         ServiceValue={ServiceData}          
       />  
     <HireServies/>

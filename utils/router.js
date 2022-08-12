@@ -29,10 +29,14 @@ const router = {
   ECOMMERCEDEVELOPMENT: "eCommerce-development",
   MVPDEVELOPMENT: "mvp-development",
 
-  
   SEO:"seo",
   SMO:"smo",
   PPC:"ppc",
+
+  PGI:"payment-gateway-integration",
+  SHIPPINGINTEGRATION:"shipping-integration",
+  SMI:"social-media-integration",
+  TPAI:"third-party-api-integration",
 
   PHPDEVELOPMENT: "php-development", 
   WORDPRESSDEVELOPMENT: "wordpress-development", 

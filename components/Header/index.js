@@ -322,7 +322,7 @@ const Header = () => {
                       <s.MenuListItem className="menulist-item">
                         <s.MenuListTitle className="menulist-title">API Integration </s.MenuListTitle>
                         <s.MenuItemBlock className="menuitem-block twoPart">
-                          <Link href="#">
+                          <Link href={router.PGI}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={paymentGatwayIntegrationIcon} alt="Payment Gateway Integration Icon" layout="raw" />
@@ -331,7 +331,7 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href="#">
+                          <Link href={router.SHIPPINGINTEGRATION}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={shippingIntegrationIcon} alt="Shipping Integration Icon" layout="raw" />
@@ -340,16 +340,16 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href="#">
+                          <Link href={router.SMI}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
-                                <Image src={webDevelopmentIcon} alt="Social Media Integration Icon" layout="raw" />
+                                <Image src={outsourcingIndiaIcon} alt="Social Media Integration Icon" layout="raw" />
                                 <p>Social Media Integration</p>
                               </s.MenuItemText>
                               
                             </a>
                           </Link>
-                          <Link href="#">
+                          <Link href={router.TPAI}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={thirdPartyAPIntegrationIcon} alt="third-party-API-Integration-icon" layout="raw" />

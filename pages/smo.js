@@ -7,7 +7,7 @@ import Blog from '../components/Blog';
 import SteptoEngage from '../components/SteptoEngage';
 import TechnologyStack from '../components/TechnologyStack';
 
-const SEO = () => {
+const SMO = () => {
   return (
     <>
     <PageBanner 
@@ -37,4 +37,4 @@ const SEO = () => {
   )
 }
 
-export default SEO
+export default SMO

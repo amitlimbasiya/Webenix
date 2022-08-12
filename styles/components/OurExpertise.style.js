@@ -14,9 +14,9 @@ export const OurExpertiseWrapper  = styled.div`
         display: -ms-flexbox;
         display: flex;
         -webkit-box-flex: 1;
-        -webkit-flex: 1 0 auto;
-        -ms-flex: 1 0 auto;
-        flex: 1 0 auto;
+        -webkit-flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
         -webkit-flex-flow: row wrap;
         -ms-flex-flow: row wrap;
         flex-flow: row wrap;
