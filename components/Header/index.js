@@ -38,7 +38,7 @@ import iosDevIcon from '../../public/images/apple-ios.svg';
 import appleIos from '../../public/images/iphone-icon.svg';
 import ionicIcon from '../../public/images/ionicframework-icon.svg';
 import progressiveIcon from '../../public/images/progressive-web-apps-icon.svg';
-import prototypeIcon from '../../public/images/prototypeIcon.svg';
+import prototypeIcon from '../../public/images/design-prototype-icon.svg';
 import psdHtmlIcon from '../../public/images/psd-html-icon.svg';
 import responsiveIcon from '../../public/images/responsive-icon.svg';
 import aspNetDevelopmentIcon from '../../public/images/asp-net-development-icon.svg';
@@ -462,7 +462,7 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href="#">
+                          <Link href={router.ANGULARJSDEVELOPMENT}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={angularIcon} alt="Angular JS Development" layout="raw" />
@@ -471,7 +471,7 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href="#">
+                          <Link href={router.EXPRESSJSDEVELOPMENT}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={expressJsIcon} alt="Express JS development" layout="raw" />
@@ -504,7 +504,7 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href="#">
+                          <Link href={router.IOSAPPSDEVELOPMENT}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={iosDevIcon} alt="iOS App Development" layout="raw" />
@@ -513,7 +513,7 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href="#">
+                          <Link href={router.IPADAPPSDEVELOPMENT}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={appleIos} alt="iPad App Development" layout="raw" />
@@ -545,7 +545,7 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href="#">
+                          <Link href={router.IONICDEVELOPMENT}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={ionicIcon} alt="IONIC Development" layout="raw" />
@@ -554,7 +554,7 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href="#">
+                          <Link href={router.PROGRESSIVEDEVELOPMENT}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={progressiveIcon} alt="Progressive Web App Development" layout="raw" />
@@ -568,7 +568,7 @@ const Header = () => {
                       <s.MenuListItem className="menulist-item">
                         <s.MenuListTitle className="menulist-title">UI/UX design </s.MenuListTitle>
                         <s.MenuItemBlock className="menuitem-block">
-                          <Link href="#">
+                          <Link href={router.DESIGNPROTOTYPE}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={prototypeIcon} alt="Design Prototype" layout="raw" />
@@ -577,7 +577,7 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href="#">
+                          <Link href={router.MOBILEAPPDESIGN}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={mobileAppDesignIcon} alt="Mobile App Design" layout="raw" />
@@ -586,7 +586,7 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href="#">
+                          <Link href={router.PSDTOHTML}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={psdHtmlIcon} alt="PSD to HTML" layout="raw" />

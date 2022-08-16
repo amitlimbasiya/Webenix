@@ -1,6 +1,6 @@
 import React from 'react';
 import {  Container, Row, Col } from 'react-bootstrap';
-import * as s from "../../../styles/components/ResponsiveWebDesign/OurExpertise.style";
+import * as s from "../../../styles/components/MobileAppDesign/OurExpertise.style";
 
 const OurExpertise = () => {
   return (

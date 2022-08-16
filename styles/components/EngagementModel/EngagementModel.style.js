@@ -3,6 +3,7 @@ import { mediaQueries } from "../../../utils/mediaQuery";
 
 export const EngagementModelWrapper  = styled.div`
     position: relative;
+
 `;
 
 export const SectionTagline  = styled.div`
@@ -102,6 +103,7 @@ export const EngagementModelSection  = styled.div`
 
     }
 
+    
 `;
 
 export const EngagementModelRow  = styled.div`
@@ -112,10 +114,27 @@ export const EngagementModelRow  = styled.div`
     align-items: flex-end!important;
     margin-bottom: 320px;
 
+    &.custom-margin{
+        margin-bottom: 250px;
+        margin-top: 80px;
+
+        ${mediaQueries("lg")` 
+            margin-bottom: 180px;
+        `} 
+
+        ${mediaQueries("mobile")` 
+            margin-top: 0px;
+            margin-bottom: 50px;
+        `} 
+    }
     &.custom-margin .engagementmodel-imgbox{
        padding-top: 80px;
+
+        ${mediaQueries("mobile")` 
+            padding-top: 30px;
+        `} 
     }
-    
+
     ${mediaQueries("lg")` 
         grid-gap: 15px;
         margin-bottom: 250px;

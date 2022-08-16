@@ -7,7 +7,7 @@ import Blog from '../components/Blog';
 import SteptoEngage from '../components/SteptoEngage';
 import TechnologyStack from '../components/TechnologyStack';
 
-const ANDROIDAPPSDEVELOPMENT = () => {
+const IPADAPPSDEVELOPMENT = () => {
   const [ServiceData, setServiceData] = useState([]);
   useEffect(() => {
     const services = [
@@ -83,28 +83,27 @@ const ANDROIDAPPSDEVELOPMENT = () => {
   return (
     <>
       <PageBanner 
-        PageBannerClass="pagebanner-section pagebanner-shape bgChromeWhite pagebanner-align-center noiseBg"
+        PageBannerClass="pagebanner-section pagebanner-shape bgPlatinum pagebanner-align-center noiseBg"
         PageBannerImgClass="pagebannerimg-col" 
-        PageBannerTitle="Android App"
+        PageBannerTitle="iPad App"
         PageBannerGreenTitle="Development"
-        PageBannerContent="<p>Android is one of the commonest and fastest running platforms globally and with the presence of millions of android mobile applications, it is important to scale apart from the market. We help you in developing mobile apps that users will love to use frequently.</p>"
+        PageBannerContent="<p>From design to functionality we get into user adaptability being a leading iOs app development company. We have a bunch of proactive custom development to deliver the high functioning of the iPad custom application.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
         PageBannerImageHeight="250px"
-        PageBannerImage="/images/androidAppDevelopment/androidBannerIcon.svg"
+        PageBannerImage="/images/apple-banner-icon.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"
-      IntroSubTitle="Android App Development expertise."
-      IntroMainTitle="Develop the most demanding android app for your business."
+      IntroSubTitle="iPad app development service"
+      IntroMainTitle="Leverage the customisation for iPad App Development Services"
       IntroContent='
-      <p>As stated, with the 2.5 million+ apps already present, it is now time to develop that sets apart the user’s attention, needs and requirements with the best functionality, clean and sleek UI/UX interface and most flexible to use it. </p>
-      <p>From Kotlin to Dart, we have expert hands-on development of the best android mobile apps that will surely hit the market with the full fledge. This will help your business with highly escalated success in the business.</p>
+      <p>At Webenix, we are here to develop the common desired and targeted innovation in iPad mobile innovation that is highly compatible with users. We have highly talented iOs app developers who are well-trained and mentored to create endeavour projects with a guaranteed success rate.</p>
     '/>
       <ServiceFeatureBox
         sectionTagLine="Our Expertise"
-        sectionMainTitle="Our Android App Development Services"
+        sectionMainTitle="Our iPad App Development Services"
         ServiceValue={ServiceData}          
       />  
       <HireServies/>
@@ -115,4 +114,4 @@ const ANDROIDAPPSDEVELOPMENT = () => {
   )
 }
 
-export default ANDROIDAPPSDEVELOPMENT
+export default IPADAPPSDEVELOPMENT

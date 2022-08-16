@@ -49,12 +49,21 @@ const router = {
   WEBFLOWYDEVELOPMENT: "webflow-development", 
   HUBSPOTDEVELOPMENT: "hubspot-development", 
   REACTNATIVEDEVELOPMENT: "react-native-development", 
+  IONICDEVELOPMENT: "ionic-development", 
+  PROGRESSIVEDEVELOPMENT: "progressive-development",
+  ANGULARJSDEVELOPMENT: "angular-js-development", 
+  EXPRESSJSDEVELOPMENT: "express-js-development", 
   REACTJSDEVELOPMENT: "reactjs-development", 
   NODEJSDEVELOPMENT: "nodejs-development",
 
   ANDROIDAPPSDEVELOPMENT: "android-app-development",
+  IOSAPPSDEVELOPMENT: "ios-app-development",
+  IPADAPPSDEVELOPMENT: "iPad-app-development",
   FLUTTERAPPSDEVELOPMENT: "flutter-app-development",
 
+  DESIGNPROTOTYPE: "design-prototype",
+  MOBILEAPPDESIGN: "mobile-app-design",
+  PSDTOHTML: "psd-to-html",
   RESPONSIVEWEBDESIGN: "responsive-web-design",
 
   BLOG: "blog",

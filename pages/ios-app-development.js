@@ -7,7 +7,7 @@ import Blog from '../components/Blog';
 import SteptoEngage from '../components/SteptoEngage';
 import TechnologyStack from '../components/TechnologyStack';
 
-const ANDROIDAPPSDEVELOPMENT = () => {
+const IOSAPPSDEVELOPMENT = () => {
   const [ServiceData, setServiceData] = useState([]);
   useEffect(() => {
     const services = [
@@ -83,28 +83,27 @@ const ANDROIDAPPSDEVELOPMENT = () => {
   return (
     <>
       <PageBanner 
-        PageBannerClass="pagebanner-section pagebanner-shape bgChromeWhite pagebanner-align-center noiseBg"
+        PageBannerClass="pagebanner-section pagebanner-shape bg_lightgreen pagebanner-align-center noiseBg"
         PageBannerImgClass="pagebannerimg-col" 
-        PageBannerTitle="Android App"
+        PageBannerTitle="iOs"
         PageBannerGreenTitle="Development"
-        PageBannerContent="<p>Android is one of the commonest and fastest running platforms globally and with the presence of millions of android mobile applications, it is important to scale apart from the market. We help you in developing mobile apps that users will love to use frequently.</p>"
+        PageBannerContent="<p>Webenix stands high considering the iPhone development company that challenges to create pixel-perfect designs which are user-friendly and hold up strong backend solutions. Our iPhone development services cater to strong product which is bold and innovative to use.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
         PageBannerImageHeight="250px"
-        PageBannerImage="/images/androidAppDevelopment/androidBannerIcon.svg"
+        PageBannerImage="/images/frontendDevelopment/frontend-banner-icon.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"
-      IntroSubTitle="Android App Development expertise."
-      IntroMainTitle="Develop the most demanding android app for your business."
+      IntroSubTitle="Our iPhone excellence"
+      IntroMainTitle="We deliver the iPhone potent mobile app development services "
       IntroContent='
-      <p>As stated, with the 2.5 million+ apps already present, it is now time to develop that sets apart the user’s attention, needs and requirements with the best functionality, clean and sleek UI/UX interface and most flexible to use it. </p>
-      <p>From Kotlin to Dart, we have expert hands-on development of the best android mobile apps that will surely hit the market with the full fledge. This will help your business with highly escalated success in the business.</p>
+      <p>It is never too late to launch an app that enhances your business or allows you to be more productive on a regular basis. There are many different providers of iPhone app development services. But, not all providers are created equal. If you are looking for a company to develop your first iPhone app, you are in the right place to take your decision further as we provide honest consulting.</p>
     '/>
       <ServiceFeatureBox
         sectionTagLine="Our Expertise"
-        sectionMainTitle="Our Android App Development Services"
+        sectionMainTitle="Our iOs Development Services"
         ServiceValue={ServiceData}          
       />  
       <HireServies/>
@@ -115,4 +114,4 @@ const ANDROIDAPPSDEVELOPMENT = () => {
   )
 }
 
-export default ANDROIDAPPSDEVELOPMENT
+export default IOSAPPSDEVELOPMENT
