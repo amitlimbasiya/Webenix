@@ -38,9 +38,7 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                     <s.boxHeading>CMS Development</s.boxHeading>
                     <s.textPart>We bring solutions by developing CMS for your business that helps facilitate, tailor, organize, modify, and plan the web content in the most accurate ways. </s.textPart>
-                    <Link href='/'>
-                        <a className='linkPart'>Learn More &#8594;</a>
-                    </Link>
+                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={CMSDevIcon} alt="CMS Development Icon" layout="raw" />
@@ -55,9 +53,7 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                     <s.boxHeading>Ecommerce Development</s.boxHeading>
                     <s.textPart>Let us help in showcasing your business in the most organized ways for your customers that will align your brand voice by creating a perfect eCommerce element facilitating faster selling profit elements.</s.textPart>
-                    <Link href='/'>
-                        <a className='linkPart'>Learn More &#8594;</a>
-                    </Link>
+                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={eCommerceIcon} alt="eCmmerce Development Icon" layout="raw" />
@@ -72,9 +68,7 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                     <s.boxHeading>Web App Development</s.boxHeading>
                     <s.textPart>Give the extravagant push to your business by creating the best web app for your business ensuring the escalation in the growth.</s.textPart>
-                    <Link href='/'>
-                        <a className='linkPart'>Learn More &#8594;</a>
-                    </Link>
+                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={codeIcon} alt="Web App Development Icon" layout="raw" />
@@ -89,9 +83,7 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                     <s.boxHeading>Mobile API development</s.boxHeading>
                     <s.textPart>Providing the leverage of connecting the mobile applications with the third party integration with Mobile API Development services by Webenix.</s.textPart>
-                    <Link href='/'>
-                        <a className='linkPart'>Learn More &#8594;</a>
-                    </Link>
+                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={mobileAppDesignIcon} alt="Landing Page Design Icon" layout="raw" />
@@ -106,9 +98,7 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                     <s.boxHeading>Backend Development</s.boxHeading>
                     <s.textPart>Offering backend development services for various web apps, cloud-based applications, and multiple domains which users will never see and yet making sure of performing the same as the back and front.</s.textPart>
-                    <Link href='/'>
-                        <a className='linkPart'>Learn More &#8594;</a>
-                    </Link>
+                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={backendDevelopmentIcon} alt="Backend Development Icon" layout="raw" />
@@ -123,9 +113,7 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                     <s.boxHeading>Frontend Development</s.boxHeading>
                     <s.textPart>Taking care of the responsiveness on multiple screens, we maximize the user experience by developing attractive designs considering tiny details.</s.textPart>
-                    <Link href='/'>
-                        <a className='linkPart'>Learn More &#8594;</a>
-                    </Link>
+                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={frontEndDevelopmentIcon} alt="Frontend Development Icon" layout="raw" />

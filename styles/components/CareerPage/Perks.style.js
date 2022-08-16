@@ -32,26 +32,13 @@ export const SectionIntroWrapper  = styled.div`
 
 export const SectionTagline  = styled.div`
  
-    margin-bottom: 50px;
-
-
-    ${mediaQueries("llg")` 
-        margin-bottom: 45px
-    `} 
-
-    ${mediaQueries("xl")` 
-        margin-bottom:30px
-    `} 
+    margin-bottom: 20px;
 
     ${mediaQueries("mobile")` 
         margin-bottom: 10px 
     `} 
 
-    ${mediaQueries("xxs")` 
-        margin-bottom: 10px 
-    `} 
-
-    .before-dash{ 
+    .before-dash{
         position: relative;
         font-size: 24px;
         line-height: 38px;

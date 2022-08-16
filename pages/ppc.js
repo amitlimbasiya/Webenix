@@ -24,9 +24,10 @@ const PPC = () => {
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"
       IntroSubTitle="Pay-per click marketing expertise"
-      IntroMainTitle="We use the accurate and right tools for skyrocketing the digital marketing services making a 5x difference in the business by 5x aiming to generate the highest ROI. "
+      IntroMainTitle=""
       IntroContent='
       <p>Building your brand’s digital presence with the right PPC actions that is initiated from the basic keyword research and targeting the suitable audience for your brand. Bringing down the ideas into implementation will bring a major difference while conquering the competitive market. </p>
+      <p>We use the accurate and right tools for skyrocketing the digital marketing services making a 5x difference in the business by 5x aiming to generate the highest ROI. </p>
     '/>
     <SectionServiceBoxes/>
     <HireServies/>

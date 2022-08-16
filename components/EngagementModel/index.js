@@ -19,7 +19,7 @@ const EngagementModel = (props) => {
                     <Image src={props.EngagementModelIcon} alt="Engagement Model" height={props.EngagementModelIconHeight} width={props.EngagementModelIconWidth}/>
                   </s.EngagementModelContentMainTitle>
                   <s.EngagementModelContentInnerBox>
-                    <h3>{props.EngagementModelName}</h3>
+                  {props.EngagementModelName && <h3>{props.EngagementModelName}</h3>}
                     {parse(props.EngagementContent)}
                   </s.EngagementModelContentInnerBox>
               </s.EngagementModelContentBox>

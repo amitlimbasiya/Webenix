@@ -40,9 +40,7 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                     <s.boxHeading>WordPress Development</s.boxHeading>
                     <s.textPart>WordPress is one of the renowned CMS platforms where managing content becomes much easier with the varied themes and ability to install the plug-ins for better-looking websites and accurate management.</s.textPart>
-                    <Link href='/'>
-                        <a className='linkPart'>Learn More &#8594;</a>
-                    </Link>
+                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={wordpressIcon} alt="WordPress Development Icon" layout="raw" />
@@ -57,9 +55,7 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                     <s.boxHeading>Hubspot Development</s.boxHeading>
                     <s.textPart>Get the personalized Hubspot development from our expert teams to make your business look professional and real. Generate more leads, escalate your business and easily convert visitors into potential clients.</s.textPart>
-                    <Link href='/'>
-                        <a className='linkPart'>Learn More &#8594;</a>
-                    </Link>
+                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={HubspotIcon} alt="Hubspot Development Icon" layout="raw" />
@@ -74,9 +70,7 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                     <s.boxHeading>Webflow Development</s.boxHeading>
                     <s.textPart>Webflow development companies are specially built to drive business by developing websites which are highly responsive. Partner with Webenix to drive your business in the most unique ways.</s.textPart>
-                    <Link href='/'>
-                        <a className='linkPart'>Learn More &#8594;</a>
-                    </Link>
+                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={webFlowIcon} alt="Webflow Development Icon" layout="raw" />
@@ -91,9 +85,7 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                     <s.boxHeading>CMS Customization</s.boxHeading>
                     <s.textPart>Stand out from the crowd, and customize your content management platform with your choice. Leave your worries about thinking about unique ideas and make Webenix your partner to make the prominent CMS Customization Development.</s.textPart>
-                    <Link href='/'>
-                        <a className='linkPart'>Learn More &#8594;</a>
-                    </Link>
+                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={mobileAppDesignIcon} alt="CMS Icon" layout="raw" />
@@ -108,9 +100,7 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                     <s.boxHeading>Theme Integration</s.boxHeading>
                     <s.textPart>With the help of theme integration, easily decide what themes suit the best website in your business.</s.textPart>
-                    <Link href='/'>
-                        <a className='linkPart'>Learn More &#8594;</a>
-                    </Link>
+                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={backendDevelopmentIcon} alt="Theme Icon" layout="raw" />
@@ -125,9 +115,7 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                     <s.boxHeading>PSD to WordPress</s.boxHeading>
                     <s.textPart>Do not worry about the complex dynamic structures, PSD to WP is the most efficient conversion that turns out in a meaningful way. We totally custom-code the backend of WordPress to make it most fruitful for the business.</s.textPart>
-                    <Link href='/'>
-                        <a className='linkPart'>Learn More &#8594;</a>
-                    </Link>
+                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={PSDWordPressIcon} alt="PSD to WordPress Icon" layout="raw" />

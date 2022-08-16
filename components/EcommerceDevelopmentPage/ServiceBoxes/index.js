@@ -17,7 +17,7 @@ const SectionServiceBoxes = () => {
         <Container>
           <s.SectionTagline>
             <span className="before-dash">Our Expertise</span>
-            <h2>Our Backend Development Services</h2>
+            <h2>eCommerce Development Services</h2>
           </s.SectionTagline>
         </Container>
       </s.SectionServiceTop>
@@ -29,9 +29,7 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                     <s.boxHeading>Shopify Development</s.boxHeading>
                     <s.textPart>Compete for your online store with the best Shopify development. Give your online business the wings of reality consisting of the best themes and sleek features.</s.textPart>
-                    <Link href='/'>
-                        <a className='linkPart'>Learn More &#8594;</a>
-                    </Link>
+                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                 <Image src={shopifyIcon} alt="Shopify Icon" layout="raw" />
@@ -46,9 +44,7 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                     <s.boxHeading>Magento Development</s.boxHeading>
                     <s.textPart>We are a dictionary of Magento Development, let us build the A1 Magento store for you. </s.textPart>
-                    <Link href='/'>
-                        <a className='linkPart'>Learn More &#8594;</a>
-                    </Link>
+                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={magentoIcon} alt="Magento Icon" layout="raw" />
@@ -63,9 +59,7 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                     <s.boxHeading>WooCommerce Development</s.boxHeading>
                     <s.textPart>Stand out of the box, develop the WooCommerce store to carry eCommerce business strongly. </s.textPart>
-                    <Link href='/'>
-                        <a className='linkPart'>Learn More &#8594;</a>
-                    </Link>
+                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={wooIcon} alt="WooCommerce Icon" layout="raw" />

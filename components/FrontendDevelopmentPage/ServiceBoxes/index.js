@@ -33,9 +33,7 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                     <s.boxHeading>Web App Development</s.boxHeading>
                     <s.textPart>Give the extravagant push to your business by creating the best web app for your business ensuring the escalation in the growth. </s.textPart>
-                    <Link href='/'>
-                        <a className='linkPart'>Learn More &#8594;</a>
-                    </Link>
+                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                 <Image src={backendDevelopmentIcon} alt="Backend Development Icon" layout="raw" />
@@ -50,9 +48,7 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                     <s.boxHeading>UI/UX <br/>Design</s.boxHeading>
                     <s.textPart>Push your business to the success road with the help of our talented UI/UX designers. We consider our customer’s specifications in our work into considerations by using the right tools for it.</s.textPart>
-                    <Link href='/'>
-                        <a className='linkPart'>Learn More &#8594;</a>
-                    </Link>
+                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={UIUXIcon} alt="UIUX Icon" layout="raw" />
@@ -67,9 +63,7 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                     <s.boxHeading>React JS Development</s.boxHeading>
                     <s.textPart>React JS has the UI-centric library that helps in building the intuitive and dynamic mobile application with strong frontend code development and visuals.</s.textPart>
-                    <Link href='/'>
-                        <a className='linkPart'>Learn More &#8594;</a>
-                    </Link>
+                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={ReactJSIcon} alt="Reactjs Development Icon" layout="raw" />
@@ -84,9 +78,7 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                     <s.boxHeading>Vue JS Development</s.boxHeading>
                     <s.textPart>If you are looking to develop a light yet versatile app, Vue JS is the right choice. Develop the feature and functionality-centric apps. </s.textPart>
-                    <Link href='/'>
-                        <a className='linkPart'>Learn More &#8594;</a>
-                    </Link>
+                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={vueJsIcon} alt="Vue Js Icon" layout="raw" />
@@ -101,9 +93,7 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                     <s.boxHeading>Angular JS Development</s.boxHeading>
                     <s.textPart>For component-based frontend development Angular JS is the leading choice of frontend development.</s.textPart>
-                    <Link href='/'>
-                        <a className='linkPart'>Learn More &#8594;</a>
-                    </Link>
+                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={angularIcon} alt="Angular js Icon" layout="raw" />
@@ -118,9 +108,7 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                     <s.boxHeading>Javascript Development</s.boxHeading>
                     <s.textPart>It helps in bringing the dynamic and yet responsive consisting of sleek features that bring the biggest impact on your application’s functionality.</s.textPart>
-                    <Link href='/'>
-                        <a className='linkPart'>Learn More &#8594;</a>
-                    </Link>
+                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={javascriptIcon} alt="Javascript Icon" layout="raw" />

@@ -290,7 +290,7 @@ export const textPart  = styled.p`
     color: #000;
     line-height: 1.4;
     letter-spacing: 0.4px;
-    margin: 0px 0px 20px;
+    margin: 0px;
     height: 176px;
     overflow: hidden;
 
@@ -299,7 +299,7 @@ export const textPart  = styled.p`
     `} 
     ${mediaQueries("mobile")` 
         font-size: 16px;
-        margin: 0px 0px 10px;
+        margin: 0px;
     `} 
     ${mediaQueries("mobile")` 
         padding-right: 20px;

@@ -24,9 +24,9 @@ const UIUX = () => {
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"
       IntroSubTitle="We believe in creativity"
-      IntroMainTitle="Bringing colours to the right plate is our job that will surpass it in your business."
+      IntroMainTitle=""
       IntroContent='
-        <h3>We are no longer living in a world where there are only no primary colours around the websites and mobile applications.</h3>
+        <p>Bringing colours to the right plate is our job that will surpass it in your business. We are no longer living in a world where there are only no primary colours around the websites and mobile applications.</p>
         <p>The elegant websites and mobile app design bring more customers to your company and brand. We are stated as the world’s innovative leading designing company that brings revolutionary changes while we help you escalate business. </p>
     '/>
     <SectionServiceBoxes/>

@@ -30,9 +30,7 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                     <s.boxHeading>Mobile App Development</s.boxHeading>
                     <s.textPart>Our mobile app development helps in escalating the startup companies. Get in touch with us whether you are looking to build an app from the beginning or want to redesign it, we are here to give away the best solutions.</s.textPart>
-                    <Link href='/'>
-                        <a className='linkPart'>Learn More &#8594;</a>
-                    </Link>
+                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={mobileAppIcon} alt="UI UX Design Icon" layout="raw" />
@@ -47,9 +45,7 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                     <s.boxHeading>Backend Development</s.boxHeading>
                     <s.textPart>Website is an extension to your branding, marketing and business sales purposes. Build it right with our website development services.</s.textPart>
-                    <Link href='/'>
-                        <a className='linkPart'>Learn More &#8594;</a>
-                    </Link>
+                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={backendDevelopmentIcon} alt="Backend Development Icon" layout="raw" />
@@ -64,9 +60,7 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                     <s.boxHeading>UI/UX</s.boxHeading>
                     <s.textPart>With our integrated UI/UX principles we deliver you design that stays as a delight to users whether a website or app.</s.textPart>
-                    <Link href='/'>
-                        <a className='linkPart'>Learn More &#8594;</a>
-                    </Link>
+                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={uiUxIcon} alt="UI UX Design Icon" layout="raw" />
@@ -81,9 +75,7 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                     <s.boxHeading>Frontend Development</s.boxHeading>
                     <s.textPart>We provide Frontend development services that are strategic, guaranteed, and one-of-a-kind making competition trivial.</s.textPart>
-                    <Link href='/'>
-                        <a className='linkPart'>Learn More &#8594;</a>
-                    </Link>
+                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={frontendIcon} alt="UI UX Design Icon" layout="raw" />

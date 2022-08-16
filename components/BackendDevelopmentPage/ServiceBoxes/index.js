@@ -35,9 +35,7 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                     <s.boxHeading>Web App Development</s.boxHeading>
                     <s.textPart>Give the extravagant push to your business by creating the best web app for your business ensuring the escalation in the growth. </s.textPart>
-                    <Link href='/'>
-                        <a className='linkPart'>Learn More &#8594;</a>
-                    </Link>
+                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                 <Image src={backendDevelopmentIcon} alt="Backend Development Icon" layout="raw" />
@@ -52,9 +50,7 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                     <s.boxHeading>Mobile app development</s.boxHeading>
                     <s.textPart>Showcase your brand by developing a strong mobile app development that brings down the better representation of the company.</s.textPart>
-                    <Link href='/'>
-                        <a className='linkPart'>Learn More &#8594;</a>
-                    </Link>
+                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={mobileAppDesignIcon} alt="Mobile App Icon" layout="raw" />
@@ -69,9 +65,7 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                     <s.boxHeading>Node JS development</s.boxHeading>
                     <s.textPart>With proficiency in the knowledge of a strong background in Node JS Development services, we provide the adroit resources that are made right for your business.</s.textPart>
-                    <Link href='/'>
-                        <a className='linkPart'>Learn More &#8594;</a>
-                    </Link>
+                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={NodeJSIcon} alt="NodeJS Icon" layout="raw" />
@@ -86,9 +80,7 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                     <s.boxHeading>ASP.NET development</s.boxHeading>
                     <s.textPart>Helps in managing the frictionless mobile and web apps, that provide frictionless services that are capable of holding up the strong backend services.</s.textPart>
-                    <Link href='/'>
-                        <a className='linkPart'>Learn More &#8594;</a>
-                    </Link>
+                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={aspNetIcon} alt="Asp Net Icon" layout="raw" />
@@ -103,9 +95,7 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                     <s.boxHeading>Laravel Development</s.boxHeading>
                     <s.textPart>If you are looking for the best PHP-centric software, Laravel is considered to be the first choice in the PHP framework. For businesses who are looking for a performance-centric platform, PHP Laravel is considered to be the best one. We at Webenix have the best hands-on building industry-specific using Laravel frameworks.</s.textPart>
-                    <Link href='/'>
-                        <a className='linkPart'>Learn More &#8594;</a>
-                    </Link>
+                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={laravelIcon} alt="laravel Icon" layout="raw" />

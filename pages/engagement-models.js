@@ -15,7 +15,6 @@ const EngagementModels = () => {
         IntroSubTitle="We are available globally"
         IntroMainTitle="Your one-stop solution for any digital assistance."
         IntroContent='
-          <h3>Lorem Ipsum</h3>
           <p>Webenix is providing mobile and web application services for over a decade now. With the most enthusiastic team of developers profound in every technical stack dedicates their skill to outgrow your business. We aim to fulfil your business vision by bringing efficiency into action. By providing daily updates, we make sure our clients and customers get real-time updates</p>
           <p>We aim to uplift digitalisation and motivation in the business. When the efforts meet endeavours, we celebrate success by aiming and targeting better goals. </p>
       '/>

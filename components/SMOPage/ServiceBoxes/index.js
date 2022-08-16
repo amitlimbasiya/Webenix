@@ -38,9 +38,7 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                     <s.boxHeading>Lorem Ipsum </s.boxHeading>
                     <s.textPart>Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</s.textPart>
-                    <Link href='/'>
-                        <a className='linkPart'>Learn More &#8594;</a>
-                    </Link>
+                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={technicalSEOAuditIcon} alt="Technical SEO Audit Icon" layout="raw" />
@@ -55,9 +53,7 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                   <s.boxHeading>Lorem Ipsum </s.boxHeading>
                     <s.textPart>Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</s.textPart>
-                    <Link href='/'>
-                        <a className='linkPart'>Learn More &#8594;</a>
-                    </Link>
+                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={seoIcon} alt="Seo Icon" layout="raw" />
@@ -72,9 +68,7 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                   <s.boxHeading>Lorem Ipsum </s.boxHeading>
                     <s.textPart>Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</s.textPart>
-                    <Link href='/'>
-                        <a className='linkPart'>Learn More &#8594;</a>
-                    </Link>
+                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={onPageOptIcon} alt="On-page optimization Icon" layout="raw" />
@@ -89,9 +83,7 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                   <s.boxHeading>Lorem Ipsum </s.boxHeading>
                     <s.textPart>Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</s.textPart>
-                    <Link href='/'>
-                        <a className='linkPart'>Learn More &#8594;</a>
-                    </Link>
+                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={fullStackIcon} alt="Off-page optimization Icon" layout="raw" />
@@ -106,9 +98,7 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                   <s.boxHeading>Lorem Ipsum </s.boxHeading>
                     <s.textPart>Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</s.textPart>
-                    <Link href='/'>
-                        <a className='linkPart'>Learn More &#8594;</a>
-                    </Link>
+                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={linkBuildingStrategiesIcon} alt="Link-building strategies" layout="raw" />
@@ -123,9 +113,7 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                     <s.boxHeading>Lorem Ipsum </s.boxHeading>
                     <s.textPart>Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</s.textPart>
-                    <Link href='/'>
-                        <a className='linkPart'>Learn More &#8594;</a>
-                    </Link>
+                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={contentMarketingIcon} alt="Content Marketing" layout="raw" />

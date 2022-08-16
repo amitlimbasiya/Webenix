@@ -359,6 +359,7 @@ export const LeftRightPart  = styled.div`
         width: 100%;
         overflow: hidden;
         position: relative;
+        z-index: 0;
     }
     .right-slant .anmtn-element:after {
         content: "";

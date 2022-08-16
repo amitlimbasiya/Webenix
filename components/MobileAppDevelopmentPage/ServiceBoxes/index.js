@@ -15,7 +15,7 @@ const SectionServiceBoxes = () => {
         <Container>
           <s.SectionTagline>
             <span className="before-dash">Our Expertise</span>
-            <h2>Our Backend Development Services</h2>
+            <h2>Our Mobiel App Development Services</h2>
           </s.SectionTagline>
         </Container>
       </s.SectionServiceTop>
@@ -27,9 +27,7 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                     <s.boxHeading>Native App Development</s.boxHeading>
                     <s.textPart>We bring down the Native experience of the iOs and Android mobile application altogether.</s.textPart>
-                    <Link href='/'>
-                        <a className='linkPart'>Learn More &#8594;</a>
-                    </Link>
+                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                 <Image src={nativeAppIcon} alt="Native App Development Icon" layout="raw" />
@@ -44,9 +42,7 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                     <s.boxHeading>Cross-platform development </s.boxHeading>
                     <s.textPart>Carry your digital presence over multiple platforms through trendy cross-platforms.</s.textPart>
-                    <Link href='/'>
-                        <a className='linkPart'>Learn More &#8594;</a>
-                    </Link>
+                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={crossPlatformIcon} alt="Cross-platform development Icon" layout="raw" />

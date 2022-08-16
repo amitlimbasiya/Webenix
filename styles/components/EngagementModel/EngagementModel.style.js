@@ -112,6 +112,10 @@ export const EngagementModelRow  = styled.div`
     align-items: flex-end!important;
     margin-bottom: 320px;
 
+    &.custom-margin .engagementmodel-imgbox{
+       padding-top: 80px;
+    }
+    
     ${mediaQueries("lg")` 
         grid-gap: 15px;
         margin-bottom: 250px;

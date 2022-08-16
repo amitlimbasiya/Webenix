@@ -162,7 +162,18 @@ export const PageBannerWrapper  = styled.div`
     &.bgFog.pagebanner-shape::before{
         background-color:#ccc2ff;
     } 
-    
+    &.bgLightPeriwinkle{
+        background-color:#C0C5FF;
+    }
+    &.bgLightPeriwinkle.pagebanner-shape::before{
+        background-color:#b3b8f9;
+    }
+    &.bgBasketBallOrange{
+        background-color:#FDE1D8;
+    }
+    &.bgBasketBallOrange.pagebanner-shape::before{
+        background-color:#FCD3C5;
+    }
     
     &.pagebanner-shape::before{
         content: '';

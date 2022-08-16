@@ -46,6 +46,9 @@ const router = {
   CODEIGNITERDEVELOPMENT: "codeigniter-development", 
   WORDPRESSDEVELOPMENT: "wordpress-development", 
   SHOPIFYDEVELOPMENT: "shopify-development", 
+  WEBFLOWYDEVELOPMENT: "webflow-development", 
+  HUBSPOTDEVELOPMENT: "hubspot-development", 
+  REACTNATIVEDEVELOPMENT: "react-native-development", 
   REACTJSDEVELOPMENT: "reactjs-development", 
   NODEJSDEVELOPMENT: "nodejs-development",
 
@@ -56,6 +59,8 @@ const router = {
 
   BLOG: "blog",
   SINGLEBLOG: "single-blog",
+  PORTFOLIO: "portfolio",
+  CONFIDENTIALITY: "confidentiality",
   
 };
 export default router;

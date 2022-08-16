@@ -138,7 +138,7 @@ const Header = () => {
                         </s.MenuListItem>
                         <s.MenuListItem className="menulist-item">
                           <s.MenuItemBlock className="menuitem-block">
-                            <Link href="#">
+                            <Link href={router.CONFIDENTIALITY}>
                               <a className="menuitem-box">
                                 <s.MenuItemText className="menuitem-text">
                                 <Image src={confidentialityIcon} alt="Confidentiality Icon" layout="raw" />
@@ -421,7 +421,7 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href="#">
+                          <Link href={router.WEBFLOWYDEVELOPMENT}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={webFlowIcon} alt="Webflow Development" layout="raw" />
@@ -430,7 +430,7 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href="#">
+                          <Link href={router.HUBSPOTDEVELOPMENT}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={hubspotIcon} alt="Hubspot Development" layout="raw" />
@@ -536,7 +536,7 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href="#">
+                          <Link href={router.REACTNATIVEDEVELOPMENT}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={reactjsIcon} alt="React Native Development" layout="raw" />
@@ -835,11 +835,11 @@ const Header = () => {
                 </s.MenuItemHasChildren> 
 
                 <s.MenuItemHasChildren className="menu-item">
-                    <Link href="#" className="menulist-title">Resources</Link>
+                    <Link href={router.BLOG} className="menulist-title">Resources</Link>
                 </s.MenuItemHasChildren>
 
                 <s.MenuItemHasChildren className="menu-item">
-                    <Link href="#" className="menulist-title">Portfolio</Link>
+                    <Link href={router.PORTFOLIO} className="menulist-title">Portfolio</Link>
                 </s.MenuItemHasChildren>
               </s.MenuSection>
             </Nav>
