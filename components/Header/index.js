@@ -42,7 +42,6 @@ import prototypeIcon from '../../public/images/design-prototype-icon.svg';
 import psdHtmlIcon from '../../public/images/psd-html-icon.svg';
 import responsiveIcon from '../../public/images/responsive-icon.svg';
 import aspNetDevelopmentIcon from '../../public/images/asp-net-development-icon.svg';
-import codeigniterIcon from '../../public/images/codeigniter-icon.svg';
 import phpIcon from '../../public/images/php-icon.svg';
 import mvpIcon from '../../public/images/mvp-icon.svg';
 import seoIcon from '../../public/images/seo-icon.svg';
@@ -636,7 +635,7 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href="#">
+                          <Link href={router.HIREUIUXDESIGNER}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={uiUxIcon} alt="Hire UI/UX designer" layout="raw" />
@@ -659,7 +658,7 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href="#">
+                          <Link href={router.HIREDOTNETDEVELOPER}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={aspNetDevelopmentIcon} alt="Hire .NET Developer" layout="raw" />
@@ -668,7 +667,7 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href="#">
+                          <Link href={router.HIRLARAVELDEVELOPER}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={laravelIcon} alt="Hire Laravel Developer" layout="raw" />
@@ -677,10 +676,10 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href="#">
+                          <Link href={router.HIRCODEIGNITERDEVELOPER}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
-                                <Image src={codeigniterIcon} alt="Hire Codeigniter Developer" layout="raw" />
+                                <Image src={codeigniteIcon} alt="Hire Codeigniter Developer" layout="raw" />
                                 <p>Hire Codeigniter Developer</p>
                               </s.MenuItemText>
                               
@@ -700,7 +699,7 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href="#">
+                          <Link href={router.HIRSHOPIFYRDEVELOPER}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={shopifyIcon} alt="Hire Shopify Developer" layout="raw" />

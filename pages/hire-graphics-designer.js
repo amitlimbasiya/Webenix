@@ -28,8 +28,7 @@ const HireGraphicsDesignPage = () => {
       IntroSubTitle="Clean and sleek designs"
       IntroMainTitle="Brand development and growth are what we aim for your business!"
       IntroContent='
-      <h3>A good design tells a lot about the brand, let us create an impeccable brand for you.</h3>
-      <p>Gone are those days which had the existence of primary colours in front of your eyes. With the advancement in the designs, we make sure to make your business look miscellaneous by embedding our aim and goal towards growing your company.</p>
+      <p>A good design tells a lot about the brand, let us create an impeccable brand for you. Gone are those days which had the existence of primary colours in front of your eyes. With the advancement in the designs, we make sure to make your business look miscellaneous by embedding our aim and goal towards growing your company.</p>
     '/>
       <HiringModels/>
       <OurExpertise/>

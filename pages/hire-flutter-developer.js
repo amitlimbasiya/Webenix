@@ -28,7 +28,7 @@ const HireFlutterDeveloper = () => {
       IntroSubTitle="Harness the mobility"
       IntroMainTitle="Explore the most demanded cross-platform."
       IntroContent='
-      <h3>Leverage creativity and build concepts and experience native-like apps.</h3>
+      <p>Leverage creativity and build concepts and experience native-like apps.</p>
       <p>The revolutionary launch by the Google-Flutter is one of the best cross-platforms that has set the highest records for developers using it for giving the Native touch for developing mobile applications.  Build the most sophisticated mobile apps, with easy and attractive interfaces.</p>
     '/>
       <HiringModels/>

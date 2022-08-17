@@ -28,7 +28,7 @@ const HireWebDesigner = () => {
       IntroSubTitle="Expertise in responsive website design"
       IntroMainTitle="Remove the line between Customers and Business owners."
       IntroContent='
-      <h3>Our website design will be fitted in any screen size in front of you. Get yourself a website with zero responsive issues.</h3>
+      <p>Our website design will be fitted in any screen size in front of you. Get yourself a website with zero responsive issues.</p>
       <p>We look for our customer’s requirements and make sure to fulfil their vision. With the affordable pricing figure, we make sure to design a website that fits any screen size. Customers get to experience the class functionality with a high ROI.</p>
     '/>
       <HiringModels/>

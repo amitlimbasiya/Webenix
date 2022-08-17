@@ -28,8 +28,8 @@ const HireReactJSDeveloper = () => {
       IntroSubTitle="Explore the super-sleek frontend development"
       IntroMainTitle="Want the fastest functioning apps, ReactJS is super perfect."
       IntroContent='
-      <h3>Scale up your business super fast, providing the best functionality in the frontend development by ReactJS.</h3>
-      <p>ReactJS is considered to be the open-source Javascript Framework that helps in creating dynamic projects. The ReactJS technology is mostly preferred by business owners who want to develop a mobile application totally user-centric. Get yourself one, without worrying about the code quality because we have got it all covered for you.</p>
+      <p>Scale up your business super fast, providing the best functionality in the frontend development by ReactJS.</p>
+      <p>ReactJS is considered to be the open-source Javascript Framework that helps in creating dynamic projects. The ReactJS technology is mostly preferred by business owners who want to develop a mobile application user-centric. Get yourself one, without worrying about the code quality because we have got it all covered for you.</p>
     '/>
       <HiringModels/>
       <OurExpertise/>

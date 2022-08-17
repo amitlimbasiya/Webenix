@@ -7,7 +7,6 @@ import Benefits from '../components/Benefits';
 import FAQAccordion from '../components/FAQAccordion';
 import Blog from '../components/Blog';
 
-
 const HireWordPressDeveloperPage = () => {
   return (
     <>
@@ -28,7 +27,7 @@ const HireWordPressDeveloperPage = () => {
       IntroSubTitle="Work with the best CMS platform"
       IntroMainTitle="Manage your business with the most wanted CMS platform."
       IntroContent='
-      <h3>Embed your business on the best CMS platform for the easy management of the business content.</h3>
+      <p>Embed your business on the best CMS platform for the easy management of the business content.</p>
       <p>We believe in easy content management, and thus WordPress plays the most efficient role in it. Make your business easier with an efficient content management platform that we develop and contribute globally from one WordPress VIP Agency.</p>
     '/>
       <HiringModels/>

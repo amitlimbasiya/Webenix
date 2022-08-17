@@ -26,9 +26,9 @@ const HireWebDesigner = () => {
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"
       IntroSubTitle="Successful business with a strong backend"
-      IntroMainTitle="Need strong backend development? You are in right place."
+      IntroMainTitle="Need strong backend development? You are in the right place. "
       IntroContent='
-      <h3>Develop a strong backend for the smooth functionality of apps and software, do not let your business wait any longer. </h3>
+      <p>Develop a strong backend for the smooth functionality of apps and software, do not let your business wait any longer. </p>
       <p>Webenix has been into PHP development for more than a decade now, with the core PHP frameworks like Laravel we have been into developing the strong backend for better functionality.</p>
     '/>
       <HiringModels/>

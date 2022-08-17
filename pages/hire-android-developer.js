@@ -28,7 +28,7 @@ const HireAndroidDeveloper = () => {
         IntroSubTitle="Get the best from the best"
         IntroMainTitle="Be a part of the $400 industry"
         IntroContent='
-        <h3>Leverage your performance experience with custom mobile app development.</h3>
+        <p>Leverage your performance experience with custom mobile app development.</p>
         <p>Breaking the monotonous working of mobile apps, we believe in creating magic for you. The demand for the mobile application amongst users defines strong code development.</p>
       '/>
       <HiringModels/>
