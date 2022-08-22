@@ -87,7 +87,7 @@ const CODEIGNITERDEVELOPMENT = () => {
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="Codeigniter"
         PageBannerGreenTitle="Development"
-        PageBannerContent="<p>A dynamic web application attuned to market needs built for your customers and processes will definitely MAKE YOU WIN the digital game. Our CodeIgniter development services help you to build such full-featured dynamic web platforms. Whether you are looking to innovate, orchestrate or transform – PHP developers at WEBENIX provide solutions committed to driving results.</p>"
+        PageBannerContent="<p>Make your digital game strong by developing the dynamic best web application that will make you win over users. Codeignitor development services help you in building the full-featured and dynamic platform which is right for your business.</p><p>Want to build from scratch or customise, our Coedignitor developer has got you covered to drive the best results in your business.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
@@ -96,10 +96,10 @@ const CODEIGNITERDEVELOPMENT = () => {
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"
-      IntroSubTitle="Codeigniter Expertise"
-      IntroMainTitle="A CodeIgniter Development Company That Puts Your Brand First"
+      IntroSubTitle="Expertise in Codeignitor"
+      IntroMainTitle="Our Codeignitor development services make your business’s digital game stronger"
       IntroContent='
-      <p>In order to win with digital innovation, you don’t need to know about the methods and processes about developing custom web applications. At WEBENIX, we speak your language and take the responsibility to build a website that stands ideal for your customers. You are an expert in your business. We transform that expertise into growth with our expertise.</p>
+      <p>Winning the digital game is to own the customer’s attention and is surely not an easy process. Our Codeignitor development services overlook to develop the best custom web applications to escalate your business. We build to escalate and focus on growing your business.</p>
     '/>
     <ServiceFeatureBox
         sectionTagLine="We Provide"

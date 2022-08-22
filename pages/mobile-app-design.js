@@ -25,7 +25,7 @@ const MOBILEAPPDESIGN = () => {
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"
       IntroSubTitle="Our Mobile App development experience"
-      IntroMainTitle=""
+      IntroMainTitle="Design Centric Mobile App Development Services with smooth functioning."
       IntroContent='
       <p>Mobile app development is the future and it is only going to continue to be a key part of the newest digital revolution. 2017 is the year of mobile apps. Data from Gartner show that mobile apps will generate $136 billion in revenues this year. The key to success in this market is to make every move intentional.</p>
     '/>

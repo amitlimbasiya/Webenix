@@ -27,7 +27,7 @@ const FRONTENDDEVELOPMENT = () => {
       IntroMainTitle="Visual sights are polished by the clean codes in Frontend Development."
       IntroContent='
       <p>The first and foremost step before any development is the right interaction with the customers for their requirements, without it, there will be poor development creating a negative impact on the brand and customer’s expectations. </p>
-      <p>Webenix has been into front-end development for decades and have created 150+ projects for the mid and enterprise level. Considering the complete look to the functionality, everything is taken care of by our team. </p>
+      <p>Webenix has been into front-end development for decades and has created 150+ projects for the mid and lenterprise-level. Considering the complete look to the functionality, everything is taken care of by our team. </p>
     '/>
     <ServiceFeatureBox/>
     <HireServies/>

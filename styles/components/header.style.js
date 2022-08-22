@@ -610,6 +610,7 @@ export const MenuListTitle  = styled.h4`
 
     .mobileClick{
         display: none;
+        
         ${mediaQueries("mobile")` 
             display: flex;
             position: absolute;

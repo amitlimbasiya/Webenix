@@ -98,10 +98,10 @@ const GRAPHICSDESIGN = () => {
       <SectionIntro 
         SectionIntroclassName="introuction-section separatorPart"
           IntroSubTitle="You aim and we create it for you"
-          IntroMainTitle=""
+          IntroMainTitle="We provide game-changing visualisation with crisp Graphic Designing solutions."
           IntroContent='
-            <p>With a little effort and creativity, we will create what your business has been looking forward to always. Creativity makes it all happen to get your customer&apos;s engagement in the best ways. We design the perspective and not just place random colours.</p>
-            <p>We believe in creating masterpieces and not-so-common visual graphics, and at last, we are trend setters and not trend runners.</p>
+            <p>With a little effort and creativity, we will create what your business has been looking forward to always. Creativity makes it all happen to get your customer&apos;s engagement in the best ways.</p>
+            <p>We design the perspective and not just place random colours. We believe in creating masterpieces and not-so-common visual graphics, and at last, we are trendsetters and not trend runners.</p>
         '/>
       <ServiceFeatureBox/>      
     <HireServies/>

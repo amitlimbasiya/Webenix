@@ -99,7 +99,7 @@ const ANGULARJSDEVELOPMENT = () => {
       IntroMainTitle="Get the sleek front-end experience with AngularJS"
       IntroContent='
       <p>We stand by as the prominent frontend development company, where we thrive to create the first-class working of the frontend mobile application that initiates the real-time working of the mobile application.</p>
-      <p>We seek your success by providing the right platform and developing a robust business strategy. It is important that mobile or web apps are created user-friendly in order to get more user attraction. As we are considered to be a team of highly experienced and most talented frontend developers, we create the right app development for your business.</p>
+      <p>We seek your success by providing the right platform and developing a robust business strategy. Mobile or web apps must be created user-friendly to get more user attraction. As we are considered to be a team of highly experienced and most talented frontend developers, we create the right app development for your business.</p>
     '/>
       <ServiceFeatureBox
         sectionTagLine="Our Expertise"

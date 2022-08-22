@@ -26,8 +26,8 @@ const MVPDEVELOPMENT = () => {
       IntroSubTitle="Our Expertise"
       IntroMainTitle="Scale your ideas, build a vision and implement the best"
       IntroContent='
-      <p>MVP product helps in creating the product that is viable enough to have the minimum and only necessary features. At Webenix we create the valuable and yet the most innovative products that is business centric.</p>
-      <p>If you are looking for the quick development of the mobile app or software, we help you in going through the best digital journey. Create the best of both worlds that is creating customer-centric mobile apps and yet with the quick functionality with Webenix. </p>
+      <p>MVP product helps in creating the product that is viable enough to have the minimum and only necessary features. At Webenix we create valuable and yet the most innovative products that are business centric.</p>
+      <p>If you are looking for the quick development of a mobile app or software, we help you in going through the best digital journey. Create the best of both worlds that is creating customer-centric mobile apps and yet with the quick functionality with Webenix. </p>
     '/>
     <ServiceFeatureBox/>
     <HireServies/>

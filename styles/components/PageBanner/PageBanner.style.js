@@ -175,6 +175,8 @@ export const PageBannerWrapper  = styled.div`
         background-color:#FCD3C5;
     }
     
+
+    
     &.pagebanner-shape::before{
         content: '';
         position: absolute;

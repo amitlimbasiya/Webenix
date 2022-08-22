@@ -25,7 +25,7 @@ const DESIGNPROTOTYPE = () => {
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"
       IntroSubTitle="We are expertise in designing prototyping"
-      IntroMainTitle=""
+      IntroMainTitle="Design with lower risk, create with Design Protyping"
       IntroContent='
       <p>Design the prototyping for the better implementation of an idea. We aim to push you with the leap by bringing confidence by taking it to the next level. It needs to be completed in the hands of experienced experts as the wrong decision can turn out to be more costly, time-consuming and can create aggressive endeavours and this is not something we expect you to experience.</p>
       <p>While validating the implementation, we make sure to take care of developing the wide web and mobile platforms that can turn into a delightful user experience.</p>

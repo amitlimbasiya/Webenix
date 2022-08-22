@@ -26,7 +26,7 @@ const SMO = () => {
       IntroSubTitle="Our social media presence tactics"
       IntroMainTitle="We create popularity by creating social media tactics."
       IntroContent='
-      <p>Today, social media is everything that brings down the online presence of the business you are running, and it is a one stop solution for customers to find you. There are various businesses running over the social media platforms like Facebook, Instagram, Twitter and much more. Our experts help in bringing down the better solutions with the strategic planning and execution.</p>
+      <p>Today, social media is everything that brings down the online presence of the business you are running, and it is a one-stop solution for customers to find you. There are various businesses running over the social media platforms like Facebook, Instagram, Twitter and much more. Our experts help in bringing down the better solutions with the strategic planning and execution.</p>
     '/>
     <SectionServiceBoxes/>
     <HireServies/>

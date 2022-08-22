@@ -99,7 +99,7 @@ const IOSAPPSDEVELOPMENT = () => {
       IntroSubTitle="Our iPhone excellence"
       IntroMainTitle="We deliver the iPhone potent mobile app development services "
       IntroContent='
-      <p>It is never too late to launch an app that enhances your business or allows you to be more productive on a regular basis. There are many different providers of iPhone app development services. But, not all providers are created equal. If you are looking for a company to develop your first iPhone app, you are in the right place to take your decision further as we provide honest consulting.</p>
+      <p>It is never too late to launch an app that enhances your business or allows you to be more products regularly. There are many different providers of iPhone app development services. But, not all providers are created equal. If you are looking for a company to develop your first iPhone app, you are in the right place to take your decision further as we provide honest consulting.</p>
     '/>
       <ServiceFeatureBox
         sectionTagLine="Our Expertise"

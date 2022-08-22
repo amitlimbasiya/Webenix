@@ -87,7 +87,7 @@ const LARAVELDEVELOPMENT = () => {
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="Laravel"
         PageBannerGreenTitle="Development"
-        PageBannerContent="<p>Harness the power of Laravel framework with our Laravel development services to meet the full spectrum of your business requirements from a small portal to large enterprise solution with complex and thriving challenges.</p><p>With the strong virtue and high-experience of our Laravel developers develop websites with uncompromising performance and strong backend.</p>"
+        PageBannerContent="<p>Laravel is considered to be the strongest backend development service, that provides strong backend development. May it be a small or large-scale portal, Laravel stays the first choice for the backend solutions.</p><p>It provides the strongest backend development of websites and web apps with flawless performance.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
@@ -96,11 +96,11 @@ const LARAVELDEVELOPMENT = () => {
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"
-      IntroSubTitle="Our Laravel Expertise"
-      IntroMainTitle="With Agile Methodology At The Core Our Laravel Development Services Are At The Best"
+      IntroSubTitle="Laravel Development Services"
+      IntroMainTitle="With the experience of decades, we provide the executive Laravel Development Services."
       IntroContent='
-      <h3>We break the norms with our guaranteed Laravel development solutions, embracing strong brand presence with feature-packed web applications.</h3>
-      <p>Developing a great design is certainly a big aspect, however the beauty of integrating it properly with backend functions and ensuring its performance is a must. Our adroit Laravel developers do it with excellence. In view of this, we are known as the most coveted Laravel Development Company.</p>
+      <p>We believe in making your business strong with the guaranteed Laravel Development Solutions that embrace a strong brand presence with all the web app features and functionalities in build.</p>
+      <p>With the sleek design, we make sure to develop and integrate the backend working system that helps in ensuring a smooth function for the end-user. That is 100% possible with our passionate Laravel Developers because we are known as the best Laravel Development Company.</p>
     '/>
     <ServiceFeatureBox
         sectionTagLine="We Provide"

@@ -18,6 +18,15 @@ const router = {
   HireFlutterDeveloper: "hire-flutter-developer",
   HireReactJSDeveloper: "hire-react-js-developer",
   HireNodeJSDeveloper: "hire-node-js-developer",
+  HireWebflowDeveloper: "hire-webflow-developer",
+  HirehubspotDeveloper: "hire-hubspot-developer",
+  HireiosDeveloper: "hire-ios-developer",
+  HireionicDeveloper: "hire-ionic-developer",
+  HireReactNativeDeveloper: "hire-react-native-developer",
+  HireExpressDeveloper: "hire-express-developer",
+  HireNextJSDeveloper: "hire-nextjs-developer",
+  HireAngularJSDeveloper: "hire-angularjs-developer",
+
   
   GRAPHICSDESIGN: "graphics-design",
   WEBDESIGN: "web-design",
@@ -33,6 +42,7 @@ const router = {
   FRONTENDDEVELOPMENT: "frontend-development",
   ECOMMERCEDEVELOPMENT: "eCommerce-development",
   MVPDEVELOPMENT: "mvp-development",
+  NEXTJSDEVELOPMENT: "nextjs-development",
 
   SEO:"seo",
   SMO:"smo",
@@ -42,6 +52,8 @@ const router = {
   SHIPPINGINTEGRATION:"shipping-integration",
   SMI:"social-media-integration",
   TPAI:"third-party-api-integration",
+
+  SUPPORTANDMAINTENANCE:"support-maintanance",
 
   ITCONSULTING:"it-consulting",
   STARTUPCONSULTING:"startup-consulting",
@@ -75,6 +87,6 @@ const router = {
   SINGLEBLOG: "single-blog",
   PORTFOLIO: "portfolio",
   CONFIDENTIALITY: "confidentiality",
-  
+  CONTACT:"contact",
 };
 export default router;

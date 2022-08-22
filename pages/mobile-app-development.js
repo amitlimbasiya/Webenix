@@ -24,10 +24,10 @@ const ECOMMERCEDEVELOPMENT = () => {
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"
       IntroSubTitle="Our Mobile App Development services"
-      IntroMainTitle="Bringing the big ideas to implement it for small screens"
+      IntroMainTitle="Bringing the big ideas to implement for small screens"
       IntroContent='
-      <p>We make sure to provide the modern and trendy apps that will stand in the market amongst competitors. It is important to reach out to your customers where they find the best use of the functionality of the mobile application.</p>
-      <p>We blend the mixture of everything from the trend to the functionality to create the better user-experience and customer engagement. </p>
+      <p>We make sure to provide modern and trendy apps that will stand in the market amongst competitors. It is important to reach out to your customers where they find the best use of the functionality of the mobile application.</p>
+      <p>We blend the mixture of everything from the trend to the functionality to create the better user experience and customer engagement. </p>
     '/>
     <ServiceFeatureBox/>
     <HireServies/>

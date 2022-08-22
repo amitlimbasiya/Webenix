@@ -26,7 +26,7 @@ const SectionServiceBoxes = () => {
               <s.boxPart className="greenPart">
                 <s.partItem className="textPart">
                     <s.boxHeading>Native App Development</s.boxHeading>
-                    <s.textPart>We bring down the Native experience of the iOs and Android mobile application altogether.</s.textPart>
+                    <s.textPart>We bring down the Native experience of the iOs and Android mobile applications altogether.</s.textPart>
                     
                 </s.partItem>
                 <s.partItem className="imgPart">

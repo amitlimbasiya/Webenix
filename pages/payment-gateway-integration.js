@@ -14,7 +14,7 @@ const PGI = () => {
         PageBannerClass="pagebanner-section pagebanner-shape bgMistyRose pagebanner-align-center noiseBg"
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="Payment Gateway Integration"
-        PageBannerContent="One click and guess what you have transferred your amount securely. The easiest way of transacting money is what we urge to have today digitally. Payment gateways make the quickest and easiest transaction of money yet with the best security. Webenix has hands-on including the leading and most used payment APIs integrated with the enterprise websites and mobile applications globally. " 
+        PageBannerContent="One clicks and guess what you have transferred your amount securely. The easiest way of transacting money is what we urge to have today digitally. Payment gateways make the quickest and easiest transaction of money yet with the best security. Webenix has hands-on including the leading and most used payment APIs integrated with the enterprise websites and mobile applications globally. " 
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
