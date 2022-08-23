@@ -89,6 +89,16 @@ export const BlogContentWrapper  = styled.div`
         line-height: 28px;
         letter-spacing: 0.2px;
         color: #000;
+
+        a{
+            font-style: italic;
+            font-weight: bold;
+            color: #ff9000;
+
+            &:hover{
+                color: #000;
+            }
+        }
     }
 
     p:last-child{

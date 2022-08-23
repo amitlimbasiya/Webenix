@@ -143,28 +143,30 @@ const BlogListings = (props) => {
             <Col lg={9} md={12} className="order-2 order-lg-1">  
                 <s.BlogListWrapper className='bloglisting-wrapper'>                        
                     <s.blogItem className='blogItem wordpress'>
-                        <Link href={router.SINGLEBLOG}>
+                        <Link href={router.SINGLEBLOG1}>
                             <a><s.blogImage><Image src={phpBlog} alt="Php Blog" layout='raw'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>WORDPRESS</s.blogCategory>
                         <s.blogTitle className='postHeading'>
-                            <Link href={router.SINGLEBLOG}><a>Why it is necessary to do regular updates of your WordPress website?</a></Link>
+                            <Link href={router.SINGLEBLOG1}><a>Why it is necessary to do regular updates of your WordPress website?</a></Link>
                         </s.blogTitle>
-                        <p>If you are looking to create your website, then you must be thinking of WordPress. It is no news that WordPress powers nearly thirty-nine percent of the websites that you see across the Internet.</p>
-                        <Link href={router.SINGLEBLOG}><a className='blogLink'>Let’s Read</a></Link>
-                        <div className='datePart'>JULY 15, 2022</div>
+                        <p>If you are looking to create your website, then you must be thinking of WordPress. It is no news that WordPress powers nearly thirty-nine percent of the websites that you see across the Internet. It is one of the most...</p>
+                        <Link href={router.SINGLEBLOG1}><a className='blogLink'>Let’s Read</a></Link>
+                        <div className='datePart'>AUGUST 13, 2021</div>
                     </s.blogItem>               
                     <s.blogItem className='blogItem wordpress'>
-                        <Link href={router.SINGLEBLOG}>
+                        <Link href={router.SINGLEBLOG2}>
                             <a><s.blogImage><Image src={phpBlog} alt="Php Blog" layout='raw'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>WORDPRESS</s.blogCategory>
                         <s.blogTitle className='postHeading'>
-                            <Link href={router.SINGLEBLOG}><a>Why it is necessary to do regular updates of your WordPress website?</a></Link>
+                            <Link href={router.SINGLEBLOG2}><a>WordPress automation tools and tips</a></Link>
                         </s.blogTitle>
-                        <p>If you are looking to create your website, then you must be thinking of WordPress. It is no news that WordPress powers nearly thirty-nine percent of the websites that you see across the Internet.</p>
-                        <Link href={router.SINGLEBLOG}><a className='blogLink'>Let’s Read</a></Link>
-                        <div className='datePart'>JULY 15, 2022</div>
+                        <p>WordPress automation tools and tips
+WordPress Anand Patadiya August 16, 2021
+If you use WordPress to create your company's website, it is important to make maximum use of its tools and plugins to create a user-friendly and easy-to-visit website. WordPress is an open-source...</p>
+                        <Link href={router.SINGLEBLOG2}><a className='blogLink'>Let’s Read</a></Link>
+                        <div className='datePart'>August 16, 2021</div>
                     </s.blogItem>               
                     <s.blogItem className='blogItem development'>
                         <Link href={router.SINGLEBLOG}>

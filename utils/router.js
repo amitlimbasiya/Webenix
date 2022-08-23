@@ -85,6 +85,8 @@ const router = {
 
   BLOG: "/blog",
   SINGLEBLOG: "/single-blog",
+  SINGLEBLOG1: "/blog/why-it-is-necessary-to-do-regular-updates-of-your-wordPress-website",
+  SINGLEBLOG2: "/blog/wordPress-automation-tools-and-tips",
   PORTFOLIO: "/portfolio",
   CONFIDENTIALITY: "/confidentiality",
   CONTACT:"/contact",

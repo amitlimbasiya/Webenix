@@ -83,7 +83,7 @@ const IOSAPPSDEVELOPMENT = () => {
   return (
     <>
       <PageBanner 
-        PageBannerClass="pagebanner-section pagebanner-shape bg_lightgreen pagebanner-align-center noiseBg"
+        PageBannerClass="pagebanner-section pagebanner-shape bgPlatinum pagebanner-align-center noiseBg"
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="iOs"
         PageBannerGreenTitle="Development"
@@ -92,7 +92,7 @@ const IOSAPPSDEVELOPMENT = () => {
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
         PageBannerImageHeight="250px"
-        PageBannerImage="/images/frontendDevelopment/frontend-banner-icon.svg"
+        PageBannerImage="/images/apple-banner-icon.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"

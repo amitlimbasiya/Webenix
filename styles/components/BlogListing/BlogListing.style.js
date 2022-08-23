@@ -150,7 +150,7 @@ export const blogListing  = styled.div`
         position: relative;
         padding-top: 0px;
         margin-top: 20px;
-
+        
         &:before{
             content: '';
             border-top: 2px solid #808080;
@@ -256,6 +256,11 @@ export const blogItem  = styled.div`
         ${mediaQueries("tablet")`  
             font-size: 16px;
         `}
+        ${mediaQueriesmin("tablet")` 
+            overflow: hidden;
+            height: 116px;
+        `}   
+            height: 100px;
     }
     .datePart {
         font-size: 14px;
@@ -311,11 +316,22 @@ export const blogTitle  = styled.h4`
         font-weight: 700;
         line-height: 1.3;
         display: inline-block;
+        vertical-align: text-top;
 
         &:hover,
         &:focus{
             color: #67c187;
         }
+
+        ${mediaQueriesmin("xl")`  
+            min-height: 52px;
+        `} 
+        ${mediaQueriesmin("xlxl")`  
+            min-height: 46px;
+        `}  
+        ${mediaQueriesmin("llg")`  
+            font-size: 42px;
+        `} 
 
         ${mediaQueries("xl")`  
             font-size: 18px;
