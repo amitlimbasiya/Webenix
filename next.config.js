@@ -2,7 +2,6 @@
 const nextConfig = {
   reactStrictMode: true,
 }
-
 module.exports = nextConfig
 module.exports = {
   experimental: {
@@ -10,6 +9,7 @@ module.exports = {
           layoutRaw: true,
           layoutFill: true,
           layoutIntrinsic :false
-      }
+      },
+      forceSwcTransforms: true,
   },
 };
