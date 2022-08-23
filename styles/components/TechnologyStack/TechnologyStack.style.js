@@ -7,6 +7,8 @@ export const TechnologyStackWrapper  = styled.div`
        .container{
         max-width: 1440px;
        }
+
+       min-height: 1114px;
     `} 
 
     padding-top: 110px;
@@ -16,7 +18,7 @@ export const TechnologyStackWrapper  = styled.div`
     background-size: cover;
     padding-left: 30px; 
     padding-right: 30px;   
-
+    
     &.noBg{
         background: #fff;
         padding-top: 120px;

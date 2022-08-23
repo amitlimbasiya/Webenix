@@ -52,6 +52,7 @@ export const bannerHeading  = styled.h1`
         position: relative;
         display: inline-grid;
         font-family: "Montserrat", sans-serif;
+        z-index:1 ;
 
         ::before {
             position: absolute;
@@ -61,6 +62,7 @@ export const bannerHeading  = styled.h1`
             bottom: 16px;
             background-color: rgba(27, 167, 140, 0.3);
             height: 8px;
+            z-index:-1 ;
 
             ${mediaQueries("sm")` 
                 height: 4px;

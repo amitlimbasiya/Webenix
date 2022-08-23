@@ -174,16 +174,32 @@ a {
   font-weight: 700;
 }
 .homeSlider{
-  background: url(../public/images/home-banner-bg.jpg) no-repeat;
+  /* background: url(../public/images/home-banner-bg.jpg) no-repeat; */
+  background: hsla(147, 100%, 95%, 1);
+  background: linear-gradient(360deg, hsla(147, 100%, 95%, 1) 0%, hsla(69, 100%, 97%, 1) 100%);
+  background: -moz-linear-gradient(360deg, hsla(147, 100%, 95%, 1) 0%, hsla(69, 100%, 97%, 1) 100%);
+  background: -webkit-linear-gradient(360deg, hsla(147, 100%, 95%, 1) 0%, hsla(69, 100%, 97%, 1) 100%);
 }
 .currentSlide0 .homeSlider{
-  background: url(../public/images/home-banner-bg-2.jpg) no-repeat;
+  /* background: url(../public/images/home-banner-bg-2.jpg) no-repeat; */
+  background: hsla(50, 100%, 95%, 1);
+  background: linear-gradient(360deg, hsla(50, 100%, 95%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+  background: -moz-linear-gradient(360deg, hsla(50, 100%, 95%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+  background: -webkit-linear-gradient(360deg, hsla(50, 100%, 95%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
 }
 .currentSlide1 .homeSlider{
-  background: url(../public/images/home-banner-bg-3.jpg) no-repeat;
+  /* background: url(../public/images/home-banner-bg-3.jpg) no-repeat; */
+  background: hsla(141, 100%, 97%, 1);
+  background: linear-gradient(360deg, hsla(141, 100%, 97%, 1) 0%, hsla(355, 91%, 92%, 1) 100%);
+  background: -moz-linear-gradient(360deg, hsla(141, 100%, 97%, 1) 0%, hsla(355, 91%, 92%, 1) 100%);
+  background: -webkit-linear-gradient(360deg, hsla(141, 100%, 97%, 1) 0%, hsla(355, 91%, 92%, 1) 100%);
 }
 .currentSlide2 .homeSlider{
-  background: url(../public/images/home-banner-bg.jpg) no-repeat;
+  /* background: url(../public/images/home-banner-bg.jpg) no-repeat; */
+  background: hsla(147, 100%, 95%, 1);
+  background: linear-gradient(360deg, hsla(147, 100%, 95%, 1) 0%, hsla(69, 100%, 97%, 1) 100%);
+  background: -moz-linear-gradient(360deg, hsla(147, 100%, 95%, 1) 0%, hsla(69, 100%, 97%, 1) 100%);
+  background: -webkit-linear-gradient(360deg, hsla(147, 100%, 95%, 1) 0%, hsla(69, 100%, 97%, 1) 100%);
 }
 .pink-color {
   background-color: #FFC4C4;

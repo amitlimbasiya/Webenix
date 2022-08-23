@@ -181,8 +181,8 @@ export const ctaInner  = styled.div`
         align-items: center;
         justify-content: space-between;
         background-color: #67c187;
-        border-radius: 25px;
-        padding: 90px 90px 90px 90px;
+        border-radius: 25px 25px 0px 0px;
+        padding: 90px 90px 60px 90px;
         position: relative;
         margin: 0 auto;
 
@@ -201,12 +201,32 @@ export const ctaInner  = styled.div`
         &:before {
             content: "";
             position: absolute;
-            bottom: -36px;
-            left: 45px;
-            width: 72px;
-            height: 72px;
-            background-color: #f4f2ec;
-            border-radius: 50%;
+            bottom: -38px;
+            left: 0px;
+            background-image: url(../images/blogRoundShape.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 120px;
+            height: 38px;
+            z-index: 1;
+
+            ${mediaQueries("sm")`  
+                bottom: -26px;
+                left: 35px;
+                width: 52px;
+                height: 52px;
+            `}
+        }
+        &:after {
+            content: "";
+            position: absolute;
+            bottom: -38px;
+            right: 0px;
+            background:#67c187;
+            border-radius: 0px 0px 25px 0px;
+            width: calc(100% - 120px);
+            height: 38px;
+            z-index: 1;
 
             ${mediaQueries("sm")`  
                 bottom: -26px;

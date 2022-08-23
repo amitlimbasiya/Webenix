@@ -19,13 +19,13 @@ import router from "../../utils/router";
 var settings = {
   dots: false,
   infinite: true,
-  speed: 500,
+  speed: 700,
   arrows:false,
   slidesToShow: 1,
   slidesToScroll: 1,
   autoplay:true,
   fade: true,
-  autoplaySpeed:3000,
+  autoplaySpeed:8000,
   cssEase: "linear",
    beforeChange: (current, next) => 
    $('body').removeAttr('class').addClass('currentSlide'+current),
