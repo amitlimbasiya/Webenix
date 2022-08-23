@@ -200,6 +200,7 @@ export const blogItem  = styled.div`
     ${mediaQueries("sm")`  
         width: 100%;
         padding: 0;
+        margin-bottom: 0px;
     `}
 
 
@@ -255,12 +256,13 @@ export const blogItem  = styled.div`
         
         ${mediaQueries("tablet")`  
             font-size: 16px;
+            overflow: hidden;
+            height: 105px;
         `}
         ${mediaQueriesmin("tablet")` 
             overflow: hidden;
             height: 116px;
-        `}   
-            height: 100px;
+        `}  
     }
     .datePart {
         font-size: 14px;
@@ -326,11 +328,8 @@ export const blogTitle  = styled.h4`
         ${mediaQueriesmin("xl")`  
             min-height: 52px;
         `} 
-        ${mediaQueriesmin("xlxl")`  
-            min-height: 46px;
-        `}  
         ${mediaQueriesmin("llg")`  
-            font-size: 42px;
+            min-height: 52px;
         `} 
 
         ${mediaQueries("xl")`  
@@ -338,12 +337,17 @@ export const blogTitle  = styled.h4`
         `} 
         ${mediaQueries("llg")`  
             font-size: 16px;
+            min-height: 42px;
         `} 
         ${mediaQueries("tablet")`  
             margin-bottom: 0px;
             font-size: 16px;
             display: inline-block;
         `}
+        ${mediaQueries("mobile")`  
+            min-height: unset;
+        `}
+            
         
     }
 `;

@@ -7,7 +7,6 @@ export const breakpoints = {
   tablet: 991,
   lg: 1024,
   llg: 1199,
-  xlxl: 1365,
   xl: 1366,
   xlx:1439,
   xll:1440,

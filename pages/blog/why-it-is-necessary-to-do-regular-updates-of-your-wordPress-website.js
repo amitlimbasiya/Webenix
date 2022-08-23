@@ -5,7 +5,6 @@ import { Col, Container, Row } from 'react-bootstrap';
 import Blog from '../../components/Blog';
 import * as s from "../../styles/components/SingleBlog.style";
 import singleBlogBannerThumb from '../../public/images/blogs/why-necessary.jpg';
-import singleBlogImage01 from '../../public/images/singleblog01.jpg';
 import singleBlogImage02 from '../../public/images/singleblog02.jpg';
 
 const SingleBlog = () => {
@@ -34,9 +33,6 @@ const SingleBlog = () => {
                 <h3>New features</h3>
                 <p>WordPress is an open-source platform that believes in innovating and providing its clients with new and improved features to enhance their websites. If you use an old version of the WordPress website, you will not have access to the platform&apos; latest features. WordPress uses support forums to update users and clients about the WordPress platform&apos; latest features and versions. For example, if you are using the WordPress platform to develop an eCommerce platform, you must have a user interface that is interactive and easy to understand. The older versions of the platform used the standard UI, which provided the users&apos; necessary facilities. But if you upgrade it to WordPress 5.3, you will find that your website has a better user interface. Better UI means an increased amount of web traffic to your website. As a result, your website will be accessed by a broader customer base, and in the long run, it will prove to be an excellent marketing tool. Thus, to gain access to all the latest features and enhance your website&apos; usability, you must upgrade your WordPress website to the latest version.</p>
               </s.BlogContentWrapper>
-              <s.BlogImageWrapper>
-               <Image src={singleBlogImage01} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/>
-              </s.BlogImageWrapper>
               <s.BlogContentWrapper>
                 <h3>Speed</h3>
                 <p>The speed of a website is vital to keep your visitor on the web pages. If your company&apos; website takes longer to load or the subsequent web pages take longer than usual to load, it can be frustrating for visitors. Keeping this in mind, WordPress keeps coming with new fixes to upgrade the speed of the websites. The same is applicable for forums, social media platforms, and other similar online platforms that you might be using WordPress to develop. WordPress releases new versions with changes to enhance the performance of websites using its platform. These enhancements ensure that the websites load faster and improve the overall performance of the website.</p>
