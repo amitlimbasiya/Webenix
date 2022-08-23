@@ -219,16 +219,16 @@ export const hireServicesItem  = styled.div`
         justify-content: center;
         text-align: center;
         flex-direction: column;
-        padding: 80px 10px !important;
+        margin: 80px 10px !important;
         transition: 0.3s ease;
         -moz-transition: all 0.3s ease;
         -webkit-transition: all 0.3s ease;
 
         ${mediaQueries("tablet")`  
-            padding: 50px 10px !important;
+            margin: 50px 10px !important;
         `}
         ${mediaQueries("sm")`  
-            padding: 25px 10px !important;
+            margin: 25px 10px !important;
         `}  
         
         &:hover{
@@ -241,7 +241,7 @@ export const hireServicesItem  = styled.div`
             }
         }
 
-        &:before{
+        /* &:before{
             content: "";
             position: absolute;
             right: -10px;
@@ -279,7 +279,7 @@ export const hireServicesItem  = styled.div`
             ${mediaQueries("sm")`  
                 display:none;
             `}   
-        }
+        } */
     }
 `;
 export const iconBox  = styled.div`
