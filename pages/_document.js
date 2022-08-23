@@ -13,8 +13,6 @@ class MyDocument extends Document {
           <Main />
           <NextScript />
         </body>
-        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script defer src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
       </Html>
     )
   }

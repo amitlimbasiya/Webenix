@@ -40,12 +40,12 @@ export const ctaInner  = styled.div`
         &:before {
             content: "";
             position: absolute;
-            bottom: -36px;
+            /* bottom: -36px;
             left: 45px;
             width: 72px;
             height: 72px;
             background-color: #f4f2ec;
-            border-radius: 50%;
+            border-radius: 50%; */
 
             ${mediaQueries("sm")`  
                 bottom: -26px;

@@ -952,16 +952,16 @@ export const ctaInner  = styled.div`
         align-items: center;
         justify-content: space-between;
         background-color: #67c187;
-        border-radius: 25px;
-        padding: 90px;
+        border-radius: 25px 25px 0px 0px;
+        padding: 90px 90px 60px 90px;
         position: relative;
         margin: 0 auto;
 
         ${mediaQueries("xl")`
-            padding: 70px 60px 80px 60px;
+            padding: 70px 60px 50px 60px;
         `}
         ${mediaQueries("tablet")`
-            padding: 50px 40px 60px 40px;
+            padding: 50px 40px 30px 40px;
         `}
         ${mediaQueries("sm")`  
             flex-wrap: wrap;
@@ -972,18 +972,36 @@ export const ctaInner  = styled.div`
         &:before {
             content: "";
             position: absolute;
-            bottom: -36px;
-            left: 45px;
-            width: 72px;
-            height: 72px;
-            background-color: #fff;
-            border-radius: 50%;
+            bottom: -38px;
+            left: 0px;
+            background-image: url(../images/blogRoundShape.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 120px;
+            height: 38px;
+            z-index: 1;
 
             ${mediaQueries("sm")`  
-                bottom: -26px;
-                left: 35px;
-                width: 52px;
-                height: 52px;
+                bottom: -30px;
+                width: 90px;
+                height: 30px;
+            `}
+        }
+        &:after {
+            content: "";
+            position: absolute;
+            bottom: -38px;
+            right: 0px;
+            background:#67c187;
+            border-radius: 0px 0px 25px 0px;
+            width: calc(100% - 120px);
+            height: 38px;
+            z-index: 1;
+
+            ${mediaQueries("sm")`  
+                bottom: -29px;
+                width: calc(100% - 90px);
+                height: 30px;
             `}
         }
     }

@@ -377,7 +377,7 @@ const SectionIntro = () => {
                 </s.leftPart>
                 <s.rightPart>
                     <s.ctaBtn className='ctaBtn'>
-                        <Link href='/'>
+                        <Link href='#'>
                             <a className='btn-default'>hr@webenix.net</a>
                         </Link>
                     </s.ctaBtn>

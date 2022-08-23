@@ -187,10 +187,10 @@ export const ctaInner  = styled.div`
         margin: 0 auto;
 
         ${mediaQueries("xl")`
-            padding: 70px 60px 80px 60px;
+            padding: 70px 60px 50px 60px;
         `}
         ${mediaQueries("tablet")`
-            padding: 50px 40px 60px 40px;
+            padding: 50px 40px 30px 40px;
         `}
         ${mediaQueries("sm")`  
             flex-wrap: wrap;
@@ -211,10 +211,9 @@ export const ctaInner  = styled.div`
             z-index: 1;
 
             ${mediaQueries("sm")`  
-                bottom: -26px;
-                left: 35px;
-                width: 52px;
-                height: 52px;
+                bottom: -30px;
+                width: 90px;
+                height: 30px;
             `}
         }
         &:after {
@@ -229,10 +228,9 @@ export const ctaInner  = styled.div`
             z-index: 1;
 
             ${mediaQueries("sm")`  
-                bottom: -26px;
-                left: 35px;
-                width: 52px;
-                height: 52px;
+                bottom: -29px;
+                width: calc(100% - 90px);
+                height: 30px;
             `}
         }
     }
