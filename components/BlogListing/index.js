@@ -151,7 +151,7 @@ const BlogListings = (props) => {
                             <Link href={router.SINGLEBLOG1}><a>Why it is necessary to do regular updates of your WordPress website?</a></Link>
                         </s.blogTitle>
                         <p>If you are looking to create your website, then you must be thinking of WordPress. It is no news that WordPress powers nearly thirty-nine percent of the websites that you see across the Internet. It is one of the most straightforward tools available to individuals, entrepreneurs, and website developers to design and launch a website.</p>
-                        <Link href={router.SINGLEBLOG1}><a className='blogLink'>Let’s Read</a></Link>
+                        <Link href={router.SINGLEBLOG1}><a className='blogLink'>Let&#39;s Read</a></Link>
                         <div className='datePart'>AUGUST 13, 2021</div>
                     </s.blogItem>               
                     <s.blogItem className='blogItem wordpress'>
@@ -162,8 +162,8 @@ const BlogListings = (props) => {
                         <s.blogTitle className='postHeading'>
                             <Link href={router.SINGLEBLOG2}><a>WordPress automation tools and tips</a></Link>
                         </s.blogTitle>
-                        <p>If you use WordPress to create your company's website, it is important to make maximum use of its tools and plugins to create a user-friendly and easy-to-visit website. WordPress is an open-source platform with a plethora of templates and tools that make it easier for amateur web developers to create websites.</p>
-                        <Link href={router.SINGLEBLOG2}><a className='blogLink'>Let’s Read</a></Link>
+                        <p>If you use WordPress to create your company&#39;s website, it is important to make maximum use of its tools and plugins to create a user-friendly and easy-to-visit website. WordPress is an open-source platform with a plethora of templates and tools that make it easier for amateur web developers to create websites.</p>
+                        <Link href={router.SINGLEBLOG2}><a className='blogLink'>Let&#39;s Read</a></Link>
                         <div className='datePart'>August 16, 2021</div>
                     </s.blogItem>      
                     <s.blogItem className='blogItem wordpress'>
@@ -174,8 +174,8 @@ const BlogListings = (props) => {
                         <s.blogTitle className='postHeading'>
                             <Link href={router.SINGLEBLOG3}><a>Top Things Your Landing Page Should Have</a></Link>
                         </s.blogTitle>
-                        <p>When you develop the website for your company, your primary target will be to use the website as a marketing tool. Your company's website is the online interface between you and your prospective customers. Hence, your website should be informative and engaging. Moreover, web traffic is diverted to your website through the landing page.</p>
-                        <Link href={router.SINGLEBLOG3}><a className='blogLink'>Let’s Read</a></Link>
+                        <p>When you develop the website for your company, your primary target will be to use the website as a marketing tool. Your company&#39;s website is the online interface between you and your prospective customers. Hence, your website should be informative and engaging. Moreover, web traffic is diverted to your website through the landing page.</p>
+                        <Link href={router.SINGLEBLOG3}><a className='blogLink'>Let&#39;s Read</a></Link>
                         <div className='datePart'>August 10, 2021</div>
                     </s.blogItem>               
                 </s.BlogListWrapper>
