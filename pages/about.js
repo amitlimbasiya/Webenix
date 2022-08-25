@@ -21,7 +21,7 @@ const About = () => {
         PageBannerImage="/images/pagebg-about.svg"/>
       <SectionIntro 
           IntroSubTitle="rahul An agency just like you!"
-          IntroMainTitle="Find Everything Under One Roof At WEBENIX."
+          IntroMainTitle="Find Everything Under One Roof At WEBENIX.Amit"
           IntroContent='
             <h3></h3>
             <p>If you want to build the IT sources but cannot find the right team for it? Well, do not just worry about it as we at WEBENIX are here with a highly skilled and qualified developing team. Having the best command and expertise in the various programming languages, platforms, and frameworks we have got it all covered for you. </p>
