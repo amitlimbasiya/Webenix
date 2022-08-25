@@ -39,10 +39,10 @@ const SingleBlog = () => {
                 <p>Therefore, WordPress provides comprehensive support to all its customers. Its automation tools make it easier to evaluate the changes that need to brought to your website to attract more customers. You can use the robust Content Management System or CMS offered by WordPress to create websites that have plugins that visitors can use to improve their experience and navigate your company&#39;s website with ease. Although it is an open-source platform WordPress provides new and unique plugins and tools to its customers to make it easier to create their websites, forums and social media platforms. Therefore, by using the platform&#39;s automation tools, you can attract more web traffic and increase your customer base significantly.</p>
               </s.BlogContentWrapper>
               <s.BlogImageWrapper>
-                <Link href=""><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/></a></Link>
+                <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/></a></Link>
               </s.BlogImageWrapper>
               <s.BlogContentWrapper>
-                <p>If you are looking for a reliable web design & development <Link href=""><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>
+                <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>
               </s.BlogContentWrapper>
             </Row>
         </Container>

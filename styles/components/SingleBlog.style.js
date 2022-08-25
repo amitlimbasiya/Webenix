@@ -116,6 +116,7 @@ export const BlogContentWrapper  = styled.div`
         margin-bottom: 15px;
         position: relative;
         padding-left: 25px;
+        color:#000;
 
         &::before {
             position: absolute;
