@@ -231,6 +231,7 @@ export const portfolioBottomContent  = styled.div`
         border: 1px solid hsla(0,0%,43.9%,.4);
         transition: all 0.2s ease-in-out;
         margin-bottom: 10px;
+        margin-right: 10px;
     }
 
     .portfolio-name{

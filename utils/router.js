@@ -116,6 +116,12 @@ const router = {
   CONTACT:"/contact",
 
   USAPIPELINING:"/portfolio/usa-pipelining",
+  SOUTHERNTRADELINES:"/portfolio/southerntradelines",
+  THEBLOSSOMACADEMY:"/portfolio/theblossomacademy",
+  LIFECOACHAKHAN:"/portfolio/lifecoachakhan",
+  ELLEMAR:"/portfolio/ellemar",
+  DININGEDGE:"/portfolio/diningedge",
+  BALDERASCONSTRUCTION:"/portfolio/balderasconstruction",
 
 };
 export default router;

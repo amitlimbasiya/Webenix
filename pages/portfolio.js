@@ -10,8 +10,8 @@ const portfolio = () => {
             PageBannerBigTitle="WORK"
             PageBannerClass="pagebanner-section lightPurplBg noiseBg"
             PageBannerImgClass="pagebannerimg-col at-right-bottom" 
-            PageBannerTitle="Our "
-            PageBannerGreenUnderlineText="(Beautiful) Work"
+            PageBannerTitle=""
+            PageBannerGreenUnderlineText="Our Work"
         />
         <PortfolioListing/>
         <TechnologyStack
