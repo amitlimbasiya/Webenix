@@ -27,7 +27,7 @@ const CMSDEVELOPMENT = () => {
       IntroSubTitle="CMS Development Services"
       IntroMainTitle="Control your website content like never before with the organized functionality."
       IntroContent='
-      <p>Customized and personalized website development is rightly made for your business. Webenix offers CMS customized services for every business sector, letting you choose the selective feature for the custom development. Edit your website content from anywhere without using any other software like a webmaster. CMS development is the ultimate solution for frequent changes in the content for your website.</p>
+      <p>Customized and personalized website development is rightly made for your business. Webenix offers CMS development services for every business sector, letting you choose the selective feature for the custom development. Edit your website content from anywhere without using any other software like a webmaster. CMS development is the ultimate solution for frequent changes in the content for your website.</p>
     '/>
     <SectionServiceBoxes/>
     <HireServies/>

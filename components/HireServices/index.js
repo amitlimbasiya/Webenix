@@ -3,11 +3,12 @@ import Link from 'next/link'
 import Image from 'next/image';
 import { Col, Container, Row } from 'react-bootstrap';
 import * as s from "../../styles/components/hireServices.style";
-import fullStackDevIcon from '../../public/images/full-stack-icon.svg';
 import flutterIcon from '../../public/images/flutter-icon.svg';
-import angularIcon from '../../public/images/angular-icon.svg';
-import laravelIcon from '../../public/images/laravel-icon.svg';
+import websiteDesignIcon from '../../public/images/website-design-icon.svg';
 import wordpressDevIcon from '../../public/images/wordpress-icon.svg';
+import reactjsIcon from '../../public/images/reactjsBannerIcon.svg';
+import nodeJsIcon from '../../public/images/NodeJS-Icon.svg';
+import router from "../../utils/router";
 
 const HireServices = () => {
     return (
@@ -27,50 +28,50 @@ const HireServices = () => {
                 </s.topContent>
                 <s.hireServicesList className='hireServicesList'>
                     <s.hireServicesItem className='hireServicesItem'>
-                        <Link href='#'>
+                        <Link href={router.WEBDESIGN}>
+                            <a className='iconBoxLink'>
+                                <s.iconBox className='icon bgIceCold'>
+                                    <Image src={websiteDesignIcon} alt="Web Design Icon" layout='raw'/>
+                                </s.iconBox>
+                                <s.serviceName>Web<br />Designer</s.serviceName>
+                            </a>
+                        </Link>
+                    </s.hireServicesItem>
+                    <s.hireServicesItem className='hireServicesItem'>
+                        <Link href={router.WORDPRESSDEVELOPMENT}>
+                            <a className='iconBoxLink'>
+                                <s.iconBox className='icon bgPlatinum'>
+                                    <Image src={wordpressDevIcon} alt="Wordpress Deveopment Icon" layout="raw" />
+                                </s.iconBox>
+                                <s.serviceName>Wordpress<br />Developers</s.serviceName>
+                            </a>
+                        </Link>
+                    </s.hireServicesItem>
+                    <s.hireServicesItem className='hireServicesItem'>
+                        <Link href={router.REACTJSDEVELOPMENT}>
                             <a className='iconBoxLink'>
                                 <s.iconBox className='icon hawkesBlueBg'>
-                                    <Image src={fullStackDevIcon} alt="Fullstack Developers" layout="raw" />
+                                    <Image src={reactjsIcon} alt="React JS Development" layout="raw" />
                                 </s.iconBox>
-                                <s.serviceName>Fullstack <br />Developers</s.serviceName>
+                                <s.serviceName>ReactJs <br />Developers</s.serviceName>
                             </a>
                         </Link>
                     </s.hireServicesItem>
                     <s.hireServicesItem className='hireServicesItem'>
-                        <Link href='#'>
+                        <Link href={router.NODEJSDEVELOPMENT}>
                             <a className='iconBoxLink'>
-                                <s.iconBox className='icon azaleaBg'>
-                                    <Image src={angularIcon} alt="Angular Developers" layout="raw" />
+                                <s.iconBox className='icon bgLightMintGreen'>
+                                    <Image src={nodeJsIcon} alt="Node JS development" layout="raw" />
                                 </s.iconBox>
-                                <s.serviceName>Angular <br />Developers</s.serviceName>
+                                <s.serviceName>NodeJs <br />Developers</s.serviceName>
                             </a>
                         </Link>
                     </s.hireServicesItem>
                     <s.hireServicesItem className='hireServicesItem'>
-                        <Link href='#'>
+                        <Link href={router.FLUTTERAPPSDEVELOPMENT}>
                             <a className='iconBoxLink'>
-                                <s.iconBox className='icon frenchLilacBg'>
-                                    <Image src={wordpressDevIcon} alt="Wordpress Developers" layout="raw" />
-                                </s.iconBox>
-                                <s.serviceName>Wordpress <br />Developers</s.serviceName>
-                            </a>
-                        </Link>
-                    </s.hireServicesItem>
-                    <s.hireServicesItem className='hireServicesItem'>
-                        <Link href='#'>
-                            <a className='iconBoxLink'>
-                                <s.iconBox className='icon cosmosBg'>
-                                    <Image src={laravelIcon} alt="Laravel Developers" layout="raw" />
-                                </s.iconBox>
-                                <s.serviceName>Laravel <br />Developers</s.serviceName>
-                            </a>
-                        </Link>
-                    </s.hireServicesItem>
-                    <s.hireServicesItem className='hireServicesItem'>
-                        <Link href='#'>
-                            <a className='iconBoxLink'>
-                                <s.iconBox className='icon frozenPeriwinkleBg'>
-                                    <Image src={flutterIcon} alt="Flutter Developers" layout="raw" />
+                                <s.iconBox className='icon hawkesBlueBg'>
+                                    <Image src={flutterIcon} alt="Flutter App Development" layout="raw" />
                                 </s.iconBox>
                                 <s.serviceName>Flutter <br />Developers</s.serviceName>
                             </a>

@@ -15,7 +15,7 @@ const PageBanner = () => {
                 <s.PageBannerContentPart >
                   <h1>Grahics Design</h1>
                   <p>Webenix provides the best services in <strong>Grahics Design</strong> rightly made for your business taking care of the user experience with accurate responsiveness for multiple screen sizes. Taking care of the most minor details we fulfil customer satisfaction.</p>
-                  <Link href="">
+                  <Link href="#">
                     <a className='btn-default btn-arrow'>Know More</a>
                   </Link>
                 </s.PageBannerContentPart>

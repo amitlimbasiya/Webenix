@@ -18,7 +18,7 @@ const SectionServiceBoxes = () => {
         <Container>
           <s.SectionTagline>
             <span className="before-dash">Our Expertise</span>
-            <h2>Our Backend Development Services</h2>
+            <h2>MVP Development Services</h2>
           </s.SectionTagline>
         </Container>
       </s.SectionServiceTop>
@@ -43,7 +43,7 @@ const SectionServiceBoxes = () => {
             <Col lg={6} md={12} className="itemBoxes">
               <s.boxPart className="greenPart">
                 <s.partItem className="textPart">
-                    <s.boxHeading>Backend Development</s.boxHeading>
+                    <s.boxHeading>Web App Development</s.boxHeading>
                     <s.textPart>Website is an extension to your branding, marketing and business sales purposes. Build it right with our website development services.</s.textPart>
                     
                 </s.partItem>
@@ -58,7 +58,7 @@ const SectionServiceBoxes = () => {
             <Col lg={6} md={12} className="itemBoxes">
               <s.boxPart className="PastelPinkPart">
                 <s.partItem className="textPart">
-                    <s.boxHeading>UI/UX</s.boxHeading>
+                    <s.boxHeading>Backend Development</s.boxHeading>
                     <s.textPart>With our integrated UI/UX principles we deliver you design that stays as a delight to users whether a website or app.</s.textPart>
                     
                 </s.partItem>
@@ -73,7 +73,7 @@ const SectionServiceBoxes = () => {
             <Col lg={6} md={12} className="itemBoxes">
               <s.boxPart className="greenPart">
                 <s.partItem className="textPart">
-                    <s.boxHeading>Frontend Development</s.boxHeading>
+                    <s.boxHeading>Wireframe Development</s.boxHeading>
                     <s.textPart>We provide Frontend development services that are strategic, guaranteed, and one-of-a-kind making competition trivial.</s.textPart>
                     
                 </s.partItem>

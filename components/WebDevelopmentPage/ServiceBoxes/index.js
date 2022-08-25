@@ -26,7 +26,7 @@ const SectionServiceBoxes = () => {
         <Container>
           <s.SectionTagline>
             <span className="before-dash">Our Expertise</span>
-            <h2>Our Web Development Services</h2>
+            <h2>Web Development Services</h2>
           </s.SectionTagline>
         </Container>
       </s.SectionServiceTop>
@@ -68,7 +68,6 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                     <s.boxHeading>Web App Development</s.boxHeading>
                     <s.textPart>Give the extravagant push to your business by creating the best web app for your business ensuring the escalation in the growth.</s.textPart>
-                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={codeIcon} alt="Web App Development Icon" layout="raw" />

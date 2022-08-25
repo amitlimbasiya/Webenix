@@ -12,6 +12,7 @@ const FLUTTERAPPSDEVELOPMENT = () => {
   useEffect(() => {
     const services = [
         {
+          key:1,
           ServiceBoxClass:"espressoPart",
           ServiceIcon:"/images/flutterAppDevelopment/codeIcon.svg",
           ServiceIconHeight:"90px",
@@ -20,6 +21,7 @@ const FLUTTERAPPSDEVELOPMENT = () => {
           ServiceName:"Custom Flutter application development"
         },
         {
+          key:2,
           ServiceBoxClass:"carolinaBluePart",
           ServiceIcon:"/images/flutterAppDevelopment/frontEndDevelopmentIcon.svg",
           ServiceIconHeight:"90px",
@@ -28,6 +30,7 @@ const FLUTTERAPPSDEVELOPMENT = () => {
           ServiceName:"Backend Development"
         },
         {
+          key:3,
           ServiceBoxClass:"saffronPart",
           ServiceIcon:"/images/flutterAppDevelopment/apiDevIcon.svg",
           ServiceIconHeight:"90px",
@@ -36,6 +39,7 @@ const FLUTTERAPPSDEVELOPMENT = () => {
           ServiceName:"Flutter API Development"
         },        
         {
+          key:4,
           ServiceBoxClass:"greenlightPart",
           ServiceIcon:"/images/flutterAppDevelopment/androdIcon.svg",
           ServiceIconHeight:"90px",
@@ -44,6 +48,7 @@ const FLUTTERAPPSDEVELOPMENT = () => {
           ServiceName:"Flutter development for Android platform"
         },
         {
+          key:5,
           ServiceBoxClass:"PlatinumPart",
           ServiceIcon:"/images/flutterAppDevelopment/appleIcon.svg",
           ServiceIconHeight:"90px",
@@ -52,6 +57,7 @@ const FLUTTERAPPSDEVELOPMENT = () => {
           ServiceName:"Flutter development for iOS application"
         },
         {
+          key:6,
           ServiceBoxClass:"yellowPart",
           ServiceIcon:"/images/flutterAppDevelopment/crossPlatformIcon.svg",
           ServiceIconHeight:"90px",
@@ -60,6 +66,7 @@ const FLUTTERAPPSDEVELOPMENT = () => {
           ServiceName:"Flutter cross-platform development services"
         },
         {
+          key:7,
           ServiceBoxClass:"blushPart",
           ServiceIcon:"/images/flutterAppDevelopment/reactUXIcon.svg",
           ServiceIconHeight:"90px",
@@ -68,6 +75,7 @@ const FLUTTERAPPSDEVELOPMENT = () => {
           ServiceName:"UI/UX Design"
         },
         {
+          key:8,
           ServiceBoxClass:"carolinaBluePart",
           ServiceIcon:"/images/flutterAppDevelopment/frontEndDevelopmentIcon.svg",
           ServiceIconHeight:"90px",
@@ -78,7 +86,6 @@ const FLUTTERAPPSDEVELOPMENT = () => {
       ];
     setServiceData(services);
   }, []);
-  console.log(ServiceData);
   return (
     <>
       <PageBanner 

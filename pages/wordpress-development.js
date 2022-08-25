@@ -13,6 +13,7 @@ const WORDPRESSDEVELOPMENT = () => {
   useEffect(() => {
     const services = [
         {
+          key:1,
           ServiceBoxClass:"greenlightPart",
           ServiceIcon:"/images/graphicsDesign/solution-banner-shape.svg",
           ServiceIconHeight:"90px",
@@ -21,6 +22,7 @@ const WORDPRESSDEVELOPMENT = () => {
           ServiceName:"Multisite Development"
         },
         {
+          key:2,
           ServiceBoxClass:"purplePart",
           ServiceIcon:"/images/wordpressDevelopment/wooIcon.svg",
           ServiceIconHeight:"90px",
@@ -29,6 +31,7 @@ const WORDPRESSDEVELOPMENT = () => {
           ServiceName:"WooCommerce Development"
         },
         {
+          key:3,
           ServiceBoxClass:"PlatinumPart",
           ServiceIcon:"/images/wordpressDevelopment/pluginIcon.svg",
           ServiceIconHeight:"90px",
@@ -37,6 +40,7 @@ const WORDPRESSDEVELOPMENT = () => {
           ServiceName:"WordPress Plugin Development"
         },        
         {
+          key:4,
           ServiceBoxClass:"purplePart",
           ServiceIcon:"/images/full-stack-icon.svg",
           ServiceIconHeight:"90px",
@@ -45,6 +49,7 @@ const WORDPRESSDEVELOPMENT = () => {
           ServiceName:"Theme Customization"
         },
         {
+          key:5,
           ServiceBoxClass:"greenlightPart",
           ServiceIcon:"/images/wordpressDevelopment/blogDevIcon.svg",
           ServiceIconHeight:"90px",
@@ -53,6 +58,7 @@ const WORDPRESSDEVELOPMENT = () => {
           ServiceName:"Blog Development"
         },
         {
+          key:6,
           ServiceBoxClass:"redPart",
           ServiceIcon:"/images/wordpressDevelopment/budyyIcon.svg",
           ServiceIconHeight:"90px",
@@ -63,7 +69,6 @@ const WORDPRESSDEVELOPMENT = () => {
       ];
     setServiceData(services);
   }, []);
-  console.log(ServiceData);
   return (
     <>
     <PageBanner 

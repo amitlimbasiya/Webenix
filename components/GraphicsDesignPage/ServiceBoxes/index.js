@@ -23,7 +23,7 @@ const SectionServiceBoxes = () => {
         <Container>
           <s.SectionTagline>
             <span className="before-dash">Our Expertise</span>
-            <h2>Our Grahics Design Services</h2>
+            <h2>Grahics Design Services</h2>
           </s.SectionTagline>
         </Container>
       </s.SectionServiceTop>
@@ -33,9 +33,8 @@ const SectionServiceBoxes = () => {
             <Col lg={6} md={12} className="itemBoxes">
               <s.boxPart className="pinkPart">
                 <s.partItem className="textPart">
-                    <s.boxHeading>Logo</s.boxHeading>
+                    <s.boxHeading>Logo Design</s.boxHeading>
                     <s.textPart>Make your business branding unique and up to mark. Bring the designing aspect to the next level. </s.textPart>
-                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={PageBannerImg} alt="Frontend Development Icon" layout="raw" />
@@ -48,7 +47,7 @@ const SectionServiceBoxes = () => {
             <Col lg={6} md={12} className="itemBoxes">
               <s.boxPart className="orangePart">
                 <s.partItem className="textPart">
-                    <s.boxHeading>Stationery</s.boxHeading>
+                    <s.boxHeading>Stationery Design</s.boxHeading>
                     <s.textPart>Get the most innovative design and solution for the packaging and stationery. Webenix crafts unique and efficient designs which are the right fit for your business. </s.textPart>
                     
                 </s.partItem>
@@ -63,7 +62,7 @@ const SectionServiceBoxes = () => {
             <Col lg={6} md={12} className="itemBoxes">
               <s.boxPart className="yellowPart">
                 <s.partItem className="textPart">
-                    <s.boxHeading>Web Design</s.boxHeading>
+                    <s.boxHeading>Social Media</s.boxHeading>
                     <s.textPart>We have a team of intrinsic designers that maps down the accurate website design for your business taking care of the responsiveness for all the screen sizes. </s.textPart>
                     
                 </s.partItem>
@@ -78,7 +77,7 @@ const SectionServiceBoxes = () => {
             <Col lg={6} md={12} className="itemBoxes">
               <s.boxPart className="greenPart">
                 <s.partItem className="textPart">
-                    <s.boxHeading>Landing Page</s.boxHeading>
+                    <s.boxHeading>Branding</s.boxHeading>
                     <s.textPart>One of the most important for keeping up with the responsiveness is the Landing Page. We make sure it is designed with the right way of placing the CTA and other informative information. </s.textPart>
                     
                 </s.partItem>
@@ -93,7 +92,7 @@ const SectionServiceBoxes = () => {
             <Col lg={6} md={12} className="itemBoxes">
               <s.boxPart className="bluePart">
                 <s.partItem className="textPart">
-                    <s.boxHeading>Mobile App</s.boxHeading>
+                    <s.boxHeading>Packaging Design</s.boxHeading>
                     <s.textPart>We provide end-to-end solutions over two major platforms Android and Ios with clean and sleek designs according to your requirement.</s.textPart>
                     
                 </s.partItem>
@@ -108,7 +107,7 @@ const SectionServiceBoxes = () => {
             <Col lg={6} md={12} className="itemBoxes">
               <s.boxPart className="purplePart">
                 <s.partItem className="textPart">
-                    <s.boxHeading>UI/UX</s.boxHeading>
+                    <s.boxHeading>Video & Animation</s.boxHeading>
                     <s.textPart>Push your business to the success road with the help of our talented UI/UX designers. We consider our customer’s specifications in our work.</s.textPart>
                     
                 </s.partItem>

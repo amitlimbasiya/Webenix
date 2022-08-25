@@ -29,7 +29,7 @@ import shopifyIcon from '../../public/images/shopify-icon.svg';
 import hubspotIcon from '../../public/images/hubspot-icon.svg';
 import flutterIcon from '../../public/images/flutter-icon.svg';
 import reactjsIcon from '../../public/images/reactjsBannerIcon.svg';
-import nodeJsIcon from '../../public/images/node-JS-icon.svg';
+import nodeJsIcon from '../../public/images/NodeJS-Icon.svg';
 import angularIcon from '../../public/images/angular-icon.svg';
 import expressJsIcon from '../../public/images/expressjs-icon.svg';
 import nextJsIcon from '../../public/images/nextjs-icon.svg';
@@ -71,7 +71,7 @@ const Header = () => {
             <Nav className="menu" id="menu">
               <s.MenuSection className="menu-section">
                 <s.MenuItemHasChildren className="menu-item menu-item-has-children">
-                <Link href="#"><a className="menulist-title">About</a></Link>
+                  <Link href="#"><a className="menulist-title">About</a></Link>
                     <span className="mobileClick submenu-icon"><FontAwesomeIcon icon={faAngleDown} /></span>
                     <s.MenuSub className="menu-subs menu-mega menu-column-4 no-spacing">
                       <s.MenuColumn className="menucolumn">
@@ -151,7 +151,7 @@ const Header = () => {
                     </s.MenuSub>
                 </s.MenuItemHasChildren>
                 <s.MenuItemHasChildren className="menu-item menu-item-has-children">
-                  <Link href="#"><a className="menulist-title">Solutions</a></Link>
+                  <Link href="#"><a className="menulist-title">Services</a></Link>
                   <span className="mobileClick submenu-icon"><FontAwesomeIcon icon={faAngleDown} /></span>
                   <s.MenuSub className="menu-subs menu-mega menu-column-3">
                     <s.MenuColumn className="menucolumn">
@@ -374,7 +374,7 @@ const Header = () => {
                 </s.MenuItemHasChildren> 
 
                 <s.MenuItemHasChildren className="menu-item menu-item-has-children">
-                  <Link href="#" className="menulist-title">Services</Link>
+                  <Link href="#" className="menulist-title">Technologies</Link>
                   <span className="mobileClick submenu-icon"><FontAwesomeIcon icon={faAngleDown} /></span>
                   <s.MenuSub className="menu-subs menu-mega menu-column-4">
                     <s.MenuColumn className="menucolumn">
@@ -451,7 +451,7 @@ const Header = () => {
                         </s.MenuItemBlock>
                       </s.MenuListItem>
                       <s.MenuListItem className="menulist-item">
-                        <s.MenuListTitle className="menulist-title">Frontend Development </s.MenuListTitle>
+                        <s.MenuListTitle className="menulist-title">JavaScript Development </s.MenuListTitle>
                         <s.MenuItemBlock className="menuitem-block">
                           <Link href={router.REACTJSDEVELOPMENT}>
                             <a className="menuitem-box">
@@ -620,7 +620,7 @@ const Header = () => {
                 </s.MenuItemHasChildren> 
 
                 <s.MenuItemHasChildren className="menu-item menu-item-has-children">
-                  <Link href="#" className="menulist-title">Hire Developers</Link>
+                  <Link href="#"><a className="menulist-title">Hire Developers</a></Link>
                   <span className="mobileClick submenu-icon"><FontAwesomeIcon icon={faAngleDown} /></span>
                   <s.MenuSub className="menu-subs menu-mega menu-column-4">
                     <s.MenuColumn className="menucolumn">
@@ -844,11 +844,11 @@ const Header = () => {
                 </s.MenuItemHasChildren> 
 
                 <s.MenuItemHasChildren className="menu-item">
-                    <Link href={router.BLOG} className="menulist-title">Resources</Link>
+                    <Link href={router.BLOG} className="menulist-title">Blog</Link>
                 </s.MenuItemHasChildren>
 
                 <s.MenuItemHasChildren className="menu-item">
-                    <Link href={router.PORTFOLIO} className="menulist-title">Portfolio</Link>
+                    <Link href={router.PORTFOLIO} className="menulist-title">Work</Link>
                 </s.MenuItemHasChildren>
               </s.MenuSection>
             </Nav>

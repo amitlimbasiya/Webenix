@@ -13,6 +13,7 @@ const WEBFLOWYDEVELOPMENT = () => {
   useEffect(() => {
     const services = [
         {
+          key:1,
           ServiceBoxClass:"greenlightPart",
           ServiceIcon:"/images/graphicsDesign/solution-banner-shape.svg",
           ServiceIconHeight:"90px",
@@ -21,6 +22,7 @@ const WEBFLOWYDEVELOPMENT = () => {
           ServiceName:"Lorem ipsum"
         },
         {
+          key:2,
           ServiceBoxClass:"redPart",
           ServiceIcon:"/images/about-icon.svg",
           ServiceIconHeight:"90px",
@@ -29,6 +31,7 @@ const WEBFLOWYDEVELOPMENT = () => {
           ServiceName:"Lorem ipsum"
         },
         {
+          key:3,
           ServiceBoxClass:"yellowPart",
           ServiceIcon:"/images/website-design-icon.svg",
           ServiceIconHeight:"90px",
@@ -37,6 +40,7 @@ const WEBFLOWYDEVELOPMENT = () => {
           ServiceName:"Lorem ipsum"
         },        
         {
+          key:4,
           ServiceBoxClass:"saffronPart",
           ServiceIcon:"/images/web-development-icon.svg",
           ServiceIconHeight:"90px",
@@ -45,6 +49,7 @@ const WEBFLOWYDEVELOPMENT = () => {
           ServiceName:"Lorem ipsum"
         },
         {
+          key:5,
           ServiceBoxClass:"purplePart",
           ServiceIcon:"/images/mobile-app-design-icon.svg",
           ServiceIconHeight:"90px",
@@ -53,6 +58,7 @@ const WEBFLOWYDEVELOPMENT = () => {
           ServiceName:"Lorem ipsum"
         },
         {
+          key:6,
           ServiceBoxClass:"lightPinkPart",
           ServiceIcon:"/images/ui-ux-icon.svg",
           ServiceIconHeight:"90px",
@@ -61,6 +67,7 @@ const WEBFLOWYDEVELOPMENT = () => {
           ServiceName:"Lorem ipsum"
         },
         {
+          key:7,
           ServiceBoxClass:"pinkPart",
           ServiceIcon:"/images/prototypeIcon.svg",
           ServiceIconHeight:"90px",
@@ -69,6 +76,7 @@ const WEBFLOWYDEVELOPMENT = () => {
           ServiceName:"Lorem ipsum"
         },
         {
+          key:8,
           ServiceBoxClass:"greenPart",
           ServiceIcon:"/images/smo-icon.svg",
           ServiceIconHeight:"90px",
@@ -79,7 +87,6 @@ const WEBFLOWYDEVELOPMENT = () => {
       ];
     setServiceData(services);
   }, []);
-  console.log(ServiceData);
   return (
     <>
     <PageBanner 

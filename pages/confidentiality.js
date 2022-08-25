@@ -19,7 +19,7 @@ const Confidentiality = () => {
         IntroMainTitle="Confidentiality is our priority!"
         IntroContent='
           <p>Confidentiality is the most important aspect before working forward with our customers because software development consists of strategies and assets that should come under the non-disclosure act. Our customers have 100% resource access to the source code and ownership along with the intellectual property rights as soon as they sign up to work with us.</p>
-          <p>We have signed for a lot of enterprise agencies, bootstrapped startup companies, and entrepreneurs globally where it is conditioned with the legal governance, risk management and compliances ensuring to create the most secure environment for our customers to provide 200% confidentiality.</p>
+          <p>We have signed for a lot of enterprise agencies, bootstrapped startup companies, and entrepreneurs globally where it is conditioned with the legal governance, risk management and compliances ensuring to create the most secure environment for our customers to provide 100% confidentiality.</p>
         '/>
       <EngagementModel 
         EngagementClass="engagementmodel-row custom-margin engagement-pink-titlebg"
@@ -51,15 +51,11 @@ const Confidentiality = () => {
         EngagementModelName=""
         EngagementContent='
           <ul>
-            <li>CISCO Firewalls and switches</li>
-            <li>PCI Data Security Standards</li>
+            <li>Highend Firewalls and switches</li>
             <li>Latest AntiVirus in all Workstations</li>
-            <li>Licensed Antivirus, Anti malware, Anti ransomware softwares</li>
-            <li>Regular Monitoring and logging</li>
-            <li>Software and Security audits</li>
-            <li>Authorized IP access in network</li>
-            <li>Encrypted Data transfer</li>
-            <li>RAID (Redundant Backup of Information Disks)</li>
+            <li>Monitoring Software</li>
+            <li>Authorized access in network</li>
+            <li>Encrypted Data Sharing</li>
           </ul>
       '/>
 
@@ -75,10 +71,10 @@ const Confidentiality = () => {
         EngagementModelName=""
         EngagementContent='
           <ul>
-            <li>24 x 7 CCTV for safety and security</li>
-            <li>Punch in and out a biometric system for authorized entries only</li>
-            <li>Fire alarm</li>
-            <li>Backup Generator and UPS</li>
+            <li>CCTV Surveillance</li>
+            <li>Biometric system for In and Out</li>
+            <li>Fire alarm and sprinkler</li>
+            <li>UPS for power backup</li>
           </ul>
       '/>
     </>

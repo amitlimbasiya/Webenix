@@ -3,15 +3,16 @@ import Link from 'next/link'
 import Image from 'next/image';
 import { Col, Container, Row } from 'react-bootstrap';
 import * as s from "../../styles/components/services.style";
-import mobileAppDevelopment from '../../public/images/mobile-app-development.png';
+import DesignImg from '../../public/images/01-Design.svg';
+import WebDevelopmentImg from '../../public/images/02-Web-Development.svg';
+import MobileAppDevelopmentImg from '../../public/images/03-Mobile-App-development.svg';
+import DigitalMarketingImg from '../../public/images/04-Digital-Marketing.svg';
 import iphoneIcon from '../../public/images/iphone-icon.svg';
 import flutterIcon from '../../public/images/flutter-icon.svg';
 import uiUxIcon from '../../public/images/ui-ux-icon.svg';
 import mobileAppDesignIcon from '../../public/images/mobile-app-design-icon.svg';
-import esd from '../../public/images/enterprise-software-development.png';
 import codeIcon from '../../public/images/codeIcon.svg';
 import eCommerceIcon from '../../public/images/eCommerce-icon.svg';
-import aspNetDevelopmentIcon from '../../public/images/asp-net-development-icon.svg';
 import hireDedicatedDevelopersIcon from '../../public/images/hire-dedicated-developers-icon.svg';
 import androidAppIcon from '../../public/images/android-app-icon.svg';
 import iosDevIcon from '../../public/images/apple-ios.svg';
@@ -21,6 +22,7 @@ import websiteDesignIcon from '../../public/images/website-design-icon.svg';
 import seoIcon from '../../public/images/seo-icon.svg';
 import ppcIcon from '../../public/images/ppc-icon.svg';
 import CMSDevIcon from '../../public/images/cms-icon.svg';
+import router from "../../utils/router";
 
 const Services = () => {
     return (
@@ -44,35 +46,30 @@ const Services = () => {
                             <s.serviceLinks className="serviceLinks">
                                 <ul>
                                     <li>
-                                        <Link href="#">
+                                        <Link href={router.GRAPHICSDESIGN}>
                                             <a><Image src={iphoneIcon} alt="Graphics Design Icon" className='img-fluid' layout='raw'/> Graphics Design</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
+                                        <Link href={router.WEBDESIGN}>
                                             <a><Image src={websiteDesignIcon} alt="Web Design Icon" className='img-fluid' layout='raw'/> Web Design</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
+                                        <Link href={router.UIUX}>
                                             <a><Image src={uiUxIcon} alt="UI/UX Design Icon" className='img-fluid' layout='raw'/>  UI/UX Design</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
+                                        <Link href={router.MOBILEAPPDEVELOPMENT}>
                                             <a><Image src={mobileAppDesignIcon} alt="Mobile App Design Icon" className='img-fluid' layout='raw'/>  Mobile App Design</a>
                                         </Link>
                                     </li>
                                 </ul>
-                            </s.serviceLinks>
-                            <s.ctaPart>
-                                <Link href="#">
-                                    <a className="btn-default btn-arrow">KNOW MORE</a>
-                                </Link>
-                            </s.ctaPart>
+                            </s.serviceLinks>                           
                         </Col>
                         <Col className='rightPart'>
-                            <Image src={mobileAppDevelopment} alt="Mobile Application Development" className='img-fluid' layout="raw" />
+                            <Image src={DesignImg} alt="Mobile Application Development" className='img-fluid' layout="raw" />
                         </Col>
                     </Row>
                 </Container>
@@ -81,7 +78,7 @@ const Services = () => {
                 <Container>
                     <Row className='align-items-center'>
                         <Col md={6} sm={12} className='rightPart order-last order-md-first'>
-                            <Image src={esd} alt="Enterprise Software Development" className='img-fluid' layout="raw" />
+                            <Image src={WebDevelopmentImg} alt="Enterprise Software Development" className='img-fluid' layout="raw" />
                         </Col>
                         <Col className='leftPart order-first order-md-last'>
                             <s.titlePart>Web <br/>Development</s.titlePart>
@@ -89,32 +86,27 @@ const Services = () => {
                             <s.serviceLinks className="serviceLinks">
                                 <ul>
                                     <li>
-                                        <Link href="#">
+                                        <Link href={router.WEBDEVELOPMENT}>
                                             <a><Image src={codeIcon} alt="Web Development Icon" className='img-fluid' layout='raw'/> Web Development</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
+                                        <Link href={router.ECOMMERCEDEVELOPMENT}>
                                             <a><Image src={eCommerceIcon} alt="eCommerce Development Icon" className='img-fluid' layout='raw'/> eCommerce Development</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a><Image src={CMSDevIcon} alt="CMS development Icon" className='img-fluid' layout='raw'/> CMS development</a>
+                                        <Link href={router.CMSDEVELOPMENT}>
+                                            <a><Image src={CMSDevIcon} alt="CMS development Icon" className='img-fluid' layout='raw'/> CMS Development</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a><Image src={hireDedicatedDevelopersIcon} alt="API Development Icon" className='img-fluid' layout='raw'/> API Development</a>
+                                        <Link href={router.MVPDEVELOPMENT}>
+                                            <a><Image src={hireDedicatedDevelopersIcon} alt="API Development Icon" className='img-fluid' layout='raw'/> MVP Development</a>
                                         </Link>
                                     </li>
                                 </ul>
-                            </s.serviceLinks>
-                            <s.ctaPart>
-                                <Link href="#">
-                                    <a className="btn-default btn-arrow">KNOW MORE</a>
-                                </Link>
-                            </s.ctaPart>
+                            </s.serviceLinks>                            
                         </Col>
                     </Row>
                 </Container>
@@ -123,40 +115,35 @@ const Services = () => {
                 <Container>
                     <Row className='align-items-center'>
                         <Col md={6} sm={12} className='leftPart'>
-                            <s.titlePart>Mobile App <br/>development</s.titlePart>
+                            <s.titlePart>Mobile App <br/>Development</s.titlePart>
                             <s.desc>Webenix mobile app development has hands-on work with multiple technologies, with a team of top-notch developers working with various technologies. We have met the expectation of delivering the mobile apps on the major two platforms-Android and iOs. Focusing on the end-to-end development with the scalable app development process. </s.desc>
                             <s.serviceLinks className="serviceLinks">
                                 <ul>
                                     <li>
-                                        <Link href="#">
+                                        <Link href={router.ANDROIDAPPSDEVELOPMENT}>
                                             <a><Image src={androidAppIcon} alt="Android App Development Icon" className='img-fluid' layout='raw'/> Android App Development</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
+                                        <Link href={router.IOSAPPSDEVELOPMENT}>
                                             <a><Image src={iosDevIcon} alt="iOS app development Icon" className='img-fluid' layout='raw'/> iOS App Development</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a><Image src={wordpressDevIcon} alt="Cross-Platform Development Icon" className='img-fluid' layout='raw'/>  Cross-Platform Development</a>
+                                        <Link href={router.REACTNATIVEDEVELOPMENT}>
+                                            <a><Image src={wordpressDevIcon} alt="React Native Development Icon" className='img-fluid' layout='raw'/>  React Native Development</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
+                                        <Link href={router.FLUTTERAPPSDEVELOPMENT}>
                                             <a><Image src={flutterIcon} alt="Flutter App Development Icon" className='img-fluid' layout='raw'/>  Flutter App Development</a>
                                         </Link>
                                     </li>
                                 </ul>
-                            </s.serviceLinks>
-                            <s.ctaPart>
-                                <Link href="#">
-                                    <a className="btn-default btn-arrow">KNOW MORE</a>
-                                </Link>
-                            </s.ctaPart>
+                            </s.serviceLinks>                            
                         </Col>
                         <Col className='rightPart'>
-                            <Image src={mobileAppDevelopment} alt="Mobile Application Development" className='img-fluid' layout="raw" />
+                            <Image src={MobileAppDevelopmentImg} alt="Mobile Application Development" className='img-fluid' layout="raw" />
                         </Col>
                     </Row>
                 </Container>
@@ -165,7 +152,7 @@ const Services = () => {
                 <Container>
                     <Row className='align-items-center'>
                         <Col md={6} sm={12} className='rightPart order-last order-md-first'>
-                            <Image src={esd} alt="Enterprise Software Development" className='img-fluid' layout="raw" />
+                            <Image src={DigitalMarketingImg} alt="Enterprise Software Development" className='img-fluid' layout="raw" />
                         </Col>
                         <Col className='leftPart order-first order-md-last'>
                             <s.titlePart>Digital <br/>Marketing</s.titlePart>
@@ -173,34 +160,33 @@ const Services = () => {
                             <s.serviceLinks className="serviceLinks">
                                 <ul>
                                     <li>
-                                        <Link href="#">
+                                        <Link href={router.SEO}>
                                             <a><Image src={seoIcon} alt="SEO Icon" className='img-fluid' layout='raw'/> SEO</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
+                                        <Link href={router.PPC}>
                                             <a><Image src={ppcIcon} alt="PPC Icon" className='img-fluid' layout='raw'/> PPC</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
+                                        <Link href={router.SMO}>
                                             <a><Image src={smoIcon} alt="SMO Icon" className='img-fluid' layout='raw'/> SMO</a>
                                         </Link>
                                     </li>
+                                    <li>
+                                        <Link href="#">
+                                            <a><Image src={smoIcon} alt="SMO Icon" className='img-fluid' layout='raw'/> Content Writing</a>
+                                        </Link>
+                                    </li>
                                 </ul>
-                            </s.serviceLinks>
-                            <s.ctaPart>
-                                <Link href="#">
-                                    <a className="btn-default btn-arrow">KNOW MORE</a>
-                                </Link>
-                            </s.ctaPart>
+                            </s.serviceLinks>                           
                         </Col>
                     </Row>
                 </Container>
             </s.serviceItem>
         </s.serviceListing>
-        </s.service>
-        
+        </s.service>        
     </>
   );
 };

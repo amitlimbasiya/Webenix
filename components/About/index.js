@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image';
 import { Col, Container, Row } from 'react-bootstrap';
 import * as s from "../../styles/components/about.style";
-import aboutCompanyImg from '../../public/images/about-webenix.png';
+import aboutCompanyImg from '../../public/images/about-webenix.svg';
 import router from "../../utils/router";
 
 const About = () => {

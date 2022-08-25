@@ -15,7 +15,7 @@ const PageBanner = () => {
                 <s.PageBannerContentPart >
                   <h1>Responsive <span className='textGreen'>Web Design</span></h1>
                   <p>Let your business be the best looking from any device screen. Reach out to larger audiences with the better placing of CTA to be perfectly visible from every screen size. Do not worry, we at Webenix have the best team for creating such a masterpiece.</p>
-                  <Link href="">
+                  <Link href="#">
                     <a className='btn-default btn-arrow'>Know More</a>
                   </Link>
                 </s.PageBannerContentPart>

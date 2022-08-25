@@ -33,7 +33,7 @@ const EngagementModels = () => {
         EngagementModelIcon="/images/hybrid-model-icon.svg"
         EngagementModelIconWidth="100"
         EngagementModelIconHeight="100"
-        EngagementModelName="Hybrid Development"
+        EngagementModelName="Dedicated Resource"
         EngagementContent='
           <p>The model is mostly preferred by enterprise projects, as it is curated for local project management and offshore development.</p>
           <ul>
@@ -51,7 +51,7 @@ const EngagementModels = () => {
         EngagementModelImage="/images/flexibility.png"     
         EngagementModelImageWidth="854"
         EngagementModelImageHeight="548"  
-        EngagementMainTitle="Highly Flexible"    
+        EngagementMainTitle="Hourly Base"    
         EngagementModelIcon="/images/flexibility-icon.svg"
         EngagementModelIconWidth="100"
         EngagementModelIconHeight="100"
@@ -86,28 +86,6 @@ const EngagementModels = () => {
             <li>Payment with completion of milestone.</li>
             <li>Highly customisable.</li>
             <li>End-to-end service completion to customers.</li>
-          </ul>
-      '/>
-
-      <EngagementModel 
-        EngagementClass="engagementmodel-row engagementmodel-alt engagement-pink-titlebg mb-0"
-        EngagementModelImage="/images/offshore-development-model.png"     
-        EngagementModelImageWidth="872"
-        EngagementModelImageHeight="568"  
-        EngagementMainTitle="Cost-effective solutions"    
-        EngagementModelIcon="/images/cost-effective-icon.svg"
-        EngagementModelIconWidth="100"
-        EngagementModelIconHeight="100"
-        EngagementModelName="Offshore Development Services"
-        EngagementContent='
-          <p>Hire our dedicated team and collaborate with your team for single or multiple projects. Our team members will stretch and dedicate their time to completing your business project.</p>
-          <ul>
-            <li>Better ROI of the investment.</li>
-            <li>A better collaboration of the efficient team.</li>
-            <li>Quicker technical solutions.</li>
-            <li>Distributed work for bringing quality.</li>
-            <li>100% secure and safe.</li>
-            <li>Preferable for enterprise and long-term projects.</li>
           </ul>
       '/>
       <TechnologyStack/>

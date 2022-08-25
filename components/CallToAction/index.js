@@ -17,7 +17,7 @@ const CTA = () => {
                         </s.leftPart>
                         <s.rightPart>
                             <s.ctaBtn className='ctaBtn'>
-                                <Link href='/'>
+                                <Link href='#'>
                                     <a className='btn-default'>Get a Quote</a>
                                 </Link>
                             </s.ctaBtn>

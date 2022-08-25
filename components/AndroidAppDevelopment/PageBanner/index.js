@@ -15,7 +15,7 @@ const PageBanner = () => {
                 <s.PageBannerContentPart >
                   <h1>Android App <span className='textGreen'> Development</span></h1>
                   <p>Android is one of the commonest and fastest running platforms globally and with the presence of millions of android mobile applications, it is important to scale apart from the market. We help you in developing mobile apps that users will love to use frequently.</p>
-                  <Link href="">
+                  <Link href="#">
                     <a className='btn-default btn-arrow'>Know More</a>
                   </Link>
                 </s.PageBannerContentPart>

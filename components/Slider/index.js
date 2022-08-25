@@ -9,9 +9,9 @@ import * as s from "../../styles/components/slider.style";
 import costIcon from '../../public/images/cost-icon.svg';
 import websiteDevelopmentIcon from '../../public/images/website-development-icon.svg';
 import onTimeIcon from '../../public/images/on-time-icon.svg';
-import heroImg1 from '../../public/images/home-banner-1.png';
-import heroImg2 from '../../public/images/home-banner-2.png';
-import heroImg3 from '../../public/images/home-banner-3.png';
+import heroImg1 from '../../public/images/home-slider-01.svg';
+import heroImg2 from '../../public/images/home-slider-02.svg';
+import heroImg3 from '../../public/images/home-slider-03.svg';
 import emailIcon from '../../public/images/email-icon.svg';
 import skypeIcon from '../../public/images/skype-icon.svg';
 import router from "../../utils/router";
@@ -19,17 +19,16 @@ import router from "../../utils/router";
 var settings = {
   dots: false,
   infinite: true,
-  speed: 700,
+  speed: 500,
   arrows:false,
   slidesToShow: 1,
   slidesToScroll: 1,
   autoplay:true,
   fade: true,
-  autoplaySpeed:8000,
+  autoplaySpeed:3000,
   cssEase: "linear",
    beforeChange: (current, next) => 
    $('body').removeAttr('class').addClass('currentSlide'+current),
-//         this.setState({ oldSlide: current, activeSlide: next }),
 };
 
 const Hero = () => {
@@ -65,15 +64,15 @@ const Hero = () => {
                         </s.bannerIcons>
                     </s.bannerLeft>
                 </Col>
-                <Col md={12} lg={5} xl={5} className="d-none d-lg-block">
+                <Col md={12} lg={6} xl={6} className="d-none d-lg-block">
                   <Slider className='slickSlider' {...settings}>
-                    <div>
+                    <div className='text-end'>
                     <Image src={heroImg1} alt="Hero Banner" className='img-fluid' layout="raw"/>
                     </div>
-                    <div>
+                    <div className='text-end'>
                     <Image src={heroImg2} alt="Hero Banner" className='img-fluid' layout="raw"/>
                     </div>
-                    <div>
+                    <div className='text-end'>
                     <Image src={heroImg3} alt="Hero Banner" className='img-fluid' layout="raw"/>
                     </div>
                   </Slider>
@@ -95,18 +94,13 @@ const Hero = () => {
                     </a>
                 </Link>
             </s.leftPart>
-            <s.rightPart className="rightPart">
-                <Link href='#'>
-                    <a>
-                        PARTNERSHIP
-                    </a>
-                </Link>
+            <s.rightPart className="rightPart">               
                 <Link href={router.BLOG}>
                     <a>
-                        BLOG
+                        Blog
                     </a>
                 </Link>
-                <Link href='#'>
+                <Link href={router.CONTACT}>
                     <a>
                         GET IN TOUCH
                     </a>

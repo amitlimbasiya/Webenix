@@ -14,7 +14,7 @@ const PageBanner = () => {
               <Col md={7} className="pagebannercontent-col">
                 <s.PageBannerContentPart >
                   <h1>We Discover And Hire The Cream Of The Crop</h1>
-                  <Link href="">
+                  <Link href="#">
                     <a className='btn-default btn-arrow'>VIEW OPENINGS</a>
                   </Link>
                 </s.PageBannerContentPart>

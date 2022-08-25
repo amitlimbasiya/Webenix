@@ -22,7 +22,7 @@ const Blog = () => {
                         </s.leftPart>
                         <s.rightPart>
                             <s.ctaBtn className='ctaBtn'>
-                                <Link href='/'>
+                                <Link href='#'>
                                     <a className='btn-default'>Get a Quote</a>
                                 </Link>
                             </s.ctaBtn>
@@ -35,7 +35,7 @@ const Blog = () => {
                     <Row>
                         <Col md={4} sm={6}>
                             <s.blogItem className='blogItem mb-sm-5 mb-4 mb-md-0'>
-                                <Link href='/'>
+                                <Link href='#'>
                                     <a>
                                         <s.blogImage>
                                             <Image src={phpBlog} alt="Php Blog" layout='raw' />
@@ -44,18 +44,18 @@ const Blog = () => {
                                 </Link>
                                 <s.blogCategory>WEBSITE DEVELOPMENT</s.blogCategory>
                                 <s.blogTitle className='postHeading'>
-                                    <Link href='/'>
+                                    <Link href='#'>
                                         <a>Why it is necessary to do regular updates of your WordPress website?</a>
                                     </Link>
                                 </s.blogTitle>
-                                <Link href='/'>
+                                <Link href='#'>
                                     <a className='blogLink'>Read more</a>
                                 </Link>
                             </s.blogItem>
                         </Col>
                         <Col md={4} sm={6}>
                             <s.blogItem className='blogItem mb-sm-5 mb-4 mb-md-0'>
-                                <Link href='/'>
+                                <Link href='#'>
                                     <a>
                                         <s.blogImage>
                                             <Image src={optimizeBlog} alt="Optimize Blog" layout='raw' />
@@ -64,18 +64,18 @@ const Blog = () => {
                                 </Link>
                                 <s.blogCategory>WEBSITE DEVELOPMENT</s.blogCategory>
                                 <s.blogTitle className='postHeading'>
-                                    <Link href='/'>
+                                    <Link href='#'>
                                         <a>Why it is necessary to do regular updates of your WordPress website?</a>
                                     </Link>
                                 </s.blogTitle>
-                                <Link href='/'>
+                                <Link href='#'>
                                     <a className='blogLink'>Read more</a>
                                 </Link>
                             </s.blogItem>
                         </Col>
                         <Col md={4} sm={6}>
                             <s.blogItem className='blogItem'>
-                                <Link href='/'>
+                                <Link href='#'>
                                     <a>
                                         <s.blogImage>
                                             <Image src={reactBlog} alt="React Blog" layout='raw'/>
@@ -84,11 +84,11 @@ const Blog = () => {
                                 </Link>
                                 <s.blogCategory>WEBSITE DEVELOPMENT</s.blogCategory>
                                 <s.blogTitle className='postHeading'>
-                                    <Link href='/'>
+                                    <Link href='#'>
                                         <a>Why it is necessary to do regular updates of your WordPress website?</a>
                                     </Link>
                                 </s.blogTitle>
-                                <Link href='/'>
+                                <Link href="#">
                                     <a className='blogLink'>Read more</a>
                                 </Link>
                             </s.blogItem>

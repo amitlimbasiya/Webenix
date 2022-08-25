@@ -15,9 +15,6 @@ const PageBanner = (props) => {
                 <s.PageBannerContentPart >
                   <h1>{props.PageBannerTitle} <span className='textGreen'>{props.PageBannerGreenTitle}</span></h1>
                   <div>{parse(props.PageBannerContent)}</div>
-                  <Link href={props.PageBannerBtnLink}>
-                    <a className='btn-default btn-arrow'>{props.PageBannerBtnText}</a>
-                  </Link>
                 </s.PageBannerContentPart>
               </Col>
               <Col md={5} className={props.PageBannerImgClass}>

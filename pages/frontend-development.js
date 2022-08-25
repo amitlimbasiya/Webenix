@@ -13,7 +13,7 @@ const FRONTENDDEVELOPMENT = () => {
     <PageBanner 
         PageBannerClass="pagebanner-section pagebanner-shape bg_lightgreen pagebanner-align-center noiseBg"
         PageBannerImgClass="pagebannerimg-col" 
-        PageBannerTitle="Frontend Development Services"
+        PageBannerTitle="Frontend Development"
         PageBannerContent="We go beyond our limits to scrap the code to maximize the user experience by providing the best design pieces at affordable prices." 
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
@@ -27,7 +27,7 @@ const FRONTENDDEVELOPMENT = () => {
       IntroMainTitle="Visual sights are polished by the clean codes in Frontend Development."
       IntroContent='
       <p>The first and foremost step before any development is the right interaction with the customers for their requirements, without it, there will be poor development creating a negative impact on the brand and customer’s expectations. </p>
-      <p>Webenix has been into front-end development for decades and has created 150+ projects for the mid and lenterprise-level. Considering the complete look to the functionality, everything is taken care of by our team. </p>
+      <p>Webenix has been into front-end development for decades and has created many projects for the mid and Eenterprise-level. Considering the complete look to the functionality, everything is taken care of by our team. </p>
     '/>
     <ServiceFeatureBox/>
     <HireServies/>

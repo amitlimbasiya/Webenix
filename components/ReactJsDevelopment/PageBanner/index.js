@@ -16,7 +16,7 @@ const PageBanner = () => {
                   <h1>React JS <span className='textGreen'> Development</span></h1>
                   <p>Do not worry about your application choking with the lower speed, let our expert React JS Developers build a strong component-based architecture for the better translation of the business process in real-time. </p>
                   <p>From looking after your needs specifically, we create a strong React JS Web Application that functions smoothly and is considered to be a highly-engaging mobile app right for your business. </p>
-                  <Link href="">
+                  <Link href="#">
                     <a className='btn-default btn-arrow'>Know More</a>
                   </Link>
                 </s.PageBannerContentPart>

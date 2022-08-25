@@ -13,6 +13,7 @@ const REACTNATIVEDEVELOPMENT = () => {
   useEffect(() => {
     const services = [
         {
+          key:1,
           ServiceBoxClass:"blushPart",
           ServiceIcon:"/images/reactjsDevelopment/reactUXIcon.svg",
           ServiceIconHeight:"90px",
@@ -21,6 +22,7 @@ const REACTNATIVEDEVELOPMENT = () => {
           ServiceName:"React UI/UX Development"
         },
         {
+          key:2,
           ServiceBoxClass:"purplePart",
           ServiceIcon:"/images/full-stack-icon.svg",
           ServiceIconHeight:"90px",
@@ -29,6 +31,7 @@ const REACTNATIVEDEVELOPMENT = () => {
           ServiceName:"Custom React.JS Development"
         },
         {
+          key:3,
           ServiceBoxClass:"PlatinumPart",
           ServiceIcon:"/images/reactjsDevelopment/pluginIcon.svg",
           ServiceIconHeight:"90px",
@@ -37,6 +40,7 @@ const REACTNATIVEDEVELOPMENT = () => {
           ServiceName:"ReactJS Plugins & Components Development"
         },        
         {
+          key:4,
           ServiceBoxClass:"carolinaBluePart",
           ServiceIcon:"/images/reactjsDevelopment/frontEndDevelopmentIcon.svg",
           ServiceIconHeight:"90px",
@@ -45,6 +49,7 @@ const REACTNATIVEDEVELOPMENT = () => {
           ServiceName:"ReactJS Front-End Development"
         },
         {
+          key:5,
           ServiceBoxClass:"espressoPart",
           ServiceIcon:"/images/reactjsDevelopment/reactApp.svg",
           ServiceIconHeight:"90px",
@@ -53,6 +58,7 @@ const REACTNATIVEDEVELOPMENT = () => {
           ServiceName:"React Native App Development"
         },
         {
+          key:6,
           ServiceBoxClass:"carolinaBluePart",
           ServiceIcon:"/images/reactjsDevelopment/migrationIcon.svg",
           ServiceIconHeight:"90px",
@@ -61,6 +67,7 @@ const REACTNATIVEDEVELOPMENT = () => {
           ServiceName:"React JS Migration"
         },
         {
+          key:7,
           ServiceBoxClass:"greenlightPart",
           ServiceIcon:"/images/reactjsDevelopment/bugIcon.svg",
           ServiceIconHeight:"90px",
@@ -69,6 +76,7 @@ const REACTNATIVEDEVELOPMENT = () => {
           ServiceName:"React JS QA and Testing"
         },
         {
+          key:8,
           ServiceBoxClass:"yellowPart",
           ServiceIcon:"/images/reactjsDevelopment/maintenanceSupportIcon.svg",
           ServiceIconHeight:"90px",
@@ -79,7 +87,6 @@ const REACTNATIVEDEVELOPMENT = () => {
       ];
     setServiceData(services);
   }, []);
-  console.log(ServiceData);
   return (
     <>
     <PageBanner 

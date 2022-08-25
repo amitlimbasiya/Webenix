@@ -26,8 +26,8 @@ const BACKENDDEVELOPMENT = () => {
       IntroSubTitle="Our Backend expertise"
       IntroMainTitle="Let us develop a strong backend for the smooth application functioning rides."
       IntroContent='
-      <p>The frontend mobile app view is the face of your application which will be used by users. The real work is done from the backend to create the smooth functionality of features that is present in front of users.</p>
-      <p>When it comes to the functioning of the mobile application, you won&#8217;t be disappointed because we have a knack for backend development. By creating the high boundary of secured applications, we build the robust foundation of any application that comes along. </p>
+      <p>The frontend app view is the face of your application which will be used by users. The real work is done from the backend to create the smooth functionality of features that is present in front of users.</p>
+      <p>When it comes to the functioning of the application, you won&#8217;t be disappointed because we have a knack for backend development. By creating the high boundary of secured applications, we build the robust foundation of any application that comes along. </p>
     '/>
     <ServiceFeatureBox/>
     <HireServies/>

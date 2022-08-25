@@ -25,8 +25,8 @@ const SectionServiceBoxes = () => {
       <s.SectionServiceTop className="servicesTop">
         <Container>
           <s.SectionTagline>
-            <span className="before-dash">Lorem Ipsum</span>
-            <h2>Our Lorem Ipsum Services</h2>
+            <span className="before-dash">Our Expertise</span>
+            <h2>SMO Services</h2>
           </s.SectionTagline>
         </Container>
       </s.SectionServiceTop>
@@ -36,9 +36,8 @@ const SectionServiceBoxes = () => {
             <Col lg={6} md={12} className="itemBoxes">
               <s.boxPart className="pinkPart">
                 <s.partItem className="textPart">
-                    <s.boxHeading>Lorem Ipsum </s.boxHeading>
+                    <s.boxHeading>Social Media Setup</s.boxHeading>
                     <s.textPart>Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</s.textPart>
-                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={technicalSEOAuditIcon} alt="Technical SEO Audit Icon" layout="raw" />
@@ -51,9 +50,8 @@ const SectionServiceBoxes = () => {
             <Col lg={6} md={12} className="itemBoxes">
               <s.boxPart className="yellowPart">
                 <s.partItem className="textPart">
-                  <s.boxHeading>Lorem Ipsum </s.boxHeading>
+                  <s.boxHeading>Social Media Strategy</s.boxHeading>
                     <s.textPart>Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</s.textPart>
-                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={seoIcon} alt="Seo Icon" layout="raw" />
@@ -66,9 +64,8 @@ const SectionServiceBoxes = () => {
             <Col lg={6} md={12} className="itemBoxes">
               <s.boxPart className="bluePart">
                 <s.partItem className="textPart">
-                  <s.boxHeading>Lorem Ipsum </s.boxHeading>
+                  <s.boxHeading>Content Creation</s.boxHeading>
                     <s.textPart>Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</s.textPart>
-                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={onPageOptIcon} alt="On-page optimization Icon" layout="raw" />
@@ -81,44 +78,13 @@ const SectionServiceBoxes = () => {
             <Col lg={6} md={12} className="itemBoxes">
               <s.boxPart className="greenPart">
                 <s.partItem className="textPart">
-                  <s.boxHeading>Lorem Ipsum </s.boxHeading>
+                  <s.boxHeading>Paid Promotion</s.boxHeading>
                     <s.textPart>Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</s.textPart>
-                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={fullStackIcon} alt="Off-page optimization Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapeGreenIcon} alt="Shape Green Icon" layout="raw" />
-                  </s.iconOverlay>
-                </s.partItem>
-              </s.boxPart>
-            </Col>
-            <Col lg={6} md={12} className="itemBoxes">
-              <s.boxPart className="orangePart">
-                <s.partItem className="textPart">
-                  <s.boxHeading>Lorem Ipsum </s.boxHeading>
-                    <s.textPart>Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</s.textPart>
-                    
-                </s.partItem>
-                <s.partItem className="imgPart">
-                  <Image src={linkBuildingStrategiesIcon} alt="Link-building strategies" layout="raw" />
-                  <s.iconOverlay className="overlayImg">
-                    <Image src={shapeOrangeIcon} alt="Shape Blue Icon" layout="raw" />
-                  </s.iconOverlay>
-                </s.partItem>
-              </s.boxPart>
-            </Col>
-            <Col lg={6} md={12} className="itemBoxes">
-              <s.boxPart className="purplePart">
-                <s.partItem className="textPart">
-                    <s.boxHeading>Lorem Ipsum </s.boxHeading>
-                    <s.textPart>Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</s.textPart>
-                    
-                </s.partItem>
-                <s.partItem className="imgPart">
-                  <Image src={contentMarketingIcon} alt="Content Marketing" layout="raw" />
-                  <s.iconOverlay className="overlayImg">
-                    <Image src={shapePurpleIcon} alt="Shape Purple Icon" layout="raw" />
                   </s.iconOverlay>
                 </s.partItem>
               </s.boxPart>

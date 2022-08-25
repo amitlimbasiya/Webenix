@@ -53,8 +53,8 @@ const Footer = () => {
                           </s.iconBox>
                           <s.infoDesc className='infoDesc'>
                               <s.spanPart>Phone</s.spanPart>
-                              <Link href="tel:+91 740-535-3674">
-                                <a className='linked'>+91 740-535-3674</a>
+                              <Link href="tel:+91 9773009954">
+                                <a className='linked'>+91 9773009954</a>
                               </Link>
                           </s.infoDesc>
                       </s.infoBox>

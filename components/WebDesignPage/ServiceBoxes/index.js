@@ -23,7 +23,7 @@ const SectionServiceBoxes = () => {
         <Container>
           <s.SectionTagline>
             <span className="before-dash">Our Expertise</span>
-            <h2>Our Front-End Development Services</h2>
+            <h2>Web Design Services</h2>
           </s.SectionTagline>
         </Container>
       </s.SectionServiceTop>
@@ -31,41 +31,10 @@ const SectionServiceBoxes = () => {
         <Container>
           <Row>
             <Col lg={6} md={12} className="itemBoxes">
-              <s.boxPart className="pinkPart">
-                <s.partItem className="textPart">
-                    <s.boxHeading>Logo Design</s.boxHeading>
-                    <s.textPart>Make your business branding unique and up to mark. Bring the designing aspect to the next level. </s.textPart>
-                    
-                </s.partItem>
-                <s.partItem className="imgPart">
-                  <Image src={PageBannerImg} alt="Frontend Development Icon" layout="raw" />
-                  <s.iconOverlay className="overlayImg">
-                    <Image src={shapePinkIcon} alt="Shape Pink Icon" layout="raw" />
-                  </s.iconOverlay>
-                </s.partItem>
-              </s.boxPart>
-            </Col>
-            <Col lg={6} md={12} className="itemBoxes">
-              <s.boxPart className="orangePart">
-                <s.partItem className="textPart">
-                    <s.boxHeading>Stationery Design</s.boxHeading>
-                    <s.textPart>Get the most innovative design and solution for the packaging and stationery. Webenix crafts unique and efficient designs which are the right fit for your business. </s.textPart>
-                    
-                </s.partItem>
-                <s.partItem className="imgPart">
-                  <Image src={PageBannerImg} alt="Frontend Development Icon" layout="raw" />
-                  <s.iconOverlay className="overlayImg">
-                    <Image src={shapeOrangeIcon} alt="Shape Orange Icon" layout="raw" />
-                  </s.iconOverlay>
-                </s.partItem>
-              </s.boxPart>
-            </Col>
-            <Col lg={6} md={12} className="itemBoxes">
               <s.boxPart className="yellowPart">
                 <s.partItem className="textPart">
                     <s.boxHeading>Web Design</s.boxHeading>
                     <s.textPart>We have a team of intrinsic designers that maps down the accurate website design for your business taking care of the responsiveness for all the screen sizes. </s.textPart>
-                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={websiteDesignIcon} alt="Web Desing Icon" layout="raw" />
@@ -80,7 +49,6 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                     <s.boxHeading>Landing Page design</s.boxHeading>
                     <s.textPart>A landing page is one of the important parts of showcasing the business. Taking care of the responsiveness by placing the CTA buttons in the right place will be part of the accurate landing page design.</s.textPart>
-                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={websiteDesignIcon} alt="Landing Page Design Icon" layout="raw" />
@@ -95,7 +63,6 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                     <s.boxHeading>Mobile App Design</s.boxHeading>
                     <s.textPart>We provide end-to-end solutions over two major platforms Android and Ios with clean and sleek designs from our expertise and yet according to your requirements.</s.textPart>
-                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={mobileAppDesignIcon} alt="Mobile Applicaiton Icon" layout="raw" />
@@ -110,7 +77,6 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                     <s.boxHeading>UI/UX design</s.boxHeading>
                     <s.textPart>Push your business to the success road with the help of our talented UI/UX designers. We consider our customer’s specifications in our work into considerations by using the right tools for it.</s.textPart>
-                    
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={uiUxIcon} alt="UI UX Design Icon" layout="raw" />

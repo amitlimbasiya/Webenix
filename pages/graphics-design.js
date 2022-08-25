@@ -78,17 +78,14 @@ const GRAPHICSDESIGN = () => {
         }
       ];
     setServiceData(services);
-  }, []);
-
-  console.log(ServiceData);
-
+  }, []); 
   return (
     <>
       <PageBanner 
         PageBannerClass="pagebanner-section pagebanner-shape bg_lightgreen pagebanner-align-center"
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="Graphics Design"
-        PageBannerContent="The graphic speakers when words not and so we aim to provide the best graphic designing that will be totally taken care of by our creative heads." 
+        PageBannerContent="The graphic speaks when words not and so we aim to provide the best graphic designing that will be totally taken care of by our creative heads." 
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"

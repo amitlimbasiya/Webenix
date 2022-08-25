@@ -25,6 +25,21 @@ const SectionServiceBoxes = () => {
         <Container>
           <Row>
             <Col lg={6} md={12} className="itemBoxes">
+              <s.boxPart className="purplePart">
+                <s.partItem className="textPart">
+                    <s.boxHeading>WooCommerce Development</s.boxHeading>
+                    <s.textPart>Stand out of the box, develop the WooCommerce store to carry eCommerce business strongly. </s.textPart>
+                    
+                </s.partItem>
+                <s.partItem className="imgPart">
+                  <Image src={wooIcon} alt="WooCommerce Icon" layout="raw" />
+                  <s.iconOverlay className="overlayImg">
+                    <Image src={shapePurpleIcon} alt="Shape Yellow Icon" layout="raw" />
+                  </s.iconOverlay>
+                </s.partItem>
+              </s.boxPart>
+            </Col>
+            <Col lg={6} md={12} className="itemBoxes">
               <s.boxPart className="greenPart">
                 <s.partItem className="textPart">
                     <s.boxHeading>Shopify Development</s.boxHeading>
@@ -55,20 +70,21 @@ const SectionServiceBoxes = () => {
               </s.boxPart>
             </Col>
             <Col lg={6} md={12} className="itemBoxes">
-              <s.boxPart className="purplePart">
+              <s.boxPart className="orangePart">
                 <s.partItem className="textPart">
-                    <s.boxHeading>WooCommerce Development</s.boxHeading>
-                    <s.textPart>Stand out of the box, develop the WooCommerce store to carry eCommerce business strongly. </s.textPart>
+                    <s.boxHeading>Custom eCommerce</s.boxHeading>
+                    <s.textPart>We are a dictionary of Magento Development, let us build the A1 Magento store for you. </s.textPart>
                     
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={wooIcon} alt="WooCommerce Icon" layout="raw" />
+                  <Image src={magentoIcon} alt="Magento Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
-                    <Image src={shapePurpleIcon} alt="Shape Yellow Icon" layout="raw" />
+                    <Image src={shapeOrange} alt="Shape Orange Icon" layout="raw" />
                   </s.iconOverlay>
                 </s.partItem>
               </s.boxPart>
-            </Col>
+            </Col>            
+            
           </Row>
         </Container>
       </s.ServiceBox>

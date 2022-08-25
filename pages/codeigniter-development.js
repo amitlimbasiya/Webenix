@@ -13,6 +13,7 @@ const CODEIGNITERDEVELOPMENT = () => {
   useEffect(() => {
     const services = [
         {
+          key:1,
           ServiceBoxClass:"greenlightPart",
           ServiceIcon:"/images/graphicsDesign/solution-banner-shape.svg",
           ServiceIconHeight:"90px",
@@ -21,6 +22,7 @@ const CODEIGNITERDEVELOPMENT = () => {
           ServiceName:"Customized E-Commerce Development"
         },
         {
+          key:2,
           ServiceBoxClass:"redPart",
           ServiceIcon:"/images/about-icon.svg",
           ServiceIconHeight:"90px",
@@ -29,6 +31,7 @@ const CODEIGNITERDEVELOPMENT = () => {
           ServiceName:"PHP CodeIgniter Web Application Development"
         },
         {
+          key:3,
           ServiceBoxClass:"yellowPart",
           ServiceIcon:"/images/website-design-icon.svg",
           ServiceIconHeight:"90px",
@@ -37,6 +40,7 @@ const CODEIGNITERDEVELOPMENT = () => {
           ServiceName:"Develop Web Portals with PHP CodeIgniter and MySQL"
         },        
         {
+          key:4,
           ServiceBoxClass:"saffronPart",
           ServiceIcon:"/images/web-development-icon.svg",
           ServiceIconHeight:"90px",
@@ -45,6 +49,7 @@ const CODEIGNITERDEVELOPMENT = () => {
           ServiceName:"Back-end for Mobile Apps"
         },
         {
+          key:5,
           ServiceBoxClass:"purplePart",
           ServiceIcon:"/images/mobile-app-design-icon.svg",
           ServiceIconHeight:"90px",
@@ -53,6 +58,7 @@ const CODEIGNITERDEVELOPMENT = () => {
           ServiceName:"Easy configuration and simplicity"
         },
         {
+          key:6,
           ServiceBoxClass:"lightPinkPart",
           ServiceIcon:"/images/ui-ux-icon.svg",
           ServiceIconHeight:"90px",
@@ -61,6 +67,7 @@ const CODEIGNITERDEVELOPMENT = () => {
           ServiceName:"CodeIgniter Maintenance & Support"
         },
         {
+          key:7,
           ServiceBoxClass:"pinkPart",
           ServiceIcon:"/images/prototypeIcon.svg",
           ServiceIconHeight:"90px",
@@ -69,6 +76,7 @@ const CODEIGNITERDEVELOPMENT = () => {
           ServiceName:"CodeIgniter Integration with SugarCRM"
         },
         {
+          key:8,
           ServiceBoxClass:"greenPart",
           ServiceIcon:"/images/smo-icon.svg",
           ServiceIconHeight:"90px",
@@ -79,7 +87,6 @@ const CODEIGNITERDEVELOPMENT = () => {
       ];
     setServiceData(services);
   }, []);
-  console.log(ServiceData);
   return (
     <>
     <PageBanner 

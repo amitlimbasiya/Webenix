@@ -1,4 +1,4 @@
-import Document, { Html, Head, Main, NextScript } from 'next/document';
+import Document, { Html, Head, Main, NextScript } from 'next/document'
 
 class MyDocument extends Document {
   render() {
@@ -8,13 +8,13 @@ class MyDocument extends Document {
           <link rel="preconnect" href="https://fonts.googleapis.com"/>
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true"/>
           <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" strategy="beforeInteractive"></script>
-          <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js" strategy="beforeInteractive"></script>
+          <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+          <script defer src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
         </Head>
         <body>
-          <Main />
-          <NextScript />
-        </body>
+          <Main/>
+          <NextScript/>
+        </body>        
       </Html>
     )
   }

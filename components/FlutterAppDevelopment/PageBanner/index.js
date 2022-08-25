@@ -15,7 +15,7 @@ const PageBanner = () => {
                 <s.PageBannerContentPart >
                   <h1>Flutter App <span className='textGreen'> Development</span></h1>
                   <p>Flutter is considered to be the most demanded cross-platforms for developing any trendy applications. It allows the bizarre ideas with the real-time ability for the finest development. Flutter platform adds the cherry on cake because it shows the exact native experience that never goes out of style. </p>
-                  <Link href="">
+                  <Link href="#">
                     <a className='btn-default btn-arrow'>Know More</a>
                   </Link>
                 </s.PageBannerContentPart>

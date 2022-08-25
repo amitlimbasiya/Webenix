@@ -12,12 +12,11 @@ const ServiceFeatureBox = (props) => {
                 <span className="before-dash">{props.sectionTagLine}</span>
                 <h2>{props.sectionMainTitle}</h2>
             </s.SectionTagline>
-
             <s.ServiceBox className="serviceBoxes">
                 <Row>
                     {props.ServiceValue?.map((value) => {
                         return(
-                            <Col lg={3} sm={6} className="itemBoxes" key={value}>
+                            <Col lg={3} sm={6} className="itemBoxes" key={value.key}>
                                 <s.boxPart className={value?.ServiceBoxClass}>
                                     <s.partItem className="imgPart">
                                         <Image src={value?.ServiceIcon} alt="Frontend Development Icon" height={value?.ServiceIconHeight} width={value?.ServiceIconWidth}/>

@@ -12,6 +12,7 @@ const ANGULARJSDEVELOPMENT = () => {
   useEffect(() => {
     const services = [
         {
+          key:1,
           ServiceBoxClass:"yellowPart",
           ServiceIcon:"/images/nodejsDevelopment/apiDevIcon.svg",
           ServiceIconHeight:"90px",
@@ -20,6 +21,7 @@ const ANGULARJSDEVELOPMENT = () => {
           ServiceName:"Lorem ipsum"
         },
         {
+          key:2,
           ServiceBoxClass:"carolinaBluePart",
           ServiceIcon:"/images/nodejsDevelopment/frontEndDevelopmentIcon.svg",
           ServiceIconHeight:"90px",
@@ -28,6 +30,7 @@ const ANGULARJSDEVELOPMENT = () => {
           ServiceName:"Lorem ipsum"
         },
         {
+          key:3,
           ServiceBoxClass:"saffronPart",
           ServiceIcon:"/images/nodejsDevelopment/serverSideIcon.svg",
           ServiceIconHeight:"90px",
@@ -36,6 +39,7 @@ const ANGULARJSDEVELOPMENT = () => {
           ServiceName:"Lorem ipsum"
         },        
         {
+          key:4,
           ServiceBoxClass:"PlatinumPart",
           ServiceIcon:"/images/wordpressDevelopment/pluginIcon.svg",
           ServiceIconHeight:"90px",
@@ -44,6 +48,7 @@ const ANGULARJSDEVELOPMENT = () => {
           ServiceName:"Lorem ipsum"
         },
         {
+          key:5,
           ServiceBoxClass:"carolinaBluePart",
           ServiceIcon:"/images/nodejsDevelopment/backendDevelopmentIcon.svg",
           ServiceIconHeight:"90px",
@@ -52,6 +57,7 @@ const ANGULARJSDEVELOPMENT = () => {
           ServiceName:"Lorem ipsum"
         },
         {
+          key:6,
           ServiceBoxClass:"purplePart",
           ServiceIcon:"/images/full-stack-icon.svg",
           ServiceIconHeight:"90px",
@@ -60,6 +66,7 @@ const ANGULARJSDEVELOPMENT = () => {
           ServiceName:"Lorem ipsum"
         },
         {
+          key:7,
           ServiceBoxClass:"greenlightPart",
           ServiceIcon:"/images/nodejsDevelopment/cmsDevelopmentIcon.svg",
           ServiceIconHeight:"90px",
@@ -68,6 +75,7 @@ const ANGULARJSDEVELOPMENT = () => {
           ServiceName:"Lorem ipsum"
         },
         {
+          key:8,
           ServiceBoxClass:"blushPart",
           ServiceIcon:"/images/nodejsDevelopment/reactUXIcon.svg",
           ServiceIconHeight:"90px",
@@ -78,7 +86,6 @@ const ANGULARJSDEVELOPMENT = () => {
       ];
     setServiceData(services);
   }, []);
-  console.log(ServiceData);
   return (
     <>
       <PageBanner 

@@ -114,5 +114,8 @@ const router = {
   PORTFOLIO: "/portfolio",
   CONFIDENTIALITY: "/confidentiality",
   CONTACT:"/contact",
+
+  USAPIPELINING:"/portfolio/usa-pipelining",
+
 };
 export default router;

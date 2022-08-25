@@ -3,18 +3,8 @@ import React, { useEffect } from "react";
 export default function FooterScript() {
   useEffect(function mount() {
     
-    // if (window.matchMedia('(min-width: 1200px)').matches) { 
-    //   $(".menu-item-has-children").mouseenter(function(){
-    //     $(this).find(".menu-mega").slideDown();
-    //   });
-    //   $(".menu-item-has-children").mouseleave(function(){
-    //     $(this).find(".menu-mega").slideUp();
-    //   });      
-    // }
     
-   
     $(window).on("scroll",function(){  
-
         if ($(window).scrollTop() >= 50) {
             $('header').addClass('menu-fixed');
         }
@@ -103,7 +93,6 @@ export default function FooterScript() {
     
     setTimeout(() => {
       $(window).trigger('resize');
-      console.log('test');
     }, 1500);
    
 

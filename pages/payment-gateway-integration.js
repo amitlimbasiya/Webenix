@@ -1,7 +1,6 @@
 import React from 'react'
 import PageBanner from '../components/PageBanner';
 import SectionIntro from '../components/SectionIntro';
-import OurExpertise from '../components/PGIPage/OurExpertise';
 import HireServies from '../components/HireServices';
 import Blog from '../components/Blog';
 import SteptoEngage from '../components/SteptoEngage';
@@ -28,16 +27,10 @@ const PGI = () => {
       IntroContent='
       <p>The payment hustle becomes easier when payment gateways are integrated into websites and mobile applications. To carry out online transactions, it is important to integrate the right payment gateways. Along with optimum security and transactions, it helps in decreasing the risk of transactions around the globe.</p>
       <p>With Webenix, payment API integration makes the enterprise business easier that is dedicated to easy payment solutions, whether receiving or transferring the money. From our end, we consider taking care of the payment API integrations in the best ways possible.</p>
-    '/>
-    <OurExpertise/>
-    <SectionIntro 
-      SectionIntroclassName="introuction-section noiseBg"
-      IntroSubTitle="Our Mission"
-      IntroMainTitle="Avoid the payment complexities, and avail the best payment integration!"
-      IntroContent='
+      <h3>Avoid the payment complexities, and avail the best payment integration!</h3>
       <p>We provide the payment gateway API integration to all level websites and mobile applications. Our payment API integration services will help with complex banking solutions by securing digital payment gateways. </p>
       <p>Are you looking to integrate multiple payment gateways in your business? Well, you are at the right place to have the most secure ways of payment integrations. Do not bother about the maintenance that comes along, we have got your back because we believe in inserting the industry-centric payment norms.</p>
-    '/>
+    '/>    
     <HireServies/>
     <TechnologyStack/>
     <SteptoEngage/>

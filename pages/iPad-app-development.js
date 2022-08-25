@@ -12,6 +12,7 @@ const IPADAPPSDEVELOPMENT = () => {
   useEffect(() => {
     const services = [
         {
+          key:1,
           ServiceBoxClass:"PlatinumPart",
           ServiceIcon:"/images/wordpressDevelopment/pluginIcon.svg",
           ServiceIconHeight:"90px",
@@ -20,6 +21,7 @@ const IPADAPPSDEVELOPMENT = () => {
           ServiceName:"Lorem Ipsum"
         },
         {
+          key:2,
           ServiceBoxClass:"carolinaBluePart",
           ServiceIcon:"/images/androidAppDevelopment/fullCycleAppIcon.svg",
           ServiceIconHeight:"90px",
@@ -28,6 +30,7 @@ const IPADAPPSDEVELOPMENT = () => {
           ServiceName:"Lorem Ipsum"
         },
         {
+          key:3,
           ServiceBoxClass:"carolinaBluePart",
           ServiceIcon:"/images/androidAppDevelopment/migrationIcon.svg",
           ServiceIconHeight:"90px",
@@ -36,6 +39,7 @@ const IPADAPPSDEVELOPMENT = () => {
           ServiceName:"Lorem Ipsum"
         },
         {
+          key:4,
           ServiceBoxClass:"espressoPart",
           ServiceIcon:"/images/androidAppDevelopment/codeIcon.svg",
           ServiceIconHeight:"90px",
@@ -44,6 +48,7 @@ const IPADAPPSDEVELOPMENT = () => {
           ServiceName:"Lorem Ipsum"
         },
         {
+          key:5,
           ServiceBoxClass:"yellowPart",
           ServiceIcon:"/images/androidAppDevelopment/maintenanceSupportIcon.svg",
           ServiceIconHeight:"90px",
@@ -52,6 +57,7 @@ const IPADAPPSDEVELOPMENT = () => {
           ServiceName:"Lorem Ipsum"
         },
         {
+          key:6,
           ServiceBoxClass:"blushPart",
           ServiceIcon:"/images/androidAppDevelopment/reactUXIcon.svg",
           ServiceIconHeight:"90px",
@@ -59,8 +65,8 @@ const IPADAPPSDEVELOPMENT = () => {
           ServiceSvgShape:'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 152.06 161.27"><g className="cls-1"><g id="Layer_1" data-name="Layer 1"><path className="cls-2" d="M164.87-57.64c0,43.16,25.6,58.53,38.69,33.24,10.1-19.49,22.46-15.17,45-12.76,23.14,2.48,29.6-28.57,49.89-35.9,34.33-12.4,10.67-32.18-5.23-45.33s-7.81-41-31.63-53.36c-19.35-10.08-25.41,27.43-59.78,41.05C155.2-112.2,164.87-96.83,164.87-57.64Z" transform="translate(-164.04 173.45)"/></g></g></svg>',
           ServiceName:"Lorem Ipsum"
         },        
-        
         {
+          key:7,
           ServiceBoxClass:"purplePart",
           ServiceIcon:"/images/full-stack-icon.svg",
           ServiceIconHeight:"90px",
@@ -69,6 +75,7 @@ const IPADAPPSDEVELOPMENT = () => {
           ServiceName:"Lorem Ipsum"
         },
         {
+          key:8,
           ServiceBoxClass:"carolinaBluePart",
           ServiceIcon:"/images/androidAppDevelopment/frontEndDevelopmentIcon.svg",
           ServiceIconHeight:"90px",
@@ -79,7 +86,6 @@ const IPADAPPSDEVELOPMENT = () => {
       ];
     setServiceData(services);
   }, []);
-  console.log(ServiceData);
   return (
     <>
       <PageBanner 

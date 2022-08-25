@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import portfoliothumb01 from '../../public/images/singleblog-main-thumb.jpg';
 import * as s from "../../styles/components/PortfolioListing/PortfolioListing.style";
+import router from '../../utils/router';
 
 
 const PortfolioListing = () => {
@@ -21,7 +22,7 @@ const PortfolioListing = () => {
                 <s.PortfolioWrapper id="portfoliowrapper" className='portfolio-list-row row'>
                     <Col lg={4} md={6} className="portfolio-box web item">  
                         <s.PortfolioBlock>
-                            <Link href="">
+                            <Link href={router.USAPIPELINING}>
                                 <a>
                                     <s.portfolioImgWrapper>
                                         <s.portfolioThumbImg><Image src={portfoliothumb01} alt="Php Blog" layout='raw' /></s.portfolioThumbImg>
@@ -44,7 +45,7 @@ const PortfolioListing = () => {
                     </Col>
                     <Col lg={4} md={6} className="portfolio-box branding item">  
                         <s.PortfolioBlock>
-                            <Link href="">
+                            <Link href="#">
                                 <a>
                                     <s.portfolioImgWrapper>
                                         <s.portfolioThumbImg><Image src={portfoliothumb01} alt="Php Blog" layout='raw' /></s.portfolioThumbImg>
@@ -67,7 +68,7 @@ const PortfolioListing = () => {
                     </Col>
                     <Col lg={4} md={6} className="portfolio-box mobile item">  
                         <s.PortfolioBlock>
-                            <Link href="">
+                            <Link href="#">
                                 <a>
                                     <s.portfolioImgWrapper>
                                         <s.portfolioThumbImg><Image src={portfoliothumb01} alt="Php Blog" layout='raw' /></s.portfolioThumbImg>
@@ -90,7 +91,7 @@ const PortfolioListing = () => {
                     </Col>
                     <Col lg={4} md={6} className="portfolio-box uiux item">  
                         <s.PortfolioBlock>
-                            <Link href="">
+                            <Link href="#">
                                 <a>
                                     <s.portfolioImgWrapper>
                                         <s.portfolioThumbImg><Image src={portfoliothumb01} alt="Php Blog" layout='raw' /></s.portfolioThumbImg>
@@ -113,7 +114,7 @@ const PortfolioListing = () => {
                     </Col>
                     <Col lg={4} md={6} className="portfolio-box branding item">  
                         <s.PortfolioBlock>
-                            <Link href="">
+                            <Link href="#">
                                 <a>
                                     <s.portfolioImgWrapper>
                                         <s.portfolioThumbImg><Image src={portfoliothumb01} alt="Php Blog" layout='raw' /></s.portfolioThumbImg>
@@ -136,7 +137,7 @@ const PortfolioListing = () => {
                     </Col>
                     <Col lg={4} md={6} className="portfolio-box branding item">  
                         <s.PortfolioBlock>
-                            <Link href="">
+                            <Link href="#">
                                 <a>
                                     <s.portfolioImgWrapper>
                                         <s.portfolioThumbImg><Image src={portfoliothumb01} alt="Php Blog" layout='raw' /></s.portfolioThumbImg>
@@ -159,7 +160,7 @@ const PortfolioListing = () => {
                     </Col>
                     <Col lg={4} md={6} className="portfolio-box web item">  
                         <s.PortfolioBlock>
-                            <Link href="">
+                            <Link href="#">
                                 <a>
                                     <s.portfolioImgWrapper>
                                         <s.portfolioThumbImg><Image src={portfoliothumb01} alt="Php Blog" layout='raw' /></s.portfolioThumbImg>
@@ -182,7 +183,7 @@ const PortfolioListing = () => {
                     </Col>
                     <Col lg={4} md={6} className="portfolio-box web item">  
                         <s.PortfolioBlock>
-                            <Link href="">
+                            <Link href="#">
                                 <a>
                                     <s.portfolioImgWrapper>
                                         <s.portfolioThumbImg><Image src={portfoliothumb01} alt="Php Blog" layout='raw' /></s.portfolioThumbImg>
@@ -205,7 +206,7 @@ const PortfolioListing = () => {
                     </Col>
                     <Col lg={4} md={6} className="portfolio-box web item">  
                         <s.PortfolioBlock>
-                            <Link href="">
+                            <Link href="#">
                                 <a>
                                     <s.portfolioImgWrapper>
                                         <s.portfolioThumbImg><Image src={portfoliothumb01} alt="Php Blog" layout='raw' /></s.portfolioThumbImg>
@@ -228,7 +229,7 @@ const PortfolioListing = () => {
                     </Col>
                     <Col lg={4} md={6} className="portfolio-box uiux item">  
                         <s.PortfolioBlock>
-                            <Link href="">
+                            <Link href="#">
                                 <a>
                                     <s.portfolioImgWrapper>
                                         <s.portfolioThumbImg><Image src={portfoliothumb01} alt="Php Blog" layout='raw' /></s.portfolioThumbImg>
@@ -251,7 +252,7 @@ const PortfolioListing = () => {
                     </Col>
                     <Col lg={4} md={6} className="portfolio-box uiux item">  
                         <s.PortfolioBlock>
-                            <Link href="">
+                            <Link href="#">
                                 <a>
                                     <s.portfolioImgWrapper>
                                         <s.portfolioThumbImg><Image src={portfoliothumb01} alt="Php Blog" layout='raw' /></s.portfolioThumbImg>
@@ -274,7 +275,7 @@ const PortfolioListing = () => {
                     </Col>
                     <Col lg={4} md={6} className="portfolio-box uiux item">  
                         <s.PortfolioBlock>
-                            <Link href="">
+                            <Link href="#">
                                 <a>
                                     <s.portfolioImgWrapper>
                                         <s.portfolioThumbImg><Image src={portfoliothumb01} alt="Php Blog" layout='raw' /></s.portfolioThumbImg>
@@ -297,7 +298,7 @@ const PortfolioListing = () => {
                     </Col>
                     <Col lg={4} md={6} className="portfolio-box uiux item">  
                         <s.PortfolioBlock>
-                            <Link href="">
+                            <Link href="#">
                                 <a>
                                     <s.portfolioImgWrapper>
                                         <s.portfolioThumbImg><Image src={portfoliothumb01} alt="Php Blog" layout='raw' /></s.portfolioThumbImg>
@@ -320,7 +321,7 @@ const PortfolioListing = () => {
                     </Col>
                     <Col lg={4} md={6} className="portfolio-box uiux item">  
                         <s.PortfolioBlock>
-                            <Link href="">
+                            <Link href="#">
                                 <a>
                                     <s.portfolioImgWrapper>
                                         <s.portfolioThumbImg><Image src={portfoliothumb01} alt="Php Blog" layout='raw' /></s.portfolioThumbImg>
@@ -343,7 +344,7 @@ const PortfolioListing = () => {
                     </Col>
                     <Col lg={4} md={6} className="portfolio-box uiux item">  
                         <s.PortfolioBlock>
-                            <Link href="">
+                            <Link href="#">
                                 <a>
                                     <s.portfolioImgWrapper>
                                         <s.portfolioThumbImg><Image src={portfoliothumb01} alt="Php Blog" layout='raw' /></s.portfolioThumbImg>

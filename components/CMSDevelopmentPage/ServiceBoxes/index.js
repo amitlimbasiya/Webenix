@@ -28,7 +28,7 @@ const SectionServiceBoxes = () => {
         <Container>
           <s.SectionTagline>
             <span className="before-dash">Our Expertise</span>
-            <h2>Our CMS Development Services</h2>
+            <h2>CMS Development Services</h2>
           </s.SectionTagline>
         </Container>
       </s.SectionServiceTop>
@@ -64,22 +64,7 @@ const SectionServiceBoxes = () => {
                   </s.iconOverlay>
                 </s.partItem>
               </s.boxPart>
-            </Col>
-            <Col lg={6} md={12} className="itemBoxes">
-              <s.boxPart className="yellowPart">
-                <s.partItem className="textPart">
-                    <s.boxHeading>Webflow Development</s.boxHeading>
-                    <s.textPart>Webflow development companies are specially built to drive business by developing websites which are highly responsive. Partner with Webenix to drive your business in the most unique ways.</s.textPart>
-                    
-                </s.partItem>
-                <s.partItem className="imgPart">
-                  <Image src={webFlowIcon} alt="Webflow Development Icon" layout="raw" />
-                  <s.iconOverlay className="overlayImg">
-                    <Image src={shapeYellowIcon} alt="Shape Yellow Icon" layout="raw" />
-                  </s.iconOverlay>
-                </s.partItem>
-              </s.boxPart>
-            </Col>
+            </Col>            
             <Col lg={6} md={12} className="itemBoxes">
               <s.boxPart className="greenPart">
                 <s.partItem className="textPart">
@@ -121,6 +106,21 @@ const SectionServiceBoxes = () => {
                   <Image src={PSDWordPressIcon} alt="PSD to WordPress Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapePurpleIcon} alt="Shape Purple Icon" layout="raw" />
+                  </s.iconOverlay>
+                </s.partItem>
+              </s.boxPart>
+            </Col>
+            <Col lg={6} md={12} className="itemBoxes">
+              <s.boxPart className="yellowPart">
+                <s.partItem className="textPart">
+                    <s.boxHeading>Webflow Development</s.boxHeading>
+                    <s.textPart>Webflow development companies are specially built to drive business by developing websites which are highly responsive. Partner with Webenix to drive your business in the most unique ways.</s.textPart>
+                    
+                </s.partItem>
+                <s.partItem className="imgPart">
+                  <Image src={webFlowIcon} alt="Webflow Development Icon" layout="raw" />
+                  <s.iconOverlay className="overlayImg">
+                    <Image src={shapeYellowIcon} alt="Shape Yellow Icon" layout="raw" />
                   </s.iconOverlay>
                 </s.partItem>
               </s.boxPart>

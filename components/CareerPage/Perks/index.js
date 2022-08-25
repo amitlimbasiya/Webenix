@@ -29,28 +29,28 @@ function MyVerticallyCenteredModal(props) {
       <Modal.Body>
           <Form>
           <Row className="mb-3">
-            <Col md={6} controlId="formName" className='mb-3 mb-md-0'>
+            <Col md={6} controlid="formName" className='mb-3 mb-md-0'>
               <Form.Label>Name:</Form.Label>
               <Form.Control type="text" placeholder="John Doe" />
             </Col>
-            <Col md={6} controlId="formEmail">
+            <Col md={6} controlid="formEmail">
               <Form.Label>Email</Form.Label>
               <Form.Control type="email" placeholder="johnDoe@gmail.com" />
             </Col>
           </Row>
 
           <Row className="mb-3">
-            <Col md={6} controlId="formPhoneNumber" className='mb-3 mb-md-0'>
+            <Col md={6} controlid="formPhoneNumber" className='mb-3 mb-md-0'>
               <Form.Label>Phone Number:</Form.Label>
               <Form.Control type="tel" placeholder="123 465 7890" />
             </Col>
-            <Col md={6} controlId="formCompany">
+            <Col md={6} controlid="formCompany">
               <Form.Label>Company:</Form.Label>
               <Form.Control placeholder="Lorem Ipsam" />
             </Col>
           </Row>
 
-          <Col className="mb-3" controlId="formCompany">
+          <Col className="mb-3" controlid="formCompany">
             <Form.Label>Your message:</Form.Label>
             <Form.Control
               as="textarea"
@@ -59,7 +59,7 @@ function MyVerticallyCenteredModal(props) {
             
           </Col>
           <Row className="mb-3">
-            <Col controlId="formGridCity">
+            <Col controlid="formGridCity">
               <Form.Label htmlFor="inlineFormInputGroupUsername">
                 Resume:
               </Form.Label>
@@ -242,7 +242,7 @@ const SectionIntro = () => {
                           </ul>
                         </div>
                         <div className='buttonPart'>
-                          <Link href="javascript:;">
+                          <Link href="#">
                             <a onClick={() => setModalShow(true)} className='btn-default btn-arrow'>Apply Now</a>
                           </Link>
                         </div>
@@ -274,7 +274,7 @@ const SectionIntro = () => {
                           </ul>
                         </div>
                         <div className='buttonPart'>
-                          <Link href="javascript:;">
+                          <Link href="#">
                             <a onClick={() => setModalShow(true)} className='btn-default btn-arrow'>Apply Now</a>
                           </Link>
                         </div>
@@ -306,7 +306,7 @@ const SectionIntro = () => {
                           </ul>
                         </div>
                         <div className='buttonPart'>
-                          <Link href="javascript:;">
+                          <Link href="#">
                             <a onClick={() => setModalShow(true)} className='btn-default btn-arrow'>Apply Now</a>
                           </Link>
                         </div>
@@ -338,7 +338,7 @@ const SectionIntro = () => {
                           </ul>
                         </div>
                         <div className='buttonPart'>
-                          <Link href="javascript:;">
+                          <Link href="#">
                             <a onClick={() => setModalShow(true)} className='btn-default btn-arrow'>Apply Now</a>
                           </Link>
                         </div>
