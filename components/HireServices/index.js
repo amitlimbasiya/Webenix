@@ -23,8 +23,8 @@ const HireServices = () => {
                     <s.dot></s.dot>
                 </s.dotOverlay>
                 <s.topContent className='topContent'>
-                    <s.heading>Leverage Our Hire Services</s.heading>
-                    <s.subHeading>Looking for dedicated resources?</s.subHeading>
+                    <s.heading>Hire Dedicated Resources</s.heading>
+                    <s.subHeading>From Webenix</s.subHeading>
                 </s.topContent>
                 <s.hireServicesList className='hireServicesList'>
                     <s.hireServicesItem className='hireServicesItem'>

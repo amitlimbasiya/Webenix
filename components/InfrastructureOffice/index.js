@@ -51,7 +51,9 @@ const InfrastructureOffice = (props) => {
                           </div>
                           }
                         </div>
-                        <ul>{parse(props.Listpoints)}</ul>
+                        <div className='infraplates MINIONYELLOWBG'>
+                          <ul>{parse(props.Listpoints)}</ul>
+                        </div>
                     </div>
                   </Col>
                   <Col md={5} lg={6} className="text-center">
