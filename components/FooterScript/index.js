@@ -257,6 +257,147 @@ export default function FooterScript() {
             goToPage(1);      
         });
 
+
+        //blog list start
+
+        var itemSelector2 = '.blogItem'; 
+        
+        var $container2 = $('.bloglisting-wrapper').isotope({
+          itemSelector: itemSelector2,
+          masonry: {
+            columnWidth: itemSelector2,
+            isFitWidth: true
+          }
+        });
+      
+        //Ascending order
+        var responsiveIsotope2 = [
+          [480, 4],
+          [720, 6]
+        ];
+      
+        var itemsPerPageDefault2 = 6;
+        var itemsPerPage2 = defineItemsPerPage2();
+        var currentNumberPages2 = 1;
+        var currentPage2 = 1;
+        var currentFilter2 = '*';
+        var filterAtribute2 = 'data-filter';
+        var pageAtribute2 = 'data-page';
+        var pagerClass2 = 'isotope-pager2';
+      
+        function changeFilter2(selector2) {
+          $container2.isotope({
+            filter: selector2
+          });
+        }
+      
+        function getFilterSelector2() {
+          var selector2 = itemSelector2;
+          if (currentFilter2 != '*') {
+            selector2 += `[${filterAtribute2}~="${currentFilter2}"]`
+          }
+          return selector2;
+        }
+      
+        function goToPage2(n) {
+          currentPage2 = n;
+      
+          var selector2 = getFilterSelector2();
+          selector2 += `[${pageAtribute2}="${currentPage2}"]`;
+      
+          changeFilter2(selector2);
+        }
+      
+        function defineItemsPerPage2() {
+          var pages2 = itemsPerPageDefault2;
+      
+          for( var i = 0; i < responsiveIsotope2.length; i++ ) {
+            if( $(window).width() <= responsiveIsotope2[i][0] ) {
+              pages2 = responsiveIsotope2[i][1];
+              break;
+            }
+      
+            
+      
+          }
+      
+          return pages2;
+        }
+        
+        function setPagination2() {
+      
+          var SettingsPagesOnItems2 = function(){
+      
+            var itemsLength2 = $container2.children(itemSelector2).length;
+            
+            var pages2 = Math.ceil(itemsLength2 / itemsPerPage2);
+            var item2 = 1;
+            var page2 = 1;
+            var selector2 = getFilterSelector2();
+            
+            $container2.children(selector2).each(function(){
+              if( item2 > itemsPerPage2 ) {
+                page2++;
+                item2 = 1;
+              }
+              $(this).attr(pageAtribute2, page2);
+              item2++;
+            });
+      
+            currentNumberPages2 = page2;
+      
+          }();
+      
+          var CreatePagers2 = function() {
+      
+            var $isotopePager2 = ( $('.'+pagerClass2).length == 0 ) ? $('<div class="'+pagerClass2+'"></div>') : $('.'+pagerClass2);
+      
+            $isotopePager2.html('');
+            
+            for( var i = 0; i < currentNumberPages2; i++ ) {
+              var $pager2 = $('<a href="javascript:void(0);" class="pager" '+pageAtribute2+'="'+(i+1)+'"></a>');
+                $pager2.html(i+1);
+                
+                $pager2.click(function(){
+                  $('.pager').removeClass('active');
+                  $(this).addClass('active');
+                  var page2 = $(this).eq(0).attr(pageAtribute2);
+                  goToPage2(page2);
+                });
+      
+              $pager2.appendTo($isotopePager2);
+            }
+      
+            $container2.after($isotopePager2);
+      
+          }();
+      
+        }
+      
+        setPagination2();
+        goToPage2(1);
+      
+        //Adicionando Event de Click para as categorias
+        $('.filters a').click(function(){
+          var filter2 = $(this).attr(filterAtribute2);
+          currentFilter2 = filter2;
+      
+          setPagination2();
+          goToPage2(1);
+      
+      
+        });
+      
+        //Evento Responsivo
+        $(window).resize(function(){
+          itemsPerPage2 = defineItemsPerPage2();
+          setPagination2();
+          goToPage2(1);
+        });
+
+
+        //blog list end
+
   });
 
   return null;

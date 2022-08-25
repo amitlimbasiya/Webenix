@@ -233,7 +233,7 @@ export const partItem  = styled.div`
     
 `;
 export const boxHeading  = styled.h3`
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Montserrat', sans-serif; 
     font-weight: 700; 
     color: #000;
@@ -242,7 +242,7 @@ export const boxHeading  = styled.h3`
     margin:0px;
 
     ${mediaQueries("llg")` 
-        font-size: 18px;
+        font-size: 16px;
     `}
     ${mediaQueries("mobile")` 
         font-size: 15px;

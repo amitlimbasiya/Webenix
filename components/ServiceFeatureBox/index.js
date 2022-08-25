@@ -24,7 +24,7 @@ const ServiceFeatureBox = (props) => {
                                             {parse(value?.ServiceSvgShape)}
                                         </s.iconOverlay>
                                     </s.partItem>
-                                    <s.partItem className="textPart"><s.boxHeading>{value?.ServiceName}</s.boxHeading></s.partItem>
+                                    <s.partItem className="textPart"><s.boxHeading>{parse(value?.ServiceName)}</s.boxHeading></s.partItem>
                                 </s.boxPart>
                             </Col>
                         )
