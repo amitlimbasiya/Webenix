@@ -20,7 +20,7 @@ const About = () => {
         PageBannerImageHeight="495px"
         PageBannerImage="/images/pagebg-about.svg"/>
       <SectionIntro 
-          IntroSubTitle="An agency just like you!"
+          IntroSubTitle="rahul An agency just like you!"
           IntroMainTitle="Find Everything Under One Roof At WEBENIX."
           IntroContent='
             <h3></h3>
