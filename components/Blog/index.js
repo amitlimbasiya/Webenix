@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link'
 import Image from 'next/image';
+import router from "../../utils/router";
 import { Col, Container, Row } from 'react-bootstrap';
 import * as s from "../../styles/components/blog.style";
 import phpBlog from '../../public/images/php-blog.png';
@@ -35,47 +36,45 @@ const Blog = () => {
                     <Row>
                         <Col md={4} sm={6}>
                             <s.blogItem className='blogItem mb-sm-5 mb-4 mb-md-0'>
-                                <Link href='#'>
+                                <Link href={router.SINGLEBLOG25}>
                                     <a>
                                         <s.blogImage>
                                             <Image src={phpBlog} alt="Php Blog" layout='raw' />
                                         </s.blogImage>
                                     </a>
                                 </Link>
-                                <s.blogCategory>WEBSITE DEVELOPMENT</s.blogCategory>
+                                <s.blogCategory>outsourcing</s.blogCategory>
                                 <s.blogTitle className='postHeading'>
-                                    <Link href='#'>
-                                        <a>Why it is necessary to do regular updates of your WordPress website?</a>
+                                    <Link href={router.SINGLEBLOG25}>
+                                        <a>The ways to utilize an effective outsourcing strategy and achieve business success by eliminating the risks</a>
                                     </Link>
                                 </s.blogTitle>
-                                <Link href='#'>
+                                <Link href={router.SINGLEBLOG25}>
                                     <a className='blogLink'>Read more</a>
                                 </Link>
                             </s.blogItem>
                         </Col>
                         <Col md={4} sm={6}>
                             <s.blogItem className='blogItem mb-sm-5 mb-4 mb-md-0'>
-                                <Link href='#'>
+                                <Link href={router.SINGLEBLOG21}>
                                     <a>
                                         <s.blogImage>
                                             <Image src={optimizeBlog} alt="Optimize Blog" layout='raw' />
                                         </s.blogImage>
                                     </a>
                                 </Link>
-                                <s.blogCategory>WEBSITE DEVELOPMENT</s.blogCategory>
+                                <s.blogCategory>Development</s.blogCategory>
                                 <s.blogTitle className='postHeading'>
-                                    <Link href='#'>
-                                        <a>Why it is necessary to do regular updates of your WordPress website?</a>
-                                    </Link>
+                                    <Link href={router.SINGLEBLOG21}><a>Top Reasons to consider offshore development</a></Link>
                                 </s.blogTitle>
-                                <Link href='#'>
+                                <Link href={router.SINGLEBLOG21}>
                                     <a className='blogLink'>Read more</a>
                                 </Link>
                             </s.blogItem>
                         </Col>
                         <Col md={4} sm={6}>
                             <s.blogItem className='blogItem'>
-                                <Link href='#'>
+                                <Link href={router.SINGLEBLOG19}>
                                     <a>
                                         <s.blogImage>
                                             <Image src={reactBlog} alt="React Blog" layout='raw'/>
@@ -84,11 +83,9 @@ const Blog = () => {
                                 </Link>
                                 <s.blogCategory>WEBSITE DEVELOPMENT</s.blogCategory>
                                 <s.blogTitle className='postHeading'>
-                                    <Link href='#'>
-                                        <a>Why it is necessary to do regular updates of your WordPress website?</a>
-                                    </Link>
+                                    <Link href={router.SINGLEBLOG19}><a>A comparison between fixed price and time and material contract</a></Link>
                                 </s.blogTitle>
-                                <Link href="#">
+                                <Link href={router.SINGLEBLOG19}>
                                     <a className='blogLink'>Read more</a>
                                 </Link>
                             </s.blogItem>

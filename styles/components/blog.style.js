@@ -143,12 +143,17 @@ export const blogTitle  = styled.h4`
     }
 
     &.postHeading a{
-        margin-bottom: 35px;
         font-size: 20px;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Montserrat',sans-serif;
         color: #000;
         font-weight: 600;
         line-height: 1.3;
+        overflow: hidden;
+        position: relative;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
 
         &:hover,
         &:focus{
@@ -158,7 +163,6 @@ export const blogTitle  = styled.h4`
         ${mediaQueries("tablet")`  
             margin-bottom: 0px;
             font-size: 16px;
-            display: inline-block;
         `}
     }
 `;

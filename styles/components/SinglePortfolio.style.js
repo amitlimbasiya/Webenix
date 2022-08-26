@@ -191,7 +191,7 @@ export const PortfolioBannerImg  = styled.div`
 
     img{
         border-radius: 25px;
-        box-shadow: 0px 4px 20px rgba(0,0,0,0.8);
+        box-shadow: 0px 4px 20px rgba(0,0,0,0.5);
         max-width: 100%;
         height: auto;
 

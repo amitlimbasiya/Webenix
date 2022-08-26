@@ -3,9 +3,45 @@ import { mediaQueries, mediaQueriesmin } from "../../utils/mediaQuery";
 
 export const aboutCompany  = styled.div`
     &.aboutCompany{
-        background: url(../images/about-webenix-bg.jpg) no-repeat;
-        background-size: cover;
         padding:120px 0px;
+        position: relative;
+        background: #fff;
+
+        &:before{
+            content: '';
+            position: absolute;
+            width:100%;
+            height: 100%;
+            left: 0px;
+            top: 0px;
+            background: hsla(0, 0%, 100%, 1);
+            background: linear-gradient(0deg, hsla(0, 0%, 100%, 1) 0%, hsla(46, 100%, 86%, 1) 100%);
+            background: -moz-linear-gradient(0deg, hsla(0, 0%, 100%, 1) 0%, hsla(46, 100%, 86%, 1) 100%);
+            background: -webkit-linear-gradient(0deg, hsla(0, 0%, 100%, 1) 0%, hsla(46, 100%, 86%, 0.35) 100%);
+            filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#FFEFBA", GradientType=1 );
+            z-index: 1;
+            /* opacity: 0.35; */
+        }
+        &:after{
+            content: '';
+            position: absolute;
+            right: 0px;
+            top: 0px;
+            width: 1770px;
+            height: 100%;
+            background-image: url(../images/about-dots.svg);
+            background-repeat: no-repeat;
+            z-index: 2;
+            opacity: 0.4;
+            background-size: contain;
+            background-position: right;
+
+            ${mediaQueries("mobile")`  
+                background-size: cover;
+                background-position: left center;
+                opacity: 0.3;
+            `}
+        }
 
         ${mediaQueries("lg")`  
             padding: 90px 0px;
@@ -28,6 +64,8 @@ export const aboutCompany  = styled.div`
         `}
     }
     .container{
+        z-index: 3;
+        position: relative;
         ${mediaQueries("llg")`  
             max-width: 100%;
             padding: 0 20px;
