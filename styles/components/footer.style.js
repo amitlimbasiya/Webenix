@@ -2,7 +2,7 @@ import styled, { css } from "styled-components";
 import { mediaQueries, mediaQueriesmin } from "../../utils/mediaQuery";
 
 export const footer  = styled.footer`
-    background: #f0f0f0 url(../images/footer-shape.png) no-repeat right bottom;
+    background: #f0f0f0 url(../images/footer-shape.svg) no-repeat right bottom;
     background-size: contain;
     padding: 120px 0px 0px;
     position: relative;

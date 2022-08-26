@@ -10,8 +10,8 @@ import AuthenticityIcon from "../../../public/images/career/authenticity-icon.sv
 import HonestIcon from "../../../public/images/career/honest-icon.svg";  
 import PHPIcon from "../../../public/images/php-icon.svg";  
 import FEDIcon from "../../../public/images/front-end-development-icon.svg";
-import NodejsIcon from "../../../public/images/node-JS-icon.svg";
-import ReactjsIcon from "../../../public/images/react-js-logo.svg";  
+import NodejsIcon from "../../../public/images/NodeJS-Icon.svg";
+import ReactjsIcon from "../../../public/images/reactjsBannerIcon.svg";  
 
 function MyVerticallyCenteredModal(props) {
   return (

@@ -364,13 +364,13 @@ export const LeftRightPart  = styled.div`
     .right-slant .anmtn-element:after {
         content: "";
         width: 142px;
-        height: 700px;
-        background-image: url(images/infrastructure/dotsImg.png);
+        height: 720px;
+        background-image: url(images/infrastructure/dotsImg.svg);
         background-size: 100%;
         background-position: center right;
         background-repeat: no-repeat;
         position: absolute;
-        right: -10px;
+        right: -15px;
         top: 50%;
         transform: translateY(-50%);
 
@@ -382,13 +382,13 @@ export const LeftRightPart  = styled.div`
     .left-slant .anmtn-element:after {
         content: "";
         width: 142px;
-        height: 700px;
-        background-image: url(images/infrastructure/dotsImg.png);
+        height: 720px;
+        background-image: url(images/infrastructure/dotsImg.svg);
         background-size: 100%;
         background-position: center left;
         background-repeat: no-repeat;
         position: absolute;
-        left: 10px;
+        left: 15px;
         top: 50%;
         transform: translateY(-50%);
 

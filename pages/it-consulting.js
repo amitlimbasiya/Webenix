@@ -18,7 +18,7 @@ const TPAI = () => {
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
         PageBannerImageHeight="250px"
-        PageBannerImage="/images/TPAI/bannerIcon.svg"
+        PageBannerImage="/images/it-consulting-icon.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section noiseBg"

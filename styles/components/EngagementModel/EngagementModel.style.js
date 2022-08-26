@@ -115,11 +115,11 @@ export const EngagementModelRow  = styled.div`
     margin-bottom: 320px;
 
     &.custom-margin{
-        margin-bottom: 250px;
+        margin-bottom: 120px;
         margin-top: 80px;
 
         ${mediaQueries("lg")` 
-            margin-bottom: 180px;
+            margin-bottom: 120px;
         `} 
 
         ${mediaQueries("mobile")` 
