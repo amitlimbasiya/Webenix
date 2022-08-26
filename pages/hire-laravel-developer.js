@@ -2,7 +2,7 @@ import React, {useEffect, useState}  from 'react'
 import PageBanner from '../components/PageBanner';
 import SectionIntro from '../components/SectionIntro';
 import HiringModels from '../components/HiringModels';
-import OurExpertise from '../components/HirePHPDeveloper/OurExpertise';
+import OurExpertise from '../components/HireLaravelDeveloper/OurExpertise';
 import Benefits from '../components/Benefits';
 import FAQAccordion from '../components/FAQAccordion';
 import Blog from '../components/Blog';

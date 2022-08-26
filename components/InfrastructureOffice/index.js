@@ -1,6 +1,4 @@
 import React from 'react';
-import Link from "next/link";
-import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 import * as s from "../../styles/components/InfrastructureOffice/InfrastructureOffice.style";
 import parse from 'html-react-parser';

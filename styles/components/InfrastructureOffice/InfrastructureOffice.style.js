@@ -189,7 +189,7 @@ export const LeftRightPart  = styled.div`
         `} 
     } 
 
-    padding: 105px 0px;
+    padding: 80px 0px;
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -226,7 +226,7 @@ export const LeftRightPart  = styled.div`
         margin-right: 15px;
         overflow: hidden;
         margin-top: 10px;
-        margin-bottom: 50px;
+        /* margin-bottom: 50px; */
 
         ${mediaQueries("lg")`
             padding: 40px 15px 20px;
@@ -274,7 +274,7 @@ export const LeftRightPart  = styled.div`
         
     }
     .infraplates h6{
-        font-size: 24px;
+        font-size: 22px;
         line-height: 1;
         font-family: 'Montserrat',sans-serif;
         font-weight: 700;
@@ -559,14 +559,14 @@ export const LeftRightPart  = styled.div`
         -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4) ;
         background-size: 1100px;
         background-attachment: fixed;
-        height: 550px;
+        height: 500px;
         max-width: 550px;
         margin-left: auto;
         width: 100%;
         position: relative;
         -webkit-animation: slideback 12s infinite alternate;
         animation: slideback 12s infinite alternate;
-        margin-top: 150px;
+        /* margin-top: 150px; */
 
 
         ${mediaQueries("lg")`
@@ -576,13 +576,23 @@ export const LeftRightPart  = styled.div`
         
         ${mediaQueries("mobile")`
             margin-top: 30px;
-            height: 400px;
+            height: 350px;
             max-width: 100%;
         `} 
     }
-    .rellimage.neverstoplearning {
+    .rellimage.neverstoplearning.office_bg {
         background-image: url(images/infrastructure/webenix-office.jpg);
     }
+    .rellimage.neverstoplearning.security_bg{
+        background-image: url(images/infrastructure/Security.jpg);
+    }
+    .rellimage.neverstoplearning.devices_bg {
+        background-image: url(images/infrastructure/Devices.jpg);
+    }
+    .rellimage.neverstoplearning.networks_bg {
+        background-image: url(images/infrastructure/Networks.jpg);
+    }
+
     @keyframes slideback {
         0% {
             background-position: 0
@@ -592,5 +602,4 @@ export const LeftRightPart  = styled.div`
             background-position: 300px
         }
     }
-
 `;

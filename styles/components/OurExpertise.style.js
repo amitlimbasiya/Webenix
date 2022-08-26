@@ -176,6 +176,7 @@ export const OurExpertisTitle  = styled.h3`
     line-height: 32px;
     font-family: "DINPro-Bold";  
     margin-top: 30px; 
+    text-transform: capitalize;
 
     ${mediaQueries("llg")` 
         font-size: 20px;

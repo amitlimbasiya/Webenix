@@ -39,7 +39,7 @@ const About = () => {
           <li>24 x 7 Power through Torrent (private electric provider)</li>
           <li>Backup Power via UPS and Generators</li>
           <li>200 Sq. Ft of recreation and gaming area</li>'
-        ImageClassName="rellimage neverstoplearning"
+        ImageClassName="rellimage neverstoplearning office_bg"
 
         RightsectionSubTitle="Take a look at"
         RightsectionTitle="Security & Surveillance"
@@ -50,7 +50,7 @@ const About = () => {
           <li>VPN Implementation</li>
           <li>Disaster recovery provision</li>
           <li>Advanced software for monitoring servers</li>'
-          RightImageClassName="rellimage neverstoplearning mt-0 ms-0"
+          RightImageClassName="rellimage neverstoplearning mt-0 ms-0 security_bg"
          />
 
       <InfrastructureOffice
@@ -62,7 +62,7 @@ const About = () => {
           <li>2 High Speed Internet</li>
           <li>Smartphones across different OS</li>
           <li>Backup Power via UPS and Generators</li>'
-        ImageClassName="rellimage neverstoplearning"
+        ImageClassName="rellimage neverstoplearning devices_bg"
 
         RightsectionSubTitle="Take a look at"
         RightsectionTitle="Networks & Servers"
@@ -72,7 +72,7 @@ const About = () => {
           <li>CAT6 Network Cables</li>
           <li>Cisco Firewall</li>
           <li>HighEnd Routers & Switches</li>'
-          RightImageClassName="rellimage neverstoplearning mt-0 ms-0"
+          RightImageClassName="rellimage neverstoplearning mt-0 ms-0 networks_bg"
          />
 
       <OurAmbience/>
