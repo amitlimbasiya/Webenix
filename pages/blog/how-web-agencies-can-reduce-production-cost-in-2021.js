@@ -54,9 +54,9 @@ const SingleBlog = () => {
                 <p>When you develop a website, you intend to use it as a marketing tool. Hence, you should create a website with proper SEO protocols. This will ensure that your website reaches out to a maximum number of clients and can recover your expenses with ease. Additionally, an SEO managed website is easier to maintain, which brings down the maintenance expenses further. If you have proper SEO protocols in place you will not have to worry about the ranking of your company&#39;s website. You can be assured that your company website will definitely receive a higher ranking in the SERPs. With an SEO driven website, you will not have to worry about changing the website&#39;s; content frequently. All you have to do is upgrade it so that it adheres to the ongoing trends. This will ensure that the cost of developing and maintaining the website is minimized.</p>
                 <p>Thus, by taking simple steps, you can help reduce the cost of developing a website significantly. Web development agencies also try to provide clients with numerous methods that will make it easier for them to consider creating a website and taking their services online. The year 2021 will see a marked increase in the number of eCommerce portals and marketplaces. Hence, creating a website for your company will become necessary if you want to stay ahead of the competition. Keeping this in mind, most web development agencies provide clients with numerous methods to reduce the cost of developing a website and help take their businesses online.</p>
               </s.BlogContentWrapper>
-              <s.BlogImageWrapper>
+              {/* <s.BlogImageWrapper>
                 <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/></a></Link>
-              </s.BlogImageWrapper>
+              </s.BlogImageWrapper> */}
               <s.BlogContentWrapper>
                 <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>
               </s.BlogContentWrapper>

@@ -37,9 +37,9 @@ const SingleBlog = () => {
                 <h3>Advertisement formats will become personal</h3>
                 <p>Facebook is an interactive platform where people can communicate with each other. Hence, when using the platform to advertise their products and services, business organizations need to get personal with their customers. The advertisements developed for Facebook should have a personal touch to associate better with the firm. This is the upcoming trend with Facebook advertisements. If you are thinking of using Facebook as the preferred platform for advertising your company, you should consider developing personal video advertisements, and the audience finds them relatable.</p>
               </s.BlogContentWrapper>
-              <s.BlogImageWrapper>
+              {/* <s.BlogImageWrapper>
                 <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/></a></Link>
-              </s.BlogImageWrapper>
+              </s.BlogImageWrapper> */}
               <s.BlogContentWrapper>
                 <p>In 2021 Facebook advertisements will become different as they will be more about the audience than the company. You will have to design the advertisements considering the changed socio-economic condition and the client&#39;s changed mindset. Moreover, Facebook has developed protocols to make it easier for advertisers to identify the best methods to reach out to a broader customer base through the platform. Thus, in the upcoming year, Facebook advertisements will change and become more about the companies, people, and changes people have undergone.</p>
                 <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>

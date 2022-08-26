@@ -54,9 +54,9 @@ const SingleBlog = () => {
                 <h3>You cannot keep up with the asking demands of the company</h3>
                 <p>If you cannot keep up with the demands of the company and failing to meet the simplest tasks, it is time to outsource your business and let the experts take some of the workloads of your plate.</p>
               </s.BlogContentWrapper>
-              <s.BlogImageWrapper>
+              {/* <s.BlogImageWrapper>
                 <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/></a></Link>
-              </s.BlogImageWrapper>
+              </s.BlogImageWrapper> */}
               <s.BlogContentWrapper>
                 <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>
               </s.BlogContentWrapper>

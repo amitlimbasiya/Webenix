@@ -68,9 +68,9 @@ const SingleBlog = () => {
                 <h3>Conclusion</h3>
                 <p>When building a business, every company aims to be the best in the market and they have two options to do so. It is either by outsourcing their project or by hiring an in-house team. Even though many find it challenging to outsource, it is what gives a company their competitive edge over the other who do not. Outsourcing is the key to boosting the growth and development of any business. And the most popular global companies rely on outsourcing their business. But the question arises here is that are your ready to outsource your business. And if you find yourself answering the question with a positive answer, then consider the above factors when selecting the right outsourcing partner for your company.</p>
               </s.BlogContentWrapper>
-              <s.BlogImageWrapper>
+              {/* <s.BlogImageWrapper>
                 <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/></a></Link>
-              </s.BlogImageWrapper>
+              </s.BlogImageWrapper> */}
               <s.BlogContentWrapper>
                 <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>
               </s.BlogContentWrapper>

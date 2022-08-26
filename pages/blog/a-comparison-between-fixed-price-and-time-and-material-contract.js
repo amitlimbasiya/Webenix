@@ -49,9 +49,9 @@ const SingleBlog = () => {
                 <p>There is no fixed rule in choosing which billing is better and which billing incurs a loss. Whether the pricing is suitable for both the parties or not depends on the project, hence it is advisable to discuss the scope of the project and the demands of the project thoroughly before agreeing to sign either of the contracts. One must have clear specifications and goals in their minds about the outcome of their projects, before deciding on the pricing framework of their contract. Choosing the right pricing framework may be a challenging task but the correct estimation of the project and anticipation will aid in making the right decision.</p>
                 <p>Whether you choose to go forward with the fixed price or the time and material contract for your company with the outsourcing partner depends on the project needs. It is essential to understand and analyse the different aspects of both types of contracts and weigh the advantages and disadvantages of the same and how they can be appropriate for the projects. The pricing framework of a certain outsourcing partner works well for a particular company so it will work in the same pattern for your company is not mandatory.</p>
               </s.BlogContentWrapper>
-              <s.BlogImageWrapper>
+              {/* <s.BlogImageWrapper>
                 <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/></a></Link>
-              </s.BlogImageWrapper>
+              </s.BlogImageWrapper> */}
               <s.BlogContentWrapper>
                 <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>
               </s.BlogContentWrapper>

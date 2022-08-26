@@ -38,9 +38,9 @@ const SingleBlog = () => {
                 <p>When you develop SEO based content, you intend to carry out customer analytics and do predictive analysis. This analysis is essential to retain customers and create a loyal customer base. Hence, in the year 2021, it will become crucial to develop SEO based content that gathers customer data to make a predictive analysis. Based on the number of visits made and the time spent by customers on a particular website SEO based analytics can be carried out to improve customer experience. Improving customer experience is necessary to retain customers. In the year 2021 SEO based content will play a crucial role in retaining customers.</p>
                 <p>Thus, for the year 2021, improving user experience and ensuring that customers feel satisfied visiting a particular website will be given importance. These will be the driving factors for creating SEO based content. Additionally, this is important to ensure that the quality of the website&#39;s content is upgraded and is designed as per customer requirements, which will be the primary change in SEO for the upcoming year.</p>
               </s.BlogContentWrapper>
-              <s.BlogImageWrapper>
+              {/* <s.BlogImageWrapper>
                 <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/></a></Link>
-              </s.BlogImageWrapper>
+              </s.BlogImageWrapper> */}
               <s.BlogContentWrapper>
                 <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>
               </s.BlogContentWrapper>

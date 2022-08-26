@@ -18,7 +18,7 @@ const About = () => {
         PageBannerBtnText="Know More"       
         PageBannerImageWidth="600px"
         PageBannerImageHeight="495px"
-        PageBannerImage="/images/pagebg-about.svg"/>
+        PageBannerImage="/images/about-webenix.svg"/>
       <SectionIntro 
           IntroSubTitle="An agency just like you!"
           IntroMainTitle="Find Everything Under One Roof At WEBENIX."

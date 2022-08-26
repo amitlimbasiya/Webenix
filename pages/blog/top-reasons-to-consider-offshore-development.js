@@ -46,9 +46,9 @@ const SingleBlog = () => {
                 <p>The companies can reach more affordable developers stationed in another country where the labor cost is low. For example, India is one of the countries the world looks at for development experts who work at meager rates compared to the western side of the world. Thus, start-ups can take the help of affordable expertise through offshore development.</p>
                 <p>Offshore development has become a pleasant reality for businesses who do not mind going beyond geographical boundaries to accomplish their projects. Benefits provided by it make it an intelligent approach rather than a fancy trend.</p>
               </s.BlogContentWrapper>
-              <s.BlogImageWrapper>
+              {/* <s.BlogImageWrapper>
                 <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/></a></Link>
-              </s.BlogImageWrapper>
+              </s.BlogImageWrapper> */}
               <s.BlogContentWrapper>
                 <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>
               </s.BlogContentWrapper>

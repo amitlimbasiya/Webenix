@@ -44,9 +44,9 @@ const SingleBlog = () => {
                 <h3>Build topic clusters to create an SEO managed website</h3>
                 <p>Topic clusters provide internal linking opportunities that ensure that your customers stay on the website for a more extended period. Topic clusters usually work on three pillar pages: technical SEO, local SEO, and backlinks. Backlinks are necessary, which connect to the structured data associated with your website. This is important to help your visitor connect to the webpage that he is looking for. Similarly, you will also need to develop topic clusters based on the local SEO. This will help you connect with clients of specific demographics and location. Location-based SEO is necessary, especially if you are looking to approach a particular customer base. These topic clusters will help clients navigate your company&#39;s website with ease and find the information they require. SEO managed websites are essential to keep the visitors on the particular website for a more extended period and subsequently result in higher ranks in the Search Engine Result Pages or SERPs.</p>
               </s.BlogContentWrapper>
-              <s.BlogImageWrapper>
+              {/* <s.BlogImageWrapper>
                 <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/></a></Link>
-              </s.BlogImageWrapper>
+              </s.BlogImageWrapper> */}
               <s.BlogContentWrapper>
                 <h3>Removing unnecessary content</h3>
                 <p>It is always essential to run a content edit to ensure that your company&#39;s website has proper SEO protocol in place. A content edit will remove all unnecessary information and help make your web content informative, engaging, and concise. All of these are necessary to ensure that your visitor spends a long time on your company&#39;s website. Additionally, it helps to simplify the user interface and creates user-friendly content. With the help of content editing, you can remove unnecessary and underperforming content. You can also improve the performance of the keywords and prevent keyword cannibalization. All of these are necessary to create a website with proper SEO management protocols in place and divert more web traffic to your company&#39;s website.</p>

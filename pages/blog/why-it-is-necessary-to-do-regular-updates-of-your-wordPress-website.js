@@ -48,9 +48,9 @@ const SingleBlog = () => {
                 </ul>
                 <p>Thus, bug fixes are a necessary part of the latest versions of the WordPress platform. With the help of the latest bug fixes, you can improve your company&apos; web site&apos; performance and improve the overall experience. Therefore, it is vital to upgrade your WordPress website, eCommerce portal, social media platform, or online forum to the latest version to gain access to all the bug fixes offered by the platform.</p>
               </s.BlogContentWrapper>
-              <s.BlogImageWrapper>
+              {/* <s.BlogImageWrapper>
                 <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/></a></Link>
-              </s.BlogImageWrapper>
+              </s.BlogImageWrapper> */}
               <s.BlogContentWrapper>
                 <h3>Improve compatibility</h3>
                 <p>As WordPress is an open-source platform, developers can create plugins that might not be supported by the platform&apos; older versions. With the release of new and improved versions of the forum, you will find that the plugins work better and are easily accessible. With the more recent version, the software&apos; architecture is upgraded, and new and improved features are introduced across the platform. This makes it easier for web developers to use the latest plugins and improve their respective websites&apos; overall experience. However, if you are using the older version of the platform, you will find that the latest plugins might not work correctly. This can prove to be counterproductive. Hence, to ensure that your company&apos; website is compatible with the latest plugins, you must upgrade your WordPress website to the newest version.</p>

@@ -59,9 +59,9 @@ const SingleBlog = () => {
                 <p>While working remotely, team members often feel that their team leads or managers are not interested in developing their skills. However, it would be best to assure them about your intention of helping the members develop their skills. You can do this by holding online seminars, virtual meets, and online skill evaluation programs. When your team members are assured that you are invested in their career, they too will want to work better and ensure that their performances are at par. While working remotely, the remote team needs to be assured that their managers are just as interested in their welfare as they are in the team&#39;s career working from the office. This will keep the team motivated and engaged in the work, and they will want to improve their performance.</p>
                 <p>When it comes to motivating a software team working remotely, it is a good idea to have open forums, chats, and other such modes of communication that will help them feel associated with the main office. Additionally, these chats can also help create a smooth channel of communication amongst the individual team members. Thus, to ensure that your software team, working remotely, feels motivated and engaged, you as a team lead or manager must create an atmosphere conducive to work.</p>
               </s.BlogContentWrapper>
-              <s.BlogImageWrapper>
+              {/* <s.BlogImageWrapper>
                 <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/></a></Link>
-              </s.BlogImageWrapper>
+              </s.BlogImageWrapper> */}
               <s.BlogContentWrapper>
                 <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>
               </s.BlogContentWrapper>

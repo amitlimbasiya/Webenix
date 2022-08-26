@@ -147,7 +147,7 @@ const SectionIntro = () => {
           <Container>
               <Row className="align-items-center">
                 <Col md={5} lg={6} className="text-center order-last order-md-first">
-                  <div className="rellimage neverstoplearning ms-0"></div>
+                  <div className="rellimage neverstoplearning carrer2 ms-0"></div>
                 </Col>
                 <Col md={7} lg={6} className="order-first order-md-last">
                   <div className="perk-plate">

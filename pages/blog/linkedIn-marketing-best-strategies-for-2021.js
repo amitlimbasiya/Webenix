@@ -34,9 +34,9 @@ const SingleBlog = () => {
                 <p>The LinkedIn platform is designed to help customers evaluate the services provided by other companies. Hence, you must optimize your company&#39;s page to help clients easily identify the services provided by your firm. It should be optimized for keyword searches and should have inbound links. In the year 2021, many companies will look to outsourcing various business activities of their respective firms. The business managers of the companies will look for suitable opportunities in platforms like LinkedIn. Hence, to ensure that your company features in these searches, you must select the relevant keywords and have internal links that will help the prospective clients evaluate the services provided by your firm. A well-designed company page optimized for the searches carried out by prospective clients will meet your customer&#39;s expectations.</p>
                 <p>When you develop a LinkedIn marketing strategy, it is crucial to consider it a unique platform. LinkedIn has been designed to simplify business searches. Thus, the advertisements should be sophisticated and reflect the fact that you are an entrepreneur looking to expand your business enterprise. However, at the same time, it is crucial to connect with your audience and provide them with the information that they require. Thus, while developing LinkedIn advertisements, it is essential to remember that you are creating promotions for business managers like yourself. Therefore, you must provide information that will appeal to them.</p>
               </s.BlogContentWrapper>
-              <s.BlogImageWrapper>
+              {/* <s.BlogImageWrapper>
                 <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/></a></Link>
-              </s.BlogImageWrapper>
+              </s.BlogImageWrapper> */}
               <s.BlogContentWrapper>
                 <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>
               </s.BlogContentWrapper>

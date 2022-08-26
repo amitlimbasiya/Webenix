@@ -53,9 +53,9 @@ const SingleBlog = () => {
                 <h3>Check site in GTmetrix or Google PageSpeed Insights:</h3>
                 <p><Link href="https://gtmetrix.com/"><a target="_blank">GTmetrix</a></Link> and <Link href="https://developers.google.com/speed/pagespeed/insights/"><a target="_blank">Google Pagespeed Insights</a></Link> are free online tools available to test your website&#39;s performance. Using these tools can help you get a clear understanding of your website&#39;s speed and performance and make improvements accordingly.</p>
               </s.BlogContentWrapper>
-              <s.BlogImageWrapper>
+              {/* <s.BlogImageWrapper>
                 <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/></a></Link>
-              </s.BlogImageWrapper>
+              </s.BlogImageWrapper> */}
               <s.BlogContentWrapper>
                 <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>
               </s.BlogContentWrapper>

@@ -23,7 +23,7 @@ const Confidentiality = () => {
         '/>
       <EngagementModel 
         EngagementClass="engagementmodel-row custom-margin engagement-pink-titlebg"
-        EngagementModelImage="/images/nda.png"     
+        EngagementModelImage="/images/NDA-01.svg"     
         EngagementModelImageWidth="750"
         EngagementModelImageHeight="338"  
         EngagementMainTitle="Non-Disclosure Agreement"    
@@ -41,7 +41,7 @@ const Confidentiality = () => {
 
       <EngagementModel 
         EngagementClass="engagementmodel-row engagementmodel-alt engagement-green-titlebg custom-margin"
-        EngagementModelImage="/images/technology-security.png"     
+        EngagementModelImage="/images/Technical-01.svg"     
         EngagementModelImageWidth="403"
         EngagementModelImageHeight="380"  
         EngagementMainTitle="Technical Security"    
@@ -61,7 +61,7 @@ const Confidentiality = () => {
 
       <EngagementModel 
         EngagementClass="engagementmodel-row engagement-orange-titlebg custom-margin"
-        EngagementModelImage="/images/infrastructure-security.png"     
+        EngagementModelImage="/images/Infrastructure-01.svg"     
         EngagementModelImageWidth="450"
         EngagementModelImageHeight="453"  
         EngagementMainTitle="Infrastructure physical security"

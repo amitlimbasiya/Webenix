@@ -193,8 +193,9 @@ export const IntroductionWrapper  = styled.div`
 export const BackHeading  = styled.div`
     &.backHeading{
         position: absolute;
-        left: 0%;
+        left: 50%;
         bottom: 0px;
+        transform: translateX(-50%);
         font-size: 665px;
         line-height: 515px;
         text-transform: uppercase;

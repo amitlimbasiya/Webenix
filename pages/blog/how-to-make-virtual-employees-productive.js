@@ -62,9 +62,9 @@ const SingleBlog = () => {
                 <p>Today, there are tools which allow the team members to share their screens so that it is transparent on what each is working on, without any second guess or making an assumption. Depending on the features of the tools, some of them can control the other person&#39;s window even remotely.</p>
                 <p>Using Managing a virtual team is indeed a challenging task and with experience one masters the art of managing the virtual team while increasing their productivity. However, it is pertinent to make all the meetings are remote-friendly. And this means that everyone should be using the same technology to chat through the computer, as the employees are in their virtual working environment and not in the same room. Also, ensure that your strategies work for a remote team as the strategies for an actual office is not the same for a virtual team.</p>
               </s.BlogContentWrapper>
-              <s.BlogImageWrapper>
+              {/* <s.BlogImageWrapper>
                 <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/></a></Link>
-              </s.BlogImageWrapper>
+              </s.BlogImageWrapper> */}
               <s.BlogContentWrapper>
                 <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>
               </s.BlogContentWrapper>

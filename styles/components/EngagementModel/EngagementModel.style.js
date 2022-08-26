@@ -195,6 +195,7 @@ export const EngagementModelContentMainTitle  = styled.div`
         position: absolute !important;
         right: 50px;
         top: -50px;
+        display: none !important;
 
         ${mediaQueries("lg")` 
             right: 25px;

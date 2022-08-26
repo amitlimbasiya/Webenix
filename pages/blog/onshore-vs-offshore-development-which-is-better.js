@@ -58,9 +58,9 @@ const SingleBlog = () => {
                 <p>It entirely depends upon the kind of application you want to achieve. If the project is short term, it is basic in functionalities and requires a variety of experts working at low cost; then, offshore development is the answer.</p>
                 <p>On the other hand, when the project is expansive and needs improvements without requiring many experts to work, the better choice is &ndash; onshore development. No lack of budget also makes a suitable situation for <Link href="#"><a>hiring native developers</a></Link>.</p>
               </s.BlogContentWrapper>
-              <s.BlogImageWrapper>
+              {/* <s.BlogImageWrapper>
                 <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/></a></Link>
-              </s.BlogImageWrapper>
+              </s.BlogImageWrapper> */}
               <s.BlogContentWrapper>
                 <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>
               </s.BlogContentWrapper>

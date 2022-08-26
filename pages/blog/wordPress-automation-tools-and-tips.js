@@ -38,9 +38,9 @@ const SingleBlog = () => {
                 <p>The WordPress platform provides regular updates to ensure its customers receive the best service. These updates can be in the form of security patches, changes in the operating system or upgrading of the entire security system. You can activate the automatic update system of WordPress and your website will be updated to the latest version automatically. WordPress will also provide you with back-ups if you need to revert to the older version. Thus, with WordPress&#39;s automation tools, can simplify your work.</p>
                 <p>Therefore, WordPress provides comprehensive support to all its customers. Its automation tools make it easier to evaluate the changes that need to brought to your website to attract more customers. You can use the robust Content Management System or CMS offered by WordPress to create websites that have plugins that visitors can use to improve their experience and navigate your company&#39;s website with ease. Although it is an open-source platform WordPress provides new and unique plugins and tools to its customers to make it easier to create their websites, forums and social media platforms. Therefore, by using the platform&#39;s automation tools, you can attract more web traffic and increase your customer base significantly.</p>
               </s.BlogContentWrapper>
-              <s.BlogImageWrapper>
+              {/* <s.BlogImageWrapper>
                 <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/></a></Link>
-              </s.BlogImageWrapper>
+              </s.BlogImageWrapper> */}
               <s.BlogContentWrapper>
                 <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>
               </s.BlogContentWrapper>

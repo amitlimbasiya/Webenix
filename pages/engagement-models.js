@@ -26,7 +26,7 @@ const EngagementModels = () => {
       </s.SectionTagline>
       <EngagementModel 
         EngagementClass="engagementmodel-row"
-        EngagementModelImage="/images/hybrid-model.png"     
+        EngagementModelImage="/images/Dedicated-01.svg"     
         EngagementModelImageWidth="705"
         EngagementModelImageHeight="410"  
         EngagementMainTitle="Direct Approach"    
@@ -48,7 +48,7 @@ const EngagementModels = () => {
 
       <EngagementModel 
         EngagementClass="engagementmodel-row engagementmodel-alt engagement-green-titlebg"
-        EngagementModelImage="/images/flexibility.png"     
+        EngagementModelImage="/images/Time-01.svg"     
         EngagementModelImageWidth="854"
         EngagementModelImageHeight="548"  
         EngagementMainTitle="Hourly Base"    
@@ -70,7 +70,7 @@ const EngagementModels = () => {
 
       <EngagementModel 
         EngagementClass="engagementmodel-row engagement-orange-titlebg"
-        EngagementModelImage="/images/dedicated-developer.png"     
+        EngagementModelImage="/images/FixedModel-01.svg"     
         EngagementModelImageWidth="705"
         EngagementModelImageHeight="410"  
         EngagementMainTitle="Turnkey Solutions"

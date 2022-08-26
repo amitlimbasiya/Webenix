@@ -496,7 +496,7 @@ export const LeftRightPart  = styled.div`
     
     .rellimage {
         background-size: 700px;
-        background-attachment: fixed;
+        /* background-attachment: fixed; */
         height: 575px;
         max-width: 575px;
         margin-left: auto;
@@ -504,6 +504,7 @@ export const LeftRightPart  = styled.div`
         position: relative;
         -webkit-animation: slideback 12s infinite alternate;
         animation: slideback 12s infinite alternate;
+        background-size: cover;
 
         ${mediaQueries("mobile")`
             height: 375px;
@@ -512,6 +513,9 @@ export const LeftRightPart  = styled.div`
     }
     .rellimage.neverstoplearning {
         background-image: url(images/career/career-man.jpg);
+    }
+    .rellimage.neverstoplearning.carrer2 {
+        background-image: url(images/career/career-02.jpg);
     }
     @keyframes slideback {
         0% {

@@ -558,7 +558,7 @@ export const LeftRightPart  = styled.div`
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
         -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4) ;
         background-size: 1100px;
-        background-attachment: fixed;
+        /* background-attachment: fixed; */
         height: 500px;
         max-width: 550px;
         margin-left: auto;
