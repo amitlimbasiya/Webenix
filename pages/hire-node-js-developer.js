@@ -12,16 +12,16 @@ const HireNodeJSDeveloper = () => {
   return (
     <>
       <PageBanner 
-        PageBannerClass="pagebanner-section bgIceberg noiseBg"
-        PageBannerImgClass="pagebannerimg-col right-bottom-img" 
+        PageBannerClass="pagebanner-section bgIceberg noiseBg pagebanner-align-center"
+        PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="Hire"
         PageBannerGreenTitle="NodeJS Developers"
         PageBannerContent="<p>A strong backend and API are important to create the best software development. Hire Webenix’s NodeJS Developer for ensuring a strong technical background for your business. </p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
-        PageBannerImageWidth="391px"
-        PageBannerImageHeight="403px"
-        PageBannerImage="/images/hireNodeJSDeveloper/hireNodeJSDeveloper-banner.svg"
+        PageBannerImageWidth="280px"
+        PageBannerImageHeight="250px"
+        PageBannerImage="/images/NodeJS-Icon.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"

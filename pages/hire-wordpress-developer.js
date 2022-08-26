@@ -11,16 +11,16 @@ const HireWordPressDeveloperPage = () => {
   return (
     <>
       <PageBanner 
-        PageBannerClass="pagebanner-section bgLightGrey noiseBg"
-        PageBannerImgClass="pagebannerimg-col right-bottom-img" 
+        PageBannerClass="pagebanner-section bgLightGrey noiseBg pagebanner-align-center"
+        PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="Hire"
         PageBannerGreenTitle="WordPress Developer"
         PageBannerContent="<p>Going with the best content management system, we at Webinix have the most powerful team to develop world-class WordPress Developed websites with a clean and sleek design and all the after-service maintenance development.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
-        PageBannerImageWidth="391px"
-        PageBannerImageHeight="403px"
-        PageBannerImage="/images/hirewordpressdevloper/hirewordpressdevloper-banner.svg"
+        PageBannerImageWidth="280px"
+        PageBannerImageHeight="250px"
+        PageBannerImage="/images/wordpress-icon.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"

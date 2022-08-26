@@ -12,16 +12,16 @@ const HIREUIUXDESIGNER = () => {
   return (
     <>
       <PageBanner 
-        PageBannerClass="pagebanner-section bgMistyRose noiseBg"
-        PageBannerImgClass="pagebannerimg-col right-bottom-img" 
+        PageBannerClass="pagebanner-section bgMistyRose noiseBg pagebanner-align-center"
+        PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="Hire"
         PageBannerGreenTitle="UI/UX Designer"
         PageBannerContent="<p>Create clean and sleek designs that are just eye-opening for your customers that wish to bring devastating changes just by how it looks.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
-        PageBannerImageWidth="391px"
-        PageBannerImageHeight="403px"
-        PageBannerImage="/images/hire-uiux-designer.svg"
+        PageBannerImageWidth="280px"
+        PageBannerImageHeight="250px"
+        PageBannerImage="/images/ui-ux-icon.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"

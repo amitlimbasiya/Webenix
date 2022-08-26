@@ -11,15 +11,15 @@ const HireAngularJSDeveloper = () => {
   return (
     <>
       <PageBanner 
-        PageBannerClass="pagebanner-section bgMistyRose noiseBg"
-        PageBannerImgClass="pagebannerimg-col right-bottom-img" 
+        PageBannerClass="pagebanner-section bgMistyRose noiseBg pagebanner-align-center"
+        PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="Hire"
         PageBannerGreenTitle="Angular JS Developers"
         PageBannerContent="<p>Our experts in Angular Development have been creating the best mobile apps that are powered by Google with a strong foundation. We have been developing and re-developing with the best development for multiple agencies and companies. For building powerful front-end mobile app development, Angular JS remains the best choice.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
-        PageBannerImageWidth="391px"
-        PageBannerImageHeight="403px"
+        PageBannerImageWidth="280px"
+        PageBannerImageHeight="250px"
         PageBannerImage="/images/angularJsBannerIcon.svg"
       />
     <SectionIntro 

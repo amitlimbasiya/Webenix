@@ -12,16 +12,16 @@ const HirehubspotDeveloper = () => {
   return (
     <>
       <PageBanner 
-        PageBannerClass="pagebanner-section bgMistyRose noiseBg"
-        PageBannerImgClass="pagebannerimg-col right-bottom-img" 
+        PageBannerClass="pagebanner-section bgMistyRose noiseBg pagebanner-align-center"
+        PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="Hire"
         PageBannerGreenTitle="Hubspot Developers"
         PageBannerContent="<p>With the wide user experience of Hubspot development, we at Webenix create an innovation lead approach to Hubspot Development services where we cater for an extensive range of Hubspot Development COS Services.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
-        PageBannerImageWidth="391px"
-        PageBannerImageHeight="403px"
-        PageBannerImage="/images/hire-hubspot-banner-icon.svg"
+        PageBannerImageWidth="280px"
+        PageBannerImageHeight="250px"
+        PageBannerImage="/images/hubspot-icon.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"

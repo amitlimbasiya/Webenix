@@ -12,16 +12,16 @@ const HireReactJSDeveloper = () => {
   return (
     <>
       <PageBanner 
-        PageBannerClass="pagebanner-section bgHawkesBlue noiseBg"
-        PageBannerImgClass="pagebannerimg-col right-bottom-img" 
+        PageBannerClass="pagebanner-section bgHawkesBlue noiseBg pagebanner-align-center"
+        PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="Hire"
         PageBannerGreenTitle="ReactJS Developers"
         PageBannerContent="<p>Talking about the fastest working technology  React JS, our developers will make sure to implement the best ideas with Javascript libraries to develop the best frontend interface for your business.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
-        PageBannerImageWidth="391px"
-        PageBannerImageHeight="403px"
-        PageBannerImage="/images/hireReactJSDeveloper/hireReactJSDeveloper-banner.svg"
+        PageBannerImageWidth="280px"
+        PageBannerImageHeight="250px"
+        PageBannerImage="/images/reactjsBannerIcon.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"

@@ -4,8 +4,7 @@ import Image from 'next/image';
 import { Col, Container, Row } from 'react-bootstrap';
 import Blog from '../../components/Blog';
 import * as s from "../../styles/components/SingleBlog.style";
-import singleBlogBannerThumb from '../../public/images/blogs/why-necessary.jpg';
-import singleBlogImage02 from '../../public/images/singleblog02.jpg';
+import singleBlogBannerThumb from '../../public/images/blogs/wordpress-automation.jpg';
 
 const SingleBlog = () => {
   return (

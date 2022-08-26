@@ -5,7 +5,6 @@ import { Col, Container, Row } from 'react-bootstrap';
 import Blog from '../../components/Blog';
 import * as s from "../../styles/components/SingleBlog.style";
 import singleBlogBannerThumb from '../../public/images/blogs/linkedin-marketing.jpg';
-import singleBlogImage02 from '../../public/images/singleblog02.jpg';
 
 const SingleBlog = () => {
   return (

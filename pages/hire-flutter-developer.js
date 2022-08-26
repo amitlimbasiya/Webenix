@@ -12,16 +12,16 @@ const HireFlutterDeveloper = () => {
   return (
     <>
       <PageBanner 
-        PageBannerClass="pagebanner-section bgHawkesBlue noiseBg"
-        PageBannerImgClass="pagebannerimg-col right-bottom-img" 
+        PageBannerClass="pagebanner-section bgHawkesBlue noiseBg pagebanner-align-center"
+        PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="Hire"
         PageBannerGreenTitle="Flutter Developers"
         PageBannerContent="<p>Webinix has been working with the Flutter development from the initial days and with the technology that is backed up by Google, it is considered to be one of the most demanded technologies. Considering the most powerful technology and cross-platform, we have the most skilful team in Flutter development.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
-        PageBannerImageWidth="391px"
-        PageBannerImageHeight="403px"
-        PageBannerImage="/images/hireFlutterDeveloper/hireFlutterDeveloper-banner.svg"
+        PageBannerImageWidth="280px"
+        PageBannerImageHeight="250px"
+        PageBannerImage="/images/flutter-icon.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"

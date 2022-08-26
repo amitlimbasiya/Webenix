@@ -12,16 +12,16 @@ const HIREDOTNETDEVELOPER = () => {
   return (
     <>
       <PageBanner 
-        PageBannerClass="pagebanner-section bgHawkesBlue noiseBg"
-        PageBannerImgClass="pagebannerimg-col right-bottom-img" 
+        PageBannerClass="pagebanner-section bgHawkesBlue noiseBg pagebanner-align-center"
+        PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="Hire"
         PageBannerGreenTitle=".NET Developers"
         PageBannerContent="<p>.Net is considered to be the most preferred technology that is introduced by Microsoft technology to acquire the business industries like financial companies of banking, insurance, fintech, logistic, security and much more. </p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
-        PageBannerImageWidth="391px"
-        PageBannerImageHeight="403px"
-        PageBannerImage="/images/dotNetBannerIcon.svg"
+        PageBannerImageWidth="280px"
+        PageBannerImageHeight="250px"
+        PageBannerImage="/images/asp-net-development-icon.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"

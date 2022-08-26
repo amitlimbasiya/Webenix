@@ -12,16 +12,16 @@ const HireWebDesigner = () => {
   return (
     <>
       <PageBanner 
-        PageBannerClass="pagebanner-section bgPaleBlueLily noiseBg"
-        PageBannerImgClass="pagebannerimg-col right-bottom-img" 
+        PageBannerClass="pagebanner-section bgPaleBlueLily noiseBg pagebanner-align-center"
+        PageBannerImgClass="pagebannerimg-col " 
         PageBannerTitle="Hire"
         PageBannerGreenTitle="Web Designer"
         PageBannerContent="<p>Website is one of the sources to run and develop your business. With better visibility and sleek designs on every screen size will be the artwork of our talented web designers. With powerful and creative business recognition and content placement, it is your one-stop solution.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
-        PageBannerImageWidth="391px"
-        PageBannerImageHeight="403px"
-        PageBannerImage="/images/hireWebDesigner/hireWebDesigner-banner.svg"
+        PageBannerImageWidth="280px"
+        PageBannerImageHeight="250px"
+        PageBannerImage="/images/website-design-icon.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"

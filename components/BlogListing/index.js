@@ -7,6 +7,16 @@ import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 import * as s from "../../styles/components/BlogListing/BlogListing.style";
 import phpBlog from '../../public/images/php-blog.png';
+
+import WhyWPWebsite from '../../public/images/blogs/why-necessary.jpg';
+import WPAutomation from '../../public/images/blogs/wordpress-automation.jpg';
+import Topprediction from '../../public/images/blogs/predictions-facebook.jpg';
+import TopThings from '../../public/images/blogs/top-things-landing-page.jpg';
+import TopAdvcanced from '../../public/images/blogs/seo-techniques.jpg';
+import Bestb2b from '../../public/images/blogs/best-b2b-marketing.jpg';
+import LkedinMarketing from '../../public/images/blogs/linkedin-marketing.jpg';
+
+
 import router from "../../utils/router";
  
 var settings = {
@@ -128,7 +138,7 @@ const BlogListings = (props) => {
                 <s.BlogListWrapper className='bloglisting-wrapper'>                        
                     <s.blogItem className='blogItem wordpress'>
                         <Link href={router.SINGLEBLOG1}>
-                            <a><s.blogImage><Image src={phpBlog} alt="Php Blog" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image src={WhyWPWebsite} alt="Why it is necessary to do regular updates of your WordPress website" layout='raw'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>WORDPRESS</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -140,7 +150,7 @@ const BlogListings = (props) => {
                     </s.blogItem>               
                     <s.blogItem className='blogItem wordpress'>
                         <Link href={router.SINGLEBLOG2}>
-                            <a><s.blogImage><Image src={phpBlog} alt="Php Blog" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image src={WPAutomation} alt="WordPress automation tools and tips" layout='raw'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>WORDPRESS</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -152,7 +162,7 @@ const BlogListings = (props) => {
                     </s.blogItem>      
                     <s.blogItem className='blogItem seo'>
                         <Link href={router.SINGLEBLOG3}>
-                            <a><s.blogImage><Image src={phpBlog} alt="Php Blog" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image src={TopThings} alt="Top Things Your Landing Page Should Have" layout='raw'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>SEO</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -164,7 +174,7 @@ const BlogListings = (props) => {
                     </s.blogItem>
                     <s.blogItem className='blogItem marketing'>
                         <Link href={router.SINGLEBLOG4}>
-                            <a><s.blogImage><Image src={phpBlog} alt="Php Blog" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image src={Topprediction} alt="Top Predictions for Facebook Advertising in 2021" layout='raw'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>Marketing</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -176,7 +186,7 @@ const BlogListings = (props) => {
                     </s.blogItem> 
                     <s.blogItem className='blogItem seo'>
                         <Link href={router.SINGLEBLOG5}>
-                            <a><s.blogImage><Image src={phpBlog} alt="Php Blog" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image src={TopAdvcanced} alt="Php Blog" layout='raw'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>SEO</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -188,7 +198,7 @@ const BlogListings = (props) => {
                     </s.blogItem>  
                     <s.blogItem className='blogItem marketing'>
                         <Link href={router.SINGLEBLOG6}>
-                            <a><s.blogImage><Image src={phpBlog} alt="Php Blog" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image src={Bestb2b} alt="Php Blog" layout='raw'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>Marketing</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -200,7 +210,7 @@ const BlogListings = (props) => {
                     </s.blogItem>
                     <s.blogItem className='blogItem marketing'>
                         <Link href={router.SINGLEBLOG7}>
-                            <a><s.blogImage><Image src={phpBlog} alt="Php Blog" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image src={LkedinMarketing} alt="Php Blog" layout='raw'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>Marketing</s.blogCategory>
                         <s.blogTitle className='postHeading'>

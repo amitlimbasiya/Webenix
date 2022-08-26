@@ -12,16 +12,16 @@ const HireWebDesigner = () => {
   return (
     <>
       <PageBanner 
-        PageBannerClass="pagebanner-section bgLavenderMist noiseBg"
-        PageBannerImgClass="pagebannerimg-col right-bottom-img" 
+        PageBannerClass="pagebanner-section bgLavenderMist noiseBg pagebanner-align-center"
+        PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="Hire"
         PageBannerGreenTitle="PHP Developers"
         PageBannerContent="<p>We at Webenix, have a team of skilful PHP developers with proficiency in PHP web platforms for many years. If you are finding the development for the PHP platforms, then Webenix is the one-stop solution for all your PHP requirements.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
-        PageBannerImageWidth="391px"
-        PageBannerImageHeight="403px"
-        PageBannerImage="/images/hirePhpDeveloper/hirePHPDeveloper-banner.svg"
+        PageBannerImageWidth="280px"
+        PageBannerImageHeight="250px"
+        PageBannerImage="/images/php-icon.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"

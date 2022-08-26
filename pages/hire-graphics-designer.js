@@ -12,16 +12,16 @@ const HireGraphicsDesignPage = () => {
   return (
     <>
       <PageBanner 
-        PageBannerClass="pagebanner-section bgOysterPink noiseBg"
-        PageBannerImgClass="pagebannerimg-col right-bottom-img" 
+        PageBannerClass="pagebanner-section bgOysterPink noiseBg pagebanner-align-center"
+        PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="Hire"
         PageBannerGreenTitle="Graphics Designer"
         PageBannerContent="<p>With the trendy and eye-catching design, the team of Webenix’s Graphic Designers will justify the power of design in the digital world which aggregates the human-centred delightful experience.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
-        PageBannerImageWidth="391px"
-        PageBannerImageHeight="403px"
-        PageBannerImage="/images/hire-graphics-designer.svg"
+        PageBannerImageWidth="280px"
+        PageBannerImageHeight="250px"
+        PageBannerImage="/images/website-development.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"
