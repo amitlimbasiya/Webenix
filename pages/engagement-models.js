@@ -69,7 +69,7 @@ const EngagementModels = () => {
       '/>
 
       <EngagementModel 
-        EngagementClass="engagementmodel-row engagement-orange-titlebg"
+        EngagementClass="engagementmodel-row engagement-orange-titlebg mb-5"
         EngagementModelImage="/images/FixedModel-01.svg"     
         EngagementModelImageWidth="705"
         EngagementModelImageHeight="410"  

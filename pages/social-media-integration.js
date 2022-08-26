@@ -19,7 +19,7 @@ const SMI = () => {
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
         PageBannerImageHeight="250px"
-        PageBannerImage="/images/smi/bannerIcon.svg"
+        PageBannerImage="/images/outsourcing-India.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section noiseBg"

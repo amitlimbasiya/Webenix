@@ -18,7 +18,7 @@ const SUPPORTANDMAINTENANCE = () => {
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
         PageBannerImageHeight="250px"
-        PageBannerImage="/images/support-icon.svg"
+        PageBannerImage="/images/supportIcon.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section noiseBg"

@@ -218,7 +218,7 @@ export const PageBannerWrapper  = styled.div`
 
 export const PageBannerContentPart  = styled.div` 
     padding-right: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
     
     ${mediaQueries("xll")`
         padding-right: 0px;

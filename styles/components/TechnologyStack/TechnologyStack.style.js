@@ -13,7 +13,7 @@ export const TechnologyStackWrapper  = styled.div`
 
     padding-top: 110px;
     padding-bottom: 350px;
-    background: url("images/solution/dot-abstract-bg.png") no-repeat;
+    background:#fff  url("images/solution/dot-abstract-bg.svg") no-repeat;
     background-position: center bottom;
     background-size: cover;
     padding-left: 30px; 

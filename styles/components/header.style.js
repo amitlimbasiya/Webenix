@@ -408,7 +408,7 @@ export const MenuItemHasChildren  = styled.li`
 `;
 
 export const MenuSub  = styled.div` 
-    background: url("../images/megamenu-bg.jpg") no-repeat;
+    background: #fff  url("../images/megamenu-bg.svg") no-repeat;
     background-size: cover;
 
     ${mediaQueriesmin("llg")` 
@@ -460,6 +460,7 @@ export const MenuSub  = styled.div`
         display:grid;
         grid-template-columns: repeat(4, 1fr);
         grid-column-gap: 50px;
+        /* grid-row-gap: 20px; */
 
         ${mediaQueries("llg")`
             grid-column-gap: 20px;

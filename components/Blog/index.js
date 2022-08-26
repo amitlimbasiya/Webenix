@@ -23,7 +23,7 @@ const Blog = () => {
                         </s.leftPart>
                         <s.rightPart>
                             <s.ctaBtn className='ctaBtn'>
-                                <Link href='#'>
+                            <Link href={router.CONTACT}>
                                     <a className='btn-default'>Get a Quote</a>
                                 </Link>
                             </s.ctaBtn>

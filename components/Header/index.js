@@ -6,7 +6,7 @@ import * as s from "../../styles/components/header.style";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown} from '@fortawesome/free-solid-svg-icons';
 import LogoImage from "../../public/images/webenix-full-logo.svg";
-import webSiteDevelopmentIcon from '../../public/images/website-development.svg';
+import webSiteDevelopmentIcon from '../../public/images/web-development-icon.svg';
 import codeigniteIcon from '../../public/images/codeigniteIcon.svg';
 import codeIcon from '../../public/images/codeIcon.svg';
 import uiUxIcon from '../../public/images/ui-ux-icon.svg';
@@ -20,7 +20,8 @@ import outsourcingIndiaIcon from '../../public/images/outsourcing-India-icon.svg
 import itConsultingIcon from '../../public/images/it-consulting-icon.svg';
 import startupConsultingIcon from '../../public/images/startup-consulting-icon.svg';
 import shippingIntegrationIcon from '../../public/images/shipping-Integration-icon.svg';
-import thirdPartyAPIntegrationIcon from '../../public/images/third-party-API-Integration-icon.svg';
+import thirdPartyAPIntegrationIcon from '../../public/images/key.svg';
+import supportMaintain from '../../public/images/supportIcon.svg';
 import frontEndDevelopmentIcon from '../../public/images/front-end-development-icon.svg';
 import backendDevelopmentIcon from '../../public/images/backend-development-icon.svg';
 import laravelIcon from '../../public/images/laravel-icon.svg';
@@ -31,13 +32,13 @@ import flutterIcon from '../../public/images/flutter-icon.svg';
 import reactjsIcon from '../../public/images/reactjsBannerIcon.svg';
 import nodeJsIcon from '../../public/images/NodeJS-Icon.svg';
 import angularIcon from '../../public/images/angular-icon.svg';
-import expressJsIcon from '../../public/images/expressjs-icon.svg';
+import expressJsIcon from '../../public/images/express-js-banner-icon.svg';
 import nextJsIcon from '../../public/images/nextjs-icon.svg';
 import androidAppIcon from '../../public/images/android-app-icon.svg';
 import iosDevIcon from '../../public/images/apple-ios.svg';
 import appleIos from '../../public/images/iphone-icon.svg';
 import ionicIcon from '../../public/images/ionicframework-icon.svg';
-import progressiveIcon from '../../public/images/progressive-web-apps-icon.svg';
+import progressiveIcon from '../../public/images/pwa-icon.svg';
 import prototypeIcon from '../../public/images/design-prototype-icon.svg';
 import psdHtmlIcon from '../../public/images/psd-html-icon.svg';
 import responsiveIcon from '../../public/images/responsive-icon.svg';
@@ -289,14 +290,14 @@ const Header = () => {
                       <s.MenuListItem className="menulist-item">
                         <s.MenuListTitle className="menulist-title">Consulting & Stratergy </s.MenuListTitle>
                         <s.MenuItemBlock className="menuitem-block">
-                          <Link href="#">
+                          {/* <Link href="#">
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={outsourcingIndiaIcon} alt="Outsourcing to India Icon" layout="raw" />
                                 <p>Outsourcing to India</p>
                               </s.MenuItemText>
                             </a>
-                          </Link>
+                          </Link> */}
                           <Link href={router.ITCONSULTING}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
@@ -362,7 +363,7 @@ const Header = () => {
                           <Link href={router.SUPPORTANDMAINTENANCE}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
-                                <Image src={thirdPartyAPIntegrationIcon} alt="Support and Maintanance icon" layout="raw" />
+                                <Image src={supportMaintain} alt="Support and Maintanance icon" layout="raw" />
                                 <p>Support and Maintanance</p>
                               </s.MenuItemText>
                             </a>
@@ -489,7 +490,7 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href={router.NEXTJSDEVELOPMENT}>
+                          {/* <Link href={router.NEXTJSDEVELOPMENT}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={nextJsIcon} alt="Next JS development" layout="raw" />
@@ -497,7 +498,7 @@ const Header = () => {
                               </s.MenuItemText>
                               
                             </a>
-                          </Link>
+                          </Link> */}
                         </s.MenuItemBlock>
                       </s.MenuListItem>
 
