@@ -55,7 +55,7 @@ const USAPipelining = () => {
                             </s.PortfolioTechIcon>
                             <s.PortfolioTechContent>
                                 <p>Industry</p>
-                                <h4>Academy</h4>
+                                <h4>Education</h4>
                             </s.PortfolioTechContent>
                         </s.PortfolioTechBox>
                         <s.PortfolioTechBox>

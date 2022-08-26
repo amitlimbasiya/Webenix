@@ -9,7 +9,7 @@ import TechnologiesIcon from '../../public/images/portfolio-tech-icon.svg';
 import BuiltIcon from '../../public/images/portfolio-built-icon.svg';
 import IndustryIcon from '../../public/images/portfolio-industry-icon.svg';
 import WebIcon from '../../public/images/portfolio-website-icon.svg';
-import PortfolioBannerImg from '../../public/images/portfolio-southerntradelines.png';
+import superstars from '../../public/images/portfolio-superstars-camp.png';
 
 
 const USAPipelining = () => {
@@ -26,8 +26,8 @@ const USAPipelining = () => {
             <Container>
                 <s.PortfolioDescription>
                     <h3>Introduction</h3>
-                    <p>We make tradelines easy to understand.</p>
-                    <p>Within a short time, you will be amazed by just how much your credit scores will have improved. Your business will experience unmatched returns but this can only be achieved by keenly following the stipulated regulations.</p>
+                    <p>Super Stars is a well-established camp that has been serving this community for the past sixteen years. Our Summer Camp is all about having fun through sports and fitness for children from Kindergarten through 8th grade!</p>
+                    <p>Campers are divided into three different age groups throughout the day; Kindergarten and First graders, Second and Third graders, Fourth, Fifth and Sixth Graders. Activities include Swimming, Water Slides, Bounce Houses, Basketball, Soccer, Kickball, Flag Football, Color Wars, Camp Challenges, Pillow Polo, Roller Racers, Capture the flag, and more. Our objective is to get your kids moving, having fun and promoting a healthy lifestyle.</p>
                     <s.PortfolioTechRow>
                         <s.PortfolioTechBox>
                             <s.PortfolioTechIcon className='pink-bg'>
@@ -53,7 +53,7 @@ const USAPipelining = () => {
                             </s.PortfolioTechIcon>
                             <s.PortfolioTechContent>
                                 <p>Industry</p>
-                                <h4>business</h4>
+                                <h4>Education</h4>
                             </s.PortfolioTechContent>
                         </s.PortfolioTechBox>
                         <s.PortfolioTechBox>
@@ -62,14 +62,14 @@ const USAPipelining = () => {
                             </s.PortfolioTechIcon>
                             <s.PortfolioTechContent>
                                 <p>URL</p>
-                                <Link href="https://southerntradelines.com/"><a target="_blank">Website</a></Link>
+                                <Link href="https://superstarscamp.com/"><a target="_blank">Website</a></Link>
                             </s.PortfolioTechContent>
                         </s.PortfolioTechBox>
                     </s.PortfolioTechRow>
                 </s.PortfolioDescription>
 
                 <s.PortfolioBannerImg>
-                    <Image src={PortfolioBannerImg} alt="Southern Tradelines" layout='raw' />
+                    <Image src={superstars} alt="Superstars Camp" layout='raw' />
                 </s.PortfolioBannerImg>
             </Container>
         </s.SinglePortfolioWrapper>

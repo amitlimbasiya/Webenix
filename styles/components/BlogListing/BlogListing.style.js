@@ -146,7 +146,8 @@ export const blogListing  = styled.div`
         `} 
     }   
 
-    .paginationPart{
+    .paginationPart,
+    .isotope-pager2{
         position: relative;
         padding-top: 0px;
         margin-top: 20px;
@@ -176,7 +177,8 @@ export const blogListing  = styled.div`
                 color: #67c187;
             }
         }
-        a.pagi{
+        a.pagi,
+        .pager{
             width: 30px;
             height: 30px;
             line-height: 30px;

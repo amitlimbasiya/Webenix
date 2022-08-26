@@ -122,6 +122,7 @@ const router = {
   ELLEMAR:"/portfolio/ellemar",
   DININGEDGE:"/portfolio/diningedge",
   BALDERASCONSTRUCTION:"/portfolio/balderasconstruction",
+  SUPERSTARSCAMP:"/portfolio/superstarscamp",
 
 };
 export default router;

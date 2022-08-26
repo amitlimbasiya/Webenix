@@ -105,8 +105,8 @@ export default function FooterScript() {
         var $container = $('#portfoliowrapper').isotope({ itemSelector: itemSelector });
 
         //Ascending order
-        var responsiveIsotope = [ [480, 4] , [720, 6] ];
-        var itemsPerPageDefault = 9;
+        var responsiveIsotope = [ [480, 3] , [992, 4] ];
+        var itemsPerPageDefault = 6;
         var itemsPerPage = defineItemsPerPage();
         var currentNumberPages = 1;
         var currentPage = 1;

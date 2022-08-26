@@ -431,15 +431,6 @@ const BlogListings = (props) => {
                         <div className='datePart'>August 03, 2020</div>
                     </s.blogItem>         
                 </s.BlogListWrapper>
-                <Col className='paginationPart'>
-                  <Link href={""}><a className='d-none'>← Privious</a></Link>
-                  <Link href={""}><a className="pagi">1</a></Link>
-                  <Link href={""}><a className="pagi">2</a></Link>
-                  <Link href={""}><a className="pagi">3</a></Link>
-                  <Link href={""}><a className="pagi">4</a></Link>
-                  <Link href={""}><a className="pagi">5</a></Link>
-                  <Link href={""}><a>Next →</a></Link>
-                </Col>
             </Col>
             <Col lg={3} md={12} className="order-1 order-lg-2 mb-5 mb-lg-0">
               <s.CategoryList>
