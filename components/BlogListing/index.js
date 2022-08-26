@@ -41,98 +41,82 @@ const BlogListings = (props) => {
      <s.Listing>
       <Slider className='slickSlider' {...settings}>
         <s.blogItem className='blogItem text-center'>
-            <Link href={router.SINGLEBLOG}>
+            <Link href={router.SINGLEBLOG25}>
                 <a>
                     <s.blogImage>
                         <Image src={phpBlog} alt="Php Blog" layout='raw' />
-                        <div className='datePart'>JULY 15, 2022</div>
+                        <div className='datePart'>AUGUST 03, 2020</div>
                     </s.blogImage>
                 </a>
             </Link>
-            <s.blogCategory className='orangeColor'>WEBSITE DEVELOPMENT</s.blogCategory>
+            <s.blogCategory className='orangeColor'>OUTSOURCING</s.blogCategory>
             <s.blogTitle className='postHeading'>
-                <Link href={router.SINGLEBLOG}>
+                <Link href={router.SINGLEBLOG25}>
+                    <a>The ways to utilize an effective outsourcing strategy and achieve business success by eliminating the risks</a>
+                </Link>
+            </s.blogTitle>
+        </s.blogItem>
+        <s.blogItem className='blogItem text-center'>
+            <Link href={router.SINGLEBLOG21}>
+                <a>
+                    <s.blogImage>
+                        <Image src={phpBlog} alt="Php Blog" layout='raw' />
+                        <div className='datePart'>SEPTEMBER 01, 2020</div>
+                    </s.blogImage>
+                </a>
+            </Link>
+            <s.blogCategory className='orangeColor'>DEVELOPMENT</s.blogCategory>
+            <s.blogTitle className='postHeading'>
+                <Link href={router.SINGLEBLOG21}>
+                    <a>Top Reasons to consider offshore development</a>
+                </Link>
+            </s.blogTitle>
+        </s.blogItem>
+        <s.blogItem className='blogItem text-center'>
+            <Link href={router.SINGLEBLOG19}>
+                <a>
+                    <s.blogImage>
+                        <Image src={phpBlog} alt="Php Blog" layout='raw' />
+                        <div className='datePart'>SEPTEMBER 22, 2020</div>
+                    </s.blogImage>
+                </a>
+            </Link>
+            <s.blogCategory className='orangeColor'>Outsourcing</s.blogCategory>
+            <s.blogTitle className='postHeading'>
+                <Link href={router.SINGLEBLOG19}>
+                    <a>A comparison between fixed price and time and material contract</a>
+                </Link>
+            </s.blogTitle>
+        </s.blogItem>
+        <s.blogItem className='blogItem text-center'>
+            <Link href={router.SINGLEBLOG1}>
+                <a>
+                    <s.blogImage>
+                        <Image src={phpBlog} alt="Php Blog" layout='raw' />
+                        <div className='datePart'>AUGUST 13, 2021</div>
+                    </s.blogImage>
+                </a>
+            </Link>
+            <s.blogCategory className='orangeColor'>WordPress</s.blogCategory>
+            <s.blogTitle className='postHeading'>
+                <Link href={router.SINGLEBLOG1}>
                     <a>Why it is necessary to do regular updates of your WordPress website?</a>
                 </Link>
             </s.blogTitle>
         </s.blogItem>
         <s.blogItem className='blogItem text-center'>
-            <Link href={router.SINGLEBLOG}>
+            <Link href={router.SINGLEBLOG2}>
                 <a>
                     <s.blogImage>
                         <Image src={phpBlog} alt="Php Blog" layout='raw' />
-                        <div className='datePart'>JULY 15, 2022</div>
+                        <div className='datePart'>AUGUST 16, 2021</div>
                     </s.blogImage>
                 </a>
             </Link>
-            <s.blogCategory className='orangeColor'>WEBSITE DEVELOPMENT</s.blogCategory>
+            <s.blogCategory className='orangeColor'>WordPress</s.blogCategory>
             <s.blogTitle className='postHeading'>
-                <Link href={router.SINGLEBLOG}>
-                    <a>Why it is necessary to do regular updates of your WordPress website?</a>
-                </Link>
-            </s.blogTitle>
-        </s.blogItem>
-        <s.blogItem className='blogItem text-center'>
-            <Link href={router.SINGLEBLOG}>
-                <a>
-                    <s.blogImage>
-                        <Image src={phpBlog} alt="Php Blog" layout='raw' />
-                        <div className='datePart'>JULY 15, 2022</div>
-                    </s.blogImage>
-                </a>
-            </Link>
-            <s.blogCategory className='orangeColor'>WEBSITE DEVELOPMENT</s.blogCategory>
-            <s.blogTitle className='postHeading'>
-                <Link href={router.SINGLEBLOG}>
-                    <a>Why it is necessary to do regular updates of your WordPress website?</a>
-                </Link>
-            </s.blogTitle>
-        </s.blogItem>
-        <s.blogItem className='blogItem text-center'>
-            <Link href={router.SINGLEBLOG}>
-                <a>
-                    <s.blogImage>
-                        <Image src={phpBlog} alt="Php Blog" layout='raw' />
-                        <div className='datePart'>JULY 15, 2022</div>
-                    </s.blogImage>
-                </a>
-            </Link>
-            <s.blogCategory className='orangeColor'>WEBSITE DEVELOPMENT</s.blogCategory>
-            <s.blogTitle className='postHeading'>
-                <Link href={router.SINGLEBLOG}>
-                    <a>Why it is necessary to do regular updates of your WordPress website?</a>
-                </Link>
-            </s.blogTitle>
-        </s.blogItem>
-        <s.blogItem className='blogItem text-center'>
-            <Link href={router.SINGLEBLOG}>
-                <a>
-                    <s.blogImage>
-                        <Image src={phpBlog} alt="Php Blog" layout='raw' />
-                        <div className='datePart'>JULY 15, 2022</div>
-                    </s.blogImage>
-                </a>
-            </Link>
-            <s.blogCategory className='orangeColor'>WEBSITE DEVELOPMENT</s.blogCategory>
-            <s.blogTitle className='postHeading'>
-                <Link href={router.SINGLEBLOG}>
-                    <a>Why it is necessary to do regular updates of your WordPress website?</a>
-                </Link>
-            </s.blogTitle>
-        </s.blogItem>
-        <s.blogItem className='blogItem text-center'>
-            <Link href={router.SINGLEBLOG}>
-                <a>
-                    <s.blogImage>
-                        <Image src={phpBlog} alt="Php Blog" layout='raw' />
-                        <div className='datePart'>JULY 15, 2022</div>
-                    </s.blogImage>
-                </a>
-            </Link>
-            <s.blogCategory className='orangeColor'>WEBSITE DEVELOPMENT</s.blogCategory>
-            <s.blogTitle className='postHeading'>
-                <Link href={router.SINGLEBLOG}>
-                    <a>Why it is necessary to do regular updates of your WordPress website?</a>
+                <Link href={router.SINGLEBLOG2}>
+                    <a>WordPress automation tools and tips</a>
                 </Link>
             </s.blogTitle>
         </s.blogItem>

@@ -77,7 +77,8 @@ export const Listing  = styled.div`
     .slick-slide .blogItem img{
         height: auto;
         max-width: 100%;
-        object-fit: initial;
+        /* object-fit: initial; */
+        object-fit: cover;
         max-height: 202px;
     }
     .slick-slide::before {
@@ -151,6 +152,7 @@ export const blogListing  = styled.div`
         position: relative;
         padding-top: 0px;
         margin-top: 20px;
+        text-align: center;
         
         &:before{
             content: '';
@@ -321,6 +323,12 @@ export const blogTitle  = styled.h4`
         line-height: 1.3;
         display: inline-block;
         vertical-align: text-top;
+        overflow: hidden;
+        position: relative;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
 
         &:hover,
         &:focus{
