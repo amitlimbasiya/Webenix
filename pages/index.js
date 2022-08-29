@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import {useRouter} from "next/router";
 import React, { Fragment, useEffect, useState } from "react";
 import Hero from '../components/Slider';
@@ -6,6 +5,8 @@ import About from '../components/About';
 import Services from '../components/Services';
 import HireServies from '../components/HireServices';
 import Blog from '../components/Blog';
+import Head from 'next/head';
+import { data } from "../data/Seo";
 
 export default function Home() {
 
@@ -14,10 +15,12 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Webenix</title>
-        <meta name="description" content="" />
-        <link rel="icon" href="/favicon.ico" />
+        <title>{data.home.title}</title>
+        <meta name="description" content={data.home.description}/>
+        <meta name="keywords" content={data.home.keyword} />
+        <link rel="canonical" href="https://webenix.net/about"/>
       </Head>
+
       <Hero/>
       <About/>
       <Services/>

@@ -4,13 +4,12 @@ import Header from '../components/Header';
 import Footer from '../components/Footer'; 
 import FooterScript from '../components/FooterScript';
 
+
 import '../styles/globals.css';
 
-
-
 function MyApp({ Component, pageProps }) { 
-  return <SSRProvider>
-    <Header/>
+  return <SSRProvider>   
+      <Header/>
       <Component {...pageProps} />
       <FooterScript/>
       <Footer/> 
