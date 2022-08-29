@@ -32,25 +32,6 @@ export const SectionIntroWrapper  = styled.div`
 
 export const SectionTagline  = styled.div`
  
-    margin-bottom: 50px;
-
-
-    ${mediaQueries("llg")` 
-        margin-bottom: 45px
-    `} 
-
-    ${mediaQueries("xl")` 
-        margin-bottom:30px
-    `} 
-
-    ${mediaQueries("mobile")` 
-        margin-bottom: 10px 
-    `} 
-
-    ${mediaQueries("xxs")` 
-        margin-bottom: 10px 
-    `} 
-
     .before-dash{ 
         position: relative;
         font-size: 24px;
@@ -139,7 +120,7 @@ export const SectionHeader  = styled.div`
     }
 `;
 export const LeftRightPart  = styled.div` 
-    
+
     &.leftRightPart{
         background: linear-gradient(90deg,#f6f2d9 20%,#f6f7ee 60%,#fff 0,#fff 80%,#fff);
         overflow: hidden;
@@ -155,7 +136,11 @@ export const LeftRightPart  = styled.div`
 
             .multiple-infraplates{
                 grid-template-columns: 1fr;
-                margin: 0px;
+                margin: 48px 0px 0px 0px;
+
+                ${mediaQueries("tablet")` 
+                    margin: 24px 0px 0px 0px;
+                `} 
             }
             .infraplates{
                 margin: 0px;
@@ -175,9 +160,16 @@ export const LeftRightPart  = styled.div`
             `} 
         }
 
-
     }
+    & :nth-child(odd){
+        .multiple-infraplates{
+            margin: 0px 0px 48px 0px;
 
+            ${mediaQueries("tablet")` 
+                margin: 0px 0px 24px 0px;
+            `} 
+        }
+    }
     .container{
         max-width: 1430px;
         padding-left: 30px;
@@ -209,7 +201,7 @@ export const LeftRightPart  = styled.div`
         grid-template-rows: 1fr;
         grid-column-gap: 0px;
         grid-row-gap: 0px;
-
+        
         ${mediaQueries("sm")`
            grid-template-columns: 1fr;
         `} 
@@ -225,13 +217,18 @@ export const LeftRightPart  = styled.div`
         transition: all .5s;
         margin-right: 15px;
         overflow: hidden;
-        margin-top: 10px;
-        /* margin-bottom: 50px; */
 
         ${mediaQueries("lg")`
             padding: 40px 15px 20px;
             margin-right: 10px;
+        `} 
+        ${mediaQueries("sm")`
             margin-bottom: 30px;
+            margin-right: 0px;
+
+            :last-child{
+                margin-bottom: 0px;
+            }
         `} 
 
     }
@@ -557,16 +554,17 @@ export const LeftRightPart  = styled.div`
         border-radius: 15px;
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
         -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4) ;
-        background-size: 1100px;
-        /* background-attachment: fixed; */
+        background-size: 100% 100%;
+        background-position: center center;
         height: 500px;
         max-width: 550px;
         margin-left: auto;
         width: 100%;
         position: relative;
-        -webkit-animation: slideback 12s infinite alternate;
-        animation: slideback 12s infinite alternate;
-        /* margin-top: 150px; */
+        -webkit-transition: all 0.5s 0s linear;
+        -moz-transition: all 0.5s 0s linear;
+        -o-transition: all 0.5s 0s linear;
+        transition: all 0.5s 0s linear;
 
 
         ${mediaQueries("lg")`
@@ -578,7 +576,11 @@ export const LeftRightPart  = styled.div`
             margin-top: 30px;
             height: 350px;
             max-width: 100%;
-        `} 
+        `}
+        
+        &:hover{
+            background-size: 105% 105%;
+        }
     }
     .rellimage.neverstoplearning.office_bg {
         background-image: url(images/infrastructure/webenix-office.jpg);
@@ -591,15 +593,5 @@ export const LeftRightPart  = styled.div`
     }
     .rellimage.neverstoplearning.networks_bg {
         background-image: url(images/infrastructure/Networks.jpg);
-    }
-
-    @keyframes slideback {
-        0% {
-            background-position: 0
-        }
-
-        to {
-            background-position: 300px
-        }
     }
 `;

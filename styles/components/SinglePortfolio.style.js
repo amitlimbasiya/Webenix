@@ -17,7 +17,7 @@ export const SinglePortfolioWrapper  = styled.div`
     `}
 
     ${mediaQueries("mobile")`
-        padding-bottom: 40px;
+        padding-bottom: 60px;
         padding-top: 40px;
     `}
 
@@ -26,10 +26,12 @@ export const SinglePortfolioWrapper  = styled.div`
         position: absolute;
         content: "";
         inset: 0;
-        background: url('/images/zigzag-border.png') no-repeat;
+        background: url('/images/lineShape.svg') no-repeat;
         background-position: top right;
+        background-size: cover;
         opacity: 0.4;
         z-index: -1;
+        height: 100%;
     }
 
     ${mediaQueries("lg")`
@@ -48,9 +50,46 @@ export const SinglePortfolioWrapper  = styled.div`
     `}
 
 
+    .slick-slide img{
+        height: auto;
+        max-width: 100%;
+        object-fit: cover;
+        display: inline-block;
+    }
+    .slick-next,
+    .slick-prev{
+        top: 50%;
+        transform: translateY(-50%);
+        font-family: unset;
+        z-index: 6;
+        
+        ${mediaQueries("tablet")` 
+            bottom:-30px;
+            top: auto;
+        `} 
+    }
+    .slick-next {
+        right: 0px;
+        ${mediaQueries("tablet")` 
+            right: calc(50% - 30px); 
+        `} 
+    }
+    .slick-prev{
+        left: 0px;
+        ${mediaQueries("tablet")` 
+            left:calc(50% - 30px); 
+        `} 
+    }
+    .slick-prev:before, .slick-next:before{
+        color: #000;
+        font-family: unset;
+        opacity: 1;
+    }
+
 `;
 
 export const PortfolioDescription  = styled.div`
+    margin-bottom: 50px;
 
     h3{
         font-size: 48px;
@@ -183,10 +222,10 @@ export const PortfolioTechContent  = styled.div`
 
 export const PortfolioBannerImg  = styled.div`
 
-    margin-top: 100px;
+    padding: 40px;
 
     ${mediaQueries("mobile")`
-         margin-top: 50px;
+         padding: 20px;
     `}
 
     img{
@@ -195,10 +234,12 @@ export const PortfolioBannerImg  = styled.div`
         max-width: 100%;
         height: auto;
 
-        
+        ${mediaQueries("mobile")`
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+        `}
     }
    
 `;
-
-
-
+export const itemSlider  = styled.div`
+`;

@@ -7,7 +7,7 @@ const ListingBlog = () => {
     <>
       <PageBanner 
         PageBannerBigTitle="Blog"
-        PageBannerClass="pagebanner-section lightPurplBg noiseBg"
+        PageBannerClass="pagebanner-section lightPurplBg noiseBg smallPart"
         PageBannerImgClass="pagebannerimg-col at-right-bottom" 
         PageBannerTitle="Blog"
         PageBannerGreenUnderlineText="@WEBENIX"

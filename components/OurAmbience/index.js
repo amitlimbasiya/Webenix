@@ -2,11 +2,11 @@ import React from 'react';
 import Image from "next/image";
 import { Col, Container, Row } from 'react-bootstrap';
 import OurAmbienceIcon from '../../public/images/ambience-icon.png';
-import OurAmbienceGallery01 from '../../public/images/Ambience-01.jpg';
+import OurAmbienceGallery01 from '../../public/images/Ambience-04.jpg';
 import OurAmbienceGallery02 from '../../public/images/Ambience-02.jpg';
-import OurAmbienceGallery03 from '../../public/images/Ambience-03.jpg';
-import OurAmbienceGallery04 from '../../public/images/Ambience-04.jpg';
-import OurAmbienceGallery05 from '../../public/images/Ambience-05.jpg';
+import OurAmbienceGallery03 from '../../public/images/Ambience-05.jpg';
+import OurAmbienceGallery04 from '../../public/images/Ambience-01.jpg';
+import OurAmbienceGallery05 from '../../public/images/Ambience-06.jpg';
 import * as s from "../../styles/components/OurAmbience/OurAmbience.style";
 
 const OurAmbience = () => {

@@ -21,7 +21,7 @@ import router from "../../utils/router";
  
 var settings = {
     infinite: false,
-    slidesToShow: 4,
+    slidesToShow: 3,
     speed: 500,
     responsive: [
       {
@@ -95,38 +95,6 @@ const BlogListings = (props) => {
             <s.blogTitle className='postHeading'>
                 <Link href={router.SINGLEBLOG19}>
                     <a>A comparison between fixed price and time and material contract</a>
-                </Link>
-            </s.blogTitle>
-        </s.blogItem>
-        <s.blogItem className='blogItem text-center'>
-            <Link href={router.SINGLEBLOG1}>
-                <a>
-                    <s.blogImage>
-                        <Image src={phpBlog} alt="Php Blog" layout='raw' />
-                        <div className='datePart'>AUGUST 13, 2021</div>
-                    </s.blogImage>
-                </a>
-            </Link>
-            <s.blogCategory className='orangeColor'>WordPress</s.blogCategory>
-            <s.blogTitle className='postHeading'>
-                <Link href={router.SINGLEBLOG1}>
-                    <a>Why it is necessary to do regular updates of your WordPress website?</a>
-                </Link>
-            </s.blogTitle>
-        </s.blogItem>
-        <s.blogItem className='blogItem text-center'>
-            <Link href={router.SINGLEBLOG2}>
-                <a>
-                    <s.blogImage>
-                        <Image src={phpBlog} alt="Php Blog" layout='raw' />
-                        <div className='datePart'>AUGUST 16, 2021</div>
-                    </s.blogImage>
-                </a>
-            </Link>
-            <s.blogCategory className='orangeColor'>WordPress</s.blogCategory>
-            <s.blogTitle className='postHeading'>
-                <Link href={router.SINGLEBLOG2}>
-                    <a>WordPress automation tools and tips</a>
                 </Link>
             </s.blogTitle>
         </s.blogItem>

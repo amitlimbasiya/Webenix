@@ -1,5 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 import { Container } from 'react-bootstrap';
 import PageBanner from '../../components/PageBanner3';
 import Blog from '../../components/Blog';
@@ -11,13 +14,18 @@ import IndustryIcon from '../../public/images/portfolio-industry-icon.svg';
 import WebIcon from '../../public/images/portfolio-website-icon.svg';
 import PortfolioBannerImg from '../../public/images/portfolio-usa-pipelining.png';
 
-
+var settings = {
+    infinite: false,
+    slidesToShow: 1,
+    speed: 500,
+    adaptiveHeight: true
+};
 const USAPipelining = () => {
   return (
     <>
         <PageBanner 
             PageBannerBigTitle="PROJECT"
-            PageBannerClass="pagebanner-section lightPurplBg noiseBg"
+            PageBannerClass="pagebanner-section lightPurplBg noiseBg smallPart"
             PageBannerImgClass="pagebannerimg-col at-right-bottom" 
             PageBannerTitle=""
             PageBannerGreenUnderlineText="Project"
@@ -67,9 +75,23 @@ const USAPipelining = () => {
                     </s.PortfolioTechRow>
                 </s.PortfolioDescription>
 
-                <s.PortfolioBannerImg>
-                    <Image src={PortfolioBannerImg} alt="USA Pipeline" layout='raw' />
-                </s.PortfolioBannerImg>
+                <Slider className='slickSlider' {...settings}>
+                    <s.itemSlider className='text-center'>
+                        <s.PortfolioBannerImg>
+                            <Image src={PortfolioBannerImg} alt="USA Pipeline" layout='raw' />
+                        </s.PortfolioBannerImg>
+                    </s.itemSlider>
+                    <s.itemSlider className='text-center'>
+                        <s.PortfolioBannerImg>
+                            <Image src={PortfolioBannerImg} alt="USA Pipeline" layout='raw' />
+                        </s.PortfolioBannerImg>
+                    </s.itemSlider>
+                    <s.itemSlider className='text-center'>
+                        <s.PortfolioBannerImg>
+                            <Image src={PortfolioBannerImg} alt="USA Pipeline" layout='raw' />
+                        </s.PortfolioBannerImg>
+                    </s.itemSlider>
+                </Slider>
             </Container>
         </s.SinglePortfolioWrapper>
        <Blog/>

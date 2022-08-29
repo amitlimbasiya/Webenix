@@ -31,21 +31,37 @@ export const Listing  = styled.div`
         `} 
     }   
     .slick-slider{
-        margin-top: -150px;
+        margin-top: -90px;
+        ${mediaQueriesmin("xll")`
+            margin-bottom: 30px;
+        `}
+        ${mediaQueriesmin("xxl")` 
+             max-width: 1920px;
+             margin-left: auto;
+             margin-right: auto;
+        `}
 
         ${mediaQueries("xlx")` 
-            margin-top: -100px;
+            margin-top: -80px;
         `}
         ${mediaQueries("tablet")` 
-            margin-top: -80px;
+            margin-top: -50px;
+        `}
+        ${mediaQueries("mobile")` 
             padding-bottom: 30px;
         `}
     }
     .slick-slide{
         padding: 0 30px;
         position: relative;
+        ${mediaQueriesmin("xll")`
+             padding: 0 20px;
+        `}
 
         ${mediaQueries("xlx")` 
+            padding: 0 5px;
+        `} 
+        ${mediaQueries("sm")` 
             padding: 0 20px;
         `} 
     }
@@ -61,6 +77,9 @@ export const Listing  = styled.div`
         position: absolute;
         bottom: -3px;
         left: -3px;
+    }
+    .slick-slide .blogItem{
+        margin-bottom: 0px;
     }
     .slick-slide .blogItem > a{
         padding: 30px 30px 0px 0px;
@@ -79,7 +98,7 @@ export const Listing  = styled.div`
         max-width: 100%;
         /* object-fit: initial; */
         object-fit: cover;
-        max-height: 202px;
+        /* max-height: 202px; */
     }
     .slick-slide::before {
         content: '';
@@ -127,7 +146,7 @@ export const BlogListWrapper  = styled.div`
 
 export const blogListing  = styled.div`
     &.blogListing{
-        padding-top: 170px;
+        padding-top: 50px;
         font-size: 40px;
         font-family: 'Montserrat', sans-serif;
         color: #000;
@@ -136,10 +155,10 @@ export const blogListing  = styled.div`
         margin-bottom: 0px;
 
         ${mediaQueries("xlx")` 
-            padding-top: 100px;
+            padding-top: 0px;
         `} 
         ${mediaQueries("lg")` 
-            padding-bottom: 60px;
+            padding-bottom: 50px;
         `}
         ${mediaQueries("tablet")` 
             padding-top: 30px;

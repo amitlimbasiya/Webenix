@@ -2,6 +2,7 @@ import styled, { css } from "styled-components";
 import { mediaQueries, mediaQueriesmin } from "../../../utils/mediaQuery";
 
 export const PageBannerWrapper  = styled.div` 
+
     &.lightPurplBg{
         background-color: rgb(223 224 246 / 50%);
         position: relative;
@@ -60,6 +61,17 @@ export const PageBannerWrapper  = styled.div`
            padding-bottom: 60px;
         `} 
 
+    }
+    &.smallPart .row{
+        min-height: 340px;
+        padding-bottom: 100px;
+
+        ${mediaQueries("lg")` 
+            min-height: 200px;
+        `} 
+        ${mediaQueries("tablet")` 
+            padding-bottom: 70px;
+        `} 
     }
 
     ${mediaQueries("xxl")`
@@ -137,6 +149,64 @@ export const PageBannerWrapper  = styled.div`
             transform:scaleX(.98) scaleY(1);
         }
     }
+
+    .backHeading{
+        position: absolute;
+        left: 50%;
+        bottom: 0px;
+        transform: translateX(-50%);
+        font-size: 665px;
+        line-height: 515px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #000;
+        opacity: 0.03;
+        font-family: "DINPro-Bold";
+
+        ${mediaQueries("xlx")` 
+            font-size: 515px;
+            line-height: 415px;
+        `} 
+        ${mediaQueries("llg")` 
+            font-size: 435px;
+            line-height: 345px;
+        `} 
+        ${mediaQueries("tablet")` 
+            font-size: 285px;
+            line-height: 225px;
+        `} 
+        ${mediaQueries("mobile")` 
+            font-size: 245px;
+            line-height: 195px;
+        `}
+        ${mediaQueries("sm")` 
+            font-size: 155px;
+            line-height: 115px;
+        `}  
+    }
+
+    &.smallPart .backHeading{
+        font-size: 475px;
+        line-height: 375px;
+
+        ${mediaQueries("xl")` 
+            font-size: 365px;
+            line-height: 285px;
+        `} 
+        ${mediaQueries("llg")` 
+            font-size: 345px;
+            line-height: 265px;
+        `}
+        ${mediaQueries("lg")` 
+            font-size: 305px;
+            line-height: 235px;
+        `} 
+        ${mediaQueries("mobile")` 
+            font-size: 255px;
+            line-height: 205px;
+        `} 
+    }
+
 `;
 
 export const PageBannerContentPart  = styled.div` 
@@ -191,38 +261,5 @@ export const IntroductionWrapper  = styled.div`
 `;
 
 export const BackHeading  = styled.div`
-    &.backHeading{
-        position: absolute;
-        left: 50%;
-        bottom: 0px;
-        transform: translateX(-50%);
-        font-size: 665px;
-        line-height: 515px;
-        text-transform: uppercase;
-        font-weight: bold;
-        color: #000;
-        opacity: 0.03;
-        font-family: "DINPro-Bold";
-
-        ${mediaQueries("xlx")` 
-            font-size: 515px;
-            line-height: 415px;
-        `} 
-        ${mediaQueries("llg")` 
-            font-size: 435px;
-            line-height: 345px;
-        `} 
-        ${mediaQueries("tablet")` 
-            font-size: 285px;
-            line-height: 225px;
-        `} 
-        ${mediaQueries("mobile")` 
-            font-size: 245px;
-            line-height: 195px;
-        `}
-        ${mediaQueries("sm")` 
-            font-size: 155px;
-            line-height: 115px;
-        `} 
-    }
+    
 `;

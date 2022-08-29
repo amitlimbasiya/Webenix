@@ -8,7 +8,7 @@ const portfolio = () => {
     <>
         <PageBanner 
             PageBannerBigTitle="WORK"
-            PageBannerClass="pagebanner-section lightPurplBg noiseBg"
+            PageBannerClass="pagebanner-section lightPurplBg noiseBg smallPart"
             PageBannerImgClass="pagebannerimg-col at-right-bottom" 
             PageBannerTitle=""
             PageBannerGreenUnderlineText="Our Work"

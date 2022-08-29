@@ -37,7 +37,7 @@ const Services = () => {
                 </Container>
             </s.topPart>
             <s.serviceListing className="servicesListing">
-            <s.serviceItem className="serviceItem bottom right">
+            <s.serviceItem className="serviceItem bottom right designServices">
                 <Container>
                     <Row className='align-items-center'>
                         <Col md={6} sm={12} className='leftPart'>
@@ -74,7 +74,7 @@ const Services = () => {
                     </Row>
                 </Container>
             </s.serviceItem>
-            <s.serviceItem className="serviceItem bottom">
+            <s.serviceItem className="serviceItem bottom developmentServices">
                 <Container>
                     <Row className='align-items-center'>
                         <Col md={6} sm={12} className='rightPart order-last order-md-first'>
@@ -111,7 +111,7 @@ const Services = () => {
                     </Row>
                 </Container>
             </s.serviceItem>
-            <s.serviceItem className="serviceItem bottom right">
+            <s.serviceItem className="serviceItem bottom right mobileAppServices">
                 <Container>
                     <Row className='align-items-center'>
                         <Col md={6} sm={12} className='leftPart'>
@@ -148,7 +148,7 @@ const Services = () => {
                     </Row>
                 </Container>
             </s.serviceItem>
-            <s.serviceItem className="serviceItem bottom">
+            <s.serviceItem className="serviceItem bottom digitalMarketingServices">
                 <Container>
                     <Row className='align-items-center'>
                         <Col md={6} sm={12} className='rightPart order-last order-md-first'>

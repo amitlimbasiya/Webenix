@@ -4,9 +4,21 @@ import { mediaQueries, mediaQueriesmin } from "../../utils/mediaQuery";
 export const service  = styled.div`
     &.servicesSection{
         position: relative;
-        background: #fff url(../images/services-bg.png) no-repeat top center;
-        background-size: cover;
+        background: #fff;
         overflow: hidden;
+
+        &:before{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            width: 100%;
+            height: 100%;
+            background: url(../images/services-bg.svg) no-repeat top center;
+            background-size: cover;
+            opacity: 0.3;
+        }
     }
 `;
 export const bigText  = styled.div`
@@ -57,7 +69,7 @@ export const bigText  = styled.div`
 export const topPart  = styled.div`
     &.topPart{
         position: relative;
-        z-index: 1;
+        z-index: 2;
         padding-top: 115px;
         padding-bottom: 90px;
         
@@ -104,6 +116,8 @@ export const topTitle  = styled.h4`
 
 export const serviceListing  = styled.div`
     &.servicesListing{
+        z-index: 2;
+        position: relative;
         padding-bottom: 120px;
         
         ${mediaQueries("llg")`  
@@ -155,11 +169,6 @@ export const serviceItem  = styled.div`
             width: 40%;
             height: 80%;
             z-index: 0;
-            background: rgb(177, 231, 220);
-            background: -moz-linear-gradient( 89deg, rgba(177, 231, 220, 1) 0%, rgba(251, 255, 214, 1) 100%);
-            background: -webkit-linear-gradient( 89deg, rgba(177, 231, 220, 1) 0%, rgba(251, 255, 214, 1) 100%);
-            background: linear-gradient( 89deg, rgba(177, 231, 220, 1) 0%, rgba(251, 255, 214, 1) 100%);
-            filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#b1e7dc", endColorstr="#fbffd6", GradientType=1);
         }
 
         &:nth-child(odd) .leftPart{
@@ -183,6 +192,64 @@ export const serviceItem  = styled.div`
                 padding: 0px 12px 0px 12px;
             `}
         }   
+    }
+
+    &.designServices{
+        &:before{
+            background: rgb(158, 64, 122);
+            background: -moz-linear-gradient( 90deg, rgba(158, 64, 122, 0.8) 0%, rgba(255, 232, 244, 0.9) 100%);
+            background: -webkit-linear-gradient( 90deg, rgba(158, 64, 122, 0.8) 0%, rgba(255, 232, 244, 0.9) 100%);
+            background: linear-gradient( 90deg, rgba(158, 64, 122, 0.8) 0%, rgba(255, 232, 244, 0.9) 100%);
+
+            ${mediaQueries("mobile")`  
+                background: rgb(158, 64, 122);
+                background: -moz-linear-gradient( 0deg, rgba(158, 64, 122, 0.3) 0%, rgba(255, 232, 244, 0.1) 100%);
+                background: -webkit-linear-gradient( 0deg, rgba(158, 64, 122, 0.3) 0%, rgba(255, 232, 244, 0.1) 100%);
+                background: linear-gradient( 0deg, rgba(158, 64, 122, 0.3) 0%, rgba(255, 232, 244, 0.1) 100%);
+            `}
+        }
+    }
+    &.developmentServices{
+        &:before{
+            background: rgb(63, 63, 140);
+            background: -moz-linear-gradient( 270deg, rgba(63, 63, 140, 0.8) 0%, rgba(196, 196, 255, 0.9) 100%);
+            background: -webkit-linear-gradient( 270deg, rgba(63, 63, 140, 0.8) 0%, rgba(196, 196, 255, 0.9) 100%);
+            background: linear-gradient( 270deg, rgba(63, 63, 140, 0.8) 0%, rgba(196, 196, 255, 0.9) 100%);
+            ${mediaQueries("mobile")`  
+                background: rgb(63, 63, 140);
+                background: -moz-linear-gradient( 0deg, rgba(63, 63, 140, 0.3) 0%, rgba(196, 196, 255, 0.1) 100%);
+                background: -webkit-linear-gradient( 0deg, rgba(63, 63, 140, 0.3) 0%, rgba(196, 196, 255, 0.1) 100%);
+                background: linear-gradient( 0deg, rgba(63, 63, 140, 0.3) 0%, rgba(196, 196, 255, 0.1) 100%);
+            `}
+        }
+    }
+    &.mobileAppServices{
+        &:before{
+            background: rgb(253, 161, 127);
+            background: -moz-linear-gradient( 90deg,rgba(253,161,127,0.8) 0%,rgb(255 225 214) 100%);
+            background: -webkit-linear-gradient( 90deg,rgba(253,161,127,0.8) 0%,rgb(255 225 214) 100%);
+            background: linear-gradient( 90deg,rgba(253,161,127,0.8) 0%,rgb(255 225 214) 100%);
+            ${mediaQueries("mobile")`  
+                background: rgb(253, 161, 127);
+                background: -moz-linear-gradient( 0deg,rgba(253,161,127,0.3) 0%,rgba(255, 225, 214,0.1) 100%);
+                background: -webkit-linear-gradient( 0deg,rgba(253,161,127,0.3) 0%,rgba(255, 225, 214,0.1) 100%);
+                background: linear-gradient( 0deg,rgba(253,161,127,0.3) 0%,rgba(255, 225, 214,0.1) 100%);
+            `}
+        }
+    }
+    &.digitalMarketingServices{
+        &:before{
+            background: rgb(63, 63, 140);
+            background: -moz-linear-gradient( 270deg,rgb(251 156 16 / 80%) 0%,#fff6e9 100%);
+            background: -webkit-linear-gradient( 270deg,rgb(251 156 16 / 80%) 0%,#fff6e9 100%);
+            background: linear-gradient( 270deg,rgb(251 156 16 / 80%) 0%,#fff6e9 100%);
+            ${mediaQueries("mobile")`  
+                background: rgb(63, 63, 140);
+                background: -moz-linear-gradient( 0deg,rgba(251, 156, 16, 0.3) 0%,#fff6e9 100%);
+                background: -webkit-linear-gradient( 0deg,rgba(251, 156, 16, 0.3) 0%,#fff6e9 100%);
+                background: linear-gradient( 0deg,rgba(251, 156, 16, 0.3) 0%,#fff6e9 100%);
+            `}
+        }
     }
     &.bottom:before{
         top: auto;

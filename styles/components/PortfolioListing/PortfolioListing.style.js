@@ -118,6 +118,9 @@ export const PortfolioFilterWrapper  = styled.div`
             margin: 0 3px;
             padding: 5px 5px;
         `}
+        ${mediaQueries("sm")`  
+            font-size: 13px;
+        `}
     }  
     
     .portfolio-list-item:hover span::before,
