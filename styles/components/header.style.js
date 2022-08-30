@@ -53,7 +53,6 @@ export const HeaderWrapper  = styled.section`
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 `;
 
 export const HeaderItemLeft  = styled.div` 
@@ -135,9 +134,6 @@ export const HeaderItemCenter  = styled.div`
             background: none;
             -webkit-transition: .3s ease-in-out;
             transition: .3s ease-in-out;
-
-            
-            
         }
         & .menu-mobile-toggle span {
             display: block;
@@ -342,7 +338,6 @@ export const MenuItemHasChildren  = styled.li`
 
     &.menu-item > a{
         color: #000;
-        
         line-height: 100px;
         letter-spacing: 0.4px;
         margin-bottom: 0px;
