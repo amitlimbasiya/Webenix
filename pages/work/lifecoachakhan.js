@@ -1,8 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
 import { Container } from 'react-bootstrap';
 import PageBanner from '../../components/PageBanner3';
 import Blog from '../../components/Blog';
@@ -12,17 +9,19 @@ import TechnologiesIcon from '../../public/images/portfolio-tech-icon.svg';
 import BuiltIcon from '../../public/images/portfolio-built-icon.svg';
 import IndustryIcon from '../../public/images/portfolio-industry-icon.svg';
 import WebIcon from '../../public/images/portfolio-website-icon.svg';
-import PortfolioBannerImg from '../../public/images/portfolio-usa-pipelining.png';
+import PortfolioBannerImg from '../../public/images/portfolio-lifecoachakhan.png';
+import Head from 'next/head';
+import { data } from "../../data/Seo";
 
-var settings = {
-    infinite: false,
-    slidesToShow: 1,
-    speed: 500,
-    adaptiveHeight: true
-};
-const USAPipelining = () => {
+
+const LifeCoachaKhan = () => {
   return (
     <>
+        <Head>
+            <title>{data.lifecoachakhan.title}</title>
+            <meta name="description" content={data.lifecoachakhan.description}/>
+            <meta name="keywords" content={data.lifecoachakhan.keyword} />
+        </Head>
         <PageBanner 
             PageBannerBigTitle="PROJECT"
             PageBannerClass="pagebanner-section lightPurplBg noiseBg smallPart"
@@ -34,7 +33,8 @@ const USAPipelining = () => {
             <Container>
                 <s.PortfolioDescription>
                     <h3>Introduction</h3>
-                    <p>We are a South Florida based plumbing company specializing in pipelining, a method of restoring existing pipe systems in residential and commercial buildings without the hassle, time, and staggering expense required by inferior, conventional solutions. Our unique robotic pipelining process records the current state of pipe systems, cleans out rust and deposits, and then coats the metal interior with safe, impermeable epoxy resin, permanently sealing leaks and improving water flow.</p>
+                    <p>Hello My name is Ashton Khan from Toronto, Canada.</p>
+                    <p>I am a <strong>Certified Life Coach and Professional Basketball Athlete</strong> that has played in various countries such as France, Portugal, England, Canada, and China. I&#39;m a former NCAA Division 1 Basketball Scholarship Athlete and in 2019 I was inducted into the Hall of Fame of my Highschool, Brewster Academy (NH, US).</p>
                     <s.PortfolioTechRow>
                         <s.PortfolioTechBox>
                             <s.PortfolioTechIcon className='pink-bg'>
@@ -60,7 +60,7 @@ const USAPipelining = () => {
                             </s.PortfolioTechIcon>
                             <s.PortfolioTechContent>
                                 <p>Industry</p>
-                                <h4>Industry</h4>
+                                <h4>Education</h4>
                             </s.PortfolioTechContent>
                         </s.PortfolioTechBox>
                         <s.PortfolioTechBox>
@@ -69,29 +69,15 @@ const USAPipelining = () => {
                             </s.PortfolioTechIcon>
                             <s.PortfolioTechContent>
                                 <p>URL</p>
-                                <Link href="https://usa-pipelining.com/"><a target="_blank">Website</a></Link>
+                                <Link href="https://lifecoachakhan.com/"><a target="_blank">Website</a></Link>
                             </s.PortfolioTechContent>
                         </s.PortfolioTechBox>
                     </s.PortfolioTechRow>
                 </s.PortfolioDescription>
 
-                <Slider className='slickSlider' {...settings}>
-                    <s.itemSlider className='text-center'>
-                        <s.PortfolioBannerImg>
-                            <Image src={PortfolioBannerImg} alt="USA Pipeline" layout='raw' />
-                        </s.PortfolioBannerImg>
-                    </s.itemSlider>
-                    <s.itemSlider className='text-center'>
-                        <s.PortfolioBannerImg>
-                            <Image src={PortfolioBannerImg} alt="USA Pipeline" layout='raw' />
-                        </s.PortfolioBannerImg>
-                    </s.itemSlider>
-                    <s.itemSlider className='text-center'>
-                        <s.PortfolioBannerImg>
-                            <Image src={PortfolioBannerImg} alt="USA Pipeline" layout='raw' />
-                        </s.PortfolioBannerImg>
-                    </s.itemSlider>
-                </Slider>
+                <s.PortfolioBannerImg>
+                    <Image src={PortfolioBannerImg} alt="Life Coacha Khan" layout='raw' />
+                </s.PortfolioBannerImg>
             </Container>
         </s.SinglePortfolioWrapper>
        <Blog/>
@@ -99,4 +85,4 @@ const USAPipelining = () => {
   )
 }
 
-export default USAPipelining;
+export default LifeCoachaKhan;

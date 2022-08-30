@@ -6,6 +6,8 @@ import HireServies from '../components/HireServices';
 import Blog from '../components/Blog';
 import SteptoEngage from '../components/SteptoEngage';
 import TechnologyStack from '../components/TechnologyStack';
+import Head from 'next/head';
+import { data } from "../data/Seo";
 
 const ANDROIDAPPSDEVELOPMENT = () => {
   const [ServiceData, setServiceData] = useState([]);
@@ -52,6 +54,11 @@ const ANDROIDAPPSDEVELOPMENT = () => {
   }, []);
   return (
     <>
+      <Head>
+        <title>{data.androidappsdevelopment.title}</title>
+        <meta name="description" content={data.androidappsdevelopment.description}/>
+        <meta name="keywords" content={data.androidappsdevelopment.keyword} />
+      </Head>
       <PageBanner 
         PageBannerClass="pagebanner-section pagebanner-shape bgChromeWhite pagebanner-align-center noiseBg"
         PageBannerImgClass="pagebannerimg-col" 

@@ -9,12 +9,19 @@ import TechnologiesIcon from '../../public/images/portfolio-tech-icon.svg';
 import BuiltIcon from '../../public/images/portfolio-built-icon.svg';
 import IndustryIcon from '../../public/images/portfolio-industry-icon.svg';
 import WebIcon from '../../public/images/portfolio-website-icon.svg';
-import PortfolioBannerImg from '../../public/images/portfolio-ellemar.png';
+import PortfolioBannerImg from '../../public/images/portfolio-theblossomacademy.png';
+import Head from 'next/head';
+import { data } from "../../data/Seo";
 
 
-const USAPipelining = () => {
+const TheBlossomAcademy = () => {
   return (
     <>
+        <Head>
+            <title>{data.theblossomacademy.title}</title>
+            <meta name="description" content={data.theblossomacademy.description}/>
+            <meta name="keywords" content={data.theblossomacademy.keyword} />
+        </Head>
         <PageBanner 
             PageBannerBigTitle="PROJECT"
             PageBannerClass="pagebanner-section lightPurplBg noiseBg smallPart"
@@ -26,7 +33,10 @@ const USAPipelining = () => {
             <Container>
                 <s.PortfolioDescription>
                     <h3>Introduction</h3>
-                    <p>As a premier South Florida Luxury Home Builder, Ellemar Enterprises has been building and remodeling luxury homes from Ft. Lauderdale to Palm Beach for more than 25 years. The extraordinary expertise that creates the desired effect each time results from the established cooperation of exceptionally skilled professionals providing their specialized talents. The elegant magnificence of unsurpassed luxury can be yours.</p>
+                    <p>Our powerful phonics &ndash; focused curriculum, memorable characters, catchy songs, meaningful storylines, and effective word work fosters happy and confident students who love to read.</p>
+                    <p>Our literacy instruction utilizes dynamic and researched-based programs that look and work like no other. Children learn the secrets to cracking the reading code in an exciting and engaging way. Children feel encouraged, successful, and empowered.</p>
+                    <p>Leanne works collaboratively with parents to achieve desired reading goals. </p>
+                    <p>Our specialty is making the reading process stress-free, interactive, and fun with proven and consistent results.</p>
                     <s.PortfolioTechRow>
                         <s.PortfolioTechBox>
                             <s.PortfolioTechIcon className='pink-bg'>
@@ -52,7 +62,7 @@ const USAPipelining = () => {
                             </s.PortfolioTechIcon>
                             <s.PortfolioTechContent>
                                 <p>Industry</p>
-                                <h4>Realestate</h4>
+                                <h4>Education</h4>
                             </s.PortfolioTechContent>
                         </s.PortfolioTechBox>
                         <s.PortfolioTechBox>
@@ -61,14 +71,14 @@ const USAPipelining = () => {
                             </s.PortfolioTechIcon>
                             <s.PortfolioTechContent>
                                 <p>URL</p>
-                                <Link href="https://ellemar.com/"><a target="_blank">Website</a></Link>
+                                <Link href="https://theblossomacademy.com/"><a target="_blank">Website</a></Link>
                             </s.PortfolioTechContent>
                         </s.PortfolioTechBox>
                     </s.PortfolioTechRow>
                 </s.PortfolioDescription>
 
                 <s.PortfolioBannerImg>
-                    <Image src={PortfolioBannerImg} alt="Luxury Home Builder" layout='raw' />
+                    <Image src={PortfolioBannerImg} alt="The Blossom Academy" layout='raw' />
                 </s.PortfolioBannerImg>
             </Container>
         </s.SinglePortfolioWrapper>
@@ -77,4 +87,4 @@ const USAPipelining = () => {
   )
 }
 
-export default USAPipelining;
+export default TheBlossomAcademy;

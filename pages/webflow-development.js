@@ -6,8 +6,10 @@ import HireServies from '../components/HireServices';
 import Blog from '../components/Blog';
 import SteptoEngage from '../components/SteptoEngage';
 import TechnologyStack from '../components/TechnologyStack';
+import Head from 'next/head';
+import { data } from "../data/Seo";
 
-const WEBFLOWYDEVELOPMENT = () => {
+const WEBFLOWDEVELOPMENT = () => {
   
   const [ServiceData, setServiceData] = useState([]);
   useEffect(() => {
@@ -53,6 +55,11 @@ const WEBFLOWYDEVELOPMENT = () => {
   }, []);
   return (
     <>
+      <Head>
+        <title>{data.webflowdevelopment.title}</title>
+        <meta name="description" content={data.webflowdevelopment.description}/>
+        <meta name="keywords" content={data.webflowdevelopment.keyword} />
+      </Head>
     <PageBanner 
         PageBannerClass="pagebanner-section pagebanner-shape bgLightPeriwinkle pagebanner-align-center noiseBg"
         PageBannerImgClass="pagebannerimg-col" 
@@ -86,4 +93,4 @@ const WEBFLOWYDEVELOPMENT = () => {
   );
 }
 
-export default WEBFLOWYDEVELOPMENT
+export default WEBFLOWDEVELOPMENT

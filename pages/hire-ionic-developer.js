@@ -6,11 +6,17 @@ import OurExpertise from '../components/HireIonicDeveloper/OurExpertise';
 import Benefits from '../components/Benefits';
 import FAQAccordion from '../components/FAQAccordion';
 import Blog from '../components/Blog';
-
+import Head from 'next/head';
+import { data } from "../data/Seo";
 
 const HireionicDeveloper = () => {
   return (
     <>
+       <Head>
+        <title>{data.hireionicdeveloper.title}</title>
+        <meta name="description" content={data.hireionicdeveloper.description}/>
+        <meta name="keywords" content={data.hireionicdeveloper.keyword} />
+      </Head>
       <PageBanner 
         PageBannerClass="pagebanner-section bgHawkesBlue noiseBg pagebanner-align-center"
         PageBannerImgClass="pagebannerimg-col" 

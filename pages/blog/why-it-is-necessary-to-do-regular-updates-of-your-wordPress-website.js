@@ -5,10 +5,17 @@ import { Col, Container, Row } from 'react-bootstrap';
 import Blog from '../../components/Blog';
 import * as s from "../../styles/components/SingleBlog.style";
 import singleBlogBannerThumb from '../../public/images/blogs/why-necessary.jpg';
+import Head from 'next/head';
+import { data } from "../../data/Seo";
 
 const SingleBlog = () => {
   return (
     <>
+      <Head>
+        <title>{data.singleblog1.title}</title>
+        <meta name="description" content={data.singleblog1.description}/>
+        <meta name="keywords" content={data.singleblog1.keyword} />
+      </Head>
       <s.SingleBlogWrapper className='singleblog-section'>
         <s.SingeBlogHeaderBg className='noiseBg'></s.SingeBlogHeaderBg>
         <Container>

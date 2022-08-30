@@ -2,10 +2,17 @@ import React from 'react'
 import PageBanner from '../components/PageBanner';
 import SectionIntro from '../components/CareerPage/SectionIntro';
 import Perks from '../components/CareerPage/Perks';
+import Head from 'next/head';
+import { data } from "../data/Seo";
 
 const CAREER = () => {
   return (
     <>
+      <Head>
+        <title>{data.career.title}</title>
+        <meta name="description" content={data.career.description}/>
+        <meta name="keywords" content={data.career.keyword} />
+      </Head>
       <PageBanner 
         PageBannerClass="pagebanner-section top-right darkGreenNoice"
         PageBannerImgClass="pagebannerimg-col at-right-bottom" 

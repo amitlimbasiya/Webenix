@@ -6,6 +6,8 @@ import HireServies from '../components/HireServices';
 import Blog from '../components/Blog';
 import SteptoEngage from '../components/SteptoEngage';
 import TechnologyStack from '../components/TechnologyStack';
+import Head from 'next/head';
+import { data } from "../data/Seo";
 
 const FLUTTERAPPSDEVELOPMENT = () => {
   const [ServiceData, setServiceData] = useState([]);
@@ -52,6 +54,11 @@ const FLUTTERAPPSDEVELOPMENT = () => {
   }, []);
   return (
     <>
+      <Head>
+        <title>{data.flutterappsdevelopment.title}</title>
+        <meta name="description" content={data.flutterappsdevelopment.description}/>
+        <meta name="keywords" content={data.flutterappsdevelopment.keyword} />
+      </Head>
       <PageBanner 
         PageBannerClass="pagebanner-section pagebanner-shape bgHawkesBlue pagebanner-align-center noiseBg"
         PageBannerImgClass="pagebannerimg-col" 
@@ -64,14 +71,14 @@ const FLUTTERAPPSDEVELOPMENT = () => {
         PageBannerImageHeight="250px"
         PageBannerImage="/images/flutter-icon.svg"
       />
-    <SectionIntro 
-      SectionIntroclassName="introuction-section separatorPart noiseBg"
-      IntroSubTitle="Flutter App Development Expertise"
-      IntroMainTitle="Choose the best cross-platform app development-Flutter"
-      IntroContent='
-      <p>We are here to make your business look unique and sustainable, that will never go out of style which is only possible with the help of Flutter Cross-Platform where our developers have the best hands on. With the Flutter Development Services, we help to maintain the balance between market and business requirements. </p>
-              <p>In the mobile application, it is important to execute the right and needful features which your users will want to stay with your app. We make sure that we keep up with the on-going trends that will not make your business fall apart. </p>
-    '/>
+      <SectionIntro 
+        SectionIntroclassName="introuction-section separatorPart noiseBg"
+        IntroSubTitle="Flutter App Development Expertise"
+        IntroMainTitle="Choose the best cross-platform app development-Flutter"
+        IntroContent='
+        <p>We are here to make your business look unique and sustainable, that will never go out of style which is only possible with the help of Flutter Cross-Platform where our developers have the best hands on. With the Flutter Development Services, we help to maintain the balance between market and business requirements. </p>
+        <p>In the mobile application, it is important to execute the right and needful features which your users will want to stay with your app. We make sure that we keep up with the on-going trends that will not make your business fall apart. </p>
+      '/>
       <ServiceFeatureBox
         sectionTagLine="Our Expertise"
         sectionMainTitle="Our Flutter App Development Services"

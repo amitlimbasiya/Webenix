@@ -6,10 +6,17 @@ import HireServies from '../components/HireServices';
 import Blog from '../components/Blog';
 import SteptoEngage from '../components/SteptoEngage';
 import TechnologyStack from '../components/TechnologyStack';
+import Head from 'next/head';
+import { data } from "../data/Seo";
 
 const SHIPPINGINTEGRATION = () => {
   return (
     <>
+      <Head>
+        <title>{data.shippingintegration.title}</title>
+        <meta name="description" content={data.shippingintegration.description}/>
+        <meta name="keywords" content={data.shippingintegration.keyword} />
+      </Head>
     <PageBanner 
         PageBannerClass="pagebanner-section pagebanner-shape bgChromeWhite pagebanner-align-center noiseBg"
         PageBannerImgClass="pagebannerimg-col" 

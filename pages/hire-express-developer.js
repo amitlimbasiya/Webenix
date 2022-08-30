@@ -6,10 +6,17 @@ import OurExpertise from '../components/HireExpressDeveloper/OurExpertise';
 import Benefits from '../components/Benefits';
 import FAQAccordion from '../components/FAQAccordion';
 import Blog from '../components/Blog';
+import Head from 'next/head';
+import { data } from "../data/Seo";
 
 const HireExpressDeveloper = () => {
   return (
     <>
+      <Head>
+        <title>{data.hireexpressdeveloper.title}</title>
+        <meta name="description" content={data.hireexpressdeveloper.description}/>
+        <meta name="keywords" content={data.hireexpressdeveloper.keyword} />
+      </Head>
       <PageBanner 
         PageBannerClass="pagebanner-section bgPlatinum noiseBg pagebanner-align-center"
         PageBannerImgClass="pagebannerimg-col" 

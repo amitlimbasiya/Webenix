@@ -6,6 +6,8 @@ import HireServies from '../components/HireServices';
 import Blog from '../components/Blog';
 import SteptoEngage from '../components/SteptoEngage';
 import TechnologyStack from '../components/TechnologyStack';
+import Head from 'next/head';
+import { data } from "../data/Seo";
 
 const PHPDEVELOPMENT = () => {
   
@@ -89,7 +91,12 @@ const PHPDEVELOPMENT = () => {
   }, []);
   return (
     <>
-    <PageBanner 
+      <Head>
+        <title>{data.phpdevelopment.title}</title>
+        <meta name="description" content={data.phpdevelopment.description}/>
+        <meta name="keywords" content={data.phpdevelopment.keyword} />
+      </Head>
+      <PageBanner 
         PageBannerClass="pagebanner-section pagebanner-shape bgLavenderMist pagebanner-align-center noiseBg"
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="PHP"
@@ -101,15 +108,15 @@ const PHPDEVELOPMENT = () => {
         PageBannerImageHeight="250px"
         PageBannerImage="/images/php-icon.svg"
       />
-    <SectionIntro 
-      SectionIntroclassName="introuction-section separatorPart noiseBg"
-      IntroSubTitle="PHP Expertise"
-      IntroMainTitle="With years of experience in Development, we provide the right and strong solutions for your business."
-      IntroContent='
-      <p>The strong and guaranteed  Development solutions help in showcasing the brand presence amongst the market with the rightfully integrated features for the web application projects.</p>
-      <p>Along with mapping down the best design, we make sure to integrate the right tools that function, ensuring the performance of the web application. With the help of the best developers, we have curated and brought some fantastic solutions to multiple businesses, so have been stated as the Best Development Company.</p>
-    '/>
-    <ServiceFeatureBox
+      <SectionIntro 
+        SectionIntroclassName="introuction-section separatorPart noiseBg"
+        IntroSubTitle="PHP Expertise"
+        IntroMainTitle="With years of experience in Development, we provide the right and strong solutions for your business."
+        IntroContent='
+        <p>The strong and guaranteed  Development solutions help in showcasing the brand presence amongst the market with the rightfully integrated features for the web application projects.</p>
+        <p>Along with mapping down the best design, we make sure to integrate the right tools that function, ensuring the performance of the web application. With the help of the best developers, we have curated and brought some fantastic solutions to multiple businesses, so have been stated as the Best Development Company.</p>
+      '/>
+      <ServiceFeatureBox
         sectionTagLine="We Provide"
         sectionMainTitle="PHP Development Services"
         ServiceValue={ServiceData}          

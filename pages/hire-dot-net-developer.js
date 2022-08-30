@@ -6,11 +6,17 @@ import OurExpertise from '../components/HireDotNetDeveloper/OurExpertise';
 import Benefits from '../components/Benefits';
 import FAQAccordion from '../components/FAQAccordion';
 import Blog from '../components/Blog';
-
+import Head from 'next/head';
+import { data } from "../data/Seo";
 
 const HIREDOTNETDEVELOPER = () => {
   return (
     <>
+       <Head>
+        <title>{data.hiredotnetdeveloper.title}</title>
+        <meta name="description" content={data.hiredotnetdeveloper.description}/>
+        <meta name="keywords" content={data.hiredotnetdeveloper.keyword} />
+      </Head>
       <PageBanner 
         PageBannerClass="pagebanner-section bgHawkesBlue noiseBg pagebanner-align-center"
         PageBannerImgClass="pagebannerimg-col" 

@@ -6,11 +6,18 @@ import OurExpertise from '../components/HireNodeJSDeveloper/OurExpertise';
 import Benefits from '../components/Benefits';
 import FAQAccordion from '../components/FAQAccordion';
 import Blog from '../components/Blog';
+import Head from 'next/head';
+import { data } from "../data/Seo";
 
 
 const HireNodeJSDeveloper = () => {
   return (
     <>
+      <Head>
+        <title>{data.hirenodejsdeveloper.title}</title>
+        <meta name="description" content={data.hirenodejsdeveloper.description}/>
+        <meta name="keywords" content={data.hirenodejsdeveloper.keyword} />
+      </Head>
       <PageBanner 
         PageBannerClass="pagebanner-section bgIceberg noiseBg pagebanner-align-center"
         PageBannerImgClass="pagebannerimg-col" 

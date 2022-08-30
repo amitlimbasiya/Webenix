@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import PageBanner from '../components/PageBanner';
 import SectionIntro from '../components/SectionIntro';
 import ServiceFeatureBox from '../components/BackendDevelopmentPage/ServiceBoxes';
@@ -6,11 +6,18 @@ import HireServies from '../components/HireServices';
 import Blog from '../components/Blog';
 import SteptoEngage from '../components/SteptoEngage';
 import TechnologyStack from '../components/TechnologyStack';
+import Head from 'next/head';
+import { data } from "../data/Seo";
 
 const BACKENDDEVELOPMENT = () => {
   return (
     <>
-    <PageBanner 
+      <Head>
+        <title>{data.backenddevelopment.title}</title>
+        <meta name="description" content={data.backenddevelopment.description}/>
+        <meta name="keywords" content={data.backenddevelopment.keyword} />
+      </Head>
+      <PageBanner 
         PageBannerClass="pagebanner-section pagebanner-shape bgMistyRose pagebanner-align-center noiseBg"
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="Backend Development Services"
@@ -21,21 +28,20 @@ const BACKENDDEVELOPMENT = () => {
         PageBannerImageHeight="250px"
         PageBannerImage="/images/backendDevelopment/backend-banner-icon.svg"
       />
-    <SectionIntro 
-      SectionIntroclassName="introuction-section separatorPart noiseBg"
-      IntroSubTitle="Our Backend expertise"
-      IntroMainTitle="Let us develop a strong backend for the smooth application functioning rides."
-      IntroContent='
-      <p>The frontend app view is the face of your application which will be used by users. The real work is done from the backend to create the smooth functionality of features that is present in front of users.</p>
-      <p>When it comes to the functioning of the application, you won&#8217;t be disappointed because we have a knack for backend development. By creating the high boundary of secured applications, we build the robust foundation of any application that comes along. </p>
-    '/>
-    <ServiceFeatureBox/>
-    <HireServies/>
-    <TechnologyStack/>
-    <SteptoEngage/> 
-    <Blog/>
+      <SectionIntro 
+        SectionIntroclassName="introuction-section separatorPart noiseBg"
+        IntroSubTitle="Our Backend expertise"
+        IntroMainTitle="Let us develop a strong backend for the smooth application functioning rides."
+        IntroContent='
+        <p>The frontend app view is the face of your application which will be used by users. The real work is done from the backend to create the smooth functionality of features that is present in front of users.</p>
+        <p>When it comes to the functioning of the application, you won&#8217;t be disappointed because we have a knack for backend development. By creating the high boundary of secured applications, we build the robust foundation of any application that comes along. </p>
+      '/>
+      <ServiceFeatureBox/>
+      <HireServies/>
+      <TechnologyStack/>
+      <SteptoEngage/> 
+      <Blog/>
     </>
   )
 }
-
-export default BACKENDDEVELOPMENT
+export default BACKENDDEVELOPMENT;

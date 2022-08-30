@@ -6,6 +6,7 @@ import About from '../components/About';
 import Services from '../components/Services';
 import HireServies from '../components/HireServices';
 import Blog from '../components/Blog';
+import { data } from "../data/Seo";
 
 export default function Home() {
 
@@ -14,9 +15,9 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Webenix</title>
-        <meta name="description" content="" />
-        <link rel="icon" href="/favicon.ico" />
+        <title>{data.home.title}</title>
+        <meta name="description" content={data.home.description}/>
+        <meta name="keywords" content={data.home.keyword} />
       </Head>
       <Hero/>
       <About/>

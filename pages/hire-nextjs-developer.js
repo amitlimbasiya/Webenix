@@ -6,10 +6,17 @@ import OurExpertise from '../components/HireNextJSDeveloper/OurExpertise';
 import Benefits from '../components/Benefits';
 import FAQAccordion from '../components/FAQAccordion';
 import Blog from '../components/Blog';
+import Head from 'next/head';
+import { data } from "../data/Seo";
 
 const HireNextJSDeveloper = () => {
   return (
     <>
+      <Head>
+        <title>{data.hirenextjsdeveloper.title}</title>
+        <meta name="description" content={data.hirenextjsdeveloper.description}/>
+        <meta name="keywords" content={data.hirenextjsdeveloper.keyword} />
+      </Head>
       <PageBanner 
         PageBannerClass="pagebanner-section bgPlatinum noiseBg pagebanner-align-center"
         PageBannerImgClass="pagebannerimg-col" 

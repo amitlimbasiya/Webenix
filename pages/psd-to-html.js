@@ -1,4 +1,4 @@
-import React, {useEffect, useState}  from 'react'
+import React from 'react';
 import PageBanner from '../components/PageBanner';
 import SectionIntro from '../components/SectionIntro';
 import OurExpertise from '../components/PsdToHtmlPage/OurExpertise';
@@ -6,10 +6,17 @@ import HireServies from '../components/HireServices';
 import Blog from '../components/Blog';
 import SteptoEngage from '../components/SteptoEngage';
 import TechnologyStack from '../components/TechnologyStack';
+import Head from 'next/head';
+import { data } from "../data/Seo";
 
 const PSDTOHTML = () => {
   return (
     <>
+      <Head>
+        <title>{data.psdtohtml.title}</title>
+        <meta name="description" content={data.psdtohtml.description}/>
+        <meta name="keywords" content={data.psdtohtml.keyword} />
+      </Head>
       <PageBanner 
         PageBannerClass="pagebanner-section pagebanner-shape bgHawkesBlue pagebanner-align-center noiseBg"
         PageBannerImgClass="pagebannerimg-col" 
@@ -22,13 +29,13 @@ const PSDTOHTML = () => {
         PageBannerImageHeight="250px"
         PageBannerImage="/images/psd-html-icon.svg"
       />
-    <SectionIntro 
-      SectionIntroclassName="introuction-section separatorPart noiseBg"
-      IntroSubTitle="Our expertise in PSD to HTML design"
-      IntroMainTitle="PSD to HTML is designing an experience"
-      IntroContent='
-      <p>Without the implementation of the right design, there is no purpose for what you present. Before implementation, it is important to make the project layout. It is difficult to find the right candidate or sometimes unaffordable too. Fortunately, you can always rely on us for the design for your one-time or long-term project. Converting PSD to HTML web development is included in the W3C validation with the finest quality check.</p>
-    '/>
+      <SectionIntro 
+        SectionIntroclassName="introuction-section separatorPart noiseBg"
+        IntroSubTitle="Our expertise in PSD to HTML design"
+        IntroMainTitle="PSD to HTML is designing an experience"
+        IntroContent='
+        <p>Without the implementation of the right design, there is no purpose for what you present. Before implementation, it is important to make the project layout. It is difficult to find the right candidate or sometimes unaffordable too. Fortunately, you can always rely on us for the design for your one-time or long-term project. Converting PSD to HTML web development is included in the W3C validation with the finest quality check.</p>
+      '/>
       <OurExpertise/>
       <HireServies/>
       <TechnologyStack/>

@@ -1,14 +1,21 @@
-import React from 'react'
+import React from 'react';
 import PageBanner from '../components/PageBanner';
 import SectionIntro from '../components/SectionIntro';
 import MoreResource from '../components/MoreResource';
 import WhyUs from '../components/WhyUs';
 import HireServies from '../components/HireServices';
 import Blog from '../components/Blog';
+import Head from 'next/head';
+import { data } from "../data/Seo";
 
 const About = () => {
   return (
     <>
+      <Head>
+        <title>{data.about.title}</title>
+        <meta name="description" content={data.about.description}/>
+        <meta name="keywords" content={data.about.keyword} />
+      </Head>
       <PageBanner 
         PageBannerClass="pagebanner-section"
         PageBannerImgClass="pagebannerimg-col at-right-bottom" 
@@ -34,5 +41,4 @@ const About = () => {
       </>
   )
 }
-
 export default About

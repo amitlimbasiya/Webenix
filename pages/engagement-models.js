@@ -6,10 +6,17 @@ import SectionIntro from '../components/SectionIntro';
 import SteptoEngage from '../components/SteptoEngage';
 import TechnologyStack from '../components/TechnologyStack';
 import * as s from "../styles/components/EngagementModel/EngagementModel.style";
+import Head from 'next/head';
+import { data } from "../data/Seo";
 
 const EngagementModels = () => {
   return (
     <>
+      <Head>
+        <title>{data.engagementmodels.title}</title>
+        <meta name="description" content={data.engagementmodels.description}/>
+        <meta name="keywords" content={data.engagementmodels.keyword} />
+      </Head>
       <PageBanner2 PageBannerTitle="Our Engagement Models"/>
       <SectionIntro 
         IntroSubTitle="We are available globally"

@@ -6,6 +6,9 @@ import HireServies from '../components/HireServices';
 import Blog from '../components/Blog';
 import SteptoEngage from '../components/SteptoEngage';
 import TechnologyStack from '../components/TechnologyStack';
+import Head from 'next/head';
+import { data } from "../data/Seo";
+
 
 const GRAPHICSDESIGN = () => {
   const [ServiceData, setServiceData] = useState([]);
@@ -81,6 +84,11 @@ const GRAPHICSDESIGN = () => {
   }, []); 
   return (
     <>
+      <Head>
+        <title>{data.graphicsdesign.title}</title>
+        <meta name="description" content={data.graphicsdesign.description}/>
+        <meta name="keywords" content={data.graphicsdesign.keyword} />
+      </Head>
       <PageBanner 
         PageBannerClass="pagebanner-section pagebanner-shape bg_lightgreen pagebanner-align-center"
         PageBannerImgClass="pagebannerimg-col" 

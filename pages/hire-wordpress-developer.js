@@ -6,10 +6,17 @@ import OurExpertise from '../components/HireWordPressDeveloperPage/OurExpertise'
 import Benefits from '../components/Benefits';
 import FAQAccordion from '../components/FAQAccordion';
 import Blog from '../components/Blog';
+import Head from 'next/head';
+import { data } from "../data/Seo";
 
 const HireWordPressDeveloperPage = () => {
   return (
     <>
+      <Head>
+        <title>{data.hirewordpressdeveloper.title}</title>
+        <meta name="description" content={data.hirewordpressdeveloper.description}/>
+        <meta name="keywords" content={data.hirewordpressdeveloper.keyword} />
+      </Head>
       <PageBanner 
         PageBannerClass="pagebanner-section bgLightGrey noiseBg pagebanner-align-center"
         PageBannerImgClass="pagebannerimg-col" 

@@ -2,10 +2,16 @@ import React from 'react';
 import PageBanner from '../components/PageBanner3';
 import SectionIntro from '../components/SectionIntro';
 import ContactForm from '../components/ContactForm';
+import Head from 'next/head';
+import { data } from "../data/Seo";
 const Contact = () => {
   return (
-    <>
-     
+    <>  
+      <Head>
+        <title>{data.contact.title}</title>
+        <meta name="description" content={data.contact.description}/>
+        <meta name="keywords" content={data.contact.keyword} />
+      </Head>   
       <PageBanner 
             PageBannerBigTitle="CONTACT"
             PageBannerClass="pagebanner-section lightPurplBg noiseBg"
@@ -21,10 +27,7 @@ const Contact = () => {
             <p>You can directly email our directors info@webenix.net or fillup below given form</p>         
       '/>
       <ContactForm/>
-     
-
     </>
   )
 }
-
-export default Contact
+export default Contact;
