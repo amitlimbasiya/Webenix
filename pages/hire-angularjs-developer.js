@@ -6,10 +6,17 @@ import OurExpertise from '../components/HireAngularJSDeveloper/OurExpertise';
 import Benefits from '../components/Benefits';
 import FAQAccordion from '../components/FAQAccordion';
 import Blog from '../components/Blog';
+import Head from 'next/head';
+import { data } from "../data/Seo";
 
 const HireAngularJSDeveloper = () => {
   return (
     <>
+      <Head>
+        <title>{data.hireangularjsdeveloper.title}</title>
+        <meta name="description" content={data.hireangularjsdeveloper.description}/>
+        <meta name="keywords" content={data.hireangularjsdeveloper.keyword} />
+      </Head>
       <PageBanner 
         PageBannerClass="pagebanner-section bgMistyRose noiseBg pagebanner-align-center"
         PageBannerImgClass="pagebannerimg-col" 

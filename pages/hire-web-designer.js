@@ -6,11 +6,18 @@ import OurExpertise from '../components/HireWebDesignerPage/OurExpertise';
 import Benefits from '../components/Benefits';
 import FAQAccordion from '../components/FAQAccordion';
 import Blog from '../components/Blog';
+import Head from 'next/head';
+import { data } from "../data/Seo";
 
 
 const HireWebDesigner = () => {
   return (
     <>
+       <Head>
+        <title>{data.hirewebdesigner.title}</title>
+        <meta name="description" content={data.hirewebdesigner.description}/>
+        <meta name="keywords" content={data.hirewebdesigner.keyword} />
+      </Head>
       <PageBanner 
         PageBannerClass="pagebanner-section bgPaleBlueLily noiseBg pagebanner-align-center"
         PageBannerImgClass="pagebannerimg-col " 

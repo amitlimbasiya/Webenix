@@ -6,11 +6,17 @@ import OurExpertise from '../components/HireShopifyDeveloper/OurExpertise';
 import Benefits from '../components/Benefits';
 import FAQAccordion from '../components/FAQAccordion';
 import Blog from '../components/Blog';
-
+import Head from 'next/head';
+import { data } from "../data/Seo";
 
 const HIRSHOPIFYRDEVELOPER = () => {
   return (
     <>
+      <Head>
+        <title>{data.hirshopifyrdeveloper.title}</title>
+        <meta name="description" content={data.hirshopifyrdeveloper.description}/>
+        <meta name="keywords" content={data.hirshopifyrdeveloper.keyword} />
+      </Head>
       <PageBanner 
         PageBannerClass="pagebanner-section bgChromeWhite noiseBg pagebanner-align-center"
         PageBannerImgClass="pagebannerimg-col" 

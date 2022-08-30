@@ -6,6 +6,8 @@ import HireServies from '../components/HireServices';
 import Blog from '../components/Blog';
 import SteptoEngage from '../components/SteptoEngage';
 import TechnologyStack from '../components/TechnologyStack';
+import Head from 'next/head';
+import { data } from "../data/Seo";
 
 const HUBSPOTDEVELOPMENT = () => {
   
@@ -53,6 +55,11 @@ const HUBSPOTDEVELOPMENT = () => {
   }, []);
   return (
     <>
+     <Head>
+        <title>{data.hubspotdevelopment.title}</title>
+        <meta name="description" content={data.hubspotdevelopment.description}/>
+        <meta name="keywords" content={data.hubspotdevelopment.keyword} />
+      </Head>
     <PageBanner 
         PageBannerClass="pagebanner-section pagebanner-shape bgBasketBallOrange pagebanner-align-center noiseBg"
         PageBannerImgClass="pagebannerimg-col" 

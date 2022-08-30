@@ -6,11 +6,18 @@ import OurExpertise from '../components/HireGraphicsDesignerPage/OurExpertise';
 import Benefits from '../components/Benefits';
 import FAQAccordion from '../components/FAQAccordion';
 import Blog from '../components/Blog';
+import Head from 'next/head';
+import { data } from "../data/Seo";
 
 
 const HireGraphicsDesignPage = () => {
   return (
     <>
+      <Head>
+        <title>{data.hiregraphicsdesigner.title}</title>
+        <meta name="description" content={data.hiregraphicsdesigner.description}/>
+        <meta name="keywords" content={data.hiregraphicsdesigner.keyword} />
+      </Head>
       <PageBanner 
         PageBannerClass="pagebanner-section bgOysterPink noiseBg pagebanner-align-center"
         PageBannerImgClass="pagebannerimg-col" 

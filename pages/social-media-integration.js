@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import PageBanner from '../components/PageBanner';
 import SectionIntro from '../components/SectionIntro';
 import OurExpertise from '../components/SMIPage/OurExpertise';
@@ -6,10 +6,17 @@ import HireServies from '../components/HireServices';
 import Blog from '../components/Blog';
 import SteptoEngage from '../components/SteptoEngage';
 import TechnologyStack from '../components/TechnologyStack';
+import Head from 'next/head';
+import { data } from "../data/Seo";
 
 const SMI = () => {
   return (
     <>
+      <Head>
+        <title>{data.smi.title}</title>
+        <meta name="description" content={data.smi.description}/>
+        <meta name="keywords" content={data.smi.keyword} />
+      </Head>
     <PageBanner 
         PageBannerClass="pagebanner-section pagebanner-shape bgHawkesBlue pagebanner-align-center noiseBg"
         PageBannerImgClass="pagebannerimg-col" 

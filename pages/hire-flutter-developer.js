@@ -6,11 +6,17 @@ import OurExpertise from '../components/HireFlutterDeveloper/OurExpertise';
 import Benefits from '../components/Benefits';
 import FAQAccordion from '../components/FAQAccordion';
 import Blog from '../components/Blog';
-
+import Head from 'next/head';
+import { data } from "../data/Seo";
 
 const HireFlutterDeveloper = () => {
   return (
     <>
+       <Head>
+        <title>{data.hireflutterdeveloper.title}</title>
+        <meta name="description" content={data.hireflutterdeveloper.description}/>
+        <meta name="keywords" content={data.hireflutterdeveloper.keyword} />
+      </Head>
       <PageBanner 
         PageBannerClass="pagebanner-section bgHawkesBlue noiseBg pagebanner-align-center"
         PageBannerImgClass="pagebannerimg-col" 

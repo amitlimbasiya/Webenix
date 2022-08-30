@@ -1,14 +1,21 @@
-import React from 'react'
+import React from 'react';
 import PageBanner from '../components/PageBanner';
 import SectionIntro from '../components/SectionIntro';
 import HireServies from '../components/HireServices';
 import Blog from '../components/Blog';
 import SteptoEngage from '../components/SteptoEngage';
 import TechnologyStack from '../components/TechnologyStack';
+import Head from 'next/head';
+import { data } from "../data/Seo";
 
 const SUPPORTANDMAINTENANCE = () => {
   return (
     <>
+      <Head>
+        <title>{data.supportandmaintenance.title}</title>
+        <meta name="description" content={data.supportandmaintenance.description}/>
+        <meta name="keywords" content={data.supportandmaintenance.keyword} />
+      </Head>
     <PageBanner 
         PageBannerClass="pagebanner-section pagebanner-shape bgMistyRose pagebanner-align-center noiseBg"
         PageBannerImgClass="pagebannerimg-col" 

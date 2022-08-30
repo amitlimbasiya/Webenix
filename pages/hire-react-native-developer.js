@@ -6,10 +6,17 @@ import OurExpertise from '../components/HireReactNativeDeveloper/OurExpertise';
 import Benefits from '../components/Benefits';
 import FAQAccordion from '../components/FAQAccordion';
 import Blog from '../components/Blog';
+import Head from 'next/head';
+import { data } from "../data/Seo";
 
 const HireReactNativeDeveloper = () => {
   return (
     <>
+       <Head>
+        <title>{data.hirereactnativedeveloper.title}</title>
+        <meta name="description" content={data.hirereactnativedeveloper.description}/>
+        <meta name="keywords" content={data.hirereactnativedeveloper.keyword} />
+      </Head>
       <PageBanner 
         PageBannerClass="pagebanner-section bgHawkesBlue noiseBg pagebanner-align-center"
         PageBannerImgClass="pagebannerimg-col" 

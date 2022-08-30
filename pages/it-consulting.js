@@ -5,10 +5,17 @@ import HireServies from '../components/HireServices';
 import Blog from '../components/Blog';
 import SteptoEngage from '../components/SteptoEngage';
 import TechnologyStack from '../components/TechnologyStack';
+import Head from 'next/head';
+import { data } from "../data/Seo";
 
 const TPAI = () => {
   return (
     <>
+      <Head>
+        <title>{data.itconsulting.title}</title>
+        <meta name="description" content={data.itconsulting.description}/>
+        <meta name="keywords" content={data.itconsulting.keyword} />
+      </Head>
     <PageBanner 
         PageBannerClass="pagebanner-section pagebanner-shape bgIceberg pagebanner-align-center noiseBg"
         PageBannerImgClass="pagebannerimg-col" 

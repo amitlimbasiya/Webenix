@@ -6,6 +6,8 @@ import HireServies from '../components/HireServices';
 import Blog from '../components/Blog';
 import SteptoEngage from '../components/SteptoEngage';
 import TechnologyStack from '../components/TechnologyStack';
+import Head from 'next/head';
+import { data } from "../data/Seo";
 
 const SHOPIFYDEVELOPMENT = () => {
   
@@ -89,6 +91,11 @@ const SHOPIFYDEVELOPMENT = () => {
   }, []);
   return (
     <>
+      <Head>
+        <title>{data.shopifydevelopment.title}</title>
+        <meta name="description" content={data.shopifydevelopment.description}/>
+        <meta name="keywords" content={data.shopifydevelopment.keyword} />
+      </Head>
     <PageBanner 
         PageBannerClass="pagebanner-section pagebanner-shape bgChromeWhite pagebanner-align-center noiseBg"
         PageBannerImgClass="pagebannerimg-col" 

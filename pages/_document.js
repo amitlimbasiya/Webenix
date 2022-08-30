@@ -25,19 +25,17 @@ class MyDocument extends Document {
               {`
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-              
-                gtag('config', 'UA-150436646-1');              
+                gtag('js', new Date());              
+                gtag('config', 'UA-150436646-1');
               `}
             </Script>
         </Head>
         <body>
           <Main/>
           <NextScript/>
-        </body>        
+        </body>
       </Html>
     )
   }
 }
-
 export default MyDocument

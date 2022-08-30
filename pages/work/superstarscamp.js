@@ -9,12 +9,19 @@ import TechnologiesIcon from '../../public/images/portfolio-tech-icon.svg';
 import BuiltIcon from '../../public/images/portfolio-built-icon.svg';
 import IndustryIcon from '../../public/images/portfolio-industry-icon.svg';
 import WebIcon from '../../public/images/portfolio-website-icon.svg';
-import PortfolioBannerImg from '../../public/images/portfolio-theblossomacademy.png';
+import superstars from '../../public/images/portfolio-superstars-camp.png';
+import Head from 'next/head';
+import { data } from "../../data/Seo";
 
 
-const USAPipelining = () => {
+const SuperstarsCamp = () => {
   return (
     <>
+        <Head>
+            <title>{data.superstarscamp.title}</title>
+            <meta name="description" content={data.superstarscamp.description}/>
+            <meta name="keywords" content={data.superstarscamp.keyword} />
+        </Head>
         <PageBanner 
             PageBannerBigTitle="PROJECT"
             PageBannerClass="pagebanner-section lightPurplBg noiseBg smallPart"
@@ -26,10 +33,8 @@ const USAPipelining = () => {
             <Container>
                 <s.PortfolioDescription>
                     <h3>Introduction</h3>
-                    <p>Our powerful phonics &ndash; focused curriculum, memorable characters, catchy songs, meaningful storylines, and effective word work fosters happy and confident students who love to read.</p>
-                    <p>Our literacy instruction utilizes dynamic and researched-based programs that look and work like no other. Children learn the secrets to cracking the reading code in an exciting and engaging way. Children feel encouraged, successful, and empowered.</p>
-                    <p>Leanne works collaboratively with parents to achieve desired reading goals. </p>
-                    <p>Our specialty is making the reading process stress-free, interactive, and fun with proven and consistent results.</p>
+                    <p>Super Stars is a well-established camp that has been serving this community for the past sixteen years. Our Summer Camp is all about having fun through sports and fitness for children from Kindergarten through 8th grade!</p>
+                    <p>Campers are divided into three different age groups throughout the day; Kindergarten and First graders, Second and Third graders, Fourth, Fifth and Sixth Graders. Activities include Swimming, Water Slides, Bounce Houses, Basketball, Soccer, Kickball, Flag Football, Color Wars, Camp Challenges, Pillow Polo, Roller Racers, Capture the flag, and more. Our objective is to get your kids moving, having fun and promoting a healthy lifestyle.</p>
                     <s.PortfolioTechRow>
                         <s.PortfolioTechBox>
                             <s.PortfolioTechIcon className='pink-bg'>
@@ -64,14 +69,14 @@ const USAPipelining = () => {
                             </s.PortfolioTechIcon>
                             <s.PortfolioTechContent>
                                 <p>URL</p>
-                                <Link href="https://theblossomacademy.com/"><a target="_blank">Website</a></Link>
+                                <Link href="https://superstarscamp.com/"><a target="_blank">Website</a></Link>
                             </s.PortfolioTechContent>
                         </s.PortfolioTechBox>
                     </s.PortfolioTechRow>
                 </s.PortfolioDescription>
 
                 <s.PortfolioBannerImg>
-                    <Image src={PortfolioBannerImg} alt="The Blossom Academy" layout='raw' />
+                    <Image src={superstars} alt="Superstars Camp" layout='raw' />
                 </s.PortfolioBannerImg>
             </Container>
         </s.SinglePortfolioWrapper>
@@ -80,4 +85,4 @@ const USAPipelining = () => {
   )
 }
 
-export default USAPipelining;
+export default SuperstarsCamp;

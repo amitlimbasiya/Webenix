@@ -6,6 +6,8 @@ import HireServies from '../components/HireServices';
 import Blog from '../components/Blog';
 import SteptoEngage from '../components/SteptoEngage';
 import TechnologyStack from '../components/TechnologyStack';
+import Head from 'next/head';
+import { data } from "../data/Seo";
 
 const REACTJSDEVELOPMENT = () => {
 
@@ -53,7 +55,12 @@ const REACTJSDEVELOPMENT = () => {
   }, []);
   return (
     <>
-    <PageBanner 
+      <Head>
+        <title>{data.reactjsdevelopment.title}</title>
+        <meta name="description" content={data.reactjsdevelopment.description}/>
+        <meta name="keywords" content={data.reactjsdevelopment.keyword} />
+      </Head>
+      <PageBanner 
         PageBannerClass="pagebanner-section pagebanner-shape bgHawkesBlue pagebanner-align-center noiseBg"
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="React JS"
@@ -65,17 +72,17 @@ const REACTJSDEVELOPMENT = () => {
         PageBannerImageHeight="250px"
         PageBannerImage="/images/reactjsBannerIcon.svg"
       />
-    <SectionIntro 
-      SectionIntroclassName="introuction-section separatorPart noiseBg"
-      IntroSubTitle="React JS Development Services"
-      IntroMainTitle="Elevate your business with the real-time robust application."
-      IntroContent='
-      <p>Curate your business with the best strategic application where you need a pool of talented and experienced developers. Well, you are at the right place where we help you provide your business with some extravagant user experience web applications with quick updates in real-time, swift loading, and surely high performance.</p>
-      <p>Experience the high quality and strong development robust features developed by the highly experienced ReactJS Developers.</p>
-    '/>
-    <ServiceFeatureBox
-      sectionTagLine="Our Expertise"
-      sectionMainTitle="Our React JS Development Services"
+      <SectionIntro 
+        SectionIntroclassName="introuction-section separatorPart noiseBg"
+        IntroSubTitle="React JS Development Services"
+        IntroMainTitle="Elevate your business with the real-time robust application."
+        IntroContent='
+        <p>Curate your business with the best strategic application where you need a pool of talented and experienced developers. Well, you are at the right place where we help you provide your business with some extravagant user experience web applications with quick updates in real-time, swift loading, and surely high performance.</p>
+        <p>Experience the high quality and strong development robust features developed by the highly experienced ReactJS Developers.</p>
+      '/>
+      <ServiceFeatureBox
+        sectionTagLine="Our Expertise"
+        sectionMainTitle="Our React JS Development Services"
         ServiceValue={ServiceData}          
       />  
     <HireServies/>

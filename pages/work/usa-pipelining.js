@@ -1,5 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 import { Container } from 'react-bootstrap';
 import PageBanner from '../../components/PageBanner3';
 import Blog from '../../components/Blog';
@@ -9,12 +12,24 @@ import TechnologiesIcon from '../../public/images/portfolio-tech-icon.svg';
 import BuiltIcon from '../../public/images/portfolio-built-icon.svg';
 import IndustryIcon from '../../public/images/portfolio-industry-icon.svg';
 import WebIcon from '../../public/images/portfolio-website-icon.svg';
-import PortfolioBannerImg from '../../public/images/portfolio-diningedge.png';
+import PortfolioBannerImg from '../../public/images/portfolio-usa-pipelining.png';
+import Head from 'next/head';
+import { data } from "../../data/Seo";
 
-
-const USAPipelining = () => {
+var settings = {
+    infinite: false,
+    slidesToShow: 1,
+    speed: 500,
+    adaptiveHeight: true
+};
+const USAPipeline = () => {
   return (
     <>
+        <Head>
+            <title>{data.usapipelining.title}</title>
+            <meta name="description" content={data.usapipelining.description}/>
+            <meta name="keywords" content={data.usapipelining.keyword} />
+        </Head>
         <PageBanner 
             PageBannerBigTitle="PROJECT"
             PageBannerClass="pagebanner-section lightPurplBg noiseBg smallPart"
@@ -26,8 +41,7 @@ const USAPipelining = () => {
             <Container>
                 <s.PortfolioDescription>
                     <h3>Introduction</h3>
-                    <p>DiningEdge Technology (DET) is a user friendly, Internet-based restaurant inventory software that has been developed for establishments specializing in providing food and beverage for their patrons. Built for restaurants, bars, country clubs, catering , schools, Casino&#39;s, Hotels and any other location where purchasing food is an operational task, from small to multi-unit chains. DET offers much more than a purchasing platform, we offer you a complete suite and opportunities for your business. DET can help you cut costs, control, streamline and organize your complete business, this we guarantee.</p>
-                    <p>DET will help you place orders efficiently and electronically. No more phone calls, messages and disrupting the flow of business. We also help you to strengthen relationships with vendors by giving them an opportunity to provide pricing on all of your items and gain a larger share of your ordering.</p>
+                    <p>We are a South Florida based plumbing company specializing in pipelining, a method of restoring existing pipe systems in residential and commercial buildings without the hassle, time, and staggering expense required by inferior, conventional solutions. Our unique robotic pipelining process records the current state of pipe systems, cleans out rust and deposits, and then coats the metal interior with safe, impermeable epoxy resin, permanently sealing leaks and improving water flow.</p>
                     <s.PortfolioTechRow>
                         <s.PortfolioTechBox>
                             <s.PortfolioTechIcon className='pink-bg'>
@@ -53,7 +67,7 @@ const USAPipelining = () => {
                             </s.PortfolioTechIcon>
                             <s.PortfolioTechContent>
                                 <p>Industry</p>
-                                <h4>Restaurants</h4>
+                                <h4>Industry</h4>
                             </s.PortfolioTechContent>
                         </s.PortfolioTechBox>
                         <s.PortfolioTechBox>
@@ -62,15 +76,29 @@ const USAPipelining = () => {
                             </s.PortfolioTechIcon>
                             <s.PortfolioTechContent>
                                 <p>URL</p>
-                                <Link href="https://diningedge.net/"><a target="_blank">Website</a></Link>
+                                <Link href="https://usa-pipelining.com/"><a target="_blank">Website</a></Link>
                             </s.PortfolioTechContent>
                         </s.PortfolioTechBox>
                     </s.PortfolioTechRow>
                 </s.PortfolioDescription>
 
-                <s.PortfolioBannerImg>
-                    <Image src={PortfolioBannerImg} alt="Dining Edge" layout='raw' />
-                </s.PortfolioBannerImg>
+                <Slider className='slickSlider' {...settings}>
+                    <s.itemSlider className='text-center'>
+                        <s.PortfolioBannerImg>
+                            <Image src={PortfolioBannerImg} alt="USA Pipeline" layout='raw' />
+                        </s.PortfolioBannerImg>
+                    </s.itemSlider>
+                    <s.itemSlider className='text-center'>
+                        <s.PortfolioBannerImg>
+                            <Image src={PortfolioBannerImg} alt="USA Pipeline" layout='raw' />
+                        </s.PortfolioBannerImg>
+                    </s.itemSlider>
+                    <s.itemSlider className='text-center'>
+                        <s.PortfolioBannerImg>
+                            <Image src={PortfolioBannerImg} alt="USA Pipeline" layout='raw' />
+                        </s.PortfolioBannerImg>
+                    </s.itemSlider>
+                </Slider>
             </Container>
         </s.SinglePortfolioWrapper>
        <Blog/>
@@ -78,4 +106,4 @@ const USAPipelining = () => {
   )
 }
 
-export default USAPipelining;
+export default USAPipeline;

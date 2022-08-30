@@ -6,6 +6,8 @@ import HireServies from '../components/HireServices';
 import Blog from '../components/Blog';
 import SteptoEngage from '../components/SteptoEngage';
 import TechnologyStack from '../components/TechnologyStack';
+import Head from 'next/head';
+import { data } from "../data/Seo";
 
 const NEXTJSDEVELOPMENT = () => {
   const [ServiceData, setServiceData] = useState([]);
@@ -52,6 +54,11 @@ const NEXTJSDEVELOPMENT = () => {
   }, []);
   return (
     <>
+      <Head>
+        <title>{data.nextjsdevelopment.title}</title>
+        <meta name="description" content={data.nextjsdevelopment.description}/>
+        <meta name="keywords" content={data.nextjsdevelopment.keyword} />
+      </Head>
       <PageBanner 
         PageBannerClass="pagebanner-section pagebanner-shape bgPlatinum pagebanner-align-center noiseBg"
         PageBannerImgClass="pagebannerimg-col" 

@@ -1,14 +1,20 @@
-import React from 'react'
+import React from 'react';
 import PageBanner from '../components/PageBanner3';
 import SectionIntro from '../components/SectionIntro';
 import InfrastructureOffice from '../components/InfrastructureOffice';
 import TechnologyStack from '../components/TechnologyStack';
 import Blog from '../components/Blog';
 import OurAmbience from '../components/OurAmbience';
-
+import Head from 'next/head';
+import { data } from "../data/Seo";
 const About = () => {
   return (
     <>
+      <Head>
+        <title>{data.infrastructure.title}</title>
+        <meta name="description" content={data.infrastructure.description}/>
+        <meta name="keywords" content={data.infrastructure.keyword} />
+      </Head>
       <PageBanner 
         PageBannerClass="pagebanner-section top-bottom infraBg"
         PageBannerImgClass="pagebannerimg-col at-right-bottom" 

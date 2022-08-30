@@ -6,11 +6,18 @@ import OurExpertise from '../components/HireIOSDeveloper/OurExpertise';
 import Benefits from '../components/Benefits';
 import FAQAccordion from '../components/FAQAccordion';
 import Blog from '../components/Blog';
+import Head from 'next/head';
+import { data } from "../data/Seo";
 
 
 const HireiosDeveloper = () => {
   return (
     <>
+      <Head>
+        <title>{data.hireiosdeveloper.title}</title>
+        <meta name="description" content={data.hireiosdeveloper.description}/>
+        <meta name="keywords" content={data.hireiosdeveloper.keyword} />
+      </Head>
       <PageBanner 
         PageBannerClass="pagebanner-section bgPlatinum noiseBg pagebanner-align-center"
         PageBannerImgClass="pagebannerimg-col" 

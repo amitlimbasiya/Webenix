@@ -6,6 +6,8 @@ import HireServies from '../components/HireServices';
 import Blog from '../components/Blog';
 import SteptoEngage from '../components/SteptoEngage';
 import TechnologyStack from '../components/TechnologyStack';
+import Head from 'next/head';
+import { data } from "../data/Seo";
 
 const NODEJSDEVELOPMENT = () => {
   const [ServiceData, setServiceData] = useState([]);
@@ -52,6 +54,11 @@ const NODEJSDEVELOPMENT = () => {
   }, []);
   return (
     <>
+       <Head>
+        <title>{data.nodejsdevelopment.title}</title>
+        <meta name="description" content={data.nodejsdevelopment.description}/>
+        <meta name="keywords" content={data.nodejsdevelopment.keyword} />
+      </Head>
       <PageBanner 
         PageBannerClass="pagebanner-section pagebanner-shape bgIceberg pagebanner-align-center noiseBg"
         PageBannerImgClass="pagebannerimg-col" 

@@ -6,11 +6,18 @@ import OurExpertise from '../components/HireAndroidDeveloper/OurExpertise';
 import Benefits from '../components/Benefits';
 import FAQAccordion from '../components/FAQAccordion';
 import Blog from '../components/Blog';
+import Head from 'next/head';
+import { data } from "../data/Seo";
 
 
 const HireAndroidDeveloper = () => {
   return (
     <>
+      <Head>
+        <title>{data.hireandroiddeveloper.title}</title>
+        <meta name="description" content={data.hireandroiddeveloper.description}/>
+        <meta name="keywords" content={data.hireandroiddeveloper.keyword} />
+      </Head>
       <PageBanner 
         PageBannerClass="pagebanner-section bgChromeWhite noiseBg pagebanner-align-center"
         PageBannerImgClass="pagebannerimg-col" 

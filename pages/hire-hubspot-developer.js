@@ -6,11 +6,17 @@ import OurExpertise from '../components/HireHubspotDeveloper/OurExpertise';
 import Benefits from '../components/Benefits';
 import FAQAccordion from '../components/FAQAccordion';
 import Blog from '../components/Blog';
-
+import Head from 'next/head';
+import { data } from "../data/Seo";
 
 const HirehubspotDeveloper = () => {
   return (
     <>
+      <Head>
+        <title>{data.hirehubspotdeveloper.title}</title>
+        <meta name="description" content={data.hirehubspotdeveloper.description}/>
+        <meta name="keywords" content={data.hirehubspotdeveloper.keyword} />
+      </Head>
       <PageBanner 
         PageBannerClass="pagebanner-section bgMistyRose noiseBg pagebanner-align-center"
         PageBannerImgClass="pagebannerimg-col" 

@@ -6,11 +6,17 @@ import OurExpertise from '../components/HireUIUXDesignerPage/OurExpertise';
 import Benefits from '../components/Benefits';
 import FAQAccordion from '../components/FAQAccordion';
 import Blog from '../components/Blog';
-
+import Head from 'next/head';
+import { data } from "../data/Seo";
 
 const HIREUIUXDESIGNER = () => {
   return (
     <>
+      <Head>
+        <title>{data.hireuiuxdesigner.title}</title>
+        <meta name="description" content={data.hireuiuxdesigner.description}/>
+        <meta name="keywords" content={data.hireuiuxdesigner.keyword} />
+      </Head>
       <PageBanner 
         PageBannerClass="pagebanner-section bgMistyRose noiseBg pagebanner-align-center"
         PageBannerImgClass="pagebannerimg-col" 

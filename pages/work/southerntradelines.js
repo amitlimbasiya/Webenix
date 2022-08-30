@@ -9,12 +9,19 @@ import TechnologiesIcon from '../../public/images/portfolio-tech-icon.svg';
 import BuiltIcon from '../../public/images/portfolio-built-icon.svg';
 import IndustryIcon from '../../public/images/portfolio-industry-icon.svg';
 import WebIcon from '../../public/images/portfolio-website-icon.svg';
-import PortfolioBannerImg from '../../public/images/portfolio-lifecoachakhan.png';
+import PortfolioBannerImg from '../../public/images/portfolio-southerntradelines.png';
+import Head from 'next/head';
+import { data } from "../../data/Seo";
 
 
-const USAPipelining = () => {
+const SouthernTradelines = () => {
   return (
     <>
+        <Head>
+            <title>{data.southerntradelines.title}</title>
+            <meta name="description" content={data.southerntradelines.description}/>
+            <meta name="keywords" content={data.southerntradelines.keyword} />
+        </Head>
         <PageBanner 
             PageBannerBigTitle="PROJECT"
             PageBannerClass="pagebanner-section lightPurplBg noiseBg smallPart"
@@ -26,8 +33,8 @@ const USAPipelining = () => {
             <Container>
                 <s.PortfolioDescription>
                     <h3>Introduction</h3>
-                    <p>Hello My name is Ashton Khan from Toronto, Canada.</p>
-                    <p>I am a <strong>Certified Life Coach and Professional Basketball Athlete</strong> that has played in various countries such as France, Portugal, England, Canada, and China. I&#39;m a former NCAA Division 1 Basketball Scholarship Athlete and in 2019 I was inducted into the Hall of Fame of my Highschool, Brewster Academy (NH, US).</p>
+                    <p>We make tradelines easy to understand.</p>
+                    <p>Within a short time, you will be amazed by just how much your credit scores will have improved. Your business will experience unmatched returns but this can only be achieved by keenly following the stipulated regulations.</p>
                     <s.PortfolioTechRow>
                         <s.PortfolioTechBox>
                             <s.PortfolioTechIcon className='pink-bg'>
@@ -53,7 +60,7 @@ const USAPipelining = () => {
                             </s.PortfolioTechIcon>
                             <s.PortfolioTechContent>
                                 <p>Industry</p>
-                                <h4>Education</h4>
+                                <h4>business</h4>
                             </s.PortfolioTechContent>
                         </s.PortfolioTechBox>
                         <s.PortfolioTechBox>
@@ -62,14 +69,14 @@ const USAPipelining = () => {
                             </s.PortfolioTechIcon>
                             <s.PortfolioTechContent>
                                 <p>URL</p>
-                                <Link href="https://lifecoachakhan.com/"><a target="_blank">Website</a></Link>
+                                <Link href="https://southerntradelines.com/"><a target="_blank">Website</a></Link>
                             </s.PortfolioTechContent>
                         </s.PortfolioTechBox>
                     </s.PortfolioTechRow>
                 </s.PortfolioDescription>
 
                 <s.PortfolioBannerImg>
-                    <Image src={PortfolioBannerImg} alt="Life Coacha Khan" layout='raw' />
+                    <Image src={PortfolioBannerImg} alt="Southern Tradelines" layout='raw' />
                 </s.PortfolioBannerImg>
             </Container>
         </s.SinglePortfolioWrapper>
@@ -78,4 +85,4 @@ const USAPipelining = () => {
   )
 }
 
-export default USAPipelining;
+export default SouthernTradelines;

@@ -5,13 +5,19 @@ import { Col, Container, Row } from 'react-bootstrap';
 import Blog from '../../components/Blog';
 import * as s from "../../styles/components/SingleBlog.style";
 import singleBlogBannerThumb from '../../public/images/blogs/main-banner-8.jpg';
-import singleBlogImage02 from '../../public/images/singleblog02.jpg';
 import setYourProjects from '../../public/images/blogs/set-your-projects.png';
 import risksAssociated from '../../public/images/blogs/risks-associated.png';
+import Head from 'next/head';
+import { data } from "../../data/Seo";
 
 const SingleBlog = () => {
   return (
     <>
+      <Head>
+        <title>{data.singleblog25.title}</title>
+        <meta name="description" content={data.singleblog25.description}/>
+        <meta name="keywords" content={data.singleblog25.keyword} />
+      </Head>
       <s.SingleBlogWrapper className='singleblog-section'>
         <s.SingeBlogHeaderBg className='noiseBg'></s.SingeBlogHeaderBg>
         <Container>

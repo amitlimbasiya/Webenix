@@ -6,6 +6,8 @@ import HireServies from '../components/HireServices';
 import Blog from '../components/Blog';
 import SteptoEngage from '../components/SteptoEngage';
 import TechnologyStack from '../components/TechnologyStack';
+import Head from 'next/head';
+import { data } from "../data/Seo";
 
 const REACTNATIVEDEVELOPMENT = () => {
 
@@ -53,7 +55,12 @@ const REACTNATIVEDEVELOPMENT = () => {
   }, []);
   return (
     <>
-    <PageBanner 
+      <Head>
+        <title>{data.reactnativedevelopment.title}</title>
+        <meta name="description" content={data.reactnativedevelopment.description}/>
+        <meta name="keywords" content={data.reactnativedevelopment.keyword} />
+      </Head>
+      <PageBanner 
         PageBannerClass="pagebanner-section pagebanner-shape bgHawkesBlue pagebanner-align-center noiseBg"
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="React Native"
@@ -65,23 +72,23 @@ const REACTNATIVEDEVELOPMENT = () => {
         PageBannerImageHeight="250px"
         PageBannerImage="/images/reactjsBannerIcon.svg"
       />
-    <SectionIntro 
-      SectionIntroclassName="introuction-section separatorPart noiseBg"
-      IntroSubTitle="React Native Development Services"
-      IntroMainTitle="Elevate your business with the real-time robust application"
-      IntroContent='
-      <p>Curate your business with the best strategic application where you need a pool of talented and experienced developers. Well, you are at the right place where we help you provide your business with some extravagant user experience web applications with quick updates in real-time, swift loading, and surely high performance.</p>
-      <p>Experience the high quality and strong development robust features developed by the highly experienced React Native Developers.</p>
-    '/>
-    <ServiceFeatureBox
-      sectionTagLine="Our Expertise"
-      sectionMainTitle="Our React JS Development Services"
-        ServiceValue={ServiceData}          
-      />  
-    <HireServies/>
-    <TechnologyStack/>
-    <SteptoEngage/>
-    <Blog/>
+      <SectionIntro 
+        SectionIntroclassName="introuction-section separatorPart noiseBg"
+        IntroSubTitle="React Native Development Services"
+        IntroMainTitle="Elevate your business with the real-time robust application"
+        IntroContent='
+        <p>Curate your business with the best strategic application where you need a pool of talented and experienced developers. Well, you are at the right place where we help you provide your business with some extravagant user experience web applications with quick updates in real-time, swift loading, and surely high performance.</p>
+        <p>Experience the high quality and strong development robust features developed by the highly experienced React Native Developers.</p>
+      '/>
+      <ServiceFeatureBox
+        sectionTagLine="Our Expertise"
+        sectionMainTitle="Our React JS Development Services"
+          ServiceValue={ServiceData}          
+        />  
+      <HireServies/>
+      <TechnologyStack/>
+      <SteptoEngage/>
+      <Blog/>
     </>
   )
 }

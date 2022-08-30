@@ -6,6 +6,8 @@ import HireServies from '../components/HireServices';
 import Blog from '../components/Blog';
 import SteptoEngage from '../components/SteptoEngage';
 import TechnologyStack from '../components/TechnologyStack';
+import Head from 'next/head';
+import { data } from "../data/Seo";
 
 const PROGRESSIVEDEVELOPMENT = () => {
 
@@ -53,6 +55,11 @@ const PROGRESSIVEDEVELOPMENT = () => {
   }, []);
   return (
     <>
+      <Head>
+        <title>{data.progressivedevelopment.title}</title>
+        <meta name="description" content={data.progressivedevelopment.description}/>
+        <meta name="keywords" content={data.progressivedevelopment.keyword} />
+      </Head>
     <PageBanner 
         PageBannerClass="pagebanner-section pagebanner-shape bgHawkesBlue pagebanner-align-center noiseBg"
         PageBannerImgClass="pagebannerimg-col" 

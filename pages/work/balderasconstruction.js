@@ -9,12 +9,19 @@ import TechnologiesIcon from '../../public/images/portfolio-tech-icon.svg';
 import BuiltIcon from '../../public/images/portfolio-built-icon.svg';
 import IndustryIcon from '../../public/images/portfolio-industry-icon.svg';
 import WebIcon from '../../public/images/portfolio-website-icon.svg';
-import superstars from '../../public/images/portfolio-superstars-camp.png';
+import PortfolioBannerImg from '../../public/images/portfolio-balderasconstruction.png';
+import Head from 'next/head';
+import { data } from "../../data/Seo";
 
 
-const USAPipelining = () => {
+const BalderasConstruction = () => {
   return (
     <>
+        <Head>
+            <title>{data.balderasconstruction.title}</title>
+            <meta name="description" content={data.balderasconstruction.description}/>
+            <meta name="keywords" content={data.balderasconstruction.keyword} />
+        </Head>
         <PageBanner 
             PageBannerBigTitle="PROJECT"
             PageBannerClass="pagebanner-section lightPurplBg noiseBg smallPart"
@@ -26,8 +33,8 @@ const USAPipelining = () => {
             <Container>
                 <s.PortfolioDescription>
                     <h3>Introduction</h3>
-                    <p>Super Stars is a well-established camp that has been serving this community for the past sixteen years. Our Summer Camp is all about having fun through sports and fitness for children from Kindergarten through 8th grade!</p>
-                    <p>Campers are divided into three different age groups throughout the day; Kindergarten and First graders, Second and Third graders, Fourth, Fifth and Sixth Graders. Activities include Swimming, Water Slides, Bounce Houses, Basketball, Soccer, Kickball, Flag Football, Color Wars, Camp Challenges, Pillow Polo, Roller Racers, Capture the flag, and more. Our objective is to get your kids moving, having fun and promoting a healthy lifestyle.</p>
+                    <p>Balderas Construction is a full-service, family-run construction company based in Houston, TX. With over 20 years in the industry, we&#39;re the recognized leaders in Texas construction. Our reputation precedes us and speaks for itself. Whether your project is big or small, residential or commercial, we treat each and every client as if they are our only client. We handle almost any kind of construction project imaginable: renovation, design-builds, remediation, carpentry, build-outs, remodeling, and more.</p>
+                    <p>Building is not just what we do. It&#39;s who we are.</p>
                     <s.PortfolioTechRow>
                         <s.PortfolioTechBox>
                             <s.PortfolioTechIcon className='pink-bg'>
@@ -53,7 +60,7 @@ const USAPipelining = () => {
                             </s.PortfolioTechIcon>
                             <s.PortfolioTechContent>
                                 <p>Industry</p>
-                                <h4>Education</h4>
+                                <h4>Construction</h4>
                             </s.PortfolioTechContent>
                         </s.PortfolioTechBox>
                         <s.PortfolioTechBox>
@@ -62,14 +69,14 @@ const USAPipelining = () => {
                             </s.PortfolioTechIcon>
                             <s.PortfolioTechContent>
                                 <p>URL</p>
-                                <Link href="https://superstarscamp.com/"><a target="_blank">Website</a></Link>
+                                <Link href="https://balderasconstruction.com/"><a target="_blank">Website</a></Link>
                             </s.PortfolioTechContent>
                         </s.PortfolioTechBox>
                     </s.PortfolioTechRow>
                 </s.PortfolioDescription>
 
                 <s.PortfolioBannerImg>
-                    <Image src={superstars} alt="Superstars Camp" layout='raw' />
+                    <Image src={PortfolioBannerImg} alt="Balderas Construction" layout='raw' />
                 </s.PortfolioBannerImg>
             </Container>
         </s.SinglePortfolioWrapper>
@@ -78,4 +85,4 @@ const USAPipelining = () => {
   )
 }
 
-export default USAPipelining;
+export default BalderasConstruction;

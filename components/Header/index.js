@@ -431,7 +431,7 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href={router.WEBFLOWYDEVELOPMENT}>
+                          <Link href={router.WEBFLOWDEVELOPMENT}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={webFlowIcon} alt="Webflow Development" layout="raw" />
@@ -628,7 +628,7 @@ const Header = () => {
                       <s.MenuListItem className="menulist-item">
                         <s.MenuListTitle className="menulist-title">Hire Designer </s.MenuListTitle>
                         <s.MenuItemBlock className="menuitem-block">
-                        <Link href={router.HireGraphicsDesigner}>
+                        <Link href={router.HIREGRAPHICSDESIGNER}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={webDevelopmentIcon} alt="Hire Graphics Designer" layout="raw" />
@@ -660,7 +660,7 @@ const Header = () => {
                       <s.MenuListItem className="menulist-item">
                         <s.MenuListTitle className="menulist-title">Hire Web Developer </s.MenuListTitle>
                         <s.MenuItemBlock className="menuitem-block">
-                          <Link href={router.HirePHPDeveloper}>
+                          <Link href={router.HIREPHPDEVELOPER}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={phpIcon} alt="Hire PHP Developer" layout="raw" />
@@ -701,7 +701,7 @@ const Header = () => {
                       <s.MenuListItem className="menulist-item">
                         <s.MenuListTitle className="menulist-title">Hire CMS Developer </s.MenuListTitle>
                         <s.MenuItemBlock className="menuitem-block">
-                          <Link href={router.HireWordPressDeveloper}>
+                          <Link href={router.HIREWORDPRESSDEVELOPER}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={wordpressDevIcon} alt="Hire Wordpress Developer" layout="raw" />
@@ -719,7 +719,7 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href={router.HireWebflowDeveloper}>
+                          <Link href={router.HIREWEBFLOWDEVELOPER}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={webFlowIcon} alt="Hire Webflow Developer" layout="raw" />
@@ -728,7 +728,7 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href={router.HirehubspotDeveloper}>
+                          <Link href={router.HIREHUBSPOTDEVELOPER}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={hubspotIcon} alt="Hire Hubspot Developer" layout="raw" />
@@ -743,7 +743,7 @@ const Header = () => {
                       <s.MenuListItem className="menulist-item">
                         <s.MenuListTitle className="menulist-title">Hire Mobile App Developer</s.MenuListTitle>
                         <s.MenuItemBlock className="menuitem-block">
-                        <Link href={router.HireAndroidDeveloper}>
+                        <Link href={router.HIREANDROIDDEVELOPER}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={androidAppIcon} alt="Hire Android Developer" layout="raw" />
@@ -752,7 +752,7 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href={router.HireiosDeveloper}>
+                          <Link href={router.HIREIOSDEVELOPER}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={appleIos} alt="Hire iOS Developer" layout="raw" />
@@ -761,7 +761,7 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href={router.HireFlutterDeveloper}>
+                          <Link href={router.HIREFLUTTERDEVELOPER}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={flutterIcon} alt="Hire Flutter Developer" layout="raw" />
@@ -770,7 +770,7 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href={router.HireionicDeveloper}>
+                          <Link href={router.HIREIONICDEVELOPER}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={ionicIcon} alt="Hire Ionic Developer" layout="raw" />
@@ -779,7 +779,7 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href={router.HireReactNativeDeveloper}>
+                          <Link href={router.HIREREACTNATIVEDEVELOPER}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={reactjsIcon} alt="Hire React Native Developer" layout="raw" />
@@ -793,7 +793,7 @@ const Header = () => {
                       <s.MenuListItem className="menulist-item">
                         <s.MenuListTitle className="menulist-title">Hire Frontend Developer</s.MenuListTitle>
                         <s.MenuItemBlock className="menuitem-block">
-                        <Link href={router.HireReactJSDeveloper}>
+                        <Link href={router.HIREREACTJSDEVELOPER}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={reactjsIcon} alt="Hire React JS developer" layout="raw" />
@@ -802,7 +802,7 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href={router.HireNodeJSDeveloper}>
+                          <Link href={router.HIRENODEJSDEVELOPER}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={nodeJsIcon} alt="Hire Node JS deveoper" layout="raw" />
@@ -811,7 +811,7 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href={router.HireExpressDeveloper}>
+                          <Link href={router.HIREEXPRESSDEVELOPER}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={expressJsIcon} alt="Hire Express JS developer" layout="raw" />
@@ -820,7 +820,7 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href={router.HireNextJSDeveloper}>
+                          <Link href={router.HIRENEXTJSDEVELOPER}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={nextJsIcon} alt="Hire Next JS developer" layout="raw" />
@@ -829,7 +829,7 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          <Link href={router.HireAngularJSDeveloper}>
+                          <Link href={router.HIREANGULARJSDEVELOPER}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
                                 <Image src={angularIcon} alt="Hire Angular JS developer" layout="raw" />
@@ -849,7 +849,7 @@ const Header = () => {
                 </s.MenuItemHasChildren>
 
                 <s.MenuItemHasChildren className="menu-item">
-                    <Link href={router.PORTFOLIO} className="menulist-title">Work</Link>
+                    <Link href={router.WORK} className="menulist-title">Work</Link>
                 </s.MenuItemHasChildren>
               </s.MenuSection>
             </Nav>

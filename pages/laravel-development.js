@@ -6,6 +6,8 @@ import HireServies from '../components/HireServices';
 import Blog from '../components/Blog';
 import SteptoEngage from '../components/SteptoEngage';
 import TechnologyStack from '../components/TechnologyStack';
+import Head from 'next/head';
+import { data } from "../data/Seo";
 
 const LARAVELDEVELOPMENT = () => {
   
@@ -89,6 +91,11 @@ const LARAVELDEVELOPMENT = () => {
   }, []);
   return (
     <>
+      <Head>
+        <title>{data.laraveldevelopment.title}</title>
+        <meta name="description" content={data.laraveldevelopment.description}/>
+        <meta name="keywords" content={data.laraveldevelopment.keyword} />
+      </Head>
     <PageBanner 
         PageBannerClass="pagebanner-section pagebanner-shape bgMistyRose pagebanner-align-center noiseBg"
         PageBannerImgClass="pagebannerimg-col" 

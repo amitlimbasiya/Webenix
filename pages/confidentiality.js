@@ -2,11 +2,17 @@ import React from 'react';
 import EngagementModel from '../components/EngagementModel';
 import PageBanner from '../components/PageBanner3';
 import SectionIntro from '../components/SectionIntro';
+import Head from 'next/head';
+import { data } from "../data/Seo";
 
 const Confidentiality = () => {
   return (
     <>
-     
+      <Head>
+        <title>{data.confidentiality.title}</title>
+        <meta name="description" content={data.confidentiality.description}/>
+        <meta name="keywords" content={data.confidentiality.keyword} />
+      </Head>
       <PageBanner 
             PageBannerBigTitle="CONFIDENTIAL"
             PageBannerClass="pagebanner-section lightPurplBg noiseBg"

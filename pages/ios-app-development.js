@@ -6,6 +6,8 @@ import HireServies from '../components/HireServices';
 import Blog from '../components/Blog';
 import SteptoEngage from '../components/SteptoEngage';
 import TechnologyStack from '../components/TechnologyStack';
+import Head from 'next/head';
+import { data } from "../data/Seo";
 
 const IOSAPPSDEVELOPMENT = () => {
   const [ServiceData, setServiceData] = useState([]);
@@ -52,6 +54,11 @@ const IOSAPPSDEVELOPMENT = () => {
   }, []);
   return (
     <>
+       <Head>
+        <title>{data.iosappsdevelopment.title}</title>
+        <meta name="description" content={data.iosappsdevelopment.description}/>
+        <meta name="keywords" content={data.iosappsdevelopment.keyword} />
+      </Head>
       <PageBanner 
         PageBannerClass="pagebanner-section pagebanner-shape bg_lightgreen pagebanner-align-center noiseBg"
         PageBannerImgClass="pagebannerimg-col" 

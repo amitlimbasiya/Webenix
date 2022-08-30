@@ -6,10 +6,17 @@ import HireServies from '../components/HireServices';
 import Blog from '../components/Blog';
 import TechnologyStack from '../components/TechnologyStack';
 import SteptoEngage from '../components/SteptoEngage';
+import Head from 'next/head';
+import { data } from "../data/Seo";
 
 const UIUX = () => {
   return (
     <>
+      <Head>
+        <title>{data.uiux.title}</title>
+        <meta name="description" content={data.uiux.description}/>
+        <meta name="keywords" content={data.uiux.keyword} />
+      </Head>
     <PageBanner 
         PageBannerClass="pagebanner-section pagebanner-shape bgMistyRose pagebanner-align-center noiseBg"
         PageBannerImgClass="pagebannerimg-col" 
