@@ -53,7 +53,10 @@ export default function FooterScript() {
       $('.menulist-title').off('click').on('click', function(){
         toggleMenu();
       });
-      $('.menuitem-box, .menu-item').off('click').on('click', function(){
+      // $('.menuitem-box').off('click').on('click', function(){
+      //   toggleMenu();
+      // });
+      $('.menu-item').off('click').on('click', function(){
         toggleMenu();
       });
     }

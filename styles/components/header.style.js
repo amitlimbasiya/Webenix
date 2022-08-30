@@ -433,6 +433,7 @@ export const MenuSub  = styled.div`
         // }
     `} 
     &.menu-column-4.no-spacing .menucolumn{
+        grid-row-gap: 0px;
         .menuitem-block{
             margin-bottom: 0px;
         }
@@ -455,7 +456,7 @@ export const MenuSub  = styled.div`
         display:grid;
         grid-template-columns: repeat(4, 1fr);
         grid-column-gap: 50px;
-        /* grid-row-gap: 20px; */
+        grid-row-gap: 20px;
 
         ${mediaQueries("llg")`
             grid-column-gap: 20px;
