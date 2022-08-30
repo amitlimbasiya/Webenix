@@ -313,7 +313,6 @@ export const MenuItemHasChildren  = styled.li`
 
         svg{
             width: 14px;
-            display: none;
         }
     }
     
