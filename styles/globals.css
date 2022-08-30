@@ -311,3 +311,8 @@ label.form-label{
     line-height: 20px;
   }
 }
+
+.loader{
+  animation-fill-mode: both !important;
+  -webkit-animation-fill-mode: both !important;
+}
