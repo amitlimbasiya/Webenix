@@ -68,7 +68,7 @@ const Header = () => {
               </Navbar.Brand> 
           </s.HeaderItemLeft>
 
-          <s.HeaderItemCenter className="header-item-center">
+          {/* <s.HeaderItemCenter className="header-item-center">
             <Nav className="menu" id="menu">
               <s.MenuSection className="menu-section">
                 <s.MenuItemHasChildren className="menu-item menu-item-has-children">
@@ -860,7 +860,7 @@ const Header = () => {
                 <span></span>
               </button>
             </div>
-          </s.HeaderItemCenter>
+          </s.HeaderItemCenter> */}
 
           <s.HeaderItemRight className="header-item-right">
             <Link href={router.CONTACT}>
