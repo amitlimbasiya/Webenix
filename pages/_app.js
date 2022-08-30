@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
   let [loadingStyle, setLoadingStyle] = useState("z-index: 999;  align-items: center;  justify-content: center;  width: 100%;  height: 100%;  background: #fff;  position: absolute; display:flex;");
 
   return <SSRProvider>
-    <div ClassName="loader-wrapper" Style={loadingStyle}>
+    <div className="loader-wrapper" Style={loadingStyle}>
       <BounceLoader color={color} loading="true" size={75} className="loader" />
     </div>
     <Header/>
