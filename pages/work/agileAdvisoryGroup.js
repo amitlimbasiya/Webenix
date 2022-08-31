@@ -49,7 +49,7 @@ const USAPipeline = () => {
                     <s.PortfolioTechRow>
                         <s.PortfolioTechBox>
                             <s.PortfolioTechIcon className='pink-bg'>
-                                <Image src={TechnologiesIcon} alt="Technologies" layout='raw' />
+                                <Image src={TechnologiesIcon} alt="Technologies" />
                             </s.PortfolioTechIcon>
                             <s.PortfolioTechContent>
                                 <p>Technologies</p>
@@ -58,7 +58,7 @@ const USAPipeline = () => {
                         </s.PortfolioTechBox>
                         <s.PortfolioTechBox>
                             <s.PortfolioTechIcon className='purple-bg'>
-                                <Image src={BuiltIcon} alt="Technologies" layout='raw' />
+                                <Image src={BuiltIcon} alt="Technologies" />
                             </s.PortfolioTechIcon>
                             <s.PortfolioTechContent>
                                 <p>Built for</p>
@@ -67,7 +67,7 @@ const USAPipeline = () => {
                         </s.PortfolioTechBox>
                         <s.PortfolioTechBox>
                             <s.PortfolioTechIcon className='sky-bg'>
-                                <Image src={IndustryIcon} alt="Technologies" layout='raw' />
+                                <Image src={IndustryIcon} alt="Technologies" />
                             </s.PortfolioTechIcon>
                             <s.PortfolioTechContent>
                                 <p>Industry</p>
@@ -76,7 +76,7 @@ const USAPipeline = () => {
                         </s.PortfolioTechBox>
                         <s.PortfolioTechBox>
                             <s.PortfolioTechIcon className='yellow-bg'>
-                                <Image src={WebIcon} alt="Technologies" layout='raw' />
+                                <Image src={WebIcon} alt="Technologies" />
                             </s.PortfolioTechIcon>
                             <s.PortfolioTechContent>
                                 <p>URL</p>
@@ -89,27 +89,27 @@ const USAPipeline = () => {
                 <Slider className='slickSlider' {...settings}>
                     <s.itemSlider className='text-center'>
                         <s.PortfolioBannerImg>
-                            <Image src={PortfolioBannerImg1} alt="Agile Advisory Group" layout='raw' />
+                            <Image src={PortfolioBannerImg1} alt="Agile Advisory Group" />
                         </s.PortfolioBannerImg>
                     </s.itemSlider>
                     <s.itemSlider className='text-center'>
                         <s.PortfolioBannerImg>
-                            <Image src={PortfolioBannerImg2} alt="Agile Advisory Group" layout='raw' />
+                            <Image src={PortfolioBannerImg2} alt="Agile Advisory Group" />
                         </s.PortfolioBannerImg>
                     </s.itemSlider>
                     <s.itemSlider className='text-center'>
                         <s.PortfolioBannerImg>
-                            <Image src={PortfolioBannerImg3} alt="Agile Advisory Group" layout='raw' />
+                            <Image src={PortfolioBannerImg3} alt="Agile Advisory Group" />
                         </s.PortfolioBannerImg>
                     </s.itemSlider>
                     <s.itemSlider className='text-center'>
                         <s.PortfolioBannerImg>
-                            <Image src={PortfolioBannerImg4} alt="Agile Advisory Group" layout='raw' />
+                            <Image src={PortfolioBannerImg4} alt="Agile Advisory Group" />
                         </s.PortfolioBannerImg>
                     </s.itemSlider>
                     <s.itemSlider className='text-center'>
                         <s.PortfolioBannerImg>
-                            <Image src={PortfolioBannerImg5} alt="Agile Advisory Group" layout='raw' />
+                            <Image src={PortfolioBannerImg5} alt="Agile Advisory Group" />
                         </s.PortfolioBannerImg>
                     </s.itemSlider>
                 </Slider>

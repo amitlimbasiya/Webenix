@@ -274,8 +274,17 @@ label.form-label{
 .orangeColor{
   color: #ff9000;
 }
-.bgPlatinum{
-  background-color:#e2e2e2;
+.bgDmBlue{
+  background-color:#c6e6f5;
+}
+.bgLBlue{
+  background-color: #c6f3ff;
+}
+.bgLBlue{
+  background-color: #c6f3ff;
+}
+.bgflutterBlue {
+  background-color: #cedfed;
 }
 .bgIceCold{
   background-color:#d2f5ee;
@@ -315,4 +324,7 @@ label.form-label{
 .loader span{
   animation-fill-mode: both !important;
   -webkit-animation-fill-mode: both !important;
+}
+div#hubspot-messages-iframe-container {
+  bottom: 50px !important;
 }

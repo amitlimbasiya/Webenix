@@ -228,12 +228,10 @@ export const PortfolioBannerImg  = styled.div`
          padding: 20px;
     `}
 
-    img{
+    span:first-child{
         border-radius: 25px;
         box-shadow: 0px 4px 20px rgba(0,0,0,0.5);
-        max-width: 100%;
-        height: auto;
-
+        
         ${mediaQueries("mobile")`
             border-radius: 10px;
             box-shadow: 0px 4px 10px rgba(0,0,0,0.5);

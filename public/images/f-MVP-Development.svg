@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="200px" height="200px" viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve">
+<g>
+	<g>
+		<rect x="34.091" y="60.707" fill="#F96232" width="131.818" height="40"/>
+		<g>
+			<rect x="89.334" y="107.604" fill="#242D3C" width="21.332" height="6.667"/>
+			<rect x="56.023" y="107.604" fill="#242D3C" width="21.333" height="6.667"/>
+			<rect x="122.645" y="107.604" fill="#242D3C" width="21.332" height="6.667"/>
+		</g>
+		<rect x="77.356" y="47.144" fill="#242D3C" width="45.288" height="6.667"/>
+	</g>
+	<g>
+		<rect x="96.664" y="124.5" fill="#242D3C" width="6.666" height="29.171"/>
+		<path fill="#242D3C" d="M118.713,187.761H81.287v-37.425h37.426V187.761z M87.954,181.093h24.093v-24.089H87.954V181.093z"/>
+		<rect x="93.333" y="165.714" fill="#242D3C" width="13.333" height="6.667"/>
+	</g>
+	<g>
+		<path fill="#242D3C" d="M200,172.381h-37.426v-37.423H200V172.381z M169.242,165.714h24.09v-24.09h-24.09V165.714z"/>
+		<rect x="174.621" y="150.336" fill="#242D3C" width="13.332" height="6.668"/>
+		<polygon fill="#242D3C" points="165.909,157.004 137.311,157.004 137.311,124.5 143.977,124.5 143.977,150.336 165.909,150.336 		
+			"/>
+	</g>
+	<g>
+		<path fill="#242D3C" d="M37.424,172.381H0v-37.423h37.424V172.381z M6.667,165.714h24.091v-24.09H6.667V165.714z"/>
+		<rect x="12.048" y="150.336" fill="#242D3C" width="13.333" height="6.668"/>
+		<polygon fill="#242D3C" points="62.689,157.004 34.091,157.004 34.091,150.336 56.023,150.336 56.023,124.5 62.689,124.5 		"/>
+	</g>
+	<g>
+		<path fill="#242D3C" d="M169.242,127.833H30.758V33.581h138.484V127.833z M37.424,121.167h125.15V40.248H37.424V121.167z"/>
+		<path fill="#242D3C" d="M169.242,40.248H30.758V12.24h138.484V40.248z M37.424,33.581h125.15V18.906H37.424V33.581z"/>
+		<g>
+			<rect x="44.089" y="22.91" fill="#242D3C" width="6.667" height="6.668"/>
+			<rect x="57.419" y="22.91" fill="#242D3C" width="6.667" height="6.668"/>
+			<rect x="70.753" y="22.91" fill="#242D3C" width="6.667" height="6.668"/>
+		</g>
+	</g>
+</g>
+</svg>

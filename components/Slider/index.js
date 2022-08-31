@@ -6,9 +6,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import * as s from "../../styles/components/slider.style";
-import costIcon from '../../public/images/cost-icon.svg';
-import websiteDevelopmentIcon from '../../public/images/website-development-icon.svg';
-import onTimeIcon from '../../public/images/on-time-icon.svg';
+import costIcon from '../../public/images/f-Cost-Effective.svg';
+import qualityServiceIcon from '../../public/images/f-Quality-Service.svg';
+import onTimeIcon from '../../public/images/f-On-Time.svg';
 import heroImg1 from '../../public/images/home-slider-01.svg';
 import heroImg2 from '../../public/images/home-slider-02.svg';
 import heroImg3 from '../../public/images/home-slider-03.svg';
@@ -50,7 +50,7 @@ const Hero = () => {
                                 </s.iconHeading>
                             </s.iconBox>
                             <s.iconBox className='bannerIcon'>
-                                <Image src={websiteDevelopmentIcon} alt="Quality Service Icon" layout="raw"/>
+                                <Image src={qualityServiceIcon} alt="Quality Service Icon" layout="raw"/>
                                 <s.iconHeading>
                                 Quality Service
                                 </s.iconHeading>

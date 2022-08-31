@@ -21,7 +21,7 @@ const SingleBlog = () => {
         <Container>
             <Row>
               <Col lg={12} md={12} className="mb-5 mb-md-0 singleblog-banner-content">
-                <p className='blog-category orangeColor'>Development</p>
+                <p className='blog-category orangeColor'>Outsourcing</p>
                 <h1 className='blog-title'>Top Reasons to consider offshore development</h1>
                 <span className='blog-date'>September 01, 2020</span>
               </Col>

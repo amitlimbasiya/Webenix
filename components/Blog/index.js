@@ -63,7 +63,7 @@ const Blog = () => {
                                         </s.blogImage>
                                     </a>
                                 </Link>
-                                <s.blogCategory>Development</s.blogCategory>
+                                <s.blogCategory>outsourcing</s.blogCategory>
                                 <s.blogTitle className='postHeading'>
                                     <Link href={router.SINGLEBLOG21}><a>Top Reasons to consider offshore development</a></Link>
                                 </s.blogTitle>
@@ -81,7 +81,7 @@ const Blog = () => {
                                         </s.blogImage>
                                     </a>
                                 </Link>
-                                <s.blogCategory>WEBSITE DEVELOPMENT</s.blogCategory>
+                                <s.blogCategory>outsourcing</s.blogCategory>
                                 <s.blogTitle className='postHeading'>
                                     <Link href={router.SINGLEBLOG19}><a>A comparison between fixed price and time and material contract</a></Link>
                                 </s.blogTitle>

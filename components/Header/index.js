@@ -6,15 +6,20 @@ import * as s from "../../styles/components/header.style";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown} from '@fortawesome/free-solid-svg-icons';
 import LogoImage from "../../public/images/webenix-full-logo.svg";
-import webSiteDevelopmentIcon from '../../public/images/web-development-icon.svg';
-import codeigniteIcon from '../../public/images/codeigniteIcon.svg';
-import codeIcon from '../../public/images/codeIcon.svg';
-import uiUxIcon from '../../public/images/ui-ux-icon.svg';
-import webFlowIcon from '../../public/images/webFlowIcon.svg';
-import websiteDesignIcon from '../../public/images/website-design-icon.svg';
-import webDevelopmentIcon from '../../public/images/web-development-icon.svg';
-import eCommerceIcon from '../../public/images/eCommerce-icon.svg';
-import mobileAppDesignIcon from '../../public/images/mobile-app-design-icon.svg';
+import graphicsDesignIcon from '../../public/images/f-Graphics-Design.svg';
+import webDesignIcon from '../../public/images/f-Web-Design.svg';
+import uiUxIcon from '../../public/images/f-UIUX-Design.svg';
+import codeigniteIcon from '../../public/images/f-codeignite-Icon.svg';
+import codeIcon from '../../public/images/f-Web-Development.svg';
+import eCommerceIcon from '../../public/images/f-eCommerce-Development.svg';
+import mobileAppDesignIcon from '../../public/images/f-Mobile-App-Design.svg';
+import MVPDevIcon from '../../public/images/f-MVP-Development.svg';
+import CMSDevIcon from '../../public/images/f-CMS-Development.svg';
+import smoIcon from '../../public/images/f-SMO.svg';
+import seoIcon from '../../public/images/f-SEO.svg';
+import ppcIcon from '../../public/images/f-PPC.svg';
+import reactJsIcon from '../../public/images/f-Reactjs-Icon.svg';
+import webFlowIcon from '../../public/images/f-web-flow-icon.svg';
 import paymentGatwayIntegrationIcon from '../../public/images/payment-gatway-integration-icon.svg';
 import outsourcingIndiaIcon from '../../public/images/outsourcing-India-icon.svg';
 import itConsultingIcon from '../../public/images/it-consulting-icon.svg';
@@ -22,39 +27,33 @@ import startupConsultingIcon from '../../public/images/startup-consulting-icon.s
 import shippingIntegrationIcon from '../../public/images/shipping-Integration-icon.svg';
 import thirdPartyAPIntegrationIcon from '../../public/images/key.svg';
 import supportMaintain from '../../public/images/supportIcon.svg';
-import frontEndDevelopmentIcon from '../../public/images/front-end-development-icon.svg';
-import backendDevelopmentIcon from '../../public/images/backend-development-icon.svg';
-import laravelIcon from '../../public/images/laravel-icon.svg';
-import wordpressDevIcon from '../../public/images/wordpress-icon.svg';
-import shopifyIcon from '../../public/images/shopify-icon.svg';
-import hubspotIcon from '../../public/images/hubspot-icon.svg';
-import flutterIcon from '../../public/images/flutter-icon.svg';
-import reactjsIcon from '../../public/images/reactjsBannerIcon.svg';
-import nodeJsIcon from '../../public/images/NodeJS-Icon.svg';
-import angularIcon from '../../public/images/angular-icon.svg';
-import expressJsIcon from '../../public/images/express-js-banner-icon.svg';
+import frontEndDevelopmentIcon from '../../public/images/f-Front-End-Developer.svg';
+import laravelIcon from '../../public/images/f-laravel-icon.svg';
+import wordpressDevIcon from '../../public/images/f-wordpress-icon.svg';
+import shopifyIcon from '../../public/images/f-shopify-icon.svg';
+import hubspotIcon from '../../public/images/f-hubspot-icon.svg';
+import flutterIcon from '../../public/images/f-Flutter-Icon.svg';
+import nodeJsIcon from '../../public/images/f-NodeJS-Icon.svg';
+import angularIcon from '../../public/images/f-angular-icon.svg';
+import expressJsIcon from '../../public/images/f-express-js-banner-icon.svg';
 import nextJsIcon from '../../public/images/nextjs-icon.svg';
-import androidAppIcon from '../../public/images/android-app-icon.svg';
-import iosDevIcon from '../../public/images/apple-ios.svg';
-import appleIos from '../../public/images/iphone-icon.svg';
-import ionicIcon from '../../public/images/ionicframework-icon.svg';
+import androidAppIcon from '../../public/images/f-Android-App-Icon.svg';
+import iosDevIcon from '../../public/images/f-Apple-ios.svg';
+import appleIos from '../../public/images/f-iphone-icon.svg';
+import ionicIcon from '../../public/images/f-ionicframework-icon.svg';
 import progressiveIcon from '../../public/images/pwa-icon.svg';
-import prototypeIcon from '../../public/images/design-prototype-icon.svg';
-import psdHtmlIcon from '../../public/images/psd-html-icon.svg';
-import responsiveIcon from '../../public/images/responsive-icon.svg';
+import prototypeIcon from '../../public/images/f-design-prototype-icon.svg';
+import psdHtmlIcon from '../../public/images/f-psd-html-icon.svg';
+import responsiveIcon from '../../public/images/f-responsive-icon.svg';
 import aspNetDevelopmentIcon from '../../public/images/asp-net-development-icon.svg';
-import phpIcon from '../../public/images/php-icon.svg';
-import mvpIcon from '../../public/images/mvp-icon.svg';
-import seoIcon from '../../public/images/seo-icon.svg';
-import ppcIcon from '../../public/images/ppc-icon.svg';
-import smoIcon from '../../public/images/smo-icon.svg';
+import phpIcon from '../../public/images/f-php-icon.svg';
+import madiIcon from '../../public/images/f-mobile-app-design-icon.svg';
 import aboutIcon from '../../public/images/about-icon.svg';
 import infrastructureIcon from '../../public/images/infrastrure-icon.svg';
 import engagementModelIcon from '../../public/images/engagement-model-icon.svg';
 import meetTheTeamIcon from '../../public/images/meet-the-team-icon.svg';
 import careerIcon from '../../public/images/hire-dedicated-developers-icon.svg';
 import confidentialityIcon from '../../public/images/confidentiality-icon.svg';
-import CMSDevIcon from '../../public/images/cms-icon.svg';
 import router from "../../utils/router";
 
 const Header = () => {
@@ -162,19 +161,17 @@ const Header = () => {
                           <Link href={router.GRAPHICSDESIGN}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
-                              <Image src={webSiteDevelopmentIcon} alt="Graphics Design" layout="raw" />
+                              <Image src={graphicsDesignIcon} alt="Graphics Design" layout="raw" />
                                 <p>Graphics Design</p>
                               </s.MenuItemText>
-                              
                             </a>
                           </Link>
                           <Link href={router.WEBDESIGN}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
-                                <Image src={websiteDesignIcon} alt="Web Design Icon" layout='raw'/>
+                                <Image src={webDesignIcon} alt="Web Design Icon" layout='raw'/>
                                 <p>Web Design</p>
                               </s.MenuItemText>
-                              
                             </a>
                           </Link>
                           <Link href={router.UIUX}>
@@ -194,7 +191,7 @@ const Header = () => {
                           <Link href={router.WEBDEVELOPMENT}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
-                              <Image src={backendDevelopmentIcon} alt="Web Development Icon" layout='raw'/>
+                              <Image src={codeIcon} alt="Web Development Icon" layout='raw'/>
                                 <p>Web Development</p>
                               </s.MenuItemText>
                               
@@ -212,7 +209,7 @@ const Header = () => {
                           <Link href={router.BACKENDDEVELOPMENT}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
-                                <Image src={codeIcon} alt="Backend Development Icon" layout="raw" />
+                                <Image src={frontEndDevelopmentIcon} alt="Backend Development Icon" layout="raw" />
                                 <p>Backend Development</p>
                               </s.MenuItemText>
                               
@@ -248,7 +245,7 @@ const Header = () => {
                           <Link href={router.MVPDEVELOPMENT}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text"> 
-                                <Image src={mvpIcon} alt="MVP Development Icon" layout="raw" />
+                                <Image src={MVPDevIcon} alt="MVP Development Icon" layout="raw" />
                                 <p>MVP Development</p>
                               </s.MenuItemText>
                               
@@ -457,7 +454,7 @@ const Header = () => {
                           <Link href={router.REACTJSDEVELOPMENT}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
-                                <Image src={reactjsIcon} alt="React JS Development" layout="raw" />
+                                <Image src={reactJsIcon} alt="React JS Development" layout="raw" />
                                 <p>React JS Development</p>
                               </s.MenuItemText>
                               
@@ -549,7 +546,7 @@ const Header = () => {
                           <Link href={router.REACTNATIVEDEVELOPMENT}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
-                                <Image src={reactjsIcon} alt="React Native Development" layout="raw" />
+                                <Image src={reactJsIcon} alt="React Native Development" layout="raw" />
                                 <p>React Native Development</p>
                               </s.MenuItemText>
                               
@@ -590,7 +587,7 @@ const Header = () => {
                           <Link href={router.MOBILEAPPDESIGN}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
-                                <Image src={mobileAppDesignIcon} alt="Mobile App Design" layout="raw" />
+                                <Image src={madiIcon} alt="Mobile App Design" layout="raw" />
                                 <p>Mobile App Design</p>
                               </s.MenuItemText>
                               
@@ -631,7 +628,7 @@ const Header = () => {
                         <Link href={router.HIREGRAPHICSDESIGNER}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
-                                <Image src={webDevelopmentIcon} alt="Hire Graphics Designer" layout="raw" />
+                                <Image src={graphicsDesignIcon} alt="Hire Graphics Designer" layout="raw" />
                                 <p>Hire Graphics Designer</p>
                               </s.MenuItemText>
                               
@@ -640,7 +637,7 @@ const Header = () => {
                           <Link href={router.HireWebDesigner}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
-                                <Image src={websiteDesignIcon} alt="Hire Web Designer" layout="raw" />
+                                <Image src={webDesignIcon} alt="Hire Web Designer" layout="raw" />
                                 <p>Hire Web Designer</p>
                               </s.MenuItemText>
                               
@@ -782,7 +779,7 @@ const Header = () => {
                           <Link href={router.HIREREACTNATIVEDEVELOPER}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
-                                <Image src={reactjsIcon} alt="Hire React Native Developer" layout="raw" />
+                                <Image src={reactJsIcon} alt="Hire React Native Developer" layout="raw" />
                                 <p>Hire React Native Developer</p>
                               </s.MenuItemText>
                               
@@ -796,7 +793,7 @@ const Header = () => {
                         <Link href={router.HIREREACTJSDEVELOPER}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
-                                <Image src={reactjsIcon} alt="Hire React JS developer" layout="raw" />
+                                <Image src={reactJsIcon} alt="Hire React JS developer" layout="raw" />
                                 <p>Hire React JS developer</p>
                               </s.MenuItemText>
                               

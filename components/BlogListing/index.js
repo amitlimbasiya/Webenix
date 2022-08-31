@@ -75,7 +75,7 @@ const BlogListings = (props) => {
                     </s.blogImage>
                 </a>
             </Link>
-            <s.blogCategory className='orangeColor'>DEVELOPMENT</s.blogCategory>
+            <s.blogCategory className='orangeColor'>outsourcing</s.blogCategory>
             <s.blogTitle className='postHeading'>
                 <Link href={router.SINGLEBLOG21}>
                     <a>Top Reasons to consider offshore development</a>
@@ -91,7 +91,7 @@ const BlogListings = (props) => {
                     </s.blogImage>
                 </a>
             </Link>
-            <s.blogCategory className='orangeColor'>Outsourcing</s.blogCategory>
+            <s.blogCategory className='orangeColor'>outsourcing</s.blogCategory>
             <s.blogTitle className='postHeading'>
                 <Link href={router.SINGLEBLOG19}>
                     <a>A comparison between fixed price and time and material contract</a>

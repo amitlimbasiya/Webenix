@@ -4,14 +4,14 @@ import Link from "next/link";
 import { Accordion, Container, Row, Col, Button, Form } from "react-bootstrap";
 import Modal from 'react-bootstrap/Modal';
 import * as s from "../../../styles/components/CareerPage/Perks.style"; 
-import PassionIcon from "../../../public/images/career/passion-icon.svg";  
-import TeamPlayerIcon from "../../../public/images/career/team-player-icon.svg";  
-import AuthenticityIcon from "../../../public/images/career/authenticity-icon.svg";  
-import HonestIcon from "../../../public/images/career/honest-icon.svg";  
-import PHPIcon from "../../../public/images/php-icon.svg";  
-import FEDIcon from "../../../public/images/front-end-development-icon.svg";
-import NodejsIcon from "../../../public/images/NodeJS-Icon.svg";
-import ReactjsIcon from "../../../public/images/reactjsBannerIcon.svg";  
+import PassionIcon from "../../../public/images/f-passionate-icon.svg";  
+import TeamPlayerIcon from "../../../public/images/f-team-player-icon.svg";  
+import AuthenticityIcon from "../../../public/images/f-authenticity-icon.svg";  
+import HonestIcon from "../../../public/images/f-honest-icon.svg";  
+import phpIcon from '../../../public/images/f-php-icon.svg';
+import frontEndDevelopmentIcon from '../../../public/images/f-Front-End-Developer.svg';
+import reactJsIcon from '../../../public/images/f-Reactjs-Icon.svg';
+import nodeJsIcon from '../../../public/images/f-NodeJS-Icon.svg';
 
 function MyVerticallyCenteredModal(props) {
   return (
@@ -231,7 +231,7 @@ const SectionIntro = () => {
                     <Accordion.Header>
                       <div className='cardHeader'>
                         <div className='headIcon'>
-                          <Image src={PHPIcon} alt="PHP Icon" className='img-fluid' layout="raw"/>
+                          <Image src={phpIcon} alt="PHP Icon" className='img-fluid' layout="raw"/>
                         </div>
                         <div className='positionDesc'>
                           <div className='headTitle'>PHP Developers</div>
@@ -263,7 +263,7 @@ const SectionIntro = () => {
                     <Accordion.Header>
                       <div className='cardHeader'>
                         <div className='headIcon'>
-                          <Image src={FEDIcon} alt="Front End Developer Icon" className='img-fluid' layout="raw"/>
+                          <Image src={frontEndDevelopmentIcon} alt="Front End Developer Icon" className='img-fluid' layout="raw"/>
                         </div>
                         <div className='positionDesc'>
                           <div className='headTitle'>Front End Developer</div>
@@ -295,7 +295,7 @@ const SectionIntro = () => {
                     <Accordion.Header>
                       <div className='cardHeader'>
                         <div className='headIcon'>
-                          <Image src={ReactjsIcon} alt="React js Developer Icon" className='img-fluid' layout="raw"/>
+                          <Image src={reactJsIcon} alt="React js Developer Icon" className='img-fluid' layout="raw"/>
                         </div>
                         <div className='positionDesc'>
                           <div className='headTitle'>React js Developer</div>
@@ -327,7 +327,7 @@ const SectionIntro = () => {
                     <Accordion.Header>
                       <div className='cardHeader'>
                         <div className='headIcon'>
-                          <Image src={NodejsIcon} alt="Node Js Icon" className='img-fluid' layout="raw"/>
+                          <Image src={nodeJsIcon} alt="Node Js Icon" className='img-fluid' layout="raw"/>
                         </div>
                         <div className='positionDesc'>
                           <div className='headTitle'>Node Js Developer</div>
