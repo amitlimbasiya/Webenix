@@ -26,7 +26,7 @@ const MVPDEVELOPMENT = () => {
           PageBannerBtnLink="#"
           PageBannerImageWidth="280px"
           PageBannerImageHeight="250px"
-          PageBannerImage="/images/mvpDevelopment/mvp-banner.svg"
+          PageBannerImage="/images/mvp-icon.svg"
         />
       <SectionIntro 
         SectionIntroclassName="introuction-section separatorPart noiseBg"

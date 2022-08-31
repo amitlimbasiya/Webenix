@@ -26,7 +26,7 @@ const UIUX = () => {
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
         PageBannerImageHeight="250px"
-        PageBannerImage="/images/uiuxDesign/uiux-banner.svg"
+        PageBannerImage="/images/ui-ux-icon.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"

@@ -105,6 +105,7 @@ const router = {
   SINGLEBLOG25: "/blog/the-ways-to-utilize-an-effective-outsourcing-strategy-and-achieve-business-success-by-eliminating-the-risks",
 
   WORK: "/work",
+  AGILEADVISORYGROUP:"/work/agileAdvisoryGroup",
   USAPIPELINING:"/work/usa-pipelining",
   SOUTHERNTRADELINES:"/work/southerntradelines",
   THEBLOSSOMACADEMY:"/work/theblossomacademy",

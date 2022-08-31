@@ -8,7 +8,7 @@ import shapeOrange from '../../../public/images/eCommerceDevelopment/shapeOrange
 import shapePurpleIcon from '../../../public/images/eCommerceDevelopment/shapePurple.svg';
 import magentoIcon from '../../../public/images/magento-icon.svg';
 import shopifyIcon from '../../../public/images/shopify-icon.svg';
-import wooIcon from '../../../public/images/eCommerceDevelopment/wooIcon.svg';
+import wooIcon from '../../../public/images/wooIcon.svg';
 
 const SectionServiceBoxes = () => {
   return (

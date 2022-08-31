@@ -8,8 +8,8 @@ import backendDevelopmentIcon from '../../../public/images/backend-development-i
 import uiUxIcon from '../../../public/images/ui-ux-icon.svg';
 import shapePastelPinkIcon from '../../../public/images/mvpDevelopment/shapePastelPink.svg';
 import shapePurpleIcon from '../../../public/images/mvpDevelopment/shapePurple.svg';
-import mobileAppIcon from '../../../public/images/mvpDevelopment/mobile-app-icon.svg';
-import frontendIcon from '../../../public/images/mvpDevelopment/frontend-icon.svg';
+import mobileAppIcon from '../../../public/images/mobile-app-design-icon.svg';
+import frontendIcon from '../../../public/images/front-end-development-icon.svg';
 
 const SectionServiceBoxes = () => {
   return (

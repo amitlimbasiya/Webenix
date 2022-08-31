@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleRight} from '@fortawesome/free-solid-svg-icons';
 import { Container, Row, Col } from "react-bootstrap";
 import * as s from "../../../styles/components/GraphicsDesignPage/SectionServicesBoxes.style";
-import PageBannerImg from "../../../public/images/graphicsDesign/solution-banner-shape.svg";
+import PageBannerImg from "../../../public/images/front-end-development-icon.svg";
 import shapePinkIcon from '../../../public/images/graphicsDesign/shapePink.svg';
 import shapeOrangeIcon from '../../../public/images/graphicsDesign/shapeOrange.svg';
 import shapeYellowIcon from '../../../public/images/graphicsDesign/shapeYellow.svg';

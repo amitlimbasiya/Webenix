@@ -26,7 +26,7 @@ const ECOMMERCEDEVELOPMENT = () => {
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
         PageBannerImageHeight="250px"
-        PageBannerImage="/images/eCommerceDevelopment/eCommarce-banner-icon.svg"
+        PageBannerImage="/images/eCommerce-icon.svg"
       />
       <SectionIntro 
         SectionIntroclassName="introuction-section separatorPart noiseBg"
