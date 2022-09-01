@@ -565,6 +565,7 @@ export const LeftRightPart  = styled.div`
         -moz-transition: all 0.5s 0s linear;
         -o-transition: all 0.5s 0s linear;
         transition: all 0.5s 0s linear;
+        animation: scaleanimation 2s alternate infinite ease-in;
 
 
         ${mediaQueries("lg")`
@@ -578,8 +579,13 @@ export const LeftRightPart  = styled.div`
             max-width: 100%;
         `}
         
-        &:hover{
+        /* &:hover{
             background-size: 105% 105%;
+        } */
+
+        @keyframes scaleanimation {	
+            0%   {background-size: 100% 100%;}	
+            100% {background-size: 105% 105%;}	
         }
     }
     .rellimage.neverstoplearning.office_bg {

@@ -378,7 +378,7 @@ const BlogListings = (props) => {
                         <s.blogTitle className='postHeading'>
                             <Link href={router.SINGLEBLOG22}><a>onshore-vs-offshore-development-which-is-better</a></Link>
                         </s.blogTitle>
-                        <p>Offshore development used to be the monopoly of India and China until quite recently. The picture is changing with various other countries like Malaysia and Eastern European nations joining the bandwagon. The growing demand for offshore development does leave the people curious about the reason behind it. Also, the trend and future of onshore development require scrutiny in light of the companies' changing attitudes. So, let's take a comparative look at offshore and onshore development and arrive at a conclusion.</p>
+                        <p>Offshore development used to be the monopoly of India and China until quite recently. The picture is changing with various other countries like Malaysia and Eastern European nations joining the bandwagon. The growing demand for offshore development does leave the people curious about the reason behind it. Also, the trend and future of onshore development require scrutiny in light of the companie&#39;s changing attitudes. So, let&#39;s take a comparative look at offshore and onshore development and arrive at a conclusion.</p>
                         <Link href={router.SINGLEBLOG22}><a className='blogLink'>Let&#39;s Read</a></Link>
                         <div className='datePart'>August 24, 2020</div>
                     </s.blogItem>

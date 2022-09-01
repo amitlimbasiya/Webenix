@@ -176,7 +176,7 @@ export const EngagementModelContentBox  = styled.div`
     background-color: #fff;
     border-radius: 30px;
     box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
-    max-width: 550px;
+    max-width: 600px;
     margin: -30% auto -8%;
 
     ${mediaQueries("mobile")` 
@@ -211,11 +211,12 @@ export const EngagementModelContentMainTitle  = styled.div`
     }
 
     h4{
-        padding: 25px 50px;
+        padding: 20px 50px;	
+        margin-bottom: 0;
         background-color: #e7e2ff;
         border-radius: 30px 30px 0 0;
         position: relative;
-        font-size: 30px;
+        font-size: 28px;
         font-weight: 900;
         font-family: 'Montserrat',sans-serif;   
         
@@ -241,7 +242,7 @@ export const EngagementModelContentInnerBox  = styled.div`
     padding: 60px 55px 100px;   
 
     ${mediaQueries("xl")` 
-        padding: 40px 40px 70px;
+        padding: 40px 50px 70px;
     `} 
 
     ${mediaQueries("lg")` 
@@ -290,10 +291,10 @@ export const EngagementModelContentInnerBox  = styled.div`
     }
 
     p{
-        font-size: 22px;
-        line-height: 34px;
+        font-size: 20px;
+        line-height: 32px;
         font-family: "DINPro-Medium";
-        margin-bottom: 50px;
+        margin-bottom: 40px;
 
         ${mediaQueries("lg")` 
             font-size: 20px; 
@@ -313,7 +314,7 @@ export const EngagementModelContentInnerBox  = styled.div`
             font-family: "DINPro-Bold";
             font-size: 18px;
             line-height: 24px;
-            margin-bottom: 15px;
+            margin-bottom: 12px;
             color: #000;
             position: relative;
             padding-left: 18px;
