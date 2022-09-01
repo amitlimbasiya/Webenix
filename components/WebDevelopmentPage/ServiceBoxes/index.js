@@ -1,23 +1,18 @@
 import React from "react";
-import Link from 'next/link'
 import Image from 'next/image';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleRight} from '@fortawesome/free-solid-svg-icons';
 import { Container, Row, Col } from "react-bootstrap";
 import * as s from "../../../styles/components/WebDevelopmentPage/SectionServicesBoxes.style";
-import webDevelopmentIcon from '../../../public/images/web-development-icon.svg';
-import eCommerceIcon from '../../../public/images/eCommerce-icon.svg';
 import shapePinkIcon from '../../../public/images/webDevelopment/shapePink.svg';
-import shapeOrangeIcon from '../../../public/images/webDevelopment/shapeOrange.svg';
 import shapeYellowIcon from '../../../public/images/webDevelopment/shapeYellow.svg';
 import shapeGreenIcon from '../../../public/images/webDevelopment/shapeGreen.svg';
 import shapeBlueIcon from '../../../public/images/webDevelopment/shapeBlue.svg';
 import shapePurpleIcon from '../../../public/images/webDevelopment/shapePurple.svg';
 import mobileAppDesignIcon from '../../../public/images/mobile-app-design-icon.svg';
-import backendDevelopmentIcon from '../../../public/images/backend-development-icon.svg';
-import frontEndDevelopmentIcon from '../../../public/images/front-end-development-icon.svg';
-import CMSDevIcon from '../../../public/images/cms-icon.svg';
+import CMSDevIcon from '../../../public/images/f-CMS-Development.svg';
+import eCommerceIcon from '../../../public/images/f-eCommerce-Development.svg';
 import codeIcon from '../../../public/images/codeIcon.svg';
+import BackEndDevelopmentIcon from '../../../public/images/f-Back-End-Developer.svg';
+import frontEndDevelopmentIcon from '../../../public/images/f-Front-End-Developer.svg';
 
 const SectionServiceBoxes = () => {
   return (
@@ -80,7 +75,7 @@ const SectionServiceBoxes = () => {
             <Col lg={6} md={12} className="itemBoxes">
               <s.boxPart className="greenPart">
                 <s.partItem className="textPart">
-                    <s.boxHeading>Mobile API development</s.boxHeading>
+                    <s.boxHeading>Mobile API Development</s.boxHeading>
                     <s.textPart>Providing the leverage of connecting the mobile applications with the third party integration with Mobile API Development services by Webenix.</s.textPart>
                     
                 </s.partItem>
@@ -100,7 +95,7 @@ const SectionServiceBoxes = () => {
                     
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={backendDevelopmentIcon} alt="Backend Development Icon" layout="raw" />
+                  <Image src={BackEndDevelopmentIcon} alt="Backend Development Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapeGreenIcon} alt="Shape Blue Icon" layout="raw" />
                   </s.iconOverlay>

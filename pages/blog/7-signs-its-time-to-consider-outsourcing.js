@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { Col, Container, Row } from 'react-bootstrap';
 import Blog from '../../components/Blog';
 import * as s from "../../styles/components/SingleBlog.style";
-import singleBlogBannerThumb from '../../public/images/blogs/main-banner-2.jpg';
+import TimeConsiderOutsourcing  from '../../public/images/blogs/7-Signs-its-time-to-Consider-Outsourcing.jpg';
 import Head from 'next/head';
 import { data } from "../../data/Seo";
 
@@ -26,7 +26,7 @@ const SingleBlog = () => {
                 <span className='blog-date'>September 08, 2020</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
-                <Image src={singleBlogBannerThumb} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/>
+                <Image src={TimeConsiderOutsourcing} alt="7 Signs its time to Consider Outsourcing" className='imgwith-boxshadow' layout="raw"/>
               </Col>
               <s.BlogContentWrapper>
                 <p>There is no denying the fact that today there is an additional constant rising pressure in the global market which creates a competitive environment and a thrive to be the best in the market. Under such circumstances, the only companies that lead the market are the one who work most efficiently and that too, by reducing their operational costs without compromising on their quality of services. Outsourcing business operations is an excellent option and is beneficial for a company if you are overwhelmed without business workload and find yourself too involved and engrossed in work every waking hour of the day.</p>

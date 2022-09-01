@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { Col, Container, Row } from 'react-bootstrap';
 import Blog from '../../components/Blog';
 import * as s from "../../styles/components/SingleBlog.style";
-import singleBlogBannerThumb from '../../public/images/blogs/motivate-remote-team.jpg';
+import MotivateRemoteSoftwareTeam from '../../public/images/blogs/How-to-motivate-and-engage-a-remote-software-team.jpg';
 import Head from 'next/head';
 import { data } from "../../data/Seo";
 
@@ -26,7 +26,7 @@ const SingleBlog = () => {
                 <span className='blog-date'>June 03, 2021</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
-                <Image src={singleBlogBannerThumb} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/>
+                <Image src={MotivateRemoteSoftwareTeam} alt="How to motivate and engage a remote software team?" className='imgwith-boxshadow' layout="raw"/>
               </Col>
               <s.BlogContentWrapper>
                 <p>If you are a business manager or a team lead, you will be tasked with managing not just the business aspect of your company. Still, you will also have to keep your team motivated and enthusiastic about their work. It becomes all the more challenging if individual members of your team work remotely. As you will not meet them physically regularly, you might find it challenging to keep them engaged. Business managers often mention that this becomes all the more important when an entire software team works remotely. Here you will need to keep an ongoing communication between the team members so that there are no bottlenecks and the projects are completed on schedule. Communication is critical when it comes to maintaining a software team working remotely motivated and engaged.</p>                

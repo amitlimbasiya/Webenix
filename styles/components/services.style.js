@@ -169,6 +169,7 @@ export const serviceItem  = styled.div`
             width: 40%;
             height: 80%;
             z-index: 0;
+            opacity: 0.25;
         }
 
         &:nth-child(odd) .leftPart{

@@ -25,7 +25,7 @@ const SEO = () => {
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
         PageBannerImageHeight="250px"
-        PageBannerImage="/images/seo/seoBannerIcon.svg"
+        PageBannerImage="/images/f-SEO.svg"
       />
       <SectionIntro 
         SectionIntroclassName="introuction-section separatorPart noiseBg"

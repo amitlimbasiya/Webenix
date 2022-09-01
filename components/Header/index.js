@@ -20,13 +20,13 @@ import seoIcon from '../../public/images/f-SEO.svg';
 import ppcIcon from '../../public/images/f-PPC.svg';
 import reactJsIcon from '../../public/images/f-Reactjs-Icon.svg';
 import webFlowIcon from '../../public/images/f-web-flow-icon.svg';
-import paymentGatwayIntegrationIcon from '../../public/images/payment-gatway-integration-icon.svg';
-import outsourcingIndiaIcon from '../../public/images/outsourcing-India-icon.svg';
-import itConsultingIcon from '../../public/images/it-consulting-icon.svg';
-import startupConsultingIcon from '../../public/images/startup-consulting-icon.svg';
-import shippingIntegrationIcon from '../../public/images/shipping-Integration-icon.svg';
-import thirdPartyAPIntegrationIcon from '../../public/images/key.svg';
-import supportMaintain from '../../public/images/supportIcon.svg';
+import paymentGatwayIntegrationIcon from '../../public/images/f-payment-gateway-integration-icon.svg';
+import socialMediaIntigration from '../../public/images/f-social-media-integration-icon.svg';
+import itConsultingIcon from '../../public/images/f-IT-consulting-icon.svg';
+import startupConsultingIcon from '../../public/images/f-startup-consulting.svg';
+import shippingIntegrationIcon from '../../public/images/f-shipping-integration-icon.svg';
+import thirdPartyAPIntegrationIcon from '../../public/images/f-Third-Party-Integration-icon.svg';
+import supportMaintain from '../../public/images/f-support-maintanance-icon.svg';
 import frontEndDevelopmentIcon from '../../public/images/f-Front-End-Developer.svg';
 import laravelIcon from '../../public/images/f-laravel-icon.svg';
 import wordpressDevIcon from '../../public/images/f-wordpress-icon.svg';
@@ -41,19 +41,20 @@ import androidAppIcon from '../../public/images/f-Android-App-Icon.svg';
 import iosDevIcon from '../../public/images/f-Apple-ios.svg';
 import appleIos from '../../public/images/f-iphone-icon.svg';
 import ionicIcon from '../../public/images/f-ionicframework-icon.svg';
-import progressiveIcon from '../../public/images/pwa-icon.svg';
-import prototypeIcon from '../../public/images/f-design-prototype-icon.svg';
+import progressiveIcon from '../../public/images/f-progressive-web-app-development-icon.svg';
+// import prototypeIcon from '../../public/images/f-design-prototype-icon.svg';
 import psdHtmlIcon from '../../public/images/f-psd-html-icon.svg';
 import responsiveIcon from '../../public/images/f-responsive-icon.svg';
 import aspNetDevelopmentIcon from '../../public/images/asp-net-development-icon.svg';
 import phpIcon from '../../public/images/f-php-icon.svg';
 import madiIcon from '../../public/images/f-mobile-app-design-icon.svg';
-import aboutIcon from '../../public/images/about-icon.svg';
-import infrastructureIcon from '../../public/images/infrastrure-icon.svg';
-import engagementModelIcon from '../../public/images/engagement-model-icon.svg';
-import meetTheTeamIcon from '../../public/images/meet-the-team-icon.svg';
-import careerIcon from '../../public/images/hire-dedicated-developers-icon.svg';
-import confidentialityIcon from '../../public/images/confidentiality-icon.svg';
+import aboutIcon from '../../public/images/f-about-icon.svg';
+import infrastructureIcon from '../../public/images/f-Infrastructure-icon.svg';
+import engagementModelIcon from '../../public/images/f-engagement-models-icon.svg';
+import meetTheTeamIcon from '../../public/images/f-meet-the-team-icon.svg';
+import careerIcon from '../../public/images/f-career-icon.svg';
+import confidentialityIcon from '../../public/images/f-confidentiality-icon.svg';
+import BackEndDevelopmentIcon from '../../public/images/f-Back-End-Developer.svg';
 import router from "../../utils/router";
 
 const Header = () => {
@@ -209,7 +210,7 @@ const Header = () => {
                           <Link href={router.BACKENDDEVELOPMENT}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
-                                <Image src={frontEndDevelopmentIcon} alt="Backend Development Icon" layout="raw" />
+                                <Image src={BackEndDevelopmentIcon} alt="Backend Development Icon" layout="raw" />
                                 <p>Backend Development</p>
                               </s.MenuItemText>
                               
@@ -337,7 +338,7 @@ const Header = () => {
                           <Link href={router.SMI}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
-                                <Image src={outsourcingIndiaIcon} alt="Social Media Integration Icon" layout="raw" />
+                                <Image src={socialMediaIntigration} alt="Social Media Integration Icon" layout="raw" />
                                 <p>Social Media Integration</p>
                               </s.MenuItemText>
                               
@@ -578,7 +579,7 @@ const Header = () => {
                           <Link href={router.DESIGNPROTOTYPE}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
-                                <Image src={prototypeIcon} alt="Design Prototype" layout="raw" />
+                                <Image src={webDesignIcon} alt="Design Prototype" layout="raw" />
                                 <p>Design Prototype</p>
                               </s.MenuItemText>
                               

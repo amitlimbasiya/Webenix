@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { Col, Container, Row } from 'react-bootstrap';
 import Blog from '../../components/Blog';
 import * as s from "../../styles/components/SingleBlog.style";
-import singleBlogBannerThumb from '../../public/images/blogs/main-banner.jpg';
+import MakeVirtualEmployeesProductive from '../../public/images/blogs/How-to-Make-Virtual-Employees-Productive.jpg';
 import Head from 'next/head';
 import { data } from "../../data/Seo";
 
@@ -26,7 +26,7 @@ const SingleBlog = () => {
                 <span className='blog-date'>September 29, 2020</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
-                <Image src={singleBlogBannerThumb} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/>
+                <Image src={MakeVirtualEmployeesProductive} alt="How to Make Virtual Employees Productive?" className='imgwith-boxshadow' layout="raw"/>
               </Col>
               <s.BlogContentWrapper>
                 <p>Remote work or working virtually is on the rise, especially considering the recent scenario. Even though managing remote employees can be stressful enough to want one tear of their hair, it is one of the greatest competitive strength. It is a lot easier to hire talented professionals without considering the location also.</p>

@@ -7,7 +7,7 @@ import shapeGreenIcon from '../../../public/images/eCommerceDevelopment/shapeGre
 import shapeOrange from '../../../public/images/eCommerceDevelopment/shapeOrange.svg';
 import shapePurpleIcon from '../../../public/images/eCommerceDevelopment/shapePurple.svg';
 import magentoIcon from '../../../public/images/magento-icon.svg';
-import shopifyIcon from '../../../public/images/shopify-icon.svg';
+import shopifyIcon from '../../../public/images/f-shopify-icon.svg';
 import wooIcon from '../../../public/images/wooIcon.svg';
 
 const SectionServiceBoxes = () => {

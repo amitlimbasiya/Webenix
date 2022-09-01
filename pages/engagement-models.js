@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from "react-bootstrap";
 import EngagementModel from '../components/EngagementModel';
-import PageBanner2 from '../components/PageBanner2';
+import PageBanner from '../components/PageBanner3';
 import SectionIntro from '../components/SectionIntro';
 import SteptoEngage from '../components/SteptoEngage';
 import TechnologyStack from '../components/TechnologyStack';
@@ -17,7 +17,13 @@ const EngagementModels = () => {
         <meta name="description" content={data.engagementmodels.description}/>
         <meta name="keywords" content={data.engagementmodels.keyword} />
       </Head>
-      <PageBanner2 PageBannerTitle="Our Engagement Models"/>
+      <PageBanner 
+            PageBannerBigTitle="Engagement"
+            PageBannerClass="pagebanner-section lightPurplBg noiseBg"
+            PageBannerImgClass="pagebannerimg-col at-right-bottom" 
+            PageBannerTitle="Our"
+            PageBannerGreenUnderlineText="Engagement Models"
+        />
       <SectionIntro 
         IntroSubTitle="We are available globally"
         IntroMainTitle="Your one-stop solution for any digital assistance."

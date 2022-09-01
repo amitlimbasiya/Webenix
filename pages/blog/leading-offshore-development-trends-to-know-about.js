@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { Col, Container, Row } from 'react-bootstrap';
 import Blog from '../../components/Blog';
 import * as s from "../../styles/components/SingleBlog.style";
-import singleBlogBannerThumb from '../../public/images/blogs/main-banner-7.jpg';
+import LeadingTrendsKnowAbout  from '../../public/images/blogs/Leading-offshore-development-trends-to-know-about.jpg';
 import router from "../../utils/router";
 import Head from 'next/head';
 import { data } from "../../data/Seo";
@@ -27,7 +27,7 @@ const SingleBlog = () => {
                 <span className='blog-date'>August 10, 2020</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
-                <Image src={singleBlogBannerThumb} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/>
+                <Image src={LeadingTrendsKnowAbout} alt="Leading offshore development trends to know about" className='imgwith-boxshadow' layout="raw"/>
               </Col>
               <s.BlogContentWrapper>
                 <p>Offshore development is the reality, and several trends are emerging off it with this style gaining popularity worldwide. Users do not want to settle for something less in quality because the conditions are not conventional while dealing with developers offshore. That is why; things are taking more professional garb with the introduction of more accurate measures adopted in the working process. Some of the advanced trends in offshore development procedures are:</p>

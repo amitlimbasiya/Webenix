@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { Col, Container, Row } from 'react-bootstrap';
 import Blog from '../../components/Blog';
 import * as s from "../../styles/components/SingleBlog.style";
-import singleBlogBannerThumb from '../../public/images/blogs/avoid-cultural-pitfalls.jpg';
+import AvoidCulturalOutSourcing from '../../public/images/blogs/How-to-avoid-cultural-pitfalls-in-outsourcing.jpg';
 import Head from 'next/head';
 import { data } from "../../data/Seo";
 
@@ -26,7 +26,7 @@ const SingleBlog = () => {
                 <span className='blog-date'>June 01, 2021</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
-                <Image src={singleBlogBannerThumb} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/>
+                <Image src={AvoidCulturalOutSourcing} alt="ow to avoid cultural pitfalls in outsourcing?" className='imgwith-boxshadow' layout="raw"/>
               </Col>
               <s.BlogContentWrapper>
                 <p>When you outsource some of your business activities to a company in a different geographical location, it is essential to ensure that you prove to be a supportive and encouraging business enterprise. Often for outsourcing companies, it becomes necessary to avoid cultural pitfalls and nurture an atmosphere conducive to growth and development. For example, if you are located in a country that is not aware of the country&#39;s cultural intricacies in which the firm that you have outsourced the work is located, you might be faced with complex problems. One of the most common issues that managers of outsourcing companies often face is that the two firms&#39; holidays often do not match, which leads to problems regarding completing the work on schedule. However, you can easily overcome the problem by getting to know beforehand the company&#39;s calendar that you have outsourced your business activities. After that, all you need to do is schedule the tasks you want to outsource according to the outsourced company&#39;s calendar. This way, you will ensure that the work gets completed on time and the company&#39;s team members outsource the work to do not face any problem with completing the job on schedule. It will also show that you are concerned about the cultural intricacies of the employees working in the company, you have outsourced your work to. Some of the other methods that you can follow to avoid cultural pitfalls while outsourcing are as follows:</p>                

@@ -688,7 +688,7 @@ export const JobPart  = styled.div`
     } 
     .accordion .accordion-item {
         border-radius: 20px;
-        background-color:transparent;
+        background-color:rgba(255,255,255,.75);
         box-shadow: 0px 0px 10px rgb(0 0 0 / 15%);
         margin-bottom:  20px;
         padding: 0 25px;

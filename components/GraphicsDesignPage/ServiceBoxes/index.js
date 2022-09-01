@@ -1,20 +1,19 @@
 import React from "react";
-import Link from 'next/link'
 import Image from 'next/image';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleRight} from '@fortawesome/free-solid-svg-icons';
 import { Container, Row, Col } from "react-bootstrap";
 import * as s from "../../../styles/components/GraphicsDesignPage/SectionServicesBoxes.style";
-import PageBannerImg from "../../../public/images/front-end-development-icon.svg";
+import logoDesignIcon from '../../../public/images/f-logo-design-icon.svg';
+import stationeryIcon from '../../../public/images/f-stationery-design-icon.svg';
+import socialMediaIcon from '../../../public/images/f-social-media-icon.svg';
+import brandingIcon from '../../../public/images/f-branding-icon.svg';
+import packingDesignIcon from '../../../public/images/f-packaging-design-icon.svg';
+import videoAnimationIcon from '../../../public/images/f-video-animation-icon.svg';
 import shapePinkIcon from '../../../public/images/graphicsDesign/shapePink.svg';
 import shapeOrangeIcon from '../../../public/images/graphicsDesign/shapeOrange.svg';
 import shapeYellowIcon from '../../../public/images/graphicsDesign/shapeYellow.svg';
 import shapeGreenIcon from '../../../public/images/graphicsDesign/shapeGreen.svg';
 import shapeBlueIcon from '../../../public/images/graphicsDesign/shapeBlue.svg';
 import shapePurpleIcon from '../../../public/images/graphicsDesign/shapePurple.svg';
-import uiUxIcon from '../../../public/images/ui-ux-icon.svg';
-import mobileAppDesignIcon from '../../../public/images/mobile-app-design-icon.svg';
-import websiteDesignIcon from '../../../public/images/website-design-icon.svg';
 
 const SectionServiceBoxes = () => {
   return (
@@ -37,7 +36,7 @@ const SectionServiceBoxes = () => {
                     <s.textPart>Make your business branding unique and up to mark. Bring the designing aspect to the next level. </s.textPart>
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={PageBannerImg} alt="Frontend Development Icon" layout="raw" />
+                  <Image src={logoDesignIcon} alt="Logo Design Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapePinkIcon} alt="Shape Pink Icon" layout="raw" />
                   </s.iconOverlay>
@@ -52,7 +51,7 @@ const SectionServiceBoxes = () => {
                     
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={PageBannerImg} alt="Frontend Development Icon" layout="raw" />
+                  <Image src={stationeryIcon} alt="Stationery Design Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapeOrangeIcon} alt="Shape Orange Icon" layout="raw" />
                   </s.iconOverlay>
@@ -67,7 +66,7 @@ const SectionServiceBoxes = () => {
                     
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={websiteDesignIcon} alt="Web Desing Icon" layout="raw" />
+                  <Image src={socialMediaIcon} alt="Social Media Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapeYellowIcon} alt="Shape Yellow Icon" layout="raw" />
                   </s.iconOverlay>
@@ -82,7 +81,7 @@ const SectionServiceBoxes = () => {
                     
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={websiteDesignIcon} alt="Landing Page Design Icon" layout="raw" />
+                  <Image src={brandingIcon} alt="Branding Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapeGreenIcon} alt="Shape Green Icon" layout="raw" />
                   </s.iconOverlay>
@@ -97,7 +96,7 @@ const SectionServiceBoxes = () => {
                     
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={mobileAppDesignIcon} alt="Mobile Applicaiton Icon" layout="raw" />
+                  <Image src={packingDesignIcon} alt="Packaging Design Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapeBlueIcon} alt="Shape Blue Icon" layout="raw" />
                   </s.iconOverlay>
@@ -109,10 +108,9 @@ const SectionServiceBoxes = () => {
                 <s.partItem className="textPart">
                     <s.boxHeading>Video & Animation</s.boxHeading>
                     <s.textPart>Push your business to the success road with the help of our talented UI/UX designers. We consider our customer’s specifications in our work.</s.textPart>
-                    
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={uiUxIcon} alt="UI UX Design Icon" layout="raw" />
+                  <Image src={videoAnimationIcon} alt="Video & Animation Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapePurpleIcon} alt="Shape Purple Icon" layout="raw" />
                   </s.iconOverlay>

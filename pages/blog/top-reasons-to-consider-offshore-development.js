@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { Col, Container, Row } from 'react-bootstrap';
 import Blog from '../../components/Blog';
 import * as s from "../../styles/components/SingleBlog.style";
-import singleBlogBannerThumb from '../../public/images/blogs/main-banner-4.jpg';
+import TopResonsOffshireDevelopment  from '../../public/images/blogs/Top-Reasons-to-consider-offshore-development.jpg';
 import Head from 'next/head';
 import { data } from "../../data/Seo";
 
@@ -26,7 +26,7 @@ const SingleBlog = () => {
                 <span className='blog-date'>September 01, 2020</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
-                <Image src={singleBlogBannerThumb} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/>
+                <Image src={TopResonsOffshireDevelopment} alt="Top Reasons to consider offshore development" className='imgwith-boxshadow' layout="raw"/>
               </Col>
               <s.BlogContentWrapper>
                 <p>The internet has made the whole world a tightly knit entity. The emergence of natural communication enablers like file sharing, desktop sharing, video conferences, etc. has further eased the working without bothering about geographical boundaries. For any business, inviting the experts and giving them a place to work and stay is not budget-friendly always. So, they resort to the idea of offshore development. Listed here are the other best reasons, apart from cost-effectiveness, that form the premise of adopting offshore development.</p>

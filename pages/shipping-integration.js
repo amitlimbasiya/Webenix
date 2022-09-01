@@ -26,7 +26,7 @@ const SHIPPINGINTEGRATION = () => {
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
         PageBannerImageHeight="250px"
-        PageBannerImage="/images/shipping-Integration-icon.svg"
+        PageBannerImage="/images/f-shipping-integration-icon.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section noiseBg"

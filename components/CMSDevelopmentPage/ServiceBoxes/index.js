@@ -1,13 +1,8 @@
 import React from "react";
-import Link from 'next/link'
 import Image from 'next/image';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleRight} from '@fortawesome/free-solid-svg-icons';
 import { Container, Row, Col } from "react-bootstrap";
 import * as s from "../../../styles/components/CMSDevelopmentPage/SectionServicesBoxes.style";
-import webDevelopmentIcon from '../../../public/images/web-development-icon.svg';
-import eCommerceIcon from '../../../public/images/eCommerce-icon.svg';
-import webFlowIcon from '../../../public/images/webFlowIcon.svg';
+import webFlowIcon from '../../../public/images/f-web-flow-icon.svg';
 import shapePinkIcon from '../../../public/images/cmsDevelopment/shapePink.svg';
 import shapeOrangeIcon from '../../../public/images/cmsDevelopment/shapeOrange.svg';
 import shapeYellowIcon from '../../../public/images/cmsDevelopment/shapeYellow.svg';
@@ -16,9 +11,8 @@ import shapeBlueIcon from '../../../public/images/cmsDevelopment/shapeBlue.svg';
 import shapePurpleIcon from '../../../public/images/cmsDevelopment/shapePurple.svg';
 import mobileAppDesignIcon from '../../../public/images/mobile-app-design-icon.svg';
 import backendDevelopmentIcon from '../../../public/images/backend-development-icon.svg';
-import frontEndDevelopmentIcon from '../../../public/images/front-end-development-icon.svg';
-import wordpressIcon from '../../../public/images/wordpress-icon.svg';
-import HubspotIcon from '../../../public/images/hubspot-icon.svg';
+import wordpressDevIcon from '../../../public/images/f-wordpress-icon.svg';
+import hubspotIcon from '../../../public/images/f-hubspot-icon.svg';
 import PSDWordPressIcon from '../../../public/images/PSDWordPressIcon.svg';
 
 const SectionServiceBoxes = () => {
@@ -43,7 +37,7 @@ const SectionServiceBoxes = () => {
                     
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={wordpressIcon} alt="WordPress Development Icon" layout="raw" />
+                  <Image src={wordpressDevIcon} alt="WordPress Development Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapePinkIcon} alt="Shape Pink Icon" layout="raw" />
                   </s.iconOverlay>
@@ -58,7 +52,7 @@ const SectionServiceBoxes = () => {
                     
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={HubspotIcon} alt="Hubspot Development Icon" layout="raw" />
+                  <Image src={hubspotIcon} alt="Hubspot Development Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapeBlueIcon} alt="Shape Orange Icon" layout="raw" />
                   </s.iconOverlay>

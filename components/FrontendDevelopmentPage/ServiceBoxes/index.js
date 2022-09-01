@@ -9,9 +9,9 @@ import shapePastelPink from '../../../public/images/frontendDevelopment/shapePas
 import shapeMorningGloryIcon from '../../../public/images/frontendDevelopment/shapeMorningGlory.svg';
 import backendDevelopmentIcon from '../../../public/images/backend-development-icon.svg';
 import javascriptIcon from '../../../public/images/frontendDevelopment/javascriptIcon.svg';
-import angularIcon from '../../../public/images/angular-icon.svg';
-import UIUXIcon from '../../../public/images/frontendDevelopment/uiux-banner.svg';
-import ReactJSIcon from '../../../public/images/frontendDevelopment/ReactJS-Icon.svg';
+import angularIcon from '../../../public/images/f-angular-icon.svg';
+import uiUxIcon from '../../../public/images/f-UIUX-Design.svg';
+import ReactJSIcon from '../../../public/images/f-reactJS-big-Icon.svg';
 import vueJsIcon from '../../../public/images/frontendDevelopment/vueJs.svg';
 
 const SectionServiceBoxes = () => {
@@ -51,7 +51,7 @@ const SectionServiceBoxes = () => {
                     
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={UIUXIcon} alt="UIUX Icon" layout="raw" />
+                  <Image src={uiUxIcon} alt="UIUX Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapePastelPink} alt="Shape Orange Icon" layout="raw" />
                   </s.iconOverlay>

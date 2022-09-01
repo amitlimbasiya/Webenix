@@ -1,18 +1,16 @@
 import React from "react";
-import Link from 'next/link'
 import Image from 'next/image';
 import { Container, Row, Col } from "react-bootstrap";
 import * as s from "../../../styles/components/UIUXDesignPage/SectionServicesBoxes.style";
-import PageBannerImg from "../../../public/images/front-end-development-icon.svg";
-import responsiveIcon from "../../../public/images/responsive-icon.svg";
-import mobileAppIcon from "../../../public/images/mobile-app-design-icon.svg";
-import psdIcon from "../../../public/images/psd-html-icon.svg";
 import prototypeIcon from "../../../public/images/design-prototype-banner-icon.svg";
 import shapePinkIcon from '../../../public/images/uiuxDesign/shapePink.svg';
 import shapeOrangeIcon from '../../../public/images/uiuxDesign/shapeOrange.svg';
 import shapeYellowIcon from '../../../public/images/uiuxDesign/shapeYellow.svg';
 import shapeGreenIcon from '../../../public/images/uiuxDesign/shapeGreen.svg';
-import websiteDesignIcon from '../../../public/images/website-design-icon.svg';
+import psdHtmlIcon from '../../../public/images/f-psd-html-icon.svg';
+import responsiveIcon from '../../../public/images/f-responsive-icon.svg';
+import mobileAppDesignIcon from '../../../public/images/f-mobile-app-design-icon.svg';
+import webDesignIcon from '../../../public/images/f-Web-Design.svg';
 
 const SectionServiceBoxes = () => {
   return (
@@ -51,7 +49,7 @@ const SectionServiceBoxes = () => {
                     
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={mobileAppIcon} alt="Mobile UI Design Icon" layout="raw" />
+                  <Image src={mobileAppDesignIcon} alt="Mobile UI Design Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapeOrangeIcon} alt="Shape Orange Icon" layout="raw" />
                   </s.iconOverlay>
@@ -66,7 +64,7 @@ const SectionServiceBoxes = () => {
                     
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={psdIcon} alt="PSD to HTML Icon" layout="raw" />
+                  <Image src={psdHtmlIcon} alt="PSD to HTML Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapeYellowIcon} alt="Shape Yellow Icon" layout="raw" />
                   </s.iconOverlay>
@@ -81,7 +79,7 @@ const SectionServiceBoxes = () => {
                     
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={prototypeIcon} alt="Prototype Design Icon" layout="raw" />
+                  <Image src={webDesignIcon} alt="Prototype Design Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapeGreenIcon} alt="Shape Green Icon" layout="raw" />
                   </s.iconOverlay>

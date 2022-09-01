@@ -26,7 +26,7 @@ const BACKENDDEVELOPMENT = () => {
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
         PageBannerImageHeight="250px"
-        PageBannerImage="/images/codeIcon.svg"
+        PageBannerImage="/images/f-Back-End-Developer.svg"
       />
       <SectionIntro 
         SectionIntroclassName="introuction-section separatorPart noiseBg"

@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { Col, Container, Row } from 'react-bootstrap';
 import Blog from '../../components/Blog';
 import * as s from "../../styles/components/SingleBlog.style";
-import singleBlogBannerThumb from '../../public/images/blogs/main-banner-1.jpg';
+import FindOutsourcingPartner from '../../public/images/blogs/How-Shoulds-I-Find-the-Right-Outsourcing-Partner-in-India.jpg';
 import Head from 'next/head';
 import { data } from "../../data/Seo";
 
@@ -26,7 +26,7 @@ const SingleBlog = () => {
                 <span className='blog-date'>September 22, 2020</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
-                <Image src={singleBlogBannerThumb} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/>
+                <Image src={FindOutsourcingPartner} alt="How Shoulds I Find the Right Outsourcing Partner in India?" className='imgwith-boxshadow' layout="raw"/>
               </Col>
               <s.BlogContentWrapper>
                 <p>For today&#39;s dynamic market, outsourcing is a boon and a blessing in disguise for every business. And since businesses today are dependent and look forward to expanding their business through outsourcing, it is crucial to choose the right outsourcing partner from India who can aid in the yielding of the best possible dividends. And even then, choosing the right outsourcing partner is the most daunting task that most organizations and companies face today.</p>

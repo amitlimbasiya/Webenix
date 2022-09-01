@@ -32,7 +32,7 @@ export const aboutCompany  = styled.div`
             background-image: url(../images/about-dots.svg);
             background-repeat: no-repeat;
             z-index: 2;
-            opacity: 0.4;
+            opacity: 0.25;
             background-size: contain;
             background-position: right;
 

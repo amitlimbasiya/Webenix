@@ -1,9 +1,7 @@
 import React from "react";
-import Link from 'next/link'
 import Image from 'next/image';
 import { Container, Row, Col } from "react-bootstrap";
 import * as s from "../../../styles/components/BackendDevelopmentPage/SectionServicesBoxes.style";
-import keyIcon from '../../../public/images/key.svg';
 import shapePurpleIcon from '../../../public/images/backendDevelopment/shapePurple.svg';
 import shapeGreenIcon from '../../../public/images/backendDevelopment/shapeGreen.svg';
 import shapePastelPink from '../../../public/images/backendDevelopment/shapePastelPink.svg';
@@ -11,6 +9,7 @@ import shapeMorningGloryIcon from '../../../public/images/backendDevelopment/sha
 import mobileAppDesignIcon from '../../../public/images/mobile-app-design-icon.svg';
 import backendDevelopmentIcon from '../../../public/images/backend-development-icon.svg';
 import fullStackIcon from '../../../public/images/full-stack-icon.svg';
+import thirdPartyAPIntegrationIcon from '../../../public/images/f-Third-Party-Integration-icon.svg';
 
 const SectionServiceBoxes = () => {
   return (
@@ -64,7 +63,7 @@ const SectionServiceBoxes = () => {
                     
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={keyIcon} alt="Third Party API Integration Icon" layout="raw" />
+                  <Image src={thirdPartyAPIntegrationIcon} alt="Third Party API Integration Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapeMorningGloryIcon} alt="Shape Yellow Icon" layout="raw" />
                   </s.iconOverlay>

@@ -17,7 +17,7 @@ const GRAPHICSDESIGN = () => {
     const services = [
         {
           ServiceBoxClass:"greenlightPart",
-          ServiceIcon:"/images/front-end-development-icon.svg",
+          ServiceIcon:"/images/f-logo-design-icon.svg",
           ServiceIconHeight:"90px",
           ServiceIconWidth:"90px",
           ServiceSvgShape:'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 154.69 179.26"><defs></defs><g className="cls-1"><g id="Layer_1" data-name="Layer 1"><path className="cls-2" d="M191.8,262.85c-20.53,1.32-32.31-45-41.43-53.19-17.88-16.12-54.46-22.79-33.83-42.63,9.54-9.18,27.16-20.29,34.64-27.5C166.3,125,155,88.11,175.64,84.06s30.14,20.79,45.89,32.51c10.44,7.76,23.57,9,34.84,14.72,7.76,3.9,12.35,15.13,5.08,22.7C216.45,200.85,226.61,260.61,191.8,262.85Z" transform="translate(-110.41 -83.62)"/></g></g></svg>',
@@ -25,7 +25,7 @@ const GRAPHICSDESIGN = () => {
         },
         {
           ServiceBoxClass:"redPart",
-          ServiceIcon:"/images/about-icon.svg",
+          ServiceIcon:"/images/f-stationery-design-icon.svg",
           ServiceIconHeight:"90px",
           ServiceIconWidth:"90px",
           ServiceSvgShape:'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 165.51 145.95"><g className="cls-1"><g id="Layer_1" data-name="Layer 1"><path className="cls-2" d="M85.19,343.65c-33.57,51.44,30.58,75.1,71.14,75.1,39.9,0,85-15.05,85-61.3C241.31,238.4,142.82,255.38,85.19,343.65Z" transform="translate(-75.8 -272.8)"/></g></g></svg>',
@@ -98,7 +98,7 @@ const GRAPHICSDESIGN = () => {
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
         PageBannerImageHeight="250px"
-        PageBannerImage="/images/web-development-icon.svg"
+        PageBannerImage="/images/f-Graphics-Design.svg"
       />
       <SectionIntro 
         SectionIntroclassName="introuction-section separatorPart"

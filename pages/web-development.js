@@ -25,7 +25,7 @@ const WEBDEVELOPMENT = () => {
         PageBannerBtnText="Know More"
         PageBannerImageWidth="280px"
         PageBannerImageHeight="250px"
-        PageBannerImage="/images/codeIcon.svg"
+        PageBannerImage="/images/f-Web-Development.svg"
       />
       <SectionIntro 
         SectionIntroclassName="introuction-section separatorPart noiseBg"

@@ -4,9 +4,9 @@ import Image from 'next/image';
 import router from "../../utils/router";
 import { Col, Container, Row } from 'react-bootstrap';
 import * as s from "../../styles/components/blog.style";
-import phpBlog from '../../public/images/php-blog.png';
-import reactBlog from '../../public/images/react-blog.png';
-import optimizeBlog from '../../public/images/optimize-blog.png';
+import WaysUEISABSER  from '../../public/images/blogs/The-ways-to-utilize-an-effective-outsourcing-strategy-and-achieve-business-success-by-eliminating-the-risks.jpg';
+import TopResonsOffshireDevelopment  from '../../public/images/blogs/Top-Reasons-to-consider-offshore-development.jpg'; 
+import ComparisonBetweenFixedPrice  from '../../public/images/blogs/A-comparison-between-fixed-price-and-time-and-material-contract.jpg';
 
 const Blog = () => {
     return (
@@ -39,7 +39,7 @@ const Blog = () => {
                                 <Link href={router.SINGLEBLOG25}>
                                     <a>
                                         <s.blogImage>
-                                            <Image src={phpBlog} alt="Php Blog" layout='raw' />
+                                            <Image src={WaysUEISABSER} alt="The ways to utilize an effective outsourcing strategy and achieve business success by eliminating the risks"  />
                                         </s.blogImage>
                                     </a>
                                 </Link>
@@ -59,7 +59,7 @@ const Blog = () => {
                                 <Link href={router.SINGLEBLOG21}>
                                     <a>
                                         <s.blogImage>
-                                            <Image src={optimizeBlog} alt="Optimize Blog" layout='raw' />
+                                            <Image src={TopResonsOffshireDevelopment} alt="Top Reasons to consider offshore development"  />
                                         </s.blogImage>
                                     </a>
                                 </Link>
@@ -77,7 +77,7 @@ const Blog = () => {
                                 <Link href={router.SINGLEBLOG19}>
                                     <a>
                                         <s.blogImage>
-                                            <Image src={reactBlog} alt="React Blog" layout='raw'/>
+                                            <Image src={ComparisonBetweenFixedPrice} alt="A comparison between fixed price and time and material contract" />
                                         </s.blogImage>
                                     </a>
                                 </Link>

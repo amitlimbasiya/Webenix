@@ -26,7 +26,7 @@ const FRONTENDDEVELOPMENT = () => {
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
         PageBannerImageHeight="250px"
-        PageBannerImage="/images/frontendDevelopment/frontend-banner-icon.svg"
+        PageBannerImage="/images/f-Front-End-Developer.svg"
       />
       <SectionIntro 
         SectionIntroclassName="introuction-section separatorPart noiseBg"

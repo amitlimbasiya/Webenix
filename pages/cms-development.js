@@ -26,7 +26,7 @@ const CMSDEVELOPMENT = () => {
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
         PageBannerImageHeight="250px"
-        PageBannerImage="/images/cms-icon.svg"
+        PageBannerImage="/images/f-CMS-Development.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"

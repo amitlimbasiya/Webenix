@@ -25,7 +25,7 @@ const PGI = () => {
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
         PageBannerImageHeight="250px"
-        PageBannerImage="/images/payment-gatway-integration-icon.svg"
+        PageBannerImage="/images/f-payment-gateway-integration-icon.svg"
       />
       <SectionIntro 
         SectionIntroclassName="introuction-section noiseBg"

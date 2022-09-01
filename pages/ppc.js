@@ -26,7 +26,7 @@ const PPC = () => {
           PageBannerBtnLink="#"
           PageBannerImageWidth="280px"
           PageBannerImageHeight="250px"
-          PageBannerImage="/images/ppc-icon.svg"
+          PageBannerImage="/images/f-PPC.svg"
         />
       <SectionIntro 
         SectionIntroclassName="introuction-section separatorPart noiseBg"

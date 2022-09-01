@@ -6,8 +6,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 import * as s from "../../styles/components/BlogListing/BlogListing.style";
-import phpBlog from '../../public/images/php-blog.png';
-
 import WhyWPWebsite from '../../public/images/blogs/why-necessary.jpg';
 import WPAutomation from '../../public/images/blogs/wordpress-automation.jpg';
 import Topprediction from '../../public/images/blogs/predictions-facebook.jpg';
@@ -15,7 +13,23 @@ import TopThings from '../../public/images/blogs/top-things-landing-page.jpg';
 import TopAdvcanced from '../../public/images/blogs/seo-techniques.jpg';
 import Bestb2b from '../../public/images/blogs/best-b2b-marketing.jpg';
 import LkedinMarketing from '../../public/images/blogs/linkedin-marketing.jpg';
-
+import ManagedWP from '../../public/images/blogs/Is-managed-WordPress-hosting-worth-the-extra-price.jpg';
+import WebAgenciesProductionCost from '../../public/images/blogs/How-Web-Agencies-can-reduce-production-cost-in-2021.jpg';
+import SEOChange from '../../public/images/blogs/How-Will-SEO-Change-in-2021.jpg';
+import MotivateRemoteSoftwareTeam from '../../public/images/blogs/How-to-motivate-and-engage-a-remote-software-team.jpg';
+import AvoidCulturalOutSourcing from '../../public/images/blogs/How-to-avoid-cultural-pitfalls-in-outsourcing.jpg';
+import WpSpeedOptimize from '../../public/images/blogs/How-to-speed-optimize-WordPress-website.jpg';
+import SecureWordPressSite from '../../public/images/blogs/How-to-secure-WordPress-site.jpg';
+import KeepWordPressSiteUpdated from '../../public/images/blogs/How-to-keep-your-WordPress-website-updated.jpg';
+import TenWpWebsite from '../../public/images/blogs/Ten-plugins-you-must-have-for-your-WordPress-website.jpg';
+import MakeVirtualEmployeesProductive from '../../public/images/blogs/How-to-Make-Virtual-Employees-Productive.jpg';
+import FindOutsourcingPartner from '../../public/images/blogs/How-Shoulds-I-Find-the-Right-Outsourcing-Partner-in-India.jpg';
+import ComparisonBetweenFixedPrice  from '../../public/images/blogs/A-comparison-between-fixed-price-and-time-and-material-contract.jpg';
+import TimeConsiderOutsourcing  from '../../public/images/blogs/7-Signs-its-time-to-Consider-Outsourcing.jpg';
+import TopResonsOffshireDevelopment  from '../../public/images/blogs/Top-Reasons-to-consider-offshore-development.jpg';
+import OffshoreDevelopment  from '../../public/images/blogs/Offshore-development-best-practices-to-know-about.jpg';
+import LeadingTrendsKnowAbout  from '../../public/images/blogs/Leading-offshore-development-trends-to-know-about.jpg';
+import WaysUEISABSER  from '../../public/images/blogs/The-ways-to-utilize-an-effective-outsourcing-strategy-and-achieve-business-success-by-eliminating-the-risks.jpg';
 
 import router from "../../utils/router";
  
@@ -54,7 +68,7 @@ const BlogListings = (props) => {
             <Link href={router.SINGLEBLOG25}>
                 <a>
                     <s.blogImage>
-                        <Image src={phpBlog} alt="Php Blog" layout='raw' />
+                        <Image src={WaysUEISABSER} alt="The ways to utilize an effective outsourcing strategy and achieve business success by eliminating the risks" layout='raw' />
                         <div className='datePart'>AUGUST 03, 2020</div>
                     </s.blogImage>
                 </a>
@@ -70,7 +84,7 @@ const BlogListings = (props) => {
             <Link href={router.SINGLEBLOG21}>
                 <a>
                     <s.blogImage>
-                        <Image src={phpBlog} alt="Php Blog" layout='raw' />
+                        <Image src={TopResonsOffshireDevelopment} alt="Top Reasons to consider offshore development" layout='raw' />
                         <div className='datePart'>SEPTEMBER 01, 2020</div>
                     </s.blogImage>
                 </a>
@@ -86,7 +100,7 @@ const BlogListings = (props) => {
             <Link href={router.SINGLEBLOG19}>
                 <a>
                     <s.blogImage>
-                        <Image src={phpBlog} alt="Php Blog" layout='raw' />
+                        <Image src={ComparisonBetweenFixedPrice} alt="A comparison between fixed price and time and material contract" layout='raw' />
                         <div className='datePart'>SEPTEMBER 22, 2020</div>
                     </s.blogImage>
                 </a>
@@ -154,7 +168,7 @@ const BlogListings = (props) => {
                     </s.blogItem> 
                     <s.blogItem className='blogItem seo'>
                         <Link href={router.SINGLEBLOG5}>
-                            <a><s.blogImage><Image src={TopAdvcanced} alt="Php Blog" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image src={TopAdvcanced} alt="Top Advanced SEO Techniques to Maximize Your Search Traffic" layout='raw'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>SEO</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -166,7 +180,7 @@ const BlogListings = (props) => {
                     </s.blogItem>  
                     <s.blogItem className='blogItem marketing'>
                         <Link href={router.SINGLEBLOG6}>
-                            <a><s.blogImage><Image src={Bestb2b} alt="Php Blog" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image src={Bestb2b} alt="The Best B2B Marketing Strategies to Increase Leads" layout='raw'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>Marketing</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -178,7 +192,7 @@ const BlogListings = (props) => {
                     </s.blogItem>
                     <s.blogItem className='blogItem marketing'>
                         <Link href={router.SINGLEBLOG7}>
-                            <a><s.blogImage><Image src={LkedinMarketing} alt="Php Blog" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image src={LkedinMarketing} alt="LinkedIn Marketing Best Strategies for 2021" layout='raw'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>Marketing</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -190,7 +204,7 @@ const BlogListings = (props) => {
                     </s.blogItem>  
                     <s.blogItem className='blogItem wordpress'>
                         <Link href={router.SINGLEBLOG8}>
-                            <a><s.blogImage><Image src={phpBlog} alt="Php Blog" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image src={ManagedWP} alt="Is managed WordPress hosting worth the extra price?" layout='raw'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>WORDPRESS</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -202,7 +216,7 @@ const BlogListings = (props) => {
                     </s.blogItem>
                     <s.blogItem className='blogItem seo'>
                         <Link href={router.SINGLEBLOG9}>
-                            <a><s.blogImage><Image src={phpBlog} alt="Php Blog" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image src={SEOChange} alt="How Will SEO Change in 2021?" layout='raw'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>SEO</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -214,7 +228,7 @@ const BlogListings = (props) => {
                     </s.blogItem>    
                     <s.blogItem className='blogItem outsourcing'>
                         <Link href={router.SINGLEBLOG10}>
-                            <a><s.blogImage><Image src={phpBlog} alt="Php Blog" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image src={WebAgenciesProductionCost} alt="How Web Agencies can reduce production cost in 2021?" layout='raw'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>OUTSOURCING</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -226,7 +240,7 @@ const BlogListings = (props) => {
                     </s.blogItem>           
                     <s.blogItem className='blogItem outsourcing'>
                         <Link href={router.SINGLEBLOG11}>
-                            <a><s.blogImage><Image src={phpBlog} alt="Php Blog" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image src={MotivateRemoteSoftwareTeam} alt="How to motivate and engage a remote software team?" layout='raw'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>OUTSOURCING</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -238,7 +252,7 @@ const BlogListings = (props) => {
                     </s.blogItem>     
                     <s.blogItem className='blogItem outsourcing'>
                         <Link href={router.SINGLEBLOG12}>
-                            <a><s.blogImage><Image src={phpBlog} alt="Php Blog" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image src={AvoidCulturalOutSourcing} alt="How to avoid cultural pitfalls in outsourcing?" layout='raw'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>OUTSOURCING</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -250,7 +264,7 @@ const BlogListings = (props) => {
                     </s.blogItem>   
                     <s.blogItem className='blogItem wordpress'>
                         <Link href={router.SINGLEBLOG13}>
-                            <a><s.blogImage><Image src={phpBlog} alt="Php Blog" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image src={WpSpeedOptimize} alt="How to speed optimize WordPress website?" layout='raw'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>WordPress</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -262,7 +276,7 @@ const BlogListings = (props) => {
                     </s.blogItem>   
                     <s.blogItem className='blogItem wordpress'>
                         <Link href={router.SINGLEBLOG14}>
-                            <a><s.blogImage><Image src={phpBlog} alt="Php Blog" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image src={SecureWordPressSite} alt="How to secure WordPress site?" layout='raw'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>WordPress</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -274,7 +288,7 @@ const BlogListings = (props) => {
                     </s.blogItem> 
                     <s.blogItem className='blogItem wordpress'>
                         <Link href={router.SINGLEBLOG15}>
-                            <a><s.blogImage><Image src={phpBlog} alt="Php Blog" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image src={KeepWordPressSiteUpdated} alt="How to keep your WordPress website updated?" layout='raw'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>WordPress</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -286,7 +300,7 @@ const BlogListings = (props) => {
                     </s.blogItem>    
                     <s.blogItem className='blogItem wordpress'>
                         <Link href={router.SINGLEBLOG16}>
-                            <a><s.blogImage><Image src={phpBlog} alt="Php Blog" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image src={TenWpWebsite} alt="Ten plugins you must-have for your WordPress website" layout='raw'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>WordPress</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -298,7 +312,7 @@ const BlogListings = (props) => {
                     </s.blogItem>    
                     <s.blogItem className='blogItem outsourcing'>
                         <Link href={router.SINGLEBLOG17}>
-                            <a><s.blogImage><Image src={phpBlog} alt="Php Blog" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image src={MakeVirtualEmployeesProductive} alt="How to Make Virtual Employees Productive?" layout='raw'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>Outsourcing</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -310,7 +324,7 @@ const BlogListings = (props) => {
                     </s.blogItem>  
                     <s.blogItem className='blogItem outsourcing'>
                         <Link href={router.SINGLEBLOG18}>
-                            <a><s.blogImage><Image src={phpBlog} alt="Php Blog" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image src={FindOutsourcingPartner} alt="How Shoulds I Find the Right Outsourcing Partner in India?" layout='raw'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>OUTSOURCING</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -322,7 +336,7 @@ const BlogListings = (props) => {
                     </s.blogItem> 
                     <s.blogItem className='blogItem outsourcing'>
                         <Link href={router.SINGLEBLOG19}>
-                            <a><s.blogImage><Image src={phpBlog} alt="Php Blog" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image src={ComparisonBetweenFixedPrice} alt="A comparison between fixed price and time and material contract" layout='raw'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>OUTSOURCING</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -334,7 +348,7 @@ const BlogListings = (props) => {
                     </s.blogItem>     
                     <s.blogItem className='blogItem outsourcing'>
                         <Link href={router.SINGLEBLOG20}>
-                            <a><s.blogImage><Image src={phpBlog} alt="Php Blog" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image src={TimeConsiderOutsourcing} alt="7 Signs its time to Consider Outsourcing" layout='raw'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>OUTSOURCING</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -346,7 +360,7 @@ const BlogListings = (props) => {
                     </s.blogItem> 
                     <s.blogItem className='blogItem development'>
                         <Link href={router.SINGLEBLOG21}>
-                            <a><s.blogImage><Image src={phpBlog} alt="Php Blog" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image src={TopResonsOffshireDevelopment} alt="Top Reasons to consider offshore development" layout='raw'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>Development</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -357,8 +371,20 @@ const BlogListings = (props) => {
                         <div className='datePart'>September 01, 2020</div>
                     </s.blogItem>
                     <s.blogItem className='blogItem development'>
+                        <Link href={router.SINGLEBLOG22}>
+                            <a><s.blogImage><Image src={TopResonsOffshireDevelopment} alt="onshore-vs-offshore-development-which-is-better" layout='raw'/></s.blogImage></a>
+                        </Link>
+                        <s.blogCategory className='orangeColor'>Development</s.blogCategory>
+                        <s.blogTitle className='postHeading'>
+                            <Link href={router.SINGLEBLOG22}><a>onshore-vs-offshore-development-which-is-better</a></Link>
+                        </s.blogTitle>
+                        <p>Offshore development used to be the monopoly of India and China until quite recently. The picture is changing with various other countries like Malaysia and Eastern European nations joining the bandwagon. The growing demand for offshore development does leave the people curious about the reason behind it. Also, the trend and future of onshore development require scrutiny in light of the companies' changing attitudes. So, let's take a comparative look at offshore and onshore development and arrive at a conclusion.</p>
+                        <Link href={router.SINGLEBLOG22}><a className='blogLink'>Let&#39;s Read</a></Link>
+                        <div className='datePart'>August 24, 2020</div>
+                    </s.blogItem>
+                    <s.blogItem className='blogItem development'>
                         <Link href={router.SINGLEBLOG23}>
-                            <a><s.blogImage><Image src={phpBlog} alt="Php Blog" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image src={OffshoreDevelopment} alt="Offshore development best practices to know about" layout='raw'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>Development</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -370,7 +396,7 @@ const BlogListings = (props) => {
                     </s.blogItem>
                     <s.blogItem className='blogItem development'>
                         <Link href={router.SINGLEBLOG24}>
-                            <a><s.blogImage><Image src={phpBlog} alt="Php Blog" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image src={LeadingTrendsKnowAbout} alt="Leading offshore development trends to know about" layout='raw'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>Development</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -382,7 +408,7 @@ const BlogListings = (props) => {
                     </s.blogItem>
                     <s.blogItem className='blogItem outsourcing'>
                         <Link href={router.SINGLEBLOG25}>
-                            <a><s.blogImage><Image src={phpBlog} alt="Php Blog" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image src={WaysUEISABSER} alt="The ways to utilize an effective outsourcing strategy and achieve business success by eliminating the risks" layout='raw'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>outsourcing</s.blogCategory>
                         <s.blogTitle className='postHeading'>

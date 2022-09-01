@@ -8,8 +8,9 @@ import backendDevelopmentIcon from '../../../public/images/backend-development-i
 import uiUxIcon from '../../../public/images/ui-ux-icon.svg';
 import shapePastelPinkIcon from '../../../public/images/mvpDevelopment/shapePastelPink.svg';
 import shapePurpleIcon from '../../../public/images/mvpDevelopment/shapePurple.svg';
-import mobileAppIcon from '../../../public/images/mobile-app-design-icon.svg';
+import mobileAppDesignIcon from '../../../public/images/f-Mobile-App-Design.svg';
 import frontendIcon from '../../../public/images/front-end-development-icon.svg';
+import BackEndDevelopmentIcon from '../../../public/images/f-Back-End-Developer.svg';
 
 const SectionServiceBoxes = () => {
   return (
@@ -33,7 +34,7 @@ const SectionServiceBoxes = () => {
                     
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={mobileAppIcon} alt="UI UX Design Icon" layout="raw" />
+                  <Image src={mobileAppDesignIcon} alt="Mobile App Design Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapePurpleIcon} alt="Shape Purple Icon" layout="raw" />
                   </s.iconOverlay>
@@ -48,7 +49,7 @@ const SectionServiceBoxes = () => {
                     
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={backendDevelopmentIcon} alt="Backend Development Icon" layout="raw" />
+                  <Image src={backendDevelopmentIcon} alt="Web App Development Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapeGreenIcon} alt="Shape Blue Icon" layout="raw" />
                   </s.iconOverlay>
@@ -63,7 +64,7 @@ const SectionServiceBoxes = () => {
                     
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={uiUxIcon} alt="UI UX Design Icon" layout="raw" />
+                  <Image src={BackEndDevelopmentIcon} alt="Backend Development Design Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapePastelPinkIcon} alt="Shape Purple Icon" layout="raw" />
                   </s.iconOverlay>

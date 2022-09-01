@@ -26,7 +26,7 @@ const SMO = () => {
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
         PageBannerImageHeight="250px"
-        PageBannerImage="/images/smo/bannerIcon.svg"
+        PageBannerImage="/images/f-SMO.svg"
       />
       <SectionIntro 
         SectionIntroclassName="introuction-section separatorPart noiseBg"

@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { Col, Container, Row } from 'react-bootstrap';
 import Blog from '../../components/Blog';
 import * as s from "../../styles/components/SingleBlog.style";
-import singleBlogBannerThumb from '../../public/images/blogs/reduce-production-cost.jpg';
+import WebAgenciesProductionCost from '../../public/images/blogs/How-Web-Agencies-can-reduce-production-cost-in-2021.jpg';
 import Head from 'next/head';
 import { data } from "../../data/Seo";
 
@@ -26,17 +26,17 @@ const SingleBlog = () => {
                 <span className='blog-date'>June 05, 2021</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
-                <Image src={singleBlogBannerThumb} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/>
+                <Image src={WebAgenciesProductionCost} alt="How Web Agencies can reduce production cost in 2021?" className='imgwith-boxshadow' layout="raw"/>
               </Col>
               <s.BlogContentWrapper>
                 <p>If you are planning to take your company online, you will have to develop a website for your business enterprise that does justice to your firm&#39;s products and services. Designing a website requires expertise, and hence, you should outsource your requirements to a reputed web agency. This will ensure that the website for your company is both professionally designed and meets all your needs. Additionally, the website must be designed so that it is easy to navigate and your visitors can easily find the web pages they are looking for. The website itself should be informative so that the visitor can easily find the information that he needs. Thus, a well-designed website, which is easy to navigate, is essential if you want to create an excellent website that can translate into a practical online marketing strategy. Some of the methods by which web agencies are offering to reduce the price of developing a website for client&#39;s, especially for the year 2021, are as follows:</p>                
               </s.BlogContentWrapper>
               <s.BlogContentWrapper>
-                <h3>Try to use a pre-existing template.</h3>
+                <h3>1. Try to use a pre-existing template.</h3>
                 <p>The year 2021 will see an increase in the number of companies entering the eCommerce market. Hence, the requirement for creating websites that are designed to meet the changing needs of customers will increase in the upcoming year. One of the methods by which web designing agencies help clients reduce is by using pre-existing templates. Websites have to be developed based on templates. But if you use a pre-existing template, you will not have to pay again for the template. For example, if you have a grocery store and want to take your store online, you can ask the web agency to create a website based on a pre-existing template for online grocery stores. Some of the templates are also available free of charge, and web designing agencies have access to a significant number of these free templates. They can easily use one of these templates to create a website for your company. Creating a new template can increase the cost of developing a website significantly. But if you use a pre-existing template and make some changes to it to meet your requirements, you will have a brand new website and a much lower cost.</p>
               </s.BlogContentWrapper>
               <s.BlogContentWrapper>
-                <h3>Keep the number of web pages to the minimum and the content simple.</h3>
+                <h3>2. Keep the number of web pages to the minimum and the content simple.</h3>
                 <p>The length of your website will increase the cost of developing it. In other words, if you keep adding web pages to your website, it will keep increasing the cost of producing the website. Hence, it is essential to keep the number of web pages on your website to the minimum. However, that does not mean you will not provide the visitor&#39;s necessary information through your website. You will have to keep the number of web pages to the minimum while ensuring that all the information is provided. Some of the methods by which you can confirm it are as follows:</p>
                 <ul className='blog-listing'>
                   <li>Keep the content on your website simple, precise, and informative. Unnecessary content will increase the number of web pages without providing the clients with any new information. Moreover, the higher the number of web pages more significant will be the cost, and hence, by keeping the number of web pages to the minimum, you can reduce the cost of developing a website.</li>
@@ -47,16 +47,16 @@ const SingleBlog = () => {
                 <p>Thus, by ensuring that your company&#39;s website is designed to make it easy to navigate and provides all the necessary information to the clients, you will create a website that is not too expensive to develop. At the same time, it will also be an excellent marketing strategy as your company&#39;s website is the online interface between you and your prospective clients.</p>
               </s.BlogContentWrapper>
               <s.BlogContentWrapper>
-                <h3>Choose to use free images.</h3>
+                <h3>3. Choose to use free images.</h3>
                 <p>While designing a website, it is necessary to use images, and you should select ones that are available free of charge. Usually, pictures can prove quite expensive, and purchasing these can increase the website&#39;s cost. Therefore, when you hire a web developing agency to create a website for your company, you should discuss with the executives the images they will use on the website. You can ask them to use images that are available online free of charge and are relevant to the products and services offered by your firm. This can reduce the cost of developing a website significantly. Sometimes it is a good idea to take some pictures on your own. This will help you bypass any copyright infringement, and you will have to brand new images that can be used on the website.</p>
                 <p>Similarly, the videos and screenshots that you use on the website should be developed in-house. Web development agencies often prefer that the clients provide these materials. Once you supply the relevant materials, they can carry out the necessary editing work and place it on the website. The screenshots you provide should be relevant to your company, and hence, it is best that you create these and not download them from the internet. This will not just reduce the production cost for developing a website, but at the same time provide you images that are entirely new and relevant to your company.</p>
               </s.BlogContentWrapper>
               <s.BlogContentWrapper>
-                <h3>Work with the web agency to help reduce the overall expense.</h3>
+                <h3>4. Work with the web agency to help reduce the overall expense.</h3>
                 <p>While it is crucial to reduce the cost of developing a website, it is equally important to talk about the expenses you incur to maintain the website. The entire production process begins with developing the website, deploying it, and maintaining the website. Hence, you will have to discuss the cost breakdown with the web agency that you have hired. Additionally, it would be best if you worked with the agency to reduce the overall expense. Sometimes web agencies prefer if the clients take on some work. For example, if you want specific content to be provided on the website, you should develop the content. The web agency will not have the insight you will have into the intricacies of the particular business you run. So if you feel that providing certain content will promote your brand better, discuss it with the executives of the web agency you have hired. After that, consider providing the content yourself. This will reduce the expenses in developing the website significantly and help create a website that is exactly as per your requirements.</p>
               </s.BlogContentWrapper>
               <s.BlogContentWrapper>
-                <h3>Consider developing a website that is SEO managed.</h3>
+                <h3>5. Consider developing a website that is SEO managed.</h3>
                 <p>When you develop a website, you intend to use it as a marketing tool. Hence, you should create a website with proper SEO protocols. This will ensure that your website reaches out to a maximum number of clients and can recover your expenses with ease. Additionally, an SEO managed website is easier to maintain, which brings down the maintenance expenses further. If you have proper SEO protocols in place you will not have to worry about the ranking of your company&#39;s website. You can be assured that your company website will definitely receive a higher ranking in the SERPs. With an SEO driven website, you will not have to worry about changing the website&#39;s; content frequently. All you have to do is upgrade it so that it adheres to the ongoing trends. This will ensure that the cost of developing and maintaining the website is minimized.</p>
                 <p>Thus, by taking simple steps, you can help reduce the cost of developing a website significantly. Web development agencies also try to provide clients with numerous methods that will make it easier for them to consider creating a website and taking their services online. The year 2021 will see a marked increase in the number of eCommerce portals and marketplaces. Hence, creating a website for your company will become necessary if you want to stay ahead of the competition. Keeping this in mind, most web development agencies provide clients with numerous methods to reduce the cost of developing a website and help take their businesses online.</p>
               </s.BlogContentWrapper>

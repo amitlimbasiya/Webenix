@@ -25,7 +25,7 @@ const STARTUPCONSULTING = () => {
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
         PageBannerImageHeight="250px"
-        PageBannerImage="/images/startup-consulting-icon.svg"
+        PageBannerImage="/images/f-startup-consulting.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section noiseBg"

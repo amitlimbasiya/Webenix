@@ -114,9 +114,8 @@ export const blogImage  = styled.div`
     box-shadow: 0 8px 20px rgb(0 0 0 / 8%);
     border: 3px solid #fff;
 
-    img{
-        max-width: 100%;
-        height: auto;
+    span:first-child{
+        display: block !important;
     }
 `;
 export const blogCategory  = styled.p`

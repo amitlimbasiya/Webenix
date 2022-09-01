@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { Col, Container, Row } from 'react-bootstrap';
 import Blog from '../../components/Blog';
 import * as s from "../../styles/components/SingleBlog.style";
-import singleBlogBannerThumb from '../../public/images/blogs/main-banner-6.jpg';
+import OffshoreDevelopment  from '../../public/images/blogs/Offshore-development-best-practices-to-know-about.jpg';
 import Head from 'next/head';
 import { data } from "../../data/Seo";
 
@@ -26,7 +26,7 @@ const SingleBlog = () => {
                 <span className='blog-date'>August 17, 2020</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
-                <Image src={singleBlogBannerThumb} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/>
+                <Image src={OffshoreDevelopment} alt="Offshore development best practices to know about" className='imgwith-boxshadow' layout="raw"/>
               </Col>
               <s.BlogContentWrapper>
                 <p>The arrangement, where team members separated by time-zones and geographical boundaries work together to make a project possible, forms the basis of offshore development. On the one hand, the companies enjoy cost-effective development, and at the other, the workers get to work in a flexible and more autonomous environment. In such a scenario, the need to be more accountable and responsible for the jobs assigned becomes exceptionally prominent. While both parties need to develop more trustworthy work culture, the existence of a code of ethical practices can improve the situation sustainably. Some of the best practices worth following for offshore development are:</p>

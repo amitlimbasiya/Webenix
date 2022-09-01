@@ -26,7 +26,7 @@ const ECOMMERCEDEVELOPMENT = () => {
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
         PageBannerImageHeight="250px"
-        PageBannerImage="/images/mobile-app-design-icon.svg"
+        PageBannerImage="/images/f-Mobile-App-Design.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"
