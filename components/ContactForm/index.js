@@ -17,6 +17,7 @@ const ContactForm = () => {
     const [email, setcontact_email] = useState('');
     const [phone, setcontact_phone] = useState('');
     const [textarea, setcontact_textarea] = useState('');
+    const [statusMessage, setStatusMessage] = useState("");
     const handleChange = event => {
         setcontact_fname(event.target.value);
     };
@@ -60,6 +61,7 @@ const ContactForm = () => {
             setcontact_email('');
             setcontact_phone('');
             setcontact_textarea('');
+            setStatusMessage('Form submitted successfully.');
           }, 1000);
 
 
@@ -151,6 +153,7 @@ const ContactForm = () => {
                     </div> */}
                     
                 </form>
+                <p>{statusMessage}</p>
             </Container>        
         </s.ContactFormWrapper>
     </>
