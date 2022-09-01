@@ -30,6 +30,7 @@ import TopResonsOffshireDevelopment  from '../../public/images/blogs/Top-Reasons
 import OffshoreDevelopment  from '../../public/images/blogs/Offshore-development-best-practices-to-know-about.jpg';
 import LeadingTrendsKnowAbout  from '../../public/images/blogs/Leading-offshore-development-trends-to-know-about.jpg';
 import WaysUEISABSER  from '../../public/images/blogs/The-ways-to-utilize-an-effective-outsourcing-strategy-and-achieve-business-success-by-eliminating-the-risks.jpg';
+import Onshoreoffshore from '../../public/images/blogs/onshore-vs-offshore.jpg';
 
 import router from "../../utils/router";
  
@@ -372,7 +373,7 @@ const BlogListings = (props) => {
                     </s.blogItem>
                     <s.blogItem className='blogItem development'>
                         <Link href={router.SINGLEBLOG22}>
-                            <a><s.blogImage><Image src={TopResonsOffshireDevelopment} alt="onshore-vs-offshore-development-which-is-better" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image src={Onshoreoffshore} alt="onshore-vs-offshore-development-which-is-better" layout='raw'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>Development</s.blogCategory>
                         <s.blogTitle className='postHeading'>
