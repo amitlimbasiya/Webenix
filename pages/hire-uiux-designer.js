@@ -25,9 +25,9 @@ const HIREUIUXDESIGNER = () => {
         PageBannerContent="<p>Create clean and sleek designs that are just eye-opening for your customers that wish to bring devastating changes just by how it looks.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
-        PageBannerImageWidth="280px"
-        PageBannerImageHeight="250px"
-        PageBannerImage="/images/ui-ux-icon.svg"
+        PageBannerImageWidth="600px"
+        PageBannerImageHeight="400px"
+        PageBannerImage="/images/f-hire-UI-UX-Designer.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"

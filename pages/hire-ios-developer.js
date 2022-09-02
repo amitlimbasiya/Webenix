@@ -26,9 +26,9 @@ const HireiosDeveloper = () => {
         PageBannerContent="<p>With dedication and development talent, our team caters for the best with ios mobile app development. Target your mobile app benchmark to achieve the latest ideas of the iOs mobile app development.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
-        PageBannerImageWidth="280px"
-        PageBannerImageHeight="250px"
-        PageBannerImage="/images/iphone-icon.svg"
+        PageBannerImageWidth="600px"
+        PageBannerImageHeight="400px"
+        PageBannerImage="/images/f-hire-IOS-developers.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"

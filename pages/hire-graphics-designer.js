@@ -26,9 +26,9 @@ const HireGraphicsDesignPage = () => {
         PageBannerContent="<p>With the trendy and eye-catching design, the team of Webenix’s Graphic Designers will justify the power of design in the digital world which aggregates the human-centred delightful experience.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
-        PageBannerImageWidth="280px"
-        PageBannerImageHeight="250px"
-        PageBannerImage="/images/website-development.svg"
+        PageBannerImageWidth="600px"
+        PageBannerImageHeight="400px"
+        PageBannerImage="/images/f-hire-graphics-designer.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"

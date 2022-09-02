@@ -27,7 +27,7 @@ const RESPONSIVEWEBDESIGN = () => {
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
         PageBannerImageHeight="250px"
-        PageBannerImage="/images/responsive-icon.svg"
+        PageBannerImage="/images/f-responsive-icon.svg"
       />
       <SectionIntro 
         SectionIntroclassName="introuction-section separatorPart noiseBg"

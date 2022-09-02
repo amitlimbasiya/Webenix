@@ -238,11 +238,6 @@ export const hireServicesItem  = styled.div`
             .icon{
                 /* border-color:rgba(0,0,0,0.2);                
                 box-shadow: 0px 0px 10px 4px rgb(0 0 0 / 5%); */
-                
-                img{
-                    -webkit-animation: rotate-in-center 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	                animation: rotate-in-center 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-                }
             }
         }
     }
@@ -312,31 +307,6 @@ export const iconBox  = styled.div`
         &.pinkPearleBg{
             background: url("images/f-pink-pearl-bg-icon.svg") no-repeat center center;            
         }
-
-        @-webkit-keyframes rotate-in-center {
-            0% {
-                -webkit-transform: rotate(-360deg);
-                        transform: rotate(-360deg);
-                opacity: 0;
-            }
-            100% {
-                -webkit-transform: rotate(0);
-                        transform: rotate(0);
-                opacity: 1;
-            }
-            }
-            @keyframes rotate-in-center {
-            0% {
-                -webkit-transform: rotate(-360deg);
-                        transform: rotate(-360deg);
-                opacity: 0;
-            }
-            100% {
-                -webkit-transform: rotate(0);
-                        transform: rotate(0);
-                opacity: 1;
-            }
-            }
     }    
     
 `;

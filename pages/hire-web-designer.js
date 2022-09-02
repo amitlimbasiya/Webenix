@@ -26,9 +26,9 @@ const HireWebDesigner = () => {
         PageBannerContent="<p>Website is one of the sources to run and develop your business. With better visibility and sleek designs on every screen size will be the artwork of our talented web designers. With powerful and creative business recognition and content placement, it is your one-stop solution.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
-        PageBannerImageWidth="280px"
-        PageBannerImageHeight="250px"
-        PageBannerImage="/images/website-design-icon.svg"
+        PageBannerImageWidth="600px"
+        PageBannerImageHeight="400px"
+        PageBannerImage="/images/f-hire-web-designer.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"

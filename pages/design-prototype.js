@@ -27,7 +27,7 @@ const DESIGNPROTOTYPE = () => {
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
         PageBannerImageHeight="250px"
-        PageBannerImage="/images/design-prototype-banner-icon.svg"
+        PageBannerImage="/images/f-Web-Design.svg"
       />
       <SectionIntro 
         SectionIntroclassName="introuction-section separatorPart noiseBg"

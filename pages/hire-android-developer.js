@@ -26,9 +26,9 @@ const HireAndroidDeveloper = () => {
         PageBannerContent="<p>Considering the most demanded platforms globally, Android will be the $400 billion industry by the year 2026. Hire the best android developers for your startup and experience world-class android mobile app development.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
-        PageBannerImageWidth="280px"
-        PageBannerImageHeight="250px"
-        PageBannerImage="/images/android-app-icon.svg"
+        PageBannerImageWidth="600px"
+        PageBannerImageHeight="400px"
+        PageBannerImage="/images/f-hire-android-app-developers.svg"
       />
       <SectionIntro 
         SectionIntroclassName="introuction-section separatorPart noiseBg"

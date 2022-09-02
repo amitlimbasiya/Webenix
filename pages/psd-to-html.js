@@ -27,7 +27,7 @@ const PSDTOHTML = () => {
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
         PageBannerImageHeight="250px"
-        PageBannerImage="/images/psd-html-icon.svg"
+        PageBannerImage="/images/f-psd-html-icon.svg"
       />
       <SectionIntro 
         SectionIntroclassName="introuction-section separatorPart noiseBg"
