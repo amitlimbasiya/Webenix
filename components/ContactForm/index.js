@@ -19,7 +19,7 @@ const ContactForm = () => {
     const [textarea, setcontact_textarea] = useState('');
     const [statusMessage, setStatusMessage] = useState("");
     const recaptchaRef = React.createRef()
-    const [buttonDisabled, setButtonDisabled] = React.useState(true)
+    // const [buttonDisabled, setButtonDisabled] = React.useState(true)
     const [errorMessage, setErrorMessage] = useState('')
     const handleChange = event => {
         setcontact_fname(event.target.value);
@@ -108,15 +108,16 @@ const ContactForm = () => {
                             <Form.Label>About Project</Form.Label>
                             <Form.Control as="textarea" value={textarea} onChange={handleChange4} name="message" placeholder="Discription" />
                         </Form.Group>
-                        <Recaptcha
+                        {/* <Recaptcha
                             ref={recaptchaRef}
                             sitekey={RECAPTCHA_KEY}
                             size="normal"
                             id="recaptcha-google"
                             onChange={() => setButtonDisabled(false)}
-                        />
+                        /> */}
 
-                        <Button variant="primary" type="submit" disabled={buttonDisabled} className='btn-default mt-2'>Submit</Button>
+                        <Button variant="primary" type="submit" className='btn-default mt-2'>Submit</Button>
+                        {/* disabled={buttonDisabled} */}
                     </form>
                     <p>{statusMessage}</p>
                 </Container>
