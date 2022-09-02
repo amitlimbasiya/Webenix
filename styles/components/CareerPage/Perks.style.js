@@ -247,136 +247,34 @@ export const LeftRightPart  = styled.div`
         animation: cutElemLeft 1.5s forwards;
         -webkit-animation: cutElemLeft 1.5s forwards
     }
+   
+    .left-perk .perk-plate{
+        padding-right: 50px;
 
-    .in-view .animated-cuts-left:after {
-        animation: cutElemRight 1s forwards;
-        -webkit-animation: cutElemRight 1s forwards
+        ${mediaQueries("mobile")` 
+            padding-right: 0;
+        `}
     }
-    @keyframes cutElemLeft {
-        0% {
-            -webkit-transform: translateY(-50%) translateX(0);
-            transform: translateY(-50%) translateX(0);
-            -webkit-animation-timing-function: cubic-bezier(.815, .09, .885, .14)
-        }
+    .right-perk .perk-plate{
+        padding-left: 50px;
 
-        50% {
-            -webkit-transform: translateY(-50%) translateX(-50%) skewX(20deg);
-            transform: translateY(-50%) translateX(-50%) skewX(20deg)
-        }
-
-        to {
-            -webkit-animation-timing-function: cubic-bezier(.815, .09, .885, .14);
-            -webkit-transform: translateY(-50%) translateX(-100%);
-            transform: translateY(-50%) translateX(-100%)
-        }
-    }
-
-    @-webkit-keyframes cutElemTop {
-        0% {
-            -webkit-transform: translateX(-50%) translateY(0);
-            transform: translateX(-50%) translateY(0);
-            -webkit-animation-timing-function: cubic-bezier(.815, .09, .885, .14)
-        }
-
-        50% {
-            -webkit-transform: translateX(-50%) translateY(-50%) skewY(20deg);
-            transform: translateX(-50%) translateY(-50%) skewY(20deg)
-        }
-
-        to {
-            -webkit-animation-timing-function: cubic-bezier(.815, .09, .885, .14);
-            -webkit-transform: translateX(-50%) translateY(-100%);
-            transform: translateX(-50%) translateY(-100%)
-        }
-    }
-
-    @keyframes cutElemTop {
-        0% {
-            -webkit-transform: translateX(-50%) translateY(0);
-            transform: translateX(-50%) translateY(0);
-            -webkit-animation-timing-function: cubic-bezier(.815, .09, .885, .14)
-        }
-
-        50% {
-            -webkit-transform: translateX(-50%) translateY(-50%) skewY(20deg);
-            transform: translateX(-50%) translateY(-50%) skewY(20deg)
-        }
-
-        to {
-            -webkit-animation-timing-function: cubic-bezier(.815, .09, .885, .14);
-            -webkit-transform: translateX(-50%) translateY(-100%);
-            transform: translateX(-50%) translateY(-100%)
-        }
-    }
-
-    @-webkit-keyframes cutElemLeft {
-        0% {
-            -webkit-transform: translateY(-50%) translateX(0);
-            transform: translateY(-50%) translateX(0);
-            -webkit-animation-timing-function: cubic-bezier(.815, .09, .885, .14)
-        }
-
-        50% {
-            -webkit-transform: translateY(-50%) translateX(-50%) skewX(20deg);
-            transform: translateY(-50%) translateX(-50%) skewX(20deg)
-        }
-
-        to {
-            -webkit-animation-timing-function: cubic-bezier(.815, .09, .885, .14);
-            -webkit-transform: translateY(-50%) translateX(-100%);
-            transform: translateY(-50%) translateX(-100%)
-        }
-    }
-
-    @keyframes cutElemRight {
-        0% {
-            -webkit-transform: translateY(-50%) translateX(0);
-            transform: translateY(-50%) translateX(0);
-            -webkit-animation-timing-function: cubic-bezier(.815, .09, .885, .14)
-        }
-
-        50% {
-            -webkit-transform: translateY(-50%) translateX(50%) skewX(20deg);
-            transform: translateY(-50%) translateX(50%) skewX(20deg)
-        }
-
-        to {
-            -webkit-animation-timing-function: cubic-bezier(.815, .09, .885, .14);
-            -webkit-transform: translateY(-50%) translateX(100%);
-            transform: translateY(-50%) translateX(100%)
-        }
-    }
-
-    @-webkit-keyframes cutElemRight {
-        0% {
-            -webkit-transform: translateY(-50%) translateX(0);
-            transform: translateY(-50%) translateX(0);
-            -webkit-animation-timing-function: cubic-bezier(.815, .09, .885, .14)
-        }
-
-        50% {
-            -webkit-transform: translateY(-50%) translateX(50%) skewX(20deg);
-            transform: translateY(-50%) translateX(50%) skewX(20deg)
-        }
-
-        to {
-            -webkit-animation-timing-function: cubic-bezier(.815, .09, .885, .14);
-            -webkit-transform: translateY(-50%) translateX(100%);
-            transform: translateY(-50%) translateX(100%)
-        }
+        ${mediaQueries("mobile")` 
+            padding-left: 0;
+        `}
     }
     
     .perk-plate{
         margin-bottom: 60px;
-        /* max-width: 90%; */
         margin-left: auto;
         margin-right: auto;
+      
 
         ${mediaQueries("mobile")` 
             max-width: 96%;
             margin-bottom: 50px;
         `} 
     }
+    
     .perk-plate:last-child{
         margin-bottom: 0px;
     }
@@ -494,20 +392,17 @@ export const LeftRightPart  = styled.div`
         `} 
     }
     
-    .rellimage {
-        background-size: 700px;
-        /* background-attachment: fixed; */
-        height: 575px;
-        max-width: 575px;
-        margin-left: auto;
+    .rellimage {       
+        aspect-ratio: 3/2;
         width: 100%;
         position: relative;
-        -webkit-animation: slideback 12s infinite alternate;
-        animation: slideback 12s infinite alternate;
         background-size: cover;
+        animation: scaleanimation 2s alternate infinite ease-in;
+        -webkit-animation: scaleanimation 2s alternate infinite ease-in;      
 
         ${mediaQueries("mobile")`
-            height: 375px;
+            height: 60vw;
+            max-height: 100%;
             margin-top: 50px;
         `} 
     }
@@ -517,14 +412,14 @@ export const LeftRightPart  = styled.div`
     .rellimage.neverstoplearning.carrer2 {
         background-image: url(images/career/career-02.jpg);
     }
-    @keyframes slideback {
-        0% {
-            background-position: 0
-        }
 
-        to {
-            background-position: 300px
-        }
+    @keyframes scaleanimation {	
+        0%   {background-size: 100% 100%;}	
+        100% {background-size: 105% 105%;}	
+    }
+    @-webkit-keyframes scaleanimation {	
+        0%   {background-size: 100% 100%;}	
+        100% {background-size: 105% 105%;}	
     }
 
 `;
@@ -586,7 +481,6 @@ export const WeLookFor  = styled.div`
            font-size: 14px;
            line-height: 24px;
         `} 
-
     }
     
     img{
@@ -915,9 +809,9 @@ export const JobPart  = styled.div`
 
     ${mediaQueries("mobile")` 
        padding-bottom: 40px;
-    `} 
-   
+    `}    
 `;
+
 export const JobCTA  = styled.div` 
     padding: 100px 0px 0px;
 
@@ -1010,6 +904,7 @@ export const ctaInner  = styled.div`
         }
     }
 `;
+
 export const leftPart  = styled.div`
     ${mediaQueries("mobile")`
         padding: 0px 20px 0px 0px;
@@ -1037,6 +932,7 @@ export const bigHeading = styled.h3`
         font-size: 36px;
     `}
 `;
+
 export const midHeading = styled.h5`
     font-family: "Montserrat", sans-serif;
     font-size: 22px;
@@ -1051,9 +947,9 @@ export const midHeading = styled.h5`
     ${mediaQueries("mobile")`
         font-size: 16px;
         line-height: 1.2;
-    `}
-        
+    `}        
 `;
+
 export const smHeading = styled.h6`
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
@@ -1065,8 +961,11 @@ export const smHeading = styled.h6`
         font-size: 16px;
     `}
 `;
-export const rightPart = styled.div`    
+
+export const rightPart = styled.div`
+
 `;
+
 export const ctaBtn = styled.div`    
     &.ctaBtn{
         position: relative;
@@ -1093,8 +992,7 @@ export const ctaBtn = styled.div`
                 background-size: 110px;
                 height: 110px;
                 width: 130px;
-            `}
-            
+            `}            
         }
     }
     & .btn-default{
@@ -1124,4 +1022,3 @@ export const ctaBtn = styled.div`
         `}
     }
 `;
-

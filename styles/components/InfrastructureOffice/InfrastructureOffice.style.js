@@ -429,127 +429,13 @@ export const LeftRightPart  = styled.div`
 
     .in-view .animated-cuts-right:after {
         animation: cutElemLeft 1.5s forwards;
-        -webkit-animation: cutElemLeft 1.5s forwards
+        -webkit-animation: cutElemLeft 1.5s forwards;
     }
 
     .in-view .animated-cuts-left:after {
         animation: cutElemRight 1s forwards;
-        -webkit-animation: cutElemRight 1s forwards
-    }
-    @keyframes cutElemLeft {
-        0% {
-            -webkit-transform: translateY(-50%) translateX(0);
-            transform: translateY(-50%) translateX(0);
-            -webkit-animation-timing-function: cubic-bezier(.815, .09, .885, .14)
-        }
-
-        50% {
-            -webkit-transform: translateY(-50%) translateX(-50%) skewX(20deg);
-            transform: translateY(-50%) translateX(-50%) skewX(20deg)
-        }
-
-        to {
-            -webkit-animation-timing-function: cubic-bezier(.815, .09, .885, .14);
-            -webkit-transform: translateY(-50%) translateX(-100%);
-            transform: translateY(-50%) translateX(-100%)
-        }
-    }
-
-    @-webkit-keyframes cutElemTop {
-        0% {
-            -webkit-transform: translateX(-50%) translateY(0);
-            transform: translateX(-50%) translateY(0);
-            -webkit-animation-timing-function: cubic-bezier(.815, .09, .885, .14)
-        }
-
-        50% {
-            -webkit-transform: translateX(-50%) translateY(-50%) skewY(20deg);
-            transform: translateX(-50%) translateY(-50%) skewY(20deg)
-        }
-
-        to {
-            -webkit-animation-timing-function: cubic-bezier(.815, .09, .885, .14);
-            -webkit-transform: translateX(-50%) translateY(-100%);
-            transform: translateX(-50%) translateY(-100%)
-        }
-    }
-
-    @keyframes cutElemTop {
-        0% {
-            -webkit-transform: translateX(-50%) translateY(0);
-            transform: translateX(-50%) translateY(0);
-            -webkit-animation-timing-function: cubic-bezier(.815, .09, .885, .14)
-        }
-
-        50% {
-            -webkit-transform: translateX(-50%) translateY(-50%) skewY(20deg);
-            transform: translateX(-50%) translateY(-50%) skewY(20deg)
-        }
-
-        to {
-            -webkit-animation-timing-function: cubic-bezier(.815, .09, .885, .14);
-            -webkit-transform: translateX(-50%) translateY(-100%);
-            transform: translateX(-50%) translateY(-100%)
-        }
-    }
-
-    @-webkit-keyframes cutElemLeft {
-        0% {
-            -webkit-transform: translateY(-50%) translateX(0);
-            transform: translateY(-50%) translateX(0);
-            -webkit-animation-timing-function: cubic-bezier(.815, .09, .885, .14)
-        }
-
-        50% {
-            -webkit-transform: translateY(-50%) translateX(-50%) skewX(20deg);
-            transform: translateY(-50%) translateX(-50%) skewX(20deg)
-        }
-
-        to {
-            -webkit-animation-timing-function: cubic-bezier(.815, .09, .885, .14);
-            -webkit-transform: translateY(-50%) translateX(-100%);
-            transform: translateY(-50%) translateX(-100%)
-        }
-    }
-
-    @keyframes cutElemRight {
-        0% {
-            -webkit-transform: translateY(-50%) translateX(0);
-            transform: translateY(-50%) translateX(0);
-            -webkit-animation-timing-function: cubic-bezier(.815, .09, .885, .14)
-        }
-
-        50% {
-            -webkit-transform: translateY(-50%) translateX(50%) skewX(20deg);
-            transform: translateY(-50%) translateX(50%) skewX(20deg)
-        }
-
-        to {
-            -webkit-animation-timing-function: cubic-bezier(.815, .09, .885, .14);
-            -webkit-transform: translateY(-50%) translateX(100%);
-            transform: translateY(-50%) translateX(100%)
-        }
-    }
-
-    @-webkit-keyframes cutElemRight {
-        0% {
-            -webkit-transform: translateY(-50%) translateX(0);
-            transform: translateY(-50%) translateX(0);
-            -webkit-animation-timing-function: cubic-bezier(.815, .09, .885, .14)
-        }
-
-        50% {
-            -webkit-transform: translateY(-50%) translateX(50%) skewX(20deg);
-            transform: translateY(-50%) translateX(50%) skewX(20deg)
-        }
-
-        to {
-            -webkit-animation-timing-function: cubic-bezier(.815, .09, .885, .14);
-            -webkit-transform: translateY(-50%) translateX(100%);
-            transform: translateY(-50%) translateX(100%)
-        }
-    }
-    
+        -webkit-animation: cutElemRight 1s forwards;
+    }    
     .rellimage {
         border-radius: 15px;
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
@@ -566,7 +452,8 @@ export const LeftRightPart  = styled.div`
         -o-transition: all 0.5s 0s linear;
         transition: all 0.5s 0s linear;
         animation: scaleanimation 2s alternate infinite ease-in;
-
+        -webkit-animation: scaleanimation 2s alternate infinite ease-in;
+        overflow: hidden;
 
         ${mediaQueries("lg")`
             height: 450px;
@@ -577,16 +464,17 @@ export const LeftRightPart  = styled.div`
             margin-top: 30px;
             height: 350px;
             max-width: 100%;
-        `}
-        
-        /* &:hover{
-            background-size: 105% 105%;
-        } */
+        `}       
 
         @keyframes scaleanimation {	
             0%   {background-size: 100% 100%;}	
             100% {background-size: 105% 105%;}	
         }
+        @-webkit-keyframes scaleanimation {	
+            0%   {background-size: 100% 100%;}	
+            100% {background-size: 105% 105%;}	
+        }
+        
     }
     .rellimage.neverstoplearning.office_bg {
         background-image: url(images/infrastructure/webenix-office.jpg);
