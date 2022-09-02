@@ -17,7 +17,7 @@ const About = () => {
         <meta name="keywords" content={data.about.keyword} />
       </Head>
       <PageBanner 
-        PageBannerClass="pagebanner-section"
+        PageBannerClass="pagebanner-section aboutBg"
         PageBannerImgClass="pagebannerimg-col at-right-bottom" 
         PageBannerTitle="Meet"
         PageBannerGreenTitle="Webenix!"
@@ -25,7 +25,7 @@ const About = () => {
         PageBannerBtnText="Know More"       
         PageBannerImageWidth="600px"
         PageBannerImageHeight="495px"
-        PageBannerImage="/images/about-webenix.svg"/>
+        PageBannerImage="/images/f-Meet-Webenix.svg"/>
       <SectionIntro 
           IntroSubTitle="An agency just like you!"
           IntroMainTitle="Find Everything Under One Roof At WEBENIX."

@@ -22,7 +22,7 @@ const About = () => {
                     </Link>
                 </Col>
                 <Col lg={5} md={5} sm={8} className="mx-sm-auto mx-md-0">
-                    <Image src={aboutCompanyImg} alt="About Webenix" className='img-fluid' layout="raw"/>
+                    <Image src={aboutCompanyImg} alt="About Webenix" className='img-fluid'/>
                 </Col>
             </Row>
         </Container>

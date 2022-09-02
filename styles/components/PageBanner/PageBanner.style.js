@@ -5,7 +5,12 @@ export const PageBannerWrapper  = styled.div`
     background-color: rgba(218,218,242,0.75);
     position: relative;
     overflow: hidden;
-
+    &.aboutBg{
+        background: hsla(147, 100%, 95%, 1);
+        background: linear-gradient(360deg, hsla(147, 100%, 95%, 1) 0%, hsla(69, 100%, 97%, 1) 100%);
+        background: -moz-linear-gradient(360deg, hsla(147, 100%, 95%, 1) 0%, hsla(69, 100%, 97%, 1) 100%);
+        background: -webkit-linear-gradient(360deg, hsla(147, 100%, 95%, 1) 0%, hsla(69, 100%, 97%, 1) 100%);
+    }
     &.darkGreenNoice{
         background:url(images/career/banner-bg.jpg) no-repeat  top center / cover;
     }
