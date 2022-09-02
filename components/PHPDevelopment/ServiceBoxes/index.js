@@ -1,8 +1,6 @@
 import React from "react";
 import Link from 'next/link'
 import Image from 'next/image';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleRight} from '@fortawesome/free-solid-svg-icons';
 import { Container, Row, Col } from "react-bootstrap";
 import * as s from "../../../styles/components/PHPDevelopment/SectionServicesBoxes.style";
 import symfonyIcon from "../../../public/images/phpDevelopment/symfonyIcon.svg";

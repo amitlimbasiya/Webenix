@@ -21,7 +21,7 @@ import Hubspot from "../../public/images/f-hubspot-icon.svg";
 import Shopify from "../../public/images/f-shopify-icon.svg";
 import Branding from "../../public/images/f-branding-icon.svg";
 import SEO from "../../public/images/f-SEO.svg";
-import SMM from "../../public/images/f-SMM-Icon.svg";
+import SMM from "../../public/images/f-SMO.svg";
 import PPC from "../../public/images/f-PPC.svg";
 import Android from "../../public/images/f-Android-App-Icon.svg";
 import iOS from "../../public/images/f-Apple-ios.svg";

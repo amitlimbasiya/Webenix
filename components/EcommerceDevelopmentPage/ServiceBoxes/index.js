@@ -1,14 +1,13 @@
 import React from "react";
-import Link from 'next/link'
 import Image from 'next/image';
 import { Container, Row, Col } from "react-bootstrap";
 import * as s from "../../../styles/components/EcommerceDevelopmentPage/SectionServicesBoxes.style";
 import shapeGreenIcon from '../../../public/images/eCommerceDevelopment/shapeGreen.svg';
 import shapeOrange from '../../../public/images/eCommerceDevelopment/shapeOrange.svg';
 import shapePurpleIcon from '../../../public/images/eCommerceDevelopment/shapePurple.svg';
-import magentoIcon from '../../../public/images/magento-icon.svg';
+import magentoIcon from '../../../public/images/f-magento-icon.svg';
 import shopifyIcon from '../../../public/images/f-shopify-icon.svg';
-import wooIcon from '../../../public/images/wooIcon.svg';
+import eCommerceIcon from '../../../public/images/f-eCommerce-Development.svg';
 
 const SectionServiceBoxes = () => {
   return (
@@ -32,7 +31,7 @@ const SectionServiceBoxes = () => {
                     
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={wooIcon} alt="WooCommerce Icon" layout="raw" />
+                  <Image src={eCommerceIcon} alt="WooCommerce Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapePurpleIcon} alt="Shape Yellow Icon" layout="raw" />
                   </s.iconOverlay>
@@ -77,7 +76,7 @@ const SectionServiceBoxes = () => {
                     
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={magentoIcon} alt="Magento Icon" layout="raw" />
+                  <Image src={eCommerceIcon} alt="Custom eCommerce Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapeOrange} alt="Shape Orange Icon" layout="raw" />
                   </s.iconOverlay>

@@ -12,7 +12,8 @@ import javascriptIcon from '../../../public/images/frontendDevelopment/javascrip
 import angularIcon from '../../../public/images/f-angular-icon.svg';
 import uiUxIcon from '../../../public/images/f-UIUX-Design.svg';
 import ReactJSIcon from '../../../public/images/f-reactJS-big-Icon.svg';
-import vueJsIcon from '../../../public/images/frontendDevelopment/vueJs.svg';
+import vueJsIcon from '../../../public/images/f-vue-js-icon.svg';
+import nodeJsIcon from '../../../public/images/f-NodeJS-Icon.svg';
 
 const SectionServiceBoxes = () => {
   return (
@@ -111,7 +112,7 @@ const SectionServiceBoxes = () => {
                     
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={javascriptIcon} alt="Javascript Icon" layout="raw" />
+                  <Image src={nodeJsIcon} alt="Javascript Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapeMorningGloryIcon} alt="Shape Purple Icon" layout="raw" />
                   </s.iconOverlay>

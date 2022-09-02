@@ -7,12 +7,12 @@ import shapeYellowIcon from '../../../public/images/webDevelopment/shapeYellow.s
 import shapeGreenIcon from '../../../public/images/webDevelopment/shapeGreen.svg';
 import shapeBlueIcon from '../../../public/images/webDevelopment/shapeBlue.svg';
 import shapePurpleIcon from '../../../public/images/webDevelopment/shapePurple.svg';
-import mobileAppDesignIcon from '../../../public/images/mobile-app-design-icon.svg';
 import CMSDevIcon from '../../../public/images/f-CMS-Development.svg';
 import eCommerceIcon from '../../../public/images/f-eCommerce-Development.svg';
-import codeIcon from '../../../public/images/codeIcon.svg';
 import BackEndDevelopmentIcon from '../../../public/images/f-Back-End-Developer.svg';
 import frontEndDevelopmentIcon from '../../../public/images/f-Front-End-Developer.svg';
+import mobileAppDesignIcon from '../../../public/images/f-Mobile-App-Design.svg';
+import codeIcon from '../../../public/images/f-Web-Development.svg';
 
 const SectionServiceBoxes = () => {
   return (

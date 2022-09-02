@@ -30,7 +30,7 @@ const HireServices = () => {
                     <s.hireServicesItem className='hireServicesItem'>
                         <Link href={router.WEBDESIGN}>
                             <a className='iconBoxLink'>
-                                <s.iconBox className='icon bgIceCold'>
+                                <s.iconBox className='icon jordyBlueBg'>
                                     <Image src={webDesignIcon} alt="Web Design Icon" layout='raw'/>
                                 </s.iconBox>
                                 <s.serviceName>Web<br />Designer</s.serviceName>
@@ -40,7 +40,7 @@ const HireServices = () => {
                     <s.hireServicesItem className='hireServicesItem'>
                         <Link href={router.WORDPRESSDEVELOPMENT}>
                             <a className='iconBoxLink'>
-                                <s.iconBox className='icon bgDmBlue'>
+                                <s.iconBox className='icon desertSandBg'>
                                     <Image src={wordpressDevIcon} alt="Wordpress Deveopment Icon" layout="raw" />
                                 </s.iconBox>
                                 <s.serviceName>Wordpress<br />Developers</s.serviceName>
@@ -50,7 +50,7 @@ const HireServices = () => {
                     <s.hireServicesItem className='hireServicesItem'>
                         <Link href={router.REACTJSDEVELOPMENT}>
                             <a className='iconBoxLink'>
-                                <s.iconBox className='icon bgLBlue'>
+                                <s.iconBox className='icon seashellBg'>
                                     <Image src={reactJsIcon} alt="React JS Development" layout="raw" />
                                 </s.iconBox>
                                 <s.serviceName>ReactJs <br />Developers</s.serviceName>
@@ -60,7 +60,7 @@ const HireServices = () => {
                     <s.hireServicesItem className='hireServicesItem'>
                         <Link href={router.NODEJSDEVELOPMENT}>
                             <a className='iconBoxLink'>
-                                <s.iconBox className='icon bgLightMintGreen'>
+                                <s.iconBox className='icon carouselPinkBG'>
                                     <Image src={nodeJsIcon} alt="Node JS development" layout="raw" />
                                 </s.iconBox>
                                 <s.serviceName>NodeJs <br />Developers</s.serviceName>
@@ -70,7 +70,7 @@ const HireServices = () => {
                     <s.hireServicesItem className='hireServicesItem'>
                         <Link href={router.FLUTTERAPPSDEVELOPMENT}>
                             <a className='iconBoxLink'>
-                                <s.iconBox className='icon bgflutterBlue'>
+                                <s.iconBox className='icon pinkPearleBg'>
                                     <Image src={flutterIcon} alt="Flutter App Development" layout="raw" />
                                 </s.iconBox>
                                 <s.serviceName>Flutter <br />Developers</s.serviceName>

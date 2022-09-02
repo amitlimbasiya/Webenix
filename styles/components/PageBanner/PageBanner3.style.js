@@ -39,8 +39,8 @@ export const PageBannerWrapper  = styled.div`
 
         
         ${mediaQueries("llg")`
-            padding-left: 20px;
-            padding-right: 20px;
+            padding-left: 8px;
+            padding-right: 8px;
         `}       
     } 
 

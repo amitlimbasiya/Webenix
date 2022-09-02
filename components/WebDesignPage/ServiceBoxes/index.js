@@ -10,6 +10,7 @@ import uiUxIcon from '../../../public/images/f-UIUX-Design.svg';
 import mobileAppDesignIcon from '../../../public/images/f-Mobile-App-Design.svg';
 import websiteDesignIcon from '../../../public/images/website-design-icon.svg';
 import webDesignIcon from '../../../public/images/f-Web-Design.svg';
+import landingpageDesignSetup from '../../../public/images/f-landingpage-Design.svg';
 
 const SectionServiceBoxes = () => {
   return (
@@ -46,7 +47,7 @@ const SectionServiceBoxes = () => {
                     <s.textPart>A landing page is one of the important parts of showcasing the business. Taking care of the responsiveness by placing the CTA buttons in the right place will be part of the accurate landing page design.</s.textPart>
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={websiteDesignIcon} alt="Landing Page Design Icon" layout="raw" />
+                  <Image src={landingpageDesignSetup} alt="Landing Page Design Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapeGreenIcon} alt="Shape Green Icon" layout="raw" />
                   </s.iconOverlay>

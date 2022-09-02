@@ -236,50 +236,15 @@ export const hireServicesItem  = styled.div`
                 text-decoration: underline;
             }
             .icon{
-                border-color:rgba(0,0,0,0.2);                
-                box-shadow: 0px 0px 10px 4px rgb(0 0 0 / 5%);
+                /* border-color:rgba(0,0,0,0.2);                
+                box-shadow: 0px 0px 10px 4px rgb(0 0 0 / 5%); */
+                
+                img{
+                    -webkit-animation: rotate-in-center 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	                animation: rotate-in-center 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+                }
             }
         }
-
-        /* &:before{
-            content: "";
-            position: absolute;
-            right: -10px;
-            background: #b4b7d9;
-            width: 20px;
-            height: 20px;
-            border-radius: 50%;
-            top: -10px;
-            
-            ${mediaQueries("tablet")`  
-                right: -7.5px;
-                top: -7.5px;
-                width: 15px;
-                height: 15px;
-            `}
-            ${mediaQueries("sm")`  
-                display:none;
-            `}   
-        }
-        &:after {
-            position: absolute;
-            content: "";
-            right: -10px;
-            background: #b4b7d9;
-            width: 20px;
-            height: 20px;
-            border-radius: 50%;
-            bottom: -10px;
-            ${mediaQueries("tablet")`  
-                right: -7.5px;
-                bottom: -7.5px;
-                width: 15px;
-                height: 15px;
-            `}
-            ${mediaQueries("sm")`  
-                display:none;
-            `}   
-        } */
     }
 `;
 export const iconBox  = styled.div`
@@ -318,9 +283,9 @@ export const iconBox  = styled.div`
         `}
 
         & img{
-            width: 80px;
+            width: 70px;
             vertical-align: middle;
-            height:auto ;
+            height:70px ;
             ${mediaQueries("xl")`
                 width: 60px;
             `}
@@ -331,6 +296,47 @@ export const iconBox  = styled.div`
                 width: 35px;
             `}
         }
+
+        &.jordyBlueBg{
+            background: url("images/f-jordy-blue-bg-icon.svg") no-repeat center center;            
+        }
+        &.desertSandBg{
+            background: url("images/f-desert-sand-bg-icon.svg") no-repeat center center;            
+        }
+        &.seashellBg{
+            background: url("images/f-seashell-bg-icon.svg") no-repeat center center;            
+        }
+        &.carouselPinkBG{
+            background: url("images/f-carousel-pink-bg-icon.svg") no-repeat center center;            
+        }
+        &.pinkPearleBg{
+            background: url("images/f-pink-pearl-bg-icon.svg") no-repeat center center;            
+        }
+
+        @-webkit-keyframes rotate-in-center {
+            0% {
+                -webkit-transform: rotate(-360deg);
+                        transform: rotate(-360deg);
+                opacity: 0;
+            }
+            100% {
+                -webkit-transform: rotate(0);
+                        transform: rotate(0);
+                opacity: 1;
+            }
+            }
+            @keyframes rotate-in-center {
+            0% {
+                -webkit-transform: rotate(-360deg);
+                        transform: rotate(-360deg);
+                opacity: 0;
+            }
+            100% {
+                -webkit-transform: rotate(0);
+                        transform: rotate(0);
+                opacity: 1;
+            }
+            }
     }    
     
 `;

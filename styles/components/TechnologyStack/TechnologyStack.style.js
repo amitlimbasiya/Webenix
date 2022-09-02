@@ -46,6 +46,8 @@ export const TechnologyStackWrapper  = styled.div`
 
     ${mediaQueries("mobile")`
         padding-top: 60px;
+        padding-left: 8px;
+        padding-right: 8px;
 
         .container{ 
             max-width: 100%;
@@ -177,14 +179,14 @@ export const TechnologyStackTab  = styled.div`
        `}
 
         ${mediaQueries("tablet")`
-            padding: 10px 15px;
+            padding: 10px;
             font-size: 20px;
             margin-left: 20px; 
             margin-right: 20px;
        `}
 
         ${mediaQueries("mobile")`
-            padding: 8px 4px;
+            padding: 8px 0px;
             font-size: 13px;
             margin-left: 5px; 
             margin-right: 5px;
@@ -290,13 +292,17 @@ export const TechnologyStackLogo  = styled.div`
     img{
         max-height: 60px;
 
-        ${mediaQueries("mobile")` 
+        ${mediaQueries("sm")` 
            max-height: 23px;
         `}
 
     }
 
     ${mediaQueries("mobile")` 
+        width: 80px;
+        height: 80px;
+    `}
+    ${mediaQueries("sm")` 
         width: 55px;
         height: 55px;
         padding: 10px;

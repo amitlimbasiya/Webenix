@@ -226,7 +226,7 @@ export const ctaInner  = styled.div`
             right: 0px;
             background:#67c187;
             border-radius: 0px 0px 25px 0px;
-            width: calc(100% - 120px);
+            width: calc(100% - 117px);
             height: 38px;
             z-index: 1;
 

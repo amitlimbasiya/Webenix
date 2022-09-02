@@ -1,8 +1,5 @@
 import React from "react";
-import Link from 'next/link'
 import Image from 'next/image';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleRight} from '@fortawesome/free-solid-svg-icons';
 import { Container, Row, Col } from "react-bootstrap";
 import * as s from "../../../styles/components/SEOPage/SectionServicesBoxes.style";
 import shapePinkIcon from '../../../public/images/seo/shapePink.svg';
@@ -10,9 +7,9 @@ import shapeYellowIcon from '../../../public/images/seo/shapeYellow.svg';
 import shapeGreenIcon from '../../../public/images/seo/shapeGreen.svg';
 import shapeBlueIcon from '../../../public/images/seo/shapeBlue.svg';
 import technicalSEOAuditIcon from '../../../public/images/seo/technicalSEOAuditIcon.svg';
-import onPageOptIcon from '../../../public/images/seo/onPageOptIcon.svg';
-import seoIcon from '../../../public/images/seo-icon.svg';
-import fullStackIcon from '../../../public/images/seo/full-stack-icon.svg';
+import aboutIcon from '../../../public/images/f-about-icon.svg';
+import smoIcon from '../../../public/images/f-SMO.svg';
+import paymentGatwayIntegrationIcon from '../../../public/images/f-payment-gateway-integration-icon.svg';
 
 const SectionServiceBoxes = () => {
   return (
@@ -35,7 +32,7 @@ const SectionServiceBoxes = () => {
                     <s.textPart>Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</s.textPart>
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={technicalSEOAuditIcon} alt="Technical SEO Audit Icon" layout="raw" />
+                  <Image src={smoIcon} alt="Social Media Setup Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapePinkIcon} alt="Shape Pink Icon" layout="raw" />
                   </s.iconOverlay>
@@ -49,7 +46,7 @@ const SectionServiceBoxes = () => {
                     <s.textPart>Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</s.textPart>
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={seoIcon} alt="Seo Icon" layout="raw" />
+                  <Image src={aboutIcon} alt="Social Media Strategy Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapeYellowIcon} alt="Shape Yellow Icon Icon" layout="raw" />
                   </s.iconOverlay>
@@ -63,7 +60,7 @@ const SectionServiceBoxes = () => {
                     <s.textPart>Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</s.textPart>
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={onPageOptIcon} alt="On-page optimization Icon" layout="raw" />
+                  <Image src={smoIcon} alt="Content Creation Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapeBlueIcon} alt="Shape Orange Icon" layout="raw" />
                   </s.iconOverlay>
@@ -77,7 +74,7 @@ const SectionServiceBoxes = () => {
                     <s.textPart>Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</s.textPart>
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={fullStackIcon} alt="Off-page optimization Icon" layout="raw" />
+                  <Image src={paymentGatwayIntegrationIcon} alt="Paid Promotion Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapeGreenIcon} alt="Shape Green Icon" layout="raw" />
                   </s.iconOverlay>

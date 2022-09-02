@@ -5,8 +5,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import * as s from "../../../styles/components/MobileAppDevelopmentPage/SectionServicesBoxes.style";
 import shapeGreenIcon from '../../../public/images/mobileAppDevelopment/shapeGreen.svg';
 import shapeYellowIcon from '../../../public/images/mobileAppDevelopment/shapeYellow.svg';
-import crossPlatformIcon from '../../../public/images/mobileAppDevelopment/crossPlatform.svg';
-import nativeAppIcon from '../../../public/images/mobileAppDevelopment/nativeApp.svg';
+import uiUxIcon from '../../../public/images/f-UIUX-Design.svg';
+import mobileAppDesignIcon from '../../../public/images/f-Mobile-App-Design.svg';
 
 const SectionServiceBoxes = () => {
   return (
@@ -30,7 +30,7 @@ const SectionServiceBoxes = () => {
                     
                 </s.partItem>
                 <s.partItem className="imgPart">
-                <Image src={nativeAppIcon} alt="Native App Development Icon" layout="raw" />
+                <Image src={mobileAppDesignIcon} alt="Native App Development Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapeGreenIcon} alt="Shape Green Icon" layout="raw" />
                   </s.iconOverlay>
@@ -40,12 +40,12 @@ const SectionServiceBoxes = () => {
             <Col lg={6} md={12} className="itemBoxes">
               <s.boxPart className="yellowPart">
                 <s.partItem className="textPart">
-                    <s.boxHeading>Cross-platform development </s.boxHeading>
+                    <s.boxHeading>Cross-platform Development </s.boxHeading>
                     <s.textPart>Carry your digital presence over multiple platforms through trendy cross-platforms.</s.textPart>
                     
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={crossPlatformIcon} alt="Cross-platform development Icon" layout="raw" />
+                  <Image src={uiUxIcon} alt="Cross-platform development Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapeYellowIcon} alt="Shape Yellow Icon" layout="raw" />
                   </s.iconOverlay>

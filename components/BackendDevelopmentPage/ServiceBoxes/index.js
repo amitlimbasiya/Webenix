@@ -6,8 +6,8 @@ import shapePurpleIcon from '../../../public/images/backendDevelopment/shapePurp
 import shapeGreenIcon from '../../../public/images/backendDevelopment/shapeGreen.svg';
 import shapePastelPink from '../../../public/images/backendDevelopment/shapePastelPink.svg';
 import shapeMorningGloryIcon from '../../../public/images/backendDevelopment/shapeMorningGlory.svg';
-import mobileAppDesignIcon from '../../../public/images/mobile-app-design-icon.svg';
-import backendDevelopmentIcon from '../../../public/images/backend-development-icon.svg';
+import mobileAppDesignIcon from '../../../public/images/f-Mobile-App-Design.svg';
+import codeIcon from '../../../public/images/f-Web-Development.svg';
 import fullStackIcon from '../../../public/images/full-stack-icon.svg';
 import thirdPartyAPIntegrationIcon from '../../../public/images/f-Third-Party-Integration-icon.svg';
 
@@ -33,7 +33,7 @@ const SectionServiceBoxes = () => {
                     
                 </s.partItem>
                 <s.partItem className="imgPart">
-                <Image src={backendDevelopmentIcon} alt="Backend Development Icon" layout="raw" />
+                <Image src={codeIcon} alt="Web App Development Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapeGreenIcon} alt="Shape Green Icon" layout="raw" />
                   </s.iconOverlay>
@@ -73,7 +73,7 @@ const SectionServiceBoxes = () => {
             <Col lg={6} md={12} className="itemBoxes">
               <s.boxPart className="PastelPinkPart">
                 <s.partItem className="textPart">
-                    <s.boxHeading>Datebase Management</s.boxHeading>
+                    <s.boxHeading>Database Management</s.boxHeading>
                     <s.textPart>If you are looking for the best PHP-centric software, Laravel is considered to be the first choice in the PHP framework. For businesses who are looking for a performance-centric platform, PHP Laravel is considered to be the best one. We at Webenix have the best hands-on building industry-specific using Laravel frameworks.</s.textPart>
                     
                 </s.partItem>

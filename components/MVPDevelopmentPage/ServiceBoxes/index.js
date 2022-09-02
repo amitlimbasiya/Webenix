@@ -5,7 +5,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import * as s from "../../../styles/components/MVPDevelopmentPage/SectionServicesBoxes.style";
 import shapeGreenIcon from '../../../public/images/mvpDevelopment/shapeGreen.svg';
 import backendDevelopmentIcon from '../../../public/images/backend-development-icon.svg';
-import uiUxIcon from '../../../public/images/ui-ux-icon.svg';
+import landingpageDesignSetup from '../../../public/images/f-landingpage-Design.svg';
+import codeIcon from '../../../public/images/f-Web-Development.svg';
 import shapePastelPinkIcon from '../../../public/images/mvpDevelopment/shapePastelPink.svg';
 import shapePurpleIcon from '../../../public/images/mvpDevelopment/shapePurple.svg';
 import mobileAppDesignIcon from '../../../public/images/f-Mobile-App-Design.svg';
@@ -49,7 +50,7 @@ const SectionServiceBoxes = () => {
                     
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={backendDevelopmentIcon} alt="Web App Development Icon" layout="raw" />
+                  <Image src={codeIcon} alt="Web App Development Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapeGreenIcon} alt="Shape Blue Icon" layout="raw" />
                   </s.iconOverlay>
@@ -79,7 +80,7 @@ const SectionServiceBoxes = () => {
                     
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={frontendIcon} alt="UI UX Design Icon" layout="raw" />
+                  <Image src={landingpageDesignSetup} alt="Wireframe Development Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapeGreenIcon} alt="Shape Purple Icon" layout="raw" />
                   </s.iconOverlay>

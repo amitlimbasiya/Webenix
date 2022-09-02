@@ -8,10 +8,8 @@ import PassionIcon from "../../../public/images/f-passionate-icon.svg";
 import TeamPlayerIcon from "../../../public/images/f-team-player-icon.svg";  
 import AuthenticityIcon from "../../../public/images/f-authenticity-icon.svg";  
 import HonestIcon from "../../../public/images/f-honest-icon.svg";  
-import phpIcon from '../../../public/images/f-php-icon.svg';
+import wordpressDevIcon from '../../../public/images/f-wordpress-icon.svg';
 import frontEndDevelopmentIcon from '../../../public/images/f-Front-End-Developer.svg';
-import reactJsIcon from '../../../public/images/f-Reactjs-Icon.svg';
-import nodeJsIcon from '../../../public/images/f-NodeJS-Icon.svg';
 
 function MyVerticallyCenteredModal(props) {
   return (
@@ -231,13 +229,13 @@ const SectionIntro = () => {
                     <Accordion.Header>
                       <div className='cardHeader'>
                         <div className='headIcon'>
-                          <Image src={phpIcon} alt="PHP Icon" className='img-fluid' layout="raw"/>
+                          <Image src={wordpressDevIcon} alt="Wordpress Developer Icon" className='img-fluid' layout="raw"/>
                         </div>
                         <div className='positionDesc'>
-                          <div className='headTitle'>PHP Developers</div>
+                          <div className='headTitle'>Wordpress Developer</div>
                           <ul className='btmBar'>
-                            <li><span>Experience:</span> 1-4 years</li>
-                            <li><span>No. of Openings:</span> 2-3</li>
+                            <li><span>Experience:</span> Minimum 1 year</li>
+                            <li><span>No. of Openings:</span> 1</li>
                             <li><span>Qualifications:</span> B.E / B.Tech</li>
                           </ul>
                         </div>
@@ -250,12 +248,17 @@ const SectionIntro = () => {
                     </Accordion.Header>
                     <Accordion.Body>
                         <ul>
-                          <li>Strong knowledge of PHP Web Frameworks (Yii/Yii2, Zend, Laravel, CI)</li>
-                          <li>Integrated payment gateways and good with APIs</li>
-                          <li>Demonstrable knowledge of web technologies (HTML, CSS, Javascript, Ajax)</li>
-                          <li>Experience in common third party APIs (Google, Facebook, eBay etc.)</li>
-                          <li>Passion for best design and coding practices</li>
-                          <li>Ability to take up R&#38;D activities and resolve issues</li>
+                          <li>Minimum 1 year of experience developing websites using WordPress.</li>
+                          <li>WordPress plugin development / theme development.</li>
+                          <li>Setup of WordPress options, plugin installation and configuration.</li>
+                          <li>Good knowledge for database admin (MySQL) via PHPMyAdmin.</li>
+                          <li>Strong knowledge and proficiency in core PHP programming, MySQL with OOPS concepts.</li>
+                          <li>Experience working on AJAX, JavaScript & jQuery.</li>
+                          <li>Scope, analyze, design, test, debug and implement complex applications.</li>
+                          <li>Ability to work independently with minimal guidance.</li>
+                          <li>Research and remain informed of new technology and development tools.</li>
+                          <li>A great attitude.</li>
+                          <li>Proficiency in English Language is MUST.</li>
                         </ul>
                     </Accordion.Body>
                 </Accordion.Item>
@@ -263,74 +266,10 @@ const SectionIntro = () => {
                     <Accordion.Header>
                       <div className='cardHeader'>
                         <div className='headIcon'>
-                          <Image src={frontEndDevelopmentIcon} alt="Front End Developer Icon" className='img-fluid' layout="raw"/>
+                          <Image src={frontEndDevelopmentIcon} alt="Business Development Executive Icon" className='img-fluid' layout="raw"/>
                         </div>
                         <div className='positionDesc'>
-                          <div className='headTitle'>Front End Developer</div>
-                          <ul className='btmBar'>
-                            <li><span>Experience:</span> 1-4 years</li>
-                            <li><span>No. of Openings:</span> 2-3</li>
-                            <li><span>Qualifications:</span> B.E / B.Tech</li>
-                          </ul>
-                        </div>
-                        <div className='buttonPart'>
-                          <Link href="#">
-                            <a onClick={() => setModalShow(true)} className='btn-default btn-arrow'>Apply Now</a>
-                          </Link>
-                        </div>
-                      </div>
-                    </Accordion.Header>
-                    <Accordion.Body>
-                        <ul>
-                          <li>Strong knowledge of PHP Web Frameworks (Yii/Yii2, Zend, Laravel, CI)</li>
-                          <li>Integrated payment gateways and good with APIs</li>
-                          <li>Demonstrable knowledge of web technologies (HTML, CSS, Javascript, Ajax)</li>
-                          <li>Experience in common third party APIs (Google, Facebook, eBay etc.)</li>
-                          <li>Passion for best design and coding practices</li>
-                          <li>Ability to take up R&#38;D activities and resolve issues</li>
-                        </ul>
-                    </Accordion.Body>
-                </Accordion.Item>
-                <Accordion.Item eventKey="2">
-                    <Accordion.Header>
-                      <div className='cardHeader'>
-                        <div className='headIcon'>
-                          <Image src={reactJsIcon} alt="React js Developer Icon" className='img-fluid' layout="raw"/>
-                        </div>
-                        <div className='positionDesc'>
-                          <div className='headTitle'>React js Developer</div>
-                          <ul className='btmBar'>
-                            <li><span>Experience:</span> 1-4 years</li>
-                            <li><span>No. of Openings:</span> 2-3</li>
-                            <li><span>Qualifications:</span> B.E / B.Tech</li>
-                          </ul>
-                        </div>
-                        <div className='buttonPart'>
-                          <Link href="#">
-                            <a onClick={() => setModalShow(true)} className='btn-default btn-arrow'>Apply Now</a>
-                          </Link>
-                        </div>
-                      </div>
-                    </Accordion.Header>
-                    <Accordion.Body>
-                        <ul>
-                          <li>Strong knowledge of PHP Web Frameworks (Yii/Yii2, Zend, Laravel, CI)</li>
-                          <li>Integrated payment gateways and good with APIs</li>
-                          <li>Demonstrable knowledge of web technologies (HTML, CSS, Javascript, Ajax)</li>
-                          <li>Experience in common third party APIs (Google, Facebook, eBay etc.)</li>
-                          <li>Passion for best design and coding practices</li>
-                          <li>Ability to take up R&#38;D activities and resolve issues</li>
-                        </ul>
-                    </Accordion.Body>
-                </Accordion.Item>
-                <Accordion.Item eventKey="3">
-                    <Accordion.Header>
-                      <div className='cardHeader'>
-                        <div className='headIcon'>
-                          <Image src={nodeJsIcon} alt="Node Js Icon" className='img-fluid' layout="raw"/>
-                        </div>
-                        <div className='positionDesc'>
-                          <div className='headTitle'>Node Js Developer</div>
+                          <div className='headTitle'>Business Development Executive (BDE)</div>
                           <ul className='btmBar'>
                             <li><span>Experience:</span> 1-4 years</li>
                             <li><span>No. of Openings:</span> 2-3</li>
@@ -377,7 +316,7 @@ const SectionIntro = () => {
                 </s.leftPart>
                 <s.rightPart>
                     <s.ctaBtn className='ctaBtn'>
-                        <Link href='#'>
+                        <Link href='mailto:hr@webenix.net'>
                             <a className='btn-default'>hr@webenix.net</a>
                         </Link>
                     </s.ctaBtn>

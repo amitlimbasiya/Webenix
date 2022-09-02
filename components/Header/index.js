@@ -45,7 +45,7 @@ import progressiveIcon from '../../public/images/f-progressive-web-app-developme
 // import prototypeIcon from '../../public/images/f-design-prototype-icon.svg';
 import psdHtmlIcon from '../../public/images/f-psd-html-icon.svg';
 import responsiveIcon from '../../public/images/f-responsive-icon.svg';
-import aspNetDevelopmentIcon from '../../public/images/asp-net-development-icon.svg';
+import aspNetDevelopmentIcon from '../../public/images/f-dotnet-icon.svg';
 import phpIcon from '../../public/images/f-php-icon.svg';
 import madiIcon from '../../public/images/f-mobile-app-design-icon.svg';
 import aboutIcon from '../../public/images/f-about-icon.svg';

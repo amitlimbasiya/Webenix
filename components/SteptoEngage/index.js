@@ -16,19 +16,19 @@ const SteptoEngage = () => {
             <Container>
                 <s.SteptoEngageBlock className='steptoengageblock'>
                     <s.SteptoEngageBox className='steptoengagebox'>
-                        <s.NumberShapeBox className="number-shapebox"><span>1</span></s.NumberShapeBox>
+                        <s.NumberShapeBox className="number-shapebox one"><span>1</span></s.NumberShapeBox>
                         <p>Post your project requirement</p>
                     </s.SteptoEngageBox>
                     <s.SteptoEngageBox className='steptoengagebox'>
-                        <s.NumberShapeBox className="number-shapebox"><span>2</span></s.NumberShapeBox>
+                        <s.NumberShapeBox className="number-shapebox two"><span>2</span></s.NumberShapeBox>
                         <p>Discuss project details with our technical analysts</p>
                     </s.SteptoEngageBox>
                     <s.SteptoEngageBox className='steptoengagebox'>
-                        <s.NumberShapeBox className="number-shapebox"><span>3</span></s.NumberShapeBox>
+                        <s.NumberShapeBox className="number-shapebox three"><span>3</span></s.NumberShapeBox>
                         <p>Select engagement model and timeline</p>
                     </s.SteptoEngageBox>
                     <s.SteptoEngageBox className='steptoengagebox'>
-                        <s.NumberShapeBox className="number-shapebox"><span>4</span></s.NumberShapeBox>
+                        <s.NumberShapeBox className="number-shapebox four"><span>4</span></s.NumberShapeBox>
                         <p>And we start working</p>
                     </s.SteptoEngageBox>
                 </s.SteptoEngageBlock>        

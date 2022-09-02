@@ -14,7 +14,7 @@ import backendDevelopmentIcon from '../../../public/images/backend-development-i
 import wordpressDevIcon from '../../../public/images/f-wordpress-icon.svg';
 import hubspotIcon from '../../../public/images/f-hubspot-icon.svg';
 import PSDWordPressIcon from '../../../public/images/PSDWordPressIcon.svg';
-
+import CMSDevIcon from '../../../public/images/f-CMS-Development.svg';
 const SectionServiceBoxes = () => {
   return (
     <>
@@ -67,7 +67,7 @@ const SectionServiceBoxes = () => {
                     
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={mobileAppDesignIcon} alt="CMS Icon" layout="raw" />
+                  <Image src={CMSDevIcon} alt="CMS Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapeGreenIcon} alt="Shape Green Icon" layout="raw" />
                   </s.iconOverlay>

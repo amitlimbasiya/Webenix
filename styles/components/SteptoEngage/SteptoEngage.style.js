@@ -15,8 +15,8 @@ export const SteptoEngageWrapper  = styled.div`
     ${mediaQueries("tablet")`  
        .container{
             max-width: 100%;
-            padding-left: 30px;
-            padding-right: 30px;
+            padding-left: 20px;
+            padding-right: 20px;
        }
     `} 
 
@@ -109,12 +109,12 @@ export const SteptoEngageSection  = styled.div`
     padding-bottom: 60px;
 
     ${mediaQueries("llg")` 
-        padding-bottom: 80px;
+        padding-bottom: 50px;
     `}  
 
     ${mediaQueries("mobile")` 
-        padding-top: 60px;
-        padding-bottom: 50px;
+        padding-top: 50px;
+        padding-bottom: 20px;
     `};
 
 `;
@@ -122,15 +122,11 @@ export const SteptoEngageSection  = styled.div`
 
 export const SteptoEngageBlock  = styled.div` 
 
-    display: grid;
-    grid-template-columns: 28.25% 28.25% 28.25% auto;
-
-    ${mediaQueries("llg")` 
-        grid-template-columns: 28% 28% 28% auto;
-    `} 
+    justify-content: space-between;
+    display: flex;
 
     ${mediaQueries("mobile")` 
-        grid-template-columns: repeat(1,1fr);
+        flex-wrap: wrap;
         text-align: center;
         justify-items: center;
         justify-content: center;
@@ -144,7 +140,11 @@ export const SteptoEngageBox  = styled.div`
     position: relative;
 
     ${mediaQueries("mobile")` 
-       max-width: 250px;
+       width: 50%;
+       margin-bottom: 30px;
+    `}
+    ${mediaQueries("sm")` 
+       width: 100%;
        margin-bottom: 30px;
     `}
 
@@ -161,6 +161,7 @@ export const SteptoEngageBox  = styled.div`
         width: 46%;
         -webkit-animation: slide-in-left 5s linear infinite forwards;
         animation: slide-in-left 5s linear infinite forwards;
+        display: none;
 
         ${mediaQueries("tablet")`  
             top: 23px
@@ -198,6 +199,7 @@ export const SteptoEngageBox  = styled.div`
         color: #fff;
         border-bottom: 1px dashed #fff;
         width: 46%;
+        display: none;
 
         ${mediaQueries("tablet")`  
             top: 30px;
@@ -213,14 +215,14 @@ export const SteptoEngageBox  = styled.div`
             width: 1px;
             height: 80px;
             position: relative;
-            display: inline-block;
+            display: none;
         `}
         ${mediaQueries("sm")`  
             margin: 20px auto 0;
             width: 1px;
             height: 80px;
             position: relative;
-            display: inline-block;
+            display: none;
         `}
 
 
@@ -289,20 +291,26 @@ export const SteptoEngageBox  = styled.div`
         margin-top: 37px;
         letter-spacing: 0.4px;
         margin-bottom: 0;
-        max-width: 240px;
+        max-width: 250px;
+        text-align: center;
 
-        ${mediaQueries("tablet")`  
+        ${mediaQueries("llg")`  
             font-size: 16px;
             line-height: 26px;
             letter-spacing: 0.2px;
-            max-width: 170px;
+            max-width: 180px;
+            margin-top: 20px;
         `}
 
-        ${mediaQueries("mobile")` 
+        ${mediaQueries("tablet")` 
             max-width: 100%;
-            font-size: 17px;
-            line-height: 28px;
             margin-top: 15px;
+        `}
+        ${mediaQueries("mobile")` 
+            max-width: 200px;
+            margin-top: 15px;
+            margin-left: auto;
+            margin-right: auto;
         `}
         ${mediaQueries("sm")` 
             font-size: 14px;
@@ -314,43 +322,56 @@ export const SteptoEngageBox  = styled.div`
 `;
 
 export const NumberShapeBox  = styled.div` 
-    font-size: 60px;
+    font-size: 45px;
     font-family: "Montserrat", sans-serif;
-    color: #000;
+    color: #424a7a;
     font-weight: 700;
-    line-height: 134px;
+    line-height: 170px;
     border-radius: 20px;
     position: relative;
     text-align: center;
-    background: #fff;
-    width: 134px;
-    height: 134px;
-    box-shadow: 0px 0px 30px rgb(0 0 0 / 30%);
+    /* background: #fff; */
+    width: 170px;
+    height: 170px;
+    /* box-shadow: 0px 0px 30px rgb(0 0 0 / 30%);
     -webkit-box-shadow: 0px 0px 30px rgb(0 0 0 / 30%);
-    transform: rotate(45deg);
-    left: 30px;
-    margin-top: -67px;
+    transform: rotate(45deg); */
+    /* left: 0px; */
+    margin-top: -85px;
+    margin-left: auto;
+    margin-right: auto;
+
+    &.one{
+        background: url('images/f-engage-1.svg') no-repeat;
+    }
+    &.two{
+        background: url('images/f-engage-2.svg') no-repeat;
+    }
+    &.three{
+        background: url('images/f-engage-3.svg') no-repeat;
+    }
+    &.four{
+        background: url('images/f-engage-4.svg') no-repeat;
+    }
 
     ${mediaQueries("llg")` 
-        width: 100px;
-        height: 100px;
-        line-height: 100px;
-        font-size: 44px;
-        margin-top: -50px;
+        width: 150px;
+        height: 150px;
+        line-height: 150px;
+        font-size: 35px;
+        margin-top: -75px;
     `}  
 
     ${mediaQueries("tablet")`  
-        width: 70px;
-        height: 70px;
-        line-height: 70px;
+        width: 120px;
+        height: 120px;
+        line-height: 120px;
         font-size: 30px;
-        margin-top: -35px;
-        border-radius: 10px;
+        margin-top: -60px;
     `} 
 
     ${mediaQueries("mobile")` 
-       left: 0;
-       margin: 0 auto;
+        margin-top: 0px;
     `}
 
     span{
@@ -358,7 +379,7 @@ export const NumberShapeBox  = styled.div`
         font-family: "Montserrat",sans-serif;
         font-weight: 700;
         z-index: 1;
-        transform: rotate(-45deg);
+        /* transform: rotate(-45deg); */
         display: inline-block;
     }
 `;
