@@ -6,7 +6,7 @@ import { useForm } from "react-hook-form";
 import emailjs from 'emailjs-com';
 import validator from 'validator';
 import Recaptcha from 'react-google-recaptcha';
-const RECAPTCHA_KEY = '6LczS8khAAAAAJ1tEMtN1WJVv-KVNe5cQntzds6E';
+const RECAPTCHA_KEY = '6LfNM8shAAAAAGQP99s9wq-xAhNjOCVTZxKCfYLa';
 
 
 const ContactForm = () => {
@@ -19,7 +19,7 @@ const ContactForm = () => {
     const [textarea, setcontact_textarea] = useState('');
     const [statusMessage, setStatusMessage] = useState("");
     const recaptchaRef = React.createRef()
-    // const [buttonDisabled, setButtonDisabled] = React.useState(true)
+    const [buttonDisabled, setButtonDisabled] = React.useState(true)
     const [errorMessage, setErrorMessage] = useState('')
     const handleChange = event => {
         setcontact_fname(event.target.value);
@@ -108,16 +108,15 @@ const ContactForm = () => {
                             <Form.Label>About Project</Form.Label>
                             <Form.Control as="textarea" value={textarea} onChange={handleChange4} name="message" placeholder="Discription" />
                         </Form.Group>
-                        {/* <Recaptcha
+                        <Recaptcha
                             ref={recaptchaRef}
                             sitekey={RECAPTCHA_KEY}
                             size="normal"
                             id="recaptcha-google"
                             onChange={() => setButtonDisabled(false)}
-                        /> */}
+                        />
 
-                        <Button variant="primary" type="submit" className='btn-default mt-2'>Submit</Button>
-                        {/* disabled={buttonDisabled} */}
+                        <Button variant="primary" type="submit" disabled={buttonDisabled} className='btn-default mt-2'>Submit</Button>
                     </form>
                     <p>{statusMessage}</p>
                 </Container>
