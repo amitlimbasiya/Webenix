@@ -75,7 +75,7 @@ const REACTJSDEVELOPMENT = () => {
       <SectionIntro 
         SectionIntroclassName="introuction-section separatorPart noiseBg"
         IntroSubTitle="Bring Innovation in you through ReactJS"
-        IntroMainTitle="Elevate your business with the real-time robust application."
+        IntroMainTitle="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
         IntroContent='
         <p>Your business will succeed if you have the right platform, a robust business strategy, and a talented team of web developers. It&#39;s a good thing you&#39;ve found us. One of the most advanced frontend libraries, React, is backed by top companies like Facebook, Instagram, and Yahoo.</p>
       '/>
