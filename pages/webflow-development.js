@@ -77,7 +77,7 @@ const WEBFLOWDEVELOPMENT = () => {
       IntroSubTitle="We are an expertise Webflow Development Company"
       IntroMainTitle="Get the best of Webflow Design from your partner company"
       IntroContent='
-      <p>Webenix carries the experience in website design that helps in developing the best website through Webflow Development that is built considering the industry-focused and your business. From basic development to Webflow development we help in bringing outstanding results for your business.</p>
+      <p>Webenix carries experience in website design that helps in developing the best website through Webflow Development that is built considering the industry-focused and your business. From basic development to Webflow development we help in bringing outstanding results for your business.</p>
       <p>We have brought the experts into the team that are purely dedicated to developing the marketing-oriented design and providing you exceptional customer service with the timely delivery of the project.</p>
     '/>
     <ServiceFeatureBox

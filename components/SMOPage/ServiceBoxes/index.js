@@ -29,7 +29,7 @@ const SectionServiceBoxes = () => {
               <s.boxPart className="pinkPart">
                 <s.partItem className="textPart">
                     <s.boxHeading>Social Media Setup</s.boxHeading>
-                    <s.textPart>Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</s.textPart>
+                    <s.textPart>A paid social media strategy relies heavily on an organic social media presence. With the right resources and expertise, we can help you build and manage an organic social media account setup that will sustain long-term brand advocacy and customer engagement.</s.textPart>
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={smoIcon} alt="Social Media Setup Icon" layout="raw" />
@@ -43,7 +43,7 @@ const SectionServiceBoxes = () => {
               <s.boxPart className="yellowPart">
                 <s.partItem className="textPart">
                   <s.boxHeading>Social Media Strategy</s.boxHeading>
-                    <s.textPart>Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</s.textPart>
+                    <s.textPart>With the ongoing trends around social media, we help in keeping up with the trends that help in being amongst the market but with the utmost creativity. Not only do we help in building organic traffic but we also help in the paid promotion of the social media posts that will give the company profile the best version of it.</s.textPart>
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={aboutIcon} alt="Social Media Strategy Icon" layout="raw" />
@@ -57,7 +57,7 @@ const SectionServiceBoxes = () => {
               <s.boxPart className="bluePart">
                 <s.partItem className="textPart">
                   <s.boxHeading>Content Creation</s.boxHeading>
-                    <s.textPart>Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</s.textPart>
+                    <s.textPart>By understanding your user&apos;s goals and behaviors, you can increase user engagement and retention. As part of any redesign or migration project, we assist your team in ensuring the best possible User Experience (UX) by implementing best practices in web design and SEO content creation.</s.textPart>
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={smoIcon} alt="Content Creation Icon" layout="raw" />
@@ -71,7 +71,7 @@ const SectionServiceBoxes = () => {
               <s.boxPart className="greenPart">
                 <s.partItem className="textPart">
                   <s.boxHeading>Paid Promotion</s.boxHeading>
-                    <s.textPart>Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</s.textPart>
+                    <s.textPart>In order to achieve your advertising goals, our team creates dedicated PPC landing pages. Each step of the way, we will be your partners, teaching your team best practices and sharing valuable insights to enhance conversion rates. Our team will work with you to develop a content plan for your PPC landing pages, podcast ads, and digital PR campaigns.</s.textPart>
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={paymentGatwayIntegrationIcon} alt="Paid Promotion Icon" layout="raw" />

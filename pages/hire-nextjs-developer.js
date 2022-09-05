@@ -27,7 +27,7 @@ const HireNextJSDeveloper = () => {
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
         PageBannerImageHeight="250px"
-        PageBannerImage="/images/nextjs-icon.svg"
+        PageBannerImage="/images/f-nextjs-icon.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"

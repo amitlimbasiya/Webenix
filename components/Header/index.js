@@ -36,7 +36,7 @@ import flutterIcon from '../../public/images/f-Flutter-Icon.svg';
 import nodeJsIcon from '../../public/images/f-NodeJS-Icon.svg';
 import angularIcon from '../../public/images/f-angular-icon.svg';
 import expressJsIcon from '../../public/images/f-express-js-banner-icon.svg';
-import nextJsIcon from '../../public/images/nextjs-icon.svg';
+import nextJsIcon from '../../public/images/f-nextjs-icon.svg';
 import androidAppIcon from '../../public/images/f-Android-App-Icon.svg';
 import iosDevIcon from '../../public/images/f-Apple-ios.svg';
 import appleIos from '../../public/images/f-iphone-icon.svg';
@@ -488,15 +488,15 @@ const Header = () => {
                               
                             </a>
                           </Link>
-                          {/* <Link href={router.NEXTJSDEVELOPMENT}>
+                          <Link href={router.NEXTJSDEVELOPMENT}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
-                                <Image src={nextJsIcon} alt="Next JS development" layout="raw" />
-                                <p>Next JS development</p>
+                                <Image src={nextJsIcon} alt="Next JS Development" layout="raw" />
+                                <p>Next JS Development</p>
                               </s.MenuItemText>
                               
                             </a>
-                          </Link> */}
+                          </Link>
                         </s.MenuItemBlock>
                       </s.MenuListItem>
 

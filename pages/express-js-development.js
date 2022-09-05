@@ -64,7 +64,7 @@ const EXPRESSJSDEVELOPMENT = () => {
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="Express JS"
         PageBannerGreenTitle="Development"
-        PageBannerContent="<p>Express JS brings the speed and efficiency of Node JS framework-ExpressJS. It helps in developing the front-end and backend development for the business application. We listen to your ideas and implement them while we code for your application in the code. Raise your expectations where we make your business look out of the box. Transform your idea into reality with us.</p>"
+        PageBannerContent="<p>Express JS brings the speed and efficiency of Node JS framework-ExpressJS. It helps in developing the front-end and back-end development for the business application. We listen to your ideas and implement them while we code for your application in the code. Raise your expectations where we make your business look out of the box. Transform your idea into reality with us.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"

@@ -65,7 +65,7 @@ const REACTNATIVEDEVELOPMENT = () => {
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="React Native"
         PageBannerGreenTitle="Development"
-        PageBannerContent="<p>Do not worry about your application choking with the lower speed, let our expert React Native Developers build a strong component-based architecture for the better translation of the business process in real-time.</p><p>From looking after your needs specifically, we create a strong React Native Web Application that functions smoothly and is considered to be a highly-engaging mobile app right for your business.</p>"
+        PageBannerContent="<p>Do not worry about your application choking with the lower speed, let our expert React Native Developers build a strong component-based architecture for the better translation of the business process in real-time.</p><p>From looking into your needs specifically, we create a strong React Native Web Application that functions smoothly and is considered to be a highly-engaging mobile app right for your business.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"

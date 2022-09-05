@@ -62,21 +62,21 @@ const NEXTJSDEVELOPMENT = () => {
       <PageBanner 
         PageBannerClass="pagebanner-section pagebanner-shape bgPlatinum pagebanner-align-center noiseBg"
         PageBannerImgClass="pagebannerimg-col" 
-        PageBannerTitle="Lorem "
-        PageBannerGreenTitle="ipsum"
-        PageBannerContent="<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>"
+        PageBannerTitle="Next JS "
+        PageBannerGreenTitle="Development"
+        PageBannerContent="<p>NextJS development services provided by us help in bringing the vision into reality. It is the ReactJS platform that brings the alignment in developing highly responsive websites helping to achieve all the technical desires.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
         PageBannerImageHeight="250px"
-        PageBannerImage="/images/express-js-banner-icon.svg"
+        PageBannerImage="/images/f-nextjs-icon.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"
-      IntroSubTitle="The standard Lorem Ipsum passage"
-      IntroMainTitle="The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested."
+      IntroSubTitle="Let technology speak"
+      IntroMainTitle="Bring innovation to your business with the high technology services of NextJS."
       IntroContent='
-      <p>making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.</p>
+      <p>With the help of Next JS, we help in bringing innovation by building the high versatile websites with smooth functionality and features. This helps in endeavouring your business with the best assistance.</p>
     '/>
       <ServiceFeatureBox
         sectionTagLine="Our Expertise"

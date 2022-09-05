@@ -22,7 +22,7 @@ const MOBILEAPPDESIGN = () => {
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="Mobile App"
         PageBannerGreenTitle="Design"
-        PageBannerContent="<p>The most important aspect of developing a successful mobile application is to bring a viable change in the customer&apos;s lives. With the best features and functioning of any mobile application, users ought to have constant engagement with the mobile app.</p>"
+        PageBannerContent="<p>The most important aspect of developing a successful mobile application is to bring a viable change in the customers&apos; lives. With the best features and functioning of any mobile application, users ought to have constant engagement with the mobile app.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"

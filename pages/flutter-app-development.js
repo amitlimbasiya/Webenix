@@ -76,8 +76,8 @@ const FLUTTERAPPSDEVELOPMENT = () => {
         IntroSubTitle="Flutter App Development Expertise"
         IntroMainTitle="Choose the best cross-platform app development-Flutter"
         IntroContent='
-        <p>We are here to make your business look unique and sustainable, that will never go out of style which is only possible with the help of Flutter Cross-Platform where our developers have the best hands on. With the Flutter Development Services, we help to maintain the balance between market and business requirements. </p>
-        <p>In the mobile application, it is important to execute the right and needful features which your users will want to stay with your app. We make sure that we keep up with the on-going trends that will not make your business fall apart. </p>
+        <p>We are here to make your business look unique and sustainable, and that will never go out of style which is only possible with the help of Flutter Cross-Platform where our developers have the best hands on. With the Flutter Development Services, we help to maintain the balance between market and business requirements. </p>
+        <p>In the mobile application, it is important to execute the right and needful features so that your users will want to stay with your app. We make sure that we keep up with the on-going trends that will not make your business fall apart. </p>
       '/>
       <ServiceFeatureBox
         sectionTagLine="Our Expertise"

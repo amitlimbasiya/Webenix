@@ -30,8 +30,7 @@ const SectionServiceBoxes = () => {
               <s.boxPart className="pinkPart">
                 <s.partItem className="textPart">
                     <s.boxHeading>Account Setup</s.boxHeading>
-                    <s.textPart>Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</s.textPart>
-                    
+                    <s.textPart>As a company, we are only successful if you recognize the value of our work. Following the completion of the project, you will receive full ownership rights for the account. Regardless of your status with your own account and all the work in it only with Webenix.</s.textPart>
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={ppcIcon} alt="Technical SEO Audit Icon" layout="raw" />
@@ -45,8 +44,7 @@ const SectionServiceBoxes = () => {
               <s.boxPart className="yellowPart">
                 <s.partItem className="textPart">
                   <s.boxHeading>Landing Page Setup</s.boxHeading>
-                    <s.textPart>Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</s.textPart>
-                    
+                    <s.textPart>We help you in setting up the landing page setup.</s.textPart>
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={landingpageDesignSetup} alt="Seo Icon" layout="raw" />
@@ -60,8 +58,7 @@ const SectionServiceBoxes = () => {
               <s.boxPart className="bluePart">
                 <s.partItem className="textPart">
                   <s.boxHeading>PPC Campaign Setup </s.boxHeading>
-                    <s.textPart>Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</s.textPart>
-                    
+                    <s.textPart>According to your advertising budget and goals, we will set up a minimum of two PPC campaigns with optimized campaign settings, researched keywords, and compelling ad copy.</s.textPart>
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={ppcIcon} alt="On-page optimization Icon" layout="raw" />
@@ -75,8 +72,7 @@ const SectionServiceBoxes = () => {
               <s.boxPart className="greenPart">
                 <s.partItem className="textPart">
                   <s.boxHeading>PPC Campaign Audit</s.boxHeading>
-                    <s.textPart>Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</s.textPart>
-                    
+                    <s.textPart>We do not keep you unaware of any activity that we do consider SEO and PPC. With the full monthly report, we channelise the audit report with the detail the clarity that brings in your business to analyze what should be avoided and focused on.</s.textPart>
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={ppcIcon} alt="Off-page optimization Icon" layout="raw" />

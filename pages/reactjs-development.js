@@ -65,7 +65,7 @@ const REACTJSDEVELOPMENT = () => {
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="React JS"
         PageBannerGreenTitle="Development"
-        PageBannerContent="<p>Do not worry about your application choking with the lower speed, let our expert React JS Developers build a strong component-based architecture for the better translation of the business process in real-time.</p> <p>From looking after your needs specifically, we create a strong React JS Web Application that functions smoothly and is considered to be a highly-engaging mobile app right for your business. </p></p>"
+        PageBannerContent="<p>Fast in speed and flawless in function is the core of our ReactJS development services. ReactJS developers translate business processes into real-time web applications using the component-based architecture of React.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
@@ -74,11 +74,10 @@ const REACTJSDEVELOPMENT = () => {
       />
       <SectionIntro 
         SectionIntroclassName="introuction-section separatorPart noiseBg"
-        IntroSubTitle="React JS Development Services"
+        IntroSubTitle="Bring Innovation in you through ReactJS"
         IntroMainTitle="Elevate your business with the real-time robust application."
         IntroContent='
-        <p>Curate your business with the best strategic application where you need a pool of talented and experienced developers. Well, you are at the right place where we help you provide your business with some extravagant user experience web applications with quick updates in real-time, swift loading, and surely high performance.</p>
-        <p>Experience the high quality and strong development robust features developed by the highly experienced ReactJS Developers.</p>
+        <p>Your business will succeed if you have the right platform, a robust business strategy, and a talented team of web developers. It&#39;s a good thing you&#39;ve found us. One of the most advanced frontend libraries, React, is backed by top companies like Facebook, Instagram, and Yahoo.</p>
       '/>
       <ServiceFeatureBox
         sectionTagLine="Our Expertise"
