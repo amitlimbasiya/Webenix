@@ -23,7 +23,7 @@ export const ContactFormWrapper  = styled.div`
     }
 
     .contact-form .form-label{
-        font-size: 14px;
+        font-size: 16px;
         color: #000;
     }
     .contact-form .form-control{
@@ -33,15 +33,11 @@ export const ContactFormWrapper  = styled.div`
         font-size: 16px;
         line-height: 26px;
         font-family: "DINPro-Regular";
-
-        ${mediaQueries("mobile")`
-            font-size: 15px;
-        `}
     }
 
     ${mediaQueries("mobile")`
         .btn-default{
-            font-size: 14px;
+            font-size: 16px;
         }
     `} 
 

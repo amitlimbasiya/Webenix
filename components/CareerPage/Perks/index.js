@@ -84,20 +84,103 @@ const SectionIntro = () => {
         onHide={() => setModalShow(false)}
       />
     <s.SectionIntroWrapper className="introuction-section">
-        <Container>
-            <Row className="mb-3 mb-sm-5">
-              <Col md={12}>
-                <s.SectionTagline>
-                  <span className='before-dash'>Take a look at</span>
-                  <h2>Make the best out of your career days with Webenix</h2>
-                </s.SectionTagline>
-                <s.SectionHeader>
-                  <p>You are at the right business organization if you want to grow and acknowledge your efforts. No matter whether you are an experienced geek or an intern peer, we will be right here for you to shape your career in the best ways possible. </p>
-                </s.SectionHeader>
-              </Col>
-            </Row>
-        </Container>
+        <s.JobPart>
+          <Container>
+              <Row>
+                <Col md={12}>
+                  <s.Tagline>
+                    <span className='before-dash'>Take a look at</span>
+                    <h2>Current Openings...</h2>
+                  </s.Tagline>
+                </Col>
+              </Row>
+              <Accordion defaultActiveKey="0">
+                  <Accordion.Item eventKey="0">
+                      <Accordion.Header>
+                        <div className='cardHeader'>
+                          <div className='headIcon'>
+                            <Image src={wordpressDevIcon} alt="Wordpress Developer Icon" className='img-fluid' layout="raw"/>
+                          </div>
+                          <div className='positionDesc'>
+                            <div className='headTitle'>Wordpress Developer</div>
+                            <ul className='btmBar'>
+                              <li><span>Experience:</span> Minimum 1 year</li>
+                              <li><span>No. of Openings:</span> 1</li>
+                              <li><span>Qualifications:</span> B.E / B.Tech</li>
+                            </ul>
+                          </div>
+                          <div className='buttonPart'>
+                            <Link href="#">
+                              <a onClick={() => setModalShow(true)} className='btn-default btn-arrow'>Apply Now</a>
+                            </Link>
+                          </div>
+                        </div>
+                      </Accordion.Header>
+                      <Accordion.Body>
+                          <ul>
+                            <li>Minimum 1 year of experience developing websites using WordPress.</li>
+                            <li>WordPress plugin development / theme development.</li>
+                            <li>Setup of WordPress options, plugin installation and configuration.</li>
+                            <li>Good knowledge for database admin (MySQL) via PHPMyAdmin.</li>
+                            <li>Strong knowledge and proficiency in core PHP programming, MySQL with OOPS concepts.</li>
+                            <li>Experience working on AJAX, JavaScript & jQuery.</li>
+                            <li>Scope, analyze, design, test, debug and implement complex applications.</li>
+                            <li>Ability to work independently with minimal guidance.</li>
+                            <li>Research and remain informed of new technology and development tools.</li>
+                            <li>A great attitude.</li>
+                            <li>Proficiency in English Language is MUST.</li>
+                          </ul>
+                      </Accordion.Body>
+                  </Accordion.Item>
+                  <Accordion.Item eventKey="1">
+                      <Accordion.Header>
+                        <div className='cardHeader'>
+                          <div className='headIcon'>
+                            <Image src={frontEndDevelopmentIcon} alt="Business Development Executive Icon" className='img-fluid' layout="raw"/>
+                          </div>
+                          <div className='positionDesc'>
+                            <div className='headTitle'>Business Development Executive (BDE)</div>
+                            <ul className='btmBar'>
+                              <li><span>Experience:</span> 1-4 years</li>
+                              <li><span>No. of Openings:</span> 2-3</li>
+                              <li><span>Qualifications:</span> B.E / B.Tech</li>
+                            </ul>
+                          </div>
+                          <div className='buttonPart'>
+                            <Link href="#">
+                              <a onClick={() => setModalShow(true)} className='btn-default btn-arrow'>Apply Now</a>
+                            </Link>
+                          </div>
+                        </div>
+                      </Accordion.Header>
+                      <Accordion.Body>
+                          <ul>
+                            <li>Strong knowledge of PHP Web Frameworks (Yii/Yii2, Zend, Laravel, CI)</li>
+                            <li>Integrated payment gateways and good with APIs</li>
+                            <li>Demonstrable knowledge of web technologies (HTML, CSS, Javascript, Ajax)</li>
+                            <li>Experience in common third party APIs (Google, Facebook, eBay etc.)</li>
+                            <li>Passion for best design and coding practices</li>
+                            <li>Ability to take up R&#38;D activities and resolve issues</li>
+                          </ul>
+                      </Accordion.Body>
+                  </Accordion.Item>
+              </Accordion>
+          </Container>
+        </s.JobPart>
         <s.LeftRightPart className="leftRightPart">
+          <Container>
+              <Row className='mb-5 pb-3'>
+                <Col md={12}>
+                  <s.SectionTagline>
+                    <span className='before-dash'>Take a look at</span>
+                    <h2>Make the best out of your career days with Webenix</h2>
+                  </s.SectionTagline>
+                  <s.SectionHeader>
+                    <p>You are at the right business organization if you want to grow and acknowledge your efforts. No matter whether you are an experienced geek or an intern peer, we will be right here for you to shape your career in the best ways possible. </p>
+                  </s.SectionHeader>
+                </Col>
+              </Row>
+          </Container>
           <div className="right-slant">
             <div className="anmtn-element in-view">
               <div className="animated-cuts-right">
@@ -214,89 +297,6 @@ const SectionIntro = () => {
           </Row>
       </Container>
     </s.WeLookFor>
-    <s.JobPart>
-        <Container>
-            <Row>
-              <Col md={12}>
-                <s.Tagline>
-                  <span className='before-dash'>Take a look at</span>
-                  <h2>Current Openings...</h2>
-                </s.Tagline>
-              </Col>
-            </Row>
-            <Accordion defaultActiveKey="0">
-                <Accordion.Item eventKey="0">
-                    <Accordion.Header>
-                      <div className='cardHeader'>
-                        <div className='headIcon'>
-                          <Image src={wordpressDevIcon} alt="Wordpress Developer Icon" className='img-fluid' layout="raw"/>
-                        </div>
-                        <div className='positionDesc'>
-                          <div className='headTitle'>Wordpress Developer</div>
-                          <ul className='btmBar'>
-                            <li><span>Experience:</span> Minimum 1 year</li>
-                            <li><span>No. of Openings:</span> 1</li>
-                            <li><span>Qualifications:</span> B.E / B.Tech</li>
-                          </ul>
-                        </div>
-                        <div className='buttonPart'>
-                          <Link href="#">
-                            <a onClick={() => setModalShow(true)} className='btn-default btn-arrow'>Apply Now</a>
-                          </Link>
-                        </div>
-                      </div>
-                    </Accordion.Header>
-                    <Accordion.Body>
-                        <ul>
-                          <li>Minimum 1 year of experience developing websites using WordPress.</li>
-                          <li>WordPress plugin development / theme development.</li>
-                          <li>Setup of WordPress options, plugin installation and configuration.</li>
-                          <li>Good knowledge for database admin (MySQL) via PHPMyAdmin.</li>
-                          <li>Strong knowledge and proficiency in core PHP programming, MySQL with OOPS concepts.</li>
-                          <li>Experience working on AJAX, JavaScript & jQuery.</li>
-                          <li>Scope, analyze, design, test, debug and implement complex applications.</li>
-                          <li>Ability to work independently with minimal guidance.</li>
-                          <li>Research and remain informed of new technology and development tools.</li>
-                          <li>A great attitude.</li>
-                          <li>Proficiency in English Language is MUST.</li>
-                        </ul>
-                    </Accordion.Body>
-                </Accordion.Item>
-                <Accordion.Item eventKey="1">
-                    <Accordion.Header>
-                      <div className='cardHeader'>
-                        <div className='headIcon'>
-                          <Image src={frontEndDevelopmentIcon} alt="Business Development Executive Icon" className='img-fluid' layout="raw"/>
-                        </div>
-                        <div className='positionDesc'>
-                          <div className='headTitle'>Business Development Executive (BDE)</div>
-                          <ul className='btmBar'>
-                            <li><span>Experience:</span> 1-4 years</li>
-                            <li><span>No. of Openings:</span> 2-3</li>
-                            <li><span>Qualifications:</span> B.E / B.Tech</li>
-                          </ul>
-                        </div>
-                        <div className='buttonPart'>
-                          <Link href="#">
-                            <a onClick={() => setModalShow(true)} className='btn-default btn-arrow'>Apply Now</a>
-                          </Link>
-                        </div>
-                      </div>
-                    </Accordion.Header>
-                    <Accordion.Body>
-                        <ul>
-                          <li>Strong knowledge of PHP Web Frameworks (Yii/Yii2, Zend, Laravel, CI)</li>
-                          <li>Integrated payment gateways and good with APIs</li>
-                          <li>Demonstrable knowledge of web technologies (HTML, CSS, Javascript, Ajax)</li>
-                          <li>Experience in common third party APIs (Google, Facebook, eBay etc.)</li>
-                          <li>Passion for best design and coding practices</li>
-                          <li>Ability to take up R&#38;D activities and resolve issues</li>
-                        </ul>
-                    </Accordion.Body>
-                </Accordion.Item>
-            </Accordion>
-        </Container>
-    </s.JobPart>
     <s.JobCTA>
       <Container>
         <Row>

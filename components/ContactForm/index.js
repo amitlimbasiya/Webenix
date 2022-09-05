@@ -6,6 +6,8 @@ import { useForm } from "react-hook-form";
 import emailjs from 'emailjs-com';
 import validator from 'validator';
 import Recaptcha from 'react-google-recaptcha';
+import PhoneInput from 'react-phone-number-input';
+import 'react-phone-number-input/style.css'
 const RECAPTCHA_KEY = '6LfNM8shAAAAAGQP99s9wq-xAhNjOCVTZxKCfYLa';
 
 
@@ -31,7 +33,7 @@ const ContactForm = () => {
         setcontact_email(event.target.value);
     };
     const handleChange3 = event => {
-        setcontact_phone(event.target.value);
+        // setcontact_phone(event.target.value);
     };
     const handleChange4 = event => {
         setcontact_textarea(event.target.value);
@@ -101,7 +103,7 @@ const ContactForm = () => {
                             </Form.Group>
                             <Form.Group as={Col} md="6 mb-3" controlId="ContactPhone">
                                 <Form.Label>Contact</Form.Label>
-                                <Form.Control type="tel" value={phone} onChange={handleChange3} name="contact_phone" required className={`form-control`} placeholder="123-456-789" />
+                                <PhoneInput type="tel" value={phone} onChange={handleChange3} name="contact_phone" required className={`form-control`} placeholder="123-456-789" />
                             </Form.Group>
                         </Row>
                         <Form.Group className="mt-2 mb-3" controlId="ContactPhone">

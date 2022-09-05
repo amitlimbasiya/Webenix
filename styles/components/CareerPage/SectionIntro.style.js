@@ -235,11 +235,5 @@ export const SectionHeader  = styled.div`
             font-size: 16px;
             line-height: 24px;
         `}  
-
-        ${mediaQueries("mobile")`
-           font-size: 14px;
-           line-height: 24px;
-        `} 
-
     }
 `;

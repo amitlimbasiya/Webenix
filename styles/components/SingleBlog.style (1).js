@@ -86,8 +86,6 @@ export const SingleBlogWrapper  = styled.div`
                 text-transform: uppercase;
 
                 ${mediaQueries("mobile")`
-                    font-size: 13px;
-                    line-height: 20px;
                     letter-spacing: 1.2px;
                 `}
             }            
@@ -138,8 +136,8 @@ export const BlogContentWrapper  = styled.div`
         color: #000;
 
         ${mediaQueries("mobile")`
-            font-size: 14px;
-            line-height: 24px;
+            font-size: 16px;
+            line-height: 26px;
         `}
     }
 
@@ -160,8 +158,8 @@ export const BlogContentWrapper  = styled.div`
         padding-left: 25px;
 
         ${mediaQueries("mobile")`
-            font-size: 14px;
-            line-height: 24px;
+            font-size: 16px;
+            line-height: 26px;
             padding-left: 15px;
         `}
 

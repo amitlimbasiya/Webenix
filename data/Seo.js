@@ -354,6 +354,26 @@ export const data = {
         description: " Hire the Top AngularJS Developers. Webenix provides best Angular JS Developers at a rate of $18 per hour with an average experience of 5 to 8 years. If you are looking to hire a team of AngularJS developer then please contact us.",
         keyword: "Hire AngularJS Developer, Hire AngularJS Developers India, AngularJS Development Services, "
     },
+    hirecontentwriter: {
+        title: "",
+        description: "",
+        keyword: ""
+    },
+    hireppcexpert: {
+        title: "",
+        description: "",
+        keyword: ""
+    },
+    hiresmmexpert: {
+        title: "",
+        description: "",
+        keyword: ""
+    },
+    hireseoexpert: {
+        title: "",
+        description: "",
+        keyword: ""
+    },
     blog: {
         title: "Blogs - Webenix",
         description: "",

@@ -328,3 +328,8 @@ label.form-label{
 div#hubspot-messages-iframe-container {
   bottom: 50px !important;
 }
+.PhoneInputInput, .PhoneInputInput:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}

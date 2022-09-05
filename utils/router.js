@@ -76,6 +76,11 @@ const router = {
   HIRENEXTJSDEVELOPER: "/hire-nextjs-developer",
   HIREANGULARJSDEVELOPER: "/hire-angularjs-developer",
 
+  HIRESEOEXPERT: "/hire-seo-expert",
+  HIRESMMEXPERT: "/hire-smm-expert",
+  HIREPPCEXPERT: "/hire-ppc-expert",
+  HIRECONTENTWRITER: "/hire-content-writer",
+
 
   BLOG: "/blog",
   SINGLEBLOG1: "/blog/why-it-is-necessary-to-do-regular-updates-of-your-wordPress-website",

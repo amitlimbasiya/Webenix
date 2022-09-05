@@ -315,7 +315,6 @@ export const textPart  = styled.p`
     `} 
     ${mediaQueries("mobile")` 
         padding-right: 20px;
-        font-size: 14px;
     `}  
 `;
 export const iconOverlay  = styled.div`

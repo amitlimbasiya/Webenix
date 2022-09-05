@@ -325,7 +325,4 @@ export const serviceName  = styled.h3`
     ${mediaQueries("tablet")`
         font-size: 16px;
     `}
-    ${mediaQueries("tablet")`
-        font-size: 14px;
-    `}
 `;

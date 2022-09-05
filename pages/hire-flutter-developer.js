@@ -27,7 +27,7 @@ const HireFlutterDeveloper = () => {
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
         PageBannerImageHeight="250px"
-        PageBannerImage="/images/flutter-icon.svg"
+        PageBannerImage="/images/f-Flutter-Icon.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"

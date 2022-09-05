@@ -28,7 +28,7 @@ const HireNodeJSDeveloper = () => {
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
         PageBannerImageHeight="250px"
-        PageBannerImage="/images/NodeJS-Icon.svg"
+        PageBannerImage="/images/f-NodeJS-Icon.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"

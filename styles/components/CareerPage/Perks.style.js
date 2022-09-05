@@ -7,7 +7,7 @@ export const SectionIntroWrapper  = styled.div`
     padding-bottom: 100px; 
     
     ${mediaQueries("llg")` 
-        padding-bottom: 90px;
+        padding-bottom: 50px;
     `} 
 
     ${mediaQueries("mobile")` 
@@ -117,12 +117,6 @@ export const SectionHeader  = styled.div`
             font-size: 16px;
             line-height: 24px;
         `}  
-
-        ${mediaQueries("mobile")`
-           font-size: 14px;
-           line-height: 24px;
-        `} 
-
     }
 `;
 export const LeftRightPart  = styled.div` 
@@ -146,8 +140,11 @@ export const LeftRightPart  = styled.div`
     flex-wrap: wrap;
     align-items: center;
 
-    ${mediaQueries("mobile")`
+    ${mediaQueries("lg")`
         padding: 50px 0;
+    `} 
+    ${mediaQueries("mobile")`
+        padding: 50px 0 25px;
     `} 
 
     .right-slant{
@@ -251,12 +248,19 @@ export const LeftRightPart  = styled.div`
     .left-perk .perk-plate{
         padding-right: 50px;
 
+        ${mediaQueries("lg")` 
+            padding-right: 15px;
+        `}
         ${mediaQueries("mobile")` 
             padding-right: 0;
         `}
     }
     .right-perk .perk-plate{
         padding-left: 50px;
+
+        ${mediaQueries("lg")` 
+            padding-left: 30px;
+        `}
 
         ${mediaQueries("mobile")` 
             padding-left: 0;
@@ -385,11 +389,6 @@ export const LeftRightPart  = styled.div`
             font-size: 16px;
             line-height: 24px;
         `}  
-
-        ${mediaQueries("mobile")`
-           font-size: 14px;
-           line-height: 24px;
-        `} 
     }
     
     .rellimage {       
@@ -476,11 +475,6 @@ export const WeLookFor  = styled.div`
             font-size: 16px;
             line-height: 24px;
         `}  
-
-        ${mediaQueries("mobile")`
-           font-size: 14px;
-           line-height: 24px;
-        `} 
     }
     
     img{
@@ -568,7 +562,12 @@ export const Tagline  = styled.div`
 
 export const JobPart  = styled.div` 
     background-color: #f1f2fe;
-    padding: 100px 0px;  
+    padding: 100px 0px;
+    
+    ${mediaQueries("xl")` 
+        padding-bottom: 80px;
+        padding-top: 80px;
+    `} 
 
     .container{
         max-width: 1430px;
@@ -614,7 +613,7 @@ export const JobPart  = styled.div`
 
         ${mediaQueries("llg")` 
             font-size: 20px;
-            padding: 15px 10px;
+            padding: 15px 0px;
         `} 
         ${mediaQueries("mobile")`  
             padding: 15px 0px;
@@ -722,14 +721,11 @@ export const JobPart  = styled.div`
         ${mediaQueries("tablet")`  
             font-size: 16px;
         `}
-        ${mediaQueries("mobile")`  
-            font-size: 14px;
-        `}
     }
     .accordion .accordion-button .cardHeader .positionDesc .btmBar li:after{
         content: "|";
         color: #a0a1a9;
-        padding: 0 15px;
+        padding: 0 20px;
         
         ${mediaQueries("llg")`  
             padding: 0 10px;
@@ -782,10 +778,6 @@ export const JobPart  = styled.div`
             font-size: 16px;
             padding: 0px 0px 8px 20px;
         `}
-        ${mediaQueries("tablet")`  
-            font-size: 14px;
-        `}
-        
     }
     .accordion .accordion-body ul li:before{
         content: "";
@@ -808,24 +800,26 @@ export const JobPart  = styled.div`
     `} 
 
     ${mediaQueries("mobile")` 
-       padding-bottom: 40px;
+       padding:40px 0px;
     `}    
 `;
 
 export const JobCTA  = styled.div` 
-    padding: 100px 0px 0px;
+    padding: 0px 0px 0px;
 
     ${mediaQueries("xl")`  
-        padding: 80px 0px 80px 0px;
+        padding: 0px 0px 80px 0px;
+        margin-bottom: 50px;
     `}
     ${mediaQueries("lg")`  
-        padding: 60px 0px 60px 0px;
+        padding: 0px 0px 60px 0px;
     `}
 
     .container{
         max-width: 1430px;
         padding-left: 30px;
         padding-right: 30px;
+        
 
         ${mediaQueries("llg")` 
             padding-left: 20px;

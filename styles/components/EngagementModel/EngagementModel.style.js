@@ -344,8 +344,6 @@ export const EngagementModelContentInnerBox  = styled.div`
             `}
 
              ${mediaQueries("mobile")` 
-                font-size: 14px; 
-                line-height: 24px;
                 padding-left: 15px;
                 margin-bottom: 10px;
             `}

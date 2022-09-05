@@ -27,7 +27,7 @@ const HireAngularJSDeveloper = () => {
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
         PageBannerImageHeight="250px"
-        PageBannerImage="/images/angular-icon.svg"
+        PageBannerImage="/images/f-angular-icon.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"

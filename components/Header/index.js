@@ -838,6 +838,43 @@ const Header = () => {
                           </Link>
                         </s.MenuItemBlock>
                       </s.MenuListItem>
+                      <s.MenuListItem className="menulist-item">
+                        <s.MenuListTitle className="menulist-title">Hire Digital Marketing Experts</s.MenuListTitle>
+                        <s.MenuItemBlock className="menuitem-block">
+                          <Link href={router.HIRESEOEXPERT}>
+                            <a className="menuitem-box">
+                              <s.MenuItemText className="menuitem-text">
+                                <Image src={seoIcon} alt="Hire SEO Expert" layout="raw" />
+                                <p>Hire SEO Expert</p>
+                              </s.MenuItemText>
+                            </a>
+                          </Link>
+                          <Link href={router.HIRESMMEXPERT}>
+                            <a className="menuitem-box">
+                              <s.MenuItemText className="menuitem-text">
+                                <Image src={smoIcon} alt="Hire SMM Expert" layout="raw" />
+                                <p>Hire SMM Expert</p>
+                              </s.MenuItemText>
+                            </a>
+                          </Link>
+                          <Link href={router.HIREPPCEXPERT}>
+                            <a className="menuitem-box">
+                              <s.MenuItemText className="menuitem-text">
+                                <Image src={ppcIcon} alt="Hire PPC Expert" layout="raw" />
+                                <p>Hire PPC Expert</p>
+                              </s.MenuItemText>
+                            </a>
+                          </Link>
+                          <Link href={router.HIRECONTENTWRITER}>
+                            <a className="menuitem-box">
+                              <s.MenuItemText className="menuitem-text">
+                                <Image src={ppcIcon} alt="Hire Content Writer" layout="raw" />
+                                <p>Hire Content Writer</p>
+                              </s.MenuItemText>
+                            </a>
+                          </Link>
+                        </s.MenuItemBlock>
+                      </s.MenuListItem>
                     </s.MenuColumn>
                   </s.MenuSub>
                 </s.MenuItemHasChildren> 

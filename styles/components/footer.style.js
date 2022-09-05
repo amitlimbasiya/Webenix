@@ -81,7 +81,7 @@ export const heading  = styled.h3`
         line-height: 24px;
         color: #000;
         ${mediaQueries("sm")`  
-            font-size: 15px;
+            font-size: 16px;
         `}
     }
 `;
@@ -168,11 +168,6 @@ export const copyText  = styled.p`
     line-height: 1.4;
     padding: 19px 0;
     margin:0px;
-
-    ${mediaQueries("sm")`  
-        font-size: 14px;
-    `}
-
 
 `;
 export const infoDesc  = styled.div`

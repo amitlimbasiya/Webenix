@@ -313,8 +313,6 @@ export const SteptoEngageBox  = styled.div`
             margin-right: auto;
         `}
         ${mediaQueries("sm")` 
-            font-size: 14px;
-            line-height: 24px;
             margin-top: 15px;
         `}
     }

@@ -24,7 +24,7 @@ const CAREER = () => {
         PageBannerImageHeight="298px"
         PageBannerImage="/images/career/career-banner-icon.svg"/>
       <SectionIntro/>
-      <Perks/>
+      <Perks/>  
       </>
   )
 }

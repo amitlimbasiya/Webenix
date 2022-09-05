@@ -114,12 +114,9 @@ export const PortfolioFilterWrapper  = styled.div`
         `}
 
         ${mediaQueries("mobile")`  
-            font-size: 14px;
+            font-size: 16px;
             margin: 0 3px;
             padding: 5px 5px;
-        `}
-        ${mediaQueries("sm")`  
-            font-size: 13px;
         `}
     }  
     

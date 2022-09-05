@@ -28,7 +28,7 @@ const HireReactJSDeveloper = () => {
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
         PageBannerImageHeight="250px"
-        PageBannerImage="/images/reactjsBannerIcon.svg"
+        PageBannerImage="/images/f-Reactjs-Icon.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"

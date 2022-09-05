@@ -695,7 +695,6 @@ export const MenuItemText  = styled.div`
         margin-left: 15px;
 
         ${mediaQueries("xll")`  
-            font-size: 14px;
             line-height: 28px;
         `}
     }

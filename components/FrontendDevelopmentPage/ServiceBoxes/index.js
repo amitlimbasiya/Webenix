@@ -7,7 +7,7 @@ import shapeBlueIcon from '../../../public/images/frontendDevelopment/shapeBlue.
 import shapeGreenIcon from '../../../public/images/frontendDevelopment/shapeGreen.svg';
 import shapePastelPink from '../../../public/images/frontendDevelopment/shapePastelPink.svg';
 import shapeMorningGloryIcon from '../../../public/images/frontendDevelopment/shapeMorningGlory.svg';
-import backendDevelopmentIcon from '../../../public/images/backend-development-icon.svg';
+import webAppIcon from '../../../public/images/f-Web-Development.svg';
 import frontEndDevelopmentIcon from '../../../public/images/f-Front-End-Developer.svg';
 import angularIcon from '../../../public/images/f-angular-icon.svg';
 import uiUxIcon from '../../../public/images/f-UIUX-Design.svg';
@@ -37,7 +37,7 @@ const SectionServiceBoxes = () => {
                     
                 </s.partItem>
                 <s.partItem className="imgPart">
-                <Image src={frontEndDevelopmentIcon} alt="Web App Development Icon" layout="raw" />
+                <Image src={webAppIcon} alt="Web App Development Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapeGreenIcon} alt="Shape Green Icon" layout="raw" />
                   </s.iconOverlay>
