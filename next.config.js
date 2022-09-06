@@ -8,8 +8,10 @@ module.exports = {
       images: {
           layoutRaw: true,
           layoutFill: true,
-          layoutIntrinsic :false
+          layoutIntrinsic :false,
+          unoptimized: true
       },
       forceSwcTransforms: true,
   },
 };
+

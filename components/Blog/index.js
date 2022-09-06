@@ -39,7 +39,7 @@ const Blog = () => {
                                 <Link href={router.SINGLEBLOG25}>
                                     <a>
                                         <s.blogImage>
-                                            <Image src={WaysUEISABSER} alt="The ways to utilize an effective outsourcing strategy and achieve business success by eliminating the risks"  />
+                                            <Image layout='responsive' src={WaysUEISABSER} placeholder="blur"  alt="The ways to utilize an effective outsourcing strategy and achieve business success by eliminating the risks"  />
                                         </s.blogImage>
                                     </a>
                                 </Link>
@@ -59,7 +59,7 @@ const Blog = () => {
                                 <Link href={router.SINGLEBLOG21}>
                                     <a>
                                         <s.blogImage>
-                                            <Image src={TopResonsOffshireDevelopment} alt="Top Reasons to consider offshore development"  />
+                                            <Image layout='responsive' src={TopResonsOffshireDevelopment} placeholder="blur"  alt="Top Reasons to consider offshore development"  />
                                         </s.blogImage>
                                     </a>
                                 </Link>
@@ -77,7 +77,7 @@ const Blog = () => {
                                 <Link href={router.SINGLEBLOG19}>
                                     <a>
                                         <s.blogImage>
-                                            <Image src={ComparisonBetweenFixedPrice} alt="A comparison between fixed price and time and material contract" />
+                                            <Image layout='responsive' src={ComparisonBetweenFixedPrice} placeholder="blur"  alt="A comparison between fixed price and time and material contract" />
                                         </s.blogImage>
                                     </a>
                                 </Link>

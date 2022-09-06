@@ -25,9 +25,9 @@ const HIREDOTNETDEVELOPER = () => {
         PageBannerContent="<p>.Net is considered to be the most preferred technology that is introduced by Microsoft technology to acquire the business industries like financial companies of banking, insurance, fintech, logistic, security and much more. </p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
-        PageBannerImageWidth="280px"
-        PageBannerImageHeight="250px"
-        PageBannerImage="/images/asp-net-development-icon.svg"
+        PageBannerImageWidth="600px"
+        PageBannerImageHeight="400px"
+        PageBannerImage="/images/f-Hire-Dot-NET-Developers.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"

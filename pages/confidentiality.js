@@ -33,9 +33,6 @@ const Confidentiality = () => {
         EngagementModelImageWidth="750"
         EngagementModelImageHeight="338"  
         EngagementMainTitle="Non-Disclosure Agreement"    
-        EngagementModelIcon="/images/nda-icon.svg"
-        EngagementModelIconWidth="100"
-        EngagementModelIconHeight="100"
         EngagementModelName=""
         EngagementContent='         
           <ul>
@@ -51,9 +48,6 @@ const Confidentiality = () => {
         EngagementModelImageWidth="403"
         EngagementModelImageHeight="380"  
         EngagementMainTitle="Technical Security"    
-        EngagementModelIcon="/images/technical-security-icon.svg"
-        EngagementModelIconWidth="100"
-        EngagementModelIconHeight="100"
         EngagementModelName=""
         EngagementContent='
           <ul>
@@ -71,9 +65,6 @@ const Confidentiality = () => {
         EngagementModelImageWidth="450"
         EngagementModelImageHeight="453"  
         EngagementMainTitle="Infrastructure physical security"
-        EngagementModelIcon="/images/infrastructure-physical-security-icon.svg"
-        EngagementModelIconWidth="100"
-        EngagementModelIconHeight="100"
         EngagementModelName=""
         EngagementContent='
           <ul>

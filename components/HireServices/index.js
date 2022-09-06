@@ -43,7 +43,7 @@ const HireServices = () => {
                                 <s.iconBox className='icon desertSandBg'>
                                     <Image src={wordpressDevIcon} alt="Wordpress Deveopment Icon" layout="raw" />
                                 </s.iconBox>
-                                <s.serviceName>Wordpress<br />Developers</s.serviceName>
+                                <s.serviceName>WordPress<br />Developers</s.serviceName>
                             </a>
                         </Link>
                     </s.hireServicesItem>

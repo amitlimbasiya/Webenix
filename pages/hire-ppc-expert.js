@@ -26,9 +26,9 @@ const HIREPPCEXPERT = () => {
         PageBannerContent="<p>Google Ads Services allows you to receive more leads in less time through one of the fastest marketing methods. Our well-optimized online ad campaigns increase website traffic and conversions while expanding your brand's reach at an affordable rate.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
-        PageBannerImageWidth="280px"
-        PageBannerImageHeight="250px"
-        PageBannerImage="/images/f-PPC.svg"
+        PageBannerImageWidth="600px"
+        PageBannerImageHeight="400px"
+        PageBannerImage="/images/f-Hire-PPC-Expert.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"

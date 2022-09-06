@@ -69,8 +69,8 @@ const Services = () => {
                                 </ul>
                             </s.serviceLinks>                           
                         </Col>
-                        <Col className='rightPart'>
-                            <Image src={DesignImg} alt="Mobile Application Development" className='img-fluid' layout="raw" />
+                        <Col className='rightPart pr'>
+                            <Image src={DesignImg} alt="Mobile Application Development" className='img-fluid' layout="responsive" />
                         </Col>
                     </Row>
                 </Container>
@@ -78,8 +78,8 @@ const Services = () => {
             <s.serviceItem className="serviceItem bottom developmentServices">
                 <Container>
                     <Row className='align-items-center'>
-                        <Col md={6} sm={12} className='rightPart order-last order-md-first'>
-                            <Image src={WebDevelopmentImg} alt="Enterprise Software Development" className='img-fluid' layout="raw" />
+                        <Col md={6} sm={12} className='rightPart order-last order-md-first pr'>
+                            <Image src={WebDevelopmentImg} alt="Enterprise Software Development" className='img-fluid' layout="responsive" />
                         </Col>
                         <Col className='leftPart order-first order-md-last'>
                             <s.titlePart>Web <br/>Development</s.titlePart>
@@ -143,8 +143,8 @@ const Services = () => {
                                 </ul>
                             </s.serviceLinks>                            
                         </Col>
-                        <Col className='rightPart'>
-                            <Image src={MobileAppDevelopmentImg} alt="Mobile Application Development" className='img-fluid' layout="raw" />
+                        <Col className='rightPart pr'>
+                            <Image src={MobileAppDevelopmentImg} alt="Mobile Application Development" className='img-fluid' layout="responsive" />
                         </Col>
                     </Row>
                 </Container>
@@ -152,8 +152,8 @@ const Services = () => {
             <s.serviceItem className="serviceItem bottom digitalMarketingServices">
                 <Container>
                     <Row className='align-items-center'>
-                        <Col md={6} sm={12} className='rightPart order-last order-md-first'>
-                            <Image src={DigitalMarketingImg} alt="Enterprise Software Development" className='img-fluid' layout="raw" />
+                        <Col md={6} sm={12} className='rightPart order-last order-md-first pr'>
+                            <Image src={DigitalMarketingImg} alt="Enterprise Software Development" className='img-fluid' layout="responsive" />
                         </Col>
                         <Col className='leftPart order-first order-md-last'>
                             <s.titlePart>Digital <br/>Marketing</s.titlePart>

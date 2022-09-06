@@ -5,9 +5,9 @@ export const data = {
         keyword: "Hire Dedicated Developers, Hire Remote Developers, Hire Remote Developers India, Hire Remote Software Developer,"
     },
     about: {
-        title: "About Us - Webenix Technologies & Solutions",
-        description: "Webenix is a leading web development and design company based in USA and India serving for more that 8+ years. We provide different types of developers for your needs.",
-        keyword: "About Us Webenix, Webenix Technologies, Webenix Solutions"
+        title: "About Us - Webenix Technologies",
+        description: "Webenix is a leading web development and design company based in USA and India serving for more that 4+ years. We provide different types of developers for your needs.",
+        keyword: "About Webenix, Webenix Technologies,"
     },
     infrastructure: {
         title: "Webenix Infrastructure | Creative Working Environment",
@@ -16,13 +16,13 @@ export const data = {
     },
     engagementmodels: {
         title: "Our Engagement Model | Hire Professional Developer | Webemox Technologies",
-        description: "Webenix provides flexible engagement models which include Hire dedicated developer, Hybrid model, setup offshore team as well as fixed price model to meet up.",
+        description: "Webenix provides flexible engagement models which include Hire dedicated developer on an hourly basis, Hybrid model, setup offshore team as well as fixed price model and to meet up.",
         keyword: "Engagement Model, Hire Professional Developer"
     },
     career: {
         title: "Jobs & Career Opportunity at Webenix",
         description: "Excellence. Experience. Execution. Career Webenix provides an opportunity to power your ignite and talent the passion leading to outstanding career path.",
-        keyword: "Jobs Opportunity, Career Opportunity, Webenix Technologies"
+        keyword: "Jobs Opportunity in Webenix, Career Opportunity in Rajkot, Webenix Technologies"
     },
     confidentiality: {
         title: "Confidentiality | Code Ownership & Non Disclosure | Webenix Technologies",
@@ -31,18 +31,18 @@ export const data = {
     },
     contact: {
         title: "Contact US | Webenix",
-        description: "Have any questions? Get in touch with us. Also, you can contact at info@webenix.net",
+        description: "Have any questions? Get in touch with us. Also, you can contact at info at webenix dot net",
         keyword: "Contact US, Get In Touch,"
     },
     graphicsdesign: {
-        title: "Best Graphic Design Solutions | Graphic Design Companies | Webenix",
+        title: "Best Graphic Design Services | Graphic Design Companies | Webenix",
         description: "Looking for best Graphic Design Services comapnies? It is an agency that specializes in the Graphic and Website Design services throughout the globe.",
-        keyword: "Graphic Design Solutions, Graphic Design Companies Near Me,"
+        keyword: "Graphic Design Services, Graphic Design Companies Near Me,"
     },
     webdesign: {
-        title: "Web Design Solutions | Web Design Services Company | Webenix",
+        title: "Web Design Services| Web Design Services Company | Webenix",
         description: "Webenix provides a professional web design services company. We offere the different types of design like website design, mobile app design, and graphics design and etc.",
-        keyword: "Web Design Solutions, Web Design Services, Web Design Services Company,"
+        keyword: "Web Design Services, Web Design Services Company,"
     },
     uiux: {
         title: "UI UX Design Companies | UI/UX Design & Development Services | Webenix",
@@ -120,9 +120,9 @@ export const data = {
         keyword: "Payment Gateway Integration, Payment Gateway Integration Services, Paymeny Gateway Integration Android App,"
     },
     shippingintegration: {
-        title: "Shipping API Integration Services | Shipping API Integration Solutions | Webenix",
-        description: "Shipping Integration for all. Our shipping software and API will help you uderstand how to configure and manage the carriers you integrate with. ",
-        keyword: "Shipping Integration, Shipping API Integration Services, Shipping API Integration Solutions,"
+        title: "Shipping API Integration Services | Shipping API Integration | Webenix",
+        description: "Shipping Integration for all. Our shipping software and API will help you uderstand how to configure and manage the carriers you integrate with.",
+        keyword: "Shipping Integration, Shipping API Integration Services, Shipping API Integration,"
     },
     smi: {
         title: "Social Networking API Integration Development | Webenix",
@@ -191,7 +191,7 @@ export const data = {
     },
     expressjsdevelopment: {
         title: "ExpressJS Development Services Company | Webenix",
-        description: "We are a professional ExpressJS Development Service have become additional powerful. We provide with demonstrated expertise in delivering high-performance eCommecer solutions.",
+        description: "We are a professional ExpressJS Development Service have become additional powerful. We provide with demonstrated expertise in delivering high-performance eCommecer services.",
         keyword: "ExpressJS Development Services, ExpressJS Development Company"
     },
     androidappsdevelopment: {
@@ -231,7 +231,7 @@ export const data = {
     },
     designprototype: {
         title: "Prototype Design Services Company in India & USA | Webenix",
-        description: "We are a top-rated prototyping design company that offers scalable, custom web solutions. Hire Prototype Design in single click with Webenix. ",
+        description: "We are a top-rated prototyping design company that offers scalable, custom web services. Hire Prototype Design in single click with Webenix.",
         keyword: "Prototype Design Services, Prototype Design Company, Prototype Design Agency, "
     },
     mobileappdesign: {
@@ -250,9 +250,9 @@ export const data = {
         keyword: "Responsive Web Design Services, Responsive Web Design Company, Responsive Web Design Agency, "
     },
     hiregraphicsdesigner: {
-        title: "Hire Freelancer Graphic Designer In India| Webenix",
+        title: "Hire Graphic Designer In India| Webenix",
         description: "Are you looking for Freelancer Graphic Designer for hire? Here is the everything you need to find the right graphic designer for your business.",
-        keyword: "Hire Freelancer Graphic Designer, Graphic Designer Job In India, Creative Graphic Designer"
+        keyword: "Hire Graphic Designer, Creative Graphic Designer"
     },
     hirewebdesigner: {
         title: "Hire Web Designer Near Me and Web Design Agency | Webenix ",
@@ -260,9 +260,9 @@ export const data = {
         keyword: "Hire Web Designers Near Me, Offshore Web Designer, Web Designer Programmer Near Me,"
     },
     hireuiuxdesigner: {
-        title: "Hire UI UX Designer Services and Dedicated UI UX Jobs | Webenix Technologies",
+        title: "Hire UI UX Designer Services and Dedicated UI UX | Webenix Technologies",
         description: "Webenix provide the Dedicated UI UX Designer for hire. You can explore the must-have skills of entire UI experts. Check out the free info by Webenix. ",
-        keyword: "Hire UI UX Designer, Dedicated UI UX Jobs, UI UX Designer Jobs, UI UX Designer For Hire,"
+        keyword: "Hire UI UX Designer, UI UX Designer For Hire,"
     },
     hirephpdeveloper: {
         title: "Hire PHP Developers and Dedicated PHP Programmer | Webenix Technologies",
@@ -270,9 +270,9 @@ export const data = {
         keyword: "Hire PHP Developers, Hire Dedicated PHP Developers, PHP Developer For Hire,"
     },
     hiredotnetdeveloper: {
-        title: "Hire .Net Developer and Remote .Net Developer Jobs | Webenix Technologies",
+        title: "Hire .Net Developer and Remote .Net Developer | Webenix Technologies",
         description: "We offer top .Net Developers, programmers on part-time, full-time contract or an hourly basis. To find talented and qualified .Net Developer teams from webenix technologies.",
-        keyword: "Hire .Net Developer, .Net Developer Jobs, Remote .Net Developer Jobs, Hire Dot Net Developer, "
+        keyword: "Hire .Net Developer, Hire Dot Net Developer, "
     },
     hirlaraveldeveloper: {
         title: "Hire Freelance Laravel Developers in US| Webenix Technologies",
@@ -287,37 +287,37 @@ export const data = {
     hirewordpressdeveloper: {
         title: "Hire WordPress Developer | Remote WordPress Developer | Webenix Technologies",
         description: "Hire professional and experienced WordPress Developers and Programmers in USA from Webenix Technologies. We offer the Hire Our Dedicated WordPress Developers on an Hourly, Full-Time, Part Time basis. ",
-        keyword: "Hire WordPress Developer, WordPress Developers Jobs, Hire Dedicated WordPress Developer, Custom WordPress Development,"
+        keyword: "Hire WordPress Developer, Hire Dedicated WordPress Developer, Custom WordPress Development,"
     },
     hirshopifyrdeveloper: {
-        title: "Hire Freelancer Shopify Developer Company | Webenix Technologies",
-        description: "Looking to Hire Freelancer Shopify Developer? We provide the best freelancer shopify developer and programmer. Get a best quote from our shopify developers from webenix.",
-        keyword: "Hire Shopify Developer, Freelancer Shopify Developer, Shopify Developer Company, "
+        title: "Hire Shopify Developer Company | Webenix Technologies",
+        description: "Looking to Hire Shopify Developer? We provide the best freelancer shopify developer and programmer. Get a best quote from our shopify developers from webenix.",
+        keyword: "Hire Shopify Developer, Shopify Developer Company,"
     },
     hirewebflowdeveloper: {
         title: "Hire Best Freelance Webflow Developers in USA | Webenix",
         description: "You can Hire our Best Freelance Webflow Developer as per you need on partime, fulltime, an hourly basis. Get in touch with us we give you the best price quotes.",
-        keyword: "Hire Webflow Developer, Webflow Developer for Hire, Webflow Developer Jobs,"
+        keyword: "Hire Webflow Developer, Webflow Developer for Hire,"
     },
     hirehubspotdeveloper: {
         title: "Expert HubSpot Developer For Hire | Webenix Technologies",
         description: "Hire Expert HubSpot Developers for partime, fulltime, or an hourly basis. Webenix helps you find and hire the best Hubspot Developers, programmers, coders and etc.  ",
-        keyword: "Hire Hubspot Developers, Hubspot Developement Services, Freelancer Hubspot Developer, "
+        keyword: "Hire Hubspot Developers, Hubspot Developement Services, "
     },
     hireandroiddeveloper: {
-        title: "Hire Best Freelancer Android Developers Remotely | Webenix",
+        title: "Hire Best Android Developers Remotely | Webenix",
         description: "There are many ways to get your abdroid app developer. Now, you can hire android app developer services or android app developer teams.",
         keyword: "Hire Android Developer, Hire Android App Developer, Hire Android App Developers, Hire App Developer Android"
     },
     hireiosdeveloper: {
         title: "Hire iOS App Developer | iOS Game Developer - Webenix",
         description: "Hire iOS App Developer from Webenix. Our iOS App Developers team consists of skilled credible swift developers with a excellent grasp of western and english working culture.",
-        keyword: "Hire iOS Developer, Hire iOS App Developer, iOS Developer Jobs, iOS Game Development, iOS Developer Melbourne"
+        keyword: "Hire iOS Developer, Hire iOS App Developer, iOS Game Development"
     },
     hireflutterdeveloper: {
         title: "Dedicated Flutter App Developers for Hire | Webenix Technologies",
         description: "Webenix is primary choice when you require to Hire Flutter Developer. Hiring Flutter Developers is straightforward because we have few of the an excellent Flutter experts on our team.",
-        keyword: "Hire Flutter Developer, Flutter Developer Indian, Flutter App Development Company, Flutter Mobile Developer Salary,"
+        keyword: "Hire Flutter Developer, Flutter Developer Indian, Flutter App Development Company"
     },
     hireionicdeveloper: {
         title: "Hire Ionic App Developer | Best Ionic Programmers - Webenix",
@@ -332,17 +332,17 @@ export const data = {
     hirereactjsdeveloper: {
         title: "Hire ReactJS Developers | Dedicated ReactJS Developers - Webenix",
         description: "Hire ReactJS Developer thorugh webenix. Webenix is a team of dedicated ReactJS Developer, coders, programmers, and software engineers attainable on a fulltime, partime, or contract basis.	",
-        keyword: "Hire ReactJS Developer, Hire ReactJS Developers, Hire ReactJS App Developers, Hire Dedicated ReactJS Developer, ReactJS Development Company,   "
+        keyword: "Hire ReactJS Developer, Hire ReactJS Developers, Hire ReactJS App Developers, Hire Dedicated ReactJS Developer, ReactJS Development Company,"
     },
     hirenodejsdeveloper: {
         title: "Hire Top NodeJS Developers | Dedicated NodeJS Developer in USA | Webenix",
         description: "Looking to Hire Top NodeJS Developer? Webenix is one of the excellent NodeJS Development companies with an expert development team. Our NodeJs Developer is flexible for partime,fulltime,contract and an hourly basis.",
-        keyword: "Hire NodeJS Developer, Hire NodeJs Developers, NodeJS Development Services, NodeJS Developer Jobs,"
+        keyword: "Hire NodeJS Developer, Hire NodeJs Developers, NodeJS Development Services"
     },
     hireexpressdeveloper: {
-        title: "Hire ExpressJS Developers | Freelancer ExpressJS Developers | Webenix",
+        title: "Hire ExpressJS Developers | ExpressJS Developers | Webenix",
         description: "We offers the best ExpressJS Developers, Coders, Programmers on parttime, fulltime, an hourly, and contract basis. Webenix is trusted and reliable software development company in the USA. ",
-        keyword: "Hire ExpressJS Developer, ExpressJS Developer For Hire, Freelancer ExpressJS Developers, "
+        keyword: "Hire ExpressJS Developer, ExpressJS Developer For Hire,"
     },
     hirenextjsdeveloper: {
         title: "Best Freelance NextJS Developers For Hire | Hire Next.Js Developer | Webenix",

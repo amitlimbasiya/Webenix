@@ -21,13 +21,13 @@ const HireWebflowDeveloper = () => {
         PageBannerClass="pagebanner-section bgHawkesBlue noiseBg pagebanner-align-center"
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="Hire"
-        PageBannerGreenTitle="a Webflow Developers"
+        PageBannerGreenTitle="Webflow Developers"
         PageBannerContent="<p>For developing a seamless and SEO-focused website design for your business, Webflow is the best choice that you would make. With the help of Webenix experts, you can get accurate solutions right for your business.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
-        PageBannerImageWidth="280px"
-        PageBannerImageHeight="250px"
-        PageBannerImage="/images/webFlowIcon.svg"
+        PageBannerImageWidth="600px"
+        PageBannerImageHeight="400px"
+        PageBannerImage="/images/f-Hire-Webflow-Developers.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"

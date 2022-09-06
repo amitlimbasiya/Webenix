@@ -1,6 +1,5 @@
 const router = {
   ABOUT: "/about",
-  SOLUTION: "/solution",
   CAREER: "/career",
   ENGAGEMENTSMODELS:"/engagement-models",
   INFRASTRUCTURE:"/infrastructure",

@@ -26,9 +26,9 @@ const HIRESMMEXPERT = () => {
         PageBannerContent="<p>Are you confident that your Online Social Media Presence is strong enough to beat your competitors? By optimizing your social media presence, you can increase visibility and strengthen your brand. Facebook, Twitter, Instagram, LinkedIn, WhatsApp, Pinterest, YouTube, and many other social media platforms are powerful marketing tools. As a result of social media optimization, your business will become more visible and generate more leads and sales media marketing services at Hire SEO Expert, your business can make an indelible footprint.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
-        PageBannerImageWidth="280px"
-        PageBannerImageHeight="250px"
-        PageBannerImage="/images/f-SMO.svg"
+        PageBannerImageWidth="600px"
+        PageBannerImageHeight="400px"
+        PageBannerImage="/images/f-Hire-SMM-Expert.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"

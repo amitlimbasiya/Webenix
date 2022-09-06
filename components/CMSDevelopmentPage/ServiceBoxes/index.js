@@ -9,7 +9,6 @@ import shapeYellowIcon from '../../../public/images/cmsDevelopment/shapeYellow.s
 import shapeGreenIcon from '../../../public/images/cmsDevelopment/shapeGreen.svg';
 import shapeBlueIcon from '../../../public/images/cmsDevelopment/shapeBlue.svg';
 import shapePurpleIcon from '../../../public/images/cmsDevelopment/shapePurple.svg';
-import mobileAppDesignIcon from '../../../public/images/mobile-app-design-icon.svg';
 import backendDevelopmentIcon from '../../../public/images/backend-development-icon.svg';
 import wordpressDevIcon from '../../../public/images/f-wordpress-icon.svg';
 import hubspotIcon from '../../../public/images/f-hubspot-icon.svg';

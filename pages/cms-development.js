@@ -20,7 +20,8 @@ const CMSDEVELOPMENT = () => {
     <PageBanner 
         PageBannerClass="pagebanner-section pagebanner-shape bgLightPink pagebanner-align-center noiseBg"
         PageBannerImgClass="pagebannerimg-col" 
-        PageBannerTitle="CMS Development"
+        PageBannerTitle="CMS"
+        PageBannerGreenTitle="Development"
         PageBannerContent="Have a powerful hold on the content with a highly developed content management system development for your website. The accurate content management system will help in attracting your targeted customers." 
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"

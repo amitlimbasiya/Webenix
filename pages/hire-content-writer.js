@@ -26,9 +26,9 @@ const HIRECONTENTWRITER = () => {
         PageBannerContent="<p>An integral part of your online marketing strategy is the creation of website content.We help by offering expert website content writing services, web page creation, web copywriting, SEO web copywriting, web content services, and web design content. With the help of our network of writers, we will provide you with high-quality, well-written articles to assist you in engaging your clients and prospects.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
-        PageBannerImageWidth="280px"
-        PageBannerImageHeight="250px"
-        PageBannerImage="/images/f-PPC.svg"
+        PageBannerImageWidth="600px"
+        PageBannerImageHeight="400px"
+        PageBannerImage="/images/f-Content-Writer.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"

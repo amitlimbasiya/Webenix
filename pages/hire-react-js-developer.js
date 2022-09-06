@@ -26,9 +26,9 @@ const HireReactJSDeveloper = () => {
         PageBannerContent="<p>Talking about the fastest working technology  React JS, our developers will make sure to implement the best ideas with Javascript libraries to develop the best frontend interface for your business.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
-        PageBannerImageWidth="280px"
-        PageBannerImageHeight="250px"
-        PageBannerImage="/images/f-Reactjs-Icon.svg"
+        PageBannerImageWidth="600px"
+        PageBannerImageHeight="400px"
+        PageBannerImage="/images/f-Hire-ReactJS-Developers.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"

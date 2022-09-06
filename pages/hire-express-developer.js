@@ -25,9 +25,9 @@ const HireExpressDeveloper = () => {
         PageBannerContent="<p>Considering the Javascript and the role, Express JS development provides a better touch and flexibility to the application. Hire an Express JS developer for creating the industry-centric success app.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
-        PageBannerImageWidth="280px"
-        PageBannerImageHeight="250px"
-        PageBannerImage="/images/expressjs-icon.svg"
+        PageBannerImageWidth="600px"
+        PageBannerImageHeight="400px"
+        PageBannerImage="/images/f-Hire-Express-JS-Developers.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"

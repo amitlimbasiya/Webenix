@@ -26,9 +26,9 @@ const HIRESEOEXPERT = () => {
         PageBannerContent="<p>When it comes to increasing Internet visibility, the first thing that comes to our mind is SEO. With years of experience in SEO strategic planning, we help in thriving the best visibility of your business because we want your business to grow through us. We can provide you with SEO experts to help you succeed in your business.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
-        PageBannerImageWidth="280px"
-        PageBannerImageHeight="250px"
-        PageBannerImage="/images/f-seo.svg"
+        PageBannerImageWidth="600px"
+        PageBannerImageHeight="400px"
+        PageBannerImage="/images/f-Hire-SEO-Expert.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"

@@ -414,8 +414,8 @@ const Header = () => {
                           <Link href={router.WORDPRESSDEVELOPMENT}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
-                                <Image src={wordpressDevIcon} alt="Wordpress Deveopment Icon" layout="raw" />
-                                <p>Wordpress Deveopment</p>
+                                <Image src={wordpressDevIcon} alt="WordPress Deveopment Icon" layout="raw" />
+                                <p>WordPress Deveopment</p>
                               </s.MenuItemText>
                               
                             </a>

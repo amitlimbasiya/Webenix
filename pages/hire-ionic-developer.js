@@ -25,9 +25,9 @@ const HireionicDeveloper = () => {
         PageBannerContent="<p>Ionic is considered to be the best mobile app development platform that allows your apps to run over any screen with smooth functioning which is the reason Ionic has always remained the smart choice for developing a mobile application.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
-        PageBannerImageWidth="280px"
-        PageBannerImageHeight="250px"
-        PageBannerImage="/images/f-ionicframework-icon.svg"
+        PageBannerImageWidth="600px"
+        PageBannerImageHeight="400px"
+        PageBannerImage="/images/f-Hire-Ionic-Developers.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"

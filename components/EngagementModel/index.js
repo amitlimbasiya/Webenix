@@ -16,7 +16,6 @@ const EngagementModel = (props) => {
                 <s.EngagementModelContentBox className='engagementmodel-contentbox'>
                   <s.EngagementModelContentMainTitle>
                     <h4>{props.EngagementMainTitle}</h4>
-                    <Image src={props.EngagementModelIcon} alt="Engagement Model" height={props.EngagementModelIconHeight} width={props.EngagementModelIconWidth}/>
                   </s.EngagementModelContentMainTitle>
                   <s.EngagementModelContentInnerBox>
                   {props.EngagementModelName && <h3>{props.EngagementModelName}</h3>}

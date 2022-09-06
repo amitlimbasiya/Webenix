@@ -25,9 +25,9 @@ const HIRSHOPIFYRDEVELOPER = () => {
         PageBannerContent="<p>Webenix has the most incredible bunch of Shopify developers that helps in building your eCommerce Shopify technology. Leave building Shopify development to our developers!</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
-        PageBannerImageWidth="280px"
-        PageBannerImageHeight="250px"
-        PageBannerImage="/images/shopify-icon.svg"
+        PageBannerImageWidth="600px"
+        PageBannerImageHeight="400px"
+        PageBannerImage="/images/f-Hire-Shopify-Developers.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"

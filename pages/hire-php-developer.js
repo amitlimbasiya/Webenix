@@ -25,9 +25,9 @@ const HireWebDesigner = () => {
         PageBannerContent="<p>We at Webenix, have a team of skilful PHP developers with proficiency in PHP web platforms for many years. If you are finding the development for the PHP platforms, then Webenix is the one-stop solution for all your PHP requirements.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
-        PageBannerImageWidth="280px"
-        PageBannerImageHeight="250px"
-        PageBannerImage="/images/php-icon.svg"
+        PageBannerImageWidth="600px"
+        PageBannerImageHeight="400px"
+        PageBannerImage="/images/f-Hire-PHP-Developers.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"

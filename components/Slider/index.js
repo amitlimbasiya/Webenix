@@ -66,14 +66,14 @@ const Hero = () => {
                 </Col>
                 <Col md={12} lg={6} xl={6} className="d-none d-lg-block">
                   <Slider className='slickSlider' {...settings}>
-                    <div className='text-end'>
-                    <Image src={heroImg1} alt="Hero Banner" className='img-fluid' layout="raw"/>
+                    <div className='text-end pr'>
+                    <Image src={heroImg1} alt="Hero Banner" className='img-fluid' layout="responsive"/>
                     </div>
-                    <div className='text-end'>
-                    <Image src={heroImg2} alt="Hero Banner" className='img-fluid' layout="raw"/>
+                    <div className='text-end pr'>
+                    <Image src={heroImg2} alt="Hero Banner" className='img-fluid' layout="responsive"/>
                     </div>
-                    <div className='text-end'>
-                    <Image src={heroImg3} alt="Hero Banner" className='img-fluid' layout="raw"/>
+                    <div className='text-end pr'>
+                    <Image src={heroImg3} alt="Hero Banner" className='img-fluid' layout="responsive"/>
                     </div>
                   </Slider>
                 </Col>

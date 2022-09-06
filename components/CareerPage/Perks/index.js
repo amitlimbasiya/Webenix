@@ -139,11 +139,11 @@ const SectionIntro = () => {
                             <Image src={frontEndDevelopmentIcon} alt="Business Development Executive Icon" className='img-fluid' layout="raw"/>
                           </div>
                           <div className='positionDesc'>
-                            <div className='headTitle'>Business Development Executive (BDE)</div>
+                            <div className='headTitle'>Business Development Executive</div>
                             <ul className='btmBar'>
-                              <li><span>Experience:</span> 1-4 years</li>
+                              <li><span>Experience:</span> 1 years</li>
                               <li><span>No. of Openings:</span> 2-3</li>
-                              <li><span>Qualifications:</span> B.E / B.Tech</li>
+                              <li><span>Qualifications:</span> MBA, MCA, BE in IT/Computer</li>
                             </ul>
                           </div>
                           <div className='buttonPart'>
@@ -154,13 +154,19 @@ const SectionIntro = () => {
                         </div>
                       </Accordion.Header>
                       <Accordion.Body>
+                          <p className='mb-3'>We are looking for an experienced individual for the post of Business Development Executive with experience in international sales in the IT company! As a Business Development Executive, you will be responsible for finding new clients and increasing sales.</p>
                           <ul>
-                            <li>Strong knowledge of PHP Web Frameworks (Yii/Yii2, Zend, Laravel, CI)</li>
-                            <li>Integrated payment gateways and good with APIs</li>
-                            <li>Demonstrable knowledge of web technologies (HTML, CSS, Javascript, Ajax)</li>
-                            <li>Experience in common third party APIs (Google, Facebook, eBay etc.)</li>
-                            <li>Passion for best design and coding practices</li>
-                            <li>Ability to take up R&#38;D activities and resolve issues</li>
+                            <li>Effective communication(verbal and written) with English fluency.</li>
+                            <li>Experience in the IT service sector for International sales. </li>
+                            <li>Generate leads through Different channels like the internet, social media, bidding portals etc.</li>
+                            <li>Experience working with different bidding portals.</li>
+                            <li>Understand client requirements and could provide work estimation, Proposal, Cost Estimates, and Timeline Estimation accordingly.</li>
+                            <li>Experience in creating project Scope/Proposal/RFP documents.</li>
+                            <li>Can Individually coordinate with clients and help them solve problems.</li>
+                            <li>Convert prospects into consumers and close the deals.</li>
+                            <li>Build a good network with existing clients to generate repeat business.</li>
+                            <li>Provide Monthly work report to the Management.</li>
+                            <li>Remaining in tune with trends to ensure that our offerings remain relevant.</li>
                           </ul>
                       </Accordion.Body>
                   </Accordion.Item>

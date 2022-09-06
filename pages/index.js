@@ -8,6 +8,7 @@ import HireServies from '../components/HireServices';
 import Blog from '../components/Blog';
 import { data } from "../data/Seo";
 
+
 export default function Home() {
 
   const Router = useRouter();

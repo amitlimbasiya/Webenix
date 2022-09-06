@@ -25,9 +25,9 @@ const HirehubspotDeveloper = () => {
         PageBannerContent="<p>With the wide user experience of Hubspot development, we at Webenix create an innovation lead approach to Hubspot Development services where we cater for an extensive range of Hubspot Development COS Services.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
-        PageBannerImageWidth="280px"
-        PageBannerImageHeight="250px"
-        PageBannerImage="/images/hubspot-icon.svg"
+        PageBannerImageWidth="600px"
+        PageBannerImageHeight="400px"
+        PageBannerImage="/images/f-Hire-Hubspot-Developers.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"

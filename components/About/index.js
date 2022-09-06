@@ -21,8 +21,8 @@ const About = () => {
                         <a className="btn-default btn-arrow">KNOW MORE</a>
                     </Link>
                 </Col>
-                <Col lg={5} md={5} sm={8} className="mx-sm-auto mx-md-0">
-                    <Image src={aboutCompanyImg} alt="About Webenix" className='img-fluid'/>
+                <Col lg={5} md={5} sm={8} className="mx-sm-auto mx-md-0 pr">
+                    <Image src={aboutCompanyImg} alt="About Webenix" className='img-fluid' layout="responsive"/>
                 </Col>
             </Row>
         </Container>

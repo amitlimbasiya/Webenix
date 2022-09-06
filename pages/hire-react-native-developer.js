@@ -25,9 +25,9 @@ const HireReactNativeDeveloper = () => {
         PageBannerContent="<p>Considering the world of mobile and web apps, it has come to the point where there is a thin line between both of them. Whether it is a cross-platform platform or a Native Application, React Native is considered to be the best choice.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
-        PageBannerImageWidth="280px"
-        PageBannerImageHeight="250px"
-        PageBannerImage="/images/f-Reactjs-Icon.svg"
+        PageBannerImageWidth="600px"
+        PageBannerImageHeight="400px"
+        PageBannerImage="/images/f-Hire-React-Native-Developers.svg"
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"
