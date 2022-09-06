@@ -69,7 +69,7 @@ const BlogListings = (props) => {
             <Link href={router.SINGLEBLOG25}>
                 <a>
                     <s.blogImage>
-                        <Image src={WaysUEISABSER} alt="The ways to utilize an effective outsourcing strategy and achieve business success by eliminating the risks" layout='raw' />
+                        <Image src={WaysUEISABSER} placeholder="blur" alt="The ways to utilize an effective outsourcing strategy and achieve business success by eliminating the risks" layout='responsive' />
                         <div className='datePart'>AUGUST 03, 2020</div>
                     </s.blogImage>
                 </a>
@@ -85,7 +85,7 @@ const BlogListings = (props) => {
             <Link href={router.SINGLEBLOG21}>
                 <a>
                     <s.blogImage>
-                        <Image src={TopResonsOffshireDevelopment} alt="Top Reasons to consider offshore development" layout='raw' />
+                        <Image src={TopResonsOffshireDevelopment} placeholder="blur" alt="Top Reasons to consider offshore development" layout='responsive' />
                         <div className='datePart'>SEPTEMBER 01, 2020</div>
                     </s.blogImage>
                 </a>
@@ -101,7 +101,7 @@ const BlogListings = (props) => {
             <Link href={router.SINGLEBLOG19}>
                 <a>
                     <s.blogImage>
-                        <Image src={ComparisonBetweenFixedPrice} alt="A comparison between fixed price and time and material contract" layout='raw' />
+                        <Image src={ComparisonBetweenFixedPrice} placeholder="blur" alt="A comparison between fixed price and time and material contract" layout='responsive' />
                         <div className='datePart'>SEPTEMBER 22, 2020</div>
                     </s.blogImage>
                 </a>
@@ -121,7 +121,7 @@ const BlogListings = (props) => {
                 <s.BlogListWrapper className='bloglisting-wrapper'>                        
                     <s.blogItem className='blogItem wordpress'>
                         <Link href={router.SINGLEBLOG1}>
-                            <a><s.blogImage><Image src={WhyWPWebsite} alt="Why it is necessary to do regular updates of your WordPress website" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image placeholder="blur" src={WhyWPWebsite} alt="Why it is necessary to do regular updates of your WordPress website" layout='responsive'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>WORDPRESS</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -133,7 +133,7 @@ const BlogListings = (props) => {
                     </s.blogItem>               
                     <s.blogItem className='blogItem wordpress'>
                         <Link href={router.SINGLEBLOG2}>
-                            <a><s.blogImage><Image src={WPAutomation} alt="WordPress automation tools and tips" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image placeholder="blur" src={WPAutomation} alt="WordPress automation tools and tips" layout='responsive'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>WORDPRESS</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -145,7 +145,7 @@ const BlogListings = (props) => {
                     </s.blogItem>      
                     <s.blogItem className='blogItem seo'>
                         <Link href={router.SINGLEBLOG3}>
-                            <a><s.blogImage><Image src={TopThings} alt="Top Things Your Landing Page Should Have" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image placeholder="blur" src={TopThings} alt="Top Things Your Landing Page Should Have" layout='responsive'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>SEO</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -157,7 +157,7 @@ const BlogListings = (props) => {
                     </s.blogItem>
                     <s.blogItem className='blogItem marketing'>
                         <Link href={router.SINGLEBLOG4}>
-                            <a><s.blogImage><Image src={Topprediction} alt="Top Predictions for Facebook Advertising in 2021" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image placeholder="blur" src={Topprediction} alt="Top Predictions for Facebook Advertising in 2021" layout='responsive'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>Marketing</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -169,7 +169,7 @@ const BlogListings = (props) => {
                     </s.blogItem> 
                     <s.blogItem className='blogItem seo'>
                         <Link href={router.SINGLEBLOG5}>
-                            <a><s.blogImage><Image src={TopAdvcanced} alt="Top Advanced SEO Techniques to Maximize Your Search Traffic" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image placeholder="blur" src={TopAdvcanced} alt="Top Advanced SEO Techniques to Maximize Your Search Traffic" layout='responsive'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>SEO</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -181,7 +181,7 @@ const BlogListings = (props) => {
                     </s.blogItem>  
                     <s.blogItem className='blogItem marketing'>
                         <Link href={router.SINGLEBLOG6}>
-                            <a><s.blogImage><Image src={Bestb2b} alt="The Best B2B Marketing Strategies to Increase Leads" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image placeholder="blur" src={Bestb2b} alt="The Best B2B Marketing Strategies to Increase Leads" layout='responsive'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>Marketing</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -193,7 +193,7 @@ const BlogListings = (props) => {
                     </s.blogItem>
                     <s.blogItem className='blogItem marketing'>
                         <Link href={router.SINGLEBLOG7}>
-                            <a><s.blogImage><Image src={LkedinMarketing} alt="LinkedIn Marketing Best Strategies for 2021" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image placeholder="blur" src={LkedinMarketing} alt="LinkedIn Marketing Best Strategies for 2021" layout='responsive'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>Marketing</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -205,7 +205,7 @@ const BlogListings = (props) => {
                     </s.blogItem>  
                     <s.blogItem className='blogItem wordpress'>
                         <Link href={router.SINGLEBLOG8}>
-                            <a><s.blogImage><Image src={ManagedWP} alt="Is managed WordPress hosting worth the extra price?" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image placeholder="blur" src={ManagedWP} alt="Is managed WordPress hosting worth the extra price?" layout='responsive'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>WORDPRESS</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -217,7 +217,7 @@ const BlogListings = (props) => {
                     </s.blogItem>
                     <s.blogItem className='blogItem seo'>
                         <Link href={router.SINGLEBLOG9}>
-                            <a><s.blogImage><Image src={SEOChange} alt="How Will SEO Change in 2021?" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image placeholder="blur" src={SEOChange} alt="How Will SEO Change in 2021?" layout='responsive'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>SEO</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -229,7 +229,7 @@ const BlogListings = (props) => {
                     </s.blogItem>    
                     <s.blogItem className='blogItem outsourcing'>
                         <Link href={router.SINGLEBLOG10}>
-                            <a><s.blogImage><Image src={WebAgenciesProductionCost} alt="How Web Agencies can reduce production cost in 2021?" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image placeholder="blur" src={WebAgenciesProductionCost} alt="How Web Agencies can reduce production cost in 2021?" layout='responsive'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>OUTSOURCING</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -241,7 +241,7 @@ const BlogListings = (props) => {
                     </s.blogItem>           
                     <s.blogItem className='blogItem outsourcing'>
                         <Link href={router.SINGLEBLOG11}>
-                            <a><s.blogImage><Image src={MotivateRemoteSoftwareTeam} alt="How to motivate and engage a remote software team?" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image placeholder="blur" src={MotivateRemoteSoftwareTeam} alt="How to motivate and engage a remote software team?" layout='responsive'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>OUTSOURCING</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -253,7 +253,7 @@ const BlogListings = (props) => {
                     </s.blogItem>     
                     <s.blogItem className='blogItem outsourcing'>
                         <Link href={router.SINGLEBLOG12}>
-                            <a><s.blogImage><Image src={AvoidCulturalOutSourcing} alt="How to avoid cultural pitfalls in outsourcing?" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image placeholder="blur" src={AvoidCulturalOutSourcing} alt="How to avoid cultural pitfalls in outsourcing?" layout='responsive'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>OUTSOURCING</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -265,7 +265,7 @@ const BlogListings = (props) => {
                     </s.blogItem>   
                     <s.blogItem className='blogItem wordpress'>
                         <Link href={router.SINGLEBLOG13}>
-                            <a><s.blogImage><Image src={WpSpeedOptimize} alt="How to speed optimize WordPress website?" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image placeholder="blur" src={WpSpeedOptimize} alt="How to speed optimize WordPress website?" layout='responsive'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>WordPress</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -277,7 +277,7 @@ const BlogListings = (props) => {
                     </s.blogItem>   
                     <s.blogItem className='blogItem wordpress'>
                         <Link href={router.SINGLEBLOG14}>
-                            <a><s.blogImage><Image src={SecureWordPressSite} alt="How to secure WordPress site?" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image placeholder="blur" src={SecureWordPressSite} alt="How to secure WordPress site?" layout='responsive'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>WordPress</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -289,7 +289,7 @@ const BlogListings = (props) => {
                     </s.blogItem> 
                     <s.blogItem className='blogItem wordpress'>
                         <Link href={router.SINGLEBLOG15}>
-                            <a><s.blogImage><Image src={KeepWordPressSiteUpdated} alt="How to keep your WordPress website updated?" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image placeholder="blur" src={KeepWordPressSiteUpdated} alt="How to keep your WordPress website updated?" layout='responsive'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>WordPress</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -301,7 +301,7 @@ const BlogListings = (props) => {
                     </s.blogItem>    
                     <s.blogItem className='blogItem wordpress'>
                         <Link href={router.SINGLEBLOG16}>
-                            <a><s.blogImage><Image src={TenWpWebsite} alt="Ten plugins you must-have for your WordPress website" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image placeholder="blur" src={TenWpWebsite} alt="Ten plugins you must-have for your WordPress website" layout='responsive'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>WordPress</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -313,7 +313,7 @@ const BlogListings = (props) => {
                     </s.blogItem>    
                     <s.blogItem className='blogItem outsourcing'>
                         <Link href={router.SINGLEBLOG17}>
-                            <a><s.blogImage><Image src={MakeVirtualEmployeesProductive} alt="How to Make Virtual Employees Productive?" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image placeholder="blur" src={MakeVirtualEmployeesProductive} alt="How to Make Virtual Employees Productive?" layout='responsive'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>Outsourcing</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -325,7 +325,7 @@ const BlogListings = (props) => {
                     </s.blogItem>  
                     <s.blogItem className='blogItem outsourcing'>
                         <Link href={router.SINGLEBLOG18}>
-                            <a><s.blogImage><Image src={FindOutsourcingPartner} alt="How Shoulds I Find the Right Outsourcing Partner in India?" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image placeholder="blur" src={FindOutsourcingPartner} alt="How Shoulds I Find the Right Outsourcing Partner in India?" layout='responsive'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>OUTSOURCING</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -337,7 +337,7 @@ const BlogListings = (props) => {
                     </s.blogItem> 
                     <s.blogItem className='blogItem outsourcing'>
                         <Link href={router.SINGLEBLOG19}>
-                            <a><s.blogImage><Image src={ComparisonBetweenFixedPrice} alt="A comparison between fixed price and time and material contract" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image placeholder="blur" src={ComparisonBetweenFixedPrice} alt="A comparison between fixed price and time and material contract" layout='responsive'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>OUTSOURCING</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -349,7 +349,7 @@ const BlogListings = (props) => {
                     </s.blogItem>     
                     <s.blogItem className='blogItem outsourcing'>
                         <Link href={router.SINGLEBLOG20}>
-                            <a><s.blogImage><Image src={TimeConsiderOutsourcing} alt="7 Signs its time to Consider Outsourcing" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image placeholder="blur" src={TimeConsiderOutsourcing} alt="7 Signs its time to Consider Outsourcing" layout='responsive'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>OUTSOURCING</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -361,7 +361,7 @@ const BlogListings = (props) => {
                     </s.blogItem> 
                     <s.blogItem className='blogItem development'>
                         <Link href={router.SINGLEBLOG21}>
-                            <a><s.blogImage><Image src={TopResonsOffshireDevelopment} alt="Top Reasons to consider offshore development" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image placeholder="blur" src={TopResonsOffshireDevelopment} alt="Top Reasons to consider offshore development" layout='responsive'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>Development</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -373,7 +373,7 @@ const BlogListings = (props) => {
                     </s.blogItem>
                     <s.blogItem className='blogItem development'>
                         <Link href={router.SINGLEBLOG22}>
-                            <a><s.blogImage><Image src={Onshoreoffshore} alt="onshore-vs-offshore-development-which-is-better" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image placeholder="blur" src={Onshoreoffshore} alt="onshore-vs-offshore-development-which-is-better" layout='responsive'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>Development</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -385,7 +385,7 @@ const BlogListings = (props) => {
                     </s.blogItem>
                     <s.blogItem className='blogItem development'>
                         <Link href={router.SINGLEBLOG23}>
-                            <a><s.blogImage><Image src={OffshoreDevelopment} alt="Offshore development best practices to know about" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image placeholder="blur" src={OffshoreDevelopment} alt="Offshore development best practices to know about" layout='responsive'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>Development</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -397,7 +397,7 @@ const BlogListings = (props) => {
                     </s.blogItem>
                     <s.blogItem className='blogItem development'>
                         <Link href={router.SINGLEBLOG24}>
-                            <a><s.blogImage><Image src={LeadingTrendsKnowAbout} alt="Leading offshore development trends to know about" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image placeholder="blur" src={LeadingTrendsKnowAbout} alt="Leading offshore development trends to know about" layout='responsive'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>Development</s.blogCategory>
                         <s.blogTitle className='postHeading'>
@@ -409,7 +409,7 @@ const BlogListings = (props) => {
                     </s.blogItem>
                     <s.blogItem className='blogItem outsourcing'>
                         <Link href={router.SINGLEBLOG25}>
-                            <a><s.blogImage><Image src={WaysUEISABSER} alt="The ways to utilize an effective outsourcing strategy and achieve business success by eliminating the risks" layout='raw'/></s.blogImage></a>
+                            <a><s.blogImage><Image placeholder="blur" src={WaysUEISABSER} alt="The ways to utilize an effective outsourcing strategy and achieve business success by eliminating the risks" layout='responsive'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>outsourcing</s.blogCategory>
                         <s.blogTitle className='postHeading'>

@@ -76,7 +76,7 @@ const SouthernTradelines = () => {
                 </s.PortfolioDescription>
 
                 <s.PortfolioBannerImg>
-                    <Image src={PortfolioBannerImg} alt="Southern Tradelines" layout='raw' />
+                    <Image src={PortfolioBannerImg} alt="Southern Tradelines" layout='raw' placeholder="blur" />
                 </s.PortfolioBannerImg>
             </Container>
         </s.SinglePortfolioWrapper>

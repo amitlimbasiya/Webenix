@@ -76,7 +76,7 @@ const SuperstarsCamp = () => {
                 </s.PortfolioDescription>
 
                 <s.PortfolioBannerImg>
-                    <Image src={superstars} alt="Superstars Camp" layout='raw' />
+                    <Image src={superstars} alt="Superstars Camp" layout='raw' placeholder="blur" />
                 </s.PortfolioBannerImg>
             </Container>
         </s.SinglePortfolioWrapper>

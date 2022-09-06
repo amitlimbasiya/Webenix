@@ -89,27 +89,27 @@ const USAPipeline = () => {
                 <Slider className='slickSlider' {...settings}>
                     <s.itemSlider className='text-center'>
                         <s.PortfolioBannerImg>
-                            <Image src={PortfolioBannerImg1} alt="Agile Advisory Group" />
+                            <Image src={PortfolioBannerImg1} placeholder="blur" alt="Agile Advisory Group" />
                         </s.PortfolioBannerImg>
                     </s.itemSlider>
                     <s.itemSlider className='text-center'>
                         <s.PortfolioBannerImg>
-                            <Image src={PortfolioBannerImg2} alt="Agile Advisory Group" />
+                            <Image src={PortfolioBannerImg2} placeholder="blur" alt="Agile Advisory Group" />
                         </s.PortfolioBannerImg>
                     </s.itemSlider>
                     <s.itemSlider className='text-center'>
                         <s.PortfolioBannerImg>
-                            <Image src={PortfolioBannerImg3} alt="Agile Advisory Group" />
+                            <Image src={PortfolioBannerImg3} placeholder="blur" alt="Agile Advisory Group" />
                         </s.PortfolioBannerImg>
                     </s.itemSlider>
                     <s.itemSlider className='text-center'>
                         <s.PortfolioBannerImg>
-                            <Image src={PortfolioBannerImg4} alt="Agile Advisory Group" />
+                            <Image src={PortfolioBannerImg4} placeholder="blur" alt="Agile Advisory Group" />
                         </s.PortfolioBannerImg>
                     </s.itemSlider>
                     <s.itemSlider className='text-center'>
                         <s.PortfolioBannerImg>
-                            <Image src={PortfolioBannerImg5} alt="Agile Advisory Group" />
+                            <Image src={PortfolioBannerImg5} placeholder="blur" alt="Agile Advisory Group" />
                         </s.PortfolioBannerImg>
                     </s.itemSlider>
                 </Slider>

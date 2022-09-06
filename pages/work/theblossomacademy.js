@@ -78,7 +78,7 @@ const TheBlossomAcademy = () => {
                 </s.PortfolioDescription>
 
                 <s.PortfolioBannerImg>
-                    <Image src={PortfolioBannerImg} alt="The Blossom Academy" layout='raw' />
+                    <Image src={PortfolioBannerImg} alt="The Blossom Academy" layout='raw' placeholder="blur" />
                 </s.PortfolioBannerImg>
             </Container>
         </s.SinglePortfolioWrapper>

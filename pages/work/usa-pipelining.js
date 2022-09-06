@@ -85,17 +85,7 @@ const USAPipeline = () => {
                 <Slider className='slickSlider' {...settings}>
                     <s.itemSlider className='text-center'>
                         <s.PortfolioBannerImg>
-                            <Image src={PortfolioBannerImg} alt="USA Pipeline" layout='raw' />
-                        </s.PortfolioBannerImg>
-                    </s.itemSlider>
-                    <s.itemSlider className='text-center'>
-                        <s.PortfolioBannerImg>
-                            <Image src={PortfolioBannerImg} alt="USA Pipeline" layout='raw' />
-                        </s.PortfolioBannerImg>
-                    </s.itemSlider>
-                    <s.itemSlider className='text-center'>
-                        <s.PortfolioBannerImg>
-                            <Image src={PortfolioBannerImg} alt="USA Pipeline" layout='raw' />
+                            <Image src={PortfolioBannerImg} alt="USA Pipeline" layout='raw' placeholder="blur" />
                         </s.PortfolioBannerImg>
                     </s.itemSlider>
                 </Slider>

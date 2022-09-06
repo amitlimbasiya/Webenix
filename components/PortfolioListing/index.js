@@ -33,7 +33,7 @@ const PortfolioListing = () => {
                             <Link href={router.AGILEADVISORYGROUP}>
                                 <a>
                                     <s.portfolioImgWrapper>
-                                        <s.portfolioThumbImg><Image src={agileAdvisoryGroup} alt="Agile Advisory Group" layout='raw' /></s.portfolioThumbImg>
+                                        <s.portfolioThumbImg><Image src={agileAdvisoryGroup} alt="Agile Advisory Group" layout='raw' placeholder="blur" /></s.portfolioThumbImg>
                                         <s.portfolioOverlayContent className='portfolio-overlay-content'>
                                             <h4>Agile Advisory Group</h4>
                                             <s.portfolioTag>
@@ -53,7 +53,7 @@ const PortfolioListing = () => {
                             <Link href={router.USAPIPELINING}>
                                 <a>
                                     <s.portfolioImgWrapper>
-                                        <s.portfolioThumbImg><Image src={usaPipeline} alt="Usa Pipeline" layout='raw' /></s.portfolioThumbImg>
+                                        <s.portfolioThumbImg><Image src={usaPipeline} alt="Usa Pipeline" layout='raw' placeholder="blur" /></s.portfolioThumbImg>
                                         <s.portfolioOverlayContent className='portfolio-overlay-content'>
                                             <h4>USA PIPELINING</h4>
                                             <s.portfolioTag>
@@ -75,7 +75,7 @@ const PortfolioListing = () => {
                             <Link href={router.THEBLOSSOMACADEMY}>
                                 <a>
                                     <s.portfolioImgWrapper>
-                                        <s.portfolioThumbImg><Image src={theblossomacademy} alt="The Blossom Academy" layout='raw' /></s.portfolioThumbImg>
+                                        <s.portfolioThumbImg><Image src={theblossomacademy} alt="The Blossom Academy" layout='raw' placeholder="blur" /></s.portfolioThumbImg>
                                         <s.portfolioOverlayContent className='portfolio-overlay-content'>
                                             <h4>THE BLOSSOM ACADEMY</h4>
                                             <s.portfolioTag>
@@ -97,7 +97,7 @@ const PortfolioListing = () => {
                             <Link href={router.SOUTHERNTRADELINES}>
                                 <a>
                                     <s.portfolioImgWrapper>
-                                        <s.portfolioThumbImg><Image src={southerntradelines} alt="Southern Tradelines" layout='raw' /></s.portfolioThumbImg>
+                                        <s.portfolioThumbImg><Image src={southerntradelines} alt="Southern Tradelines" layout='raw' placeholder="blur" /></s.portfolioThumbImg>
                                         <s.portfolioOverlayContent className='portfolio-overlay-content'>
                                             <h4>SOUTHERN TRADELINES</h4>
                                             <s.portfolioTag>
@@ -119,7 +119,7 @@ const PortfolioListing = () => {
                             <Link href={router.LIFECOACHAKHAN}>
                                 <a>
                                     <s.portfolioImgWrapper>
-                                        <s.portfolioThumbImg><Image src={lifecoachakhan} alt="Life Coacha Khan" layout='raw' /></s.portfolioThumbImg>
+                                        <s.portfolioThumbImg><Image src={lifecoachakhan} alt="Life Coacha Khan" layout='raw' placeholder="blur" /></s.portfolioThumbImg>
                                         <s.portfolioOverlayContent className='portfolio-overlay-content'>
                                             <h4>LIFE COACHA KHAN</h4>
                                             <s.portfolioTag>
@@ -141,7 +141,7 @@ const PortfolioListing = () => {
                             <Link href={router.ELLEMAR}>
                                 <a>
                                     <s.portfolioImgWrapper>
-                                        <s.portfolioThumbImg><Image src={ellemar} alt="Ellemar" layout='raw' /></s.portfolioThumbImg>
+                                        <s.portfolioThumbImg><Image src={ellemar} alt="Ellemar" layout='raw' placeholder="blur" /></s.portfolioThumbImg>
                                         <s.portfolioOverlayContent className='portfolio-overlay-content'>
                                             <h4>ELLEMAR</h4>
                                             <s.portfolioTag>
@@ -163,7 +163,7 @@ const PortfolioListing = () => {
                             <Link href={router.DININGEDGE}>
                                 <a>
                                     <s.portfolioImgWrapper>
-                                        <s.portfolioThumbImg><Image src={diningedge} alt="Diningedge" layout='raw' /></s.portfolioThumbImg>
+                                        <s.portfolioThumbImg><Image src={diningedge} alt="Diningedge" layout='raw' placeholder="blur" /></s.portfolioThumbImg>
                                         <s.portfolioOverlayContent className='portfolio-overlay-content'>
                                             <h4>DINING EDGE</h4>
                                             <s.portfolioTag>
@@ -185,7 +185,7 @@ const PortfolioListing = () => {
                             <Link href={router.BALDERASCONSTRUCTION}>
                                 <a>
                                     <s.portfolioImgWrapper>
-                                        <s.portfolioThumbImg><Image src={balderasconstruction} alt="Balderas Construction" layout='raw' /></s.portfolioThumbImg>
+                                        <s.portfolioThumbImg><Image src={balderasconstruction} alt="Balderas Construction" layout='raw' placeholder="blur" /></s.portfolioThumbImg>
                                         <s.portfolioOverlayContent className='portfolio-overlay-content'>
                                             <h4>BALDERAS CONSTRUCTION</h4>
                                             <s.portfolioTag>
@@ -207,7 +207,7 @@ const PortfolioListing = () => {
                             <Link href={router.SUPERSTARSCAMP}>
                                 <a>
                                     <s.portfolioImgWrapper>
-                                        <s.portfolioThumbImg><Image src={superstars} alt="Superstars Camp" layout='raw' /></s.portfolioThumbImg>
+                                        <s.portfolioThumbImg><Image src={superstars} alt="Superstars Camp" layout='raw' placeholder="blur" /></s.portfolioThumbImg>
                                         <s.portfolioOverlayContent className='portfolio-overlay-content'>
                                             <h4>Superstars Camp</h4>
                                             <s.portfolioTag>

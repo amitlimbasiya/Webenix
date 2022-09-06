@@ -76,7 +76,7 @@ const LifeCoachaKhan = () => {
                 </s.PortfolioDescription>
 
                 <s.PortfolioBannerImg>
-                    <Image src={PortfolioBannerImg} alt="Life Coacha Khan" layout='raw' />
+                    <Image src={PortfolioBannerImg} alt="Life Coacha Khan" layout='raw' placeholder="blur" />
                 </s.PortfolioBannerImg>
             </Container>
         </s.SinglePortfolioWrapper>

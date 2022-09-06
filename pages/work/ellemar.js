@@ -75,7 +75,7 @@ const Ellemar = () => {
                 </s.PortfolioDescription>
 
                 <s.PortfolioBannerImg>
-                    <Image src={PortfolioBannerImg} alt="Luxury Home Builder" layout='raw' />
+                    <Image src={PortfolioBannerImg} alt="Luxury Home Builder" layout='raw' placeholder="blur" />
                 </s.PortfolioBannerImg>
             </Container>
         </s.SinglePortfolioWrapper>

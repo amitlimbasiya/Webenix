@@ -75,7 +75,7 @@ const DiningEdge = () => {
                 </s.PortfolioDescription>
 
                 <s.PortfolioBannerImg>
-                    <Image src={PortfolioBannerImg} alt="Dining Edge" layout='raw' />
+                    <Image src={PortfolioBannerImg} alt="Dining Edge" layout='raw' placeholder="blur" />
                 </s.PortfolioBannerImg>
             </Container>
         </s.SinglePortfolioWrapper>

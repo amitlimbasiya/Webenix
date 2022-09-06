@@ -21,13 +21,13 @@ const OurAmbience = () => {
         <Container fluid className='ambience-gallery-main'>
           <Row>
             <Col md={6} sm={6} className='ambience-gallery-wrapper'>
-              <s.OurAmbienceGalleryBox><Image src={OurAmbienceGallery01} alt="OurAmbience" className='img-fluid' layout="raw"/></s.OurAmbienceGalleryBox>
-              <s.OurAmbienceGalleryBox><Image src={OurAmbienceGallery02} alt="OurAmbience" className='img-fluid' layout="raw"/></s.OurAmbienceGalleryBox>
-              <s.OurAmbienceGalleryBox><Image src={OurAmbienceGallery03} alt="OurAmbience" className='img-fluid' layout="raw"/></s.OurAmbienceGalleryBox>
-              <s.OurAmbienceGalleryBox><Image src={OurAmbienceGallery04} alt="OurAmbience" className='img-fluid' layout="raw"/></s.OurAmbienceGalleryBox>
+              <s.OurAmbienceGalleryBox><Image src={OurAmbienceGallery01} placeholder="blur" alt="OurAmbience" className='img-fluid' layout="raw"/></s.OurAmbienceGalleryBox>
+              <s.OurAmbienceGalleryBox><Image src={OurAmbienceGallery02} placeholder="blur" alt="OurAmbience" className='img-fluid' layout="raw"/></s.OurAmbienceGalleryBox>
+              <s.OurAmbienceGalleryBox><Image src={OurAmbienceGallery03} placeholder="blur" alt="OurAmbience" className='img-fluid' layout="raw"/></s.OurAmbienceGalleryBox>
+              <s.OurAmbienceGalleryBox><Image src={OurAmbienceGallery04} placeholder="blur" alt="OurAmbience" className='img-fluid' layout="raw"/></s.OurAmbienceGalleryBox>
             </Col>
             <Col md={6} sm={6}>
-              <s.OurAmbienceGalleryBox><Image src={OurAmbienceGallery05} alt="OurAmbience" className='img-fluid' layout="raw"/></s.OurAmbienceGalleryBox>
+              <s.OurAmbienceGalleryBox><Image src={OurAmbienceGallery05} placeholder="blur" alt="OurAmbience" className='img-fluid' layout="raw"/></s.OurAmbienceGalleryBox>
             </Col>
           </Row>
         </Container>

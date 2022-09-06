@@ -76,7 +76,7 @@ const BalderasConstruction = () => {
                 </s.PortfolioDescription>
 
                 <s.PortfolioBannerImg>
-                    <Image src={PortfolioBannerImg} alt="Balderas Construction" layout='raw' />
+                    <Image src={PortfolioBannerImg} alt="Balderas Construction" placeholder="blur" layout='raw' />
                 </s.PortfolioBannerImg>
             </Container>
         </s.SinglePortfolioWrapper>
