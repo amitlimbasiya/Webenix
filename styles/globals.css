@@ -39,6 +39,8 @@ a {
        url("../public/fonts/DINPro-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
+  font-display: swap;
+
 }
 
 @font-face {
@@ -46,6 +48,8 @@ a {
   src: url("../public/fonts/DINPro-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
+
 }
 
 @font-face {
@@ -53,6 +57,8 @@ a {
   src: url("../public/fonts/DINPro-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
+
 }
 
 @font-face {
@@ -61,6 +67,8 @@ a {
        url("../public/fonts/DINPro-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
+
 }
 @font-face {
   font-family: 'DINPro-CondensedBlack';
