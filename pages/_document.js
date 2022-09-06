@@ -20,8 +20,8 @@ class MyDocument extends Document {
             <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/6378971.js"></script>
           {/* End of HubSpot Embed Code */}
           {/* Global site tag (gtag.js) - Google Analytics */}
-          <Script src="https://www.googletagmanager.com/gtag/js?id=UA-150436646-1" strategy="afterInteractive" />
-            <Script id="google-analytics" strategy="afterInteractive">
+          <Script src="https://www.googletagmanager.com/gtag/js?id=UA-150436646-1" strategy="lazyOnload" />
+            <Script id="google-analytics" strategy="lazyOnload">
               {`
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
