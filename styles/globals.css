@@ -79,7 +79,7 @@ a {
   font-display: swap;
 }
 
-.btn-default {
+.btn-default, .btn-primary.disabled, .btn-primary:disabled {
   -webkit-transition: all 0.3s 0s linear;
   -moz-transition: all 0.3s 0s linear;
   -o-transition: all 0.3s 0s linear;
