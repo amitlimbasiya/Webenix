@@ -26,7 +26,7 @@ const SingleBlog = () => {
                 <span className='blog-date'>November 23, 2020</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
-                <Image src={WpSpeedOptimize} alt="How to speed optimize WordPress website?" className='imgwith-boxshadow' layout="raw"/>
+                <Image src={WpSpeedOptimize} alt="How to speed optimize WordPress website?" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
               </Col>
               <s.BlogContentWrapper>
                 <p>While WordPress is a great platform, it suffers mostly from one weakness &ndash; its slow speed. If you don&#39;t take the necessary precautions, you could end up having a sluggish website. That is not only a headache for your regular visitors, but can also cause you to lose subscribers and customers. In this guide, we will discuss some of the effective ways to optimize your WordPress website. It will help you maintain a website that is zippy and responsive.</p>                
@@ -60,7 +60,7 @@ const SingleBlog = () => {
                 <p><Link href="https://gtmetrix.com/"><a target="_blank">GTmetrix</a></Link> and <Link href="https://developers.google.com/speed/pagespeed/insights/"><a target="_blank">Google Pagespeed Insights</a></Link> are free online tools available to test your website&#39;s performance. Using these tools can help you get a clear understanding of your website&#39;s speed and performance and make improvements accordingly.</p>
               </s.BlogContentWrapper>
               {/* <s.BlogImageWrapper>
-                <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/></a></Link>
+                <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' /></a></Link>
               </s.BlogImageWrapper> */}
               <s.BlogContentWrapper>
                 <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>

@@ -28,7 +28,7 @@ const SingleBlog = () => {
                 <span className='blog-date'>August 03, 2020</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
-                <Image src={WaysUEISABSER} alt="The ways to utilize an effective outsourcing strategy and achieve business success by eliminating the risks" className='imgwith-boxshadow' layout="raw"/>
+                <Image src={WaysUEISABSER} alt="The ways to utilize an effective outsourcing strategy and achieve business success by eliminating the risks" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
               </Col>
               <s.BlogContentWrapper>
                 <p>Numerous organizations are on the lookout for innovative approaches to achieve a lot out of their business objectives without too much investment. Outsourcing your business is one methodology that can save you a lot of time, money, and disappointments, especially when you start and are on the way to constructing your business. By outsourcing, you transfer your business responsibilities to a group of gifted, yet financially reasonable, outer service providers.</p>
@@ -58,7 +58,7 @@ const SingleBlog = () => {
                 <p>After you have gone through the benefits of outsourcing, it&#39;s imperative to understand the factors to consider before you have decided to outsource your business. Let&#39;s check it out:</p>
               </s.BlogContentWrapper>
               <s.BlogImageWrapper>
-                <Link href="#"><a><Image src={setYourProjects} alt="setYourProjects"  layout="raw"/></a></Link>
+                <Link href="#"><a><Image src={setYourProjects} alt="setYourProjects"  layout="raw"  placeholder='blur' quality='100' /></a></Link>
               </s.BlogImageWrapper>
               <s.BlogContentWrapper>
                 <h3>1. Set your project&#39;s scope and schedule clearly:</h3>
@@ -100,7 +100,7 @@ const SingleBlog = () => {
                 <h3>Risks Associated</h3>
               </s.BlogContentWrapper>
               <s.BlogImageWrapper>
-                <Link href="#"><a><Image src={risksAssociated} alt="risksAssociated"  layout="raw"/></a></Link>
+                <Link href="#"><a><Image src={risksAssociated} alt="risksAssociated"  layout="raw"  placeholder='blur' quality='100' /></a></Link>
               </s.BlogImageWrapper>
               <s.BlogContentWrapper>
                 <p>There are two sides to the coin associated with most things, and outsourcing isn&#39;t any different. Like some extreme benefits, it also brings a few risks with it. However, with a little smart act and caution, those risks can be handled easily. Let&#39;s take a look:</p>
@@ -155,7 +155,7 @@ const SingleBlog = () => {
                 <p>With outsourcing, you can benefit from top-rate services without the need to hire a professional for a full-time job. When you are recruiting specialists to cater to your different needs, you can not only concentrate on your business core competencies but also compete with the conveyance abilities of bigger associations while keeping up your freedom.</p>
               </s.BlogContentWrapper>
               {/* <s.BlogImageWrapper>
-                <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/></a></Link>
+                <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' /></a></Link>
               </s.BlogImageWrapper> */}
               <s.BlogContentWrapper>
                 <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>

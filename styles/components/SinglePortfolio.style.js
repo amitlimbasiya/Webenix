@@ -175,6 +175,7 @@ export const PortfolioTechIcon  = styled.div`
     align-items: center;
     justify-content: center;
     margin-right: 20px;
+
     &.pink-bg{background-color: #fcbac9;}
     &.purple-bg{background-color: #c6bafc;}
     &.sky-bg{background-color: #b6f5fc;}
@@ -186,6 +187,11 @@ export const PortfolioTechIcon  = styled.div`
         line-height: 50px;
         margin-right: 10px;
     `}   
+
+    & img{
+        width: 35px !important;
+        height: 35px !important;
+    }
 `;
 
 export const PortfolioTechContent  = styled.div`

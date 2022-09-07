@@ -26,7 +26,7 @@ const SingleBlog = () => {
                 <span className='blog-date'>August 10, 2021</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
-                <Image src={TopThings} alt="Top Things Your Landing Page Should Have" className='imgwith-boxshadow' layout="raw"/>
+                <Image src={TopThings} alt="Top Things Your Landing Page Should Have" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
               </Col>
               <s.BlogContentWrapper>
                 <p>When you develop the website for your company, your primary target will be to use the website as a marketing tool. Your company&#39;s website is the online interface between you and your prospective customers. Hence, your website should be informative and engaging. Moreover, web traffic is diverted to your website through the landing page. The landing page thus works as the first interaction between you and your prospective clients. Therefore, website developers and SEO experts insist that the landing page should be designed so that the visitor is directed to your company&#39;s website easily. It should also have the necessary elements to help your visitor navigate the landing page onto the home page. In other words, your home page and your landing page should be distinct. Otherwise, it can create confusion, and your visitor might even leave your website without evaluating it thoroughly. Hence, you should ensure that the landing page of your company&#39;s website has all the elements necessary to ensure that visitor understands the essential aspects of your website and proceeds to navigate it. Some of the things that your landing page should have are as follows:</p>
@@ -44,7 +44,7 @@ const SingleBlog = () => {
                 <p>Visitors usually come to a website on being directed from another website or an advertisement. Hence, the information or content provided in the ad should match the information on the landing page. The content of the source and the landing page should match. If there is a disparity in communication, it will create confusion in the visitor, and he might even leave the website without checking the subsequent links. Hence, when you make the landing page of your company&#39;s website, you should keep in mind the information you have provided on the social media platforms, online advertisements, and the Pay Per Click advertisements. This will ensure that the visitors are not confused on seeing the landing page, and they are assured that they have come to the correct website.</p>
               </s.BlogContentWrapper>
               {/* <s.BlogImageWrapper>
-                <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/></a></Link>
+                <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' /></a></Link>
               </s.BlogImageWrapper> */}
               <s.BlogContentWrapper>
                 <h3>4. Create an engaging landing page.</h3>

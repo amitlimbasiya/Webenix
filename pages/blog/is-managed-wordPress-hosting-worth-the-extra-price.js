@@ -26,7 +26,7 @@ const SingleBlog = () => {
                 <span className='blog-date'>June 10, 2021</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
-                <Image src={ManagedWP} alt="Is managed WordPress hosting worth the extra price?" className='imgwith-boxshadow' layout="raw"/>
+                <Image src={ManagedWP} alt="Is managed WordPress hosting worth the extra price?" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
               </Col>
               <s.BlogContentWrapper>
                 <p>WordPress is one of the most efficient platforms to create websites, eCommerce portals, social media platforms, online forums, and other similar web-hosted services. With the help of WordPress, you can gain access to a plethora of pre-designed templates that will make designing your website simpler. Similarly, WordPress offers a host of images, screenshots, and other visual aids required to make a website. Additionally, WordPress comes with built-in plugins and website management tools, which are necessary to develop a website and maintain it. These features and the regular upgrades offered by the platform make it easier to create a website.</p>
@@ -57,7 +57,7 @@ const SingleBlog = () => {
                 <p>WordPress hosting services are exclusive and are offered to clients who what to improve their online presence. With this complete service, you can be assured that your company&#39;s website, eCommerce portal, online forum, or social media platform is unique and performs better than your competitors. Moreover, with the exclusive service, you can be assured of better security protocols, which is necessary, especially if you have customers who share sensitive information on your website. With the help of WordPress hosting services, you will not only be assured that you are receiving excellent security for your company&#39;s website, but you will also not have to worry about its upgrade or maintenance. All of these will be taken care of by the platform. Thus, WordPress hosting services are ideal if you are looking for exclusive service and better security for your website.</p>
               </s.BlogContentWrapper>
               {/* <s.BlogImageWrapper>
-                <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/></a></Link>
+                <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' /></a></Link>
               </s.BlogImageWrapper> */}
               <s.BlogContentWrapper>
                 <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>

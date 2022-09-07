@@ -26,7 +26,7 @@ const SingleBlog = () => {
                 <span className='blog-date'>June 15, 2021</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
-                <Image src={TopAdvcanced} alt="Top Advanced SEO Techniques to Maximize Your Search Traffic" className='imgwith-boxshadow' layout="raw"/>
+                <Image src={TopAdvcanced} alt="Top Advanced SEO Techniques to Maximize Your Search Traffic" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
               </Col>
               <s.BlogContentWrapper>
                 <p>It is a well-known fact that Search Engine Optimized or SEO managed website attracts more web traffic. In other words, if you have launched a website for your company, you must ensure that it has proper SEO protocols in place. This is vital to ensure that your company&#39;s website achieves a higher ranking in the Search Engine Result Pages or SERPs. When a visitor types in the search engine keywords, it uses its web crawlers to identify the websites that meet the keyword requirements. Hence, an SEO managed website will make fair use of keywords without flagging them off as &#39;keyword stuffing&#39;. At the same time, you will need to identify keywords suitable for your company&#39;s products and services. Hence, it would be best if you implemented proper SEO techniques to attract more web traffic. Some of the methods by which you can implement SEO practices are as follows:</p>
@@ -51,7 +51,7 @@ const SingleBlog = () => {
                 <p>Topic clusters provide internal linking opportunities that ensure that your customers stay on the website for a more extended period. Topic clusters usually work on three pillar pages: technical SEO, local SEO, and backlinks. Backlinks are necessary, which connect to the structured data associated with your website. This is important to help your visitor connect to the webpage that he is looking for. Similarly, you will also need to develop topic clusters based on the local SEO. This will help you connect with clients of specific demographics and location. Location-based SEO is necessary, especially if you are looking to approach a particular customer base. These topic clusters will help clients navigate your company&#39;s website with ease and find the information they require. SEO managed websites are essential to keep the visitors on the particular website for a more extended period and subsequently result in higher ranks in the Search Engine Result Pages or SERPs.</p>
               </s.BlogContentWrapper>
               {/* <s.BlogImageWrapper>
-                <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/></a></Link>
+                <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' /></a></Link>
               </s.BlogImageWrapper> */}
               <s.BlogContentWrapper>
                 <h3>4. Removing unnecessary content</h3>

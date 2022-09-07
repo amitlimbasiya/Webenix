@@ -7,9 +7,9 @@ import shapeYellowIcon from '../../../public/images/seo/shapeYellow.svg';
 import shapeGreenIcon from '../../../public/images/seo/shapeGreen.svg';
 import shapeBlueIcon from '../../../public/images/seo/shapeBlue.svg';
 import landingpageDesignSetup from '../../../public/images/f-landingpage-Design.svg';
-import onPageOptIcon from '../../../public/images/seo/onPageOptIcon.svg';
-import seoIcon from '../../../public/images/seo-icon.svg';
-import fullStackIcon from '../../../public/images/seo/full-stack-icon.svg';
+import campaignSetup from '../../../public/images/f-PPC-Campaign-Setup.svg';
+import campaignAuditIcon from '../../../public/images/f-PPC-Campaign-Audit.svg';
+import AccountSetupIcon from '../../../public/images/f-Account-Setup.svg';
 import ppcIcon from '../../../public/images/f-PPC.svg';
 
 const SectionServiceBoxes = () => {
@@ -33,7 +33,7 @@ const SectionServiceBoxes = () => {
                     <s.textPart>As a company, we are only successful if you recognize the value of our work. Following the completion of the project, you will receive full ownership rights for the account. Regardless of your status with your own account and all the work in it only with Webenix.</s.textPart>
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={ppcIcon} alt="Technical SEO Audit Icon" layout="raw" />
+                  <Image src={AccountSetupIcon} alt="Account Setup Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapePinkIcon} alt="Shape Pink Icon" layout="raw" />
                   </s.iconOverlay>
@@ -47,7 +47,7 @@ const SectionServiceBoxes = () => {
                     <s.textPart>We help you in setting up the landing page setup.</s.textPart>
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={landingpageDesignSetup} alt="Seo Icon" layout="raw" />
+                  <Image src={landingpageDesignSetup} alt="Landing Page Setup Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapeYellowIcon} alt="Shape Yellow Icon Icon" layout="raw" />
                   </s.iconOverlay>
@@ -61,7 +61,7 @@ const SectionServiceBoxes = () => {
                     <s.textPart>According to your advertising budget and goals, we will set up a minimum of two PPC campaigns with optimized campaign settings, researched keywords, and compelling ad copy.</s.textPart>
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={ppcIcon} alt="On-page optimization Icon" layout="raw" />
+                  <Image src={campaignSetup} alt="PPC Campaign Setup Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapeBlueIcon} alt="Shape Orange Icon" layout="raw" />
                   </s.iconOverlay>
@@ -75,7 +75,7 @@ const SectionServiceBoxes = () => {
                     <s.textPart>We do not keep you unaware of any activity that we do consider SEO and PPC. With the full monthly report, we channelise the audit report with the detail the clarity that brings in your business to analyze what should be avoided and focused on.</s.textPart>
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={ppcIcon} alt="Off-page optimization Icon" layout="raw" />
+                  <Image src={campaignAuditIcon} alt="PPC Campaign Audit Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapeGreenIcon} alt="Shape Green Icon" layout="raw" />
                   </s.iconOverlay>

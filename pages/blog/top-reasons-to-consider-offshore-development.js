@@ -26,7 +26,7 @@ const SingleBlog = () => {
                 <span className='blog-date'>September 01, 2020</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
-                <Image src={TopResonsOffshireDevelopment} alt="Top Reasons to consider offshore development" className='imgwith-boxshadow' layout="raw"/>
+                <Image src={TopResonsOffshireDevelopment} alt="Top Reasons to consider offshore development" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
               </Col>
               <s.BlogContentWrapper>
                 <p>The internet has made the whole world a tightly knit entity. The emergence of natural communication enablers like file sharing, desktop sharing, video conferences, etc. has further eased the working without bothering about geographical boundaries. For any business, inviting the experts and giving them a place to work and stay is not budget-friendly always. So, they resort to the idea of offshore development. Listed here are the other best reasons, apart from cost-effectiveness, that form the premise of adopting offshore development.</p>
@@ -53,7 +53,7 @@ const SingleBlog = () => {
                 <p>Offshore development has become a pleasant reality for businesses who do not mind going beyond geographical boundaries to accomplish their projects. Benefits provided by it make it an intelligent approach rather than a fancy trend.</p>
               </s.BlogContentWrapper>
               {/* <s.BlogImageWrapper>
-                <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/></a></Link>
+                <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' /></a></Link>
               </s.BlogImageWrapper> */}
               <s.BlogContentWrapper>
                 <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>

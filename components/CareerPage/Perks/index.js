@@ -9,7 +9,7 @@ import TeamPlayerIcon from "../../../public/images/f-team-player-icon.svg";
 import AuthenticityIcon from "../../../public/images/f-authenticity-icon.svg";  
 import HonestIcon from "../../../public/images/f-honest-icon.svg";  
 import wordpressDevIcon from '../../../public/images/f-wordpress-icon.svg';
-import frontEndDevelopmentIcon from '../../../public/images/f-Front-End-Developer.svg';
+import careerIcon from '../../../public/images/f-career-icon.svg';
 
 function MyVerticallyCenteredModal(props) {
   return (
@@ -136,7 +136,7 @@ const SectionIntro = () => {
                       <Accordion.Header>
                         <div className='cardHeader'>
                           <div className='headIcon'>
-                            <Image src={frontEndDevelopmentIcon} alt="Business Development Executive Icon" className='img-fluid' layout="raw"/>
+                            <Image src={careerIcon} alt="Business Development Executive Icon" className='img-fluid' layout="raw"/>
                           </div>
                           <div className='positionDesc'>
                             <div className='headTitle'>Business Development Executive</div>

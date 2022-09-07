@@ -3,14 +3,14 @@ import { Col, Container, Row } from 'react-bootstrap';
 import Image from 'next/image';
 import * as s from "../../styles/components/Benefits.style";
 import CostEffective from "../../public/images/f-Cost-Effective.svg";
-import ExperiencedProfessionals from "../../public/images/hire-dedicated-developers-icon.svg";
+import ExperiencedProfessionals from "../../public/images/f-Multiple-work-shifts.svg";
 import ProjectCommunication from "../../public/images/f-support-maintanance-icon.svg";
-import NonDisclosure from "../../public/images/Non-Disclosure-Agreement-icon.svg";
-import HandpickTeam from "../../public/images/f-meet-the-team-icon.svg";
-import WeeklyBillingModel from "../../public/images/weekly-billing-model-icon.svg";
+import NonDisclosure from "../../public/images/f-Experienced Professionals.svg";
+import HandpickTeam from "../../public/images/f-Non-Disclosure-Agreement.svg";
+import WeeklyBillingModel from "../../public/images/f-Monthly billing product.svg";
 import ZeroRecruitmentCost from "../../public/images/f-engagement-models-icon.svg";
 import NoMoreCostsProject from "../../public/images/f-payment-gateway-integration-icon.svg";
-import NoLockInPeriod from "../../public/images/confidentiality-icon.svg";
+import NoLockInPeriod from "../../public/images/f-No-Lock Period.svg";
 
 const Benefits = () => {
   return (

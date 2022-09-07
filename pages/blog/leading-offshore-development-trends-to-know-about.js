@@ -27,7 +27,7 @@ const SingleBlog = () => {
                 <span className='blog-date'>August 10, 2020</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
-                <Image src={LeadingTrendsKnowAbout} alt="Leading offshore development trends to know about" className='imgwith-boxshadow' layout="raw"/>
+                <Image src={LeadingTrendsKnowAbout} alt="Leading offshore development trends to know about" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
               </Col>
               <s.BlogContentWrapper>
                 <p>Offshore development is the reality, and several trends are emerging off it with this style gaining popularity worldwide. Users do not want to settle for something less in quality because the conditions are not conventional while dealing with developers offshore. That is why; things are taking more professional garb with the introduction of more accurate measures adopted in the working process. Some of the advanced trends in offshore development procedures are:</p>
@@ -63,7 +63,7 @@ const SingleBlog = () => {
               </s.BlogContentWrapper>
 
               {/* <s.BlogImageWrapper>
-                <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/></a></Link>
+                <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' /></a></Link>
               </s.BlogImageWrapper> */}
               <s.BlogContentWrapper>
                 <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>

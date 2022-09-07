@@ -234,13 +234,16 @@ export const HiremodelIconBox  = styled.div`
 
     img{
         width: 100px;
+        height: 100px;
         
         ${mediaQueries("xl")`
             width: 70px;
+            height: 70px;
         `} 
 
         ${mediaQueries("xl")`
             width: 60px;
+            height: 60px;
             margin-bottom: 10px;
         `} 
 

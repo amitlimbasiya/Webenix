@@ -8,7 +8,7 @@ import shapePastelPink from '../../../public/images/backendDevelopment/shapePast
 import shapeMorningGloryIcon from '../../../public/images/backendDevelopment/shapeMorningGlory.svg';
 import mobileAppDesignIcon from '../../../public/images/f-Mobile-App-Design.svg';
 import codeIcon from '../../../public/images/f-Web-Development.svg';
-import fullStackIcon from '../../../public/images/full-stack-icon.svg';
+import databaseManagementIcon from '../../../public/images/f-Database-Management.svg';
 import thirdPartyAPIntegrationIcon from '../../../public/images/f-Third-Party-Integration-icon.svg';
 
 const SectionServiceBoxes = () => {
@@ -78,7 +78,7 @@ const SectionServiceBoxes = () => {
                     
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={fullStackIcon} alt="laravel Icon" layout="raw" />
+                  <Image src={databaseManagementIcon} alt="Database Management" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapePastelPink} alt="Shape Icon" layout="raw" />
                   </s.iconOverlay>

@@ -43,20 +43,20 @@ const OurExpertise = () => {
                     </s.OurExpertisBox>
                 </Col>   
                 <Col lg={3} md={4} sm={12}>
-                    <s.OurExpertisBox className="ourexpertis-box frozenPeriwinkleBg">
-                        <s.OurExpertisNumber>05</s.OurExpertisNumber>
-                        <s.OurExpertisTitle>Shopify Third <br/> data migration</s.OurExpertisTitle>
+                    <s.OurExpertisBox className="ourexpertis-box skyBg">
+                        <s.OurExpertisNumber>06</s.OurExpertisNumber>
+                        <s.OurExpertisTitle>Shopify Third <br/> Data Migration</s.OurExpertisTitle>
                     </s.OurExpertisBox>
                 </Col>             
                 <Col lg={3} md={4} sm={12}>
-                    <s.OurExpertisBox className="ourexpertis-box frozenPeriwinkleBg">
-                        <s.OurExpertisNumber>05</s.OurExpertisNumber>
+                    <s.OurExpertisBox className="ourexpertis-box yellowBg">
+                        <s.OurExpertisNumber>07</s.OurExpertisNumber>
                         <s.OurExpertisTitle>Shopify Third <br/> App Development</s.OurExpertisTitle>
                     </s.OurExpertisBox>
                 </Col>
                 <Col lg={3} md={4} sm={12}>
-                    <s.OurExpertisBox className="ourexpertis-box frozenPeriwinkleBg">
-                        <s.OurExpertisNumber>05</s.OurExpertisNumber>
+                    <s.OurExpertisBox className="ourexpertis-box pinkBg">
+                        <s.OurExpertisNumber>08</s.OurExpertisNumber>
                         <s.OurExpertisTitle>Shopify Third <br/> Store maintenance</s.OurExpertisTitle>
                     </s.OurExpertisBox>
                 </Col>

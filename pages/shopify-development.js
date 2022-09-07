@@ -26,7 +26,7 @@ const SHOPIFYDEVELOPMENT = () => {
       {
         key:2,
         ServiceBoxClass:"redPart",
-        ServiceIcon:"/images/about-icon.svg",
+        ServiceIcon:"/images/f-Shopify-Customization.svg",
         ServiceIconHeight:"90px",
         ServiceIconWidth:"90px",
         ServiceSvgShape:'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 165.51 145.95"><g className="cls-1"><g id="Layer_1" data-name="Layer 1"><path className="cls-2" d="M85.19,343.65c-33.57,51.44,30.58,75.1,71.14,75.1,39.9,0,85-15.05,85-61.3C241.31,238.4,142.82,255.38,85.19,343.65Z" transform="translate(-75.8 -272.8)"/></g></g></svg>',
@@ -35,7 +35,7 @@ const SHOPIFYDEVELOPMENT = () => {
       {
         key:3,
         ServiceBoxClass:"yellowPart",
-        ServiceIcon:"/images/cms-icon.svg",
+        ServiceIcon:"/images/f-Shopify-Theme-Development.svg",
         ServiceIconHeight:"90px",
         ServiceIconWidth:"90px",
         ServiceSvgShape:'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 152.06 161.27"><g className="cls-1"><g id="Layer_1" data-name="Layer 1"><path className="cls-2" d="M164.87-57.64c0,43.16,25.6,58.53,38.69,33.24,10.1-19.49,22.46-15.17,45-12.76,23.14,2.48,29.6-28.57,49.89-35.9,34.33-12.4,10.67-32.18-5.23-45.33s-7.81-41-31.63-53.36c-19.35-10.08-25.41,27.43-59.78,41.05C155.2-112.2,164.87-96.83,164.87-57.64Z" transform="translate(-164.04 173.45)"/></g></g></svg>',
@@ -44,7 +44,7 @@ const SHOPIFYDEVELOPMENT = () => {
       {
         key:4,
         ServiceBoxClass:"saffronPart",
-        ServiceIcon:"/images/codeIcon.svg",
+        ServiceIcon:"/images/f-Shopify-Theme-Customization.svg",
         ServiceIconHeight:"90px",
         ServiceIconWidth:"90px",
         ServiceSvgShape:'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 167.57 136.84"><g className="cls-1"><g id="Layer_1" data-name="Layer 1"><path className="cls-2" d="M490.89,413.52c-18.76,10.83-34.58-6.41-50.21-16.83-30.65-20.42-75.83,10.44-97.57-30.12-24.07-44.91,0-89.51,46.56-86.28C520,289.33,507.93,403.68,490.89,413.52Z" transform="translate(-333.63 -280.12)"/></g></g></svg>',
@@ -62,7 +62,7 @@ const SHOPIFYDEVELOPMENT = () => {
       {
         key:6,
         ServiceBoxClass:"lightPinkPart",
-        ServiceIcon:"/images/full-stack-icon.svg",
+        ServiceIcon:"/images/f-Shopify-Data-Migration.svg",
         ServiceIconHeight:"90px",
         ServiceIconWidth:"90px",
         ServiceSvgShape:'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210.35 155.44"><g className="cls-1"><g id="Layer_1" data-name="Layer 1"><path className="cls-2" d="M726.05,313.86c-33.8-13.77-36.35-47.47-57.44-59.89-20.67-12.18-42.86-.48-51.53,33.16-9.84,38.23-35.12,46.6-48.57,74.78-5.66,11.85-3.11,34.47,12,40.67,19.82,8.15,39.12-9.22,63.72-15,22.09-5.21,52.94-.34,73.77-1.55,20.42-1.19,42.19,1.71,54.76-17.95C781.07,355,776.72,334.5,726.05,313.86Z" transform="translate(-565.74 -249.28)"/></g></g></svg>',

@@ -9,10 +9,10 @@ import shapeYellowIcon from '../../../public/images/cmsDevelopment/shapeYellow.s
 import shapeGreenIcon from '../../../public/images/cmsDevelopment/shapeGreen.svg';
 import shapeBlueIcon from '../../../public/images/cmsDevelopment/shapeBlue.svg';
 import shapePurpleIcon from '../../../public/images/cmsDevelopment/shapePurple.svg';
-import backendDevelopmentIcon from '../../../public/images/backend-development-icon.svg';
+import themeIntegrationIcon from '../../../public/images/f-Theme-Integration.svg';
 import wordpressDevIcon from '../../../public/images/f-wordpress-icon.svg';
 import hubspotIcon from '../../../public/images/f-hubspot-icon.svg';
-import PSDWordPressIcon from '../../../public/images/PSDWordPressIcon.svg';
+import PSDWordPressIcon from '../../../public/images/f-PSD-to-WordPress.svg';
 import CMSDevIcon from '../../../public/images/f-CMS-Development.svg';
 const SectionServiceBoxes = () => {
   return (
@@ -81,7 +81,7 @@ const SectionServiceBoxes = () => {
                     
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={backendDevelopmentIcon} alt="Theme Icon" layout="raw" />
+                  <Image src={themeIntegrationIcon} alt="Theme Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapeOrangeIcon} alt="Shape Blue Icon" layout="raw" />
                   </s.iconOverlay>

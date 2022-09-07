@@ -43,7 +43,7 @@ const NEXTJSDEVELOPMENT = () => {
       {
         key:4,
         ServiceBoxClass:"PlatinumPart",
-        ServiceIcon:"/images/wordpressDevelopment/pluginIcon.svg",
+        ServiceIcon:"/images/f-Next-JS-Maintenance.svg",
         ServiceIconHeight:"90px",
         ServiceIconWidth:"90px",
         ServiceSvgShape:'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 167.57 136.84"><g className="cls-1"><g id="Layer_1" data-name="Layer 1"><path className="cls-2" d="M490.89,413.52c-18.76,10.83-34.58-6.41-50.21-16.83-30.65-20.42-75.83,10.44-97.57-30.12-24.07-44.91,0-89.51,46.56-86.28C520,289.33,507.93,403.68,490.89,413.52Z" transform="translate(-333.63 -280.12)"/></g></g></svg>',

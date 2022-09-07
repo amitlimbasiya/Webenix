@@ -42,7 +42,7 @@ import iosDevIcon from '../../public/images/f-Apple-ios.svg';
 import appleIos from '../../public/images/f-iphone-icon.svg';
 import ionicIcon from '../../public/images/f-ionicframework-icon.svg';
 import progressiveIcon from '../../public/images/f-progressive-web-app-development-icon.svg';
-// import prototypeIcon from '../../public/images/f-design-prototype-icon.svg';
+import contentWriterIcon from '../../public/images/f-Content-Writer-icon.svg';
 import psdHtmlIcon from '../../public/images/f-psd-html-icon.svg';
 import responsiveIcon from '../../public/images/f-responsive-icon.svg';
 import aspNetDevelopmentIcon from '../../public/images/f-dotnet-icon.svg';
@@ -868,7 +868,7 @@ const Header = () => {
                           <Link href={router.HIRECONTENTWRITER}>
                             <a className="menuitem-box">
                               <s.MenuItemText className="menuitem-text">
-                                <Image src={ppcIcon} alt="Hire Content Writer" layout="raw" />
+                                <Image src={contentWriterIcon} alt="Hire Content Writer" layout="raw" />
                                 <p>Hire Content Writer</p>
                               </s.MenuItemText>
                             </a>

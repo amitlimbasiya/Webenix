@@ -26,7 +26,7 @@ const SingleBlog = () => {
                 <span className='blog-date'>June 20, 2021</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
-                <Image src={Topprediction} alt="Top Predictions for Facebook Advertising in 2021" className='imgwith-boxshadow' layout="raw"/>
+                <Image src={Topprediction} alt="Top Predictions for Facebook Advertising in 2021" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
               </Col>
               <s.BlogContentWrapper>
                 <p>If you plan to use Facebook as a platform to promote the products and services offered by your company, you must understand how your prospective clients will perceive these business promotions. For example, you need to stay updated with the latest trends to impact the platform. The advertisements that you use should refer to the ongoing socio-economic conditions to show that you are aware of the problems being faced by your clients and the efforts that you are taking to make it easier for them. This is especially true for eCommerce platforms that use Facebook as one forum for advertising their products. Some of the predictions for Facebook advertisement for the year 2021 are as follows:</p>
@@ -44,7 +44,7 @@ const SingleBlog = () => {
                 <p>Facebook is an interactive platform where people can communicate with each other. Hence, when using the platform to advertise their products and services, business organizations need to get personal with their customers. The advertisements developed for Facebook should have a personal touch to associate better with the firm. This is the upcoming trend with Facebook advertisements. If you are thinking of using Facebook as the preferred platform for advertising your company, you should consider developing personal video advertisements, and the audience finds them relatable.</p>
               </s.BlogContentWrapper>
               {/* <s.BlogImageWrapper>
-                <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/></a></Link>
+                <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' /></a></Link>
               </s.BlogImageWrapper> */}
               <s.BlogContentWrapper>
                 <p>In 2021 Facebook advertisements will become different as they will be more about the audience than the company. You will have to design the advertisements considering the changed socio-economic condition and the client&#39;s changed mindset. Moreover, Facebook has developed protocols to make it easier for advertisers to identify the best methods to reach out to a broader customer base through the platform. Thus, in the upcoming year, Facebook advertisements will change and become more about the companies, people, and changes people have undergone.</p>

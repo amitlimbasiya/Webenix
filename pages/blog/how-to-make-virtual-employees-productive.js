@@ -26,7 +26,7 @@ const SingleBlog = () => {
                 <span className='blog-date'>September 29, 2020</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
-                <Image src={MakeVirtualEmployeesProductive} alt="How to Make Virtual Employees Productive?" className='imgwith-boxshadow' layout="raw"/>
+                <Image src={MakeVirtualEmployeesProductive} alt="How to Make Virtual Employees Productive?" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
               </Col>
               <s.BlogContentWrapper>
                 <p>Remote work or working virtually is on the rise, especially considering the recent scenario. Even though managing remote employees can be stressful enough to want one tear of their hair, it is one of the greatest competitive strength. It is a lot easier to hire talented professionals without considering the location also.</p>
@@ -69,7 +69,7 @@ const SingleBlog = () => {
                 <p>Using Managing a virtual team is indeed a challenging task and with experience one masters the art of managing the virtual team while increasing their productivity. However, it is pertinent to make all the meetings are remote-friendly. And this means that everyone should be using the same technology to chat through the computer, as the employees are in their virtual working environment and not in the same room. Also, ensure that your strategies work for a remote team as the strategies for an actual office is not the same for a virtual team.</p>
               </s.BlogContentWrapper>
               {/* <s.BlogImageWrapper>
-                <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/></a></Link>
+                <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' /></a></Link>
               </s.BlogImageWrapper> */}
               <s.BlogContentWrapper>
                 <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>

@@ -25,7 +25,7 @@ const FLUTTERAPPSDEVELOPMENT = () => {
       {
         key:2,
         ServiceBoxClass:"redPart",
-        ServiceIcon:"/images/f-Flutter-Icon.svg",
+        ServiceIcon:"/images/f-Flutter-App-Customization.svg",
         ServiceIconHeight:"90px",
         ServiceIconWidth:"90px",
         ServiceSvgShape:'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 165.51 145.95"><g className="cls-1"><g id="Layer_1" data-name="Layer 1"><path className="cls-2" d="M85.19,343.65c-33.57,51.44,30.58,75.1,71.14,75.1,39.9,0,85-15.05,85-61.3C241.31,238.4,142.82,255.38,85.19,343.65Z" transform="translate(-75.8 -272.8)"/></g></g></svg>',

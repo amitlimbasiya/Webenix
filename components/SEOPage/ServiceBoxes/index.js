@@ -8,12 +8,12 @@ import shapeYellowIcon from '../../../public/images/seo/shapeYellow.svg';
 import shapeGreenIcon from '../../../public/images/seo/shapeGreen.svg';
 import shapeBlueIcon from '../../../public/images/seo/shapeBlue.svg';
 import shapePurpleIcon from '../../../public/images/seo/shapePurple.svg';
-import technicalSEOAuditIcon from '../../../public/images/weekly-billing-model-icon.svg';
-import linkBuildingStrategiesIcon from '../../../public/images/seo/linkBuildingStrategiesIcon.svg';
-import contentMarketingIcon from '../../../public/images/seo/contentMarketingIcon.svg';
-import onPageOptIcon from '../../../public/images/seo/onPageOptIcon.svg';
-import seoIcon from '../../../public/images/seo-icon.svg';
-import fullStackIcon from '../../../public/images/seo/full-stack-icon.svg';
+import technicalSEOAuditIcon from '../../../public/images/f-Technical-SEO-Audit.svg';
+import linkBuildingStrategiesIcon from '../../../public/images/f-Link-building-strategies.svg';
+import contentMarketingIcon from '../../../public/images/f-Content-Marketing.svg';
+import onPageOptIcon from '../../../public/images/f-On-page-optimization.svg';
+import competitorAnalysisIcon from '../../../public/images/f-Competitor-Analysis.svg';
+import offPageIcon from '../../../public/images/f-Off-page-Optimization.svg';
 
 const SectionServiceBoxes = () => {
   return (
@@ -50,7 +50,7 @@ const SectionServiceBoxes = () => {
                     <s.textPart>The utter optimization of the competitor’s content strategies includes the backlinks and internal links pattern used by them. It enables the market type and the ongoing trends in the same field.</s.textPart>
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={seoIcon} alt="Seo Icon" layout="raw" />
+                  <Image src={competitorAnalysisIcon} alt="Competitor Analysis Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapeYellowIcon} alt="Shape Yellow Icon Icon" layout="raw" />
                   </s.iconOverlay>
@@ -78,7 +78,7 @@ const SectionServiceBoxes = () => {
                     <s.textPart>Off-page optimization needs utter attention to increase the reach of the website or content of your business. With dedicated consistency, we make sure that off-page activities like generating backlinks and sharing over social media will help in reaching out to maximum people.</s.textPart>
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={fullStackIcon} alt="Off-page optimization Icon" layout="raw" />
+                  <Image src={offPageIcon} alt="Off-page optimization Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapeGreenIcon} alt="Shape Green Icon" layout="raw" />
                   </s.iconOverlay>

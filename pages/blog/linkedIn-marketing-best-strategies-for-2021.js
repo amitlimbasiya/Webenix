@@ -26,7 +26,7 @@ const SingleBlog = () => {
                 <span className='blog-date'>June 12, 2021</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
-                <Image src={LkedinMarketing} alt="LinkedIn Marketing Best Strategies for 2021" className='imgwith-boxshadow' layout="raw"/>
+                <Image src={LkedinMarketing} alt="LinkedIn Marketing Best Strategies for 2021" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
               </Col>
               <s.BlogContentWrapper>
                 <p>LinkedIn is one of the most reputed Business to Business or B2B platforms, which can be utilized to create more resources and advertise the services provided by your firm. Suppose you are a business manager for a small or medium-sized business enterprise. In that case, you will want to look for a platform that offers excellent advertising opportunities without proving to be expensive. If you opt for the LinkedIn platform, you can easily reach out to a broader customer base, which will be quick to understand your firm&#39;s services, and the repose you receive will be better than other social media platforms. Some of the strategies that you should implement to improve marketing on LinkedIn for 2021 are as follows:</p>
@@ -41,7 +41,7 @@ const SingleBlog = () => {
                 <p>When you develop a LinkedIn marketing strategy, it is crucial to consider it a unique platform. LinkedIn has been designed to simplify business searches. Thus, the advertisements should be sophisticated and reflect the fact that you are an entrepreneur looking to expand your business enterprise. However, at the same time, it is crucial to connect with your audience and provide them with the information that they require. Thus, while developing LinkedIn advertisements, it is essential to remember that you are creating promotions for business managers like yourself. Therefore, you must provide information that will appeal to them.</p>
               </s.BlogContentWrapper>
               {/* <s.BlogImageWrapper>
-                <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/></a></Link>
+                <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' /></a></Link>
               </s.BlogImageWrapper> */}
               <s.BlogContentWrapper>
                 <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>

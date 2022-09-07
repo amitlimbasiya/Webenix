@@ -215,18 +215,18 @@ export const partItem  = styled.div`
         `} 
         ${mediaQueries("sm")` 
             padding-top: 20px;
-            margin-bottom: 0;
+            margin-bottom: 10px;
         `} 
         
         img{
-            /* width: 100px !important;
-            height: 120px !important; */
+            width: 90px !important;
+            height: 90px !important;
             position: relative;
             z-index: 9;
             
             ${mediaQueries("sm")`
                 width: 60px !important;
-                height: 80px !important;
+                height: 60px !important;
             `} 
         }
     }
@@ -244,9 +244,6 @@ export const boxHeading  = styled.h3`
     ${mediaQueries("llg")` 
         font-size: 16px;
     `}
-    ${mediaQueries("mobile")` 
-        font-size: 15px;
-    `}         
 `;
 export const iconOverlay  = styled.div`
     position: absolute;

@@ -26,7 +26,7 @@ const SingleBlog = () => {
                 <span className='blog-date'>June 03, 2021</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
-                <Image src={MotivateRemoteSoftwareTeam} alt="How to motivate and engage a remote software team?" className='imgwith-boxshadow' layout="raw"/>
+                <Image src={MotivateRemoteSoftwareTeam} alt="How to motivate and engage a remote software team?" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
               </Col>
               <s.BlogContentWrapper>
                 <p>If you are a business manager or a team lead, you will be tasked with managing not just the business aspect of your company. Still, you will also have to keep your team motivated and enthusiastic about their work. It becomes all the more challenging if individual members of your team work remotely. As you will not meet them physically regularly, you might find it challenging to keep them engaged. Business managers often mention that this becomes all the more important when an entire software team works remotely. Here you will need to keep an ongoing communication between the team members so that there are no bottlenecks and the projects are completed on schedule. Communication is critical when it comes to maintaining a software team working remotely motivated and engaged.</p>                
@@ -66,7 +66,7 @@ const SingleBlog = () => {
                 <p>When it comes to motivating a software team working remotely, it is a good idea to have open forums, chats, and other such modes of communication that will help them feel associated with the main office. Additionally, these chats can also help create a smooth channel of communication amongst the individual team members. Thus, to ensure that your software team, working remotely, feels motivated and engaged, you as a team lead or manager must create an atmosphere conducive to work.</p>
               </s.BlogContentWrapper>
               {/* <s.BlogImageWrapper>
-                <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/></a></Link>
+                <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' /></a></Link>
               </s.BlogImageWrapper> */}
               <s.BlogContentWrapper>
                 <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>

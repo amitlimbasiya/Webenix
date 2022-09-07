@@ -26,7 +26,7 @@ const SingleBlog = () => {
                 <span className='blog-date'>June 14, 2021</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
-                <Image src={Bestb2b} alt="The Best B2B Marketing Strategies to Increase Leads" className='imgwith-boxshadow' layout="raw"/>
+                <Image src={Bestb2b} alt="The Best B2B Marketing Strategies to Increase Leads" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
               </Col>
               <s.BlogContentWrapper>
                 <p>When it comes to Business to Business or B2B marketing, the challenge you will face is reaching out to the correct customer base. B2B marketing is niche marketing and does not include the mass retail market. For example, if your company provides large-scale logistic support, you will have to address the specific need to make your customers aware of your services. Thus, developing the correct leads, designing a website that meets your requirements, and ensuring that your prospective clients recognize your benefits are all priorities. Some of the strategies that you can adopt to increase the leads for B2B marketing are as follows:</p>
@@ -60,7 +60,7 @@ const SingleBlog = () => {
                 <p>Thus, creating marketing leads is essential when it comes to B2B marketing. It can also help develop a loyal customer base, which is crucial for a business to thrive. The best method to generate leads for B2B marketing is to use the Internet and develop various marketing strategies. This will help in creating leads that are responsive to the services offered by your business organization. Most companies looking for business services look for these online. Hence, creating a website that gives adequate information about your company is the first communication level with your prospective customers. With a website that does justice to your company creating a loyal customer base also becomes more straightforward. So if you feel that you need to generate more leads and generate better B2B marketing strategies, then you should consider hiring the services of a company that develops SEO based websites. This will ensure that your company&#39;s website is ideal for content, social media, and online marketing.</p>
               </s.BlogContentWrapper>
               {/* <s.BlogImageWrapper>
-                <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/></a></Link>
+                <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' /></a></Link>
               </s.BlogImageWrapper> */}
               <s.BlogContentWrapper>
                 <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>

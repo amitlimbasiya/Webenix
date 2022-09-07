@@ -26,7 +26,7 @@ const SingleBlog = () => {
                 <span className='blog-date'>September 22, 2020</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
-                <Image src={FindOutsourcingPartner} alt="How Shoulds I Find the Right Outsourcing Partner in India?" className='imgwith-boxshadow' layout="raw"/>
+                <Image src={FindOutsourcingPartner} alt="How Shoulds I Find the Right Outsourcing Partner in India?" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
               </Col>
               <s.BlogContentWrapper>
                 <p>For today&#39;s dynamic market, outsourcing is a boon and a blessing in disguise for every business. And since businesses today are dependent and look forward to expanding their business through outsourcing, it is crucial to choose the right outsourcing partner from India who can aid in the yielding of the best possible dividends. And even then, choosing the right outsourcing partner is the most daunting task that most organizations and companies face today.</p>
@@ -75,7 +75,7 @@ const SingleBlog = () => {
                 <p>When building a business, every company aims to be the best in the market and they have two options to do so. It is either by outsourcing their project or by hiring an in-house team. Even though many find it challenging to outsource, it is what gives a company their competitive edge over the other who do not. Outsourcing is the key to boosting the growth and development of any business. And the most popular global companies rely on outsourcing their business. But the question arises here is that are your ready to outsource your business. And if you find yourself answering the question with a positive answer, then consider the above factors when selecting the right outsourcing partner for your company.</p>
               </s.BlogContentWrapper>
               {/* <s.BlogImageWrapper>
-                <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/></a></Link>
+                <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100'/></a></Link>
               </s.BlogImageWrapper> */}
               <s.BlogContentWrapper>
                 <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>

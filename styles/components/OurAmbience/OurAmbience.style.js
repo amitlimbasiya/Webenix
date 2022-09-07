@@ -34,14 +34,14 @@ export const OurAmbienceWrapper  = styled.div`
 
 export const OurAmbienceTitle  = styled.div`  
 
-    margin-top: -40px;    
+    margin-top: -50px;    
     margin-bottom: 60px;
     display: inline-block;
 
 
     ${mediaQueries("mobile")`    
        img{max-width: 85px;}
-       margin-top: -35px;    
+       margin-top: -43.5px;    
     `}
     
     
@@ -100,6 +100,6 @@ export const OurAmbienceGallery  = styled.div`
 `; 
 
 export const OurAmbienceGalleryBox  = styled.div` 
-   height: 100%;
-
+    height: 100%;
+    position: relative;
 `; 

@@ -26,7 +26,7 @@ const SingleBlog = () => {
                 <span className='blog-date'>September 22, 2020</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
-                <Image src={ComparisonBetweenFixedPrice} alt="A comparison between fixed price and time and material contract" className='imgwith-boxshadow' layout="raw"/>
+                <Image src={ComparisonBetweenFixedPrice} alt="A comparison between fixed price and time and material contract" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100'/>
               </Col>
               <s.BlogContentWrapper>
                 <p>If not selecting the right outsourcing partner was not already daunting enough a task, choosing the right pricing framework also matters a lot and is dependent on the success of your outsourcing deals. Initially, the outsourcing pricing models were only fixed-price contracts, but as their demand grew, their pricing framework is also now anything but simple.</p>
@@ -56,7 +56,7 @@ const SingleBlog = () => {
                 <p>Whether you choose to go forward with the fixed price or the time and material contract for your company with the outsourcing partner depends on the project needs. It is essential to understand and analyse the different aspects of both types of contracts and weigh the advantages and disadvantages of the same and how they can be appropriate for the projects. The pricing framework of a certain outsourcing partner works well for a particular company so it will work in the same pattern for your company is not mandatory.</p>
               </s.BlogContentWrapper>
               {/* <s.BlogImageWrapper>
-                <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/></a></Link>
+                <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' /></a></Link>
               </s.BlogImageWrapper> */}
               <s.BlogContentWrapper>
                 <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>

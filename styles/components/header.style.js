@@ -284,7 +284,7 @@ export const MenuItemHasChildren  = styled.li`
     &.menu-item-has-children:hover .menu-subs{
         display:block;
     }
-
+    
     ${mediaQueries("llg")` 
         position: relative;
     `}

@@ -26,7 +26,7 @@ const SingleBlog = () => {
                 <span className='blog-date'>September 08, 2020</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
-                <Image src={TimeConsiderOutsourcing} alt="7 Signs its time to Consider Outsourcing" className='imgwith-boxshadow' layout="raw"/>
+                <Image src={TimeConsiderOutsourcing} alt="7 Signs its time to Consider Outsourcing" className='imgwith-boxshadow' layout="raw" placeholder='blur' quality='100'/>
               </Col>
               <s.BlogContentWrapper>
                 <p>There is no denying the fact that today there is an additional constant rising pressure in the global market which creates a competitive environment and a thrive to be the best in the market. Under such circumstances, the only companies that lead the market are the one who work most efficiently and that too, by reducing their operational costs without compromising on their quality of services. Outsourcing business operations is an excellent option and is beneficial for a company if you are overwhelmed without business workload and find yourself too involved and engrossed in work every waking hour of the day.</p>
@@ -61,7 +61,7 @@ const SingleBlog = () => {
                 <p>If you cannot keep up with the demands of the company and failing to meet the simplest tasks, it is time to outsource your business and let the experts take some of the workloads of your plate.</p>
               </s.BlogContentWrapper>
               {/* <s.BlogImageWrapper>
-                <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/></a></Link>
+                <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100'/></a></Link>
               </s.BlogImageWrapper> */}
               <s.BlogContentWrapper>
                 <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>

@@ -26,7 +26,7 @@ const SingleBlog = () => {
                 <span className='blog-date'>June 07, 2021</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
-                <Image src={SEOChange} alt="How Will SEO Change in 2021?" className='imgwith-boxshadow' layout="raw"/>
+                <Image src={SEOChange} alt="How Will SEO Change in 2021?" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
               </Col>
               <s.BlogContentWrapper>
                 <p>Reference URL In the year 2021, you will observe a complete change in how online searches are carried out. Similarly, search engines have to change the evaluation methods to identify appropriate websites. Searches are no longer merely keyword based but mostly done with algorithms and web crawlers. Hence, the engines have to predict the user intent along with the fundamental objective of the search. Thus, for web developers, it has become essential to create web content optimized for search engines. With Search Engine Optimization or SEO-based content, you can be assured that your company&#39;s website will receive more web traffic, ensuring a higher ranking in the Search Engine Result Pages or SERPs. Some of the methods in which SEO will change in 2021 are as follows:</p>                
@@ -45,7 +45,7 @@ const SingleBlog = () => {
                 <p>Thus, for the year 2021, improving user experience and ensuring that customers feel satisfied visiting a particular website will be given importance. These will be the driving factors for creating SEO based content. Additionally, this is important to ensure that the quality of the website&#39;s content is upgraded and is designed as per customer requirements, which will be the primary change in SEO for the upcoming year.</p>
               </s.BlogContentWrapper>
               {/* <s.BlogImageWrapper>
-                <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/></a></Link>
+                <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' /></a></Link>
               </s.BlogImageWrapper> */}
               <s.BlogContentWrapper>
                 <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>

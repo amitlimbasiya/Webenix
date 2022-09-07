@@ -61,6 +61,17 @@ export default function FooterScript() {
       });
     }
 
+    // if (window.matchMedia('(min-width: 1200px)').matches) {
+    //   $('.menu-item .menuitem-box').on('click', function(){
+    //     $('.menu-item-has-children .menu-subs').css("display", "none");
+    //   });
+    // } else{
+    //   $('.menu-item > a').on('click', function(){
+    //     $('.menu-item-has-children .menu-subs').css("display", "block");
+    //   });
+    // }
+
+
     function toggleMenu() {
       menu.classList.toggle('activeMenu');
       $('.menulist-item').closest(".menulist-item").find('.sub-submenu').removeClass('active-sub-submenu');

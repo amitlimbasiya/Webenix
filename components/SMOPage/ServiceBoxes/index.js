@@ -6,7 +6,7 @@ import shapePinkIcon from '../../../public/images/seo/shapePink.svg';
 import shapeYellowIcon from '../../../public/images/seo/shapeYellow.svg';
 import shapeGreenIcon from '../../../public/images/seo/shapeGreen.svg';
 import shapeBlueIcon from '../../../public/images/seo/shapeBlue.svg';
-import technicalSEOAuditIcon from '../../../public/images/seo/technicalSEOAuditIcon.svg';
+import contentCreationIcon from '../../../public/images/f-Content-Creation.svg';
 import aboutIcon from '../../../public/images/f-about-icon.svg';
 import smoIcon from '../../../public/images/f-SMO.svg';
 import paymentGatwayIntegrationIcon from '../../../public/images/f-payment-gateway-integration-icon.svg';
@@ -60,7 +60,7 @@ const SectionServiceBoxes = () => {
                     <s.textPart>By understanding your user&apos;s goals and behaviors, you can increase user engagement and retention. As part of any redesign or migration project, we assist your team in ensuring the best possible User Experience (UX) by implementing best practices in web design and SEO content creation.</s.textPart>
                 </s.partItem>
                 <s.partItem className="imgPart">
-                  <Image src={smoIcon} alt="Content Creation Icon" layout="raw" />
+                  <Image src={contentCreationIcon} alt="Content Creation Icon" layout="raw" />
                   <s.iconOverlay className="overlayImg">
                     <Image src={shapeBlueIcon} alt="Shape Orange Icon" layout="raw" />
                   </s.iconOverlay>

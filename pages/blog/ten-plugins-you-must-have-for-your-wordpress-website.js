@@ -26,7 +26,7 @@ const SingleBlog = () => {
                 <span className='blog-date'>November 02, 2020</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
-                <Image src={TenWpWebsite} alt="Ten plugins you must-have for your WordPress website" className='imgwith-boxshadow' layout="raw"/>
+                <Image src={TenWpWebsite} alt="Ten plugins you must-have for your WordPress website" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
               </Col>
               <s.BlogContentWrapper>
                 <p>The Plugins bring essential functions to your WordPress website. We may say that plugins are the building blocks of your WordPress site. Plugins boost the speed of the website. Plugins are multifunctional. Adding contact forms, improving SEO, creating online stores, or even offering email opt-ins are many plugin&#39;s functions. Plugins can help you complete any work you do on the WordPress website.</p>
@@ -74,7 +74,7 @@ const SingleBlog = () => {
                 <p>Another useful plugin is <strong>Duplicate Page</strong> you can custom create duplicate pages and add new pages.</p>
               </s.BlogContentWrapper>
               {/* <s.BlogImageWrapper>
-                <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/></a></Link>
+                <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' /></a></Link>
               </s.BlogImageWrapper> */}
               <s.BlogContentWrapper>
                 <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>

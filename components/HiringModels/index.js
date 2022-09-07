@@ -2,7 +2,9 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import * as s from "../../styles/components/HiringModels.style";
 import Image from "next/image"; 
-import Timer from "../../public/images/hirewordpressdevloper/timer-icon.svg";  
+import hourlyIcon from "../../public/images/f-Hourly.svg";  
+import partTime from "../../public/images/f-Part-Time.svg";  
+import fullTimeIcon from "../../public/images/f-Full-Time.svg";  
 
 const HiringModels = () => {
   return (
@@ -25,7 +27,7 @@ const HiringModels = () => {
                                     <span className="green-text">8</span> hrs/day
                                 </s.HiremodelContentBox>
                                 <s.HiremodelIconBox>
-                                    <Image src={Timer} alt="timer" className='img-fluid' layout="raw"/>
+                                    <Image src={fullTimeIcon} alt="Full Time Icon" className='img-fluid' layout="raw"/>
                                 </s.HiremodelIconBox>
                             </s.HiremodelInnerBox>
                         </s.HiremodelBox>
@@ -39,7 +41,7 @@ const HiringModels = () => {
                                     <span className="green-text">4</span> hrs/day
                                 </s.HiremodelContentBox>
                                 <s.HiremodelIconBox>
-                                    <Image src={Timer} alt="timer" className='img-fluid' layout="raw"/>
+                                    <Image src={partTime} alt="Part Time Icon" className='img-fluid' layout="raw"/>
                                 </s.HiremodelIconBox>
                             </s.HiremodelInnerBox>
                         </s.HiremodelBox>
@@ -53,7 +55,7 @@ const HiringModels = () => {
                                     <span className="green-text">Flexible </span> hrs/day
                                 </s.HiremodelContentBox>
                                 <s.HiremodelIconBox>
-                                    <Image src={Timer} alt="timer" className='img-fluid' layout="raw"/>
+                                    <Image src={hourlyIcon} alt="Hourly Icon" className='img-fluid' layout="raw"/>
                                 </s.HiremodelIconBox>
                             </s.HiremodelInnerBox>
                         </s.HiremodelBox>

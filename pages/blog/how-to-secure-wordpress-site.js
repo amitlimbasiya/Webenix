@@ -26,7 +26,7 @@ const SingleBlog = () => {
                 <span className='blog-date'>November 16, 2020</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
-                <Image src={SecureWordPressSite} alt="How to secure WordPress site?" className='imgwith-boxshadow' layout="raw"/>
+                <Image src={SecureWordPressSite} alt="How to secure WordPress site?" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100'/>
               </Col>
               <s.BlogContentWrapper>
                 <h3>Up-to-date with WordPress latest version:</h3>                
@@ -73,7 +73,7 @@ const SingleBlog = () => {
                 <p>WordPress contains a built-in code editor that you can use to edit your theme and plugin files efficiently. As this can be done directly from the admin area, hackers can exploit it to infiltrate your website. You can eliminate this security risk by turning it off using the code &#39;DISALLOW_FILE_EDIT,&#39; true.</p>
               </s.BlogContentWrapper>
               {/* <s.BlogImageWrapper>
-                <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/></a></Link>
+                <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100'/></a></Link>
               </s.BlogImageWrapper> */}
               <s.BlogContentWrapper>
                 <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>

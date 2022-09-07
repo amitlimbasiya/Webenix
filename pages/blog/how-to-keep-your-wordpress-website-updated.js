@@ -26,7 +26,7 @@ const SingleBlog = () => {
                 <span className='blog-date'>November 09, 2020</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
-                <Image src={KeepWordPressSiteUpdated} alt="How to keep your WordPress website updated?" className='imgwith-boxshadow' layout="raw"/>
+                <Image src={KeepWordPressSiteUpdated} alt="How to keep your WordPress website updated?" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
               </Col>
               <s.BlogContentWrapper>
                 <p>Your WordPress website should be updated manually. The updates keep your themes, plugins, and WordPress version secure and up to date. The minor releases are updated automatically by default. But, if the auto-update is disabled, then you will get notifications for an update. Updating WordPress is as easy as clicking an update button. WordPress will download the necessary files, formats and validate them according to need after your request to update. This way, your WordPress will be updated to the latest version.</p>
@@ -65,7 +65,7 @@ const SingleBlog = () => {
                 <p>Update your WordPress website for a seamless work experience.</p>
               </s.BlogContentWrapper>
               {/* <s.BlogImageWrapper>
-                <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/></a></Link>
+                <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' /></a></Link>
               </s.BlogImageWrapper> */}
               <s.BlogContentWrapper>
                 <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>

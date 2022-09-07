@@ -26,7 +26,7 @@ const SingleBlog = () => {
                 <span className='blog-date'>August 13, 2021</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
-                <Image src={WhyWPWebsite} alt="Why it is necessary to do regular updates of your WordPress website?" className='imgwith-boxshadow' layout="raw"/>
+                <Image src={WhyWPWebsite} alt="Why it is necessary to do regular updates of your WordPress website?" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
               </Col>
               <s.BlogContentWrapper>
                 <p>If you are looking to create your website, then you must be thinking of WordPress. It is no news that WordPress powers nearly thirty-nine percent of the websites that you see across the Internet. It is one of the most straightforward tools available to individuals, entrepreneurs, and website developers to design and launch a website. WordPress has a plethora of templates, images, and a unique content management system or CMS, which is essential for creating a website. WordPress is one of the preferred platforms for developing websites because of the simplicity and easy availability of the tools. However, if you use WordPress to build your company&apos;s website, it is paramount to update it to the latest version to ensure that the website functions at par. Some of the reasons why you should update your WordPress site regularly are as follows:</p>
@@ -55,7 +55,7 @@ const SingleBlog = () => {
                 <p>Thus, bug fixes are a necessary part of the latest versions of the WordPress platform. With the help of the latest bug fixes, you can improve your company&apos;s web site&apos;s performance and improve the overall experience. Therefore, it is vital to upgrade your WordPress website, eCommerce portal, social media platform, or online forum to the latest version to gain access to all the bug fixes offered by the platform.</p>
               </s.BlogContentWrapper>
               {/* <s.BlogImageWrapper>
-                <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"/></a></Link>
+                <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' /></a></Link>
               </s.BlogImageWrapper> */}
               <s.BlogContentWrapper>
                 <h3>5. Improve compatibility</h3>
