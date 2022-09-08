@@ -32,10 +32,10 @@ const HIRESMMEXPERT = () => {
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"
-      IntroSubTitle="Lorem Ipsum "
-      IntroMainTitle="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+      IntroSubTitle="Our social media presence tactics"
+      IntroMainTitle="We create popularity by creating social media tactics."
       IntroContent='
-      <p>Utilizing effective SMO services will increase your company&#39;s visibility. An effective SMO can give your business an edge over the competition and allow you to become a trendsetter in your field. With Hire SEO Experts&#39; social media marketing services, you can successfully promote your company&#39;s objectives on numerous social media platforms, as well as forums, blogs, and other social media platforms where your company is connected or discussed.</p>
+      <p>Today, social media is everything that brings down the online presence of the business you are running, and it is a one-stop solution for customers to find you. There are various businesses running over the social media platforms like Facebook, Instagram, Twitter and much more. Our experts help in bringing down the better solutions with the strategic planning and execution.</p>
     '/>
       <HiringModels/>
       <OurExpertise/>

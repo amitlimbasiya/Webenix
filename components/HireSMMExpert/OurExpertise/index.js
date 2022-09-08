@@ -15,25 +15,25 @@ const OurExpertise = () => {
                 <Col lg={3} md={4} sm={12}>
                     <s.OurExpertisBox className="ourexpertis-box hawkesBlueBg">
                         <s.OurExpertisNumber>01</s.OurExpertisNumber>
-                        <s.OurExpertisTitle>Lorem Ipsum</s.OurExpertisTitle>
+                        <s.OurExpertisTitle>Social Media Setup</s.OurExpertisTitle>
                     </s.OurExpertisBox>
                 </Col>
                 <Col lg={3} md={4} sm={12}>
                     <s.OurExpertisBox className="ourexpertis-box azaleaBg">
                         <s.OurExpertisNumber>02</s.OurExpertisNumber>
-                        <s.OurExpertisTitle>Lorem Ipsum</s.OurExpertisTitle>
+                        <s.OurExpertisTitle>Social Media Strategy</s.OurExpertisTitle>
                     </s.OurExpertisBox>
                 </Col>
                 <Col lg={3} md={4} sm={12}>
                     <s.OurExpertisBox className="ourexpertis-box frenchLilacBg">
                         <s.OurExpertisNumber>03</s.OurExpertisNumber>
-                        <s.OurExpertisTitle>Lorem Ipsum</s.OurExpertisTitle>
+                        <s.OurExpertisTitle>Content Creation</s.OurExpertisTitle>
                     </s.OurExpertisBox>
                 </Col>
                 <Col lg={3} md={4} sm={12}>
                     <s.OurExpertisBox className="ourexpertis-box GreenBg">
                         <s.OurExpertisNumber>04</s.OurExpertisNumber>
-                        <s.OurExpertisTitle>Lorem Ipsum</s.OurExpertisTitle>
+                        <s.OurExpertisTitle>Paid Promotion</s.OurExpertisTitle>
                     </s.OurExpertisBox>
                 </Col> 
             </Row>
