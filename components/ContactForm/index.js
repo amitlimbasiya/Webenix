@@ -136,7 +136,7 @@ const [isCaptch, setIsCaptch] = useState(false);
                         <Button variant="primary" type="submit"  className='btn-default mt-2'>Submit</Button>
                     </form>
                     {statusMessage && 
-                        <div className='alert alert-success'>
+                        <div className='alert alert-success mt-3'>
                            {statusMessage}
                         </div>
                     }
