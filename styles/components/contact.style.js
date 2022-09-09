@@ -42,6 +42,9 @@ export const ContactFormWrapper  = styled.div`
     `} 
 
 
-
+    span.new-errormessage {
+        color: red;
+        font-size: 15px !important;
+    }
    
 `;

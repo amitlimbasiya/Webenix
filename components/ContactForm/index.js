@@ -14,15 +14,18 @@ const RECAPTCHA_KEY = '6LfNM8shAAAAAGQP99s9wq-xAhNjOCVTZxKCfYLa';
 const ContactForm = () => {
 
     const { control, register, setValue, handleSubmit, watch, errors, reset } = useForm();
+    const recaptchaRef = React.createRef();
+
     const [fname, setcontact_fname] = useState('');
     const [url, setcontact_url] = useState('');
     const [email, setcontact_email] = useState('');
     const [phone, setcontact_phone] = useState('');
     const [textarea, setcontact_textarea] = useState('');
     const [statusMessage, setStatusMessage] = useState("");
-    const recaptchaRef = React.createRef()
-    const [buttonDisabled, setButtonDisabled] = React.useState(true)
-    const [errorMessage, setErrorMessage] = useState('')
+    const [buttonDisabled, setButtonDisabled] = React.useState(true);
+    const [errorMessage, setErrorMessage] = useState('');
+    const [recaptcha, setcontact_recaptcha] = useState('');
+    const [recaptchaError, recaptchaerrorFunction] = useState('display:none;');
     const handleChange = event => {
         setcontact_fname(event.target.value);
     };
@@ -39,7 +42,20 @@ const ContactForm = () => {
         setcontact_textarea(event.target.value);
     };
 
+    const handleChange5 = event => {
+        setcontact_recaptcha(event.target.value);
+    };
 
+// state
+const [isCaptch, setIsCaptch] = useState(false);
+
+// Method
+  const handleChangeCaptcha = (value) => {
+    console.log("Captcha value:", value);
+    // this.setState({ value });
+    // if value is null recaptcha expired
+    setIsCaptch(value || false);
+  };
 
     const validate = (value) => {
 
@@ -49,20 +65,14 @@ const ContactForm = () => {
           setErrorMessage('Is Not Valid URL')
         }
       }
-    
-    function onSubmit(e) {
-
-        emailjs.sendForm('service_3ucsloc', 'template_z3stw7g', e.target, '3i8vNYueSpinK0hpA')
-          .then((result) => {
-              console.log(result.text);
-          }, (error) => {
-              console.log(error.text);
-          });
-      }
 
     function sendEmail(e) {
         console.log('test');
         e.preventDefault();
+        if (!isCaptch) {
+            recaptchaerrorFunction('display:block');
+            return false;
+          }
 
         emailjs.sendForm('service_3ucsloc', 'template_z3stw7g', e.target, '3i8vNYueSpinK0hpA')
             .then((result) => {
@@ -78,6 +88,8 @@ const ContactForm = () => {
             setcontact_email('');
             setcontact_phone('');
             setcontact_textarea('');
+            setcontact_recaptcha('');
+            setIsCaptch(false);
             setStatusMessage('Form submitted successfully.');
         }, 1000);
     }
@@ -111,14 +123,16 @@ const ContactForm = () => {
                             <Form.Control as="textarea" value={textarea} onChange={handleChange4} name="message" placeholder="Discription" />
                         </Form.Group>
                         <Recaptcha
+                            value={recaptcha} 
+                            onChange={handleChangeCaptcha}
+                            required
                             ref={recaptchaRef}
                             sitekey={RECAPTCHA_KEY}
                             size="normal"
                             id="recaptcha-google"
-                            onChange={() => setButtonDisabled(false)}
                         />
-
-                        <Button variant="primary" type="submit" disabled={buttonDisabled} className='btn-default mt-2'>Submit</Button>
+                        <span className='new-errormessage' Style={recaptchaError}>Recaptcha is required.</span>
+                        <Button variant="primary" type="submit"  className='btn-default mt-2'>Submit</Button>
                     </form>
                     <p>{statusMessage}</p>
                 </Container>
