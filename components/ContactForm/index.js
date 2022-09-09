@@ -135,9 +135,11 @@ const [isCaptch, setIsCaptch] = useState(false);
                         <span className='new-errormessage' Style={recaptchaError}>Recaptcha is required.</span>
                         <Button variant="primary" type="submit"  className='btn-default mt-2'>Submit</Button>
                     </form>
-                    <div className='alert alert-success'>
-                        {statusMessage}
-                    </div>
+                    {statusMessage && 
+                        <div className='alert alert-success'>
+                           {statusMessage}
+                        </div>
+                    }
                 </Container>
             </s.ContactFormWrapper>
         </>
