@@ -14,6 +14,19 @@ class MyDocument extends Document {
           <link rel="preconnect" href="https://fonts.googleapis.com"/>
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true"/>
           <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+          <Script type="application/ld+json">
+                {`
+                  "@context": "https://schema.org/",
+                  "@type": "WebSite",
+                  "name": "Webenix",
+                  "url": "https://webenix.net/",
+                  "potentialAction": {
+                    "@type": "SearchAction",
+                    "target": "https://webenix.net/?s={search_term_string}",
+                    "query-input": "required name=search_term_string"
+                  }
+                `}
+              </Script>
           <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
           <script defer src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
           {/* Start of HubSpot Embed Code */}
@@ -29,6 +42,8 @@ class MyDocument extends Document {
                 gtag('config', 'UA-150436646-1');
               `}
             </Script>
+
+            
         </Head>
         <body>
           <Main/>

@@ -46,17 +46,17 @@ const ContactForm = () => {
         setcontact_recaptcha(event.target.value);
     };
 
-// state
-const [isCaptch, setIsCaptch] = useState(false);
+    // state
+    const [isCaptch, setIsCaptch] = useState(false);
 
-// Method
-  const handleChangeCaptcha = (value) => {
-    console.log("Captcha value:", value);
-    // this.setState({ value });
-    // if value is null recaptcha expired
-    setIsCaptch(value || false);
-    recaptchaerrorFunction('display:none');
-  };
+    // Method
+    const handleChangeCaptcha = (value) => {
+        console.log("Captcha value:", value);
+        // this.setState({ value });
+        // if value is null recaptcha expired
+        setIsCaptch(value || false);
+        recaptchaerrorFunction('display:none');
+    };
 
     const validate = (value) => {
 

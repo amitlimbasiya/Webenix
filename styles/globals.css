@@ -338,6 +338,7 @@ div#hubspot-messages-iframe-container {
   border: none;
   outline: none;
   box-shadow: none;
+  background: transparent;
 }
 .pr{
   position: relative;
