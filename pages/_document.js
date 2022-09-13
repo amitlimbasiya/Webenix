@@ -29,7 +29,6 @@ class MyDocument extends Document {
                 gtag('config', 'UA-150436646-1');
               `}
             </Script>
-
             <Script type="application/ld+json">
                 {`
                   "@context": "https://schema.org/",
