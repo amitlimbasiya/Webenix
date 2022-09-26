@@ -64,7 +64,7 @@ const EXPRESSJSDEVELOPMENT = () => {
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="Express JS"
         PageBannerGreenTitle="Development"
-        PageBannerContent="<p>Express JS brings the speed and efficiency of Node JS framework-ExpressJS. It helps in developing the front-end and back-end development for the business application. We listen to your ideas and implement them while we code for your application in the code. Raise your expectations where we make your business look out of the box. Transform your idea into reality with us.</p>"
+        PageBannerContent="<p><strong>ExpressJS Development Services</strong> with Webenix brings the speed and efficiency of Node JS framework-ExpressJS. It helps in developing the front-end and back-end development for the business application. We listen to your ideas and implement them while we code for your application in the code. Raise your expectations where we make your business look out of the box. Transform your idea into reality with us. </p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
@@ -76,7 +76,7 @@ const EXPRESSJSDEVELOPMENT = () => {
       IntroSubTitle="Our expertise in Express JS"
       IntroMainTitle="Level up your business with ExpressJS Application Development"
       IntroContent='
-      <p>Let us give you the experience of the speed and scalability that comes along with the Express JS that shows the flexibility, speed, and scalability with the simple building of infrastructure that leads to successful ExpressJS development services. </p>
+      <p>Let us give you the experience of the speed and scalability that comes along with the Express JS that shows the flexibility, speed, and scalability with the simple building of infrastructure that leads to successful <strong>ExpressJS Development Company.</strong></p>
       <p>We want your business to range from our business to come under the most successful and to look for absolute server-side applications. Our team of experts will utilise their time to do deep research and transform it into the best project.</p>
     '/>
       <ServiceFeatureBox

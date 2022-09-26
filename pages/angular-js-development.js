@@ -55,9 +55,9 @@ const ANGULARJSDEVELOPMENT = () => {
   return (
     <>
       <Head>
-        <title>{data.nodejsdevelopment.title}</title>
-        <meta name="description" content={data.nodejsdevelopment.description}/>
-        <meta name="keywords" content={data.nodejsdevelopment.keyword} />
+        <title>{data.angularjsdevelopment.title}</title>
+        <meta name="description" content={data.angularjsdevelopment.description}/>
+        <meta name="keywords" content={data.angularjsdevelopment.keyword} />
       </Head>
       <PageBanner 
         PageBannerClass="pagebanner-section pagebanner-shape bgMistyRose pagebanner-align-center noiseBg"

@@ -32,8 +32,8 @@ const HIREPPCEXPERT = () => {
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"
-      IntroSubTitle="Lorem Ipsum "
-      IntroMainTitle="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+      IntroSubTitle="PPC marketing services"
+      IntroMainTitle="You can now manage your marketing and PPC campaigns with ease!"
       IntroContent='
       <p>No matter whether you&#39;re trying to fine-tune an existing Ads campaign or you&#39;re starting from scratch, HIRE SEO EXPERT can assist you with all aspects of Google Ads (Google Adwords) campaign management. By compiling the best-combined services, get the best reach to your business that ultimately helps in escalating your business. </p>
     '/>

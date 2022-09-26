@@ -40,8 +40,8 @@ const Hero = () => {
                 <Col md={12} lg={6} xl={6}> 
                     <s.bannerLeft className='bannerLeft'>
                         <s.bannerHeading><strong className="highlightText">Empower</strong> your <strong className="highlightText">business</strong> with<br />
-                        <strong className="highlightText"> skilful team</strong> and <strong className="highlightText">top notch </strong><br />
-                        <span className="textGreen"> experience.</span></s.bannerHeading>
+                        <strong className="highlightText"> skilful team</strong> and <strong className="highlightText">top-notch </strong><br />
+                        <span className="textGreen"> service experiences.</span></s.bannerHeading>
                         <s.bannerIcons className='bannerIcons'>
                             <s.iconBox className='bannerIcon'>
                                 <Image src={onTimeIcon} alt="On Time Icon" layout="raw"/>

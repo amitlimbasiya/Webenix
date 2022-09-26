@@ -22,7 +22,7 @@ const HireWordPressDeveloperPage = () => {
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="Hire"
         PageBannerGreenTitle="WordPress Developer"
-        PageBannerContent="<p>Going with the best content management system, we at Webinix have the most powerful team to develop world-class WordPress Developed websites with a clean and sleek design and all the after-service maintenance development.</p>"
+        PageBannerContent="<p>Going with the best content management system, we at Webinix have the most powerful team to develop world-class WordPress Developed websites with a clean and sleek design and all the after-service maintenance development. <strong>Hire Dedicated WordPress Developer</strong> now!</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
         PageBannerImageWidth="600px"
@@ -35,7 +35,7 @@ const HireWordPressDeveloperPage = () => {
       IntroMainTitle="Manage your business with the most wanted CMS platform."
       IntroContent='
       <p>Embed your business on the best CMS platform for the easy management of the business content.</p>
-      <p>We believe in easy content management, and thus WordPress plays the most efficient role in it. Make your business easier with an efficient content management platform that we develop and contribute globally from one WordPress VIP Agency.</p>
+      <p>We believe in easy content management, and thus WordPress plays the most efficient role in it. Make your business easier with an efficient <strong>Custom WordPress Development</strong> that we develop and contribute globally from one WordPress VIP Agency. </p>
     '/>
       <HiringModels/>
       <OurExpertise/>

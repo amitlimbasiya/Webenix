@@ -23,7 +23,7 @@ const HireReactJSDeveloper = () => {
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="Hire"
         PageBannerGreenTitle="ReactJS Developers"
-        PageBannerContent="<p>Talking about the fastest working technology  React JS, our developers will make sure to implement the best ideas with Javascript libraries to develop the best frontend interface for your business.</p>"
+        PageBannerContent="<p>Talking about the fastest working technology <strong>Hire ReactJS Developer</strong>, will make sure to implement the best ideas with Javascript libraries to develop the best frontend interface for your business.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
         PageBannerImageWidth="600px"
@@ -35,7 +35,7 @@ const HireReactJSDeveloper = () => {
       IntroSubTitle="Explore the super-sleek frontend development"
       IntroMainTitle="Want the fastest functioning apps, ReactJS is super perfect."
       IntroContent='
-      <p>Scale up your business super fast, providing the best functionality in the frontend development by ReactJS.</p>
+      <p><strong>Hire Dedicated ReactJS Developer</strong> to scale up your business super fast, providing the best functionality in the frontend development by ReactJS.</p>
       <p>ReactJS is considered to be the open-source Javascript Framework that helps in creating dynamic projects. The ReactJS technology is mostly preferred by business owners who want to develop a mobile application user-centric. Get yourself one, without worrying about the code quality because we have got it all covered for you.</p>
     '/>
       <HiringModels/>

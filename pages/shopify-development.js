@@ -101,7 +101,7 @@ const SHOPIFYDEVELOPMENT = () => {
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="Shopify"
         PageBannerGreenTitle="Development"
-        PageBannerContent="<p>Compete for your online store with the best Shopify development. Give your online business the wings of reality consisting of the best themes and sleek features</p>"
+        PageBannerContent="<p>Compete for your online store with the best <strong>Shopify Development Services</strong>. Give your online business the wings of reality consisting of the best themes and sleek features</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
@@ -113,9 +113,9 @@ const SHOPIFYDEVELOPMENT = () => {
       IntroSubTitle="Our Shopify Expertise"
       IntroMainTitle="Let us develop an online store for you with the Shopify Development Company"
       IntroContent='
-      <p>In the world of digitisation, if you are not visible there is no existence of your business. We at Webenix help you in developing the best solution for the app and website that enables the best visibility of your business. Most advanced Shopify development services help create a brand new store that consists of sleek and smooth features and required functionality that will help grow the existing store and build the new store from scratch. </p>
+      <p>In the world of digitisation, if you are not visible there is no existence of your business. We at Webenix help you in developing the best solution for the <strong>Shopify eCommerce Development</strong> and website that enables the best visibility of your business. Most advanced Shopify development services help create a brand new store that consists of sleek and smooth features and required functionality that will help grow the existing store and build the new store from scratch. </p>
       <p><strong>We contribute to escalating your eCommerce presence through our Shopify Development Services.</strong></p>
-      <p>As we all know Shopify is considered to be the leading eCommerce platform, and we help in raising the eCommerce development services. Shopify is considered to be one of the best platforms because it takes care of everything including the hosting and maintenance of the website.</p>
+      <p>As we all know Shopify is considered to be the <strong>Shopify Website Development Company</strong> to develop your eCommerce store and convert visitors into customers with the best branding and visibility from our highly talented developers.</p>
       <p>With Webenix you can create comprehensive Shopify solutions to develop your eCommerce store and convert visitors into customers with the best branding and visibility from our highly talented developers.  </p>
       <p>We have helped in escalating the countless eCommerce business over the Shopify platform globally and have stayed consistent over the years. If you are looking to develop eCommerce success, well we are all here to help you. </p>
     '/>

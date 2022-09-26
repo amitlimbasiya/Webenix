@@ -32,10 +32,10 @@ const HirehubspotDeveloper = () => {
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"
       IntroSubTitle="Meet the certified developed agency"
-      IntroMainTitle=""
+      IntroMainTitle="We are with the Hubspot Development Services."
       IntroContent='
-      <p>Webenix is the certified Hubspot development agency consisting of the most talented Hubspot Developers that streamline your customer’s requirements.</p>
-      <p>With the help of the extensive talent of our developers, we thrive to not only provide Hubspot Development but position the monthly newsletters and marketing material for your business. Hire the best for your business with Webenix.</p>
+      <p>Webenix provides the best <strong>Hubspot Development Services</strong> consisting of the most talented Hubspot Developers that streamline your customer’s requirements. </p>
+      <p><strong>Hire Hubspot Developers</strong> that will showcase the extensive talent of our developers, we thrive to not only provide <strong>Hubspot Development</strong> Services but position the monthly newsletters and marketing material for your business. Hire the best for your business with Webenix.</p>
     '/>
       <HiringModels/>
       <OurExpertise/>

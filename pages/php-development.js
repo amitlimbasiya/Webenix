@@ -101,7 +101,7 @@ const PHPDEVELOPMENT = () => {
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="PHP"
         PageBannerGreenTitle="Development"
-        PageBannerContent="<p>With the executive experience, amplify your business requirements with the PHP  Development fulfilling the expectation of small business portals to large enterprise business models thriving to ease down the complex solutions.</p> <p>Develop a strong backend with the help of highly experienced  Developers and experience uncompromising performance. </p>"
+        PageBannerContent="<p>With the executive experience, amplify your business requirements with the PHP  Development fulfilling the expectation of small business portals to large enterprise business models thriving to ease down the complex solutions.</p> <p>Develop a strong backend with the <strong>PHP Development Services</strong> and experience the strong functionality.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
@@ -113,8 +113,8 @@ const PHPDEVELOPMENT = () => {
         IntroSubTitle="PHP Expertise"
         IntroMainTitle="With years of experience in Development, we provide the right and strong solutions for your business."
         IntroContent='
-        <p>The strong and guaranteed  Development solutions help in showcasing the brand presence amongst the market with the rightfully integrated features for the web application projects.</p>
-        <p>Along with mapping down the best design, we make sure to integrate the right tools that function, ensuring the performance of the web application. With the help of the best developers, we have curated and brought some fantastic solutions to multiple businesses, so have been stated as the Best Development Company.</p>
+        <p>The strong and guaranteed  Development solutions help in showcasing the brand presence amongst the market with the rightfully integrated features for the <strong>PHP Web Development Services</strong></p>
+        <p>Along with mapping down the best design, we make sure to integrate the right tools that function, ensuring the performance of the web application. With the help of the best developers, we have curated and been the best <strong>PHP Development Company in India</strong> with fantastic solutions to multiple businesses, so have been stated as the Best Development Company.</p>
       '/>
       <ServiceFeatureBox
         sectionTagLine="We Provide"

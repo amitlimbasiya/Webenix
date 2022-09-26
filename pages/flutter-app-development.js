@@ -64,7 +64,7 @@ const FLUTTERAPPSDEVELOPMENT = () => {
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="Flutter App"
         PageBannerGreenTitle="Development"
-        PageBannerContent="<p>Flutter is considered to be the most demanded cross-platform for developing any trendy applications. It allows bizarre ideas with the real-time ability for the finest development. Flutter platform adds the cherry on the cake it shows the exact native experience that never goes out of style.</p>"
+        PageBannerContent="<p>Flutter is considered to be the most demanded cross-platform for developing any trendy applications. It allows bizarre ideas with the real-time ability for the <strong>Flutter App Development Services</strong>. Flutter platform adds the cherry on the cake it shows the exact native experience that never goes out of style.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
@@ -76,8 +76,8 @@ const FLUTTERAPPSDEVELOPMENT = () => {
         IntroSubTitle="Flutter App Development Expertise"
         IntroMainTitle="Choose the best cross-platform app development-Flutter"
         IntroContent='
-        <p>We are here to make your business look unique and sustainable, and that will never go out of style which is only possible with the help of Flutter Cross-Platform where our developers have the best hands on. With the Flutter Development Services, we help to maintain the balance between market and business requirements. </p>
-        <p>In the mobile application, it is important to execute the right and needful features so that your users will want to stay with your app. We make sure that we keep up with the on-going trends that will not make your business fall apart. </p>
+        <p>We are here to make your business look unique and sustainable, and that will never go out of style which is only possible with the help of Flutter Cross-Platform where our developers have the best hands on. With Flutter Development Services, we help to maintain the balance between market and business requirements.</p>
+        <p>In the mobile application, it is important to execute the right and needful features so that your users will want to stay with your app. We make sure that we keep up with the ongoing trends that will not make your business fall apart as <strong>Flutter Mobile App Development Company</strong></p>
       '/>
       <ServiceFeatureBox
         sectionTagLine="Our Expertise"

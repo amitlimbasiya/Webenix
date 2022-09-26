@@ -182,7 +182,7 @@ const SectionIntro = () => {
                     <h2>Make the best out of your career days with Webenix</h2>
                   </s.SectionTagline>
                   <s.SectionHeader>
-                    <p>You are at the right business organization if you want to grow and acknowledge your efforts. No matter whether you are an experienced geek or an intern peer, we will be right here for you to shape your career in the best ways possible. </p>
+                    <p><strong>Webenix Technologies</strong> is the right business organization if you want to grow and acknowledge your efforts. No matter whether you are an experienced geek or an intern peer, we will be right here for you to shape your career in the best ways possible. </p>
                   </s.SectionHeader>
                 </Col>
               </Row>
@@ -309,7 +309,7 @@ const SectionIntro = () => {
           <Col md={12}>
             <s.Tagline>
               <span className='before-dash'>You are in the right hands</span>
-              <h2>Cherish and embrace your career days by working with Webenix for better opportunities and higher achievements.</h2>
+              <h2>Cherish and embrace your career days by looking for better Jobs Opportunity in Webenix</h2>
             </s.Tagline>
           </Col>
         </Row>

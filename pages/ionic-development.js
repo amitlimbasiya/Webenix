@@ -65,7 +65,7 @@ const IONICDEVELOPMENT = () => {
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="Ionic"
         PageBannerGreenTitle="Development"
-        PageBannerContent="<p>Develop flexible cross-platform apps and develop the best product with the Ionic Cross Platform services from Webenix. From providing the end-to-end solutions for the specific industry-centric to making sure of including the native-like features in the web apps.</p>"
+        PageBannerContent="<p>Develop flexible cross-platform apps and develop the best product with the <strong>Ionic App Development Services</strong> from Webenix. From providing the end-to-end solutions for the specific industry-centric to making sure of including the native-like features in the web apps.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
@@ -77,8 +77,8 @@ const IONICDEVELOPMENT = () => {
       IntroSubTitle="Get in touch with Ionic Development Services"
       IntroMainTitle="Get the high-performing Ionic Apps to transform your business"
       IntroContent='
-      <p>We aim to provide you with the best mobile app solution by using the Ionic Development technology that stands out to be the technically strong and the trendiest. It brings a different experience to the iOs and Android mobility. We optimise the time through our development skills and its services for the better putting it in the market through HTML, CSS, and Javascript.</p>
-      <p>Ionic development provides the strong backend velocity that is most important to stand out among every mobile app development service. Projects are submitted after multiple testing to ensure a strong technical background.</p>
+      <p>We aim to provide you with the best mobile app solution by using the Ionic Development technology that stands out to be the technically strong <strong>Ionic App Development Company</strong>. It brings a different experience to the iOs and Android mobility. We optimise the time through our development skills and its services for the better putting it in the market through HTML, CSS, and Javascript.</p>
+      <p>We are an <strong>Ionic Mobile App Development Company</strong> that provides the strong backend velocity that is most important to stand out among every mobile app development service. Projects are submitted after multiple testing to ensure a strong technical background. </p>
     '/>
     <ServiceFeatureBox
       sectionTagLine="Our Expertise"

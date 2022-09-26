@@ -64,7 +64,7 @@ const IOSAPPSDEVELOPMENT = () => {
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="iOS"
         PageBannerGreenTitle="Development"
-        PageBannerContent="<p>Webenix stands high considering the iPhone development company that challenges to create pixel-perfect designs which are user-friendly and hold up strong backend solutions. Our iPhone development services cater to the strong product which is bold and innovative to use.</p>"
+        PageBannerContent="<p>Webenix stands high considering the <strong>iOS App Development Company</strong> that challenges to create pixel-perfect designs which are user-friendly and hold up strong backend solutions. <strong>iOS App Development Services</strong> cater to a strong product which is bold and innovative to use.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"

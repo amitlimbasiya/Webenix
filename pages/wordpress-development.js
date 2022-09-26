@@ -101,7 +101,7 @@ const WORDPRESSDEVELOPMENT = () => {
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="WordPress"
         PageBannerGreenTitle="Development"
-        PageBannerContent="<p>In the digitally equipped world, it is important to keep up with the trends and implement them and so in the presence of highly qualified WordPress Developers, we provide fully custom services keeping up with the latest standard in WordPress Development globally.</p><p>With Webenix, we help you to escalate your business by providing the best Content Management Solution in varied ways stated under WordPress Development Services.</p>"
+        PageBannerContent="<p>In the digitally equipped world, it is important to keep up with the trends and implement them and so in the presence of highly qualified WordPress Developers, we provide fully custom services keeping up with the latest standard in WordPress Development globally.</p><p>With Webenix, we help you to escalate your business by providing the best <strong>Custom WordPress Development</strong> in varied ways stated under WordPress Development Services.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
@@ -113,8 +113,8 @@ const WORDPRESSDEVELOPMENT = () => {
       IntroSubTitle="WordPress Development Expertise"
       IntroMainTitle="WordPress Development Services."
       IntroContent='
-      <p>Invite your customers as friends, look after their needs and provide them with the best content management solutions. We at Webenix make sure that the WordPress Websites are developed that are warming enough to bring more customers to your business.</p>
-      <p>Do not worry about frequent changes, let us provide you with the WordPress customisation services for your WordPress website for a better customer experience. Take your business to the next level by developing the best WordPress Sites with Webenix making sure of a better customer reach.</p>
+      <p>Invite your customers as friends, look after their needs and provide them with <strong>Professional WordPress Design and Development</strong>. We at Webenix make sure that the WordPress Websites are developed that are warming enough to bring more customers to your business.</p>
+      <p>Do not worry about frequent changes, let us provide you with the <strong>Custom WordPress Website Development</strong> for your business bringing a better customer experience. Take your business to the next level by developing the best WordPress Sites with Webenix making sure of a better customer reach.</p>
     '/>
     <ServiceFeatureBox
         sectionTagLine="Our Expertise"

@@ -22,7 +22,7 @@ const HIRLARAVELDEVELOPER = () => {
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="Hire"
         PageBannerGreenTitle="Laravel Developers"
-        PageBannerContent="<p>If you are looking for the best PHP-centric software, Laravel is considered to be the first choice in the PHP framework. For businesses who are looking for a performance-centric platform, PHP Laravel is considered to be the best one. We at Webenix have the best hands-on building industry-specific using Laravel frameworks.</p>"
+        PageBannerContent="<p><strong>Hire Dedicated Laravel Developer</strong> if you are looking for the strong backend system with the smooth functionality. Laravel is considered to be the first choice in the PHP framework. We at Webenix have the best hands-on building industry-specific using Laravel frameworks.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
         PageBannerImageWidth="600px"
@@ -35,7 +35,7 @@ const HIRLARAVELDEVELOPER = () => {
       IntroMainTitle="Hire from Webenix to create the best programming Laravel Development Services. "
       IntroContent='
       <p>Having hands on the PHP Laravel framework for over a decade now, we urge you to build custom web development.</p>
-      <p>We have a mission and dedicated driven developers team to get the best results in your business.</p>
+      <p><strong>Hire Laravel Developers</strong> team to get the best results in your business.</p>
       <p><strong>Develop modern web development with Laravel Framework</strong></p>
       <p>Laravel is mostly used for developing the recognized industry which is an enterprise and needs the best performance. We have been working with Laravel from the beginning of version 1.0 till 6.0 where we have created endless dynamic platforms.</p>
       <p>Our team of dedicated Laravel Developers uses the best methods to provide industry-centric solutions that exclusively work the best as per the business requirements.</p>

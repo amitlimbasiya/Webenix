@@ -78,11 +78,11 @@ const PROGRESSIVEDEVELOPMENT = () => {
       IntroMainTitle="Get the best mobile and web app through Progressive web app development services."
       IntroContent='
       <p>With the ever-growing competition in the digital world, we try to make your business interaction effortless considering the development of the best progressive web apps.</p>
-      <p>Progressive web apps cut off the limitations that slow down the progress in the business where Progressive Web App is rescued for the best. For implementing today’s needs we ask the business to develop the limited boundaries of the Native Mobile Apps and conventional websites to blend the tech fast requirements. We help you in unlocking the solutions with the best tech features.</p>
+      <p>We are a <strong>Progressive Web App Development Company</strong> that cuts off the limitations that slow down the progress in the business where Progressive Web App is rescued for the best. For implementing today’s needs we ask the business to develop the limited boundaries of the Native Mobile Apps and conventional websites to blend the tech fast requirements. We help you in unlocking the solutions with the best tech features.</p>
     '/>
     <ServiceFeatureBox
       sectionTagLine="Our Expertise"
-      sectionMainTitle="Our Ionic Development Services"
+      sectionMainTitle="Our Progressive Web App Development Services"
         ServiceValue={ServiceData}          
       />  
     <HireServies/>

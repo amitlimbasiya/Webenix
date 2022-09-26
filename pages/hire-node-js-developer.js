@@ -23,7 +23,7 @@ const HireNodeJSDeveloper = () => {
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="Hire"
         PageBannerGreenTitle="NodeJS Developers"
-        PageBannerContent="<p>A strong backend and API are important to create the best software development. Hire Webenix’s NodeJS Developer for ensuring a strong technical background for your business. </p>"
+        PageBannerContent="<p>A strong backend and API are important to create the best software development. <strong>Hire NodeJs Developers</strong> for ensuring a strong technical background for your business. </p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
         PageBannerImageWidth="600px"
@@ -36,7 +36,7 @@ const HireNodeJSDeveloper = () => {
       IntroMainTitle="Give your business wings with Node JS Mobile Application Development."
       IntroContent='
       <p>Let us bring the potential change in your business by Node JS Mobile Application Development.</p>
-      <p>NodeJS is the best for developing high-quality projects. It brings a game-changing and revolutionary effect for the business considering digitization. With the help of our highly talented and skilful bunch of NodeJS developers, get the best on-the-go services from Webenix.</p>
+      <p><strong>Hire NodeJS Developer</strong> for the best for developing high-quality projects. It brings a game-changing and revolutionary effect for the business considering digitization. With the help of our highly talented and skilful bunch of NodeJS developers, get the best on-the-go <strong>NodeJS Development Services</strong> from Webenix. </p>
     '/>
       <HiringModels/>
       <OurExpertise/>

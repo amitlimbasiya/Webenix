@@ -34,9 +34,9 @@ const HIRCODEIGNITERDEVELOPER = () => {
       IntroSubTitle="We help you grow"
       IntroMainTitle="Hire a Codeigniter developer for creating small footprints!"
       IntroContent='
-      <p>Codeignitor is generally used when there is less action to be performed like sending emails, updating, managing files and other smaller things that helps in managing small tasks in the business. When you hire a Codeignitor developer from Webenix it takes care of the initial process to the last that includes the whole managing core activity of the business throughout.</p>
+      <p>Codeigniter is generally used when there is less action to be performed like sending emails, updating, managing files and other smaller things that helps in managing small tasks in the business. When you hire a Codeigniter developer from Webenix it takes care of the initial process to the last that includes the whole managing core activity of the business throughout. </p>
       <p><strong>Win wows, get the small achievements by converting ideas into solutions.</strong></p>
-      <p>There are so many factors that are included when it comes to the Codeignitor developing if the business is expected the blazingly fast and MVC Architecture in the business. We know that our developers cannot disappoint you when it comes to the development of Codeignitor.</p>
+      <p>There are so many factors that are included when it comes to the <strong>CodeIgniter Developer For Hire</strong> if the business is expected to be blazingly fast and MVC Architecture in the business. We know that our developers cannot disappoint you when it comes to the development of Codeigniter. <strong>Hire CodeIgniter Programmers</strong> for every quick update.</p>
     '/>
       <HiringModels/>
       <OurExpertise/>

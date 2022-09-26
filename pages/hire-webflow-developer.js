@@ -34,8 +34,9 @@ const HireWebflowDeveloper = () => {
       IntroSubTitle="Partner with the best"
       IntroMainTitle="Meet your own Webflow developing partner"
       IntroContent='
-      <p>We help in the utter customisation that helps your brand to replenish in the market as one of the best companies. We at Webenix help in developing the most appealing Webflow Websites, that is taken care of with the conversion-optimised and customer-centric.</p>
-      <p>We try to understand and implement your requirements in the best ways possible considering escalating your business amongst your competitors. Get in touch with your partner for Webflow Development.</p>
+      <p>We help in the utter customisation that helps your brand to replenish in the market as one of the best companies. We at Webenix have <strong>Webflow Developer for Hire</strong> to design the most appealing Webflow Websites, that is taken care of with the conversion-optimised and customer-centric. </p>
+      <p>We try to understand and implement your requirements in the best ways possible considering escalating your business amongst your competitors.</p>
+      <p>Get in touch with your partner for Webflow Development.</p>
     '/>
       <HiringModels/>
       <OurExpertise/>

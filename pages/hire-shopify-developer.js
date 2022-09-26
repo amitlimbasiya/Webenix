@@ -32,10 +32,10 @@ const HIRSHOPIFYRDEVELOPER = () => {
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"
       IntroSubTitle="Meet our Shopify talents"
-      IntroMainTitle="Get in touch with your own Shopify partner company "
+      IntroMainTitle="Get in touch with your own Shopify Developer Company,"
       IntroContent='
       <p>We all know that Shopify is one of the biggest platforms for eCommerce business owners. It is a self-developed platform where everything is managed by Shopify itself.</p>
-      <p>Why hire Shopify Developers? Well, we help in providing the user-centric and custom user experience by intriguing the Shopify app experience implementation.</p>
+      <p>Why <strong>hire Shopify Developers</strong>? Well, we help in providing the user-centric and custom user experience by intriguing the Shopify app experience implementation.</p>
     '/>
       <HiringModels/>
       <OurExpertise/>

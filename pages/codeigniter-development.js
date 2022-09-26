@@ -101,7 +101,7 @@ const CODEIGNITERDEVELOPMENT = () => {
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="Codeigniter"
         PageBannerGreenTitle="Development"
-        PageBannerContent="<p>Make your digital game strong by developing the dynamic best web application that will make you win over users. Codeignitor development services help you in building the full-featured and dynamic platform which is right for your business.</p><p>Want to build from scratch or customise, our Coedignitor developer has got you covered to drive the best results in your business.</p>"
+        PageBannerContent="<p>Make your digital game strong with <strong>CodeIgniter Development Services</strong> which helps in making the dynamic web application that will make you win over users. Codeignitor development services help you in building the full-featured and dynamic platform which is right for your business.</p><p>Want to build from scratch or customise, we are the best <strong>CodeIgniter Development Company</strong> that helps you through driving the best in the business.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
@@ -113,7 +113,7 @@ const CODEIGNITERDEVELOPMENT = () => {
       IntroSubTitle="Expertise in Codeignitor"
       IntroMainTitle="Our Codeignitor development services make your business’s digital game stronger"
       IntroContent='
-      <p>Winning the digital game is to own the customer’s attention and is surely not an easy process. Our Codeignitor development services overlook to develop the best custom web applications to escalate your business. We build to escalate and focus on growing your business.</p>
+      <p>Winning the digital game is to own the customer’s attention and is surely not an easy process. Our Codeignitor development services overlook developing the best custom web applications to escalate your business. We build to escalate and focus on growing your business.</p>
     '/>
     <ServiceFeatureBox
         sectionTagLine="We Provide"

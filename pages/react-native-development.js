@@ -65,7 +65,7 @@ const REACTNATIVEDEVELOPMENT = () => {
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="React Native"
         PageBannerGreenTitle="Development"
-        PageBannerContent="<p>Do not worry about your application choking with the lower speed, let our expert React Native Developers build a strong component-based architecture for the better translation of the business process in real-time.</p><p>From looking into your needs specifically, we create a strong React Native Web Application that functions smoothly and is considered to be a highly-engaging mobile app right for your business.</p>"
+        PageBannerContent="<p>Do not worry about your application choking with the lower speed, let our expert <strong>React Native Development services</strong> build a strong component-based architecture for the better translation of the business process in real-time.</p><p>From looking into your needs specifically, we create a strong React Native Web Application that functions smoothly and is considered to be a highly-engaging mobile app right for your business.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
@@ -78,7 +78,7 @@ const REACTNATIVEDEVELOPMENT = () => {
         IntroMainTitle="Elevate your business with the real-time robust application"
         IntroContent='
         <p>Curate your business with the best strategic application where you need a pool of talented and experienced developers. Well, you are at the right place where we help you provide your business with some extravagant user experience web applications with quick updates in real-time, swift loading, and surely high performance.</p>
-        <p>Experience the high quality and strong development robust features developed by the highly experienced React Native Developers.</p>
+        <p>Experience the high quality and strong development robust features developed from Webenix being the <strong>React Native Development Agency</strong></p>
       '/>
       <ServiceFeatureBox
         sectionTagLine="Our Expertise"

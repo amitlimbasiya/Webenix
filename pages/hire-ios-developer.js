@@ -23,7 +23,7 @@ const HireiosDeveloper = () => {
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="Hire"
         PageBannerGreenTitle="IOS Developers"
-        PageBannerContent="<p>With dedication and development talent, our team caters for the best with ios mobile app development. Target your mobile app benchmark to achieve the latest ideas of the iOs mobile app development.</p>"
+        PageBannerContent="<p>With dedication and development talent, our team caters for the best with ios mobile app development and <strong>iOS Game Development</strong>. Target your mobile app benchmark to achieve the latest ideas of the iOs mobile app development. </p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
         PageBannerImageWidth="600px"
@@ -33,7 +33,7 @@ const HireiosDeveloper = () => {
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"
       IntroSubTitle="Get in touch with iPhone Developers"
-      IntroMainTitle="Hire the top-notch iPhone App Developers to deliver the best to your customers. Change with the incredibility"
+      IntroMainTitle="Hire iOS App Developers to deliver the best to your customers. Change with the incredibility"
       IntroContent='
       <p>When you partner with Webenix, we nurture your requirements with the help of some of the best talents that, creating the best functionality of Ios mobile app development, we make sure to fulfil the requirement of our customers.</p>
       <p>Our most incredible and talented team of iPhone mobile app developers will help in creating some of the best apps using Objective-C and swift for the mobile application that users will love to use frequently.</p>

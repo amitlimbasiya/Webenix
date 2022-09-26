@@ -14,13 +14,13 @@ const WhyUs = () => {
                 <s.WhyusBox className="whyusbox why_motivate">
                     <h3>MOTIVATED</h3>
                     <s.WhyusBoxContent className="whyuscontent-box">
-                        <p>The right and positive motivation are hard to acquire, but when working with Webenix, it is one of the core things that is given importance because the right motivation brings great ideas to the projects by avoiding dull space.</p>
+                        <p>The right and positive motivation are hard to acquire, but when working with Webenix, it is one of the core things that is important because the right motivation brings great ideas to the projects by avoiding dull space. </p>
                     </s.WhyusBoxContent> 
                 </s.WhyusBox>
                 <s.WhyusBox className="whyusbox why_disciplined">
                     <h3>DISCIPLINED</h3>
                     <s.WhyusBoxContent className="whyuscontent-box">
-                        <p>From the disciplinary working system and holding consistency as the armour power, we bring the best in your business. The successful project is learned by utter self-discipline and consistency that you can expect from Webenix.</p>
+                        <p>From the disciplinary working system and holding consistency as the armour power, we bring the best to your business. The successful project is learned by utter self-discipline and consistency that you can expect from Webenix.</p>
                     </s.WhyusBoxContent>
                 </s.WhyusBox>
                 <s.WhyusBox className="whyusbox why_consistent">
@@ -38,7 +38,7 @@ const WhyUs = () => {
                 <s.WhyusBox className="whyusbox why_responsible">
                     <h3>RESPONSIBLE</h3>
                      <s.WhyusBoxContent className="whyuscontent-box">
-                        <p>Raising the bar of quality work, our team takes full responsibility for what they serve the companies. The project is led with the ownership and leadership.</p>
+                        <p>Raising the bar of quality work, our team takes full responsibility for what they serve the companies. The project is led with the ownership, leadership with</p>
                     </s.WhyusBoxContent>
                 </s.WhyusBox>
             </s.WhyusBoxWrapper>

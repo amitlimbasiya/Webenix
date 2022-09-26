@@ -35,7 +35,7 @@ const HireExpressDeveloper = () => {
       IntroMainTitle="Raise your business with the fully-fledged equipped technology "
       IntroContent='
       <p><strong>Lead your business with strong technical support from Webenix.</strong> <br/>Various frameworks consist of some limitations to creating websites but Express JS is profound and helps in developing the best website pages. It is considered to be the lightweight web-application framework builder where our talented developers have hands in creating the best for your business.</p>
-      <p>Express JS brings the revolutionary change in building the web apps that helps in replenishing it amongst the market for stronger visualisation and technical support.</p>
+      <p><strong>Hire Express JS Developers</strong> to brings the revolutionary change in building the web apps that helps in replenishing it amongst the market for stronger visualisation and technical support.</p>
     '/>
       <HiringModels/>
       <OurExpertise/>

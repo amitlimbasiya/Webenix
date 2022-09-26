@@ -32,8 +32,8 @@ const HIRECONTENTWRITER = () => {
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"
-      IntroSubTitle="Lorem Ipsum "
-      IntroMainTitle="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+      IntroSubTitle="Content Writing Services"
+      IntroMainTitle="Words affect more than a sword, and with creative writers we provide the best copy and content writing services"
       IntroContent='
       <p>Content marketing begins with SEO content writing. Dynamic web content is designed to effectively communicate your brand message and provide a positive online user experience. The next step in your content strategy is to promote your website content through the appropriate channels. Content marketing for SEO plays a key role here and what better than to be in the hands of experts? </p>
     '/>

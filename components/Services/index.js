@@ -43,7 +43,7 @@ const Services = () => {
                     <Row className='align-items-center'>
                         <Col md={6} sm={12} className='leftPart'>
                             <s.titlePart>Design</s.titlePart>
-                            <s.desc>With the team of creative heads, we make sure of assembling the clean and sleek designs that will help in transforming the visuals and the presentation of your brand. Showcasing your brand in the best ways and bringing your vision into reality is what we stand here by representing the different sectors of designing and branding on board.</s.desc>
+                            <s.desc><strong>Hire Dedicated Developers</strong> because we are a team of creative heads, we make sure of assembling the clean and sleek designs that will help in transforming the visuals and the presentation of your brand. Showcasing your brand in the best ways and bringing your vision into reality is what we stand here by representing the different sectors of designing and branding on board.</s.desc>
                             <s.serviceLinks className="serviceLinks">
                                 <ul>
                                     <li>
@@ -83,7 +83,7 @@ const Services = () => {
                         </Col>
                         <Col className='leftPart order-first order-md-last'>
                             <s.titlePart>Web <br/>Development</s.titlePart>
-                            <s.desc>Webenix provides the best web development services considering serving in the different sectors with the help of a professional team who is profound in different programming languages. Bringing transparency in the web content to synchronising the development aspect, we serve the best for your business.</s.desc>
+                            <s.desc>Webenix provides the best web development services considering serving in the different sectors with the help of a professional team who is profound in different programming languages. Bringing transparency in the web content to synchronizing the development aspect, we serve the best for your business.</s.desc>
                             <s.serviceLinks className="serviceLinks">
                                 <ul>
                                     <li>
@@ -117,7 +117,7 @@ const Services = () => {
                     <Row className='align-items-center'>
                         <Col md={6} sm={12} className='leftPart'>
                             <s.titlePart>Mobile App <br/>Development</s.titlePart>
-                            <s.desc>Webenix mobile app development has hands-on work with multiple technologies, with a team of top-notch developers working with various technologies. We have met the expectation of delivering the mobile apps on the major two platforms-Android and iOs. Focusing on the end-to-end development with the scalable app development process. </s.desc>
+                            <s.desc>A team of top-notch developers at Webenix mobile app development has experience working with a wide range of technologies. We have met the expectation of delivering mobile apps on the major two platforms-Android and iOS. <strong>Hire Remote Software Developer</strong>, Focusing on the end-to-end development with the scalable app development process. </s.desc>
                             <s.serviceLinks className="serviceLinks">
                                 <ul>
                                     <li>
@@ -157,7 +157,8 @@ const Services = () => {
                         </Col>
                         <Col className='leftPart order-first order-md-last'>
                             <s.titlePart>Digital <br/>Marketing</s.titlePart>
-                            <s.desc>In the world of digitalisation, it is important for businesses to stay connected through the internet medium. It brings huge benefits to the business like finding the potential clients, strong engagement with the customers receiving a positive impact on the business is what will be expected from our team.</s.desc>
+                            <s.desc>In the world of digitalisation, businesses need to stay connected through the internet medium. It brings huge benefits to the business like finding potential clients, strong engagement with the customers receiving a positive impact on the business is what will be expected from our team.</s.desc>
+                            <s.desc><strong>Hire Remote Developers India</strong>, and make your technical work much more powerful</s.desc>
                             <s.serviceLinks className="serviceLinks">
                                 <ul>
                                     <li>

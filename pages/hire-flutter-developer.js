@@ -22,7 +22,7 @@ const HireFlutterDeveloper = () => {
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="Hire"
         PageBannerGreenTitle="Flutter Developers"
-        PageBannerContent="<p>Webinix has been working with the Flutter development from the initial days and with the technology that is backed up by Google, it is considered to be one of the most demanded technologies. Considering the most powerful technology and cross-platform, we have the most skilful team in Flutter development.</p>"
+        PageBannerContent="<p>Webinix has been working as the <strong>Flutter App Development Company</strong> from the initial days and with the technology that is backed up by Google, it is considered to be one of the most demanded technologies. Considering the most powerful technology and cross-platform, we have the most skilful team in Flutter development.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
         PageBannerImageWidth="600px"
@@ -32,10 +32,9 @@ const HireFlutterDeveloper = () => {
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"
       IntroSubTitle="Harness the mobility"
-      IntroMainTitle="Explore the most demanded cross-platform."
+      IntroMainTitle="Explore the most demanded cross-platform by hiring Flutter Developer Indian with the experience!"
       IntroContent='
-      <p>Leverage creativity and build concepts and experience native-like apps.</p>
-      <p>The revolutionary launch by the Google-Flutter is one of the best cross-platforms that has set the highest records for developers using it for giving the Native touch for developing mobile applications.  Build the most sophisticated mobile apps, with easy and attractive interfaces.</p>
+      <p><strong>Hire Flutter Developer</strong> to Leverage creativity and build concepts and experience native-like apps. The revolutionary launch by the Google-Flutter is one of the best cross-platforms that has set the highest records for developers using it for giving the Native touch for developing mobile applications. Build the most sophisticated mobile apps, with easy and attractive interfaces.</p>
     '/>
       <HiringModels/>
       <OurExpertise/>

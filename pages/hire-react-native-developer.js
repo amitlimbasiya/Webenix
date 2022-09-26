@@ -21,7 +21,7 @@ const HireReactNativeDeveloper = () => {
         PageBannerClass="pagebanner-section bgHawkesBlue noiseBg pagebanner-align-center"
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="Hire"
-        PageBannerGreenTitle="React Native Developers"
+        PageBannerGreenTitle="React Native Developer"
         PageBannerContent="<p>Considering the world of mobile and web apps, it has come to the point where there is a thin line between both of them. Whether it is a cross-platform platform or a Native Application, React Native is considered to be the best choice.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
@@ -34,7 +34,7 @@ const HireReactNativeDeveloper = () => {
       IntroSubTitle="Get in touch with our React Native talents"
       IntroMainTitle="Let us shape your Mobile App  stories with the React Native talents."
       IntroContent='
-      <p><strong>Leverage the best without professionals</strong> <br/>It is important to hire the best developer considering any technology. When you hire React Native Developers, we thrive to provide the best experience for your business with the most flexible hiring model.</p>
+      <p><strong>Leverage the best without professionals</strong> <br/>It is important to <strong>Hire React Native App Developers</strong> considering any technology. When you <strong>hire React Native Developers</strong>, we thrive to provide the best experience for your business with the most flexible hiring model.</p>
       <p>Decide your bandwidth, get in touch with us and scale up your business with the best experts. Create history in the market and be amongst the most-competitive companies with Webenix because we care for you!</p>
     '/>
       <HiringModels/>

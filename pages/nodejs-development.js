@@ -64,7 +64,7 @@ const NODEJSDEVELOPMENT = () => {
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="Node JS"
         PageBannerGreenTitle="Development"
-        PageBannerContent="<p>With proficiency in the knowledge of a strong background in Node JS Development services, we provide the adroit resources that are made right for your business.</p>"
+        PageBannerContent="<p>With proficiency in the knowledge of a strong background in NodeJS Development services, we provide the adroit resources that are made right for your business.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
@@ -74,10 +74,10 @@ const NODEJSDEVELOPMENT = () => {
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"
       IntroSubTitle="Node JS expertise"
-      IntroMainTitle="High speed and the best efficiency with the expertised Node JS Development"
+      IntroMainTitle="High speed and the best efficiency with the expertise of Node JS Development"
       IntroContent='
-      <p>Get the best by developing websites and web apps with top Node JS Development company. NodeJS is the right choice for availing maximum flexibility and adaptability. We develop mobile applications with the great adaptability that will function with zero buffering load time.</p>
-      <p>If you want to develop the fast-paced working system of the application, Node JS is the best and right choice. With a pool of quality developers, we will ensure the best quality development maintaining the top-notch performance right for your business.</p>
+      <p>Get the best by developing websites and web apps with a top Node JS Development company. NodeJS is the right choice for availing maximum flexibility and adaptability. We develop with great adaptability that will function with zero buffering load time and provide the best <strong>NodeJS Development services</strong>.</p>
+      <p>If you want to develop a fast-paced working system of the application, Node JS is the best and right choice. With a <strong>NodeJS Web Development Company</strong>, we will ensure the best quality development maintaining the top-notch performance right for your business. </p>
     '/>
       <ServiceFeatureBox
         sectionTagLine="Our Expertise"

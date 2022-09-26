@@ -23,7 +23,7 @@ const HireGraphicsDesignPage = () => {
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="Hire"
         PageBannerGreenTitle="Graphics Designer"
-        PageBannerContent="<p>With the trendy and eye-catching design, the team of Webenix’s Graphic Designers will justify the power of design in the digital world which aggregates the human-centred delightful experience.</p>"
+        PageBannerContent="<p>With the trendy and eye-catching design, the team of Webenix’s <strong>Creative Graphic Designers</strong> will justify the power of design in the digital world which aggregates the human-centred delightful experience.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
         PageBannerImageWidth="600px"
@@ -35,7 +35,8 @@ const HireGraphicsDesignPage = () => {
       IntroSubTitle="Clean and sleek designs"
       IntroMainTitle="Brand development and growth are what we aim for your business!"
       IntroContent='
-      <p>A good design tells a lot about the brand, let us create an impeccable brand for you. Gone are those days which had the existence of primary colours in front of your eyes. With the advancement in the designs, we make sure to make your business look miscellaneous by embedding our aim and goal towards growing your company.</p>
+      <p><strong>Hire Graphic Designer</strong> because a good design tells a lot about the brand, let us create an impeccable brand for you.</p>
+      <p>Gone are those days which had the existence of primary colours in front of your eyes. With the advancement in the designs, we make sure to make your business look miscellaneous by embedding our aim and goal towards growing your company. </p>
     '/>
       <HiringModels/>
       <OurExpertise/>

@@ -113,8 +113,8 @@ const LARAVELDEVELOPMENT = () => {
       IntroSubTitle="Laravel Development Services"
       IntroMainTitle="With the experience of decades, we provide executive Laravel Development Services."
       IntroContent='
-      <p>We believe in making your business strong with the guaranteed Laravel Development Solutions that embrace a strong brand presence with all the web app features and functionalities in build.</p>
-      <p>With the sleek design, we make sure to develop and integrate the backend working system that helps in ensuring a smooth function for the end-user. That is 100% possible with our passionate Laravel Developers because we are known as the best Laravel Development Company.</p>
+      <p>We believe in making your business strong with the guaranteed <strong>Laravel Development Solutions</strong> that embrace a strong brand presence with all the web app features and functionalities in build.</p>
+      <p>With the sleek design, we make sure to develop and integrate the backend working system that helps in ensuring a smooth function for the end-user. That is 100% possible with our passionate Laravel Developers because we are known as the best <strong>Laravel Development Company</strong>.</p>
     '/>
     <ServiceFeatureBox
         sectionTagLine="We Provide"

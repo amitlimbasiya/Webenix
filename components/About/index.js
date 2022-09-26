@@ -15,7 +15,7 @@ const About = () => {
                 <Col className="aboutContentbox" lg={6} md={7} sm={12}>
                     <s.compnayHeading>About <s.greenText className="textGreen">WEBENIX</s.greenText></s.compnayHeading>
                     <s.copnayText>
-                        Webenix is here with the clear vision of providing the best quality in what we can develop and design for you. With a team of highly qualified developers, you can acquire the product that you are precisely looking for. With the great boom in the IT industry globally, Webenix wants to stand for our valuable customers making a difference and knowing the meaning of the quality product.
+                        Webenix is here with the clear vision of providing the best quality in what we can develop and design for you. With a team of highly qualified developers, you can acquire the product that you are precisely looking for. With the great boom in the IT industry globally, Webenix wants to stand for our valuable customers making a difference and knowing the meaning of the quality product. <strong>Hire Remote Developers</strong> now!
                     </s.copnayText>
                     <Link href={router.ABOUT}>
                         <a className="btn-default btn-arrow">KNOW MORE</a>

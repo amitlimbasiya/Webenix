@@ -25,7 +25,7 @@ const Benefits = () => {
                     <s.BenefibtBox className="Benefitbox">
                         <s.BenefitTitle>Cost Effective</s.BenefitTitle>
                         <Image src={CostEffective} alt="Logo" layout="raw"/>
-                        <p>Outsourcing will save you from the liabilities like hiring the right resources and investing in the infrastructure. Cut down all the extra costs and simply hire us on a budgeted hourly basis. </p>
+                        <p>Outsourcing will save you from the liabilities like hiring the right resources and investing in the infrastructure. Cut down all the extra costs and simply <strong>Hire Graphic Designer</strong> on a budgeted hourly basis. </p>
                     </s.BenefibtBox>
                 </Col>
                 <Col lg={4} md={6} sm={6}>
@@ -46,7 +46,7 @@ const Benefits = () => {
                     <s.BenefibtBox className="Benefitbox">
                         <s.BenefitTitle>Experienced Professionals</s.BenefitTitle>
                         <Image src={NonDisclosure} alt="Logo" layout="raw"/>
-                        <p>Do not worry about the quality of work, because Webenix provides professionals who are experts in the field having 3+ years of experience. </p>
+                        <p>Do not worry about the quality of work, because Webenix provides <strong>Creative Graphic Designer</strong> who are experts in the field having 3+ years of experience. </p>
                     </s.BenefibtBox>
                 </Col>
                 <Col lg={4} md={6} sm={6}>

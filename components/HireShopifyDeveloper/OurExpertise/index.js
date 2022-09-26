@@ -45,19 +45,19 @@ const OurExpertise = () => {
                 <Col lg={3} md={4} sm={12}>
                     <s.OurExpertisBox className="ourexpertis-box skyBg">
                         <s.OurExpertisNumber>06</s.OurExpertisNumber>
-                        <s.OurExpertisTitle>Shopify Third <br/> Data Migration</s.OurExpertisTitle>
+                        <s.OurExpertisTitle>Shopify <br/> Data Migration</s.OurExpertisTitle>
                     </s.OurExpertisBox>
                 </Col>             
                 <Col lg={3} md={4} sm={12}>
                     <s.OurExpertisBox className="ourexpertis-box yellowBg">
                         <s.OurExpertisNumber>07</s.OurExpertisNumber>
-                        <s.OurExpertisTitle>Shopify Third <br/> App Development</s.OurExpertisTitle>
+                        <s.OurExpertisTitle>Shopify <br/> App Development</s.OurExpertisTitle>
                     </s.OurExpertisBox>
                 </Col>
                 <Col lg={3} md={4} sm={12}>
                     <s.OurExpertisBox className="ourexpertis-box pinkBg">
                         <s.OurExpertisNumber>08</s.OurExpertisNumber>
-                        <s.OurExpertisTitle>Shopify Third <br/> Store maintenance</s.OurExpertisTitle>
+                        <s.OurExpertisTitle>Shopify <br/> Store maintenance</s.OurExpertisTitle>
                     </s.OurExpertisBox>
                 </Col>
             </Row>

@@ -26,7 +26,9 @@ const About = () => {
           IntroSubTitle="Grow with the freedom"
           IntroMainTitle="Providing freedom and a flexible work environment, it always boosts up the motivation, in the presence of advancing infrastructure for prioritizing the type of data rich. We thrive to provide the performance driven, highly secured, and enterprise approved products and platforms."
           IntroContent='
-            <p>We aim to provide a sustainable growth structure, whether it is for our valuable customers or for the internal team. It is important to be on the same page and so we aim to keep the similar vision with the highly secured IT space. Our IT premise provides the best infrastructure that mainly focuses on cloud computing and the latest equipped hardware and software.</p>
+            <p><strong>Webenix Technologies Infrastructure</strong> aims to provide a sustainable growth structure, whether it is for our valued customers or the internal team.</p>
+            <p>With our data-rich, performance-driven, security-centric enterprise-grade platforms, we are always focused on modernizing and facilitating teams with high-tech advancing infrastructure powerhouses.</p>
+            <p><strong>Webenix Technologies Working Environment</strong> makes sure that focuses to keep a similar vision with the highly secured IT space. Our IT premise provides the best infrastructure that is mainly based on cloud computing and the latest equipped hardware and software.</p>
       '/>
       <InfrastructureOffice
         sectionSubTitle="Take a look at"

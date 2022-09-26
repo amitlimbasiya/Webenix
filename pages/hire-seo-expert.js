@@ -32,8 +32,8 @@ const HIRESEOEXPERT = () => {
       />
     <SectionIntro 
       SectionIntroclassName="introuction-section separatorPart noiseBg"
-      IntroSubTitle="Lorem Ipsum "
-      IntroMainTitle="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+      IntroSubTitle="Seo Services"
+      IntroMainTitle="Boost your visibility and foothold with our search engine optimization services"
       IntroContent='
       <p>We offer SEO services that make sense for your business. Your website will be rich with keywords, ranked higher, and attract more visitors with our help. Waiting for what? Hire the best SEO experts today for your business.</p>
     '/>

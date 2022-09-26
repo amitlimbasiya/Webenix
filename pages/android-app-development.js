@@ -64,7 +64,7 @@ const ANDROIDAPPSDEVELOPMENT = () => {
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="Android App"
         PageBannerGreenTitle="Development"
-        PageBannerContent="<p>Android is one of the commonest and fastest running platforms globally and with the presence of millions of android mobile applications, it is important to scale apart from the market. We help you in developing mobile apps that users will love to use frequently.</p>"
+        PageBannerContent="<p>Android is one of the commonest and fastest running platforms globally and with the presence of millions of android mobile applications, it is important to scale apart from the market. We help you in developing mobile apps that users will love to use frequently through our <strong>Android App Development Services</strong>.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
@@ -76,8 +76,8 @@ const ANDROIDAPPSDEVELOPMENT = () => {
       IntroSubTitle="Android App Development expertise."
       IntroMainTitle="Develop the most demanding android app for your business."
       IntroContent='
-      <p>As stated, with the 2.5 million+ apps already present, it is now time to develop that sets apart the user’s attention, needs and requirements with the best functionality, clean and sleek UI/UX interface and most flexible to use it. </p>
-      <p>From Kotlin to Dart, we have expert hands-on development of the best android mobile apps that will surely hit the market with the full fledge. This will help your business with highly escalated success in the business.</p>
+      <p>As stated, with the 2.5 million+ apps already present, it is now time to develop one that sets apart the user’s attention through <strong>Custom Android App Development Services</strong> needs and requirements with the best functionality, clean and sleek UI/UX interface and most flexible to use it. </p>
+      <p>From Kotlin to Dart, we have expert hands-on development of the best <strong>Android App Development Services</strong> that will surely hit the market with the full fledge. This will help your business with highly escalated success in the business.</p>
     '/>
       <ServiceFeatureBox
         sectionTagLine="Our Expertise"

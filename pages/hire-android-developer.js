@@ -23,7 +23,7 @@ const HireAndroidDeveloper = () => {
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="Hire"
         PageBannerGreenTitle="Android App Developers"
-        PageBannerContent="<p>Considering the most demanded platforms globally, Android will be the $400 billion industry by the year 2026. Hire the best android developers for your startup and experience world-class android mobile app development.</p>"
+        PageBannerContent="<p>Considering the most demanded platforms globally, Android will be the $400 billion industry by the year 2026. <strong>Hire Android Developer</strong> for your startup and experience world-class android mobile app development.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
         PageBannerImageWidth="600px"
@@ -36,7 +36,7 @@ const HireAndroidDeveloper = () => {
         IntroMainTitle="Be a part of the $400 industry"
         IntroContent='
         <p>Leverage your performance experience with custom mobile app development.</p>
-        <p>Breaking the monotonous working of mobile apps, we believe in creating magic for you. The demand for the mobile application amongst users defines strong code development.</p>
+        <p>Breaking the monotonous working of mobile apps, we believe in creating magic for you. The demand for the mobile application amongst users defines strong code development. <strong>Hire Android App Developers</strong> for making sure about the android development services. </p>
       '/>
       <HiringModels/>
       <OurExpertise/>

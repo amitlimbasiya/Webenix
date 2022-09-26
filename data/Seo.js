@@ -157,7 +157,7 @@ export const data = {
     wordpressdevelopment: {
         title: "Custom WordPress Development Services Company | Webenix",
         description: "Webenix is a leading WordPress Development Company in the India, USA that provides Custom theme, design, plugin and WordPress Development services at the best quotes.",
-        keyword: "Custom WordPress Development, Professional WordPress  Design and Development, WordPress Development Company India, Custom WordPress Website Development,"
+        keyword: "Custom WordPress Development, Professional WordPress Design and Development, WordPress Development Company India, Custom WordPress Website Development,"
     },
     shopifydevelopment: {
         title: "Shopify Website Development Services Company | Webenix",
@@ -302,7 +302,7 @@ export const data = {
     hirehubspotdeveloper: {
         title: "Expert HubSpot Developer For Hire | Webenix Technologies",
         description: "Hire Expert HubSpot Developers for partime, fulltime, or an hourly basis. Webenix helps you find and hire the best Hubspot Developers, programmers, coders and etc.  ",
-        keyword: "Hire Hubspot Developers, Hubspot Developement Services, "
+        keyword: "Hire Hubspot Developers, Hubspot Development Services" 
     },
     hireandroiddeveloper: {
         title: "Hire Best Android Developers Remotely | Webenix",
@@ -387,7 +387,7 @@ export const data = {
     singleblog2: {
         title: "",
         description: "",
-        keyword: ""
+        keyword: "WordPress automation tools"
     },
     singleblog3: {
         title: "",
@@ -397,42 +397,42 @@ export const data = {
     singleblog4: {
         title: "",
         description: "",
-        keyword: ""
+        keyword: "Facebook Advertising Agency, Facebook Advertising Services"
     },
     singleblog5: {
         title: "",
         description: "",
-        keyword: ""
+        keyword: "Advanced SEO Techniques"
     },
     singleblog6: {
         title: "",
         description: "",
-        keyword: ""
+        keyword: "B2B Marketing Strategies, Best B2B Marketing Strategies, Best B2B Digital Marketing Strategies"
     },
     singleblog7: {
         title: "",
         description: "",
-        keyword: ""
+        keyword: "LinkedIn Marketing Best Strategies, LinkedIn Marketing Strategy, LinkedIn Marketing Strategies"
     },
     singleblog8: {
         title: "",
         description: "",
-        keyword: ""
+        keyword: "Managed WordPress Hosting, Best Managed WordPress Hosting, Best WordPress Managed WordPress Hosting"
     },
     singleblog9: {
         title: "",
         description: "",
-        keyword: ""
+        keyword: "How Has SEO Changed, SEO Changes, Google SEO Change"
     },
     singleblog10: {
         title: "",
         description: "",
-        keyword: ""
+        keyword: "Reduce Cost of Production, How To Reduce Cost Production, How To Reduce Cost of Production"
     },
     singleblog11: {
         title: "",
         description: "",
-        keyword: ""
+        keyword: "Remote Team Software, Best Remote Team Management Software, Remote Team Management Software, Best Software Fore Remote Teams"
     },
     singleblog12: {
         title: "",
@@ -442,17 +442,17 @@ export const data = {
     singleblog13: {
         title: "",
         description: "",
-        keyword: ""
+        keyword: "Optimizing WordPress Website For Speed, WordPress Website Speed Optimization"
     },
     singleblog14: {
         title: "",
         description: "",
-        keyword: ""
+        keyword: "Secure WordPress Site, How to Secure WordPress Site"
     },
     singleblog15: {
         title: "",
         description: "",
-        keyword: ""
+        keyword: "How to Update WordPress Websites, How to Update Your WordPress Websites"
     },
     singleblog16: {
         title: "",
@@ -482,27 +482,27 @@ export const data = {
     singleblog21: {
         title: "",
         description: "",
-        keyword: ""
+        keyword: "effective outsourcing strategy, offshore development, offshore software development, offshore software development company, offshore development company"
     },
     singleblog22: {
         title: "",
         description: "",
-        keyword: ""
+        keyword: "onshore vs offshore software development, offshore vs onshore software development"
     },
     singleblog23: {
         title: "",
         description: "",
-        keyword: ""
+        keyword: "Offshore development best practices, Offshore software development best practices, Offshore software development, Offshore development"
     },
     singleblog24: {
         title: "",
         description: "",
-        keyword: ""
+        keyword: "offshore software development trends"
     },
     singleblog25: {
         title: "",
         description: "",
-        keyword: ""
+        keyword: "effective outsourcing strategy, achieve business success"
     },
     work: {
         title: "Our Portolio | Our Work | Webenix",
