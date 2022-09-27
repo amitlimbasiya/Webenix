@@ -26,8 +26,8 @@ class MyDocument extends Document {
               {`
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());              
-                gtag('config', 'UA-150436646-1');
+                gtag(&#x27;js&#x27;, new Date());              
+                gtag(&#x27;config&#x27;, &#x27;UA-150436646-1&#x27;);
               `}
             </script>
             <script type="application/ld+json">
