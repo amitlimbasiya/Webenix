@@ -1,6 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
-import Script from 'next/script'
-
+import Script from 'next/script';
 class MyDocument extends Document {
   render() {
     return (
@@ -20,8 +19,9 @@ class MyDocument extends Document {
           {/* Start of HubSpot Embed Code */}
             <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/6378971.js"></script>
           {/* End of HubSpot Embed Code */}
+
           {/* Global site tag (gtag.js) - Google Analytics */}
-          {/* <Script src="https://www.googletagmanager.com/gtag/js?id=UA-150436646-1" strategy="afterInteractive"/>
+          <Script src="https://www.googletagmanager.com/gtag/js?id=UA-150436646-1" strategy="afterInteractive"/>
           <Script id="google-analytics" strategy="afterInteractive">
             {`
               window.dataLayer = window.dataLayer || [];
@@ -30,9 +30,9 @@ class MyDocument extends Document {
 
               gtag('config', 'UA-150436646-1');
             `}
-          </Script> */}
+          </Script>
 
-          <Script
+          {/* <Script
             strategy="lazyOnload"
             src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS}`}
           />
@@ -45,11 +45,11 @@ class MyDocument extends Document {
                 page_path: window.location.pathname,
               });
                   `}
-          </Script>
+          </Script> */}
 
     
 
-          <Script type="application/ld+json">
+          {/* <Script type="application/ld+json">
               {`
                 "@context": "https://schema.org/",
                 "@type": "WebSite",
@@ -61,7 +61,7 @@ class MyDocument extends Document {
                   "query-input": "required name=search_term_string"
                 }
               `}
-          </Script>
+          </Script> */}
 
         </Head>
         <body>
