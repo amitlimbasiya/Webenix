@@ -21,28 +21,31 @@ class MyDocument extends Document {
             <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/6378971.js"></script>
           {/* End of HubSpot Embed Code */}
           {/* Global site tag (gtag.js) - Google Analytics */}
-          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150436646-1"></script>
-          <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){`dataLayer.push(arguments);`}
-            gtag('js', new Date());
+          <Script src="https://www.googletagmanager.com/gtag/js?id=UA-150436646-1" strategy="afterInteractive"/>
+          <Script id="google-analytics" strategy="afterInteractive">
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){window.dataLayer.push(arguments);}
+              gtag('js', new Date());
 
-            gtag('config', 'UA-150436646-1');
-          </script>
+              gtag('config', 'UA-150436646-1');
+            `}
+          </Script>
+          
+          <Script type="application/ld+json">
+              {`
+                "@context": "https://schema.org/",
+                "@type": "WebSite",
+                "name": "Webenix",
+                "url": "https://webenix.net/",
+                "potentialAction": {
+                  "@type": "SearchAction",
+                  "target": "https://webenix.net/?s={search_term_string}",
+                  "query-input": "required name=search_term_string"
+                }
+              `}
+          </Script>
 
-            <script type="application/ld+json">
-                {`
-                  "@context": "https://schema.org/",
-                  "@type": "WebSite",
-                  "name": "Webenix",
-                  "url": "https://webenix.net/",
-                  "potentialAction": {
-                    "@type": "SearchAction",
-                    "target": "https://webenix.net/?s={search_term_string}",
-                    "query-input": "required name=search_term_string"
-                  }
-                `}
-              </script>
         </Head>
         <body>
           <Main/>
