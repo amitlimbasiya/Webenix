@@ -41,7 +41,7 @@ const SectionServiceBoxes = () => {
               <s.boxPart className="yellowPart">
                 <s.partItem className="textPart">
                     <s.boxHeading>Cross-platform Development </s.boxHeading>
-                    <s.textPart>Carry your digital presence over multiple platforms through trendy cross-platforms.</s.textPart>
+                    <s.textPart>Carry your digital presence over multiple platforms through trendy cross-platforms through <strong>Enterprise Mobile App Development</strong>.</s.textPart>
                     
                 </s.partItem>
                 <s.partItem className="imgPart">

@@ -21,7 +21,7 @@ const BACKENDDEVELOPMENT = () => {
         PageBannerClass="pagebanner-section pagebanner-shape bgMistyRose pagebanner-align-center noiseBg"
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="Backend Development Services"
-        PageBannerContent="Behind the appealing and eye-soothing frontend functionality, there is the strong backend that is developed to build appealing and intuitive web applications and websites that users might not be aware of." 
+        PageBannerContent="Behind the appealing and eye-soothing frontend functionality, there are the strong <strong>Backend Development Services</strong> that are developed to build appealing and intuitive web applications and websites that users might not be aware of." 
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"

@@ -22,7 +22,7 @@ const CMSDEVELOPMENT = () => {
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="CMS"
         PageBannerGreenTitle="Development"
-        PageBannerContent="Have a powerful hold on the content with a highly developed content management system development for your website. The accurate content management system will help in attracting your targeted customers." 
+        PageBannerContent="Have a powerful hold on the content with a highly developed content management system as <strong>CMS Development Company</strong>. The accurate <strong>Custom CMS Development</strong> will help in attracting your targeted customers." 
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
@@ -34,7 +34,7 @@ const CMSDEVELOPMENT = () => {
       IntroSubTitle="CMS Development Services"
       IntroMainTitle="Control your website content like never before with the organized functionality."
       IntroContent='
-      <p>Customized and personalized website development is rightly made for your business. Webenix offers CMS development services for every business sector, letting you choose the selective feature for the custom development. Edit your website content from anywhere without using any other software like a webmaster. CMS development is the ultimate solution for frequent changes in the content for your website.</p>
+      <p>Webenix offers custom <strong>CMS Development</strong> for every business sector, letting you choose the selective feature for custom development. Edit your website content from anywhere without using any other software like a webmaster. <strong>CMS Development Services</strong> is the ultimate solution for frequent changes in the content of your website through our company. </p>
     '/>
     <SectionServiceBoxes/>
     <HireServies/>

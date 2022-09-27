@@ -20,7 +20,7 @@ const SEO = () => {
         PageBannerClass="pagebanner-section pagebanner-shape bgEggWhite pagebanner-align-center noiseBg"
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="SEO"
-        PageBannerContent="Today digitalisation has turned tables for the business and so for anything, one will find information on search engines, it is highly important to always stay visible digitally and thus SEO plays the game. With the right service of SEO potential customers will find your business on the top." 
+        PageBannerContent="Today digitalisation has turned the tables for the business and so for anything, one will find information on search engines, it is highly important to always stay visible digitally and thus <strong>SEO Services</strong> plays the game. With the right service of SEO potential customers will find your business on the top." 
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
@@ -32,7 +32,7 @@ const SEO = () => {
         IntroSubTitle="SEO Services"
         IntroMainTitle="Create strong visibility of your business without expertise in Search Engine Optimisation."
         IntroContent='
-        <p>We help you gain the top-centric reach by executing a strong knowledge of SEO. The strategic planning of the SEO and content will drive the right business to your business. We work on the detailed and trendy SEO keywords, with detailed research on them according to your business. Let us build your brand with result-centric solutions.</p>
+        <p>We help you gain the top-centric reach by executing a strong knowledge of SEO. The strategic planning of the SEO and content will drive the right business to your business. We work on detailed and trendy SEO keywords, with detailed research on them according to your business as <strong>SEO Company</strong>. Let us build your brand with result-centric solutions.</p>
       '/>
       <SectionServiceBoxes/>
       <HireServies/>

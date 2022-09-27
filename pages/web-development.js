@@ -21,7 +21,7 @@ const WEBDEVELOPMENT = () => {
         PageBannerClass="pagebanner-section pagebanner-shape bgMistyRose pagebanner-align-center noiseBg"
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="Web Development"
-        PageBannerContent="Webenix has been delivering the best <strong>web development</strong> services considering the transparency of content and the sleek web design. By using the top-programming language and building your website with clean codes, it is devloped with definite standards and specifications that our customers are looking for." 
+        PageBannerContent="Webenix has been delivering the best <strong>web development company</strong> considering creative content and sleek web design. By using the top-programming language and building your website with clean codes, it worked with definite standards and specifications that our customers are looking for." 
         PageBannerBtnText="Know More"
         PageBannerImageWidth="280px"
         PageBannerImageHeight="250px"
