@@ -1,5 +1,4 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
-import Script from 'next/script';
 class MyDocument extends Document {
   render() {
     return (
@@ -19,50 +18,6 @@ class MyDocument extends Document {
           {/* Start of HubSpot Embed Code */}
             <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/6378971.js"></script>
           {/* End of HubSpot Embed Code */}
-
-          {/* Global site tag (gtag.js) - Google Analytics */}
-          <Script src="https://www.googletagmanager.com/gtag/js?id=UA-150436646-1" strategy="afterInteractive"/>
-          <Script id="google-analytics" strategy="afterInteractive">
-            {`
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){window.dataLayer.push(arguments);}
-              gtag('js', new Date());
-
-              gtag('config', 'UA-150436646-1');
-            `}
-          </Script>
-
-          {/* <Script
-            strategy="lazyOnload"
-            src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS}`}
-          />
-          <Script id="ga-script" strategy="lazyOnload">
-            {`
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', '${process.env.GOOGLE_ANALYTICS}', {
-                page_path: window.location.pathname,
-              });
-                  `}
-          </Script> */}
-
-    
-
-          {/* <Script type="application/ld+json">
-              {`
-                "@context": "https://schema.org/",
-                "@type": "WebSite",
-                "name": "Webenix",
-                "url": "https://webenix.net/",
-                "potentialAction": {
-                  "@type": "SearchAction",
-                  "target": "https://webenix.net/?s={search_term_string}",
-                  "query-input": "required name=search_term_string"
-                }
-              `}
-          </Script> */}
-
         </Head>
         <body>
           <Main/>

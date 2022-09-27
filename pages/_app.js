@@ -33,6 +33,22 @@ function MyApp({ Component, pageProps }) {
             gtag('config', 'UA-150436646-1');
           `}
       </Script>  
+
+      <Script type="application/ld+json">
+          {`
+            "@context": "https://schema.org/",
+            "@type": "WebSite",
+            "name": "Webenix",
+            "url": "https://webenix.net/",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://webenix.net/?s={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          `}
+      </Script>
+
+
       <SSRProvider>
         <div className="loader-wrapper" Style={loadingStyle}>
           <BounceLoader color={color} loading="true" size={75} className="loader" />
