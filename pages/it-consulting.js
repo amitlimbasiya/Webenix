@@ -20,7 +20,7 @@ const TPAI = () => {
         PageBannerClass="pagebanner-section pagebanner-shape bgIceberg pagebanner-align-center noiseBg"
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="IT Consulting"
-        PageBannerContent="<p><strong>Get a clear aspect from us!</strong> Considering the many digital businesses, it needs consulting on initial or timely solutions considering any technological stacks or issues that can help by providing clear aspects and shaping the business to stand apart from their competitive ranges. With the unique software solutions, we at Webenix make sure to provide IT-driven information from professional experts because we look forward to your success in the business.</p>" 
+        PageBannerContent="<p><strong>Get a clear aspect from us!</strong> Considering the many digital businesses, it needs consulting on initial or timely solutions considering any technological stacks or issues that can help by providing clear aspects and shaping the business to stand apart from their competitive ranges. With unique software solutions, we at Webenix make sure to provide <strong>IT Outsourcing</strong> information from professional experts because we look forward to your success in the business.</p>" 
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
@@ -33,7 +33,7 @@ const TPAI = () => {
       IntroMainTitle="Get your digital business thriving through our IT consulting by professionals. "
       IntroContent='
       <p>We navigate your business on the right track digitally to keep up with the digital ongoing trends. We pursue making your success stories by guiding and providing a high online presence through the web, mobile applications, and social media. </p>
-      <p>It is shaped by the strategic and logical moves to shape the digital landscape of your business. We have a large team of IT experts who help in outgrowing your business like no other where various enterprises and small-scale businesses globally. </p>
+      <p>It is shaped by the strategic and logical moves to shape the digital landscape of your business. We have a large team of <strong>Outsourcing Company In India</strong> who help in outgrowing your business like no other where various enterprises and small-scale businesses globally.</p>
     '/>
     <HireServies/>
     <TechnologyStack/>

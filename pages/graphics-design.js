@@ -93,7 +93,7 @@ const GRAPHICSDESIGN = () => {
         PageBannerClass="pagebanner-section pagebanner-shape bg_lightgreen pagebanner-align-center"
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="Graphics Design"
-        PageBannerContent="The graphic speaks when words not and so we aim to provide the best graphic designing that will be totally taken care of by our creative heads." 
+        PageBannerContent="The speakers when words not and so we aim to provide the best graphic designing that will be totally taken care of by our creative heads." 
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
@@ -105,7 +105,7 @@ const GRAPHICSDESIGN = () => {
           IntroSubTitle="You aim and we create it for you"
           IntroMainTitle="We provide game-changing visualisation with crisp Graphic Designing solutions."
           IntroContent='
-            <p>With a little effort and creativity, we will create what your business has been looking forward to always. Creativity makes it all happen to get your customer&apos;s engagement in the best ways.</p>
+            <p>With a little effort and creativity, we will create what your business has been looking forward to always as <strong>Graphic Design Services</strong> that we serve. Creativity makes it all happen to get your customer’s engagement in the best ways.</p>
             <p>We design the perspective and not just place random colours. We believe in creating masterpieces and not-so-common visual graphics, and at last, we are trendsetters and not trend runners.</p>
         '/>
       <ServiceFeatureBox/>      

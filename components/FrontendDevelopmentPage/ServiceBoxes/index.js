@@ -93,7 +93,7 @@ const SectionServiceBoxes = () => {
               <s.boxPart className="PastelPinkPart">
                 <s.partItem className="textPart">
                     <s.boxHeading>Angular JS Development</s.boxHeading>
-                    <s.textPart>For component-based frontend development Angular JS is the leading choice of frontend development.</s.textPart>
+                    <s.textPart>For component-based front-end development, Angular JS is the leading choice of front-end development.</s.textPart>
                     
                 </s.partItem>
                 <s.partItem className="imgPart">

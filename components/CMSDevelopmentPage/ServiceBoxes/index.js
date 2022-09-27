@@ -32,8 +32,7 @@ const SectionServiceBoxes = () => {
               <s.boxPart className="pinkPart">
                 <s.partItem className="textPart">
                     <s.boxHeading>WordPress Development</s.boxHeading>
-                    <s.textPart>WordPress is one of the renowned CMS platforms where managing content becomes much easier with the varied themes and ability to install the plug-ins for better-looking websites and accurate management.</s.textPart>
-                    
+                    <s.textPart>WordPress is one of the renowned CMS platforms where managing content becomes much easier with the varied themes and ability to install plug-ins for better-looking websites and accurate management.</s.textPart>
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={wordpressDevIcon} alt="WordPress Development Icon" layout="raw" />
@@ -47,7 +46,7 @@ const SectionServiceBoxes = () => {
               <s.boxPart className="bluePart">
                 <s.partItem className="textPart">
                     <s.boxHeading>Hubspot Development</s.boxHeading>
-                    <s.textPart>Get the personalized Hubspot development from our expert teams to make your business look professional and real. Generate more leads, escalate your business and easily convert visitors into potential clients.</s.textPart>
+                    <s.textPart>Get personalized Hubspot development from our expert teams to make your business look professional and real. Generate more leads, escalate your business and easily convert visitors into potential clients.</s.textPart>
                     
                 </s.partItem>
                 <s.partItem className="imgPart">

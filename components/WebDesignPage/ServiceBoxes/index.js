@@ -30,7 +30,7 @@ const SectionServiceBoxes = () => {
               <s.boxPart className="yellowPart">
                 <s.partItem className="textPart">
                     <s.boxHeading>Web Design</s.boxHeading>
-                    <s.textPart>We have a team of intrinsic designers that maps down the accurate website design for your business taking care of the responsiveness for all the screen sizes. </s.textPart>
+                    <s.textPart>We have a team of intrinsic designers that maps down the accurate website design for your business taking care of the responsiveness for all the screen sizes which makes us the best <strong>Web Design Services Company</strong>.</s.textPart>
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={webDesignIcon} alt="Web Desing Icon" layout="raw" />
@@ -44,7 +44,7 @@ const SectionServiceBoxes = () => {
               <s.boxPart className="greenPart">
                 <s.partItem className="textPart">
                     <s.boxHeading>Landing Page design</s.boxHeading>
-                    <s.textPart>A landing page is one of the important parts of showcasing the business. Taking care of the responsiveness by placing the CTA buttons in the right place will be part of the accurate landing page design.</s.textPart>
+                    <s.textPart>Creating a landing page is an important part of showcasing a business. The placement of CTA buttons in the right place will ensure the responsiveness of the landing page. In order to keep up with responsiveness, the Landing Page is crucial. During the design process, we ensure the CTA is placed in the right place along with other information.</s.textPart>
                 </s.partItem>
                 <s.partItem className="imgPart">
                   <Image src={landingpageDesignSetup} alt="Landing Page Design Icon" layout="raw" />

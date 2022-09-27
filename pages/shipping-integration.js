@@ -33,9 +33,9 @@ const SHIPPINGINTEGRATION = () => {
       IntroSubTitle="Our Integration Expertise"
       IntroMainTitle="Drive smooth business, develop sleek shipping integration"
       IntroContent='
-      <p>Why worry about the shipping hurdles that come through when you can easily develop an integrated shipping process in your website or mobile application? It becomes 10x easier for streamlining the eCommerce business. </p>
-      <p>Avoid keeping the extra manpower and consistently looking for the shipping address, let it be managed by the shipping API that reciprocates the easy logistics and shipping management and lowers your efforts.</p>
-      <p>Webenix allows eCommerce and other D2C brands with shipping integration for making the logistic and integration process smoother.</p>
+      <p>Why worry about the shipping hurdles that come through when you can easily <strong>Shipping API Integration</strong> on your website or mobile application? It becomes 10x easier for streamlining the eCommerce business. </p>
+      <p>Avoid keeping the extra manpower and consistently looking for the shipping address, let it be managed by the shipping API that reciprocates the easy logistics and <strong>Shipping API Integration</strong> and lowers your efforts.</p>
+      <p>Webenix allows eCommerce and other D2C brands with <strong>shipping integration</strong> for making the logistics and integration process smoother.</p>
     '/>
     <OurExpertise/>
     <SectionIntro 
@@ -43,7 +43,7 @@ const SHIPPINGINTEGRATION = () => {
       IntroSubTitle="Our Mission"
       IntroMainTitle="Ship your worries and not your shipping process"
       IntroContent='
-      <p>Webenix wants business owners to sail their business without worrying about anything. With the shipping API integration services from the expertise development team, we provide you with the easiest shipping structure for a better logistic process. Let us help you to integrate the right for your valuable business.</p>
+      <p>Webenix wants business owners to sail their business without worrying about anything. With the shipping API integration services from the expert development team, we provide you with the easiest shipping structure for a better logistic process. Let us help you to integrate the right for your valuable business.</p>
     '/>
     <HireServies/>
     <TechnologyStack/>
