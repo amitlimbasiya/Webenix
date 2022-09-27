@@ -21,15 +21,15 @@ class MyDocument extends Document {
             <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/6378971.js"></script>
           {/* End of HubSpot Embed Code */}
           {/* Global site tag (gtag.js) - Google Analytics */}
-          <script src="https://www.googletagmanager.com/gtag/js?id=UA-150436646-1"/>
-            <script id="google-analytics">
-              {`
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag("js", new Date());              
-                gtag("config", "UA-150436646-1");
-              `}
-            </script>
+          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150436646-1"></script>
+          <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){`dataLayer.push(arguments);`}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-150436646-1');
+          </script>
+
             <script type="application/ld+json">
                 {`
                   "@context": "https://schema.org/",
