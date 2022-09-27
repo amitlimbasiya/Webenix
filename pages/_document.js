@@ -1,4 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
+import Script from 'next/script';
 class MyDocument extends Document {
   render() {
     return (
@@ -18,6 +19,19 @@ class MyDocument extends Document {
           {/* Start of HubSpot Embed Code */}
             <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/6378971.js"></script>
           {/* End of HubSpot Embed Code */}
+          <Script type="application/ld+json">
+          {`
+            "@context": "https://schema.org/",
+            "@type": "WebSite",
+            "name": "Webenix",
+            "url": "https://webenix.net/",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://webenix.net/?s={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          `}
+      </Script>
         </Head>
         <body>
           <Main/>

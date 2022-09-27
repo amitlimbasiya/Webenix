@@ -34,19 +34,7 @@ function MyApp({ Component, pageProps }) {
           `}
       </Script>  
 
-      <Script type="application/ld+json">
-          {`
-            "@context": "https://schema.org/",
-            "@type": "WebSite",
-            "name": "Webenix",
-            "url": "https://webenix.net/",
-            "potentialAction": {
-              "@type": "SearchAction",
-              "target": "https://webenix.net/?s={search_term_string}",
-              "query-input": "required name=search_term_string"
-            }
-          `}
-      </Script>
+      
 
 
       <SSRProvider>
