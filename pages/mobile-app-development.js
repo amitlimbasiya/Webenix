@@ -21,7 +21,7 @@ const ECOMMERCEDEVELOPMENT = () => {
         PageBannerClass="pagebanner-section pagebanner-shape bgFog pagebanner-align-center noiseBg"
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="Mobile App Development"
-        PageBannerContent="Our mobile app development helps in escalating the startup companies. Get in touch with us whether you are looking to build an app from the beginning or want to redesign it, we are here to give away the best solutions." 
+        PageBannerContent="Our Custom <strong>Mobile App Development</strong> helps in escalating the startup companies. Get in touch with us whether you are looking to build an app from the beginning or want to redesign it, we are here to give away the best solutions" 
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
@@ -34,7 +34,7 @@ const ECOMMERCEDEVELOPMENT = () => {
       IntroMainTitle="Bringing the big ideas to implement for small screens"
       IntroContent='
       <p>We make sure to provide modern and trendy apps that will stand in the market amongst competitors. It is important to reach out to your customers where they find the best use of the functionality of the mobile application.</p>
-      <p>We blend the mixture of everything from the trend to the functionality to create the better user experience and customer engagement. </p>
+      <p>We blend the mixture of everything from the trend to the functionality to create a better user experience and customer engagement.</p>
     '/>
     <ServiceFeatureBox/>
     <HireServies/>

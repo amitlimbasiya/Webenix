@@ -68,7 +68,7 @@ const SectionServiceBoxes = () => {
                 </s.partItem>
               </s.boxPart>
             </Col>
-            <Col lg={6} md={12} className="itemBoxes">
+            {/* <Col lg={6} md={12} className="itemBoxes">
               <s.boxPart className="orangePart">
                 <s.partItem className="textPart">
                     <s.boxHeading>Custom eCommerce</s.boxHeading>
@@ -82,7 +82,7 @@ const SectionServiceBoxes = () => {
                   </s.iconOverlay>
                 </s.partItem>
               </s.boxPart>
-            </Col>            
+            </Col>             */}
             
           </Row>
         </Container>

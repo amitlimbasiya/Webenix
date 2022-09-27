@@ -34,8 +34,8 @@ const RESPONSIVEWEBDESIGN = () => {
         IntroSubTitle="Responsive Web Design"
         IntroMainTitle="Make your business approach clearer by designing the best responsive web designs."
         IntroContent='
-          <p>Considering the user&#39;s demands and expectation, we make sure to develop the best responsive web designs. Get the maximum customer approach and market reach and earn unexpected ROI. With clear affordability we help you cut down on unwanted expenses.</p>
-          <p>Webenix is one of the most experienced companies that have impacted the maximum businesses globally and yet keeping up with the design trends and customers&#39; expectations.</p>
+          <p>Considering the user&#39;s demands and expectations, we make sure to develop the best responsive web designs. Get the maximum customer approach and market reach and earn unexpected ROI. With clear affordability, we help you cut down on unwanted expenses.</p>
+          <p>Webenix is one of the most experienced companies that have impacted the maximum businesses globally and yet keep up with the design trends and customers&#39; expectations.</p>
       '/>
       <OurExpertise/>
       <HireServies/>

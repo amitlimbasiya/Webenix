@@ -21,7 +21,7 @@ const UIUX = () => {
         PageBannerClass="pagebanner-section pagebanner-shape bgMistyRose pagebanner-align-center noiseBg"
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="UI/UX Design"
-        PageBannerContent="The design that delights your customers and should be eye soothing while they use is the power of the design that beholds the creativity of our skilful developers." 
+        PageBannerContent="The design that delights your customers and should be eye soothing while they use is the power of the design that beholds the creativity of our <strong>UI UX Design & Development Services</strong>." 
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
         PageBannerImageWidth="280px"
@@ -33,7 +33,7 @@ const UIUX = () => {
       IntroSubTitle="We believe in creativity"
       IntroMainTitle="Showing your brand with a look propelling goals blended with colors."
       IntroContent='
-        <p>Bringing colours to the right plate is our job that will surpass it in your business. We are no longer living in a world where there are only no primary colours around the websites and mobile applications.</p>
+        <p>Our job is to please the visual display for everybody that perfectly blends and matches your brand.</p>
         <p>The elegant websites and mobile app design bring more customers to your company and brand. We are stated as the world’s innovative leading designing company that brings revolutionary changes while we help you escalate business. </p>
     '/>
     <SectionServiceBoxes/>
