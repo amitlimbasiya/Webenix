@@ -32,7 +32,7 @@ function MyApp({ Component, pageProps }) {
             gtag('js', new Date());
             gtag('config', 'UA-150436646-1');
           `}
-      </Script>  
+      </Script>
 
       
 
