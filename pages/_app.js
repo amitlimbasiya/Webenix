@@ -33,10 +33,6 @@ function MyApp({ Component, pageProps }) {
             gtag('config', 'UA-150436646-1');
           `}
       </Script>
-
-      
-
-
       <SSRProvider>
         <div className="loader-wrapper" Style={loadingStyle}>
           <BounceLoader color={color} loading="true" size={75} className="loader" />
