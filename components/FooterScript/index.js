@@ -61,16 +61,21 @@ export default function FooterScript() {
       });
     }
 
-    // if (window.matchMedia('(min-width: 1200px)').matches) {
-    //   $('.menu-item .menuitem-box').on('click', function(){
-    //     $('.menu-item-has-children .menu-subs').css("display", "none");
-    //   });
-    // } else{
-    //   $('.menu-item > a').on('click', function(){
-    //     $('.menu-item-has-children .menu-subs').css("display", "block");
-    //   });
-    // }
-
+    if (window.matchMedia('(min-width: 1200px)').matches) {
+      $('.menu-item .menuitem-box').on('click', function(){
+        $('.menu-item-has-children .menu-subs').css("display", "none");
+      });
+      $('.menu-item.menu-item-has-children').on('mouseover', function(){
+        $('.menu-item-has-children .menu-subs').css("display", "none");
+        $(this).find('.menu-subs').css("display", "grid");
+      });
+      $('.menu-item.menu-item-has-children').on('mouseleave', function(){
+        $('.menu-item-has-children .menu-subs').css("display", "none");
+      });
+      
+    }
+    
+    
 
     function toggleMenu() {
       menu.classList.toggle('activeMenu');

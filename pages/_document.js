@@ -12,6 +12,7 @@ class MyDocument extends Document {
           <link rel="icon" href="/favicon.ico" />
           <link rel="preconnect" href="https://fonts.googleapis.com"/>
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true"/>
+          <meta name="google-site-verification" content="jrocFJAl7FK8PjbecuIgvfpkT3j20mwg0c61drNIVeI" />
           <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
           <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
           <script defer src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
