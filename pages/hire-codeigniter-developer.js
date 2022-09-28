@@ -22,7 +22,7 @@ const HIRCODEIGNITERDEVELOPER = () => {
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="Hire"
         PageBannerGreenTitle="Codeigniter Developers"
-        PageBannerContent="<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>"
+        PageBannerContent="<p>Codeigniter development will help enable the project that develops faster to write code faster. By providing a rich set of libraries to the common task to interface the logical structure, we help you with the core Codeigniter development. Hire Codeigniter Developer for the better leading projects further.</p>"
         PageBannerBtnText="Know More"
         PageBannerBtnLink="#"
         PageBannerImageWidth="600px"
