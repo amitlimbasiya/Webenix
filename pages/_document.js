@@ -22,14 +22,14 @@ class MyDocument extends Document {
           {/* End of HubSpot Embed Code */} 
           <script type="application/ld+json">
             {`
-              "@context": "https://schema.org/",
-              "@type": "WebSite",
-              "name": "Webenix",
-              "url": "https://webenix.net/",
-              "potentialAction": {
-                "@type": "SearchAction",
-                "target": "https://webenix.net/?s={search_term_string}",
-                "query-input": "required name=search_term_string"
+              @context: "https://schema.org/",
+              @type: "WebSite",
+              name: "Webenix",
+              url: "https://webenix.net/",
+              potentialAction: {
+                @type: "SearchAction",
+                target: "https://webenix.net/?s={search_term_string}",
+                query-input: "required name=search_term_string"
               }
             `}
           </script>
