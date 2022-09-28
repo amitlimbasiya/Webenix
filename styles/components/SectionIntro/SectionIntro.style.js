@@ -181,3 +181,9 @@ export const SectionHeader  = styled.div`
         `}  
     }
 `;
+
+
+export const SchemaWrapper  = styled.div` 
+    
+
+`;

@@ -1,5 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
-import Script from 'next/script';
+//import Script from 'next/script';
+import Schema from '../components/Schema';
 class MyDocument extends Document {
   render() {
     return (
@@ -20,19 +21,7 @@ class MyDocument extends Document {
           {/* Start of HubSpot Embed Code */}
             <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/6378971.js"></script>
           {/* End of HubSpot Embed Code */} 
-          <script type="application/ld+json">
-            {`
-              "@context": "https://schema.org/",
-              "@type": "WebSite",
-              "name": "Webenix",
-              "url": "https://webenix.net/",
-              "potentialAction": {
-                "@type": "SearchAction",
-                "target": "https://webenix.net/?s={search_term_string}",
-                "query-input": "required name=search_term_string"
-              }
-            `}
-          </script>
+          
 
           {/* <Script type="application/ld+json">
             {`
@@ -51,6 +40,24 @@ class MyDocument extends Document {
         <body>
           <Main/>
           <NextScript/>
+          <Schema
+            SchemaContent='
+            <script type="application/ld+json">
+              {
+                "@context": "https://schema.org/",
+                "@type": "WebSite",
+                "name": "Webenix",
+                "url": "https://webenix.net/",
+                "potentialAction": {
+                  "@type": "SearchAction",
+                  "target": "https://webenix.net/?s={search_term_string}",
+                  "query-input": "required name=search_term_string"
+                }
+              }
+              </script>
+            '
+          
+          />
         </body>
       </Html>
     )
