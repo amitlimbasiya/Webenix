@@ -19,20 +19,20 @@ class MyDocument extends Document {
           <script defer src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
           {/* Start of HubSpot Embed Code */}
             <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/6378971.js"></script>
-          {/* End of HubSpot Embed Code */}
+          {/* End of HubSpot Embed Code */}  
           <Script type="application/ld+json">
-          {`
-            "@context": "https://schema.org/",
-            "@type": "WebSite",
-            "name": "Webenix",
-            "url": "https://webenix.net/",
-            "potentialAction": {
-              "@type": "SearchAction",
-              "target": "https://webenix.net/?s={search_term_string}",
-              "query-input": "required name=search_term_string"
-            }
-          `}
-      </Script>
+            {`
+              "@context": "https://schema.org/",
+              "@type": "WebSite",
+              "name": "Webenix",
+              "url": "https://webenix.net/",
+              "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://webenix.net/?s={search_term_string}",
+                "query-input": "required name=search_term_string"
+              }
+            `}
+            </Script>
         </Head>
         <body>
           <Main/>
