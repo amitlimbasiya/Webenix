@@ -43,7 +43,7 @@ const Services = () => {
                     <Row className='align-items-center'>
                         <Col md={6} sm={12} className='leftPart'>
                             <s.titlePart>Design</s.titlePart>
-                            <s.desc><strong>Hire Dedicated Developers</strong> because we are a team of creative heads, we make sure of assembling the clean and sleek designs that will help in transforming the visuals and the presentation of your brand. Showcasing your brand in the best ways and bringing your vision into reality is what we stand here by representing the different sectors of designing and branding on board.</s.desc>
+                            <s.desc>We are a team of creative heads, we make sure of assembling the clean and sleek designs that will help in transforming the visuals and the presentation of your brand. Showcasing your brand in the best ways and bringing your vision into reality is what we stand here by representing the different sectors of designing and branding on board.</s.desc>
                             <s.serviceLinks className="serviceLinks">
                                 <ul>
                                     <li>
