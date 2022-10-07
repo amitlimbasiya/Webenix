@@ -10,8 +10,111 @@ import AuthenticityIcon from "../../../public/images/f-authenticity-icon.svg";
 import HonestIcon from "../../../public/images/f-honest-icon.svg";  
 import wordpressDevIcon from '../../../public/images/f-wordpress-icon.svg';
 import careerIcon from '../../../public/images/f-career-icon.svg';
+import PhoneInput from 'react-phone-number-input';
+import Recaptcha from 'react-google-recaptcha';
+import 'react-phone-number-input/style.css'
+// import FilePondPluginImagePreview from 'filepond-plugin-image-preview'
+const RECAPTCHA_KEY = '6LfNM8shAAAAAGQP99s9wq-xAhNjOCVTZxKCfYLa';
+import { useEffect, useState } from "react";
+import * as yup from "yup";
+import emailjs from 'emailjs-com';
+import validator from 'validator';
 
 function MyVerticallyCenteredModal(props) {
+
+
+   // const { control, register, setValue, handleSubmit, watch, errors, reset } = useForm();
+  
+
+   const [fname, setcontact_fname] = useState('');
+   // let [file, setFile] = useState(null);
+   // let [filename, setFilename] = useState('');
+   const [files, initFiles] = useState([])
+   const [url, setcontact_url] = useState('');
+   const [email, setcontact_email] = useState('');
+   const [phone, setcontact_phone] = useState('');
+   const [textarea, setcontact_textarea] = useState('');
+   const [statusMessage, setStatusMessage] = useState("");
+   const recaptchaRef = React.createRef()
+   const [buttonDisabled, setButtonDisabled] = React.useState(true)
+   const [errorMessage, setErrorMessage] = useState('')
+   const [recaptcha, setcontact_recaptcha] = useState('')
+   const [recaptchaError, recaptchaerrorFunction] = useState('display:none;');
+ 
+ 
+ 
+ 
+   const handleChange = event => {
+     setcontact_fname(event.target.value);
+   };
+   const handleChange1 = event => {
+     setcontact_url(event.target.value);
+   };
+   const handleChange2 = event => {
+     setcontact_email(event.target.value);
+   };
+   const handleChange3 = event => {
+     // setcontact_phone(event.target.value);
+   };
+   const handleChange4 = event => {
+     setcontact_textarea(event.target.value);
+   };
+ 
+   const handleChange5 = event => {
+     setcontact_recaptcha(event.target.value);
+   };
+ 
+   const validate = (value) => {
+ 
+     if (validator.isURL(value)) {
+       setErrorMessage('Is Valid URL')
+     } else {
+       setErrorMessage('Is Not Valid URL')
+     }
+   }
+   // state
+   const [isCaptch, setIsCaptch] = useState(false);
+ 
+   // Method
+   const handleChangeCaptcha = (value) => {
+     console.log("Captcha value:", value);
+     // this.setState({ value });
+     // if value is null recaptcha expired
+     setIsCaptch(value || false);
+   };
+   const onChange = (e) => {
+       const files = e.target.files;
+       // files.length > 0 && setUrl(URL.createObjectURL(files[0]));
+   };
+ 
+   function sendEmail(e) {
+         console.log('test');
+         e.preventDefault();
+         if (!isCaptch) {
+             recaptchaerrorFunction('display:block');
+             return false;
+           }
+ 
+         emailjs.sendForm('service_3ucsloc', 'template_z3stw7g', e.target, '3i8vNYueSpinK0hpA')
+             .then((result) => {
+                 console.log(result.text);
+             }, (error) => {
+                 console.log(error.text);
+             });
+ 
+ 
+         setTimeout(() => {
+             setcontact_fname('');
+             setcontact_url('');
+             setcontact_email('');
+             setcontact_phone('');
+             setcontact_textarea('');
+             setcontact_recaptcha('');
+             setIsCaptch(false);
+             setStatusMessage('Form submitted successfully.');
+         }, 1000);
+     }
+
   return (
     <Modal
       {...props}
@@ -25,7 +128,71 @@ function MyVerticallyCenteredModal(props) {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-          <Form>
+      <form onSubmit={sendEmail}>
+          <Row className="mb-3">
+            <Col md={6} controlid="formName" className='mb-3 mb-md-0'>
+              <Form.Label>Name:</Form.Label>
+              <Form.Control type="text" value={fname} onChange={handleChange} name="contact_fname" required className={`form-control `} placeholder="John Doe" />
+            </Col>
+            <Col md={6} controlid="formEmail">
+              <Form.Label>Email</Form.Label>
+              <Form.Control type="email" value={email} onChange={handleChange2} name="contact_email" required className={`form-control `} placeholder="johnDoe@gmail.com" />
+            </Col>
+          </Row>
+
+          <Row className="mb-3">
+            <Col md={6} controlid="formPhoneNumber" className='mb-3 mb-md-0'>
+              <Form.Label>Phone Number:</Form.Label>
+              <PhoneInput type="tel" value={phone} onChange={handleChange3} name="contact_phone" required className={`form-control`} placeholder="123 465 7890" />
+            </Col>
+            <Col md={6} controlid="formCompany">
+              <Form.Label>Company:</Form.Label>
+              <Form.Control value={textarea} onChange={handleChange4} required className={`form-control`} placeholder="Lorem Ipsam" />
+            </Col>
+          </Row>
+
+          <Col className="mb-3" controlid="formCompany">
+            <Form.Label>Your message:</Form.Label>
+            <Form.Control
+              as="textarea"
+              placeholder="Your message hear"
+            />
+
+          </Col>
+          <Row className="mb-3">
+            <Col controlid="formGridCity">
+              <Form.Label htmlFor="inlineFormInputGroupUsername">
+                Resume:
+              </Form.Label>
+              {/* <FilePond
+                files={files}
+                allowFileTypeValidation={true}
+                acceptedFileTypes={['image/png']}
+              /> */}
+              {/* <input type="file" class="form-control"  id="fileInput inputGroupFile01" allowFileTypeValidation={true} acceptedFileTypes={['image/png']} /> */}
+              <Form.Control type="file" name='file' accept=".pdf, .docx" required onChange={onChange}  />
+              <p>Accept Only .pdf and .docx files </p>
+            </Col>
+          </Row>
+          <Recaptcha
+            value={recaptcha}
+            onChange={handleChangeCaptcha}
+            required
+            ref={recaptchaRef}
+            sitekey={RECAPTCHA_KEY}
+            size="normal"
+            id="recaptcha-google"
+          />
+
+          <span className='new-errormessage' Style={recaptchaError}>Recaptcha is required.</span>
+
+          <Button className="btn-default btn-arrow mt-2" type="submit">
+            Submit
+          </Button>
+        </form>
+        <p>{statusMessage}</p>
+
+          {/* <Form>
           <Row className="mb-3">
             <Col md={6} controlid="formName" className='mb-3 mb-md-0'>
               <Form.Label>Name:</Form.Label>
@@ -68,7 +235,7 @@ function MyVerticallyCenteredModal(props) {
           <Button className="btn-default btn-arrow mt-2" type="submit">
             Submit
           </Button>
-        </Form>
+        </Form> */}
       </Modal.Body>
     </Modal>
   );
