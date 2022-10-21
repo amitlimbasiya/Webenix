@@ -14,11 +14,12 @@ const work = () => {
         <meta name="keywords" content={data.work.keyword} />
       </Head>
       <PageBanner 
+          headingClass="greenBrd"
           PageBannerBigTitle="WORK"
           PageBannerClass="pagebanner-section lightPurplBg noiseBg smallPart"
           PageBannerImgClass="pagebannerimg-col at-right-bottom" 
-          PageBannerTitle=""
-          PageBannerGreenUnderlineText="Our Work"
+          PageBannerTitle="Our Work"
+          PageBannerGreenUnderlineText=""
       />
       <PortfolioListing/>
       <TechnologyStack

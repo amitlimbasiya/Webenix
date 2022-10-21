@@ -119,6 +119,42 @@ const BlogListings = (props) => {
           <Row>
             <Col lg={9} md={12} className="order-2 order-lg-1">  
                 <s.BlogListWrapper className='bloglisting-wrapper'>                        
+                    {/* <s.blogItem className='blogItem development'>
+                        <Link href={router.SINGLEBLOG28}>
+                            <a><s.blogImage><Image placeholder="blur" src={WhyWPWebsite} alt="Top 10 Mobile App Trends for 2022" layout='responsive'/></s.blogImage></a>
+                        </Link>
+                        <s.blogCategory className='orangeColor'>DEVELOPMENT</s.blogCategory>
+                        <s.blogTitle className='postHeading'>
+                            <Link href={router.SINGLEBLOG28}><a>Top 10 Mobile App Trends for 2022</a></Link>
+                        </s.blogTitle>
+                        <p>In the 21st century, the growth of mobile phones has fundamentally altered company models, modes of business, and market structures.</p>
+                        <Link href={router.SINGLEBLOG28}><a className='blogLink'>Let&#39;s Read</a></Link>
+                        <div className='datePart'>OCTOBER 13, 2022</div>
+                    </s.blogItem>
+                    <s.blogItem className='blogItem development'>
+                        <Link href={router.SINGLEBLOG27}>
+                            <a><s.blogImage><Image placeholder="blur" src={WhyWPWebsite} alt="How To Outsource Software Development Effectively" layout='responsive'/></s.blogImage></a>
+                        </Link>
+                        <s.blogCategory className='orangeColor'>DEVELOPMENT</s.blogCategory>
+                        <s.blogTitle className='postHeading'>
+                            <Link href={router.SINGLEBLOG27}><a>How To Outsource Software Development Effectively</a></Link>
+                        </s.blogTitle>
+                        <p>In-house software development teams are expensive to maintain.</p>
+                        <Link href={router.SINGLEBLOG27}><a className='blogLink'>Let&#39;s Read</a></Link>
+                        <div className='datePart'>OCTOBER 13, 2022</div>
+                    </s.blogItem>
+                    <s.blogItem className='blogItem development'>
+                        <Link href={router.SINGLEBLOG26}>
+                            <a><s.blogImage><Image placeholder="blur" src={WhyWPWebsite} alt="Tips to Hire Dedicated Programmers" layout='responsive'/></s.blogImage></a>
+                        </Link>
+                        <s.blogCategory className='orangeColor'>DEVELOPMENT</s.blogCategory>
+                        <s.blogTitle className='postHeading'>
+                            <Link href={router.SINGLEBLOG26}><a>Tips to Hire Dedicated Programmers</a></Link>
+                        </s.blogTitle>
+                        <p>Okay, so here's the deal. It doesn't matter if you're a startup, a medium-sized business, or a multinational conglomerate; having your mobile app is essential. Apps on mobile devices account for 70% of all digital media consumption in the United States. You need a first-rate digital presence and efficiency across all platforms, not just smartphones. These are essential to the success of your company.</p>
+                        <Link href={router.SINGLEBLOG26}><a className='blogLink'>Let&#39;s Read</a></Link>
+                        <div className='datePart'>OCTOBER 13, 2022</div>
+                    </s.blogItem> */}
                     <s.blogItem className='blogItem wordpress'>
                         <Link href={router.SINGLEBLOG1}>
                             <a><s.blogImage><Image placeholder="blur" src={WhyWPWebsite} alt="Why it is necessary to do regular updates of your WordPress website" layout='responsive'/></s.blogImage></a>

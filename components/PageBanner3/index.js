@@ -11,9 +11,9 @@ const PageBanner = (props) => {
         <s.BackHeading className='backHeading'>{props.PageBannerBigTitle}</s.BackHeading>
         <Container>
           <Row>
-              <Col md={12} className="pagebannercontent-col text-center">
+              <Col md={12} className="pagebannercontent-col headingUnderLine text-center">
                 <s.PageBannerContentPart >
-                  <h1>{props.PageBannerTitle}</h1>
+                  <h1 className={props.headingClass}>{props.PageBannerTitle}</h1>
                   <span>{props.PageBannerGreenUnderlineText}</span>
                 </s.PageBannerContentPart>
               </Col>

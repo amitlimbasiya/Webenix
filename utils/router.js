@@ -107,6 +107,9 @@ const router = {
   SINGLEBLOG23: "/blog/offshore-development-best-practices-to-know-about",
   SINGLEBLOG24: "/blog/leading-offshore-development-trends-to-know-about",
   SINGLEBLOG25: "/blog/the-ways-to-utilize-an-effective-outsourcing-strategy-and-achieve-business-success-by-eliminating-the-risks",
+  // SINGLEBLOG26: "/blog/tips-to-hire-dedicated-programmers",
+  // SINGLEBLOG27: "/blog/how-to-outsource-software-development-effectively",
+  // SINGLEBLOG28: "/blog/top-10-mobile-app-trends-for-2022",
 
   WORK: "/work",
   AGILEADVISORYGROUP:"/work/agileAdvisoryGroup",

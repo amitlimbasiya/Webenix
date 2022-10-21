@@ -15,7 +15,7 @@ export const data = {
         keyword: "Webenix Technology Infrastructure, Webenix Technology Working Environment,"
     },
     engagementmodels: {
-        title: "Our Engagement Model | Hire Professional Developer | Webemox Technologies",
+        title: "Our Engagement Model | Hire Professional Developer | Webenix",
         description: "Webenix provides flexible engagement models which include Hire dedicated developer on an hourly basis, Hybrid model, setup offshore team as well as fixed price model and to meet up.",
         keyword: "Engagement Model, Hire Professional Developer"
     },
@@ -25,7 +25,7 @@ export const data = {
         keyword: "Jobs Opportunity in Webenix, Career Opportunity in Rajkot, Webenix Technologies"
     },
     confidentiality: {
-        title: "Confidentiality | Code Ownership & Non Disclosure | Webenix Technologies",
+        title: "Confidentiality | Code Ownership & Non Disclosure | Webenix",
         description: "Webenix provides complete integrity, confidentiality as well as Non-disclosure to ensure your idea, source code and communication is well protected.",
         keyword: "Confidentiality, Code Ownership, Non Disclosure"
     },
@@ -45,17 +45,17 @@ export const data = {
         keyword: "Web Design Services, Web Design Services Company,"
     },
     uiux: {
-        title: "UI UX Design Companies | UI/UX Design & Development Services | Webenix",
+        title: "UI/UX Design & Development Services Company | Webenix",
         description: "You can find the best UI/UX Design Companies and Agency throughout the world for your next project. Webenix is a leading UI UX Design Company offering UI UX Design Services for your website and mobile app.",
         keyword: "Best UI UX Design Companies, UI UX Design & Development Services, "
     },
     webdevelopment: {
-        title: "Top Web Development Company in USA | Web Development Services 2022 | Webenix",
+        title: "Top Web Development Services Company in USA | Webenix",
         description: "Our Web Development Services by a company with 10+ years of expertise. We have a Professional Web Development team which is create best website development.",
         keyword: "Web Development Company, Web Development Company USA,"
     },
     frontenddevelopment: {
-        title: "Front End Development Services Company | Front End Development Agency",
+        title: "Front End Development Services Company & Agency | Webenix",
         description: "Webenix is a reliable frontend development services company in the USA. You can get the best frontend web development services with excellent UI design and advance technologies.",
         keyword: " Front End Development Company, Front End Development Services, Front End Development Agency"
     },
@@ -65,17 +65,17 @@ export const data = {
         keyword: "BackEnd Development Company, BackEnd Development Services"
     },
     ecommercedevelopment: {
-        title: "Ecommerce Development Services | Ecommerce Website Development Company | Webenix ",
+        title: "Ecommerce Website Development Services Company | Webenix",
         description: "We provide the best Ecommerce Development services help create superior ecommerce experience to win demanding modern customers. Webenix is the leading eCommerce Web Design company in the US for your Ecommerce project.",
         keyword: "Ecommerce Development Company, Ecommerce Development Services,  Ecommerce Website Development Services,"
     },
     cmsdevelopment: {
-        title: "Custom CMS Development Company | CMS Development Services | Webenix",
+        title: "Custom CMS Development Services Company | Webenix",
         description: "Webenix is a leading CMS development company serving CMS development requirements of clients worldwide by specialized in the industry for CMS developers and designers. ",
         keyword: "CMS Development Company, CMS Development Services, Custom CMS Development,"
     },
     mobileappdevelopment: {
-        title: "Top-rated Custom Mobile App Development | Enterprise Mobile App Development",
+        title: "Top-rated Custom Mobile App Development | Webenix",
         description: "Looking for a custom and enterprise mobile app development company? We offer the top-rated custom mobile app development services for your needs that create high performing and fully functional applicaitons.",
         keyword: "Custom Mobile App Development, Enterprise Mobile App Development"
     },
@@ -110,7 +110,7 @@ export const data = {
         keyword: "Startup Consultant, Startup Consulting Firms, Business Startup Consulting Services, "
     },
     nextjsdevelopment: {
-        title: "NextJS Development Company | NextJS Development Services | Webenix",
+        title: "NextJS Development Company | NextJS Development Services",
         description: "Webenix offer the fast and scalable, high-performing, responsive, server-side website and application development services. NextJS Development is one of the fastest Javascript Frameworks.",
         keyword: "NextJS Development Services, NextJS Development Company,"
     },
@@ -120,7 +120,7 @@ export const data = {
         keyword: "Payment Gateway Integration, Payment Gateway Integration Services, Paymeny Gateway Integration Android App,"
     },
     shippingintegration: {
-        title: "Shipping API Integration Services | Shipping API Integration | Webenix",
+        title: "Best Shipping API Integration Services | Webenix Technologies",
         description: "Shipping Integration for all. Our shipping software and API will help you uderstand how to configure and manage the carriers you integrate with.",
         keyword: "Shipping Integration, Shipping API Integration Services, Shipping API Integration,"
     },
@@ -140,17 +140,17 @@ export const data = {
         keyword: "Support and Maintenance Services, It Support and Maintenance Services, "
     },
     phpdevelopment: {
-        title: "Best PHP Development Company in India | PHP Development Services | Webenix",
+        title: "Best PHP Development Company Services in India | Webenix",
         description: "Webenix is best PHP Development Services Company. Our PHP Development team having 15+ years of experinece in the market and also we have dedicated PHP teams. ",
         keyword: "PHP Development Services, PHP Web Development Services, PHP Development Company India,"
     },
     laraveldevelopment: {
-        title: "Laravel Development Company | Laravel Web Development Services | Webenix",
+        title: "Laravel Web Development Services Company | Webenix",
         description: "Best Laravel Development Services Company from Webenix. We have expertise in Laravel development and also delivers reliable and top-notch Laravel company to clients.",
         keyword: "Laravel Development Services, Laravel Development Company, Laravel Development Agency,"
     },
     codeigniterdevelopment: {
-        title: "CodeIgniter Development Company in India, USA | CodeIgniter Development Services",
+        title: "CodeIgniter Development Services Company in India, USA",
         description: "Webenix is the best CodeIgniter Development Company in the USA offering the award winning services, such as web apps, portal, CMS, eCommerce, etc. With a team of highly skilled CodeIgniter programmers and developers.",
         keyword: "CodeIgniter Development Services, CodeIgniter Development Company, CodeIgniter Development Company,"
     },
@@ -200,7 +200,7 @@ export const data = {
         keyword: "Custom Android App Development Services, Custom Android App Development Company, Android App Development Company Near Me, Android App Development Services,"
     },
     iosappsdevelopment: {
-        title: "iOS App Development Services | iOS App Development Company in USA | Webenix",
+        title: "iOS App Development Services Company in USA | Webenix",
         description: "Webenix offers iOS app development services include UI & UX design, QA, implementation and integration of applications for iPads & iPhones. You can see our iPhone, iPad, Apple Tv, iWatch app develoment services.",
         keyword: "iOS App Development Services, iOS App Development Company, iOS App Development Agency, Custom iOS App Development,"
     },
@@ -210,7 +210,7 @@ export const data = {
         keyword: "iPad App Development Company, iPad App Development Services, iPad App Development Agency,"
     },
     flutterappsdevelopment: {
-        title: "Flutter App Development Services | Flutter App Development Company | Webenix",
+        title: "Flutter App Development Services Company | Webenix",
         description: "Webenix is a professional Flutter App Development Company to build your app. Our Flutter mobile app development servies are devised to help you create a multi-platform entity.",
         keyword: "Flutter App Development Services, Flutter App Development Company, Flutter Mobile App Development Company, "
     },
@@ -235,7 +235,7 @@ export const data = {
         keyword: "Prototype Design Services, Prototype Design Company, Prototype Design Agency, "
     },
     mobileappdesign: {
-        title: "Mobile App Design Company India | Mobile App UI/UX Design Services",
+        title: "Mobile App Design Company | Mobile App UI/UX Design Services",
         description: " Get outstanding Mobile App Design Services for your business from best Mobile App UI/UX design company in India. Hire Mobile App Designers to develop high quality mobile app design.",
         keyword: "Mobile App Design Services, Mobile App Design Company, Mobile App Design Agency, "
     },
@@ -260,17 +260,17 @@ export const data = {
         keyword: "Hire Web Designers Near Me, Offshore Web Designer, Web Designer Programmer Near Me,"
     },
     hireuiuxdesigner: {
-        title: "Hire UI UX Designer Services and Dedicated UI UX | Webenix Technologies",
+        title: "Hire UI UX Designer Services and Dedicated UI UX | Webenix",
         description: "Webenix provide the Dedicated UI UX Designer for hire. You can explore the must-have skills of entire UI experts. Check out the free info by Webenix. ",
         keyword: "Hire UI UX Designer, UI UX Designer For Hire,"
     },
     hirephpdeveloper: {
-        title: "Hire PHP Developers and Dedicated PHP Programmer | Webenix Technologies",
+        title: "Hire Dedicated PHP Developers and Programmer | Webenix",
         description: "Hire Certified and Dedicated PHP Developers and Programmer from Webenix Technologies. We provide the professional PHP Developer teams which have expert-level knowledge in object-oriented.",
         keyword: "Hire PHP Developers, Hire Dedicated PHP Developers, PHP Developer For Hire,"
     },
     hiredotnetdeveloper: {
-        title: "Hire .Net Developer and Remote .Net Developer | Webenix Technologies",
+        title: "Hire Remote .Net Developer and Programmer | Webenix",
         description: "We offer top .Net Developers, programmers on part-time, full-time contract or an hourly basis. To find talented and qualified .Net Developer teams from webenix technologies.",
         keyword: "Hire .Net Developer, Hire Dot Net Developer, "
     },
@@ -280,12 +280,12 @@ export const data = {
         keyword: "Hire Laravel Developers, Hire Dedicated Laravel Developer, Laravel Development Agency,"
     },
     hircodeigniterdeveloper: {
-        title: "Hire Codeigniter Web Developer and Programmers | Webenix Technologies",
+        title: "Hire CodeIgniter Web Developer and Programmers | Webenix",
         description: "You can Hire Certified and Experienced CodeIgniter Developers. We provide dedicared CodeIgniter Developers for robust development solutions for your needs.",
         keyword: "Hire Codeigniter Developer, CodeIgniter Developer For Hire, Hire CodeIgniter Programmers,"
     },
     hirewordpressdeveloper: {
-        title: "Hire WordPress Developer | Remote WordPress Developer | Webenix Technologies",
+        title: "Hire WordPress Developer | Remote WordPress Developer",
         description: "Hire professional and experienced WordPress Developers and Programmers in USA from Webenix Technologies. We offer the Hire Our Dedicated WordPress Developers on an Hourly, Full-Time, Part Time basis. ",
         keyword: "Hire WordPress Developer, Hire Dedicated WordPress Developer, Custom WordPress Development,"
     },
@@ -325,7 +325,7 @@ export const data = {
         keyword: "Hire Ionic App Developer, Hire Ionic Developer, Hire Ionic Developers, Ionic Developer, "
     },
     hirereactnativedeveloper: {
-        title: "Hire React Native Developers | React Native App Developers - Webenix",
+        title: "Hire React Native Developers | React Native App Developers",
         description: "Hire Top Freelance React Native Developers. Webenix is a leading team of React Native Developers, programmers, coders, engineers, and architects. ",
         keyword: "Hire React Native Developer, Hire React Native Developers, Hire React Native App Developers, React Native Developers For Hire,"
     },
@@ -335,7 +335,7 @@ export const data = {
         keyword: "Hire ReactJS Developer, Hire ReactJS Developers, Hire ReactJS App Developers, Hire Dedicated ReactJS Developer, ReactJS Development Company,"
     },
     hirenodejsdeveloper: {
-        title: "Hire Top NodeJS Developers | Dedicated NodeJS Developer in USA | Webenix",
+        title: "Hire Top NodeJS Developers | Dedicated NodeJS Programmer",
         description: "Looking to Hire Top NodeJS Developer? Webenix is one of the excellent NodeJS Development companies with an expert development team. Our NodeJs Developer is flexible for partime,fulltime,contract and an hourly basis.",
         keyword: "Hire NodeJS Developer, Hire NodeJs Developers, NodeJS Development Services"
     },
@@ -345,33 +345,33 @@ export const data = {
         keyword: "Hire ExpressJS Developer, ExpressJS Developer For Hire,"
     },
     hirenextjsdeveloper: {
-        title: "Best Freelance NextJS Developers For Hire | Hire Next.Js Developer | Webenix",
-        description: " Hire Dedicated NextJS Developers to create highly customized, scalable, versatile, and responsive applications. Work with certified Next.js developers with full-time or part-time availability at the best cost for hir with Webenix.",
+        title: "Best Freelance NextJS Developers For Hire | Webenix",
+        description: "Hire Dedicated NextJS Developers to create highly customized, scalable, versatile, and responsive applications. Work with certified Next.js developers with full-time or part-time availability at the best cost for hir with Webenix.",
         keyword: "Hire NextJS Developer, NextJS Developers, Hire NextJS Developer Remotely, Dedicated NextJS Developer for Hire, Certified NextJS Developer,"
     },
     hireangularjsdeveloper: {
-        title: "Hire AngularJS Developer | Professional AngularJS Developer | Webenix",
-        description: " Hire the Top AngularJS Developers. Webenix provides best Angular JS Developers at a rate of $18 per hour with an average experience of 5 to 8 years. If you are looking to hire a team of AngularJS developer then please contact us.",
+        title: "Hire AngularJS Developer | Professional AngularJS Developer",
+        description: "Hire the Top AngularJS Developers. Webenix provides best Angular JS Developers at a rate of $18 per hour with an average experience of 5 to 8 years. If you are looking to hire a team of AngularJS developer then please contact us.",
         keyword: "Hire AngularJS Developer, Hire AngularJS Developers India, AngularJS Development Services, "
     },
     hirecontentwriter: {
-        title: "",
-        description: "",
+        title: "Hire Top Content Writer | Best Content Writer - Webenix",
+        description: "An integral part of your online marketing strategy is the creation of website content.",
         keyword: ""
     },
     hireppcexpert: {
-        title: "",
-        description: "",
+        title: "Hire PPC Expert | PPC Specialist - Webenix",
+        description: "Google Ads Services allows you to receive more leads in less time through one of the fastest marketing methods.",
         keyword: ""
     },
     hiresmmexpert: {
-        title: "",
-        description: "",
+        title: "Hire SMM Expert | Hire Social Media Marketing Specialist",
+        description: "Are you confident that your Online Social Media Presence is strong enough to beat your competitors? By optimizing your social media presence,",
         keyword: ""
     },
     hireseoexpert: {
-        title: "",
-        description: "",
+        title: "Hire SEO Expert | Best Search Engine Optimization Specialist - Webenix",
+        description: "When it comes to increasing Internet visibility, the first thing that comes to our mind is SEO",
         keyword: ""
     },
     blog: {
@@ -380,129 +380,144 @@ export const data = {
         keyword: ""
     },
     singleblog1: {
-        title: "",
-        description: "",
+        title: "Why it is necessary to do regular updates of your WordPress website?",
+        description: "If you are looking to create your website, then you must be thinking of WordPress. It",
         keyword: ""
     },
     singleblog2: {
-        title: "",
-        description: "",
+        title: "WordPress automation tools and tips",
+        description: "If you use WordPress to create your company's website, it is important to make maximum use of its tools and plugins to create a user-friendly.",
         keyword: "WordPress automation tools"
     },
     singleblog3: {
-        title: "",
-        description: "",
+        title: "Top Things Your Landing Page Should Have",
+        description: "When you develop the website for your company, your primary target will be to use the website as a marketing tool.",
         keyword: ""
     },
     singleblog4: {
-        title: "",
-        description: "",
+        title: "Top Predictions for Facebook Advertising in 2021",
+        description: "If you plan to use Facebook as a platform to promote the products and services offered by your company.",
         keyword: "Facebook Advertising Agency, Facebook Advertising Services"
     },
     singleblog5: {
-        title: "",
-        description: "",
+        title: "Top Advanced SEO Techniques to Maximize Your Search Traffic",
+        description: "It is a well-known fact that Search Engine Optimized or SEO managed website attracts more web traffic.",
         keyword: "Advanced SEO Techniques"
     },
     singleblog6: {
-        title: "",
-        description: "",
+        title: "The Best B2B Marketing Strategies to Increase Leads",
+        description: "When it comes to Business to Business or B2B marketing, the challenge you will face is reaching out to the correct customer base.",
         keyword: "B2B Marketing Strategies, Best B2B Marketing Strategies, Best B2B Digital Marketing Strategies"
     },
     singleblog7: {
-        title: "",
-        description: "",
+        title: "LinkedIn Marketing Best Strategies for 2021",
+        description: "LinkedIn is one of the most reputed Business to Business or B2B platforms, which can be utilized to create more resources and advertise the services provided by your firm.",
         keyword: "LinkedIn Marketing Best Strategies, LinkedIn Marketing Strategy, LinkedIn Marketing Strategies"
     },
     singleblog8: {
-        title: "",
-        description: "",
+        title: "Is managed WordPress hosting worth the extra price?",
+        description: "WordPress is one of the most efficient platforms to create websites, eCommerce portals, social media platforms and online forums services.",
         keyword: "Managed WordPress Hosting, Best Managed WordPress Hosting, Best WordPress Managed WordPress Hosting"
     },
     singleblog9: {
-        title: "",
-        description: "",
+        title: "How Will SEO Change in 2021?",
+        description: "Reference URL In the year 2021, you will observe a complete change in how online searches are carried out. Similarly.",
         keyword: "How Has SEO Changed, SEO Changes, Google SEO Change"
     },
     singleblog10: {
-        title: "",
-        description: "",
+        title: "How Web Agencies can reduce production cost in 2021?",
+        description: "If you are planning to take your company online, you will have to develop a website for your business enterprise that does justice.",
         keyword: "Reduce Cost of Production, How To Reduce Cost Production, How To Reduce Cost of Production"
     },
     singleblog11: {
-        title: "",
-        description: "",
+        title: "How to motivate and engage a remote software team?",
+        description: "If you are a business manager or a team lead, you will be tasked with managing not just the business aspect of your company.",
         keyword: "Remote Team Software, Best Remote Team Management Software, Remote Team Management Software, Best Software Fore Remote Teams"
     },
     singleblog12: {
-        title: "",
-        description: "",
+        title: "How to avoid cultural pitfalls in outsourcing?",
+        description: "When you outsource some of your business activities to a company in a different geographical location, it is essential to ensure that you prove.",
         keyword: ""
     },
     singleblog13: {
-        title: "",
-        description: "",
+        title: "How to speed optimize WordPress website?",
+        description: "While WordPress is a great platform, it suffers mostly from one weakness – its slow speed.",
         keyword: "Optimizing WordPress Website For Speed, WordPress Website Speed Optimization"
     },
     singleblog14: {
-        title: "",
-        description: "",
+        title: "How to secure WordPress site?",
+        description: "To make your WordPress website less vulnerable to hackers and malware, make sure that your WordPress software is up-to-date.",
         keyword: "Secure WordPress Site, How to Secure WordPress Site"
     },
     singleblog15: {
-        title: "",
-        description: "",
+        title: "How to keep your WordPress website updated?",
+        description: "Your WordPress website should be updated manually. The updates keep your themes, plugins, and WordPress version secure and up to date.",
         keyword: "How to Update WordPress Websites, How to Update Your WordPress Websites"
     },
     singleblog16: {
-        title: "",
-        description: "",
+        title: "Ten plugins you must-have for your WordPress website",
+        description: "The Plugins bring essential functions to your WordPress website. We may say that plugins are the building blocks of your WordPress site. ",
         keyword: ""
     },
     singleblog17: {
-        title: "",
-        description: "",
+        title: "How to Make Virtual Employees Productive?",
+        description: "Remote work or working virtually is on the rise, especially considering the recent scenario.",
         keyword: ""
     },
     singleblog18: {
-        title: "",
-        description: "",
+        title: "How Shoulds I Find the Right Outsourcing Partner in India?",
+        description: "For today's dynamic market, outsourcing is a boon and a blessing in disguise for every business.",
         keyword: ""
     },
     singleblog19: {
-        title: "",
-        description: "",
+        title: "A Comparison Between Fixed Price And Time And Material Contract",
+        description: "If not selecting the right outsourcing partner was not already daunting enough a task, choosing the right pricing framework also matters a lot.",
         keyword: ""
     },
     singleblog20: {
-        title: "",
-        description: "",
+        title: "7 Signs its time to Consider Outsourcing",
+        description: "There is no denying the fact that today there is an additional constant rising pressure in the global market which creates a competitive environment.",
         keyword: ""
     },
     singleblog21: {
-        title: "",
-        description: "",
+        title: "Top Reasons To Consider Offshore Development",
+        description: "The internet has made the whole world a tightly knit entity. The emergence of natural communication enablers like file sharing, desktop sharing",
         keyword: "effective outsourcing strategy, offshore development, offshore software development, offshore software development company, offshore development company"
     },
     singleblog22: {
-        title: "",
-        description: "",
+        title: "onshore-vs-offshore-development-which-is-better",
+        description: "Offshore development used to be the monopoly of India and China until quite recently. The picture is changing with various other countries.",
         keyword: "onshore vs offshore software development, offshore vs onshore software development"
     },
     singleblog23: {
-        title: "",
-        description: "",
+        title: "Offshore development best practices to know about",
+        description: "The arrangement, where team members separated by time-zones and geographical boundaries work together to make a project possible.",
         keyword: "Offshore development best practices, Offshore software development best practices, Offshore software development, Offshore development"
     },
     singleblog24: {
-        title: "",
-        description: "",
+        title: "Leading offshore development trends to know about",
+        description: "Offshore development is the reality, and several trends are emerging off it with this style gaining popularity worldwide.",
         keyword: "offshore software development trends"
     },
     singleblog25: {
-        title: "",
-        description: "",
+        title: "The Ways To Utilize An Effective Outsourcing Strategy And Achieve Business Success By Eliminating The Risks",
+        description: "Numerous organizations are on the lookout for innovative approaches to achieve a lot out of their business objectives without too much investment.",
         keyword: "effective outsourcing strategy, achieve business success"
+    },
+    singleblog26: {
+        title: "Tips to Hire Dedicated Programmers",
+        description: "",
+        keyword: "Hire Dedicated Programmers"
+    },
+    singleblog27: {
+        title: "How To Outsource Software Development Effectively?",
+        description: "Software development is a task and outs",
+        keyword: "Outsource Software Development"
+    },
+    singleblog28: {
+        title: "Top 10 Mobile App Trends in 2022",
+        description: "You must stay up to date on the latest mobile app trends to flourish as a developer or a business owner.",
+        keyword: "Mobile App Trends"
     },
     work: {
         title: "Our Portolio | Our Work | Webenix",
@@ -510,43 +525,48 @@ export const data = {
         keyword: "Portfolio, Our Portfolio, Our Work"
     },
     usapipelining: {
-        title: "",
-        description: "",
+        title: "Best Plumbing Company | USA Pipelining | Webenix",
+        description: "We are a South Florida based plumbing company specializing in pipelining, a method of restoring existing pipe systems in residential.",
         keyword: ""
     },
     southerntradelines: {
-        title: "",
-        description: "",
+        title: "Southern Tradelines | CrunchBase Company Profile | Webenix",
+        description: "We make tradelines easy to understand. Within a short time, you will be amazed by just how much your credit scores will have improved.",
         keyword: ""
     },
     theblossomacademy: {
         title: "",
-        description: "",
+        description: "Our powerful phonics – focused curriculum, memorable characters, catchy songs, meaningful storylines, and effective word work fosters.",
         keyword: ""
     },
     lifecoachakhan: {
-        title: "",
-        description: "",
+        title: "Professional Certified Basketball Athlete Life Coach | Webenix",
+        description: "Hello My name is Ashton Khan from Toronto, Canada. I am a Certified Life Coach and Professional Basketball.",
         keyword: ""
     },
     ellemar: {
-        title: "",
-        description: "",
+        title: "Ellemar Building and Remodeling Luxury Homes | Webenix",
+        description: "As a premier South Florida Luxury Home Builder, Ellemar Enterprises has been building and remodeling luxury homes.",
         keyword: ""
     },
     diningedge: {
-        title: "",
-        description: "",
+        title: "Dining Edge Technology Company - Webenix Technologies",
+        description: "DiningEdge Technology (DET) is a user friendly, Internet-based restaurant inventory software that has been developed for establishments.",
         keyword: ""
     },
     balderasconstruction: {
-        title: "",
-        description: "",
+        title: "Balderas Construction Company in Houston,TX | Webenix",
+        description: "Balderas Construction is a full-service, family-run construction company based in Houston, TX. With over 20 years in the industry.",
         keyword: ""
     },
     superstarscamp: {
-        title: "",
-        description: "",
+        title: "2023 Summer Super Stars Camp | Webenix",
+        description: "Super Stars is a well-established camp that has been serving this community for the past sixteen years.",
+        keyword: ""
+    },
+    agileAdvisoryGroup: {
+        title: "Agile Advisory Group | Webenix",
+        description: "We have been helping organizations of all sizes achieve agility and transform their operating models.",
         keyword: ""
     }
     

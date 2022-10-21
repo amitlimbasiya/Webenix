@@ -31,11 +31,12 @@ const USAPipeline = () => {
             <meta name="keywords" content={data.usapipelining.keyword} />
         </Head>
         <PageBanner 
+        headingClass="greenBrd"
             PageBannerBigTitle="PROJECT"
             PageBannerClass="pagebanner-section lightPurplBg noiseBg smallPart"
             PageBannerImgClass="pagebannerimg-col at-right-bottom" 
-            PageBannerTitle=""
-            PageBannerGreenUnderlineText="Project"
+            PageBannerTitle="Project"
+            PageBannerGreenUnderlineText=""
         />
         <s.SinglePortfolioWrapper className='zigzag-border-pattern'>
             <Container>

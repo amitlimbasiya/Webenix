@@ -187,3 +187,7 @@ export const SchemaWrapper  = styled.div`
     
 
 `;
+export const GtagWrapper  = styled.div` 
+    
+
+`;

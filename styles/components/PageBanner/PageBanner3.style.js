@@ -218,11 +218,27 @@ export const PageBannerContentPart  = styled.div`
         letter-spacing: 0.2px;
         color: #000;
         margin-bottom:8px;
+        position:relative;
 
         ${mediaQueries("mobile")` 
             font-size: 32px;
             margin-bottom: 15px;
         `} 
+
+        &.greenBrd{
+            display: inline-block;
+            margin: 0 !important;
+
+            :after{
+                position: absolute;
+                content: "";
+                left: 0;
+                background-color: rgba(27,167,140,0.3);
+                height: 6px;
+                width: 100%;
+                bottom: 0;
+            }
+        }
     }
     span{ 
         position: relative;

@@ -26,20 +26,21 @@ var settings = {
     speed: 500,
     adaptiveHeight: false
 };
-const USAPipeline = () => {
+const AgileAdvisoryGroup = () => {
   return (
     <>
         <Head>
-            <title>{data.usapipelining.title}</title>
-            <meta name="description" content={data.usapipelining.description}/>
-            <meta name="keywords" content={data.usapipelining.keyword} />
+            <title>{data.agileAdvisoryGroup.title}</title>
+            <meta name="description" content={data.agileAdvisoryGroup.description}/>
+            <meta name="keywords" content={data.agileAdvisoryGroup.keyword} />
         </Head>
         <PageBanner 
+        headingClass="greenBrd"
             PageBannerBigTitle="PROJECT"
             PageBannerClass="pagebanner-section lightPurplBg noiseBg smallPart"
             PageBannerImgClass="pagebannerimg-col at-right-bottom" 
-            PageBannerTitle=""
-            PageBannerGreenUnderlineText="Project"
+            PageBannerTitle="Project"
+            PageBannerGreenUnderlineText=""
         />
         <s.SinglePortfolioWrapper className='zigzag-border-pattern'>
             <Container>
@@ -120,4 +121,4 @@ const USAPipeline = () => {
   )
 }
 
-export default USAPipeline;
+export default AgileAdvisoryGroup;

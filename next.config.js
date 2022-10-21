@@ -13,5 +13,14 @@ module.exports = {
       },
       forceSwcTransforms: true,
   },
+  async redirects() {
+    return [
+      {
+        source: '/portfolio',
+        destination: '/work',
+        permanent: true,
+      },
+    ]
+  },
 };
 

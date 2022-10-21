@@ -15,6 +15,10 @@ export const SingleBlogWrapper  = styled.div`
         padding-left: 20px;
         padding-right: 20px;
 
+        ${mediaQueries("llg")`
+            margin-top: 60px;
+        `}
+
         .row{
 
             justify-content: space-between;
@@ -79,6 +83,13 @@ export const BlogContentWrapper  = styled.div`
         font-family: "Montserrat",sans-serif;
         font-weight: 700;       
     }
+    h4 strong{
+        color: #000;
+        font-size: 20px;
+        line-height: 36px;
+        font-family: "Montserrat",sans-serif;    
+    }
+
     .bloglink{
         color: #ff9000;
         font-weight: 700;
