@@ -380,7 +380,7 @@ export const data = {
         keyword: ""
     },
     singleblog1: {
-        title: "Why it is necessary to do regular updates of your WordPress website?",
+        title: "Why do regular updates of your WordPress website?",
         description: "If you are looking to create your website, then you must be thinking of WordPress. It",
         keyword: ""
     },
@@ -500,7 +500,7 @@ export const data = {
         keyword: "offshore software development trends"
     },
     singleblog25: {
-        title: "The Ways To Utilize An Effective Outsourcing Strategy And Achieve Business Success By Eliminating The Risks",
+        title: "Ways To Utilize An Effective Outsourcing Strategy And Achieve Business",
         description: "Numerous organizations are on the lookout for innovative approaches to achieve a lot out of their business objectives without too much investment.",
         keyword: "effective outsourcing strategy, achieve business success"
     },
@@ -535,7 +535,7 @@ export const data = {
         keyword: ""
     },
     theblossomacademy: {
-        title: "",
+        title: "The Blossom Academy | Academy | Webenix",
         description: "Our powerful phonics – focused curriculum, memorable characters, catchy songs, meaningful storylines, and effective word work fosters.",
         keyword: ""
     },
@@ -554,6 +554,7 @@ export const data = {
         description: "DiningEdge Technology (DET) is a user friendly, Internet-based restaurant inventory software that has been developed for establishments.",
         keyword: ""
     },
+    
     balderasconstruction: {
         title: "Balderas Construction Company in Houston,TX | Webenix",
         description: "Balderas Construction is a full-service, family-run construction company based in Houston, TX. With over 20 years in the industry.",
