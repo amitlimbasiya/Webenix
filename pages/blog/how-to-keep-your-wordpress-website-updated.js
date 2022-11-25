@@ -22,14 +22,14 @@ const SingleBlog = () => {
             <Row>
               <Col lg={12} md={12} className="mb-5 mb-md-0 singleblog-banner-content">
                 <p className='blog-category orangeColor'>WordPress</p>
-                <h1 className='blog-title'>How to keep your WordPress website updated?</h1>
+                <h1 className='blog-title'>How to always Update WordPress Website?</h1>
                 <span className='blog-date'>November 09, 2020</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
-                <Image src={KeepWordPressSiteUpdated} alt="How to keep your WordPress website updated?" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
+                <Image src={KeepWordPressSiteUpdated} alt="How to always Update WordPress Website" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
               </Col>
               <s.BlogContentWrapper>
-                <p>Your WordPress website should be updated manually. The updates keep your themes, plugins, and WordPress version secure and up to date. The minor releases are updated automatically by default. But, if the auto-update is disabled, then you will get notifications for an update. Updating WordPress is as easy as clicking an update button. WordPress will download the necessary files, formats and validate them according to need after your request to update. This way, your WordPress will be updated to the latest version.</p>
+                <p><strong>Update WordPress Website</strong> of your business regularly in order to avoid any problems further. The updates keep your themes, plugins, and WordPress version secure and up to date. The minor releases are updated automatically by default. But, if the auto-update is disabled, then you will get notifications for an update. Updating WordPress is as easy as clicking an update button. WordPress will download the necessary files, formats and validate them according to need after your request to update. <strong>WordPress Website Updated</strong> will bring all the new features to the desk.</p>
                 <p>A beginner will be confused about updating a WordPress website. We are here to provide you the easiest and convenient way to update your WordPress website securely. Go through the following steps to get a clear idea about how a WordPress website can be updated.</p>
               </s.BlogContentWrapper>
               <s.BlogContentWrapper>
@@ -67,7 +67,9 @@ const SingleBlog = () => {
               {/* <s.BlogImageWrapper>
                 <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' /></a></Link>
               </s.BlogImageWrapper> */}
-              <s.BlogContentWrapper>
+            <s.BlogContentWrapper>
+              <h3>Conclusion:</h3>
+              <p>In order to <strong>WordPress Website Update</strong>, it makes a huge difference in the working and thus you get to explore and learn about the new features frequently. </p>
                 <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>
               </s.BlogContentWrapper>
             </Row>

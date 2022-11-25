@@ -24,14 +24,14 @@ const SingleBlog = () => {
             <Row>
               <Col lg={12} md={12} className="mb-5 mb-md-0 singleblog-banner-content">
                 <p className='blog-category orangeColor'>Outsourcing</p>
-                <h1 className='blog-title'>The ways to utilize an effective outsourcing strategy and achieve business success by eliminating the risks</h1>
+                <h1 className='blog-title'>Eliminate the risks and utilize an effective Business Outsourcing Process in Business</h1>
                 <span className='blog-date'>August 03, 2020</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
-                <Image src={WaysUEISABSER} alt="The ways to utilize an effective outsourcing strategy and achieve business success by eliminating the risks" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
+                <Image src={WaysUEISABSER} alt="Eliminate the risks and utilize an effective Business Outsourcing Process in Business" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
               </Col>
               <s.BlogContentWrapper>
-                <p>Numerous organizations are on the lookout for innovative approaches to achieve a lot out of their business objectives without too much investment. Outsourcing your business is one methodology that can save you a lot of time, money, and disappointments, especially when you start and are on the way to constructing your business. By outsourcing, you transfer your business responsibilities to a group of gifted, yet financially reasonable, outer service providers.</p>
+                <p>Various <strong>Business Outsourcing processes</strong> are on the lookout for innovative approaches to achieve a lot out of their business objectives without too much investment. <strong>Outsourcing in business</strong> is one methodology that can save you a lot of time, money, and disappointments, especially when you start and are on the way to constructing your business. With the help of <strong>Business Outsourcing Services</strong> you transfer your business responsibilities to a group of gifted, yet financially reasonable, outer service providers.</p>
               </s.BlogContentWrapper>
               <s.BlogContentWrapper>
                 <h3>The advantages that outsourcing brings to your business:</h3>
@@ -152,13 +152,13 @@ const SingleBlog = () => {
               </s.BlogContentWrapper>
               <s.BlogContentWrapper>
                 <h3>Conclusion:</h3>
-                <p>With outsourcing, you can benefit from top-rate services without the need to hire a professional for a full-time job. When you are recruiting specialists to cater to your different needs, you can not only concentrate on your business core competencies but also compete with the conveyance abilities of bigger associations while keeping up your freedom.</p>
+                <p>With the Business Outsourcing Services, you can benefit from top-rate services without the need to hire a professional for a full-time job. When you recruit the Offshore Development you can not only concentrate on your business core competencies but also compete with the conveyance abilities of bigger associations while keeping up your freedom.</p>
               </s.BlogContentWrapper>
               {/* <s.BlogImageWrapper>
                 <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' /></a></Link>
               </s.BlogImageWrapper> */}
               <s.BlogContentWrapper>
-                <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>
+                <p>If you are looking for a reliable web design & development <Link href="#"><a>Business Outsourcing Services</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>
               </s.BlogContentWrapper>
             </Row>
         </Container>

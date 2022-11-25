@@ -23,14 +23,14 @@ const SingleBlog = () => {
             <Row>
               <Col lg={12} md={12} className="mb-5 mb-md-0 singleblog-banner-content">
                 <p className='blog-category orangeColor'>Development</p>
-                <h1 className='blog-title'>Leading offshore development trends to know about</h1>
+                <h1 className='blog-title'>Do you know the latest Offshore Development Trends?</h1>
                 <span className='blog-date'>August 10, 2020</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
-                <Image src={LeadingTrendsKnowAbout} alt="Leading offshore development trends to know about" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
+                <Image src={LeadingTrendsKnowAbout} alt="Do you know the latest Offshore Development Trends?" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
               </Col>
               <s.BlogContentWrapper>
-                <p>Offshore development is the reality, and several trends are emerging off it with this style gaining popularity worldwide. Users do not want to settle for something less in quality because the conditions are not conventional while dealing with developers offshore. That is why; things are taking more professional garb with the introduction of more accurate measures adopted in the working process. Some of the advanced trends in offshore development procedures are:</p>
+                <p><strong>Offshore Development Trends</strong> are the reality, and several emerging off it with this style gaining popularity worldwide. Users do not want to settle for something less in quality because the conditions are not conventional while dealing with <strong>Offshore Developers</strong>. That is why; things are taking more professional garb with the introduction of more accurate measures adopted in the working process. Some of the advanced <strong>Offshore Development Trends</strong> procedures are:</p>
               </s.BlogContentWrapper>
               <s.BlogContentWrapper>
                 <h3>Increase in the Use of Collaborative Tools</h3>
@@ -65,7 +65,9 @@ const SingleBlog = () => {
               {/* <s.BlogImageWrapper>
                 <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' /></a></Link>
               </s.BlogImageWrapper> */}
-              <s.BlogContentWrapper>
+            <s.BlogContentWrapper>
+                <h3>Conclusion:</h3>
+                <p>Above mentioned are some of the upcoming Offshore Development Trends that are going to define how the companies will leverage their strengths for their product enhancement strategies.</p>
                 <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>
               </s.BlogContentWrapper>
             </Row>

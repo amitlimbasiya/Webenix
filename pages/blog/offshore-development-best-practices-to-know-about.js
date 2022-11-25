@@ -22,14 +22,14 @@ const SingleBlog = () => {
             <Row>
               <Col lg={12} md={12} className="mb-5 mb-md-0 singleblog-banner-content">
                 <p className='blog-category orangeColor'>Development</p>
-                <h1 className='blog-title'>Offshore development best practices to know about</h1>
+                <h1 className='blog-title'>Know the best practises for Offshore Outsourcing</h1>
                 <span className='blog-date'>August 17, 2020</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
-                <Image src={OffshoreDevelopment} alt="Offshore development best practices to know about" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
+                <Image src={OffshoreDevelopment} alt="Know the best practises for Offshore Outsourcing" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
               </Col>
               <s.BlogContentWrapper>
-                <p>The arrangement, where team members separated by time-zones and geographical boundaries work together to make a project possible, forms the basis of offshore development. On the one hand, the companies enjoy cost-effective development, and at the other, the workers get to work in a flexible and more autonomous environment. In such a scenario, the need to be more accountable and responsible for the jobs assigned becomes exceptionally prominent. While both parties need to develop more trustworthy work culture, the existence of a code of ethical practices can improve the situation sustainably. Some of the best practices worth following for offshore development are:</p>
+                <p>Why should I look forward to <strong>Offshore Wind Development</strong>? The arrangement, where team members separated by time-zones and geographical boundaries work together to make a project possible, forms the basis of <strong>Offshore Development Best Practices</strong>. On the one hand, the companies enjoy cost-effective development, and on the other, the workers get to work in a flexible and more autonomous environment. In such a scenario, the need to be more accountable and responsible for the jobs assigned becomes exceptionally prominent. While both parties need to develop a more trustworthy work culture, the existence of a code of ethical practices can improve the situation sustainably. Some of the best practices worth following for <strong>Offshore Development Best Practices</strong> are are:</p>
               </s.BlogContentWrapper>
               <s.BlogContentWrapper>
                 <h3>Be very specific and straightforward in communication</h3>
@@ -60,7 +60,9 @@ const SingleBlog = () => {
               {/* <s.BlogImageWrapper>
                 <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' /></a></Link>
               </s.BlogImageWrapper> */}
-              <s.BlogContentWrapper>
+            <s.BlogContentWrapper>
+                <h3>Conclusion:</h3>
+                <p>Following these crucial <strong>Offshore Development Best Practices</strong> can help create a cohesive work environment even when the contingents work in globally dispersed spaces. So, make these practices your work ethics; these will help make offshore development a big success.</p>
                 <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>
               </s.BlogContentWrapper>
             </Row>

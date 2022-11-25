@@ -4,9 +4,9 @@ import Image from 'next/image';
 import { Col, Container, Row } from 'react-bootstrap';
 import Blog from '../../components/Blog';
 import * as s from "../../styles/components/SingleBlog.style";
-import WhyWPWebsite from '../../public/images/blogs/why-necessary.jpg';
 import Head from 'next/head';
 import { data } from "../../data/Seo";
+import HowOutsourceSoftwareDevelopmentEffectively from '../../public/images/blogs/How-To-Outsource-Software-Development-Effectively.jpg';
 
 const SingleBlog = () => {
   return (
@@ -26,7 +26,7 @@ const SingleBlog = () => {
                 <span className='blog-date'>October 13, 2022</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
-                <Image src={WhyWPWebsite} alt="How To Outsource Software Development Effectively?" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
+                <Image src={HowOutsourceSoftwareDevelopmentEffectively} alt="How To Outsource Software Development Effectively?" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
               </Col>
               <s.BlogContentWrapper>
                 <p>In-house software development teams are expensive to maintain. Thus many businesses are turning to <strong>outsourcing software development</strong> instead. The term "software outsourcing" refers to the practice of employing a third-party software contractor to complete a project requiring technical expertise. With this in mind, it's clear that outsourcing may help firms cut expenses, improve customer service, and keep product quality steady. Similarly, it places emphasis on your most valuable skill set in light of your restricted resources.</p>

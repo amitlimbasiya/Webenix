@@ -22,14 +22,14 @@ const SingleBlog = () => {
             <Row>
               <Col lg={12} md={12} className="mb-5 mb-md-0 singleblog-banner-content">
                 <p className='blog-category orangeColor'>Outsourcing</p>
-                <h1 className='blog-title'>How to avoid cultural pitfalls in outsourcing?</h1>
+                <h1 className='blog-title'>Know how to avoid the Cultural Pitfalls Outsourcing?</h1>
                 <span className='blog-date'>June 01, 2021</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
-                <Image src={AvoidCulturalOutSourcing} alt="ow to avoid cultural pitfalls in outsourcing?" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100'/>
+                <Image src={AvoidCulturalOutSourcing} alt="Know how to avoid the Cultural Pitfalls Outsourcing?" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100'/>
               </Col>
               <s.BlogContentWrapper>
-                <p>When you outsource some of your business activities to a company in a different geographical location, it is essential to ensure that you prove to be a supportive and encouraging business enterprise. Often for outsourcing companies, it becomes necessary to avoid cultural pitfalls and nurture an atmosphere conducive to growth and development. For example, if you are located in a country that is not aware of the country&#39;s cultural intricacies in which the firm that you have outsourced the work is located, you might be faced with complex problems. One of the most common issues that managers of outsourcing companies often face is that the two firms&#39; holidays often do not match, which leads to problems regarding completing the work on schedule. However, you can easily overcome the problem by getting to know beforehand the company&#39;s calendar that you have outsourced your business activities. After that, all you need to do is schedule the tasks you want to outsource according to the outsourced company&#39;s calendar. This way, you will ensure that the work gets completed on time and the company&#39;s team members outsource the work to do not face any problem with completing the job on schedule. It will also show that you are concerned about the cultural intricacies of the employees working in the company, you have outsourced your work to. Some of the other methods that you can follow to avoid cultural pitfalls while outsourcing are as follows:</p>                
+                <p><strong>Outsourcing Problems</strong> occur when you outsource some of your business activities to a company in a different geographical location, it is essential to ensure that you prove to be a supportive and encouraging business enterprise. Often for outsourcing companies, it becomes necessary to avoid cultural pitfalls and <strong>Problems with Outsourcing</strong> that occur. For example, if you are located in a country that is not aware of the country's cultural intricacies in which the firm that you have outsourced the work is located, you might be faced with complex problems. One of the most common issues that managers of outsourcing companies often face is that the two firms' holidays often do not match, which leads to problems regarding completing the work on schedule. However, you can easily overcome the problem by getting to know beforehand the company's calendar that you have outsourced your business activities. After that, all you need to do is schedule the tasks you want to outsource according to the outsourced company's calendar. This way, you will ensure that the work gets completed on time and the company's team members outsource the work to not face any problem with completing the job on schedule. It will also show that you are concerned about the cultural intricacies of the employees working in the company you have outsourced your work to. Some of the other methods that you can follow to avoid <strong>cultural pitfalls outsourcing</strong> are as follows:</p>                
               </s.BlogContentWrapper>
               <s.BlogContentWrapper>
                 <h3>Maintaining professional etiquette</h3>
@@ -49,7 +49,9 @@ const SingleBlog = () => {
               {/* <s.BlogImageWrapper>
                 <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100'/></a></Link>
               </s.BlogImageWrapper> */}
-              <s.BlogContentWrapper>
+            <s.BlogContentWrapper>
+              <h3>Conclusion:</h3>
+                <p><strong>Problems with Outsourcing</strong> work to teams located in other geographical locations is often necessary to ensure that the work is completed on time and expertly. To do so, you must prove to be helpful and supportive to these teams. Business managers often mention that they face issues while evaluating the cultural requirements of these teams. However, this is not difficult and can be managed easily only if you try and understand these teams' backgrounds. It would be best if you also kept in mind that since these teams do not interact with you and do not know you as an individual, you must be careful while interacting with them. You should maintain professional etiquette while interacting with the team, ensuring that you avoid any cultural issues.</p>
                 <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>
               </s.BlogContentWrapper>
             </Row>

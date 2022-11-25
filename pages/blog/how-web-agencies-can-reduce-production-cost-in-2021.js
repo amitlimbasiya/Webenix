@@ -22,14 +22,14 @@ const SingleBlog = () => {
             <Row>
               <Col lg={12} md={12} className="mb-5 mb-md-0 singleblog-banner-content">
                 <p className='blog-category orangeColor'>Outsourcing</p>
-                <h1 className='blog-title'>How Web Agencies can reduce production cost in 2021?</h1>
+                <h1 className='blog-title'>How Website Development Costs can be reduced in 2021?</h1>
                 <span className='blog-date'>June 05, 2021</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
-                <Image src={WebAgenciesProductionCost} alt="How Web Agencies can reduce production cost in 2021?" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
+                <Image src={WebAgenciesProductionCost} alt="How Website Development Costs can be reduced in 2021?" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
               </Col>
               <s.BlogContentWrapper>
-                <p>If you are planning to take your company online, you will have to develop a website for your business enterprise that does justice to your firm&#39;s products and services. Designing a website requires expertise, and hence, you should outsource your requirements to a reputed web agency. This will ensure that the website for your company is both professionally designed and meets all your needs. Additionally, the website must be designed so that it is easy to navigate and your visitors can easily find the web pages they are looking for. The website itself should be informative so that the visitor can easily find the information that he needs. Thus, a well-designed website, which is easy to navigate, is essential if you want to create an excellent website that can translate into a practical online marketing strategy. Some of the methods by which web agencies are offering to reduce the price of developing a website for client&#39;s, especially for the year 2021, are as follows:</p>                
+                <p>Why should you take your business totally on online platforms? The best reason that a business can look up to is <strong>Web Agencies Reduce Production Cost</strong> to develop the best Websites. There are different Website Development Costs that you can get in the market and that is the advantage that you can look up to your budget to develop it from the business. Additionally, the website must be designed so that it is easy to navigate and your visitors can easily find the web pages they are looking for. The website itself should be informative so that the visitor can easily find the information that he needs. Thus, a well-designed website, which is easy to navigate, is essential if you want to create an excellent website that can translate into a practical online marketing strategy with the best <strong>Website Management Cost</strong>. Some of the methods by which web agencies are offering to reduce the price of developing a website for client's, especially for the year 2021, are as follows:</p>                
               </s.BlogContentWrapper>
               <s.BlogContentWrapper>
                 <h3>1. Try to use a pre-existing template.</h3>
@@ -63,7 +63,9 @@ const SingleBlog = () => {
               {/* <s.BlogImageWrapper>
                 <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' /></a></Link>
               </s.BlogImageWrapper> */}
-              <s.BlogContentWrapper>
+            <s.BlogContentWrapper>
+              <h3>Conclusion:</h3>
+              <p>Thus, by taking simple steps, you can help reduce <strong>Website Development Costs</strong>. Web development agencies also try to provide clients with numerous <strong>Website Marketing Costs</strong> that will make it easier for them to consider creating a website and taking their services online. The year 2021 will see a marked increase in the number of eCommerce portals and marketplaces. Hence, creating a website for your company will become necessary if you want to stay ahead of the competition. Keeping this in mind, most web development agencies provide clients with numerous methods to reduce the cost of developing a website and help take their businesses online.</p>
                 <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>
               </s.BlogContentWrapper>
             </Row>

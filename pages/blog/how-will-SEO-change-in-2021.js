@@ -22,14 +22,15 @@ const SingleBlog = () => {
             <Row>
               <Col lg={12} md={12} className="mb-5 mb-md-0 singleblog-banner-content">
                 <p className='blog-category orangeColor'>Seo</p>
-                <h1 className='blog-title'>How Will SEO Change in 2021?</h1>
+                <h1 className='blog-title'>How will SEO change the marketing reach in your business in 2022?</h1>
                 <span className='blog-date'>June 07, 2021</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
-                <Image src={SEOChange} alt="How Will SEO Change in 2021?" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
+                <Image src={SEOChange} alt="How will SEO change the marketing reach in your business in 2022?" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
               </Col>
               <s.BlogContentWrapper>
-                <p>Reference URL In the year 2021, you will observe a complete change in how online searches are carried out. Similarly, search engines have to change the evaluation methods to identify appropriate websites. Searches are no longer merely keyword based but mostly done with algorithms and web crawlers. Hence, the engines have to predict the user intent along with the fundamental objective of the search. Thus, for web developers, it has become essential to create web content optimized for search engines. With Search Engine Optimization or SEO-based content, you can be assured that your company&#39;s website will receive more web traffic, ensuring a higher ranking in the Search Engine Result Pages or SERPs. Some of the methods in which SEO will change in 2021 are as follows:</p>                
+              <p>Reference URL In the year 2021, you will observe a complete change in how online searches are carried out. The question is <strong>will SEO change</strong> the algorithm of content marketing in business? Yes it would. Similarly, search engines have to change the evaluation methods to identify appropriate websites. Searches are no longer merely keyword based but mostly done with algorithms and web crawlers. Hence, the engines have to predict the user intent along with the fundamental objective of the search. Thus, for web developers, it has become essential to create web content optimized for search engines.</p>                
+              <p>With <strong>SEO Update</strong> the algorithm of content marketing or SEO-based content, you can be assured that your company's website will receive more web traffic, ensuring a higher ranking in the Search Engine Result Pages or SERPs. Some of the methods in which SEO will change in 2021 are as follows:</p>
               </s.BlogContentWrapper>
               <s.BlogContentWrapper>
                 <h3>1. Identifying user intent</h3>
@@ -47,7 +48,9 @@ const SingleBlog = () => {
               {/* <s.BlogImageWrapper>
                 <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' /></a></Link>
               </s.BlogImageWrapper> */}
-              <s.BlogContentWrapper>
+            <s.BlogContentWrapper>
+              <h3>Conclusion:</h3>
+                <p>Thus, for the year 2021, improving user experience and ensuring that customers feel satisfied visiting a particular website will be given importance with the <strong>SEO Update</strong> These will be the driving factors for creating SEO based content. Additionally, this is important to ensure that the quality of the website's content is upgraded and is designed as per customer requirements, which will be the primary change in SEO for the upcoming year.</p>
                 <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>
               </s.BlogContentWrapper>
             </Row>

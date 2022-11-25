@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { Col, Container, Row } from 'react-bootstrap';
 import Blog from '../../components/Blog';
 import * as s from "../../styles/components/SingleBlog.style";
-import WhyWPWebsite from '../../public/images/blogs/why-necessary.jpg';
+import TipsHireDedicatedProgrammers from '../../public/images/blogs/Tips-to-Hire-Dedicated-Programmers.jpg';
 import Head from 'next/head';
 import { data } from "../../data/Seo";
 
@@ -26,7 +26,7 @@ const SingleBlog = () => {
                 <span className='blog-date'>October 13, 2022</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
-                <Image src={WhyWPWebsite} alt="Tips to Hire Dedicated Programmers" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
+                <Image src={TipsHireDedicatedProgrammers} alt="Tips to Hire Dedicated Programmers" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
               </Col>
               <s.BlogContentWrapper>
                 <p>Okay, so here's the deal. It doesn't matter if you're a startup, a medium-sized business, or a multinational conglomerate; having your mobile app is essential. Apps on mobile devices account for 70% of all digital media consumption in the United States. You need a first-rate digital presence and efficiency across all platforms, not just smartphones. These are essential to the success of your company.</p>

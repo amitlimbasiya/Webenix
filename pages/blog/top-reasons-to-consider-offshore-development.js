@@ -22,14 +22,14 @@ const SingleBlog = () => {
             <Row>
               <Col lg={12} md={12} className="mb-5 mb-md-0 singleblog-banner-content">
                 <p className='blog-category orangeColor'>Outsourcing</p>
-                <h1 className='blog-title'>Top Reasons to consider offshore development</h1>
+                <h1 className='blog-title'>Top-5 reasons to look for Offshore Development in the Business</h1>
                 <span className='blog-date'>September 01, 2020</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
-                <Image src={TopResonsOffshireDevelopment} alt="Top Reasons to consider offshore development" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
+                <Image src={TopResonsOffshireDevelopment} alt="Top-5 reasons to look for Offshore Development in the Business" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
               </Col>
               <s.BlogContentWrapper>
-                <p>The internet has made the whole world a tightly knit entity. The emergence of natural communication enablers like file sharing, desktop sharing, video conferences, etc. has further eased the working without bothering about geographical boundaries. For any business, inviting the experts and giving them a place to work and stay is not budget-friendly always. So, they resort to the idea of offshore development. Listed here are the other best reasons, apart from cost-effectiveness, that form the premise of adopting offshore development.</p>
+                <p>Offshore Development has made working easier globally. With the power of the internet, overseas development has made networking and working together much easier. The emergence of natural communication enablers like file sharing, desktop sharing, video conferences, etc. has further eased the working without bothering about geographical boundaries. For any business, inviting the experts and giving them a place to work is one of the benefits of offshore outsourcing. Listed here are the other best reasons, apart from cost-effectiveness, that form the premise of adopting offshore development.</p>
               </s.BlogContentWrapper>
               <s.BlogContentWrapper>
                 <h3>Having the best brains for the job</h3>
@@ -56,7 +56,12 @@ const SingleBlog = () => {
                 <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' /></a></Link>
               </s.BlogImageWrapper> */}
               <s.BlogContentWrapper>
-                <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>
+                <h3>Conclusion:</h3>
+                <p>With Offshore Development, you can easily reach out to the affordable developers that resided in other countries. For example, India is one of the countries the world looks at for Offshore development experts who work at meager rates compared to the western side of the world.Thus, start-ups can take the help of affordable expertise through Overseas Development.</p>
+                <p>Offshore development has become a pleasant reality for businesses who do not mind going beyond geographical boundaries to accomplish their projects. Benefits provided by it make it an intelligent approach rather than a fancy trend.</p>
+              </s.BlogContentWrapper>
+              <s.BlogContentWrapper>
+                <p>If you are looking for a reliable web design & development <Link href="#"><a>Outsourcing Development Company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>
               </s.BlogContentWrapper>
             </Row>
         </Container>

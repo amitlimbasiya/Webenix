@@ -22,14 +22,14 @@ const SingleBlog = () => {
             <Row>
               <Col lg={12} md={12} className="mb-5 mb-md-0 singleblog-banner-content">
                 <p className='blog-category orangeColor'>Outsourcing</p>
-                <h1 className='blog-title'>How Shoulds I Find the Right Outsourcing Partner in India?</h1>
+                <h1 className='blog-title'>Is Choosing the right outsourcing partner a task? Not anymore.</h1>
                 <span className='blog-date'>September 22, 2020</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
-                <Image src={FindOutsourcingPartner} alt="How Shoulds I Find the Right Outsourcing Partner in India?" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
+                <Image src={FindOutsourcingPartner} alt="Is Choosing the right outsourcing partner a task? Not anymore." className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
               </Col>
               <s.BlogContentWrapper>
-                <p>For today&#39;s dynamic market, outsourcing is a boon and a blessing in disguise for every business. And since businesses today are dependent and look forward to expanding their business through outsourcing, it is crucial to choose the right outsourcing partner from India who can aid in the yielding of the best possible dividends. And even then, choosing the right outsourcing partner is the most daunting task that most organizations and companies face today.</p>
+                <p>According to today’s scenario, working remotely and <strong>Choosing the right outsourcing partner</strong> is a task that can aid in the yielding of the best possible dividends. And even then, choosing the right outsourcing partner is the most daunting task that most organizations and companies face today.</p>
                 <p>When a company chooses an outsourcing partner, defining the final results and the expectations of the company from the offshore partner goes a long way and aids in choosing the right outsourcing partner in India. Ask the following questions before finalizing on a particular offshore partner while shortlisting.</p>
                 <ul className='blog-listing'>								
                   <li>The outsourcing partner that you are choosing, does it have the requisite experience in handling the services that your company is outsourcing.</li>								
@@ -77,7 +77,9 @@ const SingleBlog = () => {
               {/* <s.BlogImageWrapper>
                 <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100'/></a></Link>
               </s.BlogImageWrapper> */}
-              <s.BlogContentWrapper>
+            <s.BlogContentWrapper>
+                <h3>Conclusion:</h3>
+                <p>When building a business, every <strong>Third Party Outsourcing company</strong> aims to be the best in the market and they have two options to do so. It is either by <strong>Choosing the Right Outsourcing</strong> their project or by hiring an in-house team. Even though many find it challenging to outsource, it is what gives a company their competitive edge over the others who do not. Outsourcing is the key to boosting the growth and development of any business and the most popular global companies rely on <strong>Third Party Outsourcing Companies</strong> for their business. But the question arises here is that you are ready to outsource your business. And if you find yourself answering the question with a positive answer, then consider the above factors when selecting the <strong>Right Outsourcing Partner</strong> for your company.</p>
                 <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>
               </s.BlogContentWrapper>
             </Row>

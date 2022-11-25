@@ -7,6 +7,7 @@ import * as s from "../../styles/components/SingleBlog.style";
 import singleBlogBannerThumb from '../../public/images/blogs/onshore-vs-offshore.jpg';
 import Head from 'next/head';
 import { data } from "../../data/Seo";
+import router from "../../utils/router";
 
 const SingleBlog = () => {
   return (
@@ -22,14 +23,14 @@ const SingleBlog = () => {
             <Row>
               <Col lg={12} md={12} className="mb-5 mb-md-0 singleblog-banner-content">
                 <p className='blog-category orangeColor'>Development</p>
-                <h1 className='blog-title'>onshore-vs-offshore-development-which-is-better</h1>
+                <h1 className='blog-title'>Know the difference Onshore Vs Offshore Software Development</h1>
                 <span className='blog-date'>August 24, 2020</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
-                <Image src={singleBlogBannerThumb} alt="onshore-vs-offshore-development-which-is-better" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
+                <Image src={singleBlogBannerThumb} alt="Know the difference Onshore Vs Offshore Software Development" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
               </Col>
               <s.BlogContentWrapper>
-                <p>Offshore development used to be the monopoly of India and China until quite recently. The picture is changing with various other countries like Malaysia and Eastern European nations joining the bandwagon. The growing demand for offshore development does leave the people curious about the reason behind it. Also, the trend and future of onshore development require scrutiny in light of the companies&#39; changing attitudes. So, let&#39;s take a comparative look at offshore and onshore development and arrive at a conclusion.</p>
+                <p><strong>Offshore Development</strong> used to be the monopoly of India and China until quite recently. The picture is changing with various other countries like Malaysia and Eastern European nations joining the bandwagon. The growing demand for offshore development does leave the people curious about the reason behind it. Also, the trend and future of onshore development require scrutiny in light of the companies' changing attitudes. So, let's take a comparative look at <strong>Offshore VS Onshore Development</strong> and arrive at a conclusion.</p>
               </s.BlogContentWrapper>
               <s.BlogContentWrapper>
                 <h3>Offshore development &ndash; pros and cons</h3>
@@ -67,8 +68,10 @@ const SingleBlog = () => {
               {/* <s.BlogImageWrapper>
                 <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' /></a></Link>
               </s.BlogImageWrapper> */}
-              <s.BlogContentWrapper>
-                <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>
+            <s.BlogContentWrapper>
+                <h3>Conclusion:</h3>
+                <p>The battle will still be going on as <strong>Onshore VS Offshore Software Development</strong> and it entirely depends upon the kind of application you want to achieve. If the project is short term, it is basic in functionalities and requires a variety of experts working at low cost; then, offshore development is the answer.</p>
+                <p>On the other hand, when the project is expansive and needs improvements without requiring many experts to work, the better choice is – Onshore Development. No lack of budget also makes a suitable situation for <Link href={router.REACTNATIVEDEVELOPMENT}><a>hiring native developers</a></Link></p>
               </s.BlogContentWrapper>
             </Row>
         </Container>

@@ -190,14 +190,14 @@ const Blog = () => {
                                 <Link href={router.SINGLEBLOG25}>
                                     <a>
                                         <s.blogImage>
-                                            <Image layout='responsive' src={WaysUEISABSER} placeholder="blur"  alt="The ways to utilize an effective outsourcing strategy and achieve business success by eliminating the risks"  />
+                                            <Image layout='responsive' src={WaysUEISABSER} placeholder="blur"  alt="Eliminate the risks and utilize an effective Business Outsourcing Process in Business"  />
                                         </s.blogImage>
                                     </a>
                                 </Link>
                                 <s.blogCategory>outsourcing</s.blogCategory>
                                 <s.blogTitle className='postHeading'>
                                     <Link href={router.SINGLEBLOG25}>
-                                        <a>The ways to utilize an effective outsourcing strategy and achieve business success by eliminating the risks</a>
+                                        <a>Eliminate the risks and utilize an effective Business Outsourcing Process in Business</a>
                                     </Link>
                                 </s.blogTitle>
                                 <Link href={router.SINGLEBLOG25}>
@@ -210,13 +210,13 @@ const Blog = () => {
                                 <Link href={router.SINGLEBLOG21}>
                                     <a>
                                         <s.blogImage>
-                                            <Image layout='responsive' src={TopResonsOffshireDevelopment} placeholder="blur"  alt="Top Reasons to consider offshore development"  />
+                                            <Image layout='responsive' src={TopResonsOffshireDevelopment} placeholder="blur"  alt="Top-5 reasons to look for Offshore Development in the Business"  />
                                         </s.blogImage>
                                     </a>
                                 </Link>
                                 <s.blogCategory>outsourcing</s.blogCategory>
                                 <s.blogTitle className='postHeading'>
-                                    <Link href={router.SINGLEBLOG21}><a>Top Reasons to consider offshore development</a></Link>
+                                    <Link href={router.SINGLEBLOG21}><a>Top-5 reasons to look for Offshore Development in the Business</a></Link>
                                 </s.blogTitle>
                                 <Link href={router.SINGLEBLOG21}>
                                     <a className='blogLink'>Read more</a>

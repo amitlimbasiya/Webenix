@@ -29,9 +29,9 @@ const SingleBlog = () => {
                 <Image src={MakeVirtualEmployeesProductive} alt="How to Make Virtual Employees Productive?" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
               </Col>
               <s.BlogContentWrapper>
-                <p>Remote work or working virtually is on the rise, especially considering the recent scenario. Even though managing remote employees can be stressful enough to want one tear of their hair, it is one of the greatest competitive strength. It is a lot easier to hire talented professionals without considering the location also.</p>
+                <p><strong>Remote employee productivity</strong> or working virtually is on the rise, especially considering the recent scenario. Even though managing remote employees can be stressful enough to want one tear of their hair, it is one of the greatest competitive strengths. It is a lot easier to hire talented professionals without considering the location also.</p>
                 <p>But hiring remote employees has its disadvantages like one may be clueless about what their team members are doing or whether the employees are going to flake-out or they will work efficiently for a while before their quality of work deteriorates and they quit. And, at times it may be very frustrating not being able to communicate when there is urgency or update to make.</p>
-                <p>Figuring out how to increase the productivity of a virtual team can take years, and at the price of your business. Follow the simple tips to increases the working efficiency level of your virtual team along with progressing with the growth of your company.</p>
+                <p>Figuring out how to increase <strong>virtual team productivity</strong> can take years, and at the price of your business. Follow the simple tips to increase the working efficiency level of your virtual team along with progressing with the growth of your company.</p>
               </s.BlogContentWrapper>
               <s.BlogContentWrapper>
                 <h3>Keeping track of the working hours along with basic measures of productivity and attendance</h3>
@@ -71,7 +71,9 @@ const SingleBlog = () => {
               {/* <s.BlogImageWrapper>
                 <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' /></a></Link>
               </s.BlogImageWrapper> */}
-              <s.BlogContentWrapper>
+            <s.BlogContentWrapper>
+                <h3>Conclusion:</h3>
+                <p>Managing a <strong>Virtual Team Productivity</strong> is indeed a challenging task and with experience one masters the art of managing the virtual team while increasing their productivity. However, it is pertinent to make all the meetings remote-friendly. And this means that everyone should be using the same technology to chat through the computer, as the employees are in their virtual working environment and not in the same room. Also, ensure that your strategies work for a remote team as the strategies for an actual office are not the same for a virtual team.</p>
                 <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>
               </s.BlogContentWrapper>
             </Row>

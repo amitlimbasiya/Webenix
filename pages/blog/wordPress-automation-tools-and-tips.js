@@ -22,14 +22,14 @@ const SingleBlog = () => {
             <Row>
               <Col lg={12} md={12} className="mb-5 mb-md-0 singleblog-banner-content">
                 <p className='blog-category orangeColor'>WordPress</p>
-                <h1 className='blog-title'>WordPress automation tools and tips</h1>
+                <h1 className='blog-title'>Know more about WordPress Automation Tools and Tips</h1>
                 <span className='blog-date'>August 16, 2021</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
                 <Image src={WPAutomation} alt="WordPress automation tools and tips" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
               </Col>
               <s.BlogContentWrapper>
-                <p>If you use WordPress to create your company&#39;s website, it is important to make maximum use of its tools and plugins to create a user-friendly and easy-to-visit website. WordPress is an open-source platform with a plethora of templates and tools that make it easier for amateur web developers to create websites. You can also use the same platform to create forums and online interactive platforms associated with your website. This will help you reach out to more prospective clients. Additionally, WordPress tools will help you create a professional website with a minimum technical expertise. Some of the automation tools offered by WordPress are as follows:</p>
+                <p>If you are having the website on WordPress, which is overall the best platform, it is important that you know the full proof usage of the WordPress that can be benefitted handling the websites. There are various plug-ins <strong>Automation Tool</strong> that helps to create a user-friendly and easy-to-visit website. <strong>WordPress Automation tools</strong> are open-source platforms with a plethora of templates and tools that make it easier for amateur web developers to create websites. You can also use the same platform to create forums and online interactive platforms associated with your website. Automation Tool will help you reach out to more prospective clients. Additionally, WordPress tools will help you create a professional website with a minimum technical expertise. Some of the <strong>Automation Tool</strong> offered by WordPress are as follows:</p>
               </s.BlogContentWrapper>
               <s.BlogContentWrapper>
                 <h3>1. Use WordPress tools to improve your blogging skills</h3>
@@ -47,7 +47,10 @@ const SingleBlog = () => {
               {/* <s.BlogImageWrapper>
                 <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' /></a></Link>
               </s.BlogImageWrapper> */}
-              <s.BlogContentWrapper>
+            <s.BlogContentWrapper>
+                <h3>Conclusion:</h3>
+                <p>Wordpress provides comprehensive automation tools to all its customers. <strong>WordPress automation tools</strong> make it easier to evaluate the changes that need to brought to your website to attract more customers.</p>
+                <p>You can use the robust Content Management System or CMS offered by WordPress to create websites that have plugins and <strong>Automation Tools</strong> that visitors can use to improve their experience and navigate your company's website with ease. Although it is an open-source platform WordPress provides new and unique plugins and tools to its customers to make it easier to create their websites, forums and social media platforms. Therefore, by using the <strong>WordPress Automation Tools</strong>, you can attract more web traffic and increase your customer base significantly.</p>
                 <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>
               </s.BlogContentWrapper>
             </Row>

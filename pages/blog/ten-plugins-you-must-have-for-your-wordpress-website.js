@@ -29,8 +29,8 @@ const SingleBlog = () => {
                 <Image src={TenWpWebsite} alt="Ten plugins you must-have for your WordPress website" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
               </Col>
               <s.BlogContentWrapper>
-                <p>The Plugins bring essential functions to your WordPress website. We may say that plugins are the building blocks of your WordPress site. Plugins boost the speed of the website. Plugins are multifunctional. Adding contact forms, improving SEO, creating online stores, or even offering email opt-ins are many plugin&#39;s functions. Plugins can help you complete any work you do on the WordPress website.</p>
-                <p>There are thousands of plugins to choose from on the market. But a specific type of works needs particular plugins. Here we are mentioning some of the best plugins for you to choose from. Go through the specifications and opt for the best plugins of your choice.</p>
+                <p>The <strong>Best Plugins for WordPress Website</strong> bring essential functions to your WordPress website. We may say that plugins are the building blocks of your WordPress site. Plugins boost the speed of the website. Plugins are multifunctional. Adding contact forms, improving SEO, creating online stores, or even offering email opt-ins are many plugin's functions. Plugins can help you complete any work you do on the WordPress website.</p>
+                <p>Choose the <strong>Best WordPress Plugins</strong> from the market. But a specific type of work needs particular plugins. Here we are mentioning some of the best plugins for you to choose from. Go through the specifications and opt for the best plugins of your choice.</p>
               </s.BlogContentWrapper>
               <s.BlogContentWrapper>
                 <h3>1. UpdraftPlus</h3>

@@ -22,14 +22,14 @@ const SingleBlog = () => {
             <Row>
               <Col lg={12} md={12} className="mb-5 mb-md-0 singleblog-banner-content">
                 <p className='blog-category orangeColor'>WordPress</p>
-                <h1 className='blog-title'>How to speed optimize WordPress website?</h1>
+                <h1 className='blog-title'>Know your WordPress Site Speed Optimization for your business</h1>
                 <span className='blog-date'>November 23, 2020</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
-                <Image src={WpSpeedOptimize} alt="How to speed optimize WordPress website?" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
+                <Image src={WpSpeedOptimize} alt="Know your WordPress Site Speed Optimization for your business" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
               </Col>
               <s.BlogContentWrapper>
-                <p>While WordPress is a great platform, it suffers mostly from one weakness &ndash; its slow speed. If you don&#39;t take the necessary precautions, you could end up having a sluggish website. That is not only a headache for your regular visitors, but can also cause you to lose subscribers and customers. In this guide, we will discuss some of the effective ways to optimize your WordPress website. It will help you maintain a website that is zippy and responsive.</p>                
+                <p>While WordPress is a great platform, it suffers mostly from one weakness-<strong>WordPress Site Speed Optimisation</strong>. If you don't take the necessary precautions, you could end up having a sluggish website. That is not only a headache for your regular visitors, but can also cause you to lose subscribers and customers. In this guide, we will discuss some of the effective ways to optimize and <strong>speed up WordPress Site</strong>. It will help you maintain a website that is zippy and responsive.</p>                
               </s.BlogContentWrapper>
               <s.BlogContentWrapper>
                 <h3>Enable caching for website:</h3>

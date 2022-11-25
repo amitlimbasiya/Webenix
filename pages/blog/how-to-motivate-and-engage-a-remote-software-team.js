@@ -29,8 +29,8 @@ const SingleBlog = () => {
                 <Image src={MotivateRemoteSoftwareTeam} alt="How to motivate and engage a remote software team?" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />
               </Col>
               <s.BlogContentWrapper>
-                <p>If you are a business manager or a team lead, you will be tasked with managing not just the business aspect of your company. Still, you will also have to keep your team motivated and enthusiastic about their work. It becomes all the more challenging if individual members of your team work remotely. As you will not meet them physically regularly, you might find it challenging to keep them engaged. Business managers often mention that this becomes all the more important when an entire software team works remotely. Here you will need to keep an ongoing communication between the team members so that there are no bottlenecks and the projects are completed on schedule. Communication is critical when it comes to maintaining a software team working remotely motivated and engaged.</p>                
-                <p>Moreover, communication should be from both sides, which from the side of managers and team leads and the team members. When there are no glitches in communication and constant communication between the team members working remotely, you will find that the work itself gets completed smoothly and on time. Some of the simplest methods that you can implement to keep your remote software team engaged and motivated are as follows:</p>
+                <p>If you are a business manager or a team lead, you will be responsible to <strong>motivate and engage remote software teams too</strong>. Still, you will also have to <strong>engage remote employees</strong> about their work. It becomes all the more challenging if individual members of your team work remotely. As you will not meet them physically regularly, you might find it challenging to keep them engaged. Business managers often mention that this becomes all the more important when an entire software team works remotely. Here you will need to keep an ongoing communication between the team members so that there are no bottlenecks and the projects are completed on schedule.</p>                
+                <p><strong>Remote Team Motivation</strong> is critical when it comes to maintaining a software team working remotely. Moreover, communication should be from both sides, from the side of managers and team leads and the team members. When there are no glitches in communication and constant communication between the team members working remotely, you will find that the work itself gets completed smoothly and on time. Some of the simplest methods that you can implement for <strong>Remote Team Motivation</strong> are as follows:</p>
               </s.BlogContentWrapper>
               <s.BlogContentWrapper>
                 <h3>Provide regular feedback to help team members work proficiently</h3>
@@ -68,7 +68,9 @@ const SingleBlog = () => {
               {/* <s.BlogImageWrapper>
                 <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' /></a></Link>
               </s.BlogImageWrapper> */}
-              <s.BlogContentWrapper>
+            <s.BlogContentWrapper>
+                <h3>Conclusion:</h3>
+                <p>When it comes to <strong>Motivate and Engage Remote Software Team</strong>, it is a good idea to have open forums, chats, and other such modes of communication that will help them feel associated with the main office. Additionally, these chats can also help create a smooth channel of communication amongst the individual team members. Thus, to ensure that your software team, working remotely, feels motivated and engaged, you as a team lead or manager must create an atmosphere conducive to work.</p>
                 <p>If you are looking for a reliable web design & development <Link href="#"><a>outsourcing company</a></Link>, you can reach out to our experts at Webenix! We can help you <Link href="mailto:info@webenix.net"><a>info@webenix.net</a></Link></p>
               </s.BlogContentWrapper>
             </Row>
