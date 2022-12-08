@@ -85,7 +85,7 @@ const SingleBlog = () => {
                 <p>What's more, how you generally feel about your outsourced team members will have a major impact on your level of success. Change is a two-way street, and adaptation works both ways. You should learn about and respect their unique customs and traditions.</p>
               </s.BlogContentWrapper>
               <s.BlogContentWrapper>
-                <h4><strong>Conclusion</strong></h4>
+                <h3>Conclusion</h3>
                 <p>A business's productivity and expansion prospects both benefit from outsourcing software development. Outsourcing your technical work will allow you to get better ROI, spend less time working, and have a larger impact on the world because of your unique set of skills. There are other advantages like expertise brought to the table by firms specializing in software development. Overall, software development outsourcing is merely not a trend. You should carefully plan to outsource software development needs and get desired results.</p>
               </s.BlogContentWrapper>
               <s.BlogContentWrapper>

@@ -7,6 +7,9 @@ import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 import * as s from "../../styles/components/BlogListing/BlogListing.style";
 import WhyWPWebsite from '../../public/images/blogs/why-necessary.jpg';
+import TopMobileAppDevTrend from '../../public/images/blogs/Top-10-Mobile-App-Development-Trends-in-2022.jpg';
+import RightWebDevTechProject from '../../public/images/blogs/The-Right-Web-Development-Technology-For-Your-Project.jpg';
+import CompleteOffshoreResourceHiring from '../../public/images/blogs/A-Complete-Offshore-Resource-Hiring-E-Guide.jpg';
 import WPAutomation from '../../public/images/blogs/wordpress-automation.jpg';
 import Topprediction from '../../public/images/blogs/predictions-facebook.jpg';
 import TopThings from '../../public/images/blogs/top-things-landing-page.jpg';
@@ -120,19 +123,44 @@ const BlogListings = (props) => {
         <Container>
           <Row>
             <Col lg={9} md={12} className="order-2 order-lg-1">  
-                <s.BlogListWrapper className='bloglisting-wrapper'>                        
-                    {/* <s.blogItem className='blogItem development'>
-                        <Link href={router.SINGLEBLOG28}>
-                            <a><s.blogImage><Image placeholder="blur" src={WhyWPWebsite} alt="Top 10 Mobile App Trends for 2022" layout='responsive'/></s.blogImage></a>
+                <s.BlogListWrapper className='bloglisting-wrapper'>    
+                    <s.blogItem className='blogItem development'>
+                        <Link href={router.SINGLEBLOG30}>
+                            <a><s.blogImage><Image placeholder="blur" src={CompleteOffshoreResourceHiring} alt="A Complete Offshore Resource Hiring-E-Guide" layout='responsive'/></s.blogImage></a>
                         </Link>
                         <s.blogCategory className='orangeColor'>DEVELOPMENT</s.blogCategory>
                         <s.blogTitle className='postHeading'>
-                            <Link href={router.SINGLEBLOG28}><a>Top 10 Mobile App Trends for 2022</a></Link>
+                            <Link href={router.SINGLEBLOG30}><a>A Complete Offshore Resource Hiring-E-Guide</a></Link>
+                        </s.blogTitle>
+                        <p>Throughout the world, there is a growing trend of outsourcing development work.</p>
+                        <Link href={router.SINGLEBLOG30}><a className='blogLink'>Let&#39;s Read</a></Link>
+                        <div className='datePart'>OCTOBER 13, 2022</div>
+                    </s.blogItem>
+                    <s.blogItem className='blogItem development'>
+                        <Link href={router.SINGLEBLOG29}>
+                            <a><s.blogImage><Image placeholder="blur" src={RightWebDevTechProject} alt="The Right Web Development Technology For Your Project" layout='responsive'/></s.blogImage></a>
+                        </Link>
+                        <s.blogCategory className='orangeColor'>DEVELOPMENT</s.blogCategory>
+                        <s.blogTitle className='postHeading'>
+                            <Link href={router.SINGLEBLOG29}><a>The Right Web Development Technology For Your Project</a></Link>
+                        </s.blogTitle>
+                        <p>Choosing the right web development technologies is crucial and one that could greatly influence the end result of your project.</p>
+                        <Link href={router.SINGLEBLOG29}><a className='blogLink'>Let&#39;s Read</a></Link>
+                        <div className='datePart'>OCTOBER 13, 2022</div>
+                    </s.blogItem>
+                                  
+                    <s.blogItem className='blogItem development'>
+                        <Link href={router.SINGLEBLOG28}>
+                            <a><s.blogImage><Image placeholder="blur" src={TopMobileAppDevTrend} alt="Top 10 Mobile App Development Trends in 2022" layout='responsive'/></s.blogImage></a>
+                        </Link>
+                        <s.blogCategory className='orangeColor'>DEVELOPMENT</s.blogCategory>
+                        <s.blogTitle className='postHeading'>
+                            <Link href={router.SINGLEBLOG28}><a>Top 10 Mobile App Development Trends in 2022</a></Link>
                         </s.blogTitle>
                         <p>In the 21st century, the growth of mobile phones has fundamentally altered company models, modes of business, and market structures.</p>
                         <Link href={router.SINGLEBLOG28}><a className='blogLink'>Let&#39;s Read</a></Link>
                         <div className='datePart'>OCTOBER 13, 2022</div>
-                    </s.blogItem>*/}
+                    </s.blogItem>
                     <s.blogItem className='blogItem development'>
                         <Link href={router.SINGLEBLOG27}>
                             <a><s.blogImage><Image placeholder="blur" src={HowOutsourceSoftwareDevelopmentEffectively} alt="How To Outsource Software Development Effectively?" layout='responsive'/></s.blogImage></a>

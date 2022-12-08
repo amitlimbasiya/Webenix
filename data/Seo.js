@@ -505,19 +505,29 @@ export const data = {
         keyword: "effective outsourcing strategy, achieve business success"
     },
     singleblog26: {
-        title: "Tips to Hire Dedicated Programmers",
-        description: "",
+        title: "Best Tips to Hire Dedicated Developers for Your Project | Webenix",
+        description: "We provide one of the best tips for Hiring Dedicated Developers for your project in 2022. You can hire software developers or app developers per your project needs.",
         keyword: "Hire Dedicated Programmers"
     },
     singleblog27: {
-        title: "How To Outsource Software Development Effectively?",
-        description: "Software development is a task and outs",
+        title: "How To Outsource Software Development Effectively | Webenix",
+        description: "Here is one of the greatest tips on how to outsource software development effectively to guarantee you get the best value possible from your project. ",
         keyword: "Outsource Software Development"
     },
     singleblog28: {
-        title: "Top 10 Mobile App Trends in 2022",
-        description: "You must stay up to date on the latest mobile app trends to flourish as a developer or a business owner.",
+        title: "Top 10 Popular Mobile App Development Trends for 2022",
+        description: "These top 10 popular mobile app development trends will help you stay ahead of the curve when developing apps for Android and ios devices.",
         keyword: "Mobile App Trends"
+    },
+    singleblog29: {
+        title: "Choose The Right Web Development Technology For Your Project",
+        description: "There are many factors to consider when choosing the right web development technology for your project. With a lot of options on the market, it can be difficult to know where to start.",
+        keyword: "Web Development Technology"
+    },
+    singleblog30: {
+        title: "A Complete Offshore Resource Hiring-E-Guide | Webenix",
+        description: "Are you interested in using Offshore Resources for your software development? Search no further, Here is a Complete Guide on Hiring an Offshore Development Team.",
+        keyword: "Offshore Resource Hiring-E-Guide"
     },
     work: {
         title: "Our Portolio | Our Work | Webenix",
