@@ -325,7 +325,7 @@ const BlogListings = (props) => {
                         <s.blogTitle className='postHeading'>
                             <Link href={router.SINGLEBLOG12}><a>Know how to avoid the Cultural Pitfalls Outsourcing?</a></Link>
                         </s.blogTitle>
-                        <p>Remote employee productivity or working virtually is on the rise, especially considering the recent scenario. Even though managing remote employees can be stressful enough to want one tear of their hair, it is one of the greatest competitive strengths.</p>
+                        <p>Outsourcing Problems occur when you outsource some of your business activities to a company in a different geographical location, it is essential to ensure that you prove to be a supportive and encouraging business enterprise.</p>
                         <Link href={router.SINGLEBLOG12}><a className='blogLink'>Let&#39;s Read</a></Link>
                         <div className='datePart'>June 01, 2021</div>
                     </s.blogItem>   
@@ -385,7 +385,7 @@ const BlogListings = (props) => {
                         <s.blogTitle className='postHeading'>
                             <Link href={router.SINGLEBLOG17}><a>How to Make Virtual Employees Productive?</a></Link>
                         </s.blogTitle>
-                        <p>Remote work or working virtually is on the rise, especially considering the recent scenario. Even though managing remote employees can be stressful enough to want one tear of their hair, it is one of the greatest competitive strength. It is a lot easier to hire talented professionals without considering the location also</p>
+                        <p>Remote employee productivity or working virtually is on the rise, especially considering the recent scenario. Even though managing remote employees can be stressful enough to want one tear of their hair, it is one of the greatest competitive strengths.</p>
                         <Link href={router.SINGLEBLOG17}><a className='blogLink'>Let&#39;s Read</a></Link>
                         <div className='datePart'>September 29, 2020</div>
                     </s.blogItem>  
