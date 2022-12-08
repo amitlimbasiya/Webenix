@@ -481,7 +481,7 @@ const BlogListings = (props) => {
                         <s.blogTitle className='postHeading'>
                             <Link href={router.SINGLEBLOG25}><a>Eliminate the risks and utilize an effective Business Outsourcing Process in Business</a></Link>
                         </s.blogTitle>
-                        <p>Numerous organizations are on the lookout for innovative approaches to achieve a lot out of their business objectives without too much investment. Outsourcing your business is one methodology that can save you a lot of time, money, and disappointments, especially when you start and are on the way to constructing your business.</p>
+                        <p>Various Business Outsourcing processes are on the lookout for innovative approaches to achieve a lot out of their business objectives without too much investment.</p>
                         <Link href={router.SINGLEBLOG25}><a className='blogLink'>Let&#39;s Read</a></Link>
                         <div className='datePart'>August 03, 2020</div>
                     </s.blogItem>         
