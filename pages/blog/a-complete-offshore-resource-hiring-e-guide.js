@@ -12,9 +12,9 @@ const SingleBlog = () => {
   return (
     <>
       <Head>
-        <title>{data.singleblog28.title}</title>
-        <meta name="description" content={data.singleblog28.description}/>
-        <meta name="keywords" content={data.singleblog28.keyword} />
+        <title>{data.singleblog30.title}</title>
+        <meta name="description" content={data.singleblog30.description}/>
+        <meta name="keywords" content={data.singleblog30.keyword} />
       </Head>
       <s.SingleBlogWrapper className='singleblog-section'>
         <s.SingeBlogHeaderBg className='noiseBg'></s.SingeBlogHeaderBg>
