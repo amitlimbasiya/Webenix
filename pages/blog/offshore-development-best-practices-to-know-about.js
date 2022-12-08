@@ -53,10 +53,6 @@ const SingleBlog = () => {
                   <li>Do not cut short the communication abruptly or drag it for too long</li>
 							  </ul>
               </s.BlogContentWrapper>
-              <s.BlogContentWrapper>
-                <h3>Conclusion:</h3>
-                <p>Following these crucial practices can help create a cohesive work environment even when the contingents work in globally dispersed spaces. So, make these practices your work ethics; these will help make offshore development a big success.</p>
-              </s.BlogContentWrapper>
               {/* <s.BlogImageWrapper>
                 <Link href="#"><a><Image src={singleBlogImage02} alt="About Webenix" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' /></a></Link>
               </s.BlogImageWrapper> */}

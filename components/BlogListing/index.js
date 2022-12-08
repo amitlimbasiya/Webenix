@@ -193,7 +193,7 @@ const BlogListings = (props) => {
                         <s.blogTitle className='postHeading'>
                             <Link href={router.SINGLEBLOG1}><a>Why Updating WordPress Website mandatory?</a></Link>
                         </s.blogTitle>
-                        <p>If you are looking to create your website, then you must be thinking of WordPress. It is no news that WordPress powers nearly thirty-nine percent of the websites that you see across the Internet. It is one of the most straightforward tools available to individuals, entrepreneurs, and website developers to design and launch a website.</p>
+                        <p>Today, WordPress is the main platform where every website is developed for better content management.</p>
                         <Link href={router.SINGLEBLOG1}><a className='blogLink'>Let&#39;s Read</a></Link>
                         <div className='datePart'>AUGUST 13, 2021</div>
                     </s.blogItem>               
@@ -205,7 +205,7 @@ const BlogListings = (props) => {
                         <s.blogTitle className='postHeading'>
                             <Link href={router.SINGLEBLOG2}><a>Know more about WordPress Automation Tools and Tips</a></Link>
                         </s.blogTitle>
-                        <p>If you use WordPress to create your company&#39;s website, it is important to make maximum use of its tools and plugins to create a user-friendly and easy-to-visit website. WordPress is an open-source platform with a plethora of templates and tools that make it easier for amateur web developers to create websites.</p>
+                        <p>If you are having the website on WordPress, which is overall the best platform, it is important that you know the full proof usage of the WordPress that can be benefitted handling the websites.</p>
                         <Link href={router.SINGLEBLOG2}><a className='blogLink'>Let&#39;s Read</a></Link>
                         <div className='datePart'>August 16, 2021</div>
                     </s.blogItem>      
@@ -217,7 +217,7 @@ const BlogListings = (props) => {
                         <s.blogTitle className='postHeading'>
                             <Link href={router.SINGLEBLOG3}><a>Know what Landing Page Should have to make the best of it.</a></Link>
                         </s.blogTitle>
-                        <p>When you develop the website for your company, your primary target will be to use the website as a marketing tool. Your company&#39;s website is the online interface between you and your prospective customers. Hence, your website should be informative and engaging. Moreover, web traffic is diverted to your website through the landing page.</p>
+                        <p>Do you know what your website’s landing page should have? We all know having the website of your company makes it a huge difference but how can we make the best? </p>
                         <Link href={router.SINGLEBLOG3}><a className='blogLink'>Let&#39;s Read</a></Link>
                         <div className='datePart'>August 10, 2021</div>
                     </s.blogItem>
@@ -241,7 +241,7 @@ const BlogListings = (props) => {
                         <s.blogTitle className='postHeading'>
                             <Link href={router.SINGLEBLOG5}><a>Know how to conquer Top Advanced SEO techniques to increase the interaction in your website</a></Link>
                         </s.blogTitle>
-                        <p>It is a well-known fact that Search Engine Optimized or SEO managed website attracts more web traffic. In other words, if you have launched a website for your company, you must ensure that it has proper SEO protocols in place.</p>
+                        <p>With the help of Top advanced SEO techniques, websites will attract more web traffic and customer interaction.</p>
                         <Link href={router.SINGLEBLOG5}><a className='blogLink'>Let&#39;s Read</a></Link>
                         <div className='datePart'>June 15, 2021</div>
                     </s.blogItem>  
@@ -253,7 +253,7 @@ const BlogListings = (props) => {
                         <s.blogTitle className='postHeading'>
                             <Link href={router.SINGLEBLOG6}><a>Increase lead generation through best B2B Marketing Strategies that you need to know</a></Link>
                         </s.blogTitle>
-                        <p>When it comes to Business to Business or B2B marketing, the challenge you will face is reaching out to the correct customer base. B2B marketing is niche marketing and does not include the mass retail market. For example, if your company provides large-scale logistic support, you will have to address the specific need to make your customers aware of your services. Thus, developing the correct leads, designing a website that meets your requirements, and ensuring that your prospective clients recognize your benefits are all priorities. Some of the strategies that you can adopt to increase the leads for B2B marketing are as follows:</p>
+                        <p>When it comes to B2B marketing strategies, the challenge you will face is reaching out to the correct customer base.</p>
                         <Link href={router.SINGLEBLOG6}><a className='blogLink'>Let&#39;s Read</a></Link>
                         <div className='datePart'>June 14, 2021</div>
                     </s.blogItem>
@@ -277,7 +277,7 @@ const BlogListings = (props) => {
                         <s.blogTitle className='postHeading'>
                             <Link href={router.SINGLEBLOG8}><a>Is WordPress Hosting Worth the Extra price?</a></Link>
                         </s.blogTitle>
-                        <p>WordPress is one of the most efficient platforms to create websites, eCommerce portals, social media platforms, online forums, and other similar web-hosted services. With the help of WordPress, you can gain access to a plethora of pre-designed templates that will make designing your website simpler.</p>
+                        <p>WordPress is one of the most efficient platforms to create websites, eCommerce portals, social media platforms, online forums, and other similar web-hosted services.</p>
                         <Link href={router.SINGLEBLOG8}><a className='blogLink'>Let&#39;s Read</a></Link>
                         <div className='datePart'>June 10, 2021</div>
                     </s.blogItem>
@@ -289,7 +289,7 @@ const BlogListings = (props) => {
                         <s.blogTitle className='postHeading'>
                             <Link href={router.SINGLEBLOG9}><a>How will SEO change the marketing reach in your business in 2022?</a></Link>
                         </s.blogTitle>
-                        <p>It is a well-known fact that Search Engine Optimized or SEO managed website attracts more web traffic. In other words, if you have launched a website for your company, you must ensure that it has proper SEO protocols in place.</p>
+                        <p>Reference URL In the year 2021, you will observe a complete change in how online searches are carried out. The question is will SEO change the algorithm of content marketing in business?</p>
                         <Link href={router.SINGLEBLOG9}><a className='blogLink'>Let&#39;s Read</a></Link>
                         <div className='datePart'>June 07, 2021</div>
                     </s.blogItem>    
@@ -301,7 +301,7 @@ const BlogListings = (props) => {
                         <s.blogTitle className='postHeading'>
                             <Link href={router.SINGLEBLOG10}><a>How Website Development Costs can be reduced in 2021?</a></Link>
                         </s.blogTitle>
-                        <p>If you are planning to take your company online, you will have to develop a website for your business enterprise that does justice to your firm&#39;s products and services. Designing a website requires expertise, and hence, you should outsource your requirements to a reputed web agency.</p>
+                        <p>Why should you take your business totally on online platforms? The best reason that a business can look up to is Web Agencies Reduce Production Cost to develop the best Websites.</p>
                         <Link href={router.SINGLEBLOG10}><a className='blogLink'>Let&#39;s Read</a></Link>
                         <div className='datePart'>June 05, 2021</div>
                     </s.blogItem>           
@@ -313,7 +313,7 @@ const BlogListings = (props) => {
                         <s.blogTitle className='postHeading'>
                             <Link href={router.SINGLEBLOG11}><a>How to motivate and engage a remote software team?</a></Link>
                         </s.blogTitle>
-                        <p>If you are a business manager or a team lead, you will be tasked with managing not just the business aspect of your company. Still, you will also have to keep your team motivated and enthusiastic about their work.</p>
+                        <p>If you are a business manager or a team lead, you will be responsible to motivate and engage remote software teams too.</p>
                         <Link href={router.SINGLEBLOG11}><a className='blogLink'>Let&#39;s Read</a></Link>
                         <div className='datePart'>June 03, 2021</div>
                     </s.blogItem>     
@@ -325,7 +325,7 @@ const BlogListings = (props) => {
                         <s.blogTitle className='postHeading'>
                             <Link href={router.SINGLEBLOG12}><a>Know how to avoid the Cultural Pitfalls Outsourcing?</a></Link>
                         </s.blogTitle>
-                        <p>When you outsource some of your business activities to a company in a different geographical location, it is essential to ensure that you prove to be a supportive and encouraging business enterprise.</p>
+                        <p>Remote employee productivity or working virtually is on the rise, especially considering the recent scenario. Even though managing remote employees can be stressful enough to want one tear of their hair, it is one of the greatest competitive strengths.</p>
                         <Link href={router.SINGLEBLOG12}><a className='blogLink'>Let&#39;s Read</a></Link>
                         <div className='datePart'>June 01, 2021</div>
                     </s.blogItem>   
@@ -337,7 +337,7 @@ const BlogListings = (props) => {
                         <s.blogTitle className='postHeading'>
                             <Link href={router.SINGLEBLOG13}><a>Know your WordPress Site Speed Optimization for your business</a></Link>
                         </s.blogTitle>
-                        <p>While WordPress is a great platform, it suffers mostly from one weakness &ndash; its slow speed. If you don&#39;t take the necessary precautions, you could end up having a sluggish website. That is not only a headache for your regular visitors, but can also cause you to lose subscribers and customers.</p>
+                        <p>While WordPress is a great platform, it suffers mostly from one weakness-WordPress Site Speed Optimisation.</p>
                         <Link href={router.SINGLEBLOG13}><a className='blogLink'>Let&#39;s Read</a></Link>
                         <div className='datePart'>November 23, 2020</div>
                     </s.blogItem>   
@@ -361,7 +361,7 @@ const BlogListings = (props) => {
                         <s.blogTitle className='postHeading'>
                             <Link href={router.SINGLEBLOG15}><a>How to always Update WordPress Website?</a></Link>
                         </s.blogTitle>
-                        <p>Your WordPress website should be updated manually. The updates keep your themes, plugins, and WordPress version secure and up to date. The minor releases are updated automatically by default. But, if the auto-update is disabled, then you will get notifications for an update. Updating WordPress is as easy as clicking an update button.</p>
+                        <p>Update WordPress Website of your business regularly in order to avoid any problems further. The updates keep your themes, plugins, and WordPress version secure and up to date.</p>
                         <Link href={router.SINGLEBLOG15}><a className='blogLink'>Let&#39;s Read</a></Link>
                         <div className='datePart'>November 09, 2020</div>
                     </s.blogItem>    
@@ -373,7 +373,7 @@ const BlogListings = (props) => {
                         <s.blogTitle className='postHeading'>
                             <Link href={router.SINGLEBLOG16}><a>Ten plugins you must-have for your WordPress website</a></Link>
                         </s.blogTitle>
-                        <p>The Plugins bring essential functions to your WordPress website. We may say that plugins are the building blocks of your WordPress site. Plugins boost the speed of the website. Plugins are multifunctional. Adding contact forms, improving SEO, creating online stores, or even offering email opt-ins are many plugin&#39;s functions.</p>
+                        <p>The Best Plugins for WordPress Website bring essential functions to your WordPress website. We may say that plugins are the building blocks of your WordPress site. Plugins boost the speed of the website.</p>
                         <Link href={router.SINGLEBLOG16}><a className='blogLink'>Let&#39;s Read</a></Link>
                         <div className='datePart'>November 02, 2020</div>
                     </s.blogItem>    
@@ -397,7 +397,7 @@ const BlogListings = (props) => {
                         <s.blogTitle className='postHeading'>
                             <Link href={router.SINGLEBLOG18}><a>Is Choosing the right outsourcing partner a task? Not anymore.</a></Link>
                         </s.blogTitle>
-                        <p>For today&#39;s dynamic market, outsourcing is a boon and a blessing in disguise for every business. And since businesses today are dependent and look forward to expanding their business through outsourcing, it is crucial to choose the right outsourcing partner from India who can aid in the yielding of the best possible dividends.</p>
+                        <p>According to today’s scenario, working remotely and Choosing the right outsourcing partner is a task that can aid in the yielding of the best possible dividends.</p>
                         <Link href={router.SINGLEBLOG18}><a className='blogLink'>Let&#39;s Read</a></Link>
                         <div className='datePart'>September 22, 2020</div>
                     </s.blogItem> 
@@ -421,7 +421,7 @@ const BlogListings = (props) => {
                         <s.blogTitle className='postHeading'>
                             <Link href={router.SINGLEBLOG20}><a>7 Signs to consider the right Time To Consider Outsourcing for your Business</a></Link>
                         </s.blogTitle>
-                        <p>There is no denying the fact that today there is an additional constant rising pressure in the global market which creates a competitive environment and a thrive to be the best in the market. Under such circumstances, the only companies that lead the market are the one who work most efficiently.</p>
+                        <p>When is the right time to consider Outsourcing? Today, we might be having this question because of the current business working scenarios.</p>
                         <Link href={router.SINGLEBLOG20}><a className='blogLink'>Let&#39;s Read</a></Link>
                         <div className='datePart'>September 08, 2020</div>
                     </s.blogItem> 
@@ -433,7 +433,7 @@ const BlogListings = (props) => {
                         <s.blogTitle className='postHeading'>
                             <Link href={router.SINGLEBLOG21}><a>Top-5 reasons to look for Offshore Development in the Business</a></Link>
                         </s.blogTitle>
-                        <p>The internet has made the whole world a tightly knit entity. The emergence of natural communication enablers like file sharing, desktop sharing, video conferences, etc. has further eased the working without bothering about geographical boundaries. For any business, inviting the experts and giving them a place to work and stay is not budget-friendly always.</p>
+                        <p>Offshore Development has made working easier globally. With the power of the internet, overseas development has made networking and working together much easier.</p>
                         <Link href={router.SINGLEBLOG21}><a className='blogLink'>Let&#39;s Read</a></Link>
                         <div className='datePart'>September 01, 2020</div>
                     </s.blogItem>
@@ -457,7 +457,7 @@ const BlogListings = (props) => {
                         <s.blogTitle className='postHeading'>
                             <Link href={router.SINGLEBLOG23}><a>Know the best practises for Offshore Outsourcing</a></Link>
                         </s.blogTitle>
-                        <p>The arrangement, where team members separated by time-zones and geographical boundaries work together to make a project possible, forms the basis of offshore development. On the one hand, the companies enjoy cost-effective development, and at the other, the workers get to work in a flexible and more autonomous environment.</p>
+                        <p>Why should I look forward to Offshore Wind Development? The arrangement, where team members separated by time-zones and geographical boundaries work together to make a project possible, forms the basis of Offshore Development Best Practices.</p>
                         <Link href={router.SINGLEBLOG23}><a className='blogLink'>Let&#39;s Read</a></Link>
                         <div className='datePart'>August 17, 2020</div>
                     </s.blogItem>
@@ -469,7 +469,7 @@ const BlogListings = (props) => {
                         <s.blogTitle className='postHeading'>
                             <Link href={router.SINGLEBLOG24}><a>Do you know the latest Offshore Development Trends?</a></Link>
                         </s.blogTitle>
-                        <p>Offshore development is the reality, and several trends are emerging off it with this style gaining popularity worldwide. Users do not want to settle for something less in quality because the conditions are not conventional while dealing with developers offshore.</p>
+                        <p>Offshore Development Trends are the reality, and several emerging off it with this style gaining popularity worldwide. Users do not want to settle for something less in quality because the conditions are not conventional while dealing with Offshore Developers</p>
                         <Link href={router.SINGLEBLOG24}><a className='blogLink'>Let&#39;s Read</a></Link>
                         <div className='datePart'>August 10, 2020</div>
                     </s.blogItem>
