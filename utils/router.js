@@ -86,7 +86,7 @@ const router = {
   SINGLEBLOG2: "/blog/wordpress-automation-tools-and-tips",
   SINGLEBLOG3: "/blog/top-things-your-landing-page-should-have",
   SINGLEBLOG4: "/blog/top-Predictions-for-facebook-advertising-in-2021",
-  SINGLEBLOG5: "/blog/top-advanced-seo-techniques-to-Maximize-Your-Search-Traffic",
+  SINGLEBLOG5: "/blog/top-advanced-seo-techniques-to-maximize-your-search-traffic",
   SINGLEBLOG6: "/blog/the-best-B2B-marketing-strategies-to-increase-leads",
   SINGLEBLOG7: "/blog/linkedIn-marketing-best-strategies-for-2021",
   SINGLEBLOG8: "/blog/is-managed-wordpress-hosting-worth-the-extra-price",
