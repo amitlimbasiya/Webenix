@@ -72,7 +72,7 @@ const TheBlossomAcademy = () => {
                             </s.PortfolioTechIcon>
                             <s.PortfolioTechContent>
                                 <p>URL</p>
-                                <Link href="https://theblossomacademy.com/"><a target="_blank">Website</a></Link>
+                                <Link href="#"><a>Website</a></Link>
                             </s.PortfolioTechContent>
                         </s.PortfolioTechBox>
                     </s.PortfolioTechRow>

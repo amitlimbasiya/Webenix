@@ -70,7 +70,7 @@ const SouthernTradelines = () => {
                             </s.PortfolioTechIcon>
                             <s.PortfolioTechContent>
                                 <p>URL</p>
-                                <Link href="https://southerntradelines.com/"><a target="_blank">Website</a></Link>
+                                <Link href="#"><a>Website</a></Link>
                             </s.PortfolioTechContent>
                         </s.PortfolioTechBox>
                     </s.PortfolioTechRow>
