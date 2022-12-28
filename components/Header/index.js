@@ -112,7 +112,7 @@ const Header = () => {
                             </Link>
                           </s.MenuItemBlock>
                         </s.MenuListItem>
-                        <s.MenuListItem className="menulist-item">
+                        {/* <s.MenuListItem className="menulist-item">
                           <s.MenuItemBlock className="menuitem-block">
                             <Link href="#">
                               <a className="menuitem-box">
@@ -123,7 +123,7 @@ const Header = () => {
                               </a>
                             </Link>
                           </s.MenuItemBlock>
-                        </s.MenuListItem>
+                        </s.MenuListItem> */}
                         <s.MenuListItem className="menulist-item">
                           <s.MenuItemBlock className="menuitem-block">
                             <Link href={router.CAREER}>
