@@ -68,31 +68,41 @@ const ContactForm = () => {
       }
 
     function sendEmail(e) {
-        console.log('test');
-        e.preventDefault();
-        if (!isCaptch) {
-            recaptchaerrorFunction('display:block');
-            return false;
-          }
+        Email.send({
+            Host : "smtp.elasticemail.com",
+            Username : "mitp@webenix.net",
+            Password : "3B7A3D10543A6F3B956EC43D4AA7AF7BAE15",
+            To : 'mitp@webenix.net',
+            //From : "you@isp.com",
+            Subject : "This is the test mail",
+            Body : "test by developer"
+        }).then(
+          message => alert(message)
+        );
+        // e.preventDefault();
+        // if (!isCaptch) {
+        //     recaptchaerrorFunction('display:block');
+        //     return false;
+        //   }
 
-        emailjs.sendForm('service_3ucsloc', 'template_z3stw7g', e.target, '3i8vNYueSpinK0hpA')
-            .then((result) => {
-                console.log(result.text);
-            }, (error) => {
-                console.log(error.text);
-            });
+        // emailjs.sendForm('service_3ucsloc', 'template_z3stw7g', e.target, '3i8vNYueSpinK0hpA')
+        //     .then((result) => {
+        //         console.log(result.text);
+        //     }, (error) => {
+        //         console.log(error.text);
+        //     });
 
 
-        setTimeout(() => {
-            setcontact_fname('');
-            setcontact_url('');
-            setcontact_email('');
-            setcontact_phone('');
-            setcontact_textarea('');
-            setcontact_recaptcha('');
-            setIsCaptch(false);
-            setStatusMessage('Form submitted successfully.');
-        }, 1000);
+        // setTimeout(() => {
+        //     setcontact_fname('');
+        //     setcontact_url('');
+        //     setcontact_email('');
+        //     setcontact_phone('');
+        //     setcontact_textarea('');
+        //     setcontact_recaptcha('');
+        //     setIsCaptch(false);
+        //     setStatusMessage('Form submitted successfully.');
+        // }, 1000);
     }
 
 
