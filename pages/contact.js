@@ -11,6 +11,7 @@ const Contact = () => {
         <title>{data.contact.title}</title>
         <meta name="description" content={data.contact.description}/>
         <meta name="keywords" content={data.contact.keyword} />
+        <script defer="" src="https://smtpjs.com/v3/smtp.js"></script>
       </Head>   
       <PageBanner 
             PageBannerBigTitle="CONTACT"
