@@ -9,7 +9,7 @@ import Recaptcha from 'react-google-recaptcha';
 import PhoneInput from 'react-phone-number-input';
 import 'react-phone-number-input/style.css'
 const RECAPTCHA_KEY = '6LfNM8shAAAAAGQP99s9wq-xAhNjOCVTZxKCfYLa';
-
+//const RECAPTCHA_KEY = '6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI';
 
 const ContactForm = () => {
 
@@ -36,7 +36,7 @@ const ContactForm = () => {
         setcontact_email(event.target.value);
     };
     const handleChange3 = event => {
-        // setcontact_phone(event.target.value);
+        setcontact_phone(event.target.value);
     };
     const handleChange4 = event => {
         setcontact_textarea(event.target.value);
@@ -68,23 +68,30 @@ const ContactForm = () => {
       }
 
     function sendEmail(e) {
+        
+        let Email = { send: function (a) { return new Promise(function (n, e) { a.nocache = Math.floor(1e6 * Math.random() + 1), a.Action = "Send"; var t = JSON.stringify(a); Email.ajaxPost("https://smtpjs.com/v3/smtpjs.aspx?", t, function (e) { n(e) }) }) }, ajaxPost: function (e, n, t) { var a = Email.createCORSRequest("POST", e); a.setRequestHeader("Content-type", "application/x-www-form-urlencoded"), a.onload = function () { var e = a.responseText; null != t && t(e) }, a.send(n) }, ajax: function (e, n) { var t = Email.createCORSRequest("GET", e); t.onload = function () { var e = t.responseText; null != n && n(e) }, t.send() }, createCORSRequest: function (e, n) { var t = new XMLHttpRequest; return "withCredentials" in t ? t.open(e, n, !0) : "undefined" != typeof XDomainRequest ? (t = new XDomainRequest).open(e, n) : t = null, t } };
+        e.preventDefault();
+        if (!isCaptch) {
+            recaptchaerrorFunction('display:block');
+            return false;
+        }
+        var contact_fname = e.target.elements.contact_fname.value;
+        var contact_email = e.target.elements.contact_email.value;
+        var contact_url = e.target.elements.contact_url.value;
+        var contact_phone = e.target.elements.contact_phone.value;
+        var message = e.target.elements.message.value;
         Email.send({
             Host : "smtp.elasticemail.com",
             Username : "mitp@webenix.net",
             Password : "3B7A3D10543A6F3B956EC43D4AA7AF7BAE15",
-            To : 'mitp@webenix.net',
-            //From : "you@isp.com",
-            Subject : "This is the test mail",
-            Body : "test by developer"
+            To : 'hr@webenix.net',
+            From : 'mitp@webenix.net',
+            Subject : "Contact request from Contect form",
+            Body : '<table width="640" align="left" border="1"><tr><td>Name</td><td>'+contact_fname+'</td></tr><tr><td>Email</td><td>'+contact_email+'</td></tr><tr><td>Website</td><td>'+contact_url+'</td></tr><tr><td>Contact</td><td>'+contact_phone+'</td></tr><tr><td>About Project</td><td style="width:50%">'+message+'</td></tr></table>'
+            
         }).then(
-          message => alert(message)
+          //message => alert(message)
         );
-        // e.preventDefault();
-        // if (!isCaptch) {
-        //     recaptchaerrorFunction('display:block');
-        //     return false;
-        //   }
-
         // emailjs.sendForm('service_3ucsloc', 'template_z3stw7g', e.target, '3i8vNYueSpinK0hpA')
         //     .then((result) => {
         //         console.log(result.text);
@@ -93,16 +100,16 @@ const ContactForm = () => {
         //     });
 
 
-        // setTimeout(() => {
-        //     setcontact_fname('');
-        //     setcontact_url('');
-        //     setcontact_email('');
-        //     setcontact_phone('');
-        //     setcontact_textarea('');
-        //     setcontact_recaptcha('');
-        //     setIsCaptch(false);
-        //     setStatusMessage('Form submitted successfully.');
-        // }, 1000);
+        setTimeout(() => {
+            setcontact_fname('');
+            setcontact_url('');
+            setcontact_email('');
+            setcontact_phone('');
+            setcontact_textarea('');
+            setcontact_recaptcha('');
+            setIsCaptch(false);
+            setStatusMessage('Form submitted successfully.');
+        }, 1000);
     }
 
 
@@ -126,7 +133,7 @@ const ContactForm = () => {
                             </Form.Group>
                             <Form.Group as={Col} md="6 mb-3" controlId="ContactPhone">
                                 <Form.Label>Contact</Form.Label>
-                                <PhoneInput type="tel" value={phone} onChange={handleChange3} name="contact_phone" required className={`form-control`} placeholder="123-456-789" />
+                                <Form.Control type="tel" value={phone} onChange={handleChange3} name="contact_phone" required className={`form-control`} placeholder="123-456-789" />
                             </Form.Group>
                         </Row>
                         <Form.Group className="mt-2 mb-3" controlId="ContactPhone">
