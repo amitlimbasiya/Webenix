@@ -112,7 +112,7 @@ function MyVerticallyCenteredModal(props) {
                 Host : "smtp.elasticemail.com",
                 Username : "mitp@webenix.net",
                 Password : "3B7A3D10543A6F3B956EC43D4AA7AF7BAE15",
-                To : 'mitp@webenix.net',
+                To : 'anand@webenix.net',
                 From : 'info@webenix.net',
                 Subject : "Job request from Career form",
                 Body : '<table width="640" align="left" border="1"><tr><td>Name</td><td>'+contact_fname+'</td></tr><tr><td>Email</td><td>'+contact_email+'</td></tr><tr><td>Job Position</td><td>'+contact_company+'</td></tr><tr><td>Number of experience</td><td>'+number_of_experience+'</td></tr><tr><td>Contact</td><td>'+contact_phone+'</td></tr><tr><td>Cover letter</td><td style="width:50%">'+message+'</td></tr></table>',
@@ -122,7 +122,7 @@ function MyVerticallyCenteredModal(props) {
                     data : attachment
                   }]
            }).then(
-             message => alert(message)
+             //message => alert(message)
            );   
         //  emailjs.sendForm('service_3ucsloc', 'template_z3stw7g', e.target, '3i8vNYueSpinK0hpA')
         //      .then((result) => {
