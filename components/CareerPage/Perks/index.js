@@ -23,7 +23,7 @@ import validator from 'validator';
 
 function MyVerticallyCenteredModal(props) {
 
-
+  var showfor = props.showfor;
    // const { control, register, setValue, handleSubmit, watch, errors, reset } = useForm();
   
 
@@ -34,10 +34,11 @@ function MyVerticallyCenteredModal(props) {
    const [url, setcontact_url] = useState('');
    const [email, setcontact_email] = useState('');
    const [phone, setcontact_phone] = useState('');
+   const [no_of_exp, setnumber_of_experience] = useState('');
    const [message, setcontact_message] = useState('');
    const [attachment, set_attachment] = useState('');
    const [attachmentname, set_attachmentname] = useState('');
-   const [textarea, setcontact_textarea] = useState('');
+   const [textarea, setcontact_textarea] = useState(showfor);
    const [statusMessage, setStatusMessage] = useState("");
    const recaptchaRef = React.createRef()
    const [buttonDisabled, setButtonDisabled] = React.useState(true)
@@ -67,6 +68,9 @@ function MyVerticallyCenteredModal(props) {
    const handleChange5 = event => {
      setcontact_recaptcha(event.target.value);
    };
+   const handleChange7 = event => {
+    setnumber_of_experience(event.target.value);
+  };
  
    const validate = (value) => {
  
@@ -86,6 +90,8 @@ function MyVerticallyCenteredModal(props) {
      // if value is null recaptcha expired
      setIsCaptch(value || false);
    };
+
+  
     
    function sendEmail(e) {
           let Email = { send: function (a) { return new Promise(function (n, e) { a.nocache = Math.floor(1e6 * Math.random() + 1), a.Action = "Send"; var t = JSON.stringify(a); Email.ajaxPost("https://smtpjs.com/v3/smtpjs.aspx?", t, function (e) { n(e) }) }) }, ajaxPost: function (e, n, t) { var a = Email.createCORSRequest("POST", e); a.setRequestHeader("Content-type", "application/x-www-form-urlencoded"), a.onload = function () { var e = a.responseText; null != t && t(e) }, a.send(n) }, ajax: function (e, n) { var t = Email.createCORSRequest("GET", e); t.onload = function () { var e = t.responseText; null != n && n(e) }, t.send() }, createCORSRequest: function (e, n) { var t = new XMLHttpRequest; return "withCredentials" in t ? t.open(e, n, !0) : "undefined" != typeof XDomainRequest ? (t = new XDomainRequest).open(e, n) : t = null, t } };
@@ -100,22 +106,23 @@ function MyVerticallyCenteredModal(props) {
            var contact_company = e.target.elements.contact_company.value;
            var contact_phone = e.target.elements.contact_phone.value;
            var message = e.target.elements.message.value;
+           var number_of_experience = e.target.elements.number_of_experience.value;
 
            Email.send({
                 Host : "smtp.elasticemail.com",
                 Username : "mitp@webenix.net",
                 Password : "3B7A3D10543A6F3B956EC43D4AA7AF7BAE15",
-                To : 'anand@webenix.net',
-                From : 'mitp@webenix.net',
+                To : 'mitp@webenix.net',
+                From : 'info@webenix.net',
                 Subject : "Job request from Career form",
-                Body : '<table width="640" align="left" border="1"><tr><td>Name</td><td>'+contact_fname+'</td></tr><tr><td>Email</td><td>'+contact_email+'</td></tr><tr><td>Company</td><td>'+contact_company+'</td></tr><tr><td>Contact</td><td>'+contact_phone+'</td></tr><tr><td>Message</td><td style="width:50%">'+message+'</td></tr></table>',
+                Body : '<table width="640" align="left" border="1"><tr><td>Name</td><td>'+contact_fname+'</td></tr><tr><td>Email</td><td>'+contact_email+'</td></tr><tr><td>Job Position</td><td>'+contact_company+'</td></tr><tr><td>Number of experience</td><td>'+number_of_experience+'</td></tr><tr><td>Contact</td><td>'+contact_phone+'</td></tr><tr><td>Cover letter</td><td style="width:50%">'+message+'</td></tr></table>',
                 Attachments : [
                   {
                     name : attachmentname,
                     data : attachment
                   }]
            }).then(
-             //message => alert(message)
+             message => alert(message)
            );   
         //  emailjs.sendForm('service_3ucsloc', 'template_z3stw7g', e.target, '3i8vNYueSpinK0hpA')
         //      .then((result) => {
@@ -129,6 +136,7 @@ function MyVerticallyCenteredModal(props) {
              setcontact_url('');
              setcontact_email('');
              setcontact_phone('');
+             setnumber_of_experience('');
              setcontact_textarea('');
              setcontact_message('');
              setcontact_recaptcha('');
@@ -182,13 +190,20 @@ function MyVerticallyCenteredModal(props) {
               <Form.Control type="tel" value={phone} onChange={handleChange3} name="contact_phone" required className={`form-control`} placeholder="123 465 7890" />
             </Col>
             <Col md={6} controlid="formCompany">
-              <Form.Label>Company:</Form.Label>
-              <Form.Control value={textarea} onChange={handleChange4} name="contact_company" required className={`form-control`} placeholder="Lorem Ipsam" />
+              <Form.Label>Job Position:</Form.Label>
+              <Form.Control value={props.showfor} onChange={handleChange4} name="contact_company" required className={`form-control`} placeholder="Lorem Ipsam" />
+            </Col>
+          </Row>
+
+          <Row className="mb-3">
+            <Col md={12} controlid="formExprerience" className='mb-3 mb-md-0'>
+              <Form.Label>Number of experience:</Form.Label>
+              <Form.Control type="text" value={no_of_exp} onChange={handleChange7} name="number_of_experience" required className={`form-control`} placeholder="2" />
             </Col>
           </Row>
 
           <Col className="mb-3" controlid="formCompany">
-            <Form.Label>Your message:</Form.Label>
+            <Form.Label>Cover letter:</Form.Label>
             <Form.Control
               as="textarea"
               name="message"
@@ -196,8 +211,8 @@ function MyVerticallyCenteredModal(props) {
               onChange={handleChange6} 
               placeholder="Your message hear"
             />
-
           </Col>
+
           <Row className="mb-3">
             <Col controlid="formGridCity">
               <Form.Label htmlFor="inlineFormInputGroupUsername">
@@ -282,11 +297,17 @@ function MyVerticallyCenteredModal(props) {
 
 const SectionIntro = () => {
   const [modalShow, setModalShow] = React.useState(false);
+  const [modalShowfor, setModalShowfor] = React.useState(false);
+  const formOpen = (value) => {
+    setModalShow(true);
+    setModalShowfor(value);
+  };
   return (
     <>
     
       <MyVerticallyCenteredModal
         show={modalShow}
+        showfor={modalShowfor}
         onHide={() => setModalShow(false)}
       />
     <s.SectionIntroWrapper className="introuction-section">
@@ -317,7 +338,8 @@ const SectionIntro = () => {
                           </div>
                           <div className='buttonPart'>
                             <Link href="#">
-                              <a onClick={() => setModalShow(true)} className='btn-default btn-arrow'>Apply Now</a>
+                              {/* <a onClick={() => setModalShow(true)} className='btn-default btn-arrow'>Apply Now</a> */}
+                              <a onClick={() => formOpen('Wordpress Developer')} className='btn-default btn-arrow'>Apply Now</a>
                             </Link>
                           </div>
                         </div>
@@ -354,7 +376,7 @@ const SectionIntro = () => {
                           </div>
                           <div className='buttonPart'>
                             <Link href="#">
-                              <a onClick={() => setModalShow(true)} className='btn-default btn-arrow'>Apply Now</a>
+                              <a onClick={() => formOpen('Business Development Executive')} className='btn-default btn-arrow'>Apply Now</a>
                             </Link>
                           </div>
                         </div>
