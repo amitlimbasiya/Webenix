@@ -12,6 +12,7 @@ const CAREER = () => {
         <title>{data.career.title}</title>
         <meta name="description" content={data.career.description}/>
         <meta name="keywords" content={data.career.keyword} />
+        <script defer="" src="https://smtpjs.com/v3/smtp.js"></script>
       </Head>
       <PageBanner 
         PageBannerClass="pagebanner-section top-right darkGreenNoice"

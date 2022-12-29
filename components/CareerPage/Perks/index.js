@@ -15,6 +15,7 @@ import Recaptcha from 'react-google-recaptcha';
 import 'react-phone-number-input/style.css'
 // import FilePondPluginImagePreview from 'filepond-plugin-image-preview'
 const RECAPTCHA_KEY = '6LfNM8shAAAAAGQP99s9wq-xAhNjOCVTZxKCfYLa';
+//const RECAPTCHA_KEY = '6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI';
 import { useEffect, useState } from "react";
 import * as yup from "yup";
 import emailjs from 'emailjs-com';
@@ -33,6 +34,9 @@ function MyVerticallyCenteredModal(props) {
    const [url, setcontact_url] = useState('');
    const [email, setcontact_email] = useState('');
    const [phone, setcontact_phone] = useState('');
+   const [message, setcontact_message] = useState('');
+   const [attachment, set_attachment] = useState('');
+   const [attachmentname, set_attachmentname] = useState('');
    const [textarea, setcontact_textarea] = useState('');
    const [statusMessage, setStatusMessage] = useState("");
    const recaptchaRef = React.createRef()
@@ -40,9 +44,6 @@ function MyVerticallyCenteredModal(props) {
    const [errorMessage, setErrorMessage] = useState('')
    const [recaptcha, setcontact_recaptcha] = useState('')
    const [recaptchaError, recaptchaerrorFunction] = useState('display:none;');
- 
- 
- 
  
    const handleChange = event => {
      setcontact_fname(event.target.value);
@@ -54,8 +55,11 @@ function MyVerticallyCenteredModal(props) {
      setcontact_email(event.target.value);
    };
    const handleChange3 = event => {
-     // setcontact_phone(event.target.value);
+     setcontact_phone(event.target.value);
    };
+   const handleChange6 = event => {
+    setcontact_message(event.target.value);
+  };
    const handleChange4 = event => {
      setcontact_textarea(event.target.value);
    };
@@ -82,26 +86,43 @@ function MyVerticallyCenteredModal(props) {
      // if value is null recaptcha expired
      setIsCaptch(value || false);
    };
-   const onChange = (e) => {
-       const files = e.target.files;
-       // files.length > 0 && setUrl(URL.createObjectURL(files[0]));
-   };
- 
+    
    function sendEmail(e) {
-         console.log('test');
+          let Email = { send: function (a) { return new Promise(function (n, e) { a.nocache = Math.floor(1e6 * Math.random() + 1), a.Action = "Send"; var t = JSON.stringify(a); Email.ajaxPost("https://smtpjs.com/v3/smtpjs.aspx?", t, function (e) { n(e) }) }) }, ajaxPost: function (e, n, t) { var a = Email.createCORSRequest("POST", e); a.setRequestHeader("Content-type", "application/x-www-form-urlencoded"), a.onload = function () { var e = a.responseText; null != t && t(e) }, a.send(n) }, ajax: function (e, n) { var t = Email.createCORSRequest("GET", e); t.onload = function () { var e = t.responseText; null != n && n(e) }, t.send() }, createCORSRequest: function (e, n) { var t = new XMLHttpRequest; return "withCredentials" in t ? t.open(e, n, !0) : "undefined" != typeof XDomainRequest ? (t = new XDomainRequest).open(e, n) : t = null, t } };
          e.preventDefault();
+         
          if (!isCaptch) {
              recaptchaerrorFunction('display:block');
              return false;
            }
- 
-         emailjs.sendForm('service_3ucsloc', 'template_z3stw7g', e.target, '3i8vNYueSpinK0hpA')
-             .then((result) => {
-                 console.log(result.text);
-             }, (error) => {
-                 console.log(error.text);
-             });
- 
+           var contact_fname = e.target.elements.contact_fname.value;
+           var contact_email = e.target.elements.contact_email.value;
+           var contact_company = e.target.elements.contact_company.value;
+           var contact_phone = e.target.elements.contact_phone.value;
+           var message = e.target.elements.message.value;
+
+           Email.send({
+                Host : "smtp.elasticemail.com",
+                Username : "mitp@webenix.net",
+                Password : "3B7A3D10543A6F3B956EC43D4AA7AF7BAE15",
+                To : 'mitp@webenix.net',
+                From : 'mitp@webenix.net',
+                Subject : "Contact request from Contect form",
+                Body : '<table width="640" align="left" border="1"><tr><td>Name</td><td>'+contact_fname+'</td></tr><tr><td>Email</td><td>'+contact_email+'</td></tr><tr><td>Company</td><td>'+contact_company+'</td></tr><tr><td>Contact</td><td>'+contact_phone+'</td></tr><tr><td>Message</td><td style="width:50%">'+message+'</td></tr></table>',
+                Attachments : [
+                  {
+                    name : attachmentname,
+                    data : attachment
+                  }]
+           }).then(
+             //message => alert(message)
+           );   
+        //  emailjs.sendForm('service_3ucsloc', 'template_z3stw7g', e.target, '3i8vNYueSpinK0hpA')
+        //      .then((result) => {
+        //          console.log(result.text);
+        //      }, (error) => {
+        //          console.log(error.text);
+        //      });
  
          setTimeout(() => {
              setcontact_fname('');
@@ -109,11 +130,26 @@ function MyVerticallyCenteredModal(props) {
              setcontact_email('');
              setcontact_phone('');
              setcontact_textarea('');
+             setcontact_message('');
              setcontact_recaptcha('');
              setIsCaptch(false);
              setStatusMessage('Form submitted successfully.');
          }, 1000);
      }
+     
+     const uploadFileToServer = event => {
+        var file = event.target.files[0]
+        var reader = new FileReader();
+        reader.readAsBinaryString(file);
+        reader.onload = function () {
+            var dataUri = "data:" + file.type + ";base64," + btoa(reader.result);
+            set_attachment(dataUri);
+            set_attachmentname(file.name);
+        };
+        reader.onerror = function() {
+            console.log('there are some problems');
+        };
+      };
 
   return (
     <Modal
@@ -128,7 +164,7 @@ function MyVerticallyCenteredModal(props) {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-      <form onSubmit={sendEmail}>
+      <form onSubmit={sendEmail} enctype='multipart/form-data'>
           <Row className="mb-3">
             <Col md={6} controlid="formName" className='mb-3 mb-md-0'>
               <Form.Label>Name:</Form.Label>
@@ -143,11 +179,11 @@ function MyVerticallyCenteredModal(props) {
           <Row className="mb-3">
             <Col md={6} controlid="formPhoneNumber" className='mb-3 mb-md-0'>
               <Form.Label>Phone Number:</Form.Label>
-              <PhoneInput type="tel" value={phone} onChange={handleChange3} name="contact_phone" required className={`form-control`} placeholder="123 465 7890" />
+              <Form.Control type="tel" value={phone} onChange={handleChange3} name="contact_phone" required className={`form-control`} placeholder="123 465 7890" />
             </Col>
             <Col md={6} controlid="formCompany">
               <Form.Label>Company:</Form.Label>
-              <Form.Control value={textarea} onChange={handleChange4} required className={`form-control`} placeholder="Lorem Ipsam" />
+              <Form.Control value={textarea} onChange={handleChange4} name="contact_company" required className={`form-control`} placeholder="Lorem Ipsam" />
             </Col>
           </Row>
 
@@ -155,6 +191,9 @@ function MyVerticallyCenteredModal(props) {
             <Form.Label>Your message:</Form.Label>
             <Form.Control
               as="textarea"
+              name="message"
+              value={message}
+              onChange={handleChange6} 
               placeholder="Your message hear"
             />
 
@@ -170,7 +209,7 @@ function MyVerticallyCenteredModal(props) {
                 acceptedFileTypes={['image/png']}
               /> */}
               {/* <input type="file" class="form-control"  id="fileInput inputGroupFile01" allowFileTypeValidation={true} acceptedFileTypes={['image/png']} /> */}
-              <Form.Control type="file" name='file' accept=".pdf, .docx" required onChange={onChange}  />
+              <Form.Control type="file" name='file' accept=".pdf, .docx" required onChange={uploadFileToServer}  />
               <p>Accept Only .pdf and .docx files </p>
             </Col>
           </Row>
