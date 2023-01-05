@@ -21,7 +21,7 @@ const WEBDEVELOPMENT = () => {
         PageBannerClass="pagebanner-section pagebanner-shape bgMistyRose pagebanner-align-center noiseBg"
         PageBannerImgClass="pagebannerimg-col" 
         PageBannerTitle="Web Development"
-        PageBannerContent="Webenix has been delivering the best <strong>web development company</strong> considering creative content and sleek web design. By using the top-programming language and building your website with clean codes, it worked with definite standards and specifications that our customers are looking for." 
+        PageBannerContent="Our web development team specializes in creating custom, user-friendly websites that are tailored to meet the unique needs and goals of your business." 
         PageBannerBtnText="Know More"
         PageBannerImageWidth="280px"
         PageBannerImageHeight="250px"
@@ -30,10 +30,9 @@ const WEBDEVELOPMENT = () => {
       <SectionIntro 
         SectionIntroclassName="introuction-section separatorPart noiseBg"
         IntroSubTitle="Web Development"
-        IntroMainTitle="Website developed for better results in your business."
+        IntroMainTitle="Transform your online presence with our expert web development services"
         IntroContent='
-        <p>We are the best website devlopment company having a team of some skilful developers. We believe in showcasing your business by developing it with impactful designs and delivering the most creative projects at your doorstep.</p>
-        <p>We make sure to use the right tools and sources that come from in-depth research and expertise in using it. Web devlopment is always about understanding the client’s need and delivering the best piece out of it by asking for the pre-approval by preparing a wireframe outline design.</p>
+        <p>Our team of skilled web developers is here to help you elevate your online presence. From custom website design to e-commerce development, we offer a full range of services to meet your needs. Let us help you make a lasting impression with a professional website that reflects the unique personality and goals of your business.</p>
       '/>
       <ServiceFeatureBox/>
       <HireServies/>

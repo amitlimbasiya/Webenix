@@ -23,10 +23,10 @@ const Confidentiality = () => {
       <SectionIntro 
         IntroSubTitle="Our Priority"
         IntroMainTitle="Confidentiality is our priority!"
-        IntroContent='
-          <p>Confidentiality is the most important aspect before working forward with our customers because software development consists of strategies and assets that should come under the non-disclosure act. Our customers have 100% resource access to the source code and ownership along with the intellectual property rights as soon as they sign up to work with us.</p>
-          <p>We have signed for a lot of enterprise agencies, bootstrapped startup companies, and entrepreneurs globally where it is conditioned with the legal governance, risk management and compliances ensuring to create the most secure environment for our customers to provide 100% confidentiality.</p>
-        '/>
+        IntroContent="
+          <p>At Webenix, we understand that confidentiality is a top priority for our clients. That's why we have implemented strict policies and procedures to ensure that all client information is kept secure and confidential. Our team members are required to sign confidentiality agreements and are trained on the importance of protecting client data.</p>
+          <p>In addition, we use state-of-the-art security technologies to protect client information from unauthorized access or disclosure. We regularly review and update our security measures to ensure that they meet or exceed industry standards. Our commitment to confidentiality allows our clients to trust us with their most sensitive information, knowing that it will be handled with the utmost care and respect.</p>
+        "/>
       <EngagementModel 
         EngagementClass="engagementmodel-row custom-margin engagement-pink-titlebg"
         EngagementModelImage="/images/NDA-01.svg"     

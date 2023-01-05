@@ -23,13 +23,13 @@ const About = () => {
         PageBannerBigTitle="Infra"
       />
       <SectionIntro 
-          IntroSubTitle="Grow with the freedom"
-          IntroMainTitle="Providing freedom and a flexible work environment, it always boosts up the motivation, in the presence of advancing infrastructure for prioritizing the type of data rich. We thrive to provide the performance driven, highly secured, and enterprise approved products and platforms."
-          IntroContent='
-            <p><strong>Webenix Technologies Infrastructure</strong> aims to provide a sustainable growth structure, whether it is for our valued customers or the internal team.</p>
-            <p>With our data-rich, performance-driven, security-centric enterprise-grade platforms, we are always focused on modernizing and facilitating teams with high-tech advancing infrastructure powerhouses.</p>
-            <p><strong>Webenix Technologies Working Environment</strong> makes sure that focuses to keep a similar vision with the highly secured IT space. Our IT premise provides the best infrastructure that is mainly based on cloud computing and the latest equipped hardware and software.</p>
-      '/>
+          IntroSubTitle="State-of-the-art infrastructure"
+          IntroMainTitle="At Webenix, we are proud of our state-of-the-art infrastructure that enables us to deliver high-quality services to our clients."
+        IntroContent="
+            <p>Our team of designers and developers works in a modern and spacious office equipped with the latest technology and tools. This allows us to work efficiently and effectively, and deliver web design solutions that meet the highest standards.</p>
+            <p>In addition to our physical infrastructure, we also have a robust digital infrastructure that includes advanced software and systems for project management, collaboration, and communication. This ensures that our team can work seamlessly across different locations and time zones, and deliver timely and consistent results to our clients.</p>
+            <p>Our digital infrastructure also includes multiple layers of security to protect our clients' data and confidential information. Overall, our infrastructure is an integral part of our ability to provide exceptional web design services to our clients.</p>
+      "/>
       <InfrastructureOffice
         sectionSubTitle="Take a look at"
         sectionTitle="Our Office"
