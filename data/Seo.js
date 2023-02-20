@@ -702,12 +702,35 @@ export const data = {
     keyword: "Offshore Resource Hiring-E-Guide",
   },
   singleblog31: {
-    title:
-      "Checklist for Hiring Offshore Development Team for Your Startup | Webenix",
+    title: "Checklist for Hiring Offshore Development Team for Your Startup",
     description:
       "Are you interested in using Offshore Resources for your software development? Search no further, Here is a Complete Guide on Hiring an Offshore Development Team.",
     keyword:
       "Hire Offshore Development Team, Hire Offshore Testing Team, Hire Offshore Team",
+  },
+  singleblog32: {
+    title:
+      "A Comprehensive Guide to Hire a Dedicated Developer: Overview, Process, Tips",
+    description:
+      "Hire the right dedicated developer for your project with this comprehensive guide. Learn the overview, process, and tips for finding and managing a dedicated developer for your team.",
+    keyword:
+      "Hire Dedicated Developers, Hire Dedicated PHP Developers, Hire Dedicated WordPress Developer, Guide to Hire Dedicated Developer,",
+  },
+  singleblog33: {
+    title:
+      "How Choosing a Dedicated Team Model Can Help You Create Next Generation Products",
+    description:
+      "Choose a Dedicated Team Model to build your next-gen products. Get tailored solutions from a team that understands your business goals and product vision. Unleash the full potential of your product with a Dedicated Team Model.",
+    keyword:
+      "Dedicated Team Model, Dedicated Development Team, Dedicated Team Engagement Model, ",
+  },
+  singleblog34: {
+    title:
+      "Revolutionizing Your Team: The Ultimate Guide to Hire Remote Developers for Web & Mobile App Development",
+    description:
+      "Hire top-notch remote developers for web & mobile app development projects. Discover best practices for finding, hiring & managing remote developers in this guide.",
+    keyword:
+      "Hire Remote Developers, How To Hire Remote Developer, Hire Remote Developer for Web, Hire Remote Mobile App Development",
   },
   work: {
     title: "Our Portolio | Our Work | Webenix",

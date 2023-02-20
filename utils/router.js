@@ -117,6 +117,12 @@ const router = {
   SINGLEBLOG30: "/blog/a-complete-offshore-resource-hiring-e-guide",
   SINGLEBLOG31:
     "/blog/checklist-for-hiring-offshore-development-team-for-your-startup",
+  SINGLEBLOG32:
+    "/blog/ultimate-guide-to-hire-dedicated-developer-overview-process-tips",
+  SINGLEBLOG33:
+    "/blog/choose-dedicated-team-model-to-build-next-gen-product-cto-guide",
+  SINGLEBLOG34:
+    "/blog/how-to-hire-remote-developers-for-web-mobile-app-development-2023-guide",
 
   WORK: "/work",
   AGILEADVISORYGROUP: "/work/agileAdvisoryGroup",

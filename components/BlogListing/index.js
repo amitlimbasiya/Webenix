@@ -33,11 +33,13 @@ import TopResonsOffshireDevelopment from "../../public/images/blogs/Top-Reasons-
 import OffshoreDevelopment from "../../public/images/blogs/Offshore-development-best-practices-to-know-about.jpg";
 import LeadingTrendsKnowAbout from "../../public/images/blogs/Leading-offshore-development-trends-to-know-about.jpg";
 import ChecklistHiringOffshoreDevStartup from "../../public/images/blogs/checklist-for-hiring-offshore-development-team-for-your-startup.jpg";
+import UltimateGuideToHireDedicatedDeveloperOverviewProcessTips from "../../public/images/blogs/ultimate-guide-to-hire-dedicated-developer-overview-process-tips.jpg";
 import WaysUEISABSER from "../../public/images/blogs/The-ways-to-utilize-an-effective-outsourcing-strategy-and-achieve-business-success-by-eliminating-the-risks.jpg";
 import TipsHireDedicatedProgrammers from "../../public/images/blogs/Tips-to-Hire-Dedicated-Programmers.jpg";
 import Onshoreoffshore from "../../public/images/blogs/onshore-vs-offshore.jpg";
 import HowOutsourceSoftwareDevelopmentEffectively from "../../public/images/blogs/How-To-Outsource-Software-Development-Effectively.jpg";
-
+import ChooseDedicatedTeamModelToBuildNextGenProductCtoGuide from "../../public/images/blogs/choose-dedicated-team-model-to-build-next-gen-product-cto-guide.jpg";
+import HowtoHireRemoteDevelopersWebMobileAppDevelopment from "../../public/images/blogs/how-to-hire-remote-developers-for-web-mobile-app-development-2023-guide.jpg";
 import router from "../../utils/router";
 
 var settings = {
@@ -1152,6 +1154,46 @@ const BlogListings = (props) => {
                     </Link>
                     <div className="datePart">August 03, 2020</div>
                   </s.blogItem>
+                  <s.blogItem className="blogItem outsourcing">
+                    <Link href={router.SINGLEBLOG33}>
+                      <a>
+                        <s.blogImage>
+                          <Image
+                            placeholder="blur"
+                            src={
+                              ChooseDedicatedTeamModelToBuildNextGenProductCtoGuide
+                            }
+                            alt="Choose Dedicated Team Model to Build Next Gen Product
+                          (CTO Guide)"
+                            layout="responsive"
+                          />
+                        </s.blogImage>
+                      </a>
+                    </Link>
+                    <s.blogCategory className="orangeColor">
+                      OUTSOURCING
+                    </s.blogCategory>
+                    <s.blogTitle className="postHeading">
+                      <Link href={router.SINGLEBLOG33}>
+                        <a>
+                          Choose Dedicated Team Model to Build Next Gen Product
+                          (CTO Guide)
+                        </a>
+                      </Link>
+                    </s.blogTitle>
+                    <p>
+                      While some outsource entire teams, others rely on
+                      dedicated development team. Zapier, Slack, or GitLab are
+                      just a few examples of successful businesses that take use
+                      of distributed development and have teams located all over
+                      the world. They view it as a clever method of hiring
+                      intelligent individuals wherever they may be.
+                    </p>
+                    <Link href={router.SINGLEBLOG33}>
+                      <a className="blogLink">Let&#39;s Read</a>
+                    </Link>
+                    <div className="datePart">February 1, 2023</div>
+                  </s.blogItem>
                   <s.blogItem className="blogItem development">
                     <Link href={router.SINGLEBLOG31}>
                       <a>
@@ -1186,7 +1228,85 @@ const BlogListings = (props) => {
                     <Link href={router.SINGLEBLOG31}>
                       <a className="blogLink">Let&#39;s Read</a>
                     </Link>
-                    <div className="datePart">January 26, 2023</div>
+                    <div className="datePart">February 6, 2023</div>
+                  </s.blogItem>
+                  <s.blogItem className="blogItem development">
+                    <Link href={router.SINGLEBLOG32}>
+                      <a>
+                        <s.blogImage>
+                          <Image
+                            placeholder="blur"
+                            src={
+                              UltimateGuideToHireDedicatedDeveloperOverviewProcessTips
+                            }
+                            alt="Ultimate Guide to Hire Dedicated Developer: Overview, Process, Tips"
+                            layout="responsive"
+                          />
+                        </s.blogImage>
+                      </a>
+                    </Link>
+                    <s.blogCategory className="orangeColor">
+                      Development
+                    </s.blogCategory>
+                    <s.blogTitle className="postHeading">
+                      <Link href={router.SINGLEBLOG32}>
+                        <a>
+                          Ultimate Guide to Hire Dedicated Developer: Overview,
+                          Process, Tips
+                        </a>
+                      </Link>
+                    </s.blogTitle>
+                    <p>
+                      You must have witnessed tremendous growth in virtual
+                      enterprises since COVID-19. The need for software
+                      developers is excellent in 2021. Businesses are converting
+                      to automation and digital platforms, and as a result,
+                      there is a growing need for platforms and software
+                      engineers.
+                    </p>
+                    <Link href={router.SINGLEBLOG32}>
+                      <a className="blogLink">Let&#39;s Read</a>
+                    </Link>
+                    <div className="datePart">February 12, 2023</div>
+                  </s.blogItem>
+
+                  <s.blogItem className="blogItem development">
+                    <Link href={router.SINGLEBLOG34}>
+                      <a>
+                        <s.blogImage>
+                          <Image
+                            placeholder="blur"
+                            src={
+                              HowtoHireRemoteDevelopersWebMobileAppDevelopment
+                            }
+                            alt="How to Hire Remote Developers for Web & Mobile App Development (2023 Guide)"
+                            layout="responsive"
+                          />
+                        </s.blogImage>
+                      </a>
+                    </Link>
+                    <s.blogCategory className="orangeColor">
+                      Development
+                    </s.blogCategory>
+                    <s.blogTitle className="postHeading">
+                      <Link href={router.SINGLEBLOG34}>
+                        <a>
+                          How to Hire Remote Developers for Web & Mobile App
+                          Development (2023 Guide)
+                        </a>
+                      </Link>
+                    </s.blogTitle>
+                    <p>
+                      Great Teams produce Great Results. The aforementioned is
+                      especially true if you want to produce high-quality
+                      software. Imagine you have a software project that needs
+                      to be completed, but it is difficult to locate skilled and
+                      experienced developers who can contribute to your success.
+                    </p>
+                    <Link href={router.SINGLEBLOG34}>
+                      <a className="blogLink">Let&#39;s Read</a>
+                    </Link>
+                    <div className="datePart">February 20, 2023</div>
                   </s.blogItem>
                 </s.BlogListWrapper>
               </Col>
