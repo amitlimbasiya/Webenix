@@ -123,6 +123,12 @@ const router = {
     "/blog/choose-dedicated-team-model-to-build-next-gen-product-cto-guide",
   SINGLEBLOG34:
     "/blog/how-to-hire-remote-developers-for-web-mobile-app-development-2023-guide",
+  SINGLEBLOG35:
+    "/blog/hire-the-best-next-js-developer-for-your-project-your-ultimate-guide",
+  SINGLEBLOG36:
+    "/blog/what-do-you-need-to-consider-while-hiring-offshore-developers",
+  SINGLEBLOG37:
+    "/blog/how-to-hire-a-web-developer-that-will-be-a-perfect-match-for-your-project",
 
   WORK: "/work",
   AGILEADVISORYGROUP: "/work/agileAdvisoryGroup",

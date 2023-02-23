@@ -702,11 +702,11 @@ export const data = {
     keyword: "Offshore Resource Hiring-E-Guide",
   },
   singleblog31: {
-    title: "Checklist for Hiring Offshore Development Team for Your Startup",
+    title: "The Essential Checklist for Hiring Your Startup's Dream Team",
     description:
-      "Are you interested in using Offshore Resources for your software development? Search no further, Here is a Complete Guide on Hiring an Offshore Development Team.",
+      "Finding the right offshore development team for your startup can be daunting. Let our checklist guide you towards a smooth and successful hiring process.",
     keyword:
-      "Hire Offshore Development Team, Hire Offshore Testing Team, Hire Offshore Team",
+      "Hire Offshore Development Team, Hire Offshore Testing Team, Hire Offshore Team,",
   },
   singleblog32: {
     title:
@@ -722,7 +722,7 @@ export const data = {
     description:
       "Choose a Dedicated Team Model to build your next-gen products. Get tailored solutions from a team that understands your business goals and product vision. Unleash the full potential of your product with a Dedicated Team Model.",
     keyword:
-      "Dedicated Team Model, Dedicated Development Team, Dedicated Team Engagement Model, ",
+      "Dedicated Team Model, Dedicated Development Team, Dedicated Team Engagement Model,",
   },
   singleblog34: {
     title:
@@ -731,6 +731,30 @@ export const data = {
       "Hire top-notch remote developers for web & mobile app development projects. Discover best practices for finding, hiring & managing remote developers in this guide.",
     keyword:
       "Hire Remote Developers, How To Hire Remote Developer, Hire Remote Developer for Web, Hire Remote Mobile App Development",
+  },
+  singleblog35: {
+    title:
+      "Hire the Best Next JS Developer for Your Project with Our Expert Guide",
+    description:
+      "Create a top-performing team with the best Next JS developer for your project. Our guide takes the guesswork out of hiring for success.",
+    keyword:
+      "Hire NextJs Developer",
+  },
+  singleblog36: {
+    title:
+      "What You Need to Consider When Hiring Offshore Developers",
+    description:
+      "Don't get lost in the sea of offshore hiring. Our guide provides a clear roadmap for hiring top developers that align with your vision and values.",
+    keyword:
+      "Hiring Offshore Developers, Hiring an Offshore Developer",
+  },
+  singleblog37: {
+    title:
+      "Guide to Hiring the Perfect Web Developer for Your Project",
+    description:
+      "Hiring a web developer is a critical decision that can make or break your project. Our guide ensures you make the right hire and achieve success.",
+    keyword:
+      "Hire Web Developer, Hire A Web Developer, Hire Web Developers, Web Developer Hire, Web Developers for Hire, Best Way to Hire Web Developers,",
   },
   work: {
     title: "Our Portolio | Our Work | Webenix",

@@ -40,6 +40,9 @@ import Onshoreoffshore from "../../public/images/blogs/onshore-vs-offshore.jpg";
 import HowOutsourceSoftwareDevelopmentEffectively from "../../public/images/blogs/How-To-Outsource-Software-Development-Effectively.jpg";
 import ChooseDedicatedTeamModelToBuildNextGenProductCtoGuide from "../../public/images/blogs/choose-dedicated-team-model-to-build-next-gen-product-cto-guide.jpg";
 import HowtoHireRemoteDevelopersWebMobileAppDevelopment from "../../public/images/blogs/how-to-hire-remote-developers-for-web-mobile-app-development-2023-guide.jpg";
+import HireTheBestNextJsDeveloperForYourProjectYourUltimateGuide from "../../public/images/blogs/placeholder-blog.jpg";
+import WhatDoYouNeedToConsiderWhileHiringOffshoreDevelopers from "../../public/images/blogs/what-do-you-need-to-consider-while-hiring-offshore-developers.jpg";
+import HowToHireWebDeveloperThatWillBePerfectMatchForYourProject from "../../public/images/blogs/how-to-hire-a-web-developer-that-will-be-a-perfect-match-for-your-project.jpg";
 import router from "../../utils/router";
 
 var settings = {
@@ -1267,7 +1270,7 @@ const BlogListings = (props) => {
                     <Link href={router.SINGLEBLOG32}>
                       <a className="blogLink">Let&#39;s Read</a>
                     </Link>
-                    <div className="datePart">February 12, 2023</div>
+                    <div className="datePart">February 13, 2023</div>
                   </s.blogItem>
 
                   <s.blogItem className="blogItem development">
@@ -1304,6 +1307,105 @@ const BlogListings = (props) => {
                       experienced developers who can contribute to your success.
                     </p>
                     <Link href={router.SINGLEBLOG34}>
+                      <a className="blogLink">Let&#39;s Read</a>
+                    </Link>
+                    <div className="datePart">February 20, 2023</div>
+                  </s.blogItem>
+                  <s.blogItem className="blogItem development">
+                    <Link href={router.SINGLEBLOG35}>
+                      <a>
+                        <s.blogImage>
+                          <Image
+                            placeholder="blur"
+                            src={
+                              HireTheBestNextJsDeveloperForYourProjectYourUltimateGuide
+                            }
+                            alt="Hire the Best Next JS Developer for Your Project: Your Ultimate Guide"
+                            layout="responsive"
+                          />
+                        </s.blogImage>
+                      </a>
+                    </Link>
+                    <s.blogCategory className="orangeColor">
+                      Development
+                    </s.blogCategory>
+                    <s.blogTitle className="postHeading">
+                      <Link href={router.SINGLEBLOG35}>
+                        <a>
+                          Hire the Best Next JS Developer for Your Project: Your Ultimate Guide
+                        </a>
+                      </Link>
+                    </s.blogTitle>
+                    <p>
+                      Aiming to be dynamic and intensely engaging has been an aim of nearly every web page since JavaScript's invention in the mid-1990s. But, even dynamic web pages have drawbacks of their own.
+                    </p>
+                    <Link href={router.SINGLEBLOG35}>
+                      <a className="blogLink">Let&#39;s Read</a>
+                    </Link>
+                    <div className="datePart">February 20, 2023</div>
+                  </s.blogItem>
+                  <s.blogItem className="blogItem development">
+                    <Link href={router.SINGLEBLOG36}>
+                      <a>
+                        <s.blogImage>
+                          <Image
+                            placeholder="blur"
+                            src={
+                              WhatDoYouNeedToConsiderWhileHiringOffshoreDevelopers
+                            }
+                            alt="What Do You Need To Consider While Hiring Offshore Developers?"
+                            layout="responsive"
+                          />
+                        </s.blogImage>
+                      </a>
+                    </Link>
+                    <s.blogCategory className="orangeColor">
+                      Development
+                    </s.blogCategory>
+                    <s.blogTitle className="postHeading">
+                      <Link href={router.SINGLEBLOG36}>
+                        <a>
+                          What Do You Need To Consider While Hiring Offshore Developers?
+                        </a>
+                      </Link>
+                    </s.blogTitle>
+                    <p>
+                      Enterprises can handle several operations all the time, and among them undertaking a development project might be a challenging task for businesses with busy schedules. Businesses today prefer hiring an offshore developer because of this.
+                    </p>
+                    <Link href={router.SINGLEBLOG36}>
+                      <a className="blogLink">Let&#39;s Read</a>
+                    </Link>
+                    <div className="datePart">February 20, 2023</div>
+                  </s.blogItem>
+                  <s.blogItem className="blogItem development">
+                    <Link href={router.SINGLEBLOG37}>
+                      <a>
+                        <s.blogImage>
+                          <Image
+                            placeholder="blur"
+                            src={
+                              HowToHireWebDeveloperThatWillBePerfectMatchForYourProject
+                            }
+                            alt="How To Hire A Web Developer That Will Be A Perfect Match For Your Project?"
+                            layout="responsive"
+                          />
+                        </s.blogImage>
+                      </a>
+                    </Link>
+                    <s.blogCategory className="orangeColor">
+                      Development
+                    </s.blogCategory>
+                    <s.blogTitle className="postHeading">
+                      <Link href={router.SINGLEBLOG37}>
+                        <a>
+                          How To Hire A Web Developer That Will Be A Perfect Match For Your Project?
+                        </a>
+                      </Link>
+                    </s.blogTitle>
+                    <p>
+                      In our daily life, technology is essential. While it makes it easier for us to carry out routine chores in the most basic settings, it also creates space for ground-breaking innovations.
+                    </p>
+                    <Link href={router.SINGLEBLOG37}>
                       <a className="blogLink">Let&#39;s Read</a>
                     </Link>
                     <div className="datePart">February 20, 2023</div>

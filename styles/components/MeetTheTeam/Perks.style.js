@@ -2,23 +2,124 @@ import styled, { css } from "styled-components";
 import { mediaQueries } from "../../../utils/mediaQuery";
 
 export const Pillar = styled.div`
-  padding: 110px 0px;
+  position: relative;
+  overflow: hidden;
 
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: url(../images/line-shape-team.svg) no-repeat;
+    width: 665px;
+    height: 1365px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    ${mediaQueries("xll")` 
+      width: 505px;
+      height: 1215px;
+    `}
+  }
+  &::before {
+    left: 0px;
+    top: -100px;
+    transform: rotate(180deg);
+  }
+  &::after {
+    right: 0px;
+    bottom: 0px;
+
+    ${mediaQueries("xll")` 
+      bottom: -80px;
+    `}
+  }
+
+  padding: 110px 0px;
+  ${mediaQueries("tablet")` 
+    padding: 70px 0px;
+  `}
+  ${mediaQueries("mobile")` 
+    padding: 50px 0px;
+  `}
+
+  .realPeopleContent {
+    margin: 0 0 100px 0;
+
+    ${mediaQueries("xll")` 
+      margin: 0 0 70px 0;
+    `}
+    ${mediaQueries("tablet")` 
+      margin: 0 0 50px 0;
+    `}
+    ${mediaQueries("mobile")` 
+      margin: 0 0 30px 0;
+    `}
+  }
+  .realPeopleContent p {
+    font-size: 20px;
+    color: #000;
+    line-height: 30px;
+    font-family: "DINPro-Medium";
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    margin: 0 0 25px 0;
+
+    ${mediaQueries("mobile")` 
+      font-size: 18px;
+    `}
+  }
+  .realPeopleContent p strong {
+    font-family: "DINPro-Bold";
+    font-weight: bold;
+    letter-spacing: 0.2px;
+  }
+  .realPeopleContent h4 {
+    font-size: 42px;
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: left;
+    margin: 0px 0px 0px;
+    padding: 25px 0px 0px;
+    letter-spacing: 0.2px;
+
+    ${mediaQueries("xl")` 
+      font-size: 30px;
+    `}
+    ${mediaQueries("llg")` 
+      font-size: 26px;
+    `}
+    ${mediaQueries("mobile")` 
+      font-size: 20px;
+      line-height:28px;
+    `}
+    ${mediaQueries("tablet")` 
+      padding: 15px 0px 0px;
+    `}
+  }
+  .realPeopleContent h4 strong {
+    font-family: "Montserrat", sans-serif;
+    font-wight: 600;
+    letter-spacing: 0.2px;
+  }
   .container {
     max-width: 1430px;
     padding-left: 30px;
     padding-right: 30px;
+
+    ${mediaQueries("llg")` 
+      padding-left: 20px;
+      padding-right: 20px;
+    `}
   }
 
   ${mediaQueries("llg")` 
-        margin-bottom: 45px
+        margin-bottom: 0px;
     `}
 
-  ${mediaQueries("xl")` 
-        margin-bottom:30px
-    `} 
-
-    .topHeading {
+  .topHeading {
     margin-bottom: 65px;
   }
   .topHeading .before-dash {
@@ -89,6 +190,13 @@ export const Pillar = styled.div`
     font-weight: 800;
     line-height: 1.2;
     text-align: left;
+
+    ${mediaQueries("xl")` 
+      font-size: 36px;
+    `}
+    ${mediaQueries("mobile")` 
+      font-size: 26px;
+    `}
   }
   .team-section .position {
     font-size: 18px;
@@ -100,11 +208,19 @@ export const Pillar = styled.div`
     text-align: left;
     display: inline-block;
     margin: 0px 0px 20px 0px;
+
+    ${mediaQueries("mobile")` 
+      font-size: 16px;
+    `}
   }
   .team-section .position a {
     display: inline-block;
     margin: 0px 0px 0px 12px;
     font-size: 20px;
+
+    ${mediaQueries("mobile")` 
+      font-size: 18px;
+    `}
 
     &:hover {
       color: #67c187;
@@ -127,12 +243,28 @@ export const Pillar = styled.div`
     &:last-child {
       margin-bottom: 0px;
     }
+
+    ${mediaQueries("xl")` 
+      font-size: 22px;
+    `}
+    ${mediaQueries("llg")` 
+      font-size: 18px;
+    `}
+    ${mediaQueries("mobile")` 
+      font-size: 16px;
+    `}
   }
   .team-section .row {
     margin-bottom: 150px;
     &:last-child {
       margin-bottom: 0px;
     }
+    ${mediaQueries("llg")` 
+      margin-bottom: 100px;
+    `}
+    ${mediaQueries("tablet")` 
+      margin-bottom: 70px;
+    `}
   }
   .team-section .team-img {
     position: relative;
@@ -153,6 +285,10 @@ export const Pillar = styled.div`
       width: 100%;
       height: 74px;
       z-index: 1;
+
+      ${mediaQueries("sm")` 
+       background-size: contain;
+    `}
     }
   }
   .team-section .team-img img {

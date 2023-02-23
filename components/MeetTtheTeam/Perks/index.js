@@ -21,22 +21,58 @@ const SectionIntro = () => {
         <Container>
           <Row>
             <Col md={12}>
-              <div class="topHeading">
+              <div className="topHeading mb-3 mb-lg-5">
+                <h2>Real People Create Real Results</h2>
+              </div>
+              <div className="realPeopleContent">
+                <p>
+                  We are technocrats who live, eat, sleep and breathe EXCELLENCE
+                  in technology – whether it is pixel-perfect design,
+                  performance centric web or mobile app development, quality
+                  assurance,cloud infrastructure or digital marketing services.
+                </p>
+                <p>
+                  A solid team of organized strategic thinkers, brave creatives,
+                  trailblazing web and mobile experts, unflappable trendsetters,
+                  and good humored bold partners have joined together to form a
+                  delightful network of intrapreneur empowering entrepreneurs.
+                  We are here to create <strong>VALUE</strong> for you.
+                </p>
+                <p>
+                  When we share <strong>“Your Business Need”</strong> with our
+                  highly motivated team, their attitude is always the same –
+                  “Bring it on”. We are trend setters in the technology service
+                  industry and use the latest technology stack as well as rich
+                  experience to deliver enterprise grade softwares to global
+                  customers.
+                </p>
+                <h4>
+                  We are Powered by <strong>Engineers.</strong> Empowered by{" "}
+                  <strong>Technology.</strong>
+                </h4>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+        <Container>
+          <Row>
+            <Col md={12}>
+              <div className="topHeading">
                 <span className="before-dash">Quick Look</span>
                 <h2>Our Pillar</h2>
               </div>
             </Col>
           </Row>
         </Container>
-        <div class="team-section">
+        <div className="team-section">
           <Container>
             <Row>
-              <Col md={6}>
-                <div className="team-img me-5">
+              <Col lg={6} md={12}>
+                <div className="team-img me-lg-5 mb-5 mb-lg-0">
                   <Image src={TeamImg1} alt="Anand Patadiya" layout="raw" />
                 </div>
               </Col>
-              <Col md={6}>
+              <Col lg={6} md={12}>
                 <h2>Anand Patadiya</h2>
                 <div className="position">
                   Director & Technical Head
@@ -75,7 +111,7 @@ const SectionIntro = () => {
               </Col>
             </Row>
             <Row>
-              <Col md={6}>
+              <Col lg={6} md={12}>
                 <h2>Rahul Bhalsod</h2>
                 <div className="position">
                   Director & Creative Head
@@ -111,8 +147,8 @@ const SectionIntro = () => {
                   helps clients to stand out from their competition.
                 </p>
               </Col>
-              <Col md={6}>
-                <div className="team-img ms-5">
+              <Col lg={6} md={12} className="order-first order-lg-last">
+                <div className="team-img ms-lg-5 mb-5 ms-lg-0">
                   <Image src={TeamImg2} alt="Rahul Bhalsod" layout="raw" />
                 </div>
               </Col>
