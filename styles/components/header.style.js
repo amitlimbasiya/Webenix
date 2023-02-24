@@ -169,6 +169,9 @@ export const HeaderItemCenter  = styled.div`
     `}
 
     ${mediaQueries("tablet")` 
+        .menu.nav{
+            top: 69px;        
+        }
         & .menu-mobile-toggle{
             top: 26px;
         }
@@ -508,6 +511,14 @@ export const MenuSub  = styled.div`
                 // display:none;
             `}
         }
+    }
+    &.menu-column-3 .menucolumn .menulist-item .menuitem-block{
+        position:relative;
+    }
+    &.menu-column-3 .menucolumn .menulist-item .menuitem-block:after{
+        clear: both;
+        content: "";
+        display: table;
     }
 
 

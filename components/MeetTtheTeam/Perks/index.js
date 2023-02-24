@@ -76,17 +76,17 @@ const SectionIntro = () => {
                 <h2>Anand Patadiya</h2>
                 <div className="position">
                   Director & Technical Head
-                  <Link href="/">
-                    <a>
+                  <Link href="https://www.linkedin.com/in/anandpatadiya/">
+                    <a target={"_blank"}>
                       <FontAwesomeIcon icon={faLinkedin} />
                     </a>
                   </Link>
-                  <Link href="/">
+                  <Link href="mailto:anand@webenix.net">
                     <a>
                       <FontAwesomeIcon icon={faEnvelope} />
                     </a>
                   </Link>
-                  <Link href="/">
+                  <Link href="skype:anand.patadiya?chat">
                     <a>
                       <FontAwesomeIcon icon={faSkype} />
                     </a>
@@ -115,17 +115,17 @@ const SectionIntro = () => {
                 <h2>Rahul Bhalsod</h2>
                 <div className="position">
                   Director & Creative Head
-                  <Link href="/">
-                    <a>
+                  <Link href="https://www.linkedin.com/in/rahul-bhalsod-164b8a20/">
+                    <a target={"_blank"}>
                       <FontAwesomeIcon icon={faLinkedin} />
                     </a>
                   </Link>
-                  <Link href="/">
+                  <Link href="mailto:rahul@webenix.net">
                     <a>
                       <FontAwesomeIcon icon={faEnvelope} />
                     </a>
                   </Link>
-                  <Link href="/">
+                  <Link href="skype:rahulbhalsod?chat">
                     <a>
                       <FontAwesomeIcon icon={faSkype} />
                     </a>

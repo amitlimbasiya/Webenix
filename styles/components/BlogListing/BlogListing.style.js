@@ -164,6 +164,8 @@ export const blogListing  = styled.div`
             padding-top: 30px;
             padding-bottom: 0px;
         `} 
+
+        
     }   
 
     .paginationPart,
@@ -219,10 +221,10 @@ export const blogItem  = styled.div`
     width: 50%;
     padding: 0 15px;
     margin-bottom: 50px;
-    
+
     ${mediaQueries("sm")`  
         width: 100%;
-        padding: 0;
+        padding: 0px 0px 20px;
         margin-bottom: 0px;
     `}
 
