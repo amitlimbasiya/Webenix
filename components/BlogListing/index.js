@@ -40,7 +40,7 @@ import Onshoreoffshore from "../../public/images/blogs/onshore-vs-offshore.jpg";
 import HowOutsourceSoftwareDevelopmentEffectively from "../../public/images/blogs/How-To-Outsource-Software-Development-Effectively.jpg";
 import ChooseDedicatedTeamModelToBuildNextGenProductCtoGuide from "../../public/images/blogs/choose-dedicated-team-model-to-build-next-gen-product-cto-guide.jpg";
 import HowtoHireRemoteDevelopersWebMobileAppDevelopment from "../../public/images/blogs/how-to-hire-remote-developers-for-web-mobile-app-development-2023-guide.jpg";
-import HireTheBestNextJsDeveloperForYourProjectYourUltimateGuide from "../../public/images/blogs/placeholder-blog.jpg";
+import HireTheBestNextJsDeveloperForYourProjectYourUltimateGuide from "../../public/images/blogs/hire-the-best-next-js-developer-for-your-project-your-ultimate-guide.jpg";
 import WhatDoYouNeedToConsiderWhileHiringOffshoreDevelopers from "../../public/images/blogs/what-do-you-need-to-consider-while-hiring-offshore-developers.jpg";
 import HowToHireWebDeveloperThatWillBePerfectMatchForYourProject from "../../public/images/blogs/how-to-hire-a-web-developer-that-will-be-a-perfect-match-for-your-project.jpg";
 import router from "../../utils/router";
