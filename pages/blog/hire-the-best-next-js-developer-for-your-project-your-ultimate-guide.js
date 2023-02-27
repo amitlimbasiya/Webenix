@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Col, Container, Row } from "react-bootstrap";
 import Blog from "../../components/Blog";
 import * as s from "../../styles/components/SingleBlog.style";
-import HireTheBestNextJsDeveloperForYourProjectYourUltimateGuide from "../../public/images/blogs/placeholder-blog.jpg";
+import HireTheBestNextJsDeveloperForYourProjectYourUltimateGuide from "../../public/images/blogs/hire-the-best-next-js-developer-for-your-project-your-ultimate-guide.jpg";
 import Head from "next/head";
 import { data } from "../../data/Seo";
 
