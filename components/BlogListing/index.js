@@ -1433,7 +1433,7 @@ const BlogListings = (props) => {
                     <s.blogTitle className="postHeading">
                       <Link href={router.SINGLEBLOG38}>
                         <a>
-                          what is a hubspot certified developer and why should you hire one?
+                          What is a hubspot certified developer and why should you hire one?
                         </a>
                       </Link>
                     </s.blogTitle>
