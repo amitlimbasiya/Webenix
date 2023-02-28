@@ -129,6 +129,10 @@ const router = {
     "/blog/what-do-you-need-to-consider-while-hiring-offshore-developers",
   SINGLEBLOG37:
     "/blog/how-to-hire-a-web-developer-that-will-be-a-perfect-match-for-your-project",
+  SINGLEBLOG38:
+    "/blog/what-is-a-hubspot-certified-developer-and-why-should-you-hire-one",
+  SINGLEBLOG39:
+    "/blog/why-hiring-an-offshore-next-js-developer-may-be-the-right-choice-for-your-project",
 
   WORK: "/work",
   AGILEADVISORYGROUP: "/work/agileAdvisoryGroup",

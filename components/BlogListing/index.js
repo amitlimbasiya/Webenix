@@ -43,6 +43,8 @@ import HowtoHireRemoteDevelopersWebMobileAppDevelopment from "../../public/image
 import HireTheBestNextJsDeveloperForYourProjectYourUltimateGuide from "../../public/images/blogs/hire-the-best-next-js-developer-for-your-project-your-ultimate-guide.jpg";
 import WhatDoYouNeedToConsiderWhileHiringOffshoreDevelopers from "../../public/images/blogs/what-do-you-need-to-consider-while-hiring-offshore-developers.jpg";
 import HowToHireWebDeveloperThatWillBePerfectMatchForYourProject from "../../public/images/blogs/how-to-hire-a-web-developer-that-will-be-a-perfect-match-for-your-project.jpg";
+import WhatIsHubspotCertifiedDeveloperWhyShouldYouHireOne from "../../public/images/blogs/placeholder-blog.jpg";
+import WhyHiringAnOffshoreNextJsDeveloperMayBeTheRightChoiceForYourProject from "../../public/images/blogs/placeholder-blog.jpg";
 import router from "../../utils/router";
 
 var settings = {
@@ -1409,6 +1411,72 @@ const BlogListings = (props) => {
                       <a className="blogLink">Let&#39;s Read</a>
                     </Link>
                     <div className="datePart">February 20, 2023</div>
+                  </s.blogItem>
+                  <s.blogItem className="blogItem development">
+                    <Link href={router.SINGLEBLOG38}>
+                      <a>
+                        <s.blogImage>
+                          <Image
+                            placeholder="blur"
+                            src={
+                              WhatIsHubspotCertifiedDeveloperWhyShouldYouHireOne
+                            }
+                            alt="How To Hire A Web Developer That Will Be A Perfect Match For Your Project?"
+                            layout="responsive"
+                          />
+                        </s.blogImage>
+                      </a>
+                    </Link>
+                    <s.blogCategory className="orangeColor">
+                      Development
+                    </s.blogCategory>
+                    <s.blogTitle className="postHeading">
+                      <Link href={router.SINGLEBLOG38}>
+                        <a>
+                          what is a hubspot certified developer and why should you hire one?
+                        </a>
+                      </Link>
+                    </s.blogTitle>
+                    <p>
+                      HubSpot is a distinctive and potent system. Even the most seasoned web developers must go through a learning curve. With the help of its CMS certification program, HubSpot certifies developers who possess the skills and knowledge necessary to create websites using the HubSpot CMS. Every year, a developer must retake the certification exam.
+                    </p>
+                    <Link href={router.SINGLEBLOG38}>
+                      <a className="blogLink">Let&#39;s Read</a>
+                    </Link>
+                    <div className="datePart">February 28, 2023</div>
+                  </s.blogItem>
+                  <s.blogItem className="blogItem development">
+                    <Link href={router.SINGLEBLOG39}>
+                      <a>
+                        <s.blogImage>
+                          <Image
+                            placeholder="blur"
+                            src={
+                              WhyHiringAnOffshoreNextJsDeveloperMayBeTheRightChoiceForYourProject
+                            }
+                            alt="Why Hiring an Offshore Next JS Developer May Be the Right Choice for Your Project"
+                            layout="responsive"
+                          />
+                        </s.blogImage>
+                      </a>
+                    </Link>
+                    <s.blogCategory className="orangeColor">
+                      Development
+                    </s.blogCategory>
+                    <s.blogTitle className="postHeading">
+                      <Link href={router.SINGLEBLOG39}>
+                        <a>
+                          Why Hiring an Offshore Next JS Developer May Be the Right Choice for Your Project
+                        </a>
+                      </Link>
+                    </s.blogTitle>
+                    <p>
+                      HubSpot is a distinctive and potent system. Even the most seasoned web developers must go through a learning curve. With the help of its CMS certification program, HubSpot certifies developers who possess the skills and knowledge necessary to create websites using the HubSpot CMS. Every year, a developer must retake the certification exam.
+                    </p>
+                    <Link href={router.SINGLEBLOG39}>
+                      <a className="blogLink">Let&#39;s Read</a>
+                    </Link>
+                    <div className="datePart">February 28, 2023</div>
                   </s.blogItem>
                 </s.BlogListWrapper>
               </Col>

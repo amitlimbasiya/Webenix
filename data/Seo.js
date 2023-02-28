@@ -756,6 +756,22 @@ export const data = {
     keyword:
       "Hire Web Developer, Hire A Web Developer, Hire Web Developers, Web Developer Hire, Web Developers for Hire, Best Way to Hire Web Developers,",
   },
+  singleblog38: {
+    title:
+      "",
+    description:
+      "",
+    keyword:
+      "",
+  },
+  singleblog39: {
+    title:
+      "",
+    description:
+      "",
+    keyword:
+      "",
+  },
   work: {
     title: "Our Portolio | Our Work | Webenix",
     description:
