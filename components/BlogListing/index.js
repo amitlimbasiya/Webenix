@@ -43,8 +43,8 @@ import HowtoHireRemoteDevelopersWebMobileAppDevelopment from "../../public/image
 import HireTheBestNextJsDeveloperForYourProjectYourUltimateGuide from "../../public/images/blogs/hire-the-best-next-js-developer-for-your-project-your-ultimate-guide.jpg";
 import WhatDoYouNeedToConsiderWhileHiringOffshoreDevelopers from "../../public/images/blogs/what-do-you-need-to-consider-while-hiring-offshore-developers.jpg";
 import HowToHireWebDeveloperThatWillBePerfectMatchForYourProject from "../../public/images/blogs/how-to-hire-a-web-developer-that-will-be-a-perfect-match-for-your-project.jpg";
-import WhatIsHubspotCertifiedDeveloperWhyShouldYouHireOne from "../../public/images/blogs/placeholder-blog.jpg";
-import WhyHiringAnOffshoreNextJsDeveloperMayBeTheRightChoiceForYourProject from "../../public/images/blogs/placeholder-blog.jpg";
+import WhatIsHubspotCertifiedDeveloperWhyShouldYouHireOne from "../../public/images/blogs/what-is-a-hubspot-certified-developer-and-why-should-you-hire-one.jpg";
+import WhyHiringAnOffshoreNextJsDeveloperMayBeTheRightChoiceForYourProject from "../../public/images/blogs/why-hiring-an-offshore-next-js-developer-may-be-the-right-choice-for-your-project.jpg";
 import router from "../../utils/router";
 
 var settings = {
