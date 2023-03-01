@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Col, Container, Row } from "react-bootstrap";
 import Blog from "../../components/Blog";
 import * as s from "../../styles/components/SingleBlog.style";
-import WhatIsHubspotCertifiedDeveloperWhyShouldYouHireOne from "../../public/images/blogs/placeholder-blog.jpg";
+import WhatIsHubspotCertifiedDeveloperWhyShouldYouHireOne from "../../public/images/blogs/why-hiring-an-offshore-next-js-developer-may-be-the-right-choice-for-your-project.jpg";
 import Head from "next/head";
 import { data } from "../../data/Seo";
 
