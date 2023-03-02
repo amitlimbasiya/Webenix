@@ -758,19 +758,19 @@ export const data = {
   },
   singleblog38: {
     title:
-      "",
+      "Why a HubSpot Certified Developer is Essential for Your Business's Success",
     description:
-      "",
+      "Discover the advantages of hiring a HubSpot certified developer for your business. From maximizing your HubSpot investment to strengthening your marketing strategy, a certified developer's expertise and experience can help take your business to the next level.",
     keyword:
-      "",
+      "Hire HubSpot Certified Developer",
   },
   singleblog39: {
     title:
-      "",
+      "The Benefits of Hiring an Offshore Next JS Developer for Your Business",
     description:
-      "",
+      "Explore the benefits of hiring an offshore Next JS developer for your project. From cost efficiency to global talent, discover how outsourcing your development needs can unlock your project's potential. ",
     keyword:
-      "",
+      "Hiring an Offshore Next JS Developer",
   },
   work: {
     title: "Our Portolio | Our Work | Webenix",
