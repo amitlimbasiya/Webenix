@@ -182,7 +182,7 @@ const BlogListings = (props) => {
                       </Link>
                     </s.blogTitle>
                     <p>
-                      HubSpot is a distinctive and potent system. Even the most seasoned web developers must go through a learning curve. With the help of its CMS certification program, HubSpot certifies developers who possess the skills and knowledge necessary to create websites using the HubSpot CMS. Every year, a developer must retake the certification exam.
+                      You've definitely heard about Node.js development if you're tech-savvy and keep up with the newest developments in the app industry. Without a question, this is the programming language that developers use the most. And, therefore several companies think of hiring an offshore Next JS developer.
                     </p>
                     <Link href={router.SINGLEBLOG39}>
                       <a className="blogLink">Let&#39;s Read</a>
