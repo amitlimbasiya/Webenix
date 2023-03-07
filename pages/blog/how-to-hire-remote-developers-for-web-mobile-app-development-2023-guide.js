@@ -30,7 +30,7 @@ const SingleBlog = () => {
                 How to Hire Remote Developers for Web & Mobile App Development
                 (2023 Guide)
               </h1>
-              <span className="blog-date">February 20, 2023</span>
+              <span className="blog-date">January 23, 2023</span>
             </Col>
             <Col lg={12} md={12} className="singleblog-banner-img">
               <Image

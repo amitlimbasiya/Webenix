@@ -23,7 +23,7 @@ const SingleBlog = () => {
               <Col lg={12} md={12} className="mb-5 mb-md-0 singleblog-banner-content">
                 <p className='blog-category orangeColor'>Marketing</p>
                 <h1 className='blog-title'>Top Predictions for Facebook Advertising in 2021</h1>
-                <span className='blog-date'>June 20, 2021</span>
+                <span className='blog-date'>July 20, 2021</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
                 <Image src={Topprediction} alt="Top Predictions for Facebook Advertising in 2021" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />

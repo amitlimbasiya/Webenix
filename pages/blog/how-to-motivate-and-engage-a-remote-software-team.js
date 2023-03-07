@@ -23,7 +23,7 @@ const SingleBlog = () => {
               <Col lg={12} md={12} className="mb-5 mb-md-0 singleblog-banner-content">
                 <p className='blog-category orangeColor'>Outsourcing</p>
                 <h1 className='blog-title'>How to motivate and engage a remote software team?</h1>
-                <span className='blog-date'>June 03, 2021</span>
+                <span className='blog-date'>June 07, 2021</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
                 <Image src={MotivateRemoteSoftwareTeam} alt="How to motivate and engage a remote software team?" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />

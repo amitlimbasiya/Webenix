@@ -29,7 +29,7 @@ const SingleBlog = () => {
               <h1 className="blog-title">
                 What Do You Need To Consider While Hiring Offshore Developers?
               </h1>
-              <span className="blog-date">February 20, 2023</span>
+              <span className="blog-date">February 06, 2023</span>
             </Col>
             <Col lg={12} md={12} className="singleblog-banner-img">
               <Image

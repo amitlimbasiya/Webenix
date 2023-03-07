@@ -562,9 +562,9 @@ export const data = {
       "Managed WordPress Hosting, Best Managed WordPress Hosting, Best WordPress Managed WordPress Hosting",
   },
   singleblog9: {
-    title: "How Will SEO Change in 2021?",
+    title: "How Will SEO Change in 2022?",
     description:
-      "Reference URL In the year 2021, you will observe a complete change in how online searches are carried out. Similarly.",
+      "Reference URL In the year 2022, you will observe a complete change in how online searches are carried out. Similarly.",
     keyword: "How Has SEO Changed, SEO Changes, Google SEO Change",
   },
   singleblog10: {

@@ -23,7 +23,7 @@ const SingleBlog = () => {
               <Col lg={12} md={12} className="mb-5 mb-md-0 singleblog-banner-content">
                 <p className='blog-category orangeColor'>Development</p>
                 <h1 className='blog-title'>A Complete Offshore Resource Hiring-E-Guide</h1>
-                <span className='blog-date'>October 13, 2022</span>
+                <span className='blog-date'>October 3, 2022</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
                 <Image src={CompleteOffshoreResourceHiring} alt="A Complete Offshore Resource Hiring-E-Guide" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />

@@ -30,7 +30,7 @@ const SingleBlog = () => {
                 Choose Dedicated Team Model to Build Next Gen Product (CTO
                 Guide)
               </h1>
-              <span className="blog-date">February 1, 2023</span>
+              <span className="blog-date">January 02, 2023</span>
             </Col>
             <Col lg={12} md={12} className="singleblog-banner-img">
               <Image

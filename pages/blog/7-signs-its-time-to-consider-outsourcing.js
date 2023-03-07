@@ -23,7 +23,7 @@ const SingleBlog = () => {
               <Col lg={12} md={12} className="mb-5 mb-md-0 singleblog-banner-content">
                 <p className='blog-category orangeColor'>Outsourcing</p>
                 <h1 className='blog-title'>7 Signs to consider the right Time To Consider Outsourcing for your Business</h1>
-                <span className='blog-date'>September 08, 2020</span>
+                <span className='blog-date'>September 14, 2020</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
                 <Image src={TimeConsiderOutsourcing} alt="7 Signs to consider the right Time To Consider Outsourcing for your Business" className='imgwith-boxshadow' layout="raw" placeholder='blur' quality='100'/>
