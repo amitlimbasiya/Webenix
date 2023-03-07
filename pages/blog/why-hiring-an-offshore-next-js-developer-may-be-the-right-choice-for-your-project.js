@@ -29,7 +29,7 @@ const SingleBlog = () => {
               <h1 className="blog-title">
                 Why Hiring an Offshore Next JS Developer May Be the Right Choice for Your Project
               </h1>
-              <span className="blog-date">February 28, 2023</span>
+              <span className="blog-date">February 27, 2023</span>
             </Col>
             <Col lg={12} md={12} className="singleblog-banner-img">
               <Image
