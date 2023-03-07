@@ -23,7 +23,7 @@ const SingleBlog = () => {
               <Col lg={12} md={12} className="mb-5 mb-md-0 singleblog-banner-content">
                 <p className='blog-category orangeColor'>Development</p>
                 <h1 className='blog-title'>Top 10 Mobile App Development Trends in 2022</h1>
-                <span className='blog-date'>October 13, 2022</span>
+                <span className='blog-date'>October 17, 2022</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
                 <Image src={TopMobileAppDevTrend} alt="Top 10 Mobile App Development Trends in 2022" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />

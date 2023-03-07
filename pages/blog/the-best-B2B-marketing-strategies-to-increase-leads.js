@@ -23,7 +23,7 @@ const SingleBlog = () => {
               <Col lg={12} md={12} className="mb-5 mb-md-0 singleblog-banner-content">
                 <p className='blog-category orangeColor'>Marketing</p>
                 <h1 className='blog-title'>Increase lead generation through best B2B Marketing Strategies that you need to know</h1>
-                <span className='blog-date'>June 14, 2021</span>
+                <span className='blog-date'>July 14, 2021</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
                 <Image src={Bestb2b} alt="Increase lead generation through best B2B Marketing Strategies that you need to know" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />

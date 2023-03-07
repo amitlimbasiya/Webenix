@@ -23,7 +23,7 @@ const SingleBlog = () => {
               <Col lg={12} md={12} className="mb-5 mb-md-0 singleblog-banner-content">
                 <p className='blog-category orangeColor'>SEO</p>
                 <h1 className='blog-title'>Know how to conquer Top Advanced SEO techniques to increase the interaction in your website</h1>
-                <span className='blog-date'>June 15, 2021</span>
+                <span className='blog-date'>July 15, 2021</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
                 <Image src={TopAdvcanced} alt="Know how to conquer Top Advanced SEO techniques to increase the interaction in your website" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />

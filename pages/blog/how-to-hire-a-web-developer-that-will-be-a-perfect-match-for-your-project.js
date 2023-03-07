@@ -29,7 +29,7 @@ const SingleBlog = () => {
               <h1 className="blog-title">
                 How To Hire A Web Developer That Will Be A Perfect Match For Your Project?
               </h1>
-              <span className="blog-date">February 20, 2023</span>
+              <span className="blog-date">February 13, 2023</span>
             </Col>
             <Col lg={12} md={12} className="singleblog-banner-img">
               <Image

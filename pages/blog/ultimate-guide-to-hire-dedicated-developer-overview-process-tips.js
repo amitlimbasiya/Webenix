@@ -30,7 +30,7 @@ const SingleBlog = () => {
                 Ultimate Guide to Hire Dedicated Developer: Overview, Process,
                 Tips
               </h1>
-              <span className="blog-date">February 13, 2023</span>
+              <span className="blog-date">January 16, 2023</span>
             </Col>
             <Col lg={12} md={12} className="singleblog-banner-img">
               <Image

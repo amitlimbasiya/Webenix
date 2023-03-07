@@ -23,7 +23,7 @@ const SingleBlog = () => {
               <Col lg={12} md={12} className="mb-5 mb-md-0 singleblog-banner-content">
                 <p className='blog-category orangeColor'>Outsourcing</p>
                 <h1 className='blog-title'>A comparison between fixed price and time and material contract</h1>
-                <span className='blog-date'>September 22, 2020</span>
+                <span className='blog-date'>September 21, 2020</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
                 <Image src={ComparisonBetweenFixedPrice} alt="A comparison between fixed price and time and material contract" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100'/>

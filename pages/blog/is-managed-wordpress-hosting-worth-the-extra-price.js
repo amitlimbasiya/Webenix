@@ -23,7 +23,7 @@ const SingleBlog = () => {
               <Col lg={12} md={12} className="mb-5 mb-md-0 singleblog-banner-content">
                 <p className='blog-category orangeColor'>WordPress</p>
                 <h1 className='blog-title'>Is WordPress Hosting Worth the Extra price? </h1>
-                <span className='blog-date'>June 10, 2021</span>
+                <span className='blog-date'>June 21, 2021</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
                 <Image src={ManagedWP} alt="Is managed WordPress hosting worth the extra price?" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />

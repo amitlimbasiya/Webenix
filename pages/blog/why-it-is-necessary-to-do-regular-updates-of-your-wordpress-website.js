@@ -23,7 +23,7 @@ const SingleBlog = () => {
               <Col lg={12} md={12} className="mb-5 mb-md-0 singleblog-banner-content">
                 <p className='blog-category orangeColor'>WordPress</p>
                 <h1 className='blog-title'>Why Updating WordPress Website mandatory?</h1>
-                <span className='blog-date'>August 13, 2021</span>
+                <span className='blog-date'>August 16, 2021</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
                 <Image src={WhyWPWebsite} alt="Why Updating WordPress Website mandatory?" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />

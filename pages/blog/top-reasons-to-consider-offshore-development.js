@@ -23,7 +23,7 @@ const SingleBlog = () => {
               <Col lg={12} md={12} className="mb-5 mb-md-0 singleblog-banner-content">
                 <p className='blog-category orangeColor'>Outsourcing</p>
                 <h1 className='blog-title'>Top-5 reasons to look for Offshore Development in the Business</h1>
-                <span className='blog-date'>September 01, 2020</span>
+                <span className='blog-date'>September 07, 2020</span>
               </Col>
               <Col lg={12} md={12} className="singleblog-banner-img">
                 <Image src={TopResonsOffshireDevelopment} alt="Top-5 reasons to look for Offshore Development in the Business" className='imgwith-boxshadow' layout="raw"  placeholder='blur' quality='100' />

@@ -90,7 +90,7 @@ const router = {
   SINGLEBLOG6: "/blog/the-best-B2B-marketing-strategies-to-increase-leads",
   SINGLEBLOG7: "/blog/linkedIn-marketing-best-strategies-for-2021",
   SINGLEBLOG8: "/blog/is-managed-wordpress-hosting-worth-the-extra-price",
-  SINGLEBLOG9: "/blog/how-will-seo-change-in-2021",
+  SINGLEBLOG9: "/blog/how-will-seo-change-in-2022",
   SINGLEBLOG10: "/blog/how-web-agencies-can-reduce-production-cost-in-2021",
   SINGLEBLOG11: "/blog/how-to-motivate-and-engage-a-remote-software-team",
   SINGLEBLOG12: "/blog/how-to-avoid-cultural-pitfalls-in-outsourcing",

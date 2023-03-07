@@ -29,7 +29,7 @@ const SingleBlog = () => {
               <h1 className="blog-title">
                 Checklist for Hiring Offshore Development Team for Your Startup
               </h1>
-              <span className="blog-date">February 6, 2023</span>
+              <span className="blog-date">January 09, 2023</span>
             </Col>
             <Col lg={12} md={12} className="singleblog-banner-img">
               <Image
