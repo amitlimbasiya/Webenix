@@ -112,7 +112,7 @@ const BlogListings = (props) => {
                     alt="Top-5 reasons to look for Offshore Development in the Business"
                     layout="responsive"
                   />
-                  <div className="datePart">SEPTEMBER 01, 2020</div>
+                  <div className="datePart">SEPTEMBER 07, 2020</div>
                 </s.blogImage>
               </a>
             </Link>
@@ -135,7 +135,7 @@ const BlogListings = (props) => {
                     alt="A comparison between fixed price and time and material contract"
                     layout="responsive"
                   />
-                  <div className="datePart">SEPTEMBER 22, 2020</div>
+                  <div className="datePart">SEPTEMBER 21, 2020</div>
                 </s.blogImage>
               </a>
             </Link>
