@@ -80,14 +80,22 @@ const ContactForm = () => {
         var contact_url = e.target.elements.contact_url.value;
         var contact_phone = e.target.elements.contact_phone.value;
         var message = e.target.elements.message.value;
+        var headers = {
+            From : 'info@webenix.net',
+            To : 'amit@webenix.net',
+            Subject : "Contact request from Contact form",
+            'Content-Type': 'text/html; charset=utf-8',
+            CC: 'kapil@webenix.net' // Add CC email here
+        };
         Email.send({
             Host : "smtp.elasticemail.com",
             Username : "mitp@webenix.net",
             Password : "3B7A3D10543A6F3B956EC43D4AA7AF7BAE15",
-            To : 'amit@webenix.net',
-            CC : 'kapil@webenix.net',
-            From : 'info@webenix.net',
-            Subject : "Contact request from Contect form",
+            //To : 'amit@webenix.net',
+            //CC : 'kapil@webenix.net',
+            //From : 'info@webenix.net',
+            //Subject : "Contact request from Contect form",
+            Headers : headers,
             Body : '<table width="640" align="left" border="1"><tr><td>Name</td><td>'+contact_fname+'</td></tr><tr><td>Email</td><td>'+contact_email+'</td></tr><tr><td>Website</td><td>'+contact_url+'</td></tr><tr><td>Contact</td><td>'+contact_phone+'</td></tr><tr><td>About Project</td><td style="width:50%">'+message+'</td></tr></table>'
             
         }).then(
