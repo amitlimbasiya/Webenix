@@ -1,37 +1,37 @@
-import React from "react";
-import { useEffect, useState } from "react";
-import Link from "next/link";
-import Image from "next/image";
-import router from "../../utils/router";
-import { Container, Row, Col, Button, Form } from "react-bootstrap";
-import Modal from "react-bootstrap/Modal";
-import * as s from "../../styles/components/blog.style";
-import WaysUEISABSER from "../../public/images/blogs/The-ways-to-utilize-an-effective-outsourcing-strategy-and-achieve-business-success-by-eliminating-the-risks.jpg";
-import TopResonsOffshireDevelopment from "../../public/images/blogs/Top-Reasons-to-consider-offshore-development.jpg";
-import ComparisonBetweenFixedPrice from "../../public/images/blogs/A-comparison-between-fixed-price-and-time-and-material-contract.jpg";
-import { useForm } from "react-hook-form";
-import emailjs from "emailjs-com";
-import validator from "validator";
-import Recaptcha from "react-google-recaptcha";
-import PhoneInput from "react-phone-number-input";
-import "react-phone-number-input/style.css";
-const RECAPTCHA_KEY = "6LfNM8shAAAAAGQP99s9wq-xAhNjOCVTZxKCfYLa";
+import React from 'react';
+import { useEffect, useState } from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
+import router from '../../utils/router';
+import { Container, Row, Col, Button, Form } from 'react-bootstrap';
+import Modal from 'react-bootstrap/Modal';
+import * as s from '../../styles/components/blog.style';
+import WaysUEISABSER from '../../public/images/blogs/The-ways-to-utilize-an-effective-outsourcing-strategy-and-achieve-business-success-by-eliminating-the-risks.jpg';
+import TopResonsOffshireDevelopment from '../../public/images/blogs/Top-Reasons-to-consider-offshore-development.jpg';
+import ComparisonBetweenFixedPrice from '../../public/images/blogs/A-comparison-between-fixed-price-and-time-and-material-contract.jpg';
+import { useForm } from 'react-hook-form';
+import emailjs from 'emailjs-com';
+import validator from 'validator';
+import Recaptcha from 'react-google-recaptcha';
+import PhoneInput from 'react-phone-number-input';
+import 'react-phone-number-input/style.css';
+const RECAPTCHA_KEY = '6LdpdpYsAAAAAN90D-193DCJmxOOQRpqu6OJXy6a';
 
 const Blog = () => {
   const { control, register, setValue, handleSubmit, watch, errors, reset } =
     useForm();
   const recaptchaRef = React.createRef();
 
-  const [fname, setcontact_fname] = useState("");
-  const [url, setcontact_url] = useState("");
-  const [email, setcontact_email] = useState("");
-  const [phone, setcontact_phone] = useState("");
-  const [textarea, setcontact_textarea] = useState("");
-  const [statusMessage, setStatusMessage] = useState("");
+  const [fname, setcontact_fname] = useState('');
+  const [url, setcontact_url] = useState('');
+  const [email, setcontact_email] = useState('');
+  const [phone, setcontact_phone] = useState('');
+  const [textarea, setcontact_textarea] = useState('');
+  const [statusMessage, setStatusMessage] = useState('');
   const [buttonDisabled, setButtonDisabled] = React.useState(true);
-  const [errorMessage, setErrorMessage] = useState("");
-  const [recaptcha, setcontact_recaptcha] = useState("");
-  const [recaptchaError, recaptchaerrorFunction] = useState("display:none;");
+  const [errorMessage, setErrorMessage] = useState('');
+  const [recaptcha, setcontact_recaptcha] = useState('');
+  const [recaptchaError, recaptchaerrorFunction] = useState('display:none;');
   const handleChange = (event) => {
     setcontact_fname(event.target.value);
   };
@@ -57,35 +57,35 @@ const Blog = () => {
 
   // Method
   const handleChangeCaptcha = (value) => {
-    console.log("Captcha value:", value);
+    console.log('Captcha value:', value);
     // this.setState({ value });
     // if value is null recaptcha expired
     setIsCaptch(value || false);
-    recaptchaerrorFunction("display:none");
+    recaptchaerrorFunction('display:none');
   };
 
   const validate = (value) => {
     if (validator.isURL(value)) {
-      setErrorMessage("Is Valid URL");
+      setErrorMessage('Is Valid URL');
     } else {
-      setErrorMessage("Is Not Valid URL");
+      setErrorMessage('Is Not Valid URL');
     }
   };
 
   function sendEmail(e) {
-    console.log("test");
+    console.log('test');
     e.preventDefault();
     if (!isCaptch) {
-      recaptchaerrorFunction("display:block");
+      recaptchaerrorFunction('display:block');
       return false;
     }
 
     emailjs
       .sendForm(
-        "service_3ucsloc",
-        "template_z3stw7g",
+        'service_3ucsloc',
+        'template_z3stw7g',
         e.target,
-        "3i8vNYueSpinK0hpA"
+        '3i8vNYueSpinK0hpA',
       )
       .then(
         (result) => {
@@ -93,18 +93,18 @@ const Blog = () => {
         },
         (error) => {
           console.log(error.text);
-        }
+        },
       );
 
     setTimeout(() => {
-      setcontact_fname("");
-      setcontact_url("");
-      setcontact_email("");
-      setcontact_phone("");
-      setcontact_textarea("");
-      setcontact_recaptcha("");
+      setcontact_fname('');
+      setcontact_url('');
+      setcontact_email('');
+      setcontact_phone('');
+      setcontact_textarea('');
+      setcontact_recaptcha('');
       setIsCaptch(false);
-      setStatusMessage("Form submitted successfully.");
+      setStatusMessage('Form submitted successfully.');
     }, 1000);
   }
   function ContactFormModal(props) {
