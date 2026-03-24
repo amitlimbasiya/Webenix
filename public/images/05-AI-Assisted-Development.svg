@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 356" role="img" aria-label="AI-assisted development illustration">
+  <defs>
+    <linearGradient id="aiBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8F7EE"/>
+      <stop offset="100%" stop-color="#E8E8FF"/>
+    </linearGradient>
+    <linearGradient id="aiAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#67c187"/>
+      <stop offset="100%" stop-color="#3f3f8c"/>
+    </linearGradient>
+  </defs>
+  <rect width="583" height="356" rx="24" fill="url(#aiBg)"/>
+  <rect x="72" y="64" width="440" height="228" rx="20" fill="#ffffff" stroke="#67c187" stroke-width="3" opacity="0.95"/>
+  <path d="M120 120h200M120 152h320M120 184h260" stroke="#c8c8e0" stroke-width="8" stroke-linecap="round"/>
+  <rect x="110" y="232" width="120" height="36" rx="8" fill="url(#aiAccent)" opacity="0.9"/>
+  <text x="170" y="256" font-family="Montserrat, Arial, sans-serif" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">AI / CODE</text>
+  <circle cx="448" cy="118" r="36" fill="#67c187" opacity="0.2"/>
+  <path d="M432 118 L444 130 L468 106" fill="none" stroke="#67c187" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="460" cy="210" r="6" fill="#3f3f8c" opacity="0.45"/>
+  <circle cx="484" cy="186" r="5" fill="#67c187" opacity="0.55"/>
+  <circle cx="472" cy="234" r="5" fill="#3f3f8c" opacity="0.4"/>
+  <path d="M380 88 L388 104 L404 96 Z" fill="#67c187" opacity="0.75"/>
+  <path d="M395 74 L400 88 L414 80 Z" fill="#3f3f8c" opacity="0.4"/>
+</svg>

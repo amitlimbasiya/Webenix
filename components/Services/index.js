@@ -7,6 +7,7 @@ import DesignImg from '../../public/images/01-Design.svg';
 import WebDevelopmentImg from '../../public/images/02-Web-Development.svg';
 import MobileAppDevelopmentImg from '../../public/images/03-Mobile-App-development.svg';
 import DigitalMarketingImg from '../../public/images/04-Digital-Marketing.svg';
+import AiAssistedDevelopmentImg from '../../public/images/05-AI-Assisted-Development.svg';
 import graphicsDesignIcon from '../../public/images/f-Graphics-Design.svg';
 import webDesignIcon from '../../public/images/f-Web-Design.svg';
 import flutterIcon from '../../public/images/f-Flutter-Icon.svg';
@@ -23,6 +24,10 @@ import smoIcon from '../../public/images/f-SMO.svg';
 import seoIcon from '../../public/images/f-SEO.svg';
 import ppcIcon from '../../public/images/f-PPC.svg';
 import CMSDevIcon from '../../public/images/f-CMS-Development.svg';
+import aiWordpressIcon from '../../public/images/f-wordpress-icon.svg';
+import aiPluginDevIcon from '../../public/images/f-WordPress-Plugin-Development.svg';
+import aiWebAppIcon from '../../public/images/f-progressive-web-app-development-icon.svg';
+import aiChatbotIcon from '../../public/images/f-AI-Chatbot-Icon.svg';
 import router from "../../utils/router";
 
 const Services = () => {
@@ -183,6 +188,43 @@ const Services = () => {
                                     </li>
                                 </ul>
                             </s.serviceLinks>                           
+                        </Col>
+                    </Row>
+                </Container>
+            </s.serviceItem>
+            <s.serviceItem className="serviceItem bottom right aiAssistedDevelopmentServices">
+                <Container>
+                    <Row className='align-items-center'>
+                        <Col md={6} sm={12} className='leftPart'>
+                            <s.titlePart>AI assisted <br/>Development</s.titlePart>
+                            <s.desc>We combine senior engineers with AI-assisted workflows to deliver WordPress experiences, WooCommerce and headless eCommerce, custom plugins, and scalable web applications faster—with reviews, testing, and security practices baked in. Intelligent tooling supports scaffolding, refactoring, and documentation so your roadmap stays predictable without cutting corners on quality.</s.desc>
+                            <s.serviceLinks className="serviceLinks">
+                                <ul>
+                                    <li>
+                                        <Link href={router.WORDPRESSDEVELOPMENT}>
+                                            <a><Image src={aiWordpressIcon} alt="AI WordPress Development Icon" className='img-fluid' layout='raw'/> AI WordPress Development</a>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link href={router.WORDPRESSDEVELOPMENT}>
+                                            <a><Image src={aiPluginDevIcon} alt="AI Plugin Development Icon" className='img-fluid' layout='raw'/> AI Plugin Development</a>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link href={router.WEBDEVELOPMENT}>
+                                            <a><Image src={aiWebAppIcon} alt="AI Web Application Development Icon" className='img-fluid' layout='raw'/> AI Web Application Development</a>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link href="#">
+                                            <a><Image src={aiChatbotIcon} alt="AI Chatbot Development Icon" className='img-fluid' layout='raw'/> AI Chatbot Development</a>
+                                        </Link>
+                                    </li>
+                                </ul>
+                            </s.serviceLinks>                           
+                        </Col>
+                        <Col className='rightPart pr'>
+                            <Image src={AiAssistedDevelopmentImg} alt="AI assisted development" className='img-fluid' layout="responsive" />
                         </Col>
                     </Row>
                 </Container>

@@ -252,6 +252,21 @@ export const serviceItem  = styled.div`
             `}
         }
     }
+    &.aiAssistedDevelopmentServices{
+        &:before{
+            background: rgb(103, 193, 135);
+            background: -moz-linear-gradient( 90deg, rgba(103, 193, 135, 0.85) 0%, rgba(232, 232, 255, 0.95) 100%);
+            background: -webkit-linear-gradient( 90deg, rgba(103, 193, 135, 0.85) 0%, rgba(232, 232, 255, 0.95) 100%);
+            background: linear-gradient( 90deg, rgba(103, 193, 135, 0.85) 0%, rgba(232, 232, 255, 0.95) 100%);
+
+            ${mediaQueries("mobile")`  
+                background: rgb(103, 193, 135);
+                background: -moz-linear-gradient( 0deg, rgba(103, 193, 135, 0.35) 0%, rgba(232, 232, 255, 0.15) 100%);
+                background: -webkit-linear-gradient( 0deg, rgba(103, 193, 135, 0.35) 0%, rgba(232, 232, 255, 0.15) 100%);
+                background: linear-gradient( 0deg, rgba(103, 193, 135, 0.35) 0%, rgba(232, 232, 255, 0.15) 100%);
+            `}
+        }
+    }
     &.bottom:before{
         top: auto;
         bottom: 0;
